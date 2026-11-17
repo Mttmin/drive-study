@@ -50,8 +50,11 @@ jobs:
             git fetch --depth=1 origin audio
             rm -rf dist/audio
             git archive origin/audio audio | tar -C dist -x
-          else
-            echo "No audio branch yet. Publishing the stub manifest."
+          fi
+          if [ ! -f dist/audio/manifest.json ]; then
+            mkdir -p dist/audio
+            cp audio/manifest.json dist/audio/manifest.json
+            echo "Published the stub manifest."
           fi
       # drive-study-audio-overlay-end
 
