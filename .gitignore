@@ -18,3 +18,4 @@ tools/tts/bin
 build/
 .audio-worktree/
 target/
+content/index.json

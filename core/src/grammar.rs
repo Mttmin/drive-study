@@ -19,6 +19,9 @@ pub enum VoiceCommand {
 pub struct ParseOptions {
     pub choice_keys: Vec<String>,
     pub allow_know: bool,
+    /// When a true/false item uses A/B, "true" maps here instead of the letter T.
+    pub true_key: Option<String>,
+    pub false_key: Option<String>,
 }
 
 impl Default for ParseOptions {
@@ -26,6 +29,8 @@ impl Default for ParseOptions {
         Self {
             choice_keys: vec!["A".into(), "B".into(), "C".into(), "D".into()],
             allow_know: false,
+            true_key: None,
+            false_key: None,
         }
     }
 }
@@ -72,16 +77,13 @@ pub fn parse_voice(transcript: &str, options: &ParseOptions) -> VoiceCommand {
     if options.allow_know && contains_phrase(&words, know_phrases()) {
         return VoiceCommand::Know;
     }
-    if let Some(key) = answer_from_patterns(&words, &allowed) {
+    if let Some(key) = answer_from_patterns(&words, &allowed, options) {
         return VoiceCommand::Answer(key);
     }
-    let strong = strong_map();
     let mut last = None;
     for word in &words {
-        if let Some(key) = strong.get(word.as_str()) {
-            if allowed.contains(key) {
-                last = Some((*key).to_string());
-            }
+        if let Some(key) = mapped_answer(word, options, &allowed) {
+            last = Some(key);
         }
     }
     if let Some(key) = last {
@@ -103,7 +105,25 @@ pub fn parse_voice(transcript: &str, options: &ParseOptions) -> VoiceCommand {
     VoiceCommand::Unrecognized
 }
 
-fn answer_from_patterns(words: &[String], allowed: &HashSet<&str>) -> Option<String> {
+fn mapped_answer(word: &str, options: &ParseOptions, allowed: &HashSet<&str>) -> Option<String> {
+    if word == "true" {
+        if let Some(key) = &options.true_key {
+            if allowed.contains(key.as_str()) {
+                return Some(key.clone());
+            }
+        }
+    }
+    if word == "false" {
+        if let Some(key) = &options.false_key {
+            if allowed.contains(key.as_str()) {
+                return Some(key.clone());
+            }
+        }
+    }
+    strong_map().get(word).copied().filter(|key| allowed.contains(key)).map(|key| key.to_string())
+}
+
+fn answer_from_patterns(words: &[String], allowed: &HashSet<&str>, options: &ParseOptions) -> Option<String> {
     let text = words.join(" ");
     let lead = "(?:answer|option|letter|choice)";
     let token = "(a|b|c|d|t|f|ay|eh|be|bee|see|sea|cee|dee|alpha|alfa|bravo|charlie|charley|delta|true|false)";
@@ -111,18 +131,16 @@ fn answer_from_patterns(words: &[String], allowed: &HashSet<&str>) -> Option<Str
         format!("^(?:the\\s+)?{lead}\\s+(?:is\\s+)?{token}$"),
         format!("{lead}\\s+is\\s+{token}$"),
     ];
-    let strong = strong_map();
     let weak = weak_map();
     let letter = letter_map();
     for pattern in patterns {
         let re = Regex::new(&pattern).expect("grammar regex");
         if let Some(caps) = re.captures(&text) {
             let token = caps.get(1).map(|m| m.as_str()).unwrap_or("");
-            let key = strong
-                .get(token)
-                .or_else(|| weak.get(token))
-                .or_else(|| letter.get(token))
-                .copied();
+            if let Some(key) = mapped_answer(token, options, allowed) {
+                return Some(key);
+            }
+            let key = weak.get(token).or_else(|| letter.get(token)).copied();
             if let Some(key) = key {
                 if allowed.contains(key) {
                     return Some(key.to_string());
@@ -254,6 +272,8 @@ mod tests {
         ParseOptions {
             choice_keys: vec!["T".into(), "F".into()],
             allow_know: false,
+            true_key: None,
+            false_key: None,
         }
     }
 
@@ -276,6 +296,15 @@ mod tests {
         assert_eq!(parse_voice("true", &tf()), VoiceCommand::Answer("T".into()));
         assert_eq!(parse_voice("false", &tf()), VoiceCommand::Answer("F".into()));
         assert_eq!(parse_voice("true", &mc()), VoiceCommand::Unrecognized);
+        let ab = ParseOptions {
+            choice_keys: vec!["A".into(), "B".into()],
+            true_key: Some("A".into()),
+            false_key: Some("B".into()),
+            ..ParseOptions::default()
+        };
+        assert_eq!(parse_voice("true", &ab), VoiceCommand::Answer("A".into()));
+        assert_eq!(parse_voice("false", &ab), VoiceCommand::Answer("B".into()));
+        assert_eq!(parse_voice("the answer is false", &ab), VoiceCommand::Answer("B".into()));
     }
 
     #[test]

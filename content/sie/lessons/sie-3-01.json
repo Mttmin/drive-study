@@ -1,0 +1,90 @@
+{
+  "id": "sie-3-01",
+  "exam": "SIE",
+  "section": "SIE-3",
+  "section_title": "Understanding Trading, Customer Accounts and Prohibited Activities",
+  "title": "Order Types, Trade Capacity and Market Sentiment",
+  "order": 1,
+  "est_minutes": 6,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Section three of the SIE is about thirty-one percent of the exam, and it starts with how trades actually get entered. In this lesson we'll cover the basic order types, market, limit and stop, plus where each one sits relative to the current price, who uses them, and the difference between a firm acting as agent or as principal. These come back constantly on the Series 7, so build the picture carefully."
+    },
+    {
+      "type": "narration",
+      "text": "Start with the bid and the ask. The bid is the highest price someone is willing to pay right now; the ask, or offer, is the lowest price someone is willing to sell at. A customer buying at the market pays the ask; a customer selling at the market receives the bid. The difference is the spread. A market order says: fill me now at the best available price. It guarantees execution, but not price. In a fast-moving or thinly traded stock, the fill price can surprise you."
+    },
+    {
+      "type": "narration",
+      "text": "A limit order flips that trade-off. It guarantees the price or better, but not execution. A buy limit at forty says: buy at forty or lower. A sell limit at thirty-two says: sell at thirty-two or higher. For a buyer better means lower; for a seller better means higher. Buy limits are normally placed below the current market, because you're hoping to get in cheaper. Sell limits are placed above the market, because you're hoping to get out higher. If the stock never reaches your limit, nothing happens. A limit order never turns into a market order."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0066"
+    },
+    {
+      "type": "narration",
+      "text": "A stop order is a trigger. It sits dormant until the stock trades at or through the stop price. Then it becomes a market order. Because it becomes a market order, the actual fill can be worse than the stop price. Here's the placement rule that trips people up: buy stops go above the market, and sell stops go below. Think about who uses them. Someone who owns stock, a long position, fears a fall. So they place a sell stop below the current price to get out if it drops. That's the classic stop-loss. Someone who sold short fears a rise, because a short seller has to buy the stock back later, and the higher it goes, the more it costs. So the short seller places a buy stop above the market. If the stock climbs to that level, the buy stop triggers and covers the short, capping the loss. Traders also use buy stops to jump in on a breakout above a resistance level."
+    },
+    {
+      "type": "narration",
+      "text": "You can combine the two. A stop limit order uses the stop price as a trigger, but when triggered it becomes a limit order, not a market order. That protects the price but risks not getting filled at all if the stock gaps through the limit."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0065"
+    },
+    {
+      "type": "narration",
+      "text": "Orders also have time instructions. A day order expires at the end of the trading session if it isn't filled; that's the default. Good-till-canceled, G T C, stays open until it's filled or the customer cancels it, though firms typically set their own expiration policies. And you'll see the labels solicited and unsolicited. Solicited means the rep recommended the trade, which brings suitability and best-interest obligations into play. Unsolicited means the customer came up with it, and the ticket should be marked that way. Discretionary orders, where the rep picks the security, whether to buy or sell, or the amount, need prior written authorization, which we'll cover with accounts."
+    },
+    {
+      "type": "narration",
+      "text": "Next, trade capacity: in what role is the firm acting? When a firm acts as agent, it's a broker. It finds the other side of the trade for the customer in the market and charges a commission, and it never owns the security. When a firm acts as principal, it's a dealer. It buys from or sells to the customer out of its own inventory and earns a markup when selling to the customer, or a markdown when buying from them. On any single trade a firm can't be both, and it must disclose its capacity on the confirmation. Remember the pairs: broker, agent, commission. Dealer, principal, markup or markdown."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0067"
+    },
+    {
+      "type": "narration",
+      "text": "Last, sentiment. Bullish means you expect prices to rise; bearish means you expect them to fall. Long means you own it, and long stock is bullish. Short means you sold something you didn't own, and short stock is bearish. A short seller's risk is theoretically unlimited because there's no ceiling on price. Covered means you hold an offsetting position, like owning the shares behind a call you wrote. Naked, or uncovered, means you don't."
+    },
+    {
+      "type": "narration",
+      "text": "Let's summarize. Market orders guarantee execution, not price. Limit orders guarantee price or better, not execution. Buy limits sit below the market and sell limits sit above it. Stop orders are triggers that become market orders: buy stops above the market, often protecting a short, and sell stops below it, protecting a long. Stop limits become limit orders. Day orders expire at the close, and G T C orders stay open. Agents charge commissions, principals charge markups and markdowns, never both on the same trade. Long is bullish, short is bearish, and a naked short has unlimited risk."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Market order",
+      "definition": "Executes immediately at the best available price; guarantees execution, not price."
+    },
+    {
+      "term": "Limit order",
+      "definition": "Executes only at the limit price or better; guarantees price, not execution."
+    },
+    {
+      "term": "Stop order",
+      "definition": "Becomes a market order once the stop price is reached. Buy stops go above the market; sell stops go below."
+    },
+    {
+      "term": "Stop limit order",
+      "definition": "Becomes a limit order once triggered."
+    },
+    {
+      "term": "Agent (broker)",
+      "definition": "Arranges a trade between the customer and another party for a commission."
+    },
+    {
+      "term": "Principal (dealer)",
+      "definition": "Trades with the customer from its own inventory, charging a markup or markdown."
+    }
+  ],
+  "mnemonics": [
+    "BLiSS: Buy Limit and Sell Stop go below the market. The other two, buy stop and sell limit, go above.",
+    "Agent gets a commission; principal gets a markup. Never both on one trade."
+  ],
+  "summary": "Market orders trade now at the best price. Limit orders set a price or better and may not fill. Stop orders trigger into market orders. Buy limits and sell stops sit below the market, and buy stops and sell limits sit above. Sell stops protect longs, and buy stops protect shorts. Stop limits trigger into limit orders. Day orders expire at the close, while GTC orders stay open. A firm acts as agent for a commission or as principal for a markup or markdown, never both on the same trade."
+}

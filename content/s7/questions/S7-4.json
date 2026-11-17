@@ -1,66 +1,727 @@
 [
-  {
-    "id": "s7-q-0014",
-    "exam": "S7",
-    "section": "S7-4",
-    "topic": "settlement",
-    "difficulty": 1,
-    "type": "mc",
-    "sample": true,
-    "stem": "Regular-way settlement for a corporate stock trade in the United States is:",
-    "choices": [
-      { "key": "A", "text": "The same day, under a cash agreement" },
-      { "key": "B", "text": "One business day after the trade date" },
-      { "key": "C", "text": "Two business days after the trade date" },
-      { "key": "D", "text": "Three business days after the trade date" }
-    ],
-    "answer": "B",
-    "spoken_stem": "Regular-way settlement for a corporate stock trade in the United States is which of the following?",
-    "explanation": "Since May 28, 2024, SEC Rule 15c6-1 requires most broker-dealer trades in stocks and several other securities to settle one business day after the trade date, T+1. Same-day cash settlement is a special agreement, not regular way. T+2 is the prior cycle. T+3 is older still.",
-    "spoken_explanation": "The answer is B. Regular-way settlement is one business day after the trade date, called T plus one. That has been the standard since May 28, 2024. Same-day settlement is a cash trade, and it has to be agreed. It is not regular way. Two business days was the old cycle. Three business days is older than that.",
-    "tags": ["sample", "settlement"],
-    "outline_ref": "Series 7 Function 4"
-  },
-  {
-    "id": "s7-q-0015",
-    "exam": "S7",
-    "section": "S7-4",
-    "topic": "orders",
-    "difficulty": 1,
-    "type": "tf",
-    "sample": true,
-    "stem": "A buy limit order may be executed at a price above the limit price.",
-    "choices": [
-      { "key": "T", "text": "True" },
-      { "key": "F", "text": "False" }
-    ],
-    "answer": "F",
-    "spoken_stem": "True or false. A buy limit order may be executed at a price above the limit price.",
-    "explanation": "False. A buy limit is an order to buy at the limit price or lower. A fill above the limit would violate the instruction. The order may not fill at all. A market order, not a limit order, can pay a higher price. A buy stop can lead to a fill above the stop price because it becomes a market order.",
-    "spoken_explanation": "The answer is false. A buy limit order may be executed at the limit price or lower. It may not be executed above the limit. It also may not be executed at all, if the market never trades there. A market order is the one that can pay a higher price. A buy stop can also fill above the stop, because a stop becomes a market order once it triggers.",
-    "tags": ["sample", "orders"],
-    "outline_ref": "Series 7 Function 4"
-  },
-  {
-    "id": "s7-q-0016",
-    "exam": "S7",
-    "section": "S7-4",
-    "topic": "confirmations",
-    "difficulty": 2,
-    "type": "mc",
-    "sample": true,
-    "stem": "A written confirmation of a customer's equity trade must include which of the following?",
-    "choices": [
-      { "key": "A", "text": "The price and whether the firm acted as agent or principal" },
-      { "key": "B", "text": "The representative's home address" },
-      { "key": "C", "text": "A projection of next year's return" },
-      { "key": "D", "text": "The customer's account password" }
-    ],
-    "answer": "A",
-    "spoken_stem": "A written confirmation of a customer's stock trade must include which of the following?",
-    "explanation": "SEC Rule 10b-10 requires a written confirmation with the identity of the security, the price, the trade date, and whether the broker-dealer acted as agent for the customer or as principal for its own account. It does not include the representative's home address, a forecast of future returns, or the customer's password.",
-    "spoken_explanation": "The answer is A. The confirmation has to show the price and whether the firm acted as the customer's agent or as principal for its own account. SEC Rule 10b-10 is the confirmation rule. It also identifies the security and the trade date. It does not publish the representative's home address, it does not forecast next year's return, and it never includes the customer's password.",
-    "tags": ["sample", "confirmations"],
-    "outline_ref": "Series 7 Function 4"
-  }
+ {
+  "id": "s7-q-0075",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 1,
+  "type": "mc",
+  "stem": "A customer opens a margin account and buys 1,000 shares of XYZ at $40. What deposit is required under Regulation T?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$10,000"
+   },
+   {
+    "key": "B",
+    "text": "$20,000"
+   },
+   {
+    "key": "C",
+    "text": "$30,000"
+   },
+   {
+    "key": "D",
+    "text": "$40,000"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer opens a margin account and buys a thousand shares of XYZ at forty. What's the Reg T deposit?",
+  "explanation": "Purchase value = 1,000 x $40 = $40,000. Regulation T initial margin for equities is 50%: $40,000 x 50% = $20,000, and the firm lends the other $20,000 (the debit balance). $10,000 is 25%, which is the FINRA maintenance level, not Reg T. $40,000 is paying in full, as in a cash account. $30,000 has no basis.",
+  "spoken_explanation": "A thousand shares at forty is forty thousand dollars. Reg T is fifty percent, so the customer deposits twenty thousand and borrows twenty thousand. Twenty-five percent is maintenance, not the initial requirement. The amount the firm lends is the debit balance, and the customer pays interest on it. Payment is due within the Reg T payment period.",
+  "tags": [
+   "margin",
+   "reg-t",
+   "long-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0076",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer bought 1,000 shares at $40 on margin with a $20,000 debit balance. The stock rises to $50. How much excess equity (SMA) does the account now have?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$5,000"
+   },
+   {
+    "key": "B",
+    "text": "$10,000"
+   },
+   {
+    "key": "C",
+    "text": "$25,000"
+   },
+   {
+    "key": "D",
+    "text": "$30,000"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A customer bought a thousand shares at forty on margin, with a twenty thousand dollar debit. The stock rises to fifty. How much excess equity is there now?",
+  "explanation": "LMV = 1,000 x $50 = $50,000. Equity = LMV - debit = 50,000 - 20,000 = $30,000. Reg T requirement = 50% x 50,000 = $25,000. Excess equity = 30,000 - 25,000 = $5,000, which is credited to SMA. $10,000 is the buying power (2 x SMA). $25,000 is the Reg T requirement. $30,000 is total equity.",
+  "spoken_explanation": "New market value fifty thousand, debit still twenty, so equity is thirty thousand. Reg T needs half of fifty, which is twenty-five. Thirty minus twenty-five leaves five thousand of excess equity, and that goes to SMA. Excess equity is credited to SMA, and it stays there even if the stock later falls. That's the line of credit the customer can draw on.",
+  "tags": [
+   "margin",
+   "excess-equity",
+   "sma",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0077",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A margin account has $5,000 of SMA. How much additional marginable stock can the customer buy without depositing more money?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$2,500"
+   },
+   {
+    "key": "B",
+    "text": "$5,000"
+   },
+   {
+    "key": "C",
+    "text": "$10,000"
+   },
+   {
+    "key": "D",
+    "text": "$20,000"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A margin account has five thousand dollars of SMA. How much more marginable stock can the customer buy without depositing money?",
+  "explanation": "Buying power = SMA / Reg T requirement = $5,000 / 0.50 = $10,000. The SMA covers the 50% deposit on $10,000 of stock. $5,000 treats SMA as cash for a cash purchase. $2,500 halves it instead of doubling. $20,000 quadruples it.",
+  "spoken_explanation": "At fifty percent Reg T, buying power is SMA times two. Five thousand times two is ten thousand dollars of stock. Using SMA to buy increases the debit balance. Using SMA to withdraw cash also increases the debit dollar for dollar. Each dollar of SMA covers the fifty percent deposit on two dollars of stock.",
+  "tags": [
+   "margin",
+   "buying-power",
+   "sma",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0078",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A customer is long 1,000 shares with a $20,000 debit balance. Assuming the 25% FINRA minimum maintenance requirement, below what share price will the account receive a maintenance call?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$20.00"
+   },
+   {
+    "key": "B",
+    "text": "$26.67"
+   },
+   {
+    "key": "C",
+    "text": "$30.00"
+   },
+   {
+    "key": "D",
+    "text": "$32.00"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer is long a thousand shares with a twenty thousand dollar debit. At the twenty-five percent minimum, below what price does a maintenance call come?",
+  "explanation": "With a 25% maintenance requirement, equity must be at least 25% of LMV, so the debit can be at most 75% of LMV. Minimum LMV = debit / 0.75 = 20,000 / 0.75 = $26,666.67, or $26.67 per share for 1,000 shares. Check: at $26.67, equity = 26,667 - 20,000 = 6,667, which is 25%. $20.00 is where equity hits zero. $30.00 and $32.00 are above the trigger.",
+  "spoken_explanation": "Long account maintenance: divide the debit by point seven five. Twenty thousand over point seven five is about twenty-six thousand six sixty-seven. Over a thousand shares, that's twenty-six sixty-seven a share. Below that, there's a maintenance call. House requirements are often higher than twenty-five percent, so a firm can call the customer sooner. Twenty-five percent is the regulatory floor.",
+  "tags": [
+   "margin",
+   "maintenance",
+   "long-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: maintenance requirements, restrictions, liquidation"
+ },
+ {
+  "id": "s7-q-0079",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer opens a new margin account and buys 100 shares at $15. What is the minimum deposit required?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$750"
+   },
+   {
+    "key": "B",
+    "text": "$1,500"
+   },
+   {
+    "key": "C",
+    "text": "$2,000"
+   },
+   {
+    "key": "D",
+    "text": "$3,000"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer opens a new margin account and buys a hundred shares at fifteen. What's the minimum deposit?",
+  "explanation": "FINRA requires $2,000 minimum equity in a margin account, but a customer is never required to deposit more than the cost of a long purchase. The purchase is $1,500, so the deposit is the LESSER of 100% of the purchase or $2,000: $1,500. $750 is the Reg T 50% amount, which is below the FINRA minimum. $2,000 would exceed the purchase price. $3,000 has no basis.",
+  "spoken_explanation": "Long purchase in a new margin account: deposit the lesser of the full cost or two thousand. The cost is fifteen hundred, so fifteen hundred. You never pay more than the purchase price on a long buy. Once equity reaches two thousand dollars, the regular fifty percent rule takes over for larger purchases.",
+  "tags": [
+   "margin",
+   "minimum-equity",
+   "rule-4210",
+   "long-account"
+  ],
+  "outline_ref": "4.4 Margin: requirements and characteristics of margin accounts, eligible/ineligible securities"
+ },
+ {
+  "id": "s7-q-0080",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer opens a new margin account and buys $3,000 of stock. What is the minimum deposit required?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$1,500"
+   },
+   {
+    "key": "B",
+    "text": "$2,000"
+   },
+   {
+    "key": "C",
+    "text": "$2,500"
+   },
+   {
+    "key": "D",
+    "text": "$3,000"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer opens a new margin account and buys three thousand dollars of stock. What's the minimum deposit?",
+  "explanation": "Reg T would require 50% x $3,000 = $1,500, but FINRA's $2,000 minimum equity requirement is higher and the purchase exceeds $2,000, so the customer deposits $2,000. $1,500 is the Reg T amount alone. $3,000 is full payment. $2,500 has no basis.",
+  "spoken_explanation": "Reg T says fifteen hundred, but FINRA's two thousand dollar minimum is higher, and the trade costs more than two thousand. So deposit two thousand. Larger purchases, over four thousand dollars, just need fifty percent, because half of four thousand is two thousand. So the minimum deposit is never less than two thousand dollars unless the whole purchase costs less than that.",
+  "tags": [
+   "margin",
+   "minimum-equity",
+   "rule-4210",
+   "long-account"
+  ],
+  "outline_ref": "4.4 Margin: requirements and characteristics of margin accounts, eligible/ineligible securities"
+ },
+ {
+  "id": "s7-q-0081",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-short",
+  "lesson_id": "s7-4-06",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer opens a margin account and sells short 1,000 shares of ABC at $30, depositing the Reg T requirement. What is the credit balance?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$15,000"
+   },
+   {
+    "key": "B",
+    "text": "$30,000"
+   },
+   {
+    "key": "C",
+    "text": "$45,000"
+   },
+   {
+    "key": "D",
+    "text": "$60,000"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer opens a margin account, shorts a thousand ABC at thirty, and deposits the Reg T requirement. What's the credit balance?",
+  "explanation": "Short sale proceeds = 1,000 x $30 = $30,000. Reg T deposit = 50% x 30,000 = $15,000. Credit balance = proceeds + deposit = 30,000 + 15,000 = $45,000. $15,000 is the deposit (and initial equity). $30,000 is only the proceeds. $60,000 doubles the proceeds.",
+  "spoken_explanation": "Short sale proceeds of thirty thousand stay in the account, plus the fifty percent Reg T deposit of fifteen thousand. Credit balance is forty-five thousand dollars. Equity in a short account equals the credit balance minus the short market value. Here it's forty-five thousand minus thirty thousand, fifteen thousand.",
+  "tags": [
+   "margin",
+   "short-account",
+   "credit-balance",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0082",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-short",
+  "lesson_id": "s7-4-06",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A customer is short 1,000 shares with a credit balance of $45,000. Using the 30% FINRA maintenance requirement for short stock, above what price will the account receive a maintenance call?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$34.62"
+   },
+   {
+    "key": "B",
+    "text": "$36.00"
+   },
+   {
+    "key": "C",
+    "text": "$39.00"
+   },
+   {
+    "key": "D",
+    "text": "$45.00"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A customer is short a thousand shares with a forty-five thousand dollar credit. At the thirty percent short maintenance level, above what price is there a maintenance call?",
+  "explanation": "Short equity = credit - SMV must be at least 30% of SMV, so credit must be at least 130% of SMV. Maximum SMV = credit / 1.30 = 45,000 / 1.30 = $34,615.38, or about $34.62 per share. Check: equity = 45,000 - 34,615 = 10,385, which is 30% of 34,615. $45.00 is where equity hits zero. $36.00 and $39.00 are past the trigger.",
+  "spoken_explanation": "Short account maintenance: divide the credit by one point three. Forty-five thousand over one point three is about thirty-four thousand six fifteen. Over a thousand shares, that's about thirty-four sixty-two. If the stock rises above that, a maintenance call comes. Short sellers face unlimited risk, which is why their maintenance level is thirty percent rather than twenty-five.",
+  "tags": [
+   "margin",
+   "maintenance",
+   "short-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: maintenance requirements, restrictions, liquidation"
+ },
+ {
+  "id": "s7-q-0083",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-short",
+  "lesson_id": "s7-4-06",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A customer is short 1,000 shares with a $45,000 credit balance. The stock falls to $25. How much excess equity does the account have?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$5,000"
+   },
+   {
+    "key": "B",
+    "text": "$7,500"
+   },
+   {
+    "key": "C",
+    "text": "$12,500"
+   },
+   {
+    "key": "D",
+    "text": "$20,000"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer is short a thousand shares with a forty-five thousand dollar credit. The stock falls to twenty-five. How much excess equity is there?",
+  "explanation": "SMV = 1,000 x $25 = $25,000. Equity = credit - SMV = 45,000 - 25,000 = $20,000. Reg T requirement = 50% x 25,000 = $12,500. Excess = 20,000 - 12,500 = $7,500. $20,000 is total equity. $12,500 is the Reg T requirement. $5,000 is the stock's per-share drop times 1,000.",
+  "spoken_explanation": "Short market value is now twenty-five thousand. Credit forty-five minus twenty-five gives equity of twenty thousand. Reg T needs half of twenty-five, which is twelve and a half. Twenty minus twelve and a half is seventy-five hundred dollars excess. When a short stock falls, the customer gains and builds excess equity, which also goes to SMA.",
+  "tags": [
+   "margin",
+   "short-account",
+   "excess-equity",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0084",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-short",
+  "lesson_id": "s7-4-06",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer opens a new margin account and sells short 100 shares at $15. What is the minimum deposit required?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$750"
+   },
+   {
+    "key": "B",
+    "text": "$1,500"
+   },
+   {
+    "key": "C",
+    "text": "$2,000"
+   },
+   {
+    "key": "D",
+    "text": "$3,000"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer opens a new margin account and shorts a hundred shares at fifteen. What's the minimum deposit?",
+  "explanation": "For a short sale, the $2,000 FINRA minimum applies in full, even when it exceeds the value of the sale, because short sellers face unlimited risk. Reg T alone would be 50% x $1,500 = $750. $1,500 is the 'lesser of' rule that applies only to LONG purchases. $3,000 has no basis.",
+  "spoken_explanation": "Short sales always need at least two thousand dollars. The lesser-of shortcut only helps long buyers. So even though the short is only fifteen hundred dollars, deposit two thousand. The two thousand minimum is about risk. A short position can lose more than its value, so the customer can't skip the minimum.",
+  "tags": [
+   "margin",
+   "minimum-equity",
+   "short-account",
+   "rule-4210"
+  ],
+  "outline_ref": "4.4 Margin: requirements and characteristics of margin accounts, eligible/ineligible securities"
+ },
+ {
+  "id": "s7-q-0085",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-sma",
+  "lesson_id": "s7-4-07",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: When the market value of a long margin account declines, the account's SMA balance declines with it.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. When the market value in a long margin account falls, the SMA goes down too.",
+  "explanation": "False. SMA is a line of credit that is increased by rising market value, cash deposits, dividends, interest, and sales, but it is NOT reduced by a decline in market value. It is reduced only when the customer uses it, for example to withdraw cash or buy securities.",
+  "spoken_explanation": "False. SMA is a one-way ratchet with market moves. It goes up when equity grows, but a price drop doesn't take it away. Only using it, like buying or withdrawing, reduces it. If equity falls below fifty percent, the account is restricted, but the existing SMA balance remains available to use as long as maintenance is met.",
+  "tags": [
+   "margin",
+   "sma"
+  ],
+  "outline_ref": "4.4 Margin: special memorandum account (SMA)"
+ },
+ {
+  "id": "s7-q-0086",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-sma",
+  "lesson_id": "s7-4-07",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "All of the following increase SMA EXCEPT:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Receipt of a cash dividend"
+   },
+   {
+    "key": "B",
+    "text": "A deposit of cash"
+   },
+   {
+    "key": "C",
+    "text": "An increase in the market value of long securities"
+   },
+   {
+    "key": "D",
+    "text": "A withdrawal of cash"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "All of the following increase SMA, EXCEPT which? A, receiving a cash dividend. B, depositing cash. C, a rise in long market value. D, withdrawing cash.",
+  "explanation": "Cash dividends and cash deposits are credited 100% to SMA. A rise in LMV creates excess equity that credits SMA. Withdrawing cash USES SMA: it reduces SMA and increases the debit balance.",
+  "spoken_explanation": "Dividends, cash deposits, and rising prices all build SMA. Pulling cash out spends it, raising the debit balance. So the EXCEPT is the withdrawal. Interest and dividends are credited fully to SMA because they're cash coming in. A drop in market value doesn't reduce it.",
+  "tags": [
+   "margin",
+   "sma",
+   "except"
+  ],
+  "outline_ref": "4.4 Margin: special memorandum account (SMA)"
+ },
+ {
+  "id": "s7-q-0087",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-sma",
+  "lesson_id": "s7-4-07",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A long margin account has a market value of $40,000 and a debit balance of $25,000, with no SMA. The customer sells $10,000 of stock. How much is credited to SMA?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$0"
+   },
+   {
+    "key": "B",
+    "text": "$2,500"
+   },
+   {
+    "key": "C",
+    "text": "$5,000"
+   },
+   {
+    "key": "D",
+    "text": "$10,000"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A long margin account is worth forty thousand with a twenty-five thousand debit and no SMA. The customer sells ten thousand dollars of stock. How much is credited to SMA?",
+  "explanation": "Equity = 40,000 - 25,000 = $15,000, which is 37.5% of LMV, below the 50% Reg T level, so the account is restricted. When securities are sold in a restricted account, 50% of the sale proceeds are released to SMA: 50% x 10,000 = $5,000. The full proceeds pay down the debit. $0 ignores the release. $10,000 releases all of it. $2,500 is 25%.",
+  "spoken_explanation": "Equity is fifteen thousand, which is thirty-seven and a half percent. That's under fifty, so the account is restricted. On a sale in a restricted account, half the proceeds go to SMA. Half of ten thousand is five thousand. Restricted doesn't mean frozen. The customer can still trade, but new purchases need fifty percent and withdrawals are limited.",
+  "tags": [
+   "margin",
+   "sma",
+   "restricted-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: special memorandum account (SMA)"
+ },
+ {
+  "id": "s7-q-0088",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-rules",
+  "lesson_id": "s7-4-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Under Regulation T, which of the following may NOT be purchased on margin?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "An NYSE-listed stock"
+   },
+   {
+    "key": "B",
+    "text": "A Nasdaq Global Select stock"
+   },
+   {
+    "key": "C",
+    "text": "Open-end mutual fund shares"
+   },
+   {
+    "key": "D",
+    "text": "An exchange-listed ETF"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Under Reg T, which of these may NOT be purchased on margin? A, a New York Stock Exchange stock. B, a Nasdaq Global Select stock. C, open-end mutual fund shares. D, an exchange-listed ETF.",
+  "explanation": "Open-end mutual fund shares are continuously offered new issues and cannot be purchased on margin. They can be used as collateral after being held for 30 days. Exchange-listed stocks, Nasdaq stocks, and listed ETFs are marginable.",
+  "spoken_explanation": "Mutual fund shares are always a new issue, so you can't buy them on margin. After thirty days, they can serve as collateral. Listed stocks and ETFs are marginable. Treasuries and munis can be bought on margin, but under different requirements. Options generally must be paid in full.",
+  "tags": [
+   "margin",
+   "reg-t",
+   "eligible-securities",
+   "mutual-funds"
+  ],
+  "outline_ref": "4.4 Margin: requirements and characteristics of margin accounts, eligible/ineligible securities"
+ },
+ {
+  "id": "s7-q-0089",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "orders",
+  "lesson_id": "s7-4-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer is short 200 shares of DEF at $48. DEF now trades at $45. To protect the profit against a sharp rally, the customer should enter a:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Sell stop at $43"
+   },
+   {
+    "key": "B",
+    "text": "Buy limit at $43"
+   },
+   {
+    "key": "C",
+    "text": "Buy stop at $47"
+   },
+   {
+    "key": "D",
+    "text": "Sell limit at $47"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer shorted DEF at forty-eight. It's now forty-five. To protect the profit against a sharp rally, what order should the customer enter?",
+  "explanation": "A short seller exits by BUYING, and wants to buy only if the price rises: a buy stop placed above the current market, at $47, which becomes a market order if DEF trades at or above 47. A buy limit at 43 would only trigger on a further decline. Sell orders do not close a short position.",
+  "spoken_explanation": "Shorts close by buying. To protect against a rise, use a buy stop above the market, here at forty-seven. If it trades up to forty-seven, it becomes a market order to buy and locks in most of the profit. Stops are triggered at the stop price. A buy stop limit adds a limit price to avoid paying too much once triggered.",
+  "tags": [
+   "orders",
+   "stop-order",
+   "short-sale"
+  ],
+  "outline_ref": "4.1 Types of orders; short sale requirements"
+ },
+ {
+  "id": "s7-q-0090",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "orders",
+  "lesson_id": "s7-4-01",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A customer enters a sell stop order at $45. The subsequent trades are: 45.30, 45.15, 45.00, 44.90. At which trade is the order triggered?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "45.30"
+   },
+   {
+    "key": "B",
+    "text": "45.15"
+   },
+   {
+    "key": "C",
+    "text": "45.00"
+   },
+   {
+    "key": "D",
+    "text": "44.90"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer enters a sell stop at forty-five. The next trades are forty-five thirty, forty-five fifteen, forty-five even, and forty-four ninety. Which trade triggers the order?",
+  "explanation": "A sell stop is triggered when the stock trades AT or BELOW the stop price. The trade at 45.00 equals the stop, so the order becomes a market order and executes at the next available price (here, likely 44.90). 45.30 and 45.15 are above the stop. 44.90 is the probable execution, not the trigger.",
+  "spoken_explanation": "Sell stops trigger at or below the stop price. Forty-five even hits it exactly, so that's the trigger. Then it becomes a market order and fills at the next trade, likely forty-four ninety. Stop orders don't guarantee price. In a fast market, the fill can be well below the stop.",
+  "tags": [
+   "orders",
+   "stop-order",
+   "trigger"
+  ],
+  "outline_ref": "4.1 Types of orders; short sale requirements"
+ },
+ {
+  "id": "s7-q-0091",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "settlement",
+  "lesson_id": "s7-4-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Under the T+1 settlement cycle in effect since May 2024, how does the ex-dividend date relate to the record date for a regular-way stock trade?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Ex-date is two business days before the record date"
+   },
+   {
+    "key": "B",
+    "text": "Ex-date is one business day before the record date"
+   },
+   {
+    "key": "C",
+    "text": "Ex-date is the same business day as the record date"
+   },
+   {
+    "key": "D",
+    "text": "Ex-date is one business day after the record date"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Under T plus one settlement, how does the ex-dividend date line up with the record date?",
+  "explanation": "A buyer must SETTLE by the record date to receive the dividend. With T+1, a purchase made the business day before the record date settles on the record date, so it still gets the dividend. A purchase on the record date settles after it. That makes the ex-date the same day as the record date. One business day before was the T+2 rule. Two business days before was the old T+3 rule.",
+  "spoken_explanation": "To get the dividend, your purchase has to settle by the record date. Under T plus one, buying the day before record date still works, but buying on the record date doesn't. So the ex-date is now the record date itself. Before T plus one, the ex-date was one business day before the record date. Many older study guides still say that.",
+  "tags": [
+   "settlement",
+   "t-plus-1",
+   "ex-dividend"
+  ],
+  "outline_ref": "4.2 Settlement of transactions; ex-dividend"
+ },
+ {
+  "id": "s7-q-0092",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "orders",
+  "lesson_id": "s7-4-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Under Regulation SHO, before accepting a short sale order in a non-exempt equity security, a broker-dealer must:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Receive the customer's 50% deposit"
+   },
+   {
+    "key": "B",
+    "text": "Have reasonable grounds to believe the security can be borrowed (locate)"
+   },
+   {
+    "key": "C",
+    "text": "Wait for an uptick"
+   },
+   {
+    "key": "D",
+    "text": "Obtain the customer's written consent"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Under Reg SHO, before accepting a short sale order, what must the firm do?",
+  "explanation": "Reg SHO's locate requirement says the firm must borrow the security, have an arrangement to borrow it, or have reasonable grounds to believe it can be borrowed for delivery by settlement, and the order must be marked short. The Reg T deposit is due within the payment period, not before order entry. The general uptick rule was repealed, so waiting for an uptick is not required except under the alternative uptick rule after a 10% decline. Written consent per short sale is not required.",
+  "spoken_explanation": "Reg SHO: locate before you short. You need reasonable grounds to believe the stock can be borrowed, and you mark the order short. The deposit comes later, and there's no general uptick rule anymore. Under the alternative uptick rule, once a stock falls ten percent in a day, short sales must be priced above the national best bid for the rest of that day and the next.",
+  "tags": [
+   "short-sale",
+   "reg-sho",
+   "locate"
+  ],
+  "outline_ref": "4.1 Types of orders; short sale requirements"
+ },
+ {
+  "id": "s7-q-0093",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "complaints-arbitration",
+  "lesson_id": "s7-4-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Under the FINRA Code of Arbitration Procedure for Customer Disputes, simplified arbitration is available for claims of:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$25,000 or less"
+   },
+   {
+    "key": "B",
+    "text": "$50,000 or less"
+   },
+   {
+    "key": "C",
+    "text": "$100,000 or less"
+   },
+   {
+    "key": "D",
+    "text": "$250,000 or less"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Under FINRA's customer arbitration code, simplified arbitration covers claims up to what amount?",
+  "explanation": "FINRA Rule 12800 provides simplified arbitration for customer claims of $50,000 or less, generally decided by a single arbitrator on written submissions unless the customer requests a hearing. The other amounts are not the simplified threshold.",
+  "spoken_explanation": "Simplified arbitration is for claims of fifty thousand dollars or less, usually one arbitrator on the papers, unless the customer asks for a hearing. Most account agreements have a predispute arbitration clause, so customer disputes usually go to FINRA arbitration, where awards are final and binding with very limited appeal.",
+  "tags": [
+   "arbitration",
+   "rule-12800",
+   "complaints"
+  ],
+  "outline_ref": "4.3 Methods of formal resolution: arbitration"
+ }
 ]

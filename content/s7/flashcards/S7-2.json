@@ -1,29 +1,58 @@
 [
-  {
-    "id": "s7-f-0003",
-    "exam": "S7",
-    "section": "S7-2",
-    "sample": true,
-    "front": "Joint tenants with right of survivorship",
-    "back": "Equal shares. The survivor becomes the owner.",
-    "spoken": "Joint tenants with right of survivorship. Equal shares. The survivor becomes the owner."
-  },
-  {
-    "id": "s7-f-0004",
-    "exam": "S7",
-    "section": "S7-2",
-    "sample": true,
-    "front": "Tenants in common",
-    "back": "Shares can be unequal. There is no right of survivorship.",
-    "spoken": "Tenants in common. Shares can be unequal. There is no right of survivorship."
-  },
-  {
-    "id": "s7-f-0005",
-    "exam": "S7",
-    "section": "S7-2",
-    "sample": true,
-    "front": "Regulation Best Interest, care obligation",
-    "back": "A recommendation to a retail customer must fit the profile and be in the customer's best interest.",
-    "spoken": "Regulation Best Interest, care obligation. A recommendation to a retail customer must fit the profile and be in the customer's best interest."
-  }
+ {
+  "id": "s7-f-0059",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Options account sequence",
+  "back": "ODD at or before approval, ROP approval, signed agreement within 15 days of approval.",
+  "spoken": "Options accounts: disclosure document at or before approval, then principal approval, then the signed agreement within fifteen days."
+ },
+ {
+  "id": "s7-f-0060",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Discretion: the three A's",
+  "back": "Asset, action, amount. Time and price alone is not discretion.",
+  "spoken": "Discretion means the rep picks the asset, action or amount. Time and price alone isn't discretion."
+ },
+ {
+  "id": "s7-f-0061",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "TIC vs JTWROS at death",
+  "back": "TIC: share goes to estate. JTWROS: goes to survivor.",
+  "spoken": "Tenants in common: your share goes to your estate. Joint with survivorship: it goes to the survivor."
+ },
+ {
+  "id": "s7-f-0062",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "2026 IRA contribution limit",
+  "back": "$7,500; +$1,100 catch-up at 50+. Changes yearly.",
+  "spoken": "For twenty twenty-six, the IRA limit is seventy-five hundred dollars, plus an eleven hundred catch-up at fifty or older."
+ },
+ {
+  "id": "s7-f-0063",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Indirect 401(k) rollover",
+  "back": "20% mandatory withholding; 60 days to roll the full amount.",
+  "spoken": "An indirect rollover from a 401k has twenty percent withheld, and you get sixty days to roll over the full amount."
+ },
+ {
+  "id": "s7-f-0064",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Reg BI component obligations",
+  "back": "Disclosure, Care, Conflict of Interest, Compliance.",
+  "spoken": "Reg BI has four obligations: disclosure, care, conflict of interest, and compliance."
+ },
+ {
+  "id": "s7-f-0065",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Trusted contact person (Rule 4512)",
+  "back": "Firm must make a reasonable effort to obtain; account may be opened if customer declines.",
+  "spoken": "Firms must try to get a trusted contact, but the customer can decline and still open the account."
+ }
 ]

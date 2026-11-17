@@ -2,3 +2,8 @@
 target = "index.html"
 dist = "../dist"
 public_url = "/drive-study/"
+
+[[hooks]]
+stage = "pre_build"
+command = "cargo"
+command_arguments = ["run", "--quiet", "-p", "drive-study-core", "--bin", "index-content", "--", "../content"]

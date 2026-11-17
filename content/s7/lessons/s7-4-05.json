@@ -1,0 +1,127 @@
+{
+ "id": "s7-4-05",
+ "exam": "S7",
+ "section": "S7-4",
+ "section_title": "Obtains and Verifies Customers' Purchase and Sales Instructions and Agreements; Processes, Completes and Confirms Transactions",
+ "title": "Margin I: Regulation T and long accounts",
+ "order": 1,
+ "est_minutes": 9,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Margin is the most math-heavy part of the Series 7. In FINRA's outline, it lives in function four, under addressing margin issues. This lesson covers long margin accounts: what the customer deposits, how equity is measured, what excess equity and SMA mean, how buying power works, and when a maintenance call is triggered. Every number here comes from two rules: the Federal Reserve's Regulation T, and FINRA Rule forty-two ten."
+  },
+  {
+   "type": "narration",
+   "text": "Start with the vocabulary. In a long margin account, the customer buys stock, pays part of the cost, and borrows the rest from the broker-dealer. The current value of the stock is the long market value, L M V. The loan is the debit balance, D R. Equity is what the customer owns outright: market value minus debit. If you remember only one equation, make it this one: equity equals long market value minus debit."
+  },
+  {
+   "type": "narration",
+   "text": "Regulation T sets the initial margin requirement for equity securities at fifty percent. On a new purchase, the customer must deposit half, and the firm lends the other half. Buy a thousand shares at forty: that's forty thousand dollars of stock. Half is twenty thousand deposited, and the debit balance is twenty thousand."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0075"
+  },
+  {
+   "type": "narration",
+   "text": "Timing matters too. Reg T requires payment within one payment period, which is the standard settlement cycle plus two business days. Since regular-way trades moved to T plus one in May twenty twenty-four, that's T plus three, or two business days after settlement."
+  },
+  {
+   "type": "narration",
+   "text": "Now FINRA's layer, the two thousand dollar minimum. A margin account must have at least two thousand dollars of equity. For a long purchase, though, the customer never has to deposit more than the cost of the stock. So the rule for a long purchase in a new account is this: deposit fifty percent, or two thousand dollars, whichever is greater, but never more than the full price. Buy fifteen hundred dollars of stock, and you deposit fifteen hundred. Buy three thousand dollars, and Reg T would say fifteen hundred, but the two thousand minimum is higher, so you deposit two thousand. Buy forty thousand dollars, and fifty percent, twenty thousand, is already above two thousand."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0079"
+  },
+  {
+   "type": "narration",
+   "text": "Now let the market move. Say the stock rises from forty to fifty. The long market value is now fifty thousand dollars. The debit doesn't change with market prices, so it stays at twenty thousand. Equity is fifty minus twenty, which is thirty thousand. Reg T only requires fifty percent of the current market value, which is twenty-five thousand. The customer has thirty, so the extra five thousand is excess equity."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0076"
+  },
+  {
+   "type": "narration",
+   "text": "Excess equity is credited to the special memorandum account, S M A. Think of SMA as a line of credit attached to the account. The customer can use it in two ways: withdraw it as cash, which adds to the debit, or use it to buy more stock. Since Reg T requires only fifty percent down, each dollar of SMA supports two dollars of new purchases. So buying power equals SMA times two. Five thousand of SMA means ten thousand dollars of buying power."
+  },
+  {
+   "type": "narration",
+   "text": "One rule about SMA trips people up. SMA goes up when market value rises, and it also gets credited by cash deposits, dividends, and interest. But it does NOT go down when market value falls. It's only reduced when the customer uses it. That's why it's called a memorandum account. It's a record of credit earned, not a live calculation."
+  },
+  {
+   "type": "narration",
+   "text": "Now the downside. If equity falls below fifty percent of market value, the account is restricted. A restricted account doesn't trigger a call. The customer can keep the positions but faces limits. For example, when securities are sold, only half the proceeds are released to SMA."
+  },
+  {
+   "type": "narration",
+   "text": "The real alarm is FINRA's maintenance requirement. For long positions, equity must stay at or above twenty-five percent of long market value. Firms often set higher house requirements, but twenty-five is the regulatory minimum. If equity falls below that, the customer gets a maintenance call and must deposit cash or securities, or the firm can liquidate positions."
+  },
+  {
+   "type": "narration",
+   "text": "There's a fast way to find the maintenance call price. At exactly twenty-five percent equity, the debit is seventy-five percent of the market value. So the lowest market value before a call is the debit divided by point seven five. With a twenty thousand dollar debit, twenty thousand divided by point seven five is about twenty-six thousand six hundred sixty-seven. Over a thousand shares, that's about twenty-six sixty-seven a share. Check it: twenty-six thousand six sixty-seven minus the twenty thousand debit leaves six thousand six sixty-seven, which is one quarter of the market value."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0078"
+  },
+  {
+   "type": "narration",
+   "text": "Finally, what can be bought on margin? Exchange-listed and Nasdaq stocks, and listed ETFs, are marginable under Reg T. Open-end mutual fund shares are always a new issue, so they can't be purchased on margin, although they can serve as collateral after thirty days. Opening a margin account also requires a signed margin agreement, which includes the hypothecation agreement that lets the firm pledge the customer's securities for the loan. Giving the firm permission to lend those securities out is a separate, optional consent."
+  },
+  {
+   "type": "narration",
+   "text": "Here's the long-account checklist to rehearse on your drive. Equity is market value minus debit. Reg T is fifty percent initial. The minimum deposit is the greater of half or two thousand dollars, never more than the cost. Excess equity goes to SMA, and buying power is SMA times two. Below fifty percent, the account is restricted. Below twenty-five percent, there's a maintenance call, and the trigger is the debit divided by point seven five. Next lesson, we flip everything around for short accounts."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Long market value (LMV)",
+   "definition": "Current market value of securities held long in the margin account."
+  },
+  {
+   "term": "Debit balance (DR)",
+   "definition": "Amount the customer owes the broker-dealer; unchanged by market moves."
+  },
+  {
+   "term": "Equity",
+   "definition": "LMV minus debit balance."
+  },
+  {
+   "term": "Regulation T initial margin",
+   "definition": "50% of the purchase price for equity securities."
+  },
+  {
+   "term": "FINRA minimum equity",
+   "definition": "$2,000; long purchases never require more than the full cost."
+  },
+  {
+   "term": "Excess equity",
+   "definition": "Equity above the 50% Reg T requirement; credited to SMA."
+  },
+  {
+   "term": "SMA",
+   "definition": "Special memorandum account: a line of credit; increased by excess equity, deposits, dividends; not reduced by market declines."
+  },
+  {
+   "term": "Buying power",
+   "definition": "SMA x 2 at a 50% Reg T requirement."
+  },
+  {
+   "term": "Restricted account",
+   "definition": "Equity below 50% of LMV but above maintenance; 50% of sale proceeds released to SMA."
+  },
+  {
+   "term": "Maintenance requirement (long)",
+   "definition": "Equity at least 25% of LMV (FINRA minimum); call trigger LMV = debit / 0.75."
+  }
+ ],
+ "mnemonics": [
+  "E = LMV - DR (equity is what's left after the loan).",
+  "Fifty to enter, twenty-five to stay.",
+  "Long call trigger: debit over three-quarters."
+ ],
+ "summary": "Equity in a long margin account equals market value minus the debit balance. Reg T requires 50% initial margin, paid within the settlement cycle plus two business days (T+3 under T+1). FINRA requires $2,000 minimum equity, but a long purchase never requires more than its cost. Excess equity above 50% of LMV goes to SMA, and buying power is twice SMA. SMA isn't reduced by market declines. Below 50% equity, the account is restricted. Below the 25% maintenance minimum, there's a maintenance call, triggered at debit divided by 0.75. Mutual fund shares can't be bought on margin."
+}

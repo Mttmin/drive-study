@@ -42,12 +42,12 @@ content/{sie,s7}/questions/<section>.json
 content/{sie,s7}/flashcards/<section>.json
 ```
 
-`content/meta.json` lists the files to load (GitHub Pages does not serve directory indexes) and the exam blueprints. Section weights match FINRA's public outlines:
+`content/meta.json` is the blueprint. The build writes `content/index.json` by scanning the folders, because Pages cannot list directories. Replacing `content/` and rebuilding picks up the next wave. `node scripts/list-utterances.mjs` scans the same folders for `make audio`.
 
-- SIE: 75 scored questions, 105 minutes, 70% to pass. Sections 16% / 44% / 31% / 9% (12 / 33 / 23 / 7).
-- Series 7: 125 scored questions, 225 minutes, 72% to pass. Functions 7% / 9% / 73% / 11% (9 / 11 / 91 / 14).
+- SIE: 75 scored questions plus 5 pretest, 105 minutes, passing score 70. Sections 16% / 44% / 31% / 9%.
+- Series 7: 125 scored questions plus 5 pretest, 225 minutes, passing score 72. Functions 7% / 9% / 73% / 11%. Margin is in S7-4.
 
-The sample pack is 32 questions, 24 flashcards, and 4 lessons (2 per exam), marked `"sample": true`. The app shows a SAMPLE badge. Real items can omit the flag.
+True/false items use choices A = True and B = False. Wave 1 is 104 SIE questions, 60 SIE flashcards, 3 SIE lessons, 111 Series 7 questions, 70 Series 7 flashcards, and 3 Series 7 lessons. Later waves keep those ids and append new ones.
 
 ## Audio and GitHub Pages
 

@@ -2,7 +2,7 @@ use std::sync::atomic::{AtomicBool, AtomicU32, Ordering};
 use std::sync::{Arc, Mutex};
 
 use drive_study_core::{
-    choices_readout, clip_key, is_due, review_card, ExamId, ItemKind, ReviewOutcome, SessionItem, SessionMode, SessionPlan, SrsCard, SrsMeta, VOICE_ID,
+    choices_readout, clip_key, is_due, parse_voice, review_card, ExamId, ItemKind, ParseOptions, ReviewOutcome, SessionItem, SessionMode, SessionPlan, SrsCard, SrsMeta, VoiceCommand, VOICE_ID,
 };
 use gloo_timers::future::TimeoutFuture;
 use leptos::prelude::*;
@@ -464,7 +464,9 @@ async fn present(
             }
             let pause = settings.get_untracked().pause_seconds * 1000;
             let limit = if plan.listen_only { Some(pause) } else { None };
+            start_listen(question, control.clone());
             let _ = wait_for(control, limit).await;
+            stop_listen();
             let act = control.take();
             match act {
                 Some(Act::Repeat) => true,
@@ -849,6 +851,66 @@ async fn speak_phone(text: &str, rate: f64, voice_uri: Option<&str>, control: &C
         }
         TimeoutFuture::new(40).await;
     }
+}
+
+thread_local! {
+    static REC: std::cell::RefCell<Option<JsValue>> = const { std::cell::RefCell::new(None) };
+}
+
+fn stop_listen() {
+    REC.with(|slot| {
+        if let Some(rec) = slot.borrow_mut().take() {
+            if let Ok(abort) = js_sys::Reflect::get(&rec, &"abort".into()).and_then(|value| value.dyn_into::<js_sys::Function>()) {
+                let _ = abort.call0(&rec);
+            }
+        }
+    });
+}
+
+fn start_listen(question: &drive_study_core::Question, control: Control) {
+    stop_listen();
+    let Some(window) = web_sys::window() else { return };
+    let ctor = ["webkitSpeechRecognition", "SpeechRecognition"].into_iter().find_map(|name| {
+        js_sys::Reflect::get(&window, &JsValue::from_str(name)).ok().filter(|value| value.is_function())
+    });
+    let Some(ctor) = ctor.and_then(|value| value.dyn_into::<js_sys::Function>().ok()) else { return };
+    let Ok(rec) = js_sys::Reflect::construct(&ctor, &js_sys::Array::new()) else { return };
+    let _ = js_sys::Reflect::set(&rec, &"lang".into(), &"en-US".into());
+    let _ = js_sys::Reflect::set(&rec, &"interimResults".into(), &JsValue::TRUE);
+    let _ = js_sys::Reflect::set(&rec, &"maxAlternatives".into(), &JsValue::from(5));
+    let options = ParseOptions {
+        choice_keys: question.choices.iter().map(|choice| choice.key.clone()).collect(),
+        allow_know: false,
+        true_key: question.choices.iter().find(|choice| choice.text.eq_ignore_ascii_case("true")).map(|choice| choice.key.clone()),
+        false_key: question.choices.iter().find(|choice| choice.text.eq_ignore_ascii_case("false")).map(|choice| choice.key.clone()),
+    };
+    let on_result = Closure::wrap(Box::new(move |event: JsValue| {
+        let Ok(results) = js_sys::Reflect::get(&event, &"results".into()) else { return };
+        let results = js_sys::Array::from(&results);
+        if results.length() == 0 { return; }
+        let alternatives = js_sys::Array::from(&results.get(results.length() - 1));
+        for index in 0..alternatives.length() {
+            let Ok(transcript) = js_sys::Reflect::get(&alternatives.get(index), &"transcript".into()) else { continue };
+            let Some(transcript) = transcript.as_string() else { continue };
+            match parse_voice(&transcript, &options) {
+                VoiceCommand::Answer(key) => control.interrupt(Act::Answer(key)),
+                VoiceCommand::Repeat => control.interrupt(Act::Repeat),
+                VoiceCommand::Skip => control.interrupt(Act::Skip),
+                VoiceCommand::Explain => control.interrupt(Act::Explain),
+                VoiceCommand::DontKnow => control.interrupt(Act::DontKnow),
+                VoiceCommand::Pause => control.interrupt(Act::Pause),
+                VoiceCommand::Stop => control.interrupt(Act::Stop),
+                _ => continue,
+            }
+            return;
+        }
+    }) as Box<dyn FnMut(JsValue)>);
+    let _ = js_sys::Reflect::set(&rec, &"onresult".into(), on_result.as_ref());
+    on_result.forget();
+    if let Ok(start) = js_sys::Reflect::get(&rec, &"start".into()).and_then(|value| value.dyn_into::<js_sys::Function>()) {
+        let _ = start.call0(&rec);
+    }
+    REC.with(|slot| *slot.borrow_mut() = Some(rec));
 }
 
 pub fn today_key() -> String {

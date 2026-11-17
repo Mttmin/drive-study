@@ -106,9 +106,16 @@ pub struct SectionBlueprint {
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct ExamBlueprint {
     pub name: String,
-    pub questions: u32,
-    pub minutes: u32,
-    pub pass_percent: f64,
+    #[serde(rename = "scored_questions", alias = "questions")]
+    pub scored_questions: u32,
+    #[serde(default)]
+    pub unscored_questions: u32,
+    #[serde(default)]
+    pub total_questions: u32,
+    #[serde(rename = "time_limit_minutes", alias = "minutes")]
+    pub time_limit_minutes: u32,
+    #[serde(rename = "passing_score", alias = "pass_percent")]
+    pub passing_score: f64,
     pub sections: Vec<SectionBlueprint>,
 }
 
@@ -121,10 +128,16 @@ pub struct MetaFiles {
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Meta {
+    #[serde(default)]
+    pub schema_version: u32,
+    #[serde(default)]
     pub version: u32,
+    #[serde(default)]
     pub disclaimer: String,
+    #[serde(default)]
     pub voice_id: String,
-    pub files: MetaFiles,
+    #[serde(default)]
+    pub files: Option<MetaFiles>,
     pub exams: HashMap<String, ExamBlueprint>,
 }
 
@@ -200,31 +213,39 @@ pub fn validate_repo(root: &Path) -> Result<(), Vec<String>> {
             continue;
         };
         let weight: f64 = exam.sections.iter().map(|section| section.weight).sum();
-        if (weight - 100.0).abs() > 0.001 {
-            errors.push(format!("{exam_id} section weights sum to {weight}, expected 100"));
+        let expected = if weight < 2.0 { 1.0 } else { 100.0 };
+        if (weight - expected).abs() > 0.02 {
+            errors.push(format!("{exam_id} section weights sum to {weight}, expected {expected}"));
         }
         let counted: u32 = exam.sections.iter().map(|section| section.questions).sum();
-        if counted != exam.questions {
-            errors.push(format!("{exam_id} section question counts sum to {counted}, expected {}", exam.questions));
+        if counted != exam.scored_questions {
+            errors.push(format!("{exam_id} section question counts sum to {counted}, expected {}", exam.scored_questions));
         }
     }
-    let mut on_disk = Vec::new();
-    walk_json(&root.join("content"), root, &mut on_disk);
-    on_disk.retain(|path| path != "content/meta.json");
-    on_disk.sort();
-    let mut listed = Vec::new();
-    listed.extend(meta.files.lessons.iter().cloned());
-    listed.extend(meta.files.questions.iter().cloned());
-    listed.extend(meta.files.flashcards.iter().cloned());
-    listed.sort();
-    if on_disk != listed {
-        errors.push("meta.files does not match the JSON files on disk".into());
+    let lesson_paths = content_files(root, "lessons");
+    let question_paths = content_files(root, "questions");
+    let card_paths = content_files(root, "flashcards");
+    if let Some(files) = &meta.files {
+        let mut listed = Vec::new();
+        listed.extend(files.lessons.iter().cloned());
+        listed.extend(files.questions.iter().cloned());
+        listed.extend(files.flashcards.iter().cloned());
+        listed.sort();
+        let mut discovered = Vec::new();
+        discovered.extend(lesson_paths.iter().cloned());
+        discovered.extend(question_paths.iter().cloned());
+        discovered.extend(card_paths.iter().cloned());
+        discovered.sort();
+        if listed != discovered {
+            errors.push("meta.files does not match the JSON files on disk".into());
+        }
     }
 
+    let plan_ids = lesson_plan_ids(root);
     let mut lessons = HashMap::new();
     let mut questions = HashMap::new();
     let mut cards = HashMap::new();
-    for path in &meta.files.lessons {
+    for path in &lesson_paths {
         match read_json::<Lesson>(root, path) {
             Ok(lesson) => {
                 check_lesson(path, &lesson, &meta, &mut errors);
@@ -233,7 +254,7 @@ pub fn validate_repo(root: &Path) -> Result<(), Vec<String>> {
             Err(message) => errors.push(message),
         }
     }
-    for path in &meta.files.questions {
+    for path in &question_paths {
         match read_json::<Vec<Question>>(root, path) {
             Ok(rows) => {
                 let file_section = path.rsplit('/').next().unwrap_or("").trim_end_matches(".json");
@@ -248,7 +269,7 @@ pub fn validate_repo(root: &Path) -> Result<(), Vec<String>> {
             Err(message) => errors.push(message),
         }
     }
-    for path in &meta.files.flashcards {
+    for path in &card_paths {
         match read_json::<Vec<Flashcard>>(root, path) {
             Ok(rows) => {
                 let file_section = path.rsplit('/').next().unwrap_or("").trim_end_matches(".json");
@@ -273,10 +294,13 @@ pub fn validate_repo(root: &Path) -> Result<(), Vec<String>> {
         }
     }
     for question in questions.values() {
-        if let Some(lesson_id) = &question.lesson_id {
-            if !lessons.contains_key(lesson_id) {
-                errors.push(format!("question {} lesson_id {lesson_id} does not exist", question.id));
+        match &question.lesson_id {
+            Some(lesson_id) if !lesson_id.is_empty() && !lessons.contains_key(lesson_id) && !plan_ids.contains(lesson_id) => {
+                errors.push(format!("question {} lesson_id {lesson_id} is not a lesson or a planned lesson", question.id));
             }
+            Some(lesson_id) if lesson_id.is_empty() => errors.push(format!("{} missing lesson_id", question.id)),
+            None => errors.push(format!("{} missing lesson_id", question.id)),
+            _ => {}
         }
     }
     if let Ok(text) = fs::read_to_string(root.join("audio/manifest.json")) {
@@ -365,8 +389,8 @@ fn check_question(path: &str, file_section: &str, question: &Question, meta: &Me
     let keys: String = question.choices.iter().map(|choice| choice.key.as_str()).collect();
     if question.kind == "mc" && keys != "ABCD" {
         errors.push(format!("{} multiple choice must be A B C D in order", question.id));
-    } else if question.kind == "tf" && keys != "TF" {
-        errors.push(format!("{} true/false must be T then F", question.id));
+    } else if question.kind == "tf" && keys != "AB" && keys != "TF" {
+        errors.push(format!("{} true/false must be A/B (True, False) or T/F", question.id));
     } else if question.kind != "mc" && question.kind != "tf" {
         errors.push(format!("{} type must be mc or tf", question.id));
     }
@@ -398,16 +422,32 @@ fn read_json<T: serde::de::DeserializeOwned>(root: &Path, path: &str) -> Result<
     serde_json::from_str(&text).map_err(|err| format!("{path}: {err}"))
 }
 
-fn walk_json(dir: &Path, root: &Path, acc: &mut Vec<String>) {
-    let Ok(entries) = fs::read_dir(dir) else { return };
-    for entry in entries.flatten() {
-        let path = entry.path();
-        if path.is_dir() {
-            walk_json(&path, root, acc);
-        } else if path.extension().and_then(|ext| ext.to_str()) == Some("json") {
+fn content_files(root: &Path, kind: &str) -> Vec<String> {
+    let mut paths = Vec::new();
+    for exam in ["sie", "s7"] {
+        let dir = root.join("content").join(exam).join(kind);
+        let Ok(entries) = fs::read_dir(&dir) else { continue };
+        let mut names: Vec<_> = entries.flatten().map(|entry| entry.path()).filter(|path| path.extension().and_then(|ext| ext.to_str()) == Some("json")).collect();
+        names.sort();
+        for path in names {
             if let Ok(rel) = path.strip_prefix(root) {
-                acc.push(rel.to_string_lossy().replace('\\', "/"));
+                paths.push(rel.to_string_lossy().replace('\\', "/"));
             }
         }
     }
+    paths
 }
+
+fn lesson_plan_ids(root: &Path) -> HashSet<String> {
+    let pattern = Regex::new(r"\b((?:sie|s7)-\d+-\d+)\b").unwrap();
+    let mut ids = HashSet::new();
+    for exam in ["sie", "s7"] {
+        let path = root.join("content").join(exam).join("LESSON_PLAN.md");
+        let Ok(text) = fs::read_to_string(path) else { continue };
+        for found in pattern.captures_iter(&text) {
+            ids.insert(found[1].to_string());
+        }
+    }
+    ids
+}
+

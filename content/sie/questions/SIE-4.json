@@ -1,46 +1,342 @@
 [
   {
-    "id": "sie-q-0015",
+    "id": "sie-q-0096",
     "exam": "SIE",
     "section": "SIE-4",
     "topic": "registration",
-    "difficulty": 1,
-    "type": "mc",
-    "sample": true,
-    "stem": "Form U4 is used to:",
-    "choices": [
-      { "key": "A", "text": "Register an associated person of a member firm" },
-      { "key": "B", "text": "Incorporate a new broker-dealer" },
-      { "key": "C", "text": "Open a customer's margin account" },
-      { "key": "D", "text": "Report a trade to the consolidated tape" }
-    ],
-    "answer": "A",
-    "spoken_stem": "What is Form U4 used for?",
-    "explanation": "Form U4, the Uniform Application for Securities Industry Registration or Transfer, registers an associated person through the Central Registration Depository. It collects employment, residential, disclosure, and qualification information. The firm must amend it when the information becomes inaccurate. It is not the customer's margin agreement, the firm's formation document, or a trade report.",
-    "spoken_explanation": "The answer is A. Form U4 registers an associated person of a member firm. It is filed through the Central Registration Depository and covers work history and disclosures. The firm has to update it when the answers change. It does not incorporate the broker-dealer, it does not open the customer's margin account, and it does not print a trade on the tape.",
-    "tags": ["sample", "u4"],
-    "outline_ref": "SIE 4.1"
-  },
-  {
-    "id": "sie-q-0016",
-    "exam": "SIE",
-    "section": "SIE-4",
-    "topic": "aml",
+    "lesson_id": "sie-4-02",
     "difficulty": 2,
     "type": "mc",
-    "sample": true,
-    "stem": "A representative suspects a customer is structuring cash activity to avoid a report. What should the representative do?",
+    "stem": "A registered representative is charged with a felony. Within what time frame must the Form U4 be amended?",
     "choices": [
-      { "key": "A", "text": "Escalate inside the firm and not warn the customer that a report may be filed" },
-      { "key": "B", "text": "Call the customer and describe the suspicion so they can fix the deposits" },
-      { "key": "C", "text": "Post the suspicion where other customers can see it" },
-      { "key": "D", "text": "Ignore it, because only banks file suspicious activity reports" }
+      {
+        "key": "A",
+        "text": "10 days"
+      },
+      {
+        "key": "B",
+        "text": "30 days after learning of the facts"
+      },
+      {
+        "key": "C",
+        "text": "Only upon conviction"
+      },
+      {
+        "key": "D",
+        "text": "At the next annual compliance meeting"
+      }
     ],
-    "answer": "A",
-    "spoken_stem": "A representative suspects a customer is structuring cash activity to avoid a report. What should the representative do?",
-    "explanation": "Broker-dealers file suspicious activity reports with FinCEN. The representative escalates under the firm's AML procedures and must not tip off the customer. Telling the subject can be a separate violation. Broker-dealers, not only banks, have SAR duties. When a suspect is identified, the firm generally has 30 days from initial detection to file; the representative's job is to escalate, not to file from a personal phone.",
-    "spoken_explanation": "The answer is A. Escalate inside the firm, and do not tell the customer that a suspicious activity report may be filed. Tipping the customer off is prohibited. Broker-dealers file these reports with FinCEN. It is not a bank-only duty. When a suspect is known, the firm generally has thirty days from detection to file. That clock belongs to the firm. The representative's job is to follow the firm's anti-money-laundering process and stay quiet with the customer.",
-    "tags": ["sample", "sar"],
-    "outline_ref": "SIE 4.3"
+    "answer": "B",
+    "spoken_stem": "A registered rep is charged with a felony. How soon must the Form U4 be amended? A, ten days. B, thirty days after learning of the facts. C, only once convicted. D, at the next annual compliance meeting.",
+    "explanation": "B is correct. Under the FINRA By-Laws, Article V, Form U4 must be kept current, and amendments must be filed no later than 30 days after learning of the facts or circumstances. Felony charges are reportable on the U4 even before a conviction, so C is wrong. A is not the general U4 deadline. D is far too late.",
+    "spoken_explanation": "B, within thirty days. Felony charges must be reported on the U4, not just convictions, and amendments are due within thirty days of learning the facts. Other U4 events include customer complaints, liens, bankruptcies, regulatory actions and changes of address. Willfully filing false or incomplete information can itself be grounds for discipline.",
+    "tags": [
+      "form-u4",
+      "reportable-events"
+    ],
+    "outline_ref": "4.2.1 Employee Conduct"
+  },
+  {
+    "id": "sie-q-0097",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "registration",
+    "lesson_id": "sie-4-02",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "When a registered representative leaves a firm, the firm must file a Form U5:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Within 10 days and send a copy to FINRA only"
+      },
+      {
+        "key": "B",
+        "text": "Within 30 days of termination and provide a copy to the individual"
+      },
+      {
+        "key": "C",
+        "text": "Within 90 days, but only if the termination was for cause"
+      },
+      {
+        "key": "D",
+        "text": "Only if the rep joins another FINRA firm"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "When a rep leaves a firm, when must the firm file Form U5? A, within ten days, copy to FINRA only. B, within thirty days of termination, with a copy to the rep. C, within ninety days, only if fired for cause. D, only if the rep joins another FINRA firm.",
+    "explanation": "B is correct. Form U5 must be filed within 30 days after termination, for any reason, and the firm must give the individual a copy within the same period. It discloses the reason for leaving and any reportable events. A has the wrong deadline and omits the copy. C is wrong: every termination requires a U5. D is wrong: it's required regardless of where the rep goes.",
+    "spoken_explanation": "B. Thirty days after anyone leaves, for any reason, the firm files the U5 and gives the rep a copy. If the U5 shows a termination for cause, it shows up on BrokerCheck and future employers will see it, so firms must be accurate. Misstatements can lead to defamation claims and FINRA discipline.",
+    "tags": [
+      "form-u5",
+      "termination"
+    ],
+    "outline_ref": "4.2.1 Employee Conduct"
+  },
+  {
+    "id": "sie-q-0098",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "registration",
+    "lesson_id": "sie-4-01",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Which of the following would generally cause a statutory disqualification under the Securities Exchange Act of 1934?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A speeding ticket two years ago"
+      },
+      {
+        "key": "B",
+        "text": "A felony conviction within the past 10 years"
+      },
+      {
+        "key": "C",
+        "text": "A personal bankruptcy filing six years ago"
+      },
+      {
+        "key": "D",
+        "text": "A customer complaint that was settled for $5,000"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "Which would generally cause a statutory disqualification? A, a speeding ticket two years ago. B, a felony conviction within the last ten years. C, a personal bankruptcy six years ago. D, a customer complaint settled for five thousand.",
+    "explanation": "B is correct. Exchange Act Section 3(a)(39) includes any felony conviction within the past 10 years, as well as certain securities- or money-related misdemeanors, SRO expulsions and certain regulatory orders. C and D are reportable on Form U4 in many cases but are not statutory disqualifications. A is not reportable or disqualifying.",
+    "spoken_explanation": "B, a felony in the last ten years. Bankruptcies and settled complaints get disclosed on the U4, but they don't automatically disqualify you. A statutorily disqualified person can only stay in the industry if the firm applies and FINRA approves continued association, usually with heightened supervision.",
+    "tags": [
+      "statutory-disqualification",
+      "form-u4"
+    ],
+    "outline_ref": "4.1.1 Registration and Continuing Education"
+  },
+  {
+    "id": "sie-q-0099",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "continuing-education",
+    "lesson_id": "sie-4-01",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Under FINRA Rule 1240, how often must a registered person complete the Regulatory Element of continuing education?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Every 3 years after registration"
+      },
+      {
+        "key": "B",
+        "text": "Annually, by December 31"
+      },
+      {
+        "key": "C",
+        "text": "Only on the 2nd, 5th and 10th registration anniversaries"
+      },
+      {
+        "key": "D",
+        "text": "Only when switching firms"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "Under FINRA Rule twelve forty, how often must a registered person complete the Regulatory Element of C E? A, every three years. B, every year by December thirty-first. C, only at the second, fifth and tenth anniversaries. D, only when switching firms.",
+    "explanation": "B is correct. Since January 1, 2023, the Regulatory Element must be completed annually, by December 31 of each year, with content tailored to the person's registrations. Missing it makes the person CE-inactive. A and C reflect the old anniversary-based schedule. D isn't a trigger. The Firm Element, the firm's own annual training, is separate.",
+    "spoken_explanation": "B, every year by December thirty-first. The old schedule of second, fifth and tenth anniversaries ended in twenty twenty-three. The Firm Element is the firm's own yearly training, and it's separate. Persons who leave the industry can keep their qualifications alive for up to five years through the Maintaining Qualifications Program, by completing annual CE.",
+    "tags": [
+      "continuing-education",
+      "rule-1240",
+      "regulatory-element"
+    ],
+    "outline_ref": "4.1.1 Registration and Continuing Education"
+  },
+  {
+    "id": "sie-q-0100",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "registration",
+    "lesson_id": "sie-4-01",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A sales assistant who is NOT registered may do which of the following?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Accept an unsolicited order from a customer when the rep is out"
+      },
+      {
+        "key": "B",
+        "text": "Make cold calls to schedule appointments for the rep, without discussing investments"
+      },
+      {
+        "key": "C",
+        "text": "Receive a share of commissions on trades they processed"
+      },
+      {
+        "key": "D",
+        "text": "Recommend money market funds to customers"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "A sales assistant who is NOT registered may do which of these? A, take an unsolicited order when the rep is out. B, cold-call to set appointments, without discussing investments. C, get a share of commissions on trades they handled. D, recommend money market funds.",
+    "explanation": "B is correct. Unregistered persons may do clerical and ministerial tasks, including calls only to set appointments or qualify leads, as long as they don't discuss investments. A is wrong: taking orders requires registration. C violates FINRA Rule 2040, which bars paying transaction-based compensation to unregistered persons. D is a recommendation, and that requires registration.",
+    "spoken_explanation": "B. An unregistered assistant can set appointments but can't take orders, can't make recommendations, and can't be paid commissions. Rule twenty-forty also bars paying transaction-based compensation to any unregistered person, including finders, unless an exception applies. A good test: if the task involves investment advice, accepting orders, or getting paid per trade, registration is required.",
+    "tags": [
+      "unregistered-persons",
+      "rule-2040"
+    ],
+    "outline_ref": "4.1.1 Registration and Continuing Education"
+  },
+  {
+    "id": "sie-q-0101",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "outside-activities",
+    "lesson_id": "sie-4-03",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Under FINRA Rule 3270, a registered rep who wants to take a paid weekend job as a real estate agent must:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Do nothing, since the job is unrelated to securities"
+      },
+      {
+        "key": "B",
+        "text": "Provide prior written notice to the member firm"
+      },
+      {
+        "key": "C",
+        "text": "Obtain FINRA's prior written approval"
+      },
+      {
+        "key": "D",
+        "text": "Notify the firm within 30 days after starting"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "Under FINRA Rule thirty-two seventy, a rep wants a paid weekend job as a real estate agent. What must she do? A, nothing, it's unrelated to securities. B, give her firm prior written notice. C, get FINRA's prior approval. D, tell the firm within thirty days after starting.",
+    "explanation": "B is correct. Rule 3270 requires prior written notice to the firm before engaging in any outside business activity for compensation, even one unrelated to securities. The firm then assesses it and may restrict or prohibit it. A is wrong because unrelated paid work still counts. C is wrong: notice goes to the firm, not FINRA. D is after the fact. Note: the SEC approved new FINRA Rule 3290 in September 2026, consolidating Rules 3270 and 3280 and effective October 25, 2027. Until then, 3270 applies.",
+    "spoken_explanation": "B, prior written notice to her firm. Any paid outside work counts, even outside securities. Heads up: FINRA's new Rule thirty-two ninety replaces thirty-two seventy and thirty-two eighty in October twenty twenty-seven. Passive investments, like buying stock in a company, generally don't count as an outside business activity, but private securities transactions are covered by a different rule.",
+    "tags": [
+      "outside-business-activities",
+      "rule-3270",
+      "rule-change-pending"
+    ],
+    "outline_ref": "4.2.2 Reportable Events"
+  },
+  {
+    "id": "sie-q-0102",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "outside-activities",
+    "lesson_id": "sie-4-03",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "A rep wants to sell interests in a friend's private real estate venture, away from her firm, and will receive a commission. Under FINRA Rule 3280, which is required?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Written notice only; no approval needed"
+      },
+      {
+        "key": "B",
+        "text": "Prior written notice, and the firm's written approval, with the firm recording and supervising the trade as its own"
+      },
+      {
+        "key": "C",
+        "text": "FINRA approval and a Form U4 amendment"
+      },
+      {
+        "key": "D",
+        "text": "Nothing, since private placements are exempt from registration"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "A rep wants to sell interests in a friend's private real estate deal, away from her firm, for a commission. Under Rule thirty-two eighty, what's required? A, written notice only. B, prior written notice and the firm's written approval, with the firm recording and supervising it as its own. C, FINRA approval and a U4 amendment. D, nothing, private placements are exempt.",
+    "explanation": "B is correct. A private securities transaction for compensation requires prior written notice describing the deal and the rep's role. The firm must approve or disapprove in writing. If approved, it records the transaction on its books and supervises it as its own. If there's no compensation, written notice is required and the firm may require more. A applies to uncompensated transactions. C isn't the mechanism. D confuses issuer registration exemptions with the rep's conduct obligations. Rule 3290 will replace Rule 3280 effective October 25, 2027.",
+    "spoken_explanation": "B. Selling away for pay needs written notice, then the firm's written approval, and then the firm books and supervises it like its own business. Without pay, written notice is the minimum. Selling away without telling the firm is one of the most common reasons reps get barred. Investors who lose money often try to hold the firm responsible.",
+    "tags": [
+      "private-securities-transactions",
+      "selling-away",
+      "rule-3280",
+      "rule-change-pending"
+    ],
+    "outline_ref": "4.2.2 Reportable Events"
+  },
+  {
+    "id": "sie-q-0103",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "gifts",
+    "lesson_id": "sie-4-03",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "As of 2026, under FINRA Rule 3220, a rep may give a gift to an employee of a client institution, in relation to that institution's business, worth no more than:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "$50 per person per year"
+      },
+      {
+        "key": "B",
+        "text": "$100 per person per year"
+      },
+      {
+        "key": "C",
+        "text": "$300 per person per year"
+      },
+      {
+        "key": "D",
+        "text": "$500 per person per year"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "As of twenty twenty-six, under FINRA Rule thirty-two twenty, what's the most a rep can give as a gift to an employee of a client institution, in relation to that business? A, fifty dollars a year. B, one hundred a year. C, three hundred a year. D, five hundred a year.",
+    "explanation": "C is correct. FINRA raised the Rule 3220 gift limit from $100 to $300 per person per year, effective March 30, 2026 (Regulatory Notice 26-05). MSRB Rule G-20 followed for FINRA-member dealers on June 1, 2026. B was the limit from 1992 until March 2026, and exam prep material written earlier may still show $100. Ordinary business entertainment where the rep attends isn't counted toward the gift limit, though gifts given at the event are. A and D are not the limits.",
+    "spoken_explanation": "C, three hundred dollars per person per year. That's new: FINRA raised it from one hundred in March twenty twenty-six, and the M S R B matched it in June. Older study material still says one hundred. Business entertainment where you're actually there doesn't count toward the limit.",
+    "tags": [
+      "gifts",
+      "rule-3220",
+      "changes-yearly",
+      "recent-rule-change"
+    ],
+    "outline_ref": "4.2.2 Reportable Events"
+  },
+  {
+    "id": "sie-q-0104",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "political-contributions",
+    "lesson_id": "sie-4-03",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "Under MSRB Rule G-37, a municipal finance professional may contribute up to what amount per election to an official of an issuer, for whom the professional is entitled to vote, without triggering the two-year ban on municipal securities business?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "$100"
+      },
+      {
+        "key": "B",
+        "text": "$250"
+      },
+      {
+        "key": "C",
+        "text": "$1,000"
+      },
+      {
+        "key": "D",
+        "text": "$2,500"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "Under M S R B Rule G thirty-seven, how much per election can a municipal finance professional give to an issuer official they can vote for, without triggering the two-year business ban? A, one hundred. B, two hundred fifty. C, one thousand. D, twenty-five hundred.",
+    "explanation": "B is correct. G-37 allows contributions up to $250 per election to an issuer official for whom the municipal finance professional is entitled to vote. Larger contributions can trigger a two-year ban on negotiated municipal securities business with that issuer. A is wrong: $100 was the old MSRB gift limit, which is $300 for FINRA-member dealers since June 2026. C and D are not G-37 figures.",
+    "spoken_explanation": "B, two hundred fifty dollars per election, and only if you can vote for that official. Go over, and the firm can face a two-year ban on doing business with that issuer. The rule is meant to stop pay-to-play: firms giving to officials who then pick them to underwrite bonds. Contributions are tracked on M S R B Form G thirty-seven.",
+    "tags": [
+      "political-contributions",
+      "msrb-g-37",
+      "pay-to-play"
+    ],
+    "outline_ref": "4.2.2 Reportable Events"
   }
 ]

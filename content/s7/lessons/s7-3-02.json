@@ -1,0 +1,99 @@
+{
+ "id": "s7-3-02",
+ "exam": "S7",
+ "section": "S7-3",
+ "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+ "title": "Hedging and income with options",
+ "order": 2,
+ "est_minutes": 8,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "In the last lesson, each option stood alone. Now we pair options with stock. That's what most real customers do, and it's how the Series 7 tests suitability. There are four combinations to master: protective puts, covered calls, hedging a short sale with a call, and covered puts. The good news is that one idea drives all four. The option either protects the stock position or earns income against it."
+  },
+  {
+   "type": "narration",
+   "text": "First, the protective put. A customer owns stock and buys a put. The put guarantees a sale price at the strike, so it works like insurance. Insurance isn't free, so the stock must rise by the amount of the premium before the customer breaks even. For long stock plus a long put, breakeven is the stock cost plus the premium."
+  },
+  {
+   "type": "narration",
+   "text": "Walk it through. The customer buys a hundred shares at forty-two and a forty put at one and a half. Breakeven is forty-two plus one and a half, which is forty-three and a half. Now the maximum loss. The put lets the customer sell at forty no matter what, so the stock can only lose forty-two minus forty, which is two points. Add the one and a half premium, and the maximum loss is three and a half points, or three hundred fifty dollars. The maximum gain is unlimited, because the stock is still owned and can keep rising."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0011"
+  },
+  {
+   "type": "narration",
+   "text": "Second, the covered call. The customer owns stock and sells a call against it. This brings in income, but it caps the upside, because above the strike the stock will be called away. Breakeven is the stock cost minus the premium, since the premium lowers the effective cost. Maximum gain is the strike minus the cost, plus the premium. In other words, the stock's gain up to the strike, plus the income."
+  },
+  {
+   "type": "narration",
+   "text": "Example. The customer buys at thirty-six and sells a forty call at two. Breakeven is thirty-six minus two, which is thirty-four. Maximum gain is forty minus thirty-six, which is four, plus the premium of two, for six points, or six hundred dollars."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0013"
+  },
+  {
+   "type": "narration",
+   "text": "Here's the trap with covered calls. They give only limited downside protection, equal to the premium. If the stock collapses to zero, the customer loses the stock cost minus the premium. Buy at fifty, sell a fifty-five call at three, and the stock goes to zero: you lose fifty minus three, which is forty-seven points, or four thousand seven hundred dollars. The exam likes to contrast the two strategies. A protective put gives full protection below the strike, and it costs money. A covered call gives partial protection, and it pays you."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0017"
+  },
+  {
+   "type": "narration",
+   "text": "Suitability follows from this. A customer who owns a stock, expects it to stay flat, and wants extra income is a textbook covered call writer. A customer who owns a stock, is nervous about a drop, and wants to keep the upside should buy a protective put."
+  },
+  {
+   "type": "narration",
+   "text": "Third, protecting a short sale. A short seller loses when the stock rises, and that loss has no limit. The full hedge is to buy a call, which locks in the most the customer will ever pay to buy the shares back. With short stock plus a long call, the breakeven is the short sale price minus the premium, because the stock has to fall by the premium to pay for the insurance. The maximum loss is the strike minus the short sale price, plus the premium. Short at fifty-eight and buy a sixty call at three: the stock side can lose two points, plus three of premium, so the maximum loss is five hundred dollars."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0015"
+  },
+  {
+   "type": "narration",
+   "text": "Fourth, the covered put, also called income on a short position. A customer who is short stock can sell a put. That brings in premium, which cushions a rise in the stock, but only by the premium amount, so it's partial protection. If the stock falls below the strike, the put is exercised, and the customer buys shares, which closes out the short. Think of it as the mirror image of the covered call."
+  },
+  {
+   "type": "narration",
+   "text": "Here's a quick sort that answers most of these questions. Ask two things. Is the customer long or short the stock? Then, does the customer want protection or income? Long stock wanting protection: buy a put. Long stock wanting income: sell a call. Short stock wanting protection: buy a call. Short stock wanting income: sell a put. Protection means buying an option, and income means selling one. The option you buy or sell is always the one that pays off or costs you in the direction that hurts the stock position."
+  },
+  {
+   "type": "narration",
+   "text": "Last, mind the units. One contract covers one hundred shares, so a customer with five hundred shares hedges with five contracts. And breakeven and maximum loss formulas are per share, so multiply by one hundred times the number of contracts at the end."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Protective put",
+   "definition": "Long stock + long put; full downside protection below the strike for the cost of the premium."
+  },
+  {
+   "term": "Covered call",
+   "definition": "Long stock + short call; income with limited downside protection and capped upside."
+  },
+  {
+   "term": "Covered put",
+   "definition": "Short stock + short put; income with partial protection against a rise."
+  },
+  {
+   "term": "Hedged short sale",
+   "definition": "Short stock + long call; caps the loss at strike - sale price + premium."
+  },
+  {
+   "term": "Partial vs full protection",
+   "definition": "Selling options gives protection only equal to the premium; buying options gives full protection beyond the strike."
+  }
+ ],
+ "mnemonics": [
+  "Protection = buy an option; income = sell an option.",
+  "Long stock: put protects, call pays. Short stock: call protects, put pays.",
+  "Long stock breakeven moves UP by premium paid, DOWN by premium received."
+ ],
+ "summary": "A protective put (long stock + long put) breaks even at cost plus premium, has max loss of cost minus strike plus premium, and unlimited upside. A covered call (long stock + short call) breaks even at cost minus premium, with max gain of strike minus cost plus premium. Its protection is limited to the premium. Short stock is fully hedged by buying a call (max loss = strike minus sale price plus premium). Selling a put against short stock earns income but gives only partial protection. Protection means buying, and income means selling."
+}

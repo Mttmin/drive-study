@@ -1,20 +1,42 @@
 [
-  {
-    "id": "s7-f-0001",
-    "exam": "S7",
-    "section": "S7-1",
-    "sample": true,
-    "front": "Telemarketing hours",
-    "back": "8:00 a.m. to 9:00 p.m. local time of the person called.",
-    "spoken": "Telemarketing hours. Eight in the morning to nine at night, local time of the person called."
-  },
-  {
-    "id": "s7-f-0002",
-    "exam": "S7",
-    "section": "S7-1",
-    "sample": true,
-    "front": "Guaranteed-return language",
-    "back": "Promising a guaranteed profit or no risk in a communication is prohibited.",
-    "spoken": "Guaranteed-return language. Promising a guaranteed profit or no risk in a communication is prohibited."
-  }
+ {
+  "id": "s7-f-0066",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Correspondence vs retail communication",
+  "back": "Correspondence: 25 or fewer retail investors in 30 days. More: retail communication.",
+  "spoken": "Twenty-five or fewer retail investors in thirty days is correspondence. More is a retail communication."
+ },
+ {
+  "id": "s7-f-0067",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Options retail communications approval",
+  "back": "Registered Options Principal, before use (Rule 2220).",
+  "spoken": "Options retail communications need a registered options principal's approval before use."
+ },
+ {
+  "id": "s7-f-0068",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Cooling-off period",
+  "back": "At least 20 days. Red herring and indications of interest allowed; no sales or payments.",
+  "spoken": "Cooling off lasts at least twenty days. You can hand out the red herring and take indications of interest, but no sales."
+ },
+ {
+  "id": "s7-f-0069",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Accredited investor (individual)",
+  "back": "Income > $200K ($300K joint) in each of last 2 years, or net worth > $1M excluding primary residence.",
+  "spoken": "Accredited individual: over two hundred thousand of income for two years, three hundred joint, or over a million in net worth without the home."
+ },
+ {
+  "id": "s7-f-0070",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "MSRB G-37 de minimis",
+  "back": "$250 per election, only to officials the MFP can vote for.",
+  "spoken": "G thirty-seven allows two hundred fifty dollars per election, only to officials you can vote for."
+ }
 ]

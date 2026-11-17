@@ -182,18 +182,23 @@ pub fn build_mock(exam: ExamId, timed: bool, questions: &[Question], blueprint: 
         .iter()
         .map(|section| WeightedSection { id: section.id.clone(), weight: section.weight })
         .collect();
-    let picked = draw_weighted(&items, &weights, blueprint.questions as usize, rng);
-    let short = picked.len() < blueprint.questions as usize;
-    let scaled = (blueprint.minutes as f64 * 60.0 * (picked.len() as f64 / blueprint.questions as f64)).round().max(60.0) as u32;
+    let scored = blueprint.scored_questions as usize;
+    let picked = draw_weighted(&items, &weights, scored, rng);
+    let short = picked.len() < scored;
+    let scaled = (blueprint.time_limit_minutes as f64 * 60.0 * (picked.len() as f64 / scored.max(1) as f64)).round().max(60.0) as u32;
     let note = if short {
         Some(format!(
-            "Sample pool: {} questions. A full {} mock is {} scored questions. FINRA also adds 10 unscored pretest items on the real exam.",
+            "Library pool: {} questions. A full {} mock is {} scored questions. FINRA also adds {} unscored pretest items.",
             picked.len(),
             exam.as_str(),
-            blueprint.questions
+            blueprint.scored_questions,
+            blueprint.unscored_questions
         ))
     } else {
-        Some("FINRA also adds 10 unscored pretest items on the real exam. This mock uses the scored count.".into())
+        Some(format!(
+            "FINRA also adds {} unscored pretest items. This mock uses the {} scored questions.",
+            blueprint.unscored_questions, blueprint.scored_questions
+        ))
     };
     let session_items: Vec<SessionItem> = picked.into_iter().map(|item| SessionItem::Question(item.value)).collect();
     SessionPlan {
@@ -203,7 +208,7 @@ pub fn build_mock(exam: ExamId, timed: bool, questions: &[Question], blueprint: 
         listen_only,
         timed,
         limit_seconds: timed.then_some(scaled),
-        pass_percent: Some(blueprint.pass_percent),
+        pass_percent: Some(blueprint.passing_score),
         estimated_seconds: if timed { scaled } else { estimate(&session_items) },
         items: session_items,
         note,

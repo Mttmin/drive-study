@@ -1,46 +1,271 @@
 [
-  {
-    "id": "s7-q-0001",
-    "exam": "S7",
-    "section": "S7-1",
-    "topic": "telemarketing",
-    "difficulty": 2,
-    "type": "mc",
-    "sample": true,
-    "stem": "Under FINRA's telemarketing rule, which call to a prospect's residence is within the allowed hours?",
-    "choices": [
-      { "key": "A", "text": "2:00 p.m. local time of the person called" },
-      { "key": "B", "text": "7:00 a.m. local time of the person called" },
-      { "key": "C", "text": "9:30 p.m. local time of the person called" },
-      { "key": "D", "text": "Any hour, if the firm has not built a do-not-call list" }
-    ],
-    "answer": "A",
-    "spoken_stem": "Under FINRA's telemarketing rule, which unsolicited call to a prospect's home is inside the allowed hours?",
-    "explanation": "FINRA Rule 3230 limits outbound solicitation calls to a residence to 8:00 a.m. through 9:00 p.m. local time of the person called. 7:00 a.m. is too early and 9:30 p.m. is too late. A firm must also maintain a do-not-call list. The clock is the called person's local time, not the representative's.",
-    "spoken_explanation": "The answer is A, two in the afternoon, local time of the person being called. FINRA Rule 3230 allows solicitation calls to a home only from eight in the morning to nine at night, in that person's local time. Seven in the morning is too early. Nine thirty at night is too late. The firm still has to keep a do-not-call list. Skipping that list does not open the clock.",
-    "tags": ["sample", "communications"],
-    "outline_ref": "Series 7 Function 1"
-  },
-  {
-    "id": "s7-q-0002",
-    "exam": "S7",
-    "section": "S7-1",
-    "topic": "communications",
-    "difficulty": 1,
-    "type": "mc",
-    "sample": true,
-    "stem": "A representative wants to text a prospect: \"Guaranteed 20 percent returns with no risk.\" This message is:",
-    "choices": [
-      { "key": "A", "text": "A prohibited exaggerated and promissory claim" },
-      { "key": "B", "text": "Fine if the representative believes it" },
-      { "key": "C", "text": "Required wording on an options recommendation" },
-      { "key": "D", "text": "Allowed, because a text is not a communication with the public" }
-    ],
-    "answer": "A",
-    "spoken_stem": "A representative wants to text a prospect that returns of twenty percent are guaranteed and that there is no risk. What is wrong with that message?",
-    "explanation": "FINRA Rule 2210 covers communications with the public, including texts and social messages. Promising a guaranteed return or claiming no risk is misleading and not allowed. A representative's personal belief does not cure the claim. Options involve risk; guaranteed language is the opposite of a proper disclosure. The channel does not take the message outside the rule.",
-    "spoken_explanation": "The answer is A. Promising a guaranteed twenty percent return with no risk is an exaggerated, promissory claim, and it is prohibited. FINRA's communications rule covers texts, not just printed ads. Believing the sentence does not make it fair. Options are not sold with a guarantee of no risk. The fact that the message is a text does not take it outside the rule.",
-    "tags": ["sample", "communications"],
-    "outline_ref": "Series 7 Function 1"
-  }
+ {
+  "id": "s7-q-0105",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-01",
+  "difficulty": 1,
+  "type": "mc",
+  "stem": "Under FINRA Rule 2210, a written communication distributed to 25 or fewer retail investors within any 30-calendar-day period is classified as:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Retail communication"
+   },
+   {
+    "key": "B",
+    "text": "Correspondence"
+   },
+   {
+    "key": "C",
+    "text": "Institutional communication"
+   },
+   {
+    "key": "D",
+    "text": "Independently prepared reprint"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Under Rule twenty-two ten, a written communication sent to twenty-five or fewer retail investors within thirty days is called what?",
+  "explanation": "Correspondence is any written communication distributed to 25 or fewer retail investors within a 30-calendar-day period. More than 25 retail investors in that window makes it a retail communication. Institutional communication goes only to institutional investors. A reprint is a type of retail communication.",
+  "spoken_explanation": "Twenty-five or fewer retail investors in thirty days: correspondence. More than twenty-five: retail communication. Institutional communications only go to institutions. Correspondence doesn't need prior principal approval. It's reviewed under the firm's supervisory procedures, often after it's sent. Once a message reaches more than twenty-five retail investors in thirty days, it becomes a retail communication and generally needs a principal's approval before use.",
+  "tags": [
+   "communications",
+   "rule-2210",
+   "correspondence"
+  ],
+  "outline_ref": "1.1 Types of communications (retail, institutional, correspondence)"
+ },
+ {
+  "id": "s7-q-0106",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Retail communications concerning options must be approved in advance by:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Any general securities principal"
+   },
+   {
+    "key": "B",
+    "text": "A registered options principal"
+   },
+   {
+    "key": "C",
+    "text": "The Cboe"
+   },
+   {
+    "key": "D",
+    "text": "The OCC"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Retail communications about options must be approved in advance by whom?",
+  "explanation": "FINRA Rule 2220 requires options retail communications to be approved in advance by a Registered Options Principal (ROP) or a designee. A general principal without options qualification is not sufficient. The Cboe and OCC do not approve a firm's communications.",
+  "spoken_explanation": "Options retail communications need an options principal's approval before use, the R O P. The exchanges and the clearing corporation don't sign off on your firm's ads. Also remember that the options disclosure document must reach the customer at or before account approval, before any options trading.",
+  "tags": [
+   "communications",
+   "options",
+   "rule-2220"
+  ],
+  "outline_ref": "1.1 Options-related communications; options disclosure document"
+ },
+ {
+  "id": "s7-q-0107",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "new-issues",
+  "lesson_id": "s7-1-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "During the cooling-off period of a registered offering, a registered representative may do each of the following EXCEPT:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Distribute a preliminary prospectus"
+   },
+   {
+    "key": "B",
+    "text": "Take indications of interest"
+   },
+   {
+    "key": "C",
+    "text": "Accept a customer's payment for shares"
+   },
+   {
+    "key": "D",
+    "text": "Provide a tombstone ad"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "During the cooling-off period, a rep can do each of these EXCEPT which? A, hand out the preliminary prospectus. B, take indications of interest. C, accept payment for shares. D, provide a tombstone ad.",
+  "explanation": "During the cooling-off period (at least 20 days after filing), sales are prohibited: no orders can be accepted and no money can be taken. Reps may distribute the preliminary prospectus (red herring), take non-binding indications of interest, and use a tombstone ad.",
+  "spoken_explanation": "Cooling-off means no sales: no orders, no money. You can hand out the red herring, take non-binding indications of interest, and run a tombstone. The cooling-off period lasts at least twenty days after filing the registration statement. Sales start after the effective date. Indications of interest aren't binding on either side.",
+  "tags": [
+   "new-issues",
+   "cooling-off",
+   "red-herring",
+   "except"
+  ],
+  "outline_ref": "1.2 Information required in offering material on new issue (cooling-off period)"
+ },
+ {
+  "id": "s7-q-0108",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "exempt-offerings",
+  "lesson_id": "s7-1-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which individual qualifies as an accredited investor under Regulation D?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "A single person who earned $210,000 in each of the last two years and expects the same this year"
+   },
+   {
+    "key": "B",
+    "text": "A person with $1.2 million of net worth, $500,000 of which is home equity in a primary residence"
+   },
+   {
+    "key": "C",
+    "text": "A married couple with joint income of $280,000 in each of the last two years"
+   },
+   {
+    "key": "D",
+    "text": "A person who earned $250,000 this year but $90,000 last year"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which person qualifies as an accredited investor? A, a single person earning two hundred ten thousand each of the last two years, expecting the same. B, someone worth one point two million including five hundred thousand of home equity. C, a couple with joint income of two eighty each of the last two years. D, someone earning two fifty this year but ninety last year.",
+  "explanation": "A natural person is accredited with individual income above $200,000 (or joint income above $300,000) in each of the two most recent years with a reasonable expectation of the same this year, or net worth above $1 million EXCLUDING the primary residence. $210,000 each year qualifies. The $1.2M net worth falls to $700,000 without the home. $280,000 joint is below $300,000. One year of high income is not enough.",
+  "spoken_explanation": "Accredited individual: over two hundred thousand of income for two straight years, or three hundred thousand joint, with the same expected, or a million of net worth, not counting the home. Only the single person earning two ten twice qualifies. Income must be expected to continue in the current year. Primary residence equity doesn't count toward net worth.",
+  "tags": [
+   "reg-d",
+   "accredited-investor",
+   "private-placement"
+  ],
+  "outline_ref": "1.2 Regulation D offerings; accredited investors"
+ },
+ {
+  "id": "s7-q-0109",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "municipal-underwriting",
+  "lesson_id": "s7-1-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Under MSRB Rule G-37, a municipal finance professional who is entitled to vote for an issuer official may contribute up to how much per election to that official without triggering the two-year business ban?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$100"
+   },
+   {
+    "key": "B",
+    "text": "$250"
+   },
+   {
+    "key": "C",
+    "text": "$500"
+   },
+   {
+    "key": "D",
+    "text": "$1,000"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Under M S R B Rule G thirty-seven, a municipal finance professional who can vote for an official can give how much per election without triggering the two-year ban?",
+  "explanation": "G-37 provides a de minimis exception of $250 per election for contributions by a municipal finance professional to an official for whom he or she is entitled to vote. Larger contributions can trigger a two-year ban on municipal securities business with that issuer. The other amounts are incorrect.",
+  "spoken_explanation": "G thirty-seven: two hundred fifty dollars per election, and only if you can vote for the official. More than that can mean a two-year ban on municipal business with that issuer. The rule targets pay to play, meaning political contributions made to win municipal underwriting business. Exceeding the limit can trigger the two-year ban.",
+  "tags": [
+   "munis",
+   "msrb",
+   "g-37",
+   "political-contributions"
+  ],
+  "outline_ref": "1.2 Primary financing for municipal securities; MSRB rules"
+ },
+ {
+  "id": "s7-q-0110",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "municipal-underwriting",
+  "lesson_id": "s7-1-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "In a competitive municipal bond sale, the issuer generally awards the bonds to the syndicate that:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Offers the highest spread"
+   },
+   {
+    "key": "B",
+    "text": "Submits the lowest interest cost bid (NIC or TIC)"
+   },
+   {
+    "key": "C",
+    "text": "Was selected in advance by the issuer's financial advisor"
+   },
+   {
+    "key": "D",
+    "text": "Has the most members"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "In a competitive municipal sale, who usually wins the bonds?",
+  "explanation": "In a competitive sale, the issuer publishes a notice of sale and awards the bonds to the syndicate whose bid produces the lowest interest cost to the issuer, measured as net interest cost (NIC) or true interest cost (TIC). Selecting an underwriter in advance describes a negotiated sale. Spread size and syndicate size do not determine the award.",
+  "spoken_explanation": "Competitive sale: sealed bids, and the lowest cost of borrowing wins, measured as net or true interest cost. Picking the underwriter up front is a negotiated sale. Negotiated sales are often used for complex or revenue issues. Competitive sales are common for GO bonds. In a negotiated sale, the issuer picks the underwriter first and works out the terms with it.",
+  "tags": [
+   "munis",
+   "competitive-sale",
+   "underwriting"
+  ],
+  "outline_ref": "1.2 Primary financing for municipal securities (competitive sale, negotiated sale)"
+ },
+ {
+  "id": "s7-q-0111",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A firm plans to email the same market commentary to 500 retail customers. Under FINRA Rule 2210, which is generally required?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "No approval, because email is correspondence"
+   },
+   {
+    "key": "B",
+    "text": "Approval by a qualified principal before use"
+   },
+   {
+    "key": "C",
+    "text": "Filing with the SEC before use"
+   },
+   {
+    "key": "D",
+    "text": "Approval only if it mentions specific securities"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A firm emails the same market commentary to five hundred retail customers. What does Rule twenty-two ten generally require?",
+  "explanation": "Sent to more than 25 retail investors within 30 days, the email is a retail communication. Rule 2210 generally requires a qualified principal to approve retail communications before use (or filing), subject to limited exceptions. It is not correspondence, which is limited to 25 or fewer retail investors. FINRA, not the SEC, handles filings. Approval does not depend on naming securities.",
+  "spoken_explanation": "Five hundred retail recipients makes it a retail communication, not correspondence. So a qualified principal generally approves it before it goes out. Retail communications from new firms must also be filed with FINRA for the first year. Institutional communications don't need prior approval. Count retail recipients first, then apply the approval rule.",
+  "tags": [
+   "communications",
+   "rule-2210",
+   "retail-communication",
+   "principal-approval"
+  ],
+  "outline_ref": "1.1 Standards and required approvals of public communications"
+ }
 ]

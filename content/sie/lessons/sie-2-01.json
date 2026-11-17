@@ -3,26 +3,84 @@
   "exam": "SIE",
   "section": "SIE-2",
   "section_title": "Understanding Products and Their Risks",
-  "title": "Sample: Stock, bonds, and a fund sales charge",
+  "title": "Common and Preferred Stock: Ownership, Voting and Dividends",
   "order": 1,
-  "est_minutes": 5,
-  "sample": true,
+  "est_minutes": 6,
   "segments": [
     {
       "type": "narration",
-      "text": "This is a sample lesson. Common stock is ownership. A common stockholder generally votes for the board and has a residual claim, which means bondholders and preferred stockholders are ahead if the company is wound up. The dividend is not guaranteed. The board declares it, or it does not. Preferred stock usually pays a stated dividend and stands ahead of common stock for dividends and in a liquidation. It usually does not vote. If the preferred is cumulative and the company skips a dividend, that skipped amount has to be paid before the common stock receives a dividend. If it is non-cumulative, a skipped dividend is gone. Neither kind of stock has a maturity date the way a bond does."
+      "text": "This lesson starts the biggest section of the SIE: products and their risks, forty-four percent of the exam. We begin with the most basic security there is, stock, meaning equity, meaning ownership. We'll cover what common stockholders actually get, how voting works, where stockholders stand if the company fails, and how preferred stock differs."
     },
     {
       "type": "narration",
-      "text": "A bond is a loan. The coupon is the stated interest rate, and it does not change just because market rates change. Prices and yields move in opposite directions. When rates rise, an existing bond with a lower coupon is worth less, so its price falls. A mutual fund share is priced at net asset value, the fund's assets minus its liabilities, divided by the shares. A front-end load fund is sold at a public offering price above that value. The sales charge percentage is the difference divided by the public offering price, not by the net asset value. If the net asset value is eighteen dollars and the public offering price is twenty, the sales charge is two dollars divided by twenty, which is ten percent. Dividing two by eighteen is the trap. A call option is a different product again. The buyer pays a premium for the right, not the obligation, to buy the stock at the strike. The right to sell is a put."
+      "text": "Common stock represents a residual ownership interest in a corporation. Residual is the key word. Common holders own whatever is left after everyone with a prior claim is paid. That's why common stock has the most upside and the most risk. Common stockholders have limited liability: they can lose what they paid for the shares, but creditors can't come after their personal assets. Their rights include voting, receiving dividends if the board declares them, inspecting certain books and records such as the shareholder list and minutes, transferring their shares freely, and in many companies, preemptive rights to keep their percentage of ownership when new shares are issued. Notice the phrasing: dividends if declared. Common stockholders have no right to a dividend. The board of directors decides."
     },
-    { "type": "check", "question_id": "sie-q-0008" }
+    {
+      "type": "narration",
+      "text": "Now liquidation. If a company is dissolved or liquidated in bankruptcy, the order of payment is a guaranteed test item. Creditors come before owners. First, secured creditors, whose claims are backed by specific collateral. Then unsecured creditors, which include holders of debentures and general creditors. Then subordinated debt holders. After all the debt is paid, preferred stockholders. And common stockholders are last. In a real bankruptcy, last usually means nothing at all."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0020"
+    },
+    {
+      "type": "narration",
+      "text": "Let's talk voting. Common stockholders vote on major corporate matters, like electing the board of directors, approving stock splits, and changing the corporate charter. They don't vote on dividends; that's a board decision. There are two methods of electing directors. Under statutory voting, you can cast up to one vote per share for each seat. If you own two hundred shares and four seats are open, you can give at most two hundred votes to each candidate. Under cumulative voting, you take the same total, shares times seats, two hundred times four, which is eight hundred, and you may pile it on any candidate you like, even all eight hundred on one. Cumulative voting helps minority shareholders, because concentrating their votes can win them at least one board seat. Shareholders who can't attend the meeting vote by proxy, a written authorization to vote on their behalf."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0021"
+    },
+    {
+      "type": "narration",
+      "text": "Now preferred stock. Preferred is still equity, still ownership, but it behaves a bit like a bond. It usually carries a stated dividend, either a percentage of par, which is typically one hundred dollars, or a fixed dollar amount. A six percent preferred with one hundred par pays six dollars a year. Preferred holders get two kinds of preference over common holders: their dividends must be paid before any common dividend, and in liquidation they're paid ahead of common. In exchange, preferred usually has no voting rights and limited upside. Its price behaves like a fixed income security, so when interest rates rise, preferred prices tend to fall."
+    },
+    {
+      "type": "narration",
+      "text": "Preferred comes with features you need to recognize. Cumulative preferred means a missed dividend doesn't disappear. It accumulates in arrears, and every dollar of arrears must be paid before common holders get anything. So if a six percent, one hundred par cumulative preferred skipped last year, the company owes six dollars for last year plus six dollars for this year, twelve dollars per share, before any common dividend. Non-cumulative, sometimes called straight preferred, has no such catch-up. Participating preferred can receive extra dividends beyond its stated rate if the company does well. Convertible preferred can be exchanged for a set number of common shares, which gives some upside, so it usually pays a lower dividend. Callable preferred can be redeemed by the issuer at a set price, usually when rates fall, so it usually pays a higher dividend to compensate. And adjustable-rate preferred has a dividend that resets with a benchmark rate, which keeps its price more stable."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0022"
+    },
+    {
+      "type": "narration",
+      "text": "A quick word on how all this connects to risk. Common stock carries the most business risk, because owners absorb losses first. Preferred carries interest rate risk, because its fixed dividend makes it behave like a bond. And both are subordinate to every creditor. When a question asks which security is safest from an issuer's failure, think of the liquidation ladder: secured bonds, unsecured bonds, preferred, common."
+    },
+    {
+      "type": "narration",
+      "text": "To summarize. Common stock is residual ownership with limited liability and the right to vote, but only a right to dividends if the board declares them. In liquidation, creditors are paid before owners: secured, then unsecured, then subordinated, then preferred, then common. Statutory voting caps your votes per seat. Cumulative voting lets you pile shares times seats on one candidate, which helps minority holders. Preferred stock has priority on dividends and liquidation, usually no vote, and a bond-like price. Cumulative preferred carries unpaid dividends forward in arrears, and they must be cleared before common holders get anything."
+    }
   ],
   "key_terms": [
-    { "term": "Cumulative preferred", "definition": "Skipped dividends accrue and are paid before a common dividend." },
-    { "term": "Sales charge percent", "definition": "(POP minus NAV) divided by POP." },
-    { "term": "Call", "definition": "The right to buy at the strike. Not an obligation." }
+    {
+      "term": "Common stock",
+      "definition": "Residual ownership; limited liability; voting rights; dividends only if declared by the board."
+    },
+    {
+      "term": "Preferred stock",
+      "definition": "Equity with a stated dividend and priority over common for dividends and liquidation. Usually non-voting and interest-rate sensitive."
+    },
+    {
+      "term": "Cumulative preferred",
+      "definition": "Missed dividends accumulate in arrears and must be paid before any common dividend."
+    },
+    {
+      "term": "Statutory voting",
+      "definition": "At most one vote per share for each seat being elected."
+    },
+    {
+      "term": "Cumulative voting",
+      "definition": "Total votes equal shares times seats, and they can be spread any way, including all on one candidate. This helps minority holders."
+    },
+    {
+      "term": "Proxy",
+      "definition": "Written authorization for someone else to vote a shareholder's shares."
+    }
   ],
-  "mnemonics": ["Prices and yields: when one goes up, the other goes down."],
-  "summary": "Common stock votes and stands last. Preferred usually does not vote and may be cumulative. Bond prices fall when rates rise. A fund sales charge percent divides by the public offering price. A call is the right to buy."
+  "mnemonics": [
+    "Liquidation ladder: Secured, Unsecured, Subordinated, Preferred, Common. Creditors before owners.",
+    "Cumulative preferred: Can't skip, it Carries forward."
+  ],
+  "summary": "Common stock is residual ownership with limited liability, voting rights, and dividends only if declared. Liquidation pays secured creditors first, then unsecured, then subordinated debt, then preferred, and common last. Statutory voting caps votes per seat, while cumulative voting lets holders concentrate shares times seats on one candidate. Preferred stock has dividend and liquidation priority, usually no vote, and bond-like rate sensitivity. Cumulative preferred carries missed dividends in arrears, ahead of any common dividend."
 }

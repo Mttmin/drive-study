@@ -707,7 +707,10 @@ fn mock_blurb(shelf: &Option<Shelf>, exam: &str) -> String {
     let Some(shelf) = shelf else { return String::new() };
     let Some(blueprint) = shelf.meta.exams.get(exam) else { return String::new() };
     let have = shelf.questions.iter().filter(|question| question.exam.as_str() == exam).count();
-    format!("{}: {} scored questions, {} minutes, {}% to pass. The library has {have}.", blueprint.name, blueprint.questions, blueprint.minutes, blueprint.pass_percent)
+    format!(
+        "{}: {} scored questions plus {} pretest, {} minutes, {}% to pass. The library has {have}.",
+        blueprint.name, blueprint.scored_questions, blueprint.unscored_questions, blueprint.time_limit_minutes, blueprint.passing_score
+    )
 }
 
 fn set_plan(settings: RwSignal<Settings>, plan: &str) {
@@ -788,21 +791,29 @@ fn download_json(file: &ProgressFile) {
     }
 }
 
+#[derive(serde::Deserialize)]
+struct ContentIndex {
+    lessons: Vec<String>,
+    questions: Vec<String>,
+    flashcards: Vec<String>,
+}
+
 async fn load_library() -> Result<(Shelf, AudioManifest), String> {
     let meta: Meta = serde_json::from_str(&fetch_text("content/meta.json").await?).map_err(|err| err.to_string())?;
+    let index: ContentIndex = serde_json::from_str(&fetch_text("content/index.json").await?).map_err(|err| err.to_string())?;
     let mut lessons = Vec::new();
-    for path in &meta.files.lessons {
-        lessons.push(serde_json::from_str(&fetch_text(path).await?).map_err(|err| err.to_string())?);
+    for path in &index.lessons {
+        lessons.push(serde_json::from_str(&fetch_text(&format!("content/{path}")).await?).map_err(|err| err.to_string())?);
     }
     lessons.sort_by(|a: &Lesson, b| (a.exam != ExamId::Sie).cmp(&(b.exam != ExamId::Sie)).then(a.order.cmp(&b.order)));
     let mut questions = Vec::new();
-    for path in &meta.files.questions {
-        let rows: Vec<Question> = serde_json::from_str(&fetch_text(path).await?).map_err(|err| err.to_string())?;
+    for path in &index.questions {
+        let rows: Vec<Question> = serde_json::from_str(&fetch_text(&format!("content/{path}")).await?).map_err(|err| err.to_string())?;
         questions.extend(rows);
     }
     let mut cards = Vec::new();
-    for path in &meta.files.flashcards {
-        let rows: Vec<Flashcard> = serde_json::from_str(&fetch_text(path).await?).map_err(|err| err.to_string())?;
+    for path in &index.flashcards {
+        let rows: Vec<Flashcard> = serde_json::from_str(&fetch_text(&format!("content/{path}")).await?).map_err(|err| err.to_string())?;
         cards.extend(rows);
     }
     let manifest = match fetch_text("audio/manifest.json").await {

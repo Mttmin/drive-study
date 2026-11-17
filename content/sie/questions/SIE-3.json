@@ -1,90 +1,1164 @@
 [
   {
-    "id": "sie-q-0011",
+    "id": "sie-q-0065",
     "exam": "SIE",
     "section": "SIE-3",
     "topic": "orders",
-    "difficulty": 1,
+    "lesson_id": "sie-3-01",
+    "difficulty": 2,
     "type": "mc",
-    "sample": true,
-    "stem": "A customer wants to buy shares at $40 or lower. Which order matches that instruction?",
+    "stem": "A customer sold short 300 shares of a stock at $45. To limit losses if the stock rises, which order should the customer enter?",
     "choices": [
-      { "key": "A", "text": "A buy limit order" },
-      { "key": "B", "text": "A buy stop order" },
-      { "key": "C", "text": "A market order" },
-      { "key": "D", "text": "A sell limit order" }
+      {
+        "key": "A",
+        "text": "Sell stop at $50"
+      },
+      {
+        "key": "B",
+        "text": "Buy stop at $50"
+      },
+      {
+        "key": "C",
+        "text": "Buy limit at $40"
+      },
+      {
+        "key": "D",
+        "text": "Sell limit at $50"
+      }
     ],
-    "answer": "A",
-    "spoken_stem": "A customer wants to buy shares at forty dollars or lower. Which order matches that instruction?",
-    "explanation": "A buy limit sets the maximum price the customer will pay, so it can execute at the limit or lower. It does not guarantee a fill. A market order takes the next available price and can pay more than $40. A buy stop is usually placed above the market and becomes a market order when triggered. A sell limit is an order to sell, not buy.",
-    "spoken_explanation": "The answer is A. A buy limit order sets the most the customer will pay. It can fill at forty dollars or below, and it might not fill at all. A market order takes the next price, which can be above forty. A buy stop is typically entered above the market and turns into a market order if the price trades up through it. A sell limit is an order to sell.",
-    "tags": ["sample", "orders"],
-    "outline_ref": "SIE 3.1"
+    "answer": "B",
+    "spoken_stem": "A customer sold short three hundred shares at forty-five. To limit losses if the stock rises, which order? A, sell stop at fifty. B, buy stop at fifty. C, buy limit at forty. D, sell limit at fifty.",
+    "explanation": "B is correct. A short seller loses as the price rises and must eventually buy to cover. A buy stop placed above the market at $50 becomes a market order to buy if the stock trades at or above $50, capping the loss at roughly $5 a share. A protects a long position. C would only fill if the price fell, which locks in a profit and doesn't limit risk. D is a sell order, which adds to the short.",
+    "spoken_explanation": "B, a buy stop above the market. A short seller's danger is a rising price. The buy stop at fifty kicks in as a market order to buy back the shares if the stock hits fifty. Long positions get protected with sell stops below the market.",
+    "tags": [
+      "orders",
+      "stop-orders",
+      "short-selling"
+    ],
+    "outline_ref": "3.1.1 Orders and Strategies"
   },
   {
-    "id": "sie-q-0012",
+    "id": "sie-q-0066",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "orders",
+    "lesson_id": "sie-3-01",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A customer enters a sell limit order at $32 on a stock currently trading at $30. The order will be executed:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Immediately at $30"
+      },
+      {
+        "key": "B",
+        "text": "Only at $32 or higher"
+      },
+      {
+        "key": "C",
+        "text": "Only at $32 or lower"
+      },
+      {
+        "key": "D",
+        "text": "As a market order once the stock trades at $32"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "A customer enters a sell limit at thirty-two on a stock at thirty. When does it fill? A, right away at thirty. B, only at thirty-two or higher. C, only at thirty-two or lower. D, as a market order once it trades at thirty-two.",
+    "explanation": "B is correct. A sell limit is executed at the limit price or better, and for a seller better means higher. A is wrong: $30 is below the limit. C describes a buy limit's logic. D describes a sell stop order, which becomes a market order once triggered; a limit order never turns into a market order.",
+    "spoken_explanation": "B, thirty-two or higher. Limit orders guarantee the price or better. For a seller, better means higher. Stop orders become market orders when triggered; limit orders never do. A trick to remember: a seller wants more, so a sell limit sits above the market. A buyer wants to pay less, so a buy limit sits below the market.",
+    "tags": [
+      "orders",
+      "limit-orders"
+    ],
+    "outline_ref": "3.1.1 Orders and Strategies"
+  },
+  {
+    "id": "sie-q-0067",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "orders",
+    "lesson_id": "sie-3-01",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "When a broker-dealer sells a customer a stock out of its own inventory, the firm is acting as:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Agent, and charges a commission"
+      },
+      {
+        "key": "B",
+        "text": "Principal, and charges a markup"
+      },
+      {
+        "key": "C",
+        "text": "Broker, and charges a markdown"
+      },
+      {
+        "key": "D",
+        "text": "Agent, and charges a markup"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "When a firm sells a customer stock out of its own inventory, it's acting as what? A, agent, charging a commission. B, principal, charging a markup. C, broker, charging a markdown. D, agent, charging a markup.",
+    "explanation": "B is correct. Selling from its own account makes the firm a dealer, acting as principal, and it earns a markup on a sale to a customer or a markdown on a purchase from one. A is agency, where the firm brokers the trade between the customer and another party and charges a commission. C and D mix up the terms: brokers and agents charge commissions; dealers and principals charge markups and markdowns.",
+    "spoken_explanation": "B, principal, with a markup. Agent equals broker equals commission. Principal equals dealer equals markup or markdown. A firm can't be both on the same trade. On the confirmation, the firm must disclose the capacity it acted in. For agency trades it also shows the commission, and for many principal trades it shows the markup or markdown.",
+    "tags": [
+      "capacity",
+      "principal",
+      "agency",
+      "markup"
+    ],
+    "outline_ref": "3.1.1 Orders and Strategies"
+  },
+  {
+    "id": "sie-q-0068",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "dividends",
+    "lesson_id": "sie-3-02",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "A company sets a dividend record date of Thursday. Under regular-way T+1 settlement, what is the ex-dividend date, and what is the LAST day an investor can buy and still receive the dividend?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Ex-date Wednesday; last day to buy Tuesday"
+      },
+      {
+        "key": "B",
+        "text": "Ex-date Thursday; last day to buy Wednesday"
+      },
+      {
+        "key": "C",
+        "text": "Ex-date Friday; last day to buy Thursday"
+      },
+      {
+        "key": "D",
+        "text": "Ex-date Tuesday; last day to buy Monday"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "The record date is a Thursday, with regular-way T plus one settlement. What's the ex-date, and the LAST day to buy and still get the dividend? A, ex-date Wednesday, buy by Tuesday. B, ex-date Thursday, buy by Wednesday. C, ex-date Friday, buy by Thursday. D, ex-date Tuesday, buy by Monday.",
+    "explanation": "B is correct. Since the move to T+1 settlement on May 28, 2024, the ex-dividend date for regular-way trades is the same as the record date. A buyer on Wednesday settles Thursday and is on the books on the record date. A buyer on Thursday, the ex-date, settles Friday, too late. A reflects the old T+2-era rule, where the ex-date came one business day before the record date. C and D don't match any settlement cycle.",
+    "spoken_explanation": "B. With T plus one, the ex-date equals the record date: Thursday. To get the dividend you must settle by Thursday, so you buy Wednesday. Buy on the ex-date and you miss it. One exception: when a dividend is large, at least twenty-five percent of the stock's value, the ex-date is set the day after the payable date.",
+    "tags": [
+      "dividends",
+      "ex-date",
+      "settlement",
+      "t-plus-1"
+    ],
+    "outline_ref": "3.1.2 Investment Returns"
+  },
+  {
+    "id": "sie-q-0069",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "returns",
+    "lesson_id": "sie-3-02",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A stock trading at $64 pays a quarterly dividend of $0.48. What is its current yield?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0.75%"
+      },
+      {
+        "key": "B",
+        "text": "3.0%"
+      },
+      {
+        "key": "C",
+        "text": "4.8%"
+      },
+      {
+        "key": "D",
+        "text": "7.5%"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "A stock at sixty-four dollars pays a quarterly dividend of forty-eight cents. What's the current yield? A, point seven five percent. B, three percent. C, four point eight percent. D, seven point five percent.",
+    "explanation": "B is correct. Annualize first: $0.48 x 4 = $1.92 per year. Current yield = annual dividend / price = $1.92 / $64 = 3.0%. A uses only one quarter's dividend. C and D have no valid basis.",
+    "spoken_explanation": "B, three percent. Step one: annualize. Forty-eight cents times four is a dollar ninety-two. Step two: divide by the price. A ninety-two over sixty-four is three percent. Forgetting to annualize gives the trap answer, point seven five. Remember, current yield uses the current market price, not what the investor paid. If the stock price falls and the dividend stays put, the current yield goes up.",
+    "tags": [
+      "current-yield",
+      "dividends",
+      "math"
+    ],
+    "outline_ref": "3.1.2 Investment Returns"
+  },
+  {
+    "id": "sie-q-0070",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "returns",
+    "lesson_id": "sie-3-02",
+    "difficulty": 1,
+    "type": "mc",
+    "stem": "A bond's yield rises from 4.25% to 4.60%. By how many basis points did it rise?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3.5"
+      },
+      {
+        "key": "B",
+        "text": "35"
+      },
+      {
+        "key": "C",
+        "text": "350"
+      },
+      {
+        "key": "D",
+        "text": "0.35"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "A bond's yield goes from four point two five percent to four point six oh percent. How many basis points is that? A, three and a half. B, thirty-five. C, three hundred fifty. D, point three five.",
+    "explanation": "B is correct. One basis point = 0.01%. The change is 4.60% - 4.25% = 0.35% = 35 basis points. D is the change in percentage points, not basis points. A and C are decimal errors.",
+    "spoken_explanation": "B, thirty-five. One basis point is one hundredth of a percent. Four sixty minus four twenty-five is point three five percent, which is thirty-five basis points. Basis points are used in bond and interest rate talk because they're precise. A one hundred basis point change is the same as one full percentage point.",
+    "tags": [
+      "basis-points",
+      "math"
+    ],
+    "outline_ref": "3.1.2 Investment Returns"
+  },
+  {
+    "id": "sie-q-0071",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "corporate-actions",
+    "lesson_id": "sie-3-03",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "An investor owns 200 shares bought at $90 per share. The company declares a 3-for-2 stock split. After the split, the investor owns:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "300 shares with a $60 per-share cost basis"
+      },
+      {
+        "key": "B",
+        "text": "300 shares with a $90 per-share cost basis"
+      },
+      {
+        "key": "C",
+        "text": "400 shares with a $45 per-share cost basis"
+      },
+      {
+        "key": "D",
+        "text": "133 shares with a $135 per-share cost basis"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "An investor owns two hundred shares bought at ninety. The company does a three-for-two split. Afterward she owns what? A, three hundred shares at sixty dollar basis. B, three hundred shares at ninety. C, four hundred at forty-five. D, one thirty-three at one thirty-five.",
+    "explanation": "A is correct. Shares: 200 x 3/2 = 300. Total cost basis stays $18,000 (200 x $90). Per-share basis: $18,000 / 300 = $60. B fails to adjust the basis. C applies a 2-for-1. D applies a reverse 2-for-3.",
+    "spoken_explanation": "A. Three-for-two: multiply shares by three halves, two hundred becomes three hundred. Total basis stays eighteen thousand. Divide by three hundred, sixty dollars a share. Splits don't change the total value or total basis. Splits don't create value. The investor still owns the same percentage of the company. Reverse splits do the opposite: fewer shares at a higher price.",
+    "tags": [
+      "stock-split",
+      "cost-basis",
+      "math"
+    ],
+    "outline_ref": "3.1.4 Corporate Actions"
+  },
+  {
+    "id": "sie-q-0072",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "settlement",
+    "lesson_id": "sie-3-03",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "What is the standard regular-way settlement for a corporate stock trade executed on a Monday with no holidays?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Monday"
+      },
+      {
+        "key": "B",
+        "text": "Tuesday"
+      },
+      {
+        "key": "C",
+        "text": "Wednesday"
+      },
+      {
+        "key": "D",
+        "text": "Thursday"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "A regular-way stock trade happens on Monday, no holidays. When does it settle? A, Monday. B, Tuesday. C, Wednesday. D, Thursday.",
+    "explanation": "B is correct. Since May 28, 2024, regular-way settlement for U.S. stocks, corporate and municipal bonds is T+1, one business day after the trade, so Tuesday. A is a cash settlement, same day. C was the old T+2 standard. D was the T+3 standard before 2017.",
+    "spoken_explanation": "B, Tuesday. Regular way is T plus one: trade date plus one business day. Cash settlement is same day. T plus two ended in May of twenty twenty-four. Options also settle T plus one, and so do Treasuries. Cash settlement means the trade settles the same day, and it's usually requested by a seller who needs money right away.",
+    "tags": [
+      "settlement",
+      "t-plus-1"
+    ],
+    "outline_ref": "3.1.3 Trade Settlement"
+  },
+  {
+    "id": "sie-q-0073",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "corporate-actions",
+    "lesson_id": "sie-3-03",
+    "difficulty": 1,
+    "type": "mc",
+    "stem": "A shareholder who cannot attend the annual meeting can still vote by:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Signing a proxy"
+      },
+      {
+        "key": "B",
+        "text": "Asking the transfer agent to vote for them"
+      },
+      {
+        "key": "C",
+        "text": "Exercising a right"
+      },
+      {
+        "key": "D",
+        "text": "Filing a Form 144"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "A shareholder can't attend the annual meeting. How can she still vote? A, by signing a proxy. B, by asking the transfer agent to vote for her. C, by exercising a right. D, by filing a Form one forty-four.",
+    "explanation": "A is correct. A proxy is a written authorization to vote someone's shares in absentia. For shares held in street name, the broker forwards proxy materials to the beneficial owner (FINRA Rule 2251). B is wrong: the transfer agent keeps ownership records, not votes. C is a subscription to buy new shares. D is an affiliate's notice of a sale under Rule 144.",
+    "spoken_explanation": "A, a proxy. It's a power of attorney just for voting. For street-name shares, the broker forwards the proxy materials to the real owner. Most votes happen by proxy, and firms forward proxy materials to clients who hold their shares in street name. The issuer pays the firm's reasonable forwarding costs.",
+    "tags": [
+      "proxy",
+      "voting-rights"
+    ],
+    "outline_ref": "3.1.4 Corporate Actions"
+  },
+  {
+    "id": "sie-q-0074",
     "exam": "SIE",
     "section": "SIE-3",
     "topic": "margin",
+    "lesson_id": "sie-3-04",
     "difficulty": 2,
     "type": "mc",
-    "sample": true,
-    "stem": "Under Regulation T, the initial margin to buy listed common stock in a margin account is generally:",
+    "stem": "A customer opens a new margin account and buys 500 shares at $50. Under Regulation T, what is the customer's initial deposit requirement?",
     "choices": [
-      { "key": "A", "text": "50 percent of the purchase price" },
-      { "key": "B", "text": "25 percent of the purchase price" },
-      { "key": "C", "text": "30 percent of the purchase price" },
-      { "key": "D", "text": "100 percent, because common stock cannot be margined" }
+      {
+        "key": "A",
+        "text": "$2,000"
+      },
+      {
+        "key": "B",
+        "text": "$6,250"
+      },
+      {
+        "key": "C",
+        "text": "$12,500"
+      },
+      {
+        "key": "D",
+        "text": "$25,000"
+      }
     ],
-    "answer": "A",
-    "spoken_stem": "Under Regulation T, the initial margin required to buy listed common stock in a margin account is generally which amount?",
-    "explanation": "Regulation T, set by the Federal Reserve, generally requires 50% initial margin for a long purchase of margin-eligible stock. FINRA maintenance margin on a long position is 25% of current market value, which is a different test applied after the trade. Thirty percent is the usual FINRA maintenance level for a short stock priced at $5 or more. A cash account, not a margin account, requires payment in full.",
-    "spoken_explanation": "The answer is A, fifty percent of the purchase price. Regulation T is the Federal Reserve's initial margin rule. Twenty-five percent is the FINRA maintenance requirement for a long stock position after the trade, not the initial deposit. Thirty percent is the usual maintenance level for a short stock priced at five dollars or more. Common stock can be bought in a margin account. A cash account is the one that requires payment in full.",
-    "tags": ["sample", "margin"],
-    "outline_ref": "SIE 3.2"
+    "answer": "C",
+    "spoken_stem": "A customer opens a new margin account and buys five hundred shares at fifty. Under Reg T, how much must they deposit? A, two thousand. B, six thousand two fifty. C, twelve thousand five hundred. D, twenty-five thousand.",
+    "explanation": "C is correct. Purchase = 500 x $50 = $25,000. Regulation T, set by the Federal Reserve, requires 50% initial margin: $25,000 x 50% = $12,500. A is FINRA's $2,000 minimum equity, which matters only on small purchases. B is 25%, the FINRA minimum maintenance level for long positions. D is paying in full, as in a cash account.",
+    "spoken_explanation": "C, twelve thousand five hundred. Step one: five hundred times fifty is twenty-five thousand. Step two: Reg T is fifty percent, so twelve five. The two thousand dollar FINRA minimum doesn't bind here, and twenty-five percent is the maintenance level, not the initial deposit. If the purchase were under four thousand dollars, the two thousand dollar FINRA minimum could require more than fifty percent. Under two thousand dollars, the customer pays in full.",
+    "tags": [
+      "margin",
+      "reg-t",
+      "math"
+    ],
+    "outline_ref": "3.2.1 Account Types and Characteristics"
   },
   {
-    "id": "sie-q-0013",
+    "id": "sie-q-0075",
     "exam": "SIE",
     "section": "SIE-3",
-    "topic": "prohibited-activities",
+    "topic": "margin",
+    "lesson_id": "sie-3-04",
     "difficulty": 2,
     "type": "mc",
-    "sample": true,
-    "stem": "A representative places many in-and-out trades in a customer's account, producing commissions, with no reasonable basis in the customer's objectives. This is:",
+    "stem": "Which margin account document is OPTIONAL for the customer to sign?",
     "choices": [
-      { "key": "A", "text": "Churning" },
-      { "key": "B", "text": "A required annual rebalance" },
-      { "key": "C", "text": "A fourth-market cross" },
-      { "key": "D", "text": "Regular-way settlement" }
+      {
+        "key": "A",
+        "text": "Credit agreement"
+      },
+      {
+        "key": "B",
+        "text": "Hypothecation agreement"
+      },
+      {
+        "key": "C",
+        "text": "Loan consent agreement"
+      },
+      {
+        "key": "D",
+        "text": "Margin disclosure statement acknowledgment by the firm"
+      }
     ],
-    "answer": "A",
-    "spoken_stem": "A representative places many in-and-out trades in a customer's account. The trades produce commissions and have no reasonable basis in the customer's objectives. What is this practice called?",
-    "explanation": "Churning is excessive trading in light of the customer's investment objectives, done for the representative's benefit, typically commissions. It is a prohibited practice. A rebalance is not required just to create trades. The fourth market is institution-to-institution trading. Settlement is the exchange of cash and securities after a trade, not a pattern of excessive trading.",
-    "spoken_explanation": "The answer is A, churning. Churning is excessive trading that does not fit the customer's objectives and is done to generate commissions. It is prohibited. A rebalance is not something the representative must do just to create trades. The fourth market is institutions trading with each other. Settlement is how a trade is completed. It is not a name for too many trades.",
-    "tags": ["sample", "conduct"],
-    "outline_ref": "SIE 3.3"
+    "answer": "C",
+    "spoken_stem": "Which margin account document is OPTIONAL for the customer? A, the credit agreement. B, the hypothecation agreement. C, the loan consent agreement. D, the margin disclosure statement.",
+    "explanation": "C is correct. The loan consent lets the firm lend the customer's margin securities to others, such as short sellers, and it is optional. A, the credit agreement, discloses the terms of the loan and interest, and it is required. B, the hypothecation agreement, pledges the securities as collateral and lets the firm rehypothecate them, and it is required. D is wrong: FINRA Rule 2264 requires the firm to deliver the margin disclosure statement before opening the account. That's a delivery duty, not an optional customer choice.",
+    "spoken_explanation": "C, the loan consent. Credit agreement: required, it covers the loan terms. Hypothecation: required, it pledges the securities. Loan consent, letting the firm lend your shares out, is optional. Hypothecation means pledging the customer's securities as collateral for the loan. Rehypothecation means the firm pledges them again to a bank to fund that loan.",
+    "tags": [
+      "margin",
+      "account-documents"
+    ],
+    "outline_ref": "3.2.1 Account Types and Characteristics"
   },
   {
-    "id": "sie-q-0014",
+    "id": "sie-q-0076",
     "exam": "SIE",
     "section": "SIE-3",
     "topic": "accounts",
-    "difficulty": 1,
+    "lesson_id": "sie-3-04",
+    "difficulty": 2,
     "type": "mc",
-    "sample": true,
-    "stem": "In a cash account, a customer who buys common stock must:",
+    "stem": "Which order requires the customer's prior written discretionary authority?",
     "choices": [
-      { "key": "A", "text": "Pay for the purchase in full" },
-      { "key": "B", "text": "Deposit only the 25 percent maintenance margin" },
-      { "key": "C", "text": "Deposit only the 50 percent Regulation T margin" },
-      { "key": "D", "text": "Borrow the purchase price from SIPC" }
+      {
+        "key": "A",
+        "text": "Customer says: 'Buy 200 shares of XYZ today, at a good price'"
+      },
+      {
+        "key": "B",
+        "text": "Customer says: 'Buy 200 shares of whichever oil stock you think is best'"
+      },
+      {
+        "key": "C",
+        "text": "Customer says: 'Sell my 300 ABC whenever you think the time is right today'"
+      },
+      {
+        "key": "D",
+        "text": "Customer calls in a specific market order to buy 100 DEF"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "Which order needs written discretionary authority? A, buy two hundred X Y Z today at a good price. B, buy two hundred shares of whichever oil stock you think is best. C, sell my three hundred A B C whenever you think best today. D, buy a hundred D E F at market.",
+    "explanation": "B is correct. Discretion means the rep chooses the asset, the action (buy or sell), or the amount. Choosing which oil stock is choosing the asset, so FINRA Rule 3260 requires the customer's prior written authorization, accepted by the firm. A and C leave only time and/or price to the rep, which is not discretion under the rule. D is a fully specified, unsolicited order.",
+    "spoken_explanation": "B. Discretion is about the three A's: asset, action, amount. If the rep picks any of those, you need written authority first. Time and price alone don't count as discretion. Discretionary accounts get more supervision. A principal must approve the account in writing and review its trades frequently to catch excessive trading.",
+    "tags": [
+      "discretionary",
+      "rule-3260"
+    ],
+    "outline_ref": "3.2.1 Account Types and Characteristics"
+  },
+  {
+    "id": "sie-q-0077",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "accounts",
+    "lesson_id": "sie-3-05",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Two brothers hold an account as joint tenants with right of survivorship. One brother dies. What happens to his share of the account?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It passes to his estate"
+      },
+      {
+        "key": "B",
+        "text": "It passes to the surviving brother"
+      },
+      {
+        "key": "C",
+        "text": "It is frozen until probate is completed and then split"
+      },
+      {
+        "key": "D",
+        "text": "It passes to his named IRA beneficiary"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "Two brothers hold an account as joint tenants with right of survivorship. One dies. What happens to his share? A, it goes to his estate. B, it goes to the surviving brother. C, it's frozen until probate then split. D, it goes to his I R A beneficiary.",
+    "explanation": "B is correct. With JTWROS, the deceased owner's interest passes automatically to the surviving tenant, outside the estate. A describes tenants in common, where each owner's fractional share passes to his own estate. C is wrong: the survivor gets the assets after providing documentation like a death certificate, with no probate split. D is wrong: IRA beneficiary designations don't govern a joint brokerage account.",
+    "spoken_explanation": "B, the survivor gets it. Right of survivorship means it skips the estate. With tenants in common, the dead person's share goes to his estate instead. Tenants in common lets owners hold unequal shares, like seventy and thirty. JTWROS owners have equal, undivided interests. Either way, the owners sign the account agreement together.",
+    "tags": [
+      "joint-account",
+      "jtwros",
+      "tenants-in-common"
+    ],
+    "outline_ref": "3.2.2 Customer Account Registrations"
+  },
+  {
+    "id": "sie-q-0078",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "accounts",
+    "lesson_id": "sie-3-05",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Which of the following is permitted in an UTMA custodial account?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Two custodians for one minor"
+      },
+      {
+        "key": "B",
+        "text": "One custodian for two minors"
+      },
+      {
+        "key": "C",
+        "text": "Buying stock with the minor's Social Security number on the account"
+      },
+      {
+        "key": "D",
+        "text": "Buying stock on margin"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "Which is allowed in an U T M A custodial account? A, two custodians for one minor. B, one custodian for two minors. C, buying stock with the minor's Social Security number on the account. D, buying on margin.",
+    "explanation": "C is correct. The minor is the beneficial owner, so the minor's Social Security number goes on the account, and the minor reports the income. A and B are wrong: it's one custodian and one minor per account. D is wrong: custodial accounts must be cash accounts, so no margin. Uncovered options are also out.",
+    "spoken_explanation": "C. U T M A rules: one custodian, one minor, and the minor's Social Security number, because the minor owns it. Cash account only, no margin. When the minor reaches the state's age of termination, the assets go to the former minor outright. Gifts to an UTMA are irrevocable.",
+    "tags": [
+      "custodial-account",
+      "utma"
+    ],
+    "outline_ref": "3.2.2 Customer Account Registrations"
+  },
+  {
+    "id": "sie-q-0079",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "retirement",
+    "lesson_id": "sie-3-06",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "For tax year 2026, what is the MAXIMUM total IRA contribution for a 55-year-old with at least that much earned income?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "$7,000"
+      },
+      {
+        "key": "B",
+        "text": "$7,500"
+      },
+      {
+        "key": "C",
+        "text": "$8,600"
+      },
+      {
+        "key": "D",
+        "text": "$8,000"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "For twenty twenty-six, what's the MAXIMUM total I R A contribution for a fifty-five-year-old with enough earned income? A, seven thousand. B, seven thousand five hundred. C, eight thousand six hundred. D, eight thousand.",
+    "explanation": "C is correct. For 2026 the IRS set the IRA limit at $7,500, plus a catch-up of $1,100 for those 50 or older (IRS IR-2025-111; the catch-up is now inflation-indexed under SECURE 2.0). $7,500 + $1,100 = $8,600. A is the 2025 base limit. B omits the catch-up. D is the 2025 total ($7,000 + $1,000). These limits change yearly.",
+    "spoken_explanation": "C, eight thousand six hundred. For twenty twenty-six, the I R A limit is seven thousand five hundred. People fifty and over add a catch-up of one thousand one hundred. Seventy-five hundred plus eleven hundred is eighty-six hundred. Check the year, because these limits move.",
+    "tags": [
+      "ira",
+      "contribution-limits",
+      "changes-yearly",
+      "math"
+    ],
+    "outline_ref": "3.2.2 Customer Account Registrations"
+  },
+  {
+    "id": "sie-q-0080",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "retirement",
+    "lesson_id": "sie-3-06",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Under current law (SECURE 2.0), a traditional IRA owner born in 1955 must begin required minimum distributions by April 1 of the year after reaching age:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "70 1/2"
+      },
+      {
+        "key": "B",
+        "text": "72"
+      },
+      {
+        "key": "C",
+        "text": "73"
+      },
+      {
+        "key": "D",
+        "text": "75"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "Under SECURE 2.0, a traditional I R A owner born in nineteen fifty-five must start required minimum distributions by April first of the year after turning what age? A, seventy and a half. B, seventy-two. C, seventy-three. D, seventy-five.",
+    "explanation": "C is correct. SECURE 2.0 raised the RMD starting age to 73 for people who turn 73 after 2022; someone born in 1955 turns 73 in 2028. A was the rule before 2020. B applied from 2020 through 2022. D applies to people born in 1960 or later, starting in 2033. Roth IRAs have no RMDs for the original owner.",
+    "spoken_explanation": "C, seventy-three. Under SECURE 2.0, R M Ds start at seventy-three, and it goes to seventy-five for people born in nineteen sixty or later. Roth I R As have no R M Ds for the original owner. Missing an R M D brings an excise tax on the shortfall, which SECURE 2.0 cut to twenty-five percent, or ten percent if it's corrected quickly.",
+    "tags": [
+      "rmd",
+      "ira",
+      "secure-2.0"
+    ],
+    "outline_ref": "3.2.2 Customer Account Registrations"
+  },
+  {
+    "id": "sie-q-0081",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "aml",
+    "lesson_id": "sie-3-07",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A customer deposits illicit cash into several bank accounts, then wires the funds through a series of brokerage accounts in different countries to obscure their origin. The wiring stage is called:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Placement"
+      },
+      {
+        "key": "B",
+        "text": "Layering"
+      },
+      {
+        "key": "C",
+        "text": "Integration"
+      },
+      {
+        "key": "D",
+        "text": "Structuring"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "A customer deposits dirty cash in several banks, then wires it through brokerage accounts in different countries to hide where it came from. What stage is the wiring? A, placement. B, layering. C, integration. D, structuring.",
+    "explanation": "B is correct. Layering is the stage of moving funds through many transactions and accounts to hide the audit trail. A, placement, is first getting the cash into the financial system, which here is the deposits. C, integration, is the final stage, when the cleaned funds re-enter the economy looking legitimate, such as buying property. D, structuring, breaks cash deposits into amounts under $10,000 to avoid a Currency Transaction Report. It is a crime but not one of the three stages.",
+    "spoken_explanation": "B, layering. Three stages: placement gets the cash in, layering moves it around to hide the trail, and integration brings it back looking clean. Structuring, splitting deposits to dodge the ten thousand dollar report, is illegal but not a stage. On the exam, cash being deposited points to placement. Money bouncing between accounts or countries points to layering. Buying assets that look legitimate points to integration.",
+    "tags": [
+      "aml",
+      "money-laundering-stages"
+    ],
+    "outline_ref": "3.2.3 Anti-money Laundering (AML)"
+  },
+  {
+    "id": "sie-q-0082",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "aml",
+    "lesson_id": "sie-3-07",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A broker-dealer must file a Currency Transaction Report when a customer:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Deposits a $12,000 personal check"
+      },
+      {
+        "key": "B",
+        "text": "Deposits more than $10,000 in currency in one business day"
+      },
+      {
+        "key": "C",
+        "text": "Wires $25,000 from a bank account"
+      },
+      {
+        "key": "D",
+        "text": "Makes any transaction the firm finds suspicious"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "A broker-dealer must file a Currency Transaction Report when a customer does what? A, deposits a twelve thousand dollar check. B, deposits more than ten thousand in cash in one business day. C, wires twenty-five thousand from a bank. D, does anything suspicious.",
+    "explanation": "B is correct. Under the Bank Secrecy Act, a CTR is filed with FinCEN for currency transactions over $10,000 in a single business day, including multiple cash transactions that total more than $10,000. A and C are not currency. D describes a Suspicious Activity Report, which broker-dealers file for suspicious transactions of $5,000 or more.",
+    "spoken_explanation": "B. A C T R is for physical cash over ten thousand dollars in one day, even across several deposits. Checks and wires don't trigger it. Suspicious activity is a different form, the S A R, at five thousand dollars for broker-dealers. Customers who deliberately break up cash to stay under ten thousand dollars are structuring. That's a crime in itself, and it's a reason to file a S A R.",
+    "tags": [
+      "aml",
+      "ctr",
+      "fincen",
+      "bank-secrecy-act"
+    ],
+    "outline_ref": "3.2.3 Anti-money Laundering (AML)"
+  },
+  {
+    "id": "sie-q-0083",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "aml",
+    "lesson_id": "sie-3-07",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "A firm files a Suspicious Activity Report on a customer. The customer later asks the rep whether the firm has reported him to the government. The rep should:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Confirm the filing so the customer can respond"
+      },
+      {
+        "key": "B",
+        "text": "Not disclose that a SAR was filed"
+      },
+      {
+        "key": "C",
+        "text": "Tell the customer only if he is not a U.S. citizen"
+      },
+      {
+        "key": "D",
+        "text": "Close the account and tell the customer why"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "A firm files a S A R on a customer. The customer asks the rep if he's been reported to the government. What should the rep do? A, confirm it so the customer can respond. B, not disclose that a S A R was filed. C, tell him only if he's not a U S citizen. D, close the account and tell him why.",
+    "explanation": "B is correct. SAR confidentiality rules prohibit disclosing a SAR, or even that one exists, to the subject. Tipping off is a violation. A and D both disclose the filing. C has no basis. Broker-dealers file SARs within 30 calendar days of first detecting facts that may justify a filing.",
+    "spoken_explanation": "B, say nothing. You can never tell the subject a S A R was filed. That's called tipping off, and it's a violation. S A Rs are due within thirty days of spotting the activity. The firm may still choose to close the account, but it can't tell the customer that the S A R is the reason. SAR records are kept for five years.",
+    "tags": [
+      "aml",
+      "sar",
+      "confidentiality"
+    ],
+    "outline_ref": "3.2.3 Anti-money Laundering (AML)"
+  },
+  {
+    "id": "sie-q-0084",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "aml",
+    "lesson_id": "sie-3-07",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A new account applicant appears on OFAC's Specially Designated Nationals (SDN) list. The firm should:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Open the account but restrict trading to cash"
+      },
+      {
+        "key": "B",
+        "text": "Block or reject the transaction and report it to OFAC"
+      },
+      {
+        "key": "C",
+        "text": "Open the account if the applicant provides two forms of ID"
+      },
+      {
+        "key": "D",
+        "text": "Ask FINRA for permission before opening"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "A new account applicant shows up on O FAC's Specially Designated Nationals list. What should the firm do? A, open it but cash only. B, block or reject the transaction and report it to O FAC. C, open it with two IDs. D, ask FINRA for permission.",
+    "explanation": "B is correct. U.S. persons may not deal with SDNs. Assets must be blocked or transactions rejected, and the firm reports to the Office of Foreign Assets Control, part of the Treasury Department. Blocked-property reports are due within 10 business days. A and C still do business with an SDN. D is wrong: OFAC, not FINRA, administers sanctions.",
+    "spoken_explanation": "B. If someone's on the S D N list, you block or reject and report to O FAC at Treasury. No exceptions for extra ID, and FINRA can't grant permission. Firms must screen new accounts and transactions against the S D N list. It applies to all U S persons, not just broker-dealers.",
+    "tags": [
+      "aml",
+      "ofac",
+      "sdn"
+    ],
+    "outline_ref": "3.2.3 Anti-money Laundering (AML)"
+  },
+  {
+    "id": "sie-q-0085",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "books-records",
+    "lesson_id": "sie-3-08",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "Under SEC Rule 17a-4, a broker-dealer must preserve written business communications, including email, for at least:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1 year"
+      },
+      {
+        "key": "B",
+        "text": "3 years, the first 2 in an easily accessible place"
+      },
+      {
+        "key": "C",
+        "text": "6 years"
+      },
+      {
+        "key": "D",
+        "text": "Lifetime of the firm"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "Under S E C Rule seventeen a four, how long must a broker-dealer keep business communications such as email? A, one year. B, three years, the first two easily accessible. C, six years. D, the life of the firm.",
+    "explanation": "B is correct. Rule 17a-4 requires communications relating to the business as such to be kept at least 3 years, the first 2 in an easily accessible place. C is the period for records like blotters, general ledgers and customer account records (6 years after account closing). D applies to records like the articles of incorporation and partnership agreements, which are kept for the life of the firm. A is too short.",
+    "spoken_explanation": "B, three years, with the first two easily accessible. Blotters, ledgers and account records go six years. The firm's founding documents, like articles of incorporation, are kept for the life of the firm. Records must also be available to regulators promptly on request. Electronic records have to be kept in a way that preserves them and prevents alteration.",
+    "tags": [
+      "books-and-records",
+      "rule-17a-4"
+    ],
+    "outline_ref": "3.2.4 Books and Records and Privacy Requirements"
+  },
+  {
+    "id": "sie-q-0086",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "books-records",
+    "lesson_id": "sie-3-08",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Under FINRA Rule 2231, a customer must receive an account statement at least:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Monthly"
+      },
+      {
+        "key": "B",
+        "text": "Quarterly"
+      },
+      {
+        "key": "C",
+        "text": "Semiannually"
+      },
+      {
+        "key": "D",
+        "text": "Annually"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "Under FINRA Rule two two three one, how often at minimum must a customer get an account statement? A, monthly. B, quarterly. C, twice a year. D, once a year.",
+    "explanation": "B is correct. FINRA Rule 2231 requires account statements at least once each calendar quarter, showing positions, balances and activity. Many firms send monthly statements when there is activity, but the rule's minimum is quarterly. A is common practice, not the minimum. C and D are too infrequent.",
+    "spoken_explanation": "B, quarterly at minimum. Lots of firms send monthly when there's activity, but FINRA's floor is every quarter. Confirmations are separate. A confirmation goes out for each trade, at or before the completion of the transaction, which generally means by settlement.",
+    "tags": [
+      "account-statements",
+      "rule-2231"
+    ],
+    "outline_ref": "3.2.4 Books and Records and Privacy Requirements"
+  },
+  {
+    "id": "sie-q-0087",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "books-records",
+    "lesson_id": "sie-3-08",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A customer leaving for an extended trip asks the firm to hold her mail. Under FINRA Rule 3150, the firm may hold mail:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Based on a verbal request, for up to 6 months"
+      },
+      {
+        "key": "B",
+        "text": "Based on written instructions, for a specified period not exceeding 3 consecutive months"
+      },
+      {
+        "key": "C",
+        "text": "Indefinitely, if the customer signs a waiver"
+      },
+      {
+        "key": "D",
+        "text": "Only if a principal agrees to forward it weekly"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "A customer going on a long trip asks the firm to hold her mail. Under FINRA Rule three one five oh, what's allowed? A, a verbal request, for up to six months. B, written instructions, for a set period up to three consecutive months. C, indefinitely with a waiver. D, only if a principal forwards it weekly.",
+    "explanation": "B is correct. Rule 3150 lets a firm hold mail on the customer's written instructions for a specified period of no more than 3 consecutive months, with procedures to make sure the customer can still get account information, for example electronically. A is wrong on both the form and the length. C is not permitted. D is not a requirement of the rule.",
+    "spoken_explanation": "B. Written instructions, up to three consecutive months. The firm also has to make sure she can still see her account info, say online, while mail is held. The firm must also have a way to monitor held accounts for suspicious activity and to keep reps from hiding problems behind the hold.",
+    "tags": [
+      "hold-mail",
+      "rule-3150"
+    ],
+    "outline_ref": "3.2.4 Books and Records and Privacy Requirements"
+  },
+  {
+    "id": "sie-q-0088",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "privacy",
+    "lesson_id": "sie-3-08",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Under Regulation S-P, before sharing a customer's nonpublic personal information with a NONAFFILIATED third party for marketing, a firm generally must:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Obtain FINRA approval"
+      },
+      {
+        "key": "B",
+        "text": "Provide a privacy notice and a reasonable opportunity to opt out"
+      },
+      {
+        "key": "C",
+        "text": "Get the customer's notarized consent"
+      },
+      {
+        "key": "D",
+        "text": "Do nothing, since sharing is unrestricted"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "Under Reg S P, before sharing a customer's nonpublic personal info with an unaffiliated company for marketing, a firm generally must do what? A, get FINRA approval. B, give a privacy notice and a chance to opt out. C, get notarized consent. D, nothing, sharing is unrestricted.",
+    "explanation": "B is correct. Regulation S-P requires a privacy notice describing sharing practices, delivered at account opening and generally annually unless an exception applies, and a reasonable opportunity to opt out before sharing nonpublic personal information with nonaffiliated third parties, subject to exceptions such as servicing the account. A and C are not requirements. D is wrong because sharing is restricted.",
+    "spoken_explanation": "B, a privacy notice and a chance to opt out. Reg S P protects nonpublic personal info. Customers get notice at account opening and can opt out of sharing with unaffiliated companies. Reg S P also requires written policies to safeguard customer records, and procedures to respond to unauthorized access, such as notifying affected customers.",
+    "tags": [
+      "reg-s-p",
+      "privacy"
+    ],
+    "outline_ref": "3.2.4 Books and Records and Privacy Requirements"
+  },
+  {
+    "id": "sie-q-0089",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "communications",
+    "lesson_id": "sie-3-09",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A registered representative emails the same market commentary to 40 retail investors within a 30-day period. Under FINRA Rule 2210, this is:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Correspondence"
+      },
+      {
+        "key": "B",
+        "text": "Institutional communication"
+      },
+      {
+        "key": "C",
+        "text": "Retail communication"
+      },
+      {
+        "key": "D",
+        "text": "Independently prepared reprint"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "A rep emails the same market commentary to forty retail investors in thirty days. Under Rule twenty-two ten, what is it? A, correspondence. B, institutional communication. C, retail communication. D, an independently prepared reprint.",
+    "explanation": "C is correct. A retail communication is any written communication distributed to MORE than 25 retail investors within any 30-calendar-day period. Retail communications generally need principal approval before use. A, correspondence, is 25 or fewer retail investors in 30 days. B goes only to institutional investors. D is a reprint of an article by an independent publisher.",
+    "spoken_explanation": "C, retail communication. The magic number is twenty-five retail investors in thirty days. Over twenty-five is retail and generally needs a principal's approval first. Twenty-five or fewer is correspondence. Institutional communications go only to institutional investors, and they need written supervisory procedures rather than pre-approval. Correspondence also needs post-use review procedures.",
+    "tags": [
+      "communications",
+      "rule-2210",
+      "retail-communication"
+    ],
+    "outline_ref": "3.2.5 Communications with the Public"
+  },
+  {
+    "id": "sie-q-0090",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "communications",
+    "lesson_id": "sie-3-09",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Under telemarketing rules, a registered rep may make a cold call to a prospect who is NOT on any do-not-call list:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Between 8 a.m. and 9 p.m. the rep's local time"
+      },
+      {
+        "key": "B",
+        "text": "Between 8 a.m. and 9 p.m. the prospect's local time"
+      },
+      {
+        "key": "C",
+        "text": "Between 9 a.m. and 5 p.m. the prospect's local time"
+      },
+      {
+        "key": "D",
+        "text": "At any time, if the rep identifies the firm"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "Under telemarketing rules, when can a rep cold-call a prospect who is NOT on a do-not-call list? A, eight a m to nine p m in the rep's time zone. B, eight a m to nine p m in the prospect's time zone. C, nine to five in the prospect's time zone. D, any time if the rep identifies the firm.",
+    "explanation": "B is correct. FINRA Rule 3230 and the FTC Telemarketing Sales Rule limit cold calls to between 8 a.m. and 9 p.m. in the CALLED party's local time, unless the person has given prior consent or has an established business relationship. A uses the wrong time zone. C is too narrow. D is wrong: the rep must identify themselves and the firm, but the time limits still apply.",
+    "spoken_explanation": "B. Eight a m to nine p m, the prospect's local time, not yours. And you always give your name, your firm, and a phone number or address. Firms must keep a firm-specific do-not-call list and also honor the national do-not-call registry, with exceptions such as an established business relationship.",
+    "tags": [
+      "telemarketing",
+      "rule-3230",
+      "do-not-call"
+    ],
+    "outline_ref": "3.2.5 Communications with the Public"
+  },
+  {
+    "id": "sie-q-0091",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "manipulation",
+    "lesson_id": "sie-3-10",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A trader learns a client is about to place a large buy order in a stock and buys the stock for her own account first, planning to profit from the price rise. This is:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Marking the close"
+      },
+      {
+        "key": "B",
+        "text": "Front running"
+      },
+      {
+        "key": "C",
+        "text": "Backing away"
+      },
+      {
+        "key": "D",
+        "text": "Painting the tape"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "A trader learns a client is about to place a large buy order, and buys the stock for herself first to profit from the price jump. What is that? A, marking the close. B, front running. C, backing away. D, painting the tape.",
+    "explanation": "B is correct. Front running is trading ahead of a known, imminent block order to profit from its price impact, and it is prohibited by FINRA Rule 5270. A is trading near the close to influence the closing price. C is a market maker failing to honor its firm quote. D is a series of trades, such as wash trades, that create a false appearance of activity.",
+    "spoken_explanation": "B, front running: jumping ahead of a big client order you know about. Marking the close is pushing the closing price, backing away is a market maker ignoring its own quote, and painting the tape is fake trading volume. Trading ahead of a firm's own research report is a separate violation, and so is trading ahead of a customer limit order the firm is holding.",
+    "tags": [
+      "manipulation",
+      "front-running",
+      "rule-5270"
+    ],
+    "outline_ref": "3.3.1 Market Manipulation"
+  },
+  {
+    "id": "sie-q-0092",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "insider-trading",
+    "lesson_id": "sie-3-11",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Under the Insider Trading and Securities Fraud Enforcement Act of 1988, the SEC may seek a civil penalty of up to:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The profit gained or loss avoided"
+      },
+      {
+        "key": "B",
+        "text": "Two times the profit gained or loss avoided"
+      },
+      {
+        "key": "C",
+        "text": "Three times the profit gained or loss avoided"
+      },
+      {
+        "key": "D",
+        "text": "A flat $1 million"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "Under the Insider Trading Act of nineteen eighty-eight, the S E C can seek a civil penalty of up to how much? A, the profit gained or loss avoided. B, two times that. C, three times that. D, a flat one million dollars.",
+    "explanation": "C is correct. Civil penalties for insider trading can be up to three times the profit gained or loss avoided, under Exchange Act Section 21A as amended by ITSFEA. Disgorgement of the profit is separate. Both tippers and tippees can be liable, and contemporaneous traders can sue. A is just disgorgement. B is not the statutory multiple. D is not the standard. Criminal penalties, including prison, are separate.",
+    "spoken_explanation": "C, up to three times the profit made or loss avoided. That's on top of giving back the profit. Tippers and tippees can both be liable. Material nonpublic information is information a reasonable investor would find important that hasn't been publicly released. Criminal cases can bring prison time on top of fines.",
+    "tags": [
+      "insider-trading",
+      "itsfea",
+      "penalties"
+    ],
+    "outline_ref": "3.3.2 Insider Trading"
+  },
+  {
+    "id": "sie-q-0093",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "prohibited",
+    "lesson_id": "sie-3-12",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "Under FINRA Rule 5130, which of the following may purchase shares of a new equity IPO?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A broker-dealer's registered rep buying for her own account"
+      },
+      {
+        "key": "B",
+        "text": "The rep's 30-year-old son who lives with her and is supported by her"
+      },
+      {
+        "key": "C",
+        "text": "A rep's brother-in-law who lives on his own, gets no support from the rep, and buys through a different firm"
+      },
+      {
+        "key": "D",
+        "text": "A portfolio manager at a mutual fund buying for her personal account"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "Under FINRA Rule fifty-one thirty, which of these can buy a new equity IPO? A, a broker-dealer rep for her own account. B, the rep's thirty-year-old son who lives with her and is supported by her. C, the rep's brother-in-law who lives on his own, gets no support from her, and buys through a different firm. D, a mutual fund portfolio manager for her personal account.",
+    "explanation": "C is correct. Under Rule 5130, an immediate family member of a broker-dealer employee (a brother-in-law counts) is restricted UNLESS the employee gives no material support to the relative and gets none from them, isn't employed by the firm selling the new issue, and can't control the allocation. Material support means more than 25% of a person's income in the prior year, and sharing a household is deemed to be material support. The brother-in-law meets all of the conditions. A is a restricted person. B is immediate family in the same household and supported. D is restricted: portfolio managers buying for their own accounts are restricted persons.",
+    "spoken_explanation": "C, the brother-in-law. Broker-dealer people and portfolio managers are restricted. Their immediate family is restricted too if there's material support, which includes living in the same household, or if the deal comes through the rep's own firm. He has no support, his own home, and a different firm, so he can buy.",
+    "tags": [
+      "ipo",
+      "rule-5130",
+      "restricted-persons"
+    ],
+    "outline_ref": "3.3.3 Other Prohibited Activities"
+  },
+  {
+    "id": "sie-q-0094",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "prohibited",
+    "lesson_id": "sie-3-12",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "A rep wants to share in the profits and losses of a customer's account. Assuming it is not a joint account with immediate family, which is required?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Only the customer's verbal agreement"
+      },
+      {
+        "key": "B",
+        "text": "Prior written approval of the firm and the customer, and sharing in proportion to the rep's contribution"
+      },
+      {
+        "key": "C",
+        "text": "Approval from FINRA"
+      },
+      {
+        "key": "D",
+        "text": "Nothing, as long as the rep guarantees the customer against loss"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "A rep wants to share in a customer's account profits and losses. It's not a joint account with immediate family. What's required? A, only the customer's verbal okay. B, prior written approval from the firm and customer, with sharing in proportion to what the rep contributed. C, FINRA approval. D, nothing, as long as the rep guarantees against loss.",
+    "explanation": "B is correct. FINRA Rule 2150 permits sharing in a customer account only with prior written authorization from both the member firm and the customer, and generally only in proportion to the rep's financial contribution. Accounts of immediate family are exempt from the proportionality requirement. A isn't enough. C isn't the requirement. D is doubly wrong: guaranteeing a customer against loss is itself prohibited.",
+    "spoken_explanation": "B. Written approval from the firm and the customer, and the rep shares only in proportion to the money they put in. Immediate family accounts are the exception to proportional sharing. And guaranteeing against loss is never allowed. Separately, under Rule thirty-two forty, borrowing from or lending to customers is only allowed in specific relationships, like immediate family or a bank, and only if the firm's procedures allow it.",
+    "tags": [
+      "rule-2150",
+      "sharing-accounts",
+      "guarantees"
+    ],
+    "outline_ref": "3.3.3 Other Prohibited Activities"
+  },
+  {
+    "id": "sie-q-0095",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "prohibited",
+    "lesson_id": "sie-3-12",
+    "difficulty": 2,
+    "type": "tf",
+    "stem": "True or false: Under FINRA Rule 2165, a firm may place a temporary hold on a disbursement from the account of a specified adult, such as a customer aged 65 or older, when it reasonably believes financial exploitation is occurring.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
     ],
     "answer": "A",
-    "spoken_stem": "In a cash account, a customer who buys common stock must do which of the following?",
-    "explanation": "A cash account requires payment in full. Borrowing to buy securities happens in a margin account, subject to Regulation T and FINRA margin rules. Maintenance margin is not a cash-account deposit. SIPC does not lend customers the purchase price.",
-    "spoken_explanation": "The answer is A. In a cash account the customer pays in full. The fifty percent Regulation T deposit and the twenty-five percent maintenance figure belong to a margin account, where the customer borrows part of the purchase price. SIPC does not lend the money to buy the stock. SIPC protects customers if a member broker fails.",
-    "tags": ["sample", "accounts"],
-    "outline_ref": "SIE 3.2"
+    "spoken_stem": "True or false: Under FINRA Rule twenty-one sixty-five, a firm can put a temporary hold on a disbursement from a specified adult's account, like a customer sixty-five or older, if it reasonably believes they're being financially exploited.",
+    "explanation": "True. A specified adult is someone 65 or older, or 18 or older whom the firm reasonably believes has a mental or physical impairment that makes them unable to protect their own interests. The firm must have written procedures, and it must notify authorized parties and the trusted contact person unless it suspects them. Rule 4512 requires firms to make reasonable efforts to get the name of a trusted contact person.",
+    "spoken_explanation": "True. Rule twenty-one sixty-five lets firms temporarily hold disbursements when they suspect exploitation of a specified adult: sixty-five plus, or eighteen plus with an impairment. Rule forty-five twelve has firms try to collect a trusted contact person. A trusted contact person isn't given authority over the account. The firm just uses them to check on the customer's health, whereabouts, or possible exploitation.",
+    "tags": [
+      "senior-investors",
+      "rule-2165",
+      "trusted-contact"
+    ],
+    "outline_ref": "3.3.3 Other Prohibited Activities"
   }
 ]

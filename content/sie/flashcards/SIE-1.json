@@ -3,36 +3,80 @@
     "id": "sie-f-0001",
     "exam": "SIE",
     "section": "SIE-1",
-    "sample": true,
-    "front": "Primary market",
-    "back": "The issuer sells new securities and receives the proceeds.",
-    "spoken": "Primary market. The issuer sells new securities and receives the proceeds."
+    "front": "Securities Act of 1933",
+    "back": "Regulates new issues in the primary market: registration and prospectus. Often called the paper act or truth in securities act.",
+    "spoken": "Securities Act of 1933. ... Regulates new issues in the primary market: registration and prospectus. Often called the paper act or truth in securities act."
   },
   {
     "id": "sie-f-0002",
     "exam": "SIE",
     "section": "SIE-1",
-    "sample": true,
-    "front": "Secondary market",
-    "back": "Investors trade securities that are already outstanding.",
-    "spoken": "Secondary market. Investors trade securities that are already outstanding."
+    "front": "Securities Exchange Act of 1934",
+    "back": "Created the SEC. Regulates secondary-market trading, exchanges, broker-dealers, and insider trading.",
+    "spoken": "Securities Exchange Act of 1934. ... Created the SEC. Regulates secondary-market trading, exchanges, broker-dealers, and insider trading."
   },
   {
     "id": "sie-f-0003",
     "exam": "SIE",
     "section": "SIE-1",
-    "sample": true,
-    "front": "Third market",
-    "back": "Exchange-listed securities trading over the counter.",
-    "spoken": "Third market. Exchange-listed securities trading over the counter."
+    "front": "MSRB",
+    "back": "Writes rules for municipal securities dealers and municipal advisors. Has no enforcement power: FINRA and the bank regulators enforce its rules.",
+    "spoken": "MSRB. ... Writes rules for municipal securities dealers and municipal advisors. Has no enforcement power: FINRA and the bank regulators enforce its rules."
   },
   {
     "id": "sie-f-0004",
     "exam": "SIE",
     "section": "SIE-1",
-    "sample": true,
-    "front": "SIPC coverage",
-    "back": "Up to $500,000 if a member broker fails, including up to $250,000 cash. Not market losses.",
-    "spoken": "SIPC coverage. Up to five hundred thousand dollars if a member broker fails, including up to two hundred fifty thousand dollars of cash. It does not cover market losses."
+    "front": "SIPC coverage (2026)",
+    "back": "Up to $500,000 per separate customer capacity, including at most $250,000 in cash. Covers missing assets when a member firm fails, not market losses.",
+    "spoken": "SIPC coverage (2026). ... Up to 500,000 dollars per separate customer capacity, including at most 250,000 dollars in cash. Covers missing assets when a member firm fails, not market losses."
+  },
+  {
+    "id": "sie-f-0005",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Third market vs. fourth market",
+    "back": "Third market: exchange-listed securities traded over the counter. Fourth market: institutions trading directly with each other, without a broker-dealer.",
+    "spoken": "Third market vs. fourth market. ... Third market: exchange-listed securities traded over the counter. Fourth market: institutions trading directly with each other, without a broker-dealer."
+  },
+  {
+    "id": "sie-f-0006",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Open market operations",
+    "back": "The FOMC buying or selling Treasuries. Buying adds money and pushes rates down. Selling drains money and pushes rates up.",
+    "spoken": "Open market operations. ... The FOMC buying or selling Treasuries. Buying adds money and pushes rates down. Selling drains money and pushes rates up."
+  },
+  {
+    "id": "sie-f-0007",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Leading indicators",
+    "back": "Move before the economy does: building permits, stock prices, new orders, initial jobless claims, average weekly hours.",
+    "spoken": "Leading indicators. ... Move before the economy does: building permits, stock prices, new orders, initial jobless claims, average weekly hours."
+  },
+  {
+    "id": "sie-f-0008",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Firm commitment underwriting",
+    "back": "The underwriter buys the entire issue as principal and bears the risk of any unsold shares.",
+    "spoken": "Firm commitment underwriting. ... The underwriter buys the entire issue as principal and bears the risk of any unsold shares."
+  },
+  {
+    "id": "sie-f-0009",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Accredited investor (individual)",
+    "back": "Net worth over $1 million excluding the primary residence. Or income over $200,000 single or $300,000 joint in each of the last 2 years. Holders of the Series 7, 65 or 82 also qualify.",
+    "spoken": "Accredited investor (individual). ... Net worth over 1 million dollars excluding the primary residence. Or income over 200,000 dollars single or 300,000 dollars joint in each of the last 2 years. Holders of the Series 7, 65 or 82 also qualify."
+  },
+  {
+    "id": "sie-f-0010",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Cooling-off period",
+    "back": "At least 20 days after filing a registration statement. No sales. A red herring can be sent and indications of interest taken.",
+    "spoken": "Cooling-off period. ... At least 20 days after filing a registration statement. No sales. A red herring can be sent and indications of interest taken."
   }
 ]

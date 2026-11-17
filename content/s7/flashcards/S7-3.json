@@ -1,47 +1,354 @@
 [
-  {
-    "id": "s7-f-0006",
-    "exam": "S7",
-    "section": "S7-3",
-    "sample": true,
-    "front": "Long call breakeven",
-    "back": "Strike price plus the premium.",
-    "spoken": "Long call breakeven. Strike price plus the premium."
-  },
-  {
-    "id": "s7-f-0007",
-    "exam": "S7",
-    "section": "S7-3",
-    "sample": true,
-    "front": "Covered call",
-    "back": "Long the stock and short a call. The upside is capped.",
-    "spoken": "Covered call. Long the stock and short a call. The upside is capped."
-  },
-  {
-    "id": "s7-f-0008",
-    "exam": "S7",
-    "section": "S7-3",
-    "sample": true,
-    "front": "Protective put",
-    "back": "Long the stock and long a put. Downside is limited. Breakeven is the stock price plus the premium.",
-    "spoken": "Protective put. Long the stock and long a put. Downside is limited. Breakeven is the stock price plus the premium."
-  },
-  {
-    "id": "s7-f-0009",
-    "exam": "S7",
-    "section": "S7-3",
-    "sample": true,
-    "front": "General obligation bond versus revenue bond",
-    "back": "A general obligation bond is backed by taxing power. A revenue bond is backed by a project's revenues.",
-    "spoken": "General obligation bond versus revenue bond. A general obligation bond is backed by taxing power. A revenue bond is backed by a project's revenues."
-  },
-  {
-    "id": "s7-f-0010",
-    "exam": "S7",
-    "section": "S7-3",
-    "sample": true,
-    "front": "FINRA maintenance margin",
-    "back": "Generally 25 percent of current market value for a long stock, and 30 percent for a short stock at $5 or more.",
-    "spoken": "FINRA maintenance margin. Generally twenty-five percent of current market value for a long stock, and thirty percent for a short stock priced at five dollars or more."
-  }
+ {
+  "id": "s7-f-0001",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Long call breakeven",
+  "back": "Strike + premium.",
+  "spoken": "Long call breakeven: strike plus premium. Calls up."
+ },
+ {
+  "id": "s7-f-0002",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Long put breakeven",
+  "back": "Strike - premium.",
+  "spoken": "Long put breakeven: strike minus premium. Puts down."
+ },
+ {
+  "id": "s7-f-0003",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Max loss for any option buyer",
+  "back": "The premium paid.",
+  "spoken": "An option buyer can lose only the premium paid."
+ },
+ {
+  "id": "s7-f-0004",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Max loss, uncovered call writer",
+  "back": "Unlimited.",
+  "spoken": "A naked call writer has unlimited risk, because the stock can rise without limit."
+ },
+ {
+  "id": "s7-f-0005",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Max loss, uncovered put writer",
+  "back": "(Strike - premium) x 100: stock goes to zero.",
+  "spoken": "A naked put writer's worst case is the stock going to zero: strike minus premium, times one hundred."
+ },
+ {
+  "id": "s7-f-0006",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Call in the money",
+  "back": "Market price above the strike.",
+  "spoken": "A call is in the money when the market is above the strike."
+ },
+ {
+  "id": "s7-f-0007",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Put in the money",
+  "back": "Market price below the strike.",
+  "spoken": "A put is in the money when the market is below the strike."
+ },
+ {
+  "id": "s7-f-0008",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Time value",
+  "back": "Premium - intrinsic value.",
+  "spoken": "Time value equals premium minus intrinsic value."
+ },
+ {
+  "id": "s7-f-0009",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Bullish option positions",
+  "back": "Long calls and short puts.",
+  "spoken": "Bullish positions: long calls and short puts."
+ },
+ {
+  "id": "s7-f-0010",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Bearish option positions",
+  "back": "Long puts and short calls.",
+  "spoken": "Bearish positions: long puts and short calls."
+ },
+ {
+  "id": "s7-f-0011",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Protective put: breakeven and max loss",
+  "back": "BE = stock cost + premium. Max loss = (cost - strike + premium) x 100.",
+  "spoken": "Protective put breakeven is stock cost plus premium. Max loss is cost minus strike, plus premium."
+ },
+ {
+  "id": "s7-f-0012",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Covered call: breakeven and max gain",
+  "back": "BE = stock cost - premium. Max gain = (strike - cost + premium) x 100.",
+  "spoken": "Covered call breakeven is stock cost minus premium. Max gain is strike minus cost, plus premium."
+ },
+ {
+  "id": "s7-f-0013",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Best hedge for a short stock position",
+  "back": "Buy a call (full protection). Selling a put gives only partial protection.",
+  "spoken": "To hedge short stock, buy a call. Selling a put only gives partial protection, equal to the premium."
+ },
+ {
+  "id": "s7-f-0014",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Call spread breakeven",
+  "back": "Lower strike + net premium.",
+  "spoken": "Call spread breakeven: lower strike plus the net premium."
+ },
+ {
+  "id": "s7-f-0015",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Put spread breakeven",
+  "back": "Higher strike - net premium.",
+  "spoken": "Put spread breakeven: higher strike minus the net premium."
+ },
+ {
+  "id": "s7-f-0016",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Debit spread max gain",
+  "back": "Strike difference - net debit.",
+  "spoken": "Debit spread max gain: the difference between strikes minus the net debit."
+ },
+ {
+  "id": "s7-f-0017",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Credit spread max loss",
+  "back": "Strike difference - net credit.",
+  "spoken": "Credit spread max loss: the difference between strikes minus the net credit."
+ },
+ {
+  "id": "s7-f-0018",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Debit vs credit spread goal",
+  "back": "Debit spreads want premiums to WIDEN. Credit spreads want them to NARROW or expire.",
+  "spoken": "Debit widen, credit narrow. D W C N."
+ },
+ {
+  "id": "s7-f-0019",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Straddle breakevens",
+  "back": "Strike +/- total of both premiums.",
+  "spoken": "Straddle breakevens: strike plus and minus the total of both premiums."
+ },
+ {
+  "id": "s7-f-0020",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Long straddle outlook",
+  "back": "Expects high volatility; direction unknown.",
+  "spoken": "A long straddle buyer expects a big move but doesn't know which way."
+ },
+ {
+  "id": "s7-f-0021",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Index option exercise settlement",
+  "back": "Cash: intrinsic value x $100 multiplier.",
+  "spoken": "Index options settle in cash: intrinsic value times the one hundred dollar multiplier."
+ },
+ {
+  "id": "s7-f-0022",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Uneven stock split, option adjustment",
+  "back": "Same number of contracts; more shares per contract; strike reduced so total value stays equal.",
+  "spoken": "For an uneven split, you keep the same number of contracts, but each covers more shares at a lower strike. Total value stays the same."
+ },
+ {
+  "id": "s7-f-0023",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Tax: exercised long call",
+  "back": "Cost basis = strike + premium.",
+  "spoken": "Exercising a long call: your stock cost basis is strike plus premium."
+ },
+ {
+  "id": "s7-f-0024",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Tax: assigned covered call",
+  "back": "Sale proceeds = strike + premium.",
+  "spoken": "An assigned call writer's sale proceeds are strike plus premium."
+ },
+ {
+  "id": "s7-f-0025",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Taxable equivalent yield",
+  "back": "Muni yield / (1 - tax rate).",
+  "spoken": "Taxable equivalent yield: divide the muni yield by one minus the tax rate."
+ },
+ {
+  "id": "s7-f-0026",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Muni accrued interest day count",
+  "back": "30/360, from last coupon date up to but not including settlement.",
+  "spoken": "Munis use thirty three sixty, counting up to the day before settlement."
+ },
+ {
+  "id": "s7-f-0027",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Muni bought at a premium",
+  "back": "Premium must be amortized; basis falls to par; no deductible loss at maturity.",
+  "spoken": "Muni premiums must be amortized. Hold to maturity and there's no gain or loss, and no deduction."
+ },
+ {
+  "id": "s7-f-0028",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Muni market discount vs OID",
+  "back": "OID accretes tax-exempt; secondary-market discount is generally ordinary income.",
+  "spoken": "Original issue discount on a muni accretes tax-free. Market discount is generally taxed as ordinary income."
+ },
+ {
+  "id": "s7-f-0029",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Revenue bond coverage ratio",
+  "back": "Net revenues / annual debt service.",
+  "spoken": "Debt service coverage: net revenues divided by annual debt service."
+ },
+ {
+  "id": "s7-f-0030",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Net vs gross revenue pledge",
+  "back": "Net: operations and maintenance paid first. Gross: debt service paid first.",
+  "spoken": "In a net revenue pledge, operations and maintenance come first. In a gross pledge, debt service comes first."
+ },
+ {
+  "id": "s7-f-0031",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "BAN, TAN, RAN, GAN",
+  "back": "Repaid from a future bond issue, taxes, other revenues, grants.",
+  "spoken": "BANs are repaid by bonds, TANs by taxes, RANs by revenues, and GANs by grants."
+ },
+ {
+  "id": "s7-f-0032",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Double-barreled bond",
+  "back": "Revenue bond also backed by the issuer's taxing power; rated like a GO.",
+  "spoken": "A double-barreled bond has revenues plus taxing power behind it, so it's rated like a GO."
+ },
+ {
+  "id": "s7-f-0033",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Discount bond yield order",
+  "back": "Nominal < current < YTM < YTC.",
+  "spoken": "For a discount bond, nominal is lowest, then current yield, then yield to maturity, and yield to call is highest."
+ },
+ {
+  "id": "s7-f-0034",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Convertible parity price of stock",
+  "back": "Bond price / conversion ratio. Ratio = $1,000 / conversion price.",
+  "spoken": "Parity stock price is bond price divided by the conversion ratio. The ratio is a thousand divided by the conversion price."
+ },
+ {
+  "id": "s7-f-0035",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Wash sale rule",
+  "back": "Loss disallowed if substantially identical securities (incl. calls) are bought 30 days before or after the sale.",
+  "spoken": "A wash sale disallows a loss if you buy the same stock, or a call on it, within thirty days before or after."
+ },
+ {
+  "id": "s7-f-0036",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Inherited vs gifted stock basis",
+  "back": "Inherited: stepped up to value at death, always long-term. Gift (appreciated): donor's basis and holding period carry over.",
+  "spoken": "Inherited stock steps up to the value at death and is always long-term. Gifted stock keeps the donor's basis."
+ },
+ {
+  "id": "s7-f-0037",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Rights value, cum-rights",
+  "back": "(Market - subscription price) / (rights needed + 1).",
+  "spoken": "Cum rights value: market minus subscription price, divided by rights plus one."
+ },
+ {
+  "id": "s7-f-0038",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Mutual fund sales charge %",
+  "back": "(POP - NAV) / POP.",
+  "spoken": "Sales charge percent: offering price minus N A V, divided by the offering price."
+ },
+ {
+  "id": "s7-f-0039",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Letter of intent",
+  "back": "13 months, backdate up to 90 days, non-binding.",
+  "spoken": "A letter of intent gives thirteen months to hit a breakpoint, can be backdated ninety days, and isn't binding."
+ },
+ {
+  "id": "s7-f-0040",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Variable annuity AIR rule",
+  "back": "Return > AIR: payment up. Return = AIR: same. Return < AIR: down.",
+  "spoken": "If the separate account beats the AIR, the next payment rises. Equal, it stays flat. Below, it falls."
+ },
+ {
+  "id": "s7-f-0041",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Non-qualified annuity withdrawal tax",
+  "back": "Earnings first (LIFO), ordinary income, +10% before 59 1/2.",
+  "spoken": "Annuity withdrawals come out earnings first, as ordinary income, with a ten percent penalty before fifty-nine and a half."
+ },
+ {
+  "id": "s7-f-0042",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Quick (acid-test) ratio",
+  "back": "(Current assets - inventory) / current liabilities.",
+  "spoken": "Quick ratio: current assets minus inventory, over current liabilities."
+ },
+ {
+  "id": "s7-f-0043",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "2026 annual gift tax exclusion",
+  "back": "$19,000 per recipient ($38,000 with gift splitting). Changes yearly; verify current year.",
+  "spoken": "For twenty twenty-six, the annual gift exclusion is nineteen thousand per recipient, or thirty-eight thousand for a couple splitting gifts. This changes over time."
+ },
+ {
+  "id": "s7-f-0044",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "ACATS timing",
+  "back": "Validate within 1 business day; complete within 3 business days after validation.",
+  "spoken": "ACATS: validate in one business day, complete in three more."
+ }
 ]

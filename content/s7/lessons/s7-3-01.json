@@ -1,28 +1,119 @@
 {
-  "id": "s7-3-01",
-  "exam": "S7",
-  "section": "S7-3",
-  "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
-  "title": "Sample: Option breakevens you can do by ear",
-  "order": 1,
-  "est_minutes": 6,
-  "sample": true,
-  "segments": [
-    {
-      "type": "narration",
-      "text": "This is a sample lesson. One option contract covers one hundred shares, so one point of premium is one hundred dollars. Start with a long call. The customer buys a fifty call and pays three points. The right is to buy the stock at fifty. The stock has to rise by the premium before the customer is even. Breakeven is the strike plus the premium, fifty plus three, which is fifty-three. Maximum loss is the premium, three hundred dollars. The gain above fifty-three is open-ended. Do not subtract the premium on a long call. Subtracting is the long put. A fifty put bought for three breaks even at forty-seven, the strike minus the premium."
-    },
-    {
-      "type": "narration",
-      "text": "A covered call is long the stock and short a call. Buy the stock at forty and sell a forty-five call for two points. If the stock is called away at forty-five, the stock gain is five hundred dollars and the premium kept is two hundred dollars. Maximum gain is seven hundred dollars. Breakeven on the stock is forty minus two, or thirty-eight, because the premium cushions a small drop. The upside is capped. A protective put is the opposite mood. Buy the stock at fifty and buy a fifty put for two. If the stock collapses, the put sells it at fifty, so the stock loss is offset. The premium is still gone. Maximum loss is two hundred dollars. Breakeven is fifty-two. A credit call spread is two calls. Sell the fifty call at five and buy the fifty-five call at two. The net credit is three points, three hundred dollars, and that is the most you can make. The strikes are five points apart. Maximum loss is the width minus the credit, five minus three, which is two points, or two hundred dollars. The long call is what keeps the loss from being unlimited."
-    },
-    { "type": "check", "question_id": "s7-q-0006" }
-  ],
-  "key_terms": [
-    { "term": "Long call breakeven", "definition": "Strike plus premium." },
-    { "term": "Covered call", "definition": "Long stock, short call. Upside is capped. Premium lowers the breakeven." },
-    { "term": "Credit spread max loss", "definition": "Difference in strikes, minus the net credit." }
-  ],
-  "mnemonics": ["Call up: add the premium. Put down: subtract the premium."],
-  "summary": "A long fifty call at three breaks even at fifty-three. A covered call caps the sale at the strike and keeps the premium. A protective put limits the downside to the premium when the strike equals the stock cost. A call credit spread's maximum loss is the width of the strikes minus the credit."
+ "id": "s7-3-01",
+ "exam": "S7",
+ "section": "S7-3",
+ "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+ "title": "Options foundations: calls, puts and breakevens",
+ "order": 1,
+ "est_minutes": 8,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Welcome to options, the single biggest topic on the Series 7. If you can do four things in your head, which are find the breakeven, the maximum gain, the maximum loss, and tell whether a position is bullish or bearish, you can answer most options questions on the exam. That's what this lesson builds."
+  },
+  {
+   "type": "narration",
+   "text": "Start with the two contracts. A call gives the buyer the right to BUY one hundred shares at the strike price until expiration. A put gives the buyer the right to SELL one hundred shares at the strike price. The buyer pays a premium for that right. The seller, also called the writer, collects the premium and takes on the obligation. If the buyer exercises a call, the writer must sell at the strike. If the buyer exercises a put, the writer must buy at the strike. So buyers have rights, and sellers have obligations."
+  },
+  {
+   "type": "narration",
+   "text": "Next, market attitude. A call buyer wants the stock to rise, so long calls are bullish. A put buyer wants the stock to fall, so long puts are bearish. The sellers take the opposite view. A call writer wants the stock to stay flat or fall, which is bearish. A put writer wants it to stay flat or rise, which is bullish. Group them that way: long calls and short puts are on the bullish side of the market, and long puts and short calls are on the bearish side. You'll need that grouping again for position limits."
+  },
+  {
+   "type": "narration",
+   "text": "Now the most tested calculation: breakeven. The memory hook is calls up, puts down. For a call, add the premium to the strike. For a put, subtract the premium from the strike. And here's a nice fact: the breakeven is the same for the buyer and the seller of the same contract. Only their profits go in opposite directions. Example: a fifty call bought for three. Calls up, so fifty plus three is a breakeven of fifty-three. The stock has to rise to fifty-three just for the buyer to get the premium back."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0001"
+  },
+  {
+   "type": "narration",
+   "text": "Maximum gain and maximum loss come next. Here's the core rule: for any option buyer, the maximum loss is the premium paid. You can't lose more than you put in. Flip that, and the seller's maximum gain is the premium received."
+  },
+  {
+   "type": "narration",
+   "text": "What about the other side? A call buyer's upside is unlimited, because a stock has no ceiling. That means the uncovered call writer has unlimited risk. That's why naked call writing needs the highest level of options approval. A put is different, because a stock can only fall to zero. So the put buyer's maximum gain is the strike minus the premium, times one hundred. And the uncovered put writer's maximum loss is exactly the same number: strike minus premium, times one hundred."
+  },
+  {
+   "type": "narration",
+   "text": "Let's walk one through. A customer writes an uncovered forty put at two and a half. Worst case, the stock goes to zero. The writer is forced to buy at forty, but keeps the two and a half premium. Forty minus two and a half is thirty-seven and a half, times one hundred, for a maximum loss of three thousand seven hundred fifty dollars. The maximum gain is just the two hundred fifty dollar premium."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0003"
+  },
+  {
+   "type": "narration",
+   "text": "Now value. An option's premium has two parts: intrinsic value and time value. Intrinsic value is how far the option is in the money. A call is in the money when the stock is ABOVE the strike. A put is in the money when the stock is BELOW the strike. Out of the money means no intrinsic value, and intrinsic value can never be negative. Everything else in the premium is time value, which is the market paying for the chance that things improve before expiration. Time value melts toward zero as expiration approaches."
+  },
+  {
+   "type": "narration",
+   "text": "Example. The stock is at forty-seven, and a forty-five call costs three and a half. The call is in the money by forty-seven minus forty-five, which is two. That's intrinsic value. The other one and a half is time value. When you see a question about time value, find intrinsic value first and subtract."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0005"
+  },
+  {
+   "type": "narration",
+   "text": "Let's connect profit and loss to closing transactions. Most options aren't exercised. They're closed by trading back. If you bought an option to open, you sell it to close. Your profit is the closing premium minus the opening premium, times one hundred. If an exam question says the option was closed at intrinsic value, compute intrinsic value at the new stock price and use that as the sale price. For example, a seventy put bought at five, with the stock dropping to sixty-one. Intrinsic value is seventy minus sixty-one, which is nine. Sell at nine, bought at five, and that's a four hundred dollar gain."
+  },
+  {
+   "type": "narration",
+   "text": "If the buyer exercises instead, the math is similar. Exercise a fifty call bought at two when the stock is fifty-eight, and sell the shares at once. You gain eight points on the stock and paid two for the call, so the profit is six points, or six hundred dollars."
+  },
+  {
+   "type": "narration",
+   "text": "One last pattern the exam loves: EXCEPT questions about unlimited risk. Any position that loses money as the stock rises, with no cap, has unlimited risk. That includes short stock, a naked short call, and a short straddle, which contains a naked short call. The naked short put is the odd one out. Its risk is large, but limited, because the stock can only fall to zero."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0010"
+  },
+  {
+   "type": "narration",
+   "text": "To pull it together, here's a quick routine for any single-option question. First, identify buyer or seller and call or put. Second, use calls up, puts down for the breakeven. Third, buyers risk only the premium, and sellers can gain only the premium. Fourth, naked calls have unlimited risk, and naked puts lose at most strike minus premium. Then multiply by one hundred at the very end. Say that routine out loud a few times on your drive. In the next lesson, we'll put options together with stock positions to hedge and generate income."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Call",
+   "definition": "The right to buy 100 shares at the strike price until expiration."
+  },
+  {
+   "term": "Put",
+   "definition": "The right to sell 100 shares at the strike price until expiration."
+  },
+  {
+   "term": "Premium",
+   "definition": "The price of an option; intrinsic value plus time value."
+  },
+  {
+   "term": "Intrinsic value",
+   "definition": "The amount an option is in the money; never negative."
+  },
+  {
+   "term": "Time value",
+   "definition": "Premium minus intrinsic value; decays toward zero at expiration."
+  },
+  {
+   "term": "In the money",
+   "definition": "Calls: market above strike. Puts: market below strike."
+  },
+  {
+   "term": "Breakeven",
+   "definition": "Calls: strike + premium. Puts: strike - premium. Same for buyer and seller."
+  },
+  {
+   "term": "Uncovered (naked) writer",
+   "definition": "A seller without an offsetting stock or option position; naked calls carry unlimited risk."
+  }
+ ],
+ "mnemonics": [
+  "Calls up, puts down (breakevens).",
+  "Buyers risk the premium; sellers keep the premium.",
+  "Bullish: long calls, short puts. Bearish: long puts, short calls."
+ ],
+ "summary": "Calls give the right to buy, and puts give the right to sell. Buyers pay a premium and risk only that premium. Writers collect it and take on the obligation. Breakeven is strike plus premium for calls and strike minus premium for puts. Long calls and short puts are bullish, and long puts and short calls are bearish. Naked call writers face unlimited risk. Naked put writers lose at most strike minus premium, times 100. Premium equals intrinsic value plus time value. Calls are in the money above the strike, and puts are in the money below it."
 }

@@ -3,26 +3,97 @@
   "exam": "SIE",
   "section": "SIE-1",
   "section_title": "Knowledge of Capital Markets",
-  "title": "Sample: How the capital markets fit together",
+  "title": "Who Regulates the Markets: SEC, SROs, States, the Fed and SIPC",
   "order": 1,
-  "est_minutes": 5,
-  "sample": true,
+  "est_minutes": 8,
   "segments": [
     {
       "type": "narration",
-      "text": "This is a sample lesson, written for Drive Study. It is not a FINRA question and it is not from a commercial bank. The Securities and Exchange Commission is the primary federal regulator of the securities markets. It writes rules, inspects firms, and brings cases, with a mission to protect investors and keep markets fair. Self-regulatory organizations, including FINRA and the Municipal Securities Rulemaking Board, write and enforce rules for their members under SEC oversight. The states have their own securities regulators. The Federal Reserve sets monetary policy and, through Regulation T, the initial margin rate. SIPC is different from all of these. If a SIPC member brokerage fails and customer cash or securities are missing, SIPC can advance up to five hundred thousand dollars per customer, and only up to two hundred fifty thousand dollars of that can be cash. SIPC does not replace a loss because a stock price fell. FDIC insurance is for bank deposits, not for market risk in a brokerage account."
+      "text": "Welcome to your first SIE lesson. Before products, before trading, you need a map of who makes the rules, who enforces them, and who protects customers when things go wrong. The SIE tests this in section one, and the same names come back on the Series 7, so it's worth getting straight now. We'll cover the S E C, the self-regulatory organizations, the state regulators, a few federal agencies that touch our industry, and SIPC. Let's start at the top."
     },
     {
       "type": "narration",
-      "text": "Markets are easier to keep straight if you ask who is selling. In the primary market, the issuer sells new securities and receives the money. In the secondary market, investors trade securities that already exist. The company does not get those proceeds. The third market is a special slice of the secondary market: exchange-listed shares trading over the counter, away from the listing exchange. The fourth market is institutions trading directly with each other, often through an electronic network. After a trade, someone has to clear and settle it. The Depository Trust and Clearing Corporation, through its clearing subsidiaries, handles most U.S. equity clearing. The Options Clearing Corporation issues and guarantees listed options, so a buyer is not taking the credit risk of one particular writer. Keep those two utilities separate from the regulators. They move and guarantee trades. They do not write the securities laws."
+      "text": "At the top is the Securities and Exchange Commission, the S E C. It's a federal government agency, and it was created by the Securities Exchange Act of nineteen thirty-four. Keep the big acts straight by what they do. The Securities Act of nineteen thirty-three is about new issues: when a company sells securities to the public for the first time, it must register them and give investors a prospectus. People call it the paper act, because it's about disclosure documents. The Securities Exchange Act of nineteen thirty-four is about everything after that: trading in the secondary market, exchanges, broker-dealers, insider trading, margin, and the creation of the S E C itself. The Investment Company Act of nineteen forty regulates funds, and the Investment Advisers Act of nineteen forty regulates advisers. The S E C's mission is to protect investors, keep markets fair, orderly and efficient, and help capital formation. It writes rules under those acts, it oversees the self-regulatory organizations, and it can bring civil enforcement actions. What it does not do is approve or endorse any security. A registration being effective never means the S E C thinks it's a good investment, and saying otherwise is a violation."
     },
-    { "type": "check", "question_id": "sie-q-0002" }
+    {
+      "type": "check",
+      "question_id": "sie-q-0001"
+    },
+    {
+      "type": "narration",
+      "text": "Under the S E C sit the self-regulatory organizations, or S R Os. An S R O is a non-government body that writes and enforces rules for its own members, under S E C oversight. The one you'll live with is FINRA, the Financial Industry Regulatory Authority. FINRA registers and tests representatives, which is why you're taking this exam. It also examines member firms, writes conduct rules, runs arbitration, and disciplines members with fines, suspensions or expulsion. Exchanges are S R Os too, like Cboe for options, with their own rules for trading on their floors and systems. Then there's the M S R B, the Municipal Securities Rulemaking Board. Here's the classic test point: the M S R B writes rules for firms that deal in municipal securities and for municipal advisors, but it has no enforcement arm. FINRA enforces M S R B rules against broker-dealers, and bank regulators, meaning the Fed, the Comptroller of the Currency and the F D I C, enforce them against bank dealers. Also, the M S R B regulates the dealers, not the issuers. A city selling bonds isn't an M S R B member."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0002"
+    },
+    {
+      "type": "narration",
+      "text": "Now the states. Every state has its own securities law, nicknamed blue-sky laws, and a state securities administrator who enforces it. Firms and reps generally have to register in the states where they do business, in addition to registering with FINRA. NASAA, the North American Securities Administrators Association, is the umbrella group for those state regulators. NASAA writes model rules, like the Uniform Securities Act, and coordinates enforcement, but it's each state's administrator who actually enforces. NASAA also writes exams like the Series sixty-three. So if a question asks who enforces blue-sky law, the answer is the state administrator, not NASAA and not the S E C."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0005"
+    },
+    {
+      "type": "narration",
+      "text": "Several federal bodies touch our world without being securities regulators. The Treasury Department issues government debt and, through the I R S, sets tax rules that drive a lot of product design, like retirement and college accounts. Treasury also houses FinCEN for anti-money laundering and O FAC for sanctions, which come back in section three. The Federal Reserve runs monetary policy and also sets credit rules for securities, most famously Regulation T, the initial margin requirement. Keep it in mind: margin credit is a Fed rule, even though FINRA sets maintenance requirements. The F D I C insures bank deposits, such as checking, savings and bank C Ds, up to two hundred fifty thousand dollars per depositor, per insured bank, per ownership category. It does not insure securities, mutual funds or annuities, even ones bought at a bank branch."
+    },
+    {
+      "type": "narration",
+      "text": "That brings us to SIPC, the Securities Investor Protection Corporation. SIPC was created by the Securities Investor Protection Act of nineteen seventy. It's a non-profit membership corporation, not a government agency, and most broker-dealers must be members and pay assessments. Here's what SIPC does: when a member firm fails and customer cash or securities are missing, SIPC steps in to restore them. The limits, as of twenty twenty-six, are five hundred thousand dollars per separate customer capacity, of which no more than two hundred fifty thousand can be cash. Separate capacity means account types like individual, joint, an I R A, or a trust count separately. Two individual accounts in the same name at the same firm do not get separate coverage. And here's what SIPC does not do. It doesn't cover market losses, bad advice, fraud by a firm that's still solvent, or an issuer defaulting on its bonds. If a question mentions a drop in value, SIPC is never the answer."
+    },
+    {
+      "type": "narration",
+      "text": "Let's do the math the way the exam likes it. Imagine a customer with one hundred fifty thousand in securities and three hundred thousand in cash. Cash is capped at two hundred fifty thousand. Securities of one hundred fifty thousand are fully covered. Add them and SIPC covers four hundred thousand. The leftover fifty thousand of cash becomes a claim as a general creditor of the failed firm's estate. Always handle the cash cap first, then fit securities under the five hundred thousand total."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0003"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0004"
+    },
+    {
+      "type": "narration",
+      "text": "One more quick piece of the map: the plumbing firms you'll hear about. An introducing broker-dealer takes customer orders but sends them to a clearing firm, which holds customer assets, settles trades and usually sends statements. Transfer agents keep an issuer's list of owners, and registrars make sure no more shares are issued than authorized. The Depository Trust Company holds securities in book-entry form. And the Options Clearing Corporation issues and guarantees every listed option. We'll go deeper on these market participants in the next lesson."
+    },
+    {
+      "type": "narration",
+      "text": "Let's wrap up. The S E C is the federal regulator, created by the thirty-four Act, and it never approves securities. The S R Os, FINRA, the exchanges and the M S R B, write rules for their members, but the M S R B can't enforce its own. States enforce blue-sky laws through their administrators, and NASAA coordinates them. The Fed sets margin credit under Reg T. The F D I C insures bank deposits, not securities. SIPC restores missing customer assets when a firm fails: five hundred thousand per capacity, with a two hundred fifty thousand cash cap, as of twenty twenty-six. Never market losses."
+    }
   ],
   "key_terms": [
-    { "term": "Primary market", "definition": "The issuer sells new securities and receives the proceeds." },
-    { "term": "Third market", "definition": "Over-the-counter trading of exchange-listed securities." },
-    { "term": "SIPC", "definition": "Protects customers if a member broker fails. Not a shield against market loss." }
+    {
+      "term": "SEC",
+      "definition": "Federal agency created by the Securities Exchange Act of 1934; enforces federal securities laws and oversees SROs. Never approves securities."
+    },
+    {
+      "term": "Self-regulatory organization (SRO)",
+      "definition": "A non-government body, such as FINRA, an exchange or the MSRB, that writes rules for its members under SEC oversight."
+    },
+    {
+      "term": "MSRB",
+      "definition": "Writes rules for municipal securities dealers and municipal advisors. Has no enforcement power: FINRA and the bank regulators enforce its rules."
+    },
+    {
+      "term": "Blue-sky laws",
+      "definition": "State securities laws, enforced by each state's securities administrator. NASAA coordinates the state regulators."
+    },
+    {
+      "term": "SIPC",
+      "definition": "Non-profit membership corporation created by SIPA 1970. Covers up to $500,000 per separate capacity, including up to $250,000 cash, when a member firm fails (2026 limits)."
+    },
+    {
+      "term": "FDIC",
+      "definition": "Insures bank deposits up to $250,000 per depositor, per insured bank, per ownership category. Does not insure securities."
+    }
   ],
-  "mnemonics": ["Primary means the issuer gets Paid."],
-  "summary": "The SEC regulates. FINRA and the MSRB are self-regulatory organizations. SIPC covers a failed broker, up to five hundred thousand dollars, not a falling market. Primary is a new issue. Secondary is investors trading. Third is listed shares over the counter. Fourth is institutions trading directly. The OCC guarantees listed options."
+  "mnemonics": [
+    "33 is the Paper act for new issues; 34 is the People and Places act and created the SEC.",
+    "MSRB: Makes rules, Saddled with no Badge, so others enforce them.",
+    "SIPC covers Custody, not Performance: missing assets, never market losses."
+  ],
+  "summary": "The SEC, created by the 1934 Act, regulates federally and never approves securities. SROs such as FINRA, the exchanges and the MSRB write member rules, but the MSRB cannot enforce its own. State administrators enforce blue-sky laws, and NASAA coordinates them. The Fed sets Reg T margin. The FDIC insures deposits, not securities. SIPC restores missing customer assets at failed member firms, up to $500,000 per capacity including $250,000 of cash (2026), and never covers market losses."
 }

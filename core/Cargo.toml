@@ -19,3 +19,7 @@ path = "src/bin/validate.rs"
 [[bin]]
 name = "generate-sw"
 path = "src/bin/generate_sw.rs"
+
+[[bin]]
+name = "index-content"
+path = "src/bin/index_content.rs"

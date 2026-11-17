@@ -1,20 +1,114 @@
 [
-  {
-    "id": "s7-f-0011",
-    "exam": "S7",
-    "section": "S7-4",
-    "sample": true,
-    "front": "Regular-way settlement",
-    "back": "T+1. One business day after the trade date for corporate stocks.",
-    "spoken": "Regular-way settlement. T plus one. One business day after the trade date for corporate stocks."
-  },
-  {
-    "id": "s7-f-0012",
-    "exam": "S7",
-    "section": "S7-4",
-    "sample": true,
-    "front": "Trade confirmation",
-    "back": "Must show the price and whether the firm acted as agent or principal.",
-    "spoken": "Trade confirmation. It must show the price and whether the firm acted as agent or principal."
-  }
+ {
+  "id": "s7-f-0045",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Regulation T initial margin",
+  "back": "50% of purchase or short sale value for equities.",
+  "spoken": "Reg T initial margin for stocks is fifty percent."
+ },
+ {
+  "id": "s7-f-0046",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Reg T payment period",
+  "back": "Settlement cycle + 2 business days: T+3 (S+2) under T+1 settlement.",
+  "spoken": "Reg T payment is due two business days after settlement. Under T plus one, that's T plus three."
+ },
+ {
+  "id": "s7-f-0047",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "FINRA minimum equity, margin account",
+  "back": "$2,000. Long purchase: deposit the lesser of cost or $2,000. Short sale: always at least $2,000.",
+  "spoken": "The FINRA margin minimum is two thousand dollars. For a long buy, deposit the lesser of the cost or two thousand. For a short sale, always at least two thousand."
+ },
+ {
+  "id": "s7-f-0048",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "FINRA minimum maintenance",
+  "back": "Long: 25% of LMV. Short (stock $5 or more): 30% of SMV.",
+  "spoken": "Minimum maintenance is twenty-five percent long and thirty percent short."
+ },
+ {
+  "id": "s7-f-0049",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Long maintenance call price",
+  "back": "Debit / 0.75 (per share: divide by shares).",
+  "spoken": "Long account maintenance call: divide the debit by point seven five."
+ },
+ {
+  "id": "s7-f-0050",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Short maintenance call price",
+  "back": "Credit / 1.30.",
+  "spoken": "Short account maintenance call: divide the credit balance by one point three."
+ },
+ {
+  "id": "s7-f-0051",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Excess equity (long)",
+  "back": "Equity - (50% x LMV). Credited to SMA.",
+  "spoken": "Excess equity is equity minus fifty percent of market value. It goes to SMA."
+ },
+ {
+  "id": "s7-f-0052",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Buying power",
+  "back": "SMA x 2 (at 50% Reg T).",
+  "spoken": "Buying power is SMA times two."
+ },
+ {
+  "id": "s7-f-0053",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "What never reduces SMA",
+  "back": "A decline in market value. SMA falls only when used.",
+  "spoken": "A falling market doesn't reduce SMA. Only using it does."
+ },
+ {
+  "id": "s7-f-0054",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Restricted account sale",
+  "back": "Equity below 50% Reg T: 50% of sale proceeds released to SMA.",
+  "spoken": "In a restricted account, half of any sale proceeds goes to SMA."
+ },
+ {
+  "id": "s7-f-0055",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Intraday margin rule (2026)",
+  "back": "FINRA replaced the pattern day trader rules and $25,000 minimum with risk-based intraday margin standards, effective June 4, 2026 (phase-in through Oct 20, 2027). Exam material may lag; verify.",
+  "spoken": "In June twenty twenty-six, FINRA replaced the pattern day trader rule and its twenty-five thousand dollar minimum with intraday margin standards, phased in through October twenty twenty-seven. Prep materials may still test the old rule."
+ },
+ {
+  "id": "s7-f-0056",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Regular-way settlement",
+  "back": "T+1 for stocks, corporate and municipal bonds (since May 28, 2024); Treasuries T+1.",
+  "spoken": "Regular way settlement is T plus one for stocks, corporates and munis since May twenty twenty-four."
+ },
+ {
+  "id": "s7-f-0057",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Ex-dividend date under T+1",
+  "back": "Same business day as the record date.",
+  "spoken": "Under T plus one, the ex-date is the same day as the record date."
+ },
+ {
+  "id": "s7-f-0058",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Buy stop vs sell stop",
+  "back": "Buy stop: above market, protects shorts. Sell stop: below market, protects longs.",
+  "spoken": "Buy stops sit above the market and protect short sellers. Sell stops sit below and protect long positions."
+ }
 ]

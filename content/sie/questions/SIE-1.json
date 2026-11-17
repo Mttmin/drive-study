@@ -7,43 +7,71 @@
     "lesson_id": "sie-1-01",
     "difficulty": 1,
     "type": "mc",
-    "sample": true,
-    "stem": "Which description best fits the Securities and Exchange Commission?",
+    "stem": "Which law created the Securities and Exchange Commission?",
     "choices": [
-      { "key": "A", "text": "The primary federal regulator of the securities markets" },
-      { "key": "B", "text": "The insurer of brokerage accounts against a drop in market value" },
-      { "key": "C", "text": "The clearing house that guarantees listed options" },
-      { "key": "D", "text": "A state securities regulator" }
+      {
+        "key": "A",
+        "text": "Securities Act of 1933"
+      },
+      {
+        "key": "B",
+        "text": "Securities Exchange Act of 1934"
+      },
+      {
+        "key": "C",
+        "text": "Investment Company Act of 1940"
+      },
+      {
+        "key": "D",
+        "text": "Securities Investor Protection Act of 1970"
+      }
     ],
-    "answer": "A",
-    "spoken_stem": "Which description best fits the Securities and Exchange Commission?",
-    "explanation": "The SEC is the primary federal securities regulator. Its mission is to protect investors, maintain fair and orderly markets, and facilitate capital formation. SIPC protects customers if a member broker fails; it does not back market losses. The Options Clearing Corporation issues and guarantees listed options. State regulators work through state law and NASAA, alongside the SEC, not instead of it.",
-    "spoken_explanation": "The answer is A. The Securities and Exchange Commission is the primary federal regulator of the securities markets. It protects investors and works to keep markets fair and orderly. It does not insure you against a falling stock price. That kind of brokerage-failure protection is SIPC, and listed options are guaranteed by the Options Clearing Corporation. State regulators are separate from the SEC.",
-    "tags": ["sample", "sec"],
-    "outline_ref": "SIE 1.1.1"
+    "answer": "B",
+    "spoken_stem": "Which law created the S E C? A, the Securities Act of 1933. B, the Securities Exchange Act of 1934. C, the Investment Company Act of 1940. D, the Securities Investor Protection Act of 1970.",
+    "explanation": "B is correct. The Securities Exchange Act of 1934 created the SEC and regulates the secondary market, broker-dealers and exchanges. A is wrong: the 1933 Act covers registration of new issues in the primary market and was originally administered by the FTC. C is wrong: the 1940 Act regulates investment companies such as mutual funds. D is wrong: SIPA 1970 created SIPC, not the SEC.",
+    "spoken_explanation": "The answer is B, the Securities Exchange Act of 1934. Remember: the 33 Act is about new issues, the paper act. The 34 Act is about trading and people, and it created the S E C itself. The 1940 Act covers funds, and the 1970 act created SIPC.",
+    "tags": [
+      "sec",
+      "securities-acts"
+    ],
+    "outline_ref": "1.1.1 The Securities and Exchange Commission (SEC)"
   },
   {
     "id": "sie-q-0002",
     "exam": "SIE",
     "section": "SIE-1",
-    "topic": "market-structure",
+    "topic": "regulators",
     "lesson_id": "sie-1-01",
     "difficulty": 2,
     "type": "mc",
-    "sample": true,
-    "stem": "Exchange-listed shares that trade over the counter, away from the listing exchange, are trading in which market?",
+    "stem": "The Municipal Securities Rulemaking Board (MSRB) writes rules for municipal securities dealers. Which of the following is TRUE about the MSRB?",
     "choices": [
-      { "key": "A", "text": "The third market" },
-      { "key": "B", "text": "The primary market" },
-      { "key": "C", "text": "The fourth market" },
-      { "key": "D", "text": "A new issue" }
+      {
+        "key": "A",
+        "text": "It enforces its rules against bank dealers"
+      },
+      {
+        "key": "B",
+        "text": "It does not enforce its own rules"
+      },
+      {
+        "key": "C",
+        "text": "It regulates municipal issuers' disclosure directly"
+      },
+      {
+        "key": "D",
+        "text": "It is a federal government agency"
+      }
     ],
-    "answer": "A",
-    "spoken_stem": "Exchange-listed shares that trade over the counter, away from the listing exchange, are trading in which market?",
-    "explanation": "The third market is over-the-counter trading of exchange-listed securities. The primary market is the issuer selling new securities. The secondary market is investors trading outstanding securities, including on an exchange. The fourth market is institutions trading directly with each other, often through an electronic network.",
-    "spoken_explanation": "The answer is A. The third market is where exchange-listed shares trade over the counter, away from the listing exchange. The primary market is the company selling new shares. The fourth market is institutions trading directly with each other. A new issue is a primary-market sale, not an over-the-counter trade of shares that are already listed.",
-    "tags": ["sample", "markets"],
-    "outline_ref": "SIE 1.2.1"
+    "answer": "B",
+    "spoken_stem": "Which statement about the M S R B is TRUE? A, it enforces its rules against bank dealers. B, it does not enforce its own rules. C, it directly regulates municipal issuers. D, it is a federal government agency.",
+    "explanation": "B is correct. The MSRB is a self-regulatory organization that writes rules for dealers and municipal advisors but has no enforcement power. FINRA enforces MSRB rules for broker-dealers, and bank regulators such as the Fed, the OCC and the FDIC enforce them for bank dealers. A is wrong because enforcement for bank dealers is done by bank regulators. C is wrong: the MSRB regulates dealers and municipal advisors, not issuers. D is wrong: it is an SRO overseen by the SEC, not a government agency.",
+    "spoken_explanation": "B. The M S R B writes the rules but has no teeth. FINRA enforces them for broker-dealers, and banking regulators enforce them for bank dealers. And the M S R B does not regulate the issuers themselves, the cities and states. Quick memory hook: the M S R B is a rule writer without a badge. If a test question asks who disciplines a muni dealer, look for FINRA or a bank regulator.",
+    "tags": [
+      "msrb",
+      "sro"
+    ],
+    "outline_ref": "1.1.2 Self-regulatory Organizations (SROs)"
   },
   {
     "id": "sie-q-0003",
@@ -51,42 +79,620 @@
     "section": "SIE-1",
     "topic": "sipc",
     "lesson_id": "sie-1-01",
-    "difficulty": 1,
-    "type": "tf",
-    "sample": true,
-    "stem": "SIPC protection replaces money a customer loses because the market price of a stock fell.",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A customer of a failed SIPC-member broker-dealer has $150,000 of securities and $300,000 of cash in a single individual account. Assuming no assets are recovered from the firm, how much of the claim does SIPC protect?",
     "choices": [
-      { "key": "T", "text": "True" },
-      { "key": "F", "text": "False" }
+      {
+        "key": "A",
+        "text": "$250,000"
+      },
+      {
+        "key": "B",
+        "text": "$400,000"
+      },
+      {
+        "key": "C",
+        "text": "$450,000"
+      },
+      {
+        "key": "D",
+        "text": "$500,000"
+      }
     ],
-    "answer": "F",
-    "spoken_stem": "True or false. SIPC protection replaces money a customer loses because the market price of a stock fell.",
-    "explanation": "False. SIPC protects customers if a SIPC-member brokerage fails and customer cash or securities are missing. The advance is up to $500,000 per customer, including up to $250,000 for cash. It does not protect against market losses. FDIC insurance is for bank deposits, not brokerage market risk.",
-    "spoken_explanation": "The answer is false. SIPC steps in when a member brokerage fails and customer cash or securities are missing. The protection is up to five hundred thousand dollars, and only up to two hundred fifty thousand dollars of that can be cash. A drop in the market price is an investment loss. SIPC does not replace it. Bank deposits are the FDIC's job, not SIPC's.",
-    "tags": ["sample", "sipc"],
-    "outline_ref": "SIE 1.1.3"
+    "answer": "B",
+    "spoken_stem": "A customer of a failed S I P C member has one hundred fifty thousand dollars in securities and three hundred thousand dollars in cash, in one individual account. How much does S I P C protect? A, two hundred fifty thousand. B, four hundred thousand. C, four hundred fifty thousand. D, five hundred thousand.",
+    "explanation": "B is correct. As of 2026, SIPC covers up to $500,000 per separate capacity, of which no more than $250,000 can be cash (sipc.org). Cash: the $300,000 is capped at $250,000. Securities: $150,000 is fully covered. $250,000 + $150,000 = $400,000; the extra $50,000 of cash becomes a general creditor claim. A is wrong because it counts only the cash cap. C is wrong because it ignores the $250,000 cash cap. D is wrong because the $500,000 overall limit is a ceiling, not a guaranteed payout.",
+    "spoken_explanation": "B, four hundred thousand. Step one, cash: three hundred thousand, but the cash cap is two hundred fifty thousand, so two fifty is covered. Step two, securities: one hundred fifty thousand, fully covered. Add them: four hundred thousand. The leftover fifty thousand of cash makes the customer a general creditor. These are the 2026 S I P C limits: five hundred thousand total, two fifty for cash.",
+    "tags": [
+      "sipc",
+      "math",
+      "changes-yearly"
+    ],
+    "outline_ref": "1.1.3 Other Regulators and Agencies"
   },
   {
     "id": "sie-q-0004",
     "exam": "SIE",
     "section": "SIE-1",
-    "topic": "clearing",
+    "topic": "sipc",
     "lesson_id": "sie-1-01",
     "difficulty": 2,
     "type": "mc",
-    "sample": true,
-    "stem": "What is the role of the Options Clearing Corporation in the listed options market?",
+    "stem": "SIPC coverage protects customers against which of the following?",
     "choices": [
-      { "key": "A", "text": "It issues and guarantees listed options contracts" },
-      { "key": "B", "text": "It insures customers against market losses" },
-      { "key": "C", "text": "It sets the Regulation T margin rate" },
-      { "key": "D", "text": "It files Form U4 for representatives" }
+      {
+        "key": "A",
+        "text": "A decline in the market value of their stocks"
+      },
+      {
+        "key": "B",
+        "text": "The failure of their broker-dealer with customer assets missing"
+      },
+      {
+        "key": "C",
+        "text": "Losses from a fraudulent recommendation by a solvent firm"
+      },
+      {
+        "key": "D",
+        "text": "The default of a bond issuer held in the account"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "S I P C protects customers against which of these? A, a drop in the market value of their stocks. B, the failure of their broker-dealer with customer assets missing. C, losses from a bad recommendation at a solvent firm. D, a bond issuer defaulting.",
+    "explanation": "B is correct. SIPC, created by the Securities Investor Protection Act of 1970, restores missing customer cash and securities when a member broker-dealer fails. A is wrong: market losses are an investment risk, never covered. C is wrong: a dispute over a bad recommendation goes to arbitration or court, not SIPC. D is wrong: issuer default is credit risk on the security itself.",
+    "spoken_explanation": "B. S I P C is about the firm failing and your assets being missing. It never covers market losses, bad advice, or an issuer defaulting. Think: SIPC protects custody, not performance. On the exam, any answer about a stock dropping, a bond defaulting, or poor advice is a trap. SIPC only steps in when a member firm fails and customer property is missing.",
+    "tags": [
+      "sipc"
+    ],
+    "outline_ref": "1.1.3 Other Regulators and Agencies"
+  },
+  {
+    "id": "sie-q-0005",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "regulators",
+    "lesson_id": "sie-1-01",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "State securities laws, often called blue-sky laws, are administered at the state level. NASAA's role is BEST described as:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Enforcing federal securities laws in each state"
+      },
+      {
+        "key": "B",
+        "text": "Writing model rules and coordinating state securities regulators"
+      },
+      {
+        "key": "C",
+        "text": "Registering broker-dealers nationally"
+      },
+      {
+        "key": "D",
+        "text": "Insuring customer accounts at state-chartered firms"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "State securities laws are called blue-sky laws. Which BEST describes NASAA's role? A, enforcing federal securities law in each state. B, writing model rules and coordinating state securities regulators. C, registering broker-dealers nationally. D, insuring customer accounts.",
+    "explanation": "B is correct. The North American Securities Administrators Association is an association of state, provincial and territorial regulators. It drafts model legislation such as the Uniform Securities Act and coordinates its members; each state administrator actually enforces its own blue-sky law. A is wrong: federal law is enforced by the SEC. C is wrong: broker-dealers register with the SEC and FINRA plus each state, not through NASAA. D is wrong: NASAA provides no insurance.",
+    "spoken_explanation": "B. NASAA is the club of state securities regulators. It writes model laws, like the Uniform Securities Act, but each state's administrator enforces its own blue sky law. The S E C handles federal law. If you see a question about who enforces state securities law, the answer is the state administrator. NASAA coordinates, writes model rules, and creates exams like the Series sixty-three.",
+    "tags": [
+      "nasaa",
+      "blue-sky",
+      "state-regulation"
+    ],
+    "outline_ref": "1.1.3 Other Regulators and Agencies"
+  },
+  {
+    "id": "sie-q-0006",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-participants",
+    "lesson_id": "sie-1-02",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "An introducing broker-dealer takes customer orders but does NOT hold customer funds or securities. Which entity typically holds those assets and settles the trades?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A transfer agent"
+      },
+      {
+        "key": "B",
+        "text": "A clearing broker-dealer"
+      },
+      {
+        "key": "C",
+        "text": "The issuer's registrar"
+      },
+      {
+        "key": "D",
+        "text": "A municipal advisor"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "An introducing broker takes orders but does NOT hold customer money or securities. Who usually holds the assets and settles the trades? A, a transfer agent. B, a clearing broker-dealer. C, the issuer's registrar. D, a municipal advisor.",
+    "explanation": "B is correct. An introducing firm sends its trades to a clearing (carrying) firm, which custodies the assets, settles trades and usually issues confirmations and statements. A is wrong: a transfer agent keeps the issuer's record of owners and cancels and issues certificates. C is wrong: a registrar audits the transfer agent so no more shares are issued than authorized. D is wrong: a municipal advisor advises issuers on muni financings.",
+    "spoken_explanation": "B, the clearing firm. Introducing firm: takes the order. Clearing firm: holds the assets and settles. The transfer agent keeps the issuer's list of owners, and the registrar checks the transfer agent. Introducing firms are common for smaller broker-dealers. The customer's statements and confirmations often come from the clearing firm, even though the customer deals with the introducing firm's rep.",
+    "tags": [
+      "broker-dealer",
+      "clearing"
+    ],
+    "outline_ref": "1.1.4 Market Participants and their Roles"
+  },
+  {
+    "id": "sie-q-0007",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-participants",
+    "lesson_id": "sie-1-02",
+    "difficulty": 1,
+    "type": "mc",
+    "stem": "Which organization issues and guarantees all listed options contracts in the United States?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Depository Trust Company"
+      },
+      {
+        "key": "B",
+        "text": "Options Clearing Corporation"
+      },
+      {
+        "key": "C",
+        "text": "Cboe Global Markets"
+      },
+      {
+        "key": "D",
+        "text": "FINRA"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "Which organization issues and guarantees all listed options in the U S? A, the Depository Trust Company. B, the Options Clearing Corporation. C, Cboe. D, FINRA.",
+    "explanation": "B is correct. The OCC is the issuer and guarantor of listed options, standing between every buyer and seller so neither depends on the other's credit. A is wrong: DTC is a securities depository for book-entry settlement of stocks and bonds. C is wrong: Cboe is an exchange where options trade, not the guarantor. D is wrong: FINRA regulates member firms.",
+    "spoken_explanation": "B, the O C C. The Options Clearing Corporation issues every listed option and guarantees performance. The exchange, like Cboe, is just where it trades. Because the O C C stands in the middle of every trade, an option buyer never has to worry whether the specific writer will perform. The O C C also assigns exercise notices to member firms.",
+    "tags": [
+      "occ",
+      "options",
+      "clearing"
+    ],
+    "outline_ref": "1.1.4 Market Participants and their Roles"
+  },
+  {
+    "id": "sie-q-0008",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-08",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Under Regulation D, which of the following individuals is an accredited investor?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A single person earning $180,000 a year for the past two years"
+      },
+      {
+        "key": "B",
+        "text": "A married couple with $900,000 net worth excluding their home and $250,000 joint income"
+      },
+      {
+        "key": "C",
+        "text": "A person with $1.2 million net worth excluding their primary residence"
+      },
+      {
+        "key": "D",
+        "text": "A person whose only significant asset is a $1.5 million primary residence"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "Under Regulation D, which person is an accredited investor? A, a single person earning one hundred eighty thousand a year. B, a married couple worth nine hundred thousand excluding their home, earning two hundred fifty thousand jointly. C, a person worth one point two million excluding their home. D, a person whose only big asset is a one point five million dollar home.",
+    "explanation": "C is correct. Rule 501 of Regulation D (and Rule 215) counts a natural person as accredited with net worth over $1 million, alone or with a spouse or spousal equivalent, EXCLUDING the primary residence. Or with income over $200,000 individually, or $300,000 jointly, in each of the past two years with the same expected this year. A is wrong: $180,000 is below the $200,000 individual test. B is wrong: $250,000 joint income is under $300,000, and $900,000 net worth is under $1 million. D is wrong: the primary residence is excluded from net worth.",
+    "spoken_explanation": "C. Accredited means over one million in net worth, not counting your home. Or income over two hundred thousand single, or three hundred thousand joint, for the last two years. A and B fall short on income, and D only has a house, which does not count.",
+    "tags": [
+      "reg-d",
+      "accredited-investor",
+      "private-placement"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0009",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-08",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "During the cooling-off period of a registered offering, a registered representative may do all of the following EXCEPT:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Send a preliminary prospectus"
+      },
+      {
+        "key": "B",
+        "text": "Take an indication of interest"
+      },
+      {
+        "key": "C",
+        "text": "Accept a customer's payment for shares"
+      },
+      {
+        "key": "D",
+        "text": "Answer questions about information in the preliminary prospectus"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "During the cooling-off period, a rep may do all of these EXCEPT which one? A, send a preliminary prospectus. B, take an indication of interest. C, accept the customer's payment for shares. D, answer questions about the preliminary prospectus.",
+    "explanation": "C is correct. Under the Securities Act of 1933, no sales may be made, and no money accepted, until the registration statement is effective. The cooling-off period lasts a minimum of 20 days after filing. A is allowed: the red herring is the permitted written offer document. B is allowed: indications of interest are non-binding. D is allowed: the rep may discuss what is in the preliminary prospectus.",
+    "spoken_explanation": "The EXCEPT answer is C, taking payment. In cooling-off you can hand out the red herring and take non-binding indications of interest. But no sales and no money until the registration is effective. The minimum cooling-off period is twenty days. The red herring has no final price and no effective date. Once the registration is effective, the final prospectus goes out and sales can begin.",
+    "tags": [
+      "securities-act-1933",
+      "registration",
+      "cooling-off",
+      "red-herring"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0010",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-07",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "In which type of underwriting does the underwriter buy the entire issue from the issuer and bear the risk of any unsold shares?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Best efforts"
+      },
+      {
+        "key": "B",
+        "text": "All or none"
+      },
+      {
+        "key": "C",
+        "text": "Firm commitment"
+      },
+      {
+        "key": "D",
+        "text": "Mini-maxi"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "In which kind of underwriting does the underwriter buy the whole issue and keep the risk of unsold shares? A, best efforts. B, all or none. C, firm commitment. D, mini-maxi.",
+    "explanation": "C is correct. In a firm commitment, the syndicate buys the securities from the issuer as principal and resells them; unsold shares are the underwriter's loss. A is wrong: in best efforts the underwriter acts as agent and returns what it can't sell. B is wrong: all or none is a best efforts variation canceled if the full amount isn't sold. D is wrong: mini-maxi is a best efforts variation with a minimum that must be sold.",
+    "spoken_explanation": "C, firm commitment. The underwriter buys it all and owns the risk. Best efforts, all or none, and mini-maxi are all agency deals where the issuer keeps the risk. Firm commitment is the most common deal for big established issuers. Best efforts shows up more with smaller or riskier issuers, because underwriters won't promise to buy what they might not be able to sell.",
+    "tags": [
+      "underwriting",
+      "firm-commitment",
+      "best-efforts"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0011",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-structure",
+    "lesson_id": "sie-1-03",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Two pension funds trade a large block of a listed stock directly with each other through an electronic network, without a broker-dealer. This is a trade in the:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Primary market"
+      },
+      {
+        "key": "B",
+        "text": "Second market"
+      },
+      {
+        "key": "C",
+        "text": "Third market"
+      },
+      {
+        "key": "D",
+        "text": "Fourth market"
+      }
+    ],
+    "answer": "D",
+    "spoken_stem": "Two pension funds trade a big block of a listed stock directly with each other over an electronic network, with no broker-dealer. Which market is that? A, primary. B, second. C, third. D, fourth.",
+    "explanation": "D is correct. The fourth market is institution-to-institution trading without a broker-dealer in the middle, typically on an electronic network. A is wrong: the primary market is the issuer selling new securities. B is wrong: the second market traditionally means exchange-listed trading on the exchange. C is wrong: the third market is exchange-listed securities traded over the counter through broker-dealers.",
+    "spoken_explanation": "D, the fourth market: institutions trading directly with each other, no broker-dealer. The third market is listed stock traded over the counter through a dealer. The primary market is the issuer selling new stock. Quick recap of all four. Primary: the issuer sells new securities. Second: listed stock on the exchange. Third: listed stock over the counter. Fourth: institutions directly, no broker-dealer.",
+    "tags": [
+      "market-structure",
+      "fourth-market",
+      "third-market"
+    ],
+    "outline_ref": "1.2.1 Types of Markets"
+  },
+  {
+    "id": "sie-q-0012",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "federal-reserve",
+    "lesson_id": "sie-1-04",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "If the Federal Open Market Committee buys Treasury securities in the open market, the MOST likely immediate effect is:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Money supply falls and interest rates rise"
+      },
+      {
+        "key": "B",
+        "text": "Money supply rises and interest rates fall"
+      },
+      {
+        "key": "C",
+        "text": "Tax revenues increase"
+      },
+      {
+        "key": "D",
+        "text": "The federal budget deficit shrinks"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "If the Fed's Open Market Committee BUYS Treasuries in the open market, what is the most likely effect? A, money supply falls and rates rise. B, money supply rises and rates fall. C, tax revenue rises. D, the federal deficit shrinks.",
+    "explanation": "B is correct. When the Fed buys securities it pays with newly created bank reserves, adding money to the banking system, which pushes short-term rates down. This is expansionary monetary policy. A describes Fed selling. C and D are wrong because taxes and the budget are fiscal policy, set by Congress and the President, not the Fed.",
+    "spoken_explanation": "B. Fed buys, money goes into the banks, rates drop. Fed sells, money comes out, rates rise. Taxes and spending are fiscal policy, which is Congress and the President, not the Fed. The Fed's three classic tools are open market operations, the discount rate, and reserve requirements. Open market operations are the most used and the most flexible.",
+    "tags": [
+      "federal-reserve",
+      "monetary-policy",
+      "open-market-operations"
+    ],
+    "outline_ref": "1.3.1 The Federal Reserve Board's Impact on Business Activity"
+  },
+  {
+    "id": "sie-q-0013",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "economics",
+    "lesson_id": "sie-1-04",
+    "difficulty": 1,
+    "type": "mc",
+    "stem": "Which of the following is an example of fiscal policy?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Raising the discount rate"
+      },
+      {
+        "key": "B",
+        "text": "Selling Treasury bills in open market operations"
+      },
+      {
+        "key": "C",
+        "text": "Congress passing a tax cut"
+      },
+      {
+        "key": "D",
+        "text": "Lowering the federal funds target rate"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "Which of these is fiscal policy? A, raising the discount rate. B, selling T-bills in open market operations. C, Congress passing a tax cut. D, lowering the fed funds target.",
+    "explanation": "C is correct. Fiscal policy is government taxation and spending, set by Congress and the President. A, B and D are monetary policy tools of the Federal Reserve: the discount rate it charges member banks, open market operations, and the federal funds rate target.",
+    "spoken_explanation": "C, a tax cut by Congress. Fiscal equals taxes and spending by Congress and the President. Everything with rates or open market trading is the Fed, which is monetary policy. A quick test: if the actor is the Fed, it's monetary policy. If it's Congress or the President deciding how much to tax or spend, it's fiscal policy. Keynesians favor fiscal policy; monetarists focus on the money supply.",
+    "tags": [
+      "fiscal-policy",
+      "monetary-policy"
+    ],
+    "outline_ref": "1.3.1 The Federal Reserve Board's Impact on Business Activity"
+  },
+  {
+    "id": "sie-q-0014",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "economics",
+    "lesson_id": "sie-1-05",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Which of the following is generally considered a LAGGING economic indicator?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Building permits"
+      },
+      {
+        "key": "B",
+        "text": "Average duration of unemployment"
+      },
+      {
+        "key": "C",
+        "text": "Stock prices"
+      },
+      {
+        "key": "D",
+        "text": "New orders for consumer goods"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "Which of these is a LAGGING economic indicator? A, building permits. B, average duration of unemployment. C, stock prices. D, new orders for consumer goods.",
+    "explanation": "B is correct. The average duration of unemployment changes after the economy has already turned, so it is lagging. Others in that group include the prime rate and outstanding commercial loans. A, C and D are leading indicators: permits, stock prices and new orders move before the economy does.",
+    "spoken_explanation": "B. How long people stay unemployed changes only after the economy has already turned, so it lags. Building permits, stock prices and new orders all lead, because they move ahead of the economy. Coincident indicators move with the economy, like nonfarm payrolls, personal income and industrial production. Leading ones move first, lagging ones move after. G D P is generally treated as a coincident measure.",
+    "tags": [
+      "economic-indicators"
+    ],
+    "outline_ref": "1.3.2 Business Economic Factors"
+  },
+  {
+    "id": "sie-q-0015",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "economics",
+    "lesson_id": "sie-1-05",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "During a contraction, which type of stock is MOST likely to hold up best?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A luxury automobile maker"
+      },
+      {
+        "key": "B",
+        "text": "A home builder"
+      },
+      {
+        "key": "C",
+        "text": "An electric utility"
+      },
+      {
+        "key": "D",
+        "text": "A heavy-equipment manufacturer"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "In a contraction, which stock is MOST likely to hold up best? A, a luxury car maker. B, a home builder. C, an electric utility. D, a heavy equipment maker.",
+    "explanation": "C is correct. Utilities are defensive: people keep paying for electricity in a downturn, so earnings stay steadier. A, B and D are cyclical: autos, housing and capital goods rise and fall sharply with the business cycle.",
+    "spoken_explanation": "C, the utility. Defensive businesses sell things people buy no matter what, like power, food and medicine. Cars, houses and heavy equipment are cyclical and get hit hard in a contraction. Growth stocks, on the other hand, are companies expected to grow earnings faster than average. They usually pay little or no dividend and can swing more in price.",
+    "tags": [
+      "business-cycle",
+      "defensive",
+      "cyclical"
+    ],
+    "outline_ref": "1.3.2 Business Economic Factors"
+  },
+  {
+    "id": "sie-q-0016",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "international-economics",
+    "lesson_id": "sie-1-06",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "If the U.S. dollar weakens against foreign currencies, which group is MOST likely to benefit?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "U.S. importers of foreign goods"
+      },
+      {
+        "key": "B",
+        "text": "U.S. exporters"
+      },
+      {
+        "key": "C",
+        "text": "Americans traveling abroad"
+      },
+      {
+        "key": "D",
+        "text": "U.S. investors buying foreign stocks today"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "If the U S dollar weakens against other currencies, who MOST likely benefits? A, U S importers. B, U S exporters. C, Americans traveling abroad. D, U S investors buying foreign stock today.",
+    "explanation": "B is correct. A weaker dollar makes U.S. goods cheaper for foreign buyers, helping exporters. A and C are hurt: importers and travelers need more dollars to buy the same foreign goods or services. D is wrong: buying foreign stock now costs more dollars. Investors who already hold foreign assets gain on conversion, but that is not buying today.",
+    "spoken_explanation": "B, exporters. Weak dollar means our goods look cheap overseas, so exporters sell more. Importers and travelers lose, because foreign stuff costs more dollars. Flip it for a strong dollar. Then imports and foreign travel get cheaper for Americans, but U S exporters struggle because their goods cost more overseas. Currency moves also affect the U S balance of payments.",
+    "tags": [
+      "exchange-rates",
+      "currency"
+    ],
+    "outline_ref": "1.3.3 International Economic Factors"
+  },
+  {
+    "id": "sie-q-0017",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-08",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A well-known seasoned issuer files one registration statement and sells portions of the registered securities over the following period as market conditions allow. This is called:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A Regulation D offering"
+      },
+      {
+        "key": "B",
+        "text": "A shelf registration"
+      },
+      {
+        "key": "C",
+        "text": "An intrastate offering"
+      },
+      {
+        "key": "D",
+        "text": "A Rule 144A offering"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "A big seasoned issuer files one registration and sells pieces of it over time as markets allow. What is that called? A, a Reg D offering. B, a shelf registration. C, an intrastate offering. D, a Rule 144A offering.",
+    "explanation": "B is correct. SEC Rule 415 shelf registration lets an issuer register securities once and take them off the shelf in pieces, generally over up to three years. A is wrong: Reg D is a private placement exemption, with no registration. C is wrong: intrastate offerings under Rule 147 are exempt from SEC registration. D is wrong: Rule 144A covers resales of restricted securities to qualified institutional buyers.",
+    "spoken_explanation": "B, shelf registration under Rule 415. Register once, sell in pieces, generally for up to three years. Reg D, intrastate and 144A are all exemptions from registration, not registrations. Shelf offerings let established issuers move quickly when market conditions look good, without filing a new registration statement each time they raise money.",
+    "tags": [
+      "shelf-registration",
+      "rule-415"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0018",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-08",
+    "difficulty": 2,
+    "type": "tf",
+    "stem": "True or false: Securities sold under the SEC Rule 147 intrastate exemption may be resold to out-of-state residents immediately after the offering closes.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "True or false: securities sold under the Rule 147 intrastate exemption can be resold to out-of-state residents right after the offering closes.",
+    "explanation": "False. Rule 147 requires the issuer to be doing business in the state and sell only to residents of that state. Resales to non-residents are restricted for six months from the date the issuer sold the security. Selling out of state early could cost the issuer the exemption.",
+    "spoken_explanation": "False. Rule 147 offerings stay in-state: buyers must be residents, and resale to out-of-state residents waits six months. The intrastate exemption is meant for local businesses raising money locally. The issuer must be organized or doing business in that state, and generally only in-state residents can buy.",
+    "tags": [
+      "rule-147",
+      "intrastate",
+      "exemptions"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0019",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "federal-reserve",
+    "lesson_id": "sie-1-04",
+    "difficulty": 2,
+    "type": "tf",
+    "stem": "True or false: The federal funds rate is the rate that banks charge each other for overnight loans of reserves.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
     ],
     "answer": "A",
-    "spoken_stem": "What is the role of the Options Clearing Corporation in the listed options market?",
-    "explanation": "The OCC is the issuer and guarantor of listed options. Buyers and sellers deal with the OCC as the central counterparty, which is why a buyer does not take the credit risk of a particular writer. The Federal Reserve sets Regulation T. Form U4 is a registration form. SIPC, not the OCC, addresses a failed broker.",
-    "spoken_explanation": "The answer is A. The Options Clearing Corporation issues listed options and guarantees them. The buyer is not depending on one particular seller to perform. The Federal Reserve sets the Regulation T margin rate. Form U4 registers an associated person. SIPC, not the Options Clearing Corporation, deals with a failed brokerage.",
-    "tags": ["sample", "occ"],
-    "outline_ref": "SIE 1.1.4"
+    "spoken_stem": "True or false: the fed funds rate is the rate banks charge each other for overnight loans of reserves.",
+    "explanation": "True. The federal funds rate is the overnight rate between banks; the FOMC sets a target range and steers it with open market operations. Don't confuse it with the discount rate, the rate the Fed itself charges banks borrowing from its discount window.",
+    "spoken_explanation": "True. Fed funds is bank to bank, overnight. The discount rate is what the Fed itself charges banks. The F O M C sets a target range for fed funds, and it's the most watched short-term rate in the economy. The discount rate is set a bit higher, so banks normally borrow from each other first.",
+    "tags": [
+      "federal-funds-rate",
+      "discount-rate"
+    ],
+    "outline_ref": "1.3.1 The Federal Reserve Board's Impact on Business Activity"
   }
 ]

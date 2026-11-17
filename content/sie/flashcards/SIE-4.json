@@ -1,20 +1,50 @@
 [
   {
-    "id": "sie-f-0011",
+    "id": "sie-f-0055",
     "exam": "SIE",
     "section": "SIE-4",
-    "sample": true,
-    "front": "Form U4",
-    "back": "The form that registers an associated person of a member firm.",
-    "spoken": "Form U4. The form that registers an associated person of a member firm."
+    "front": "Form U4 amendments",
+    "back": "Due within 30 days of learning of the facts. Felony charges are reportable, not only convictions.",
+    "spoken": "Form U4 amendments. ... Due within 30 days of learning of the facts. Felony charges are reportable, not only convictions."
   },
   {
-    "id": "sie-f-0012",
+    "id": "sie-f-0056",
     "exam": "SIE",
     "section": "SIE-4",
-    "sample": true,
-    "front": "Suspicious activity report",
-    "back": "The firm files it. The representative does not tip off the customer.",
-    "spoken": "Suspicious activity report. The firm files it. The representative does not tip off the customer."
+    "front": "Form U5",
+    "back": "Filed within 30 days of termination for any reason, with a copy to the individual.",
+    "spoken": "Form U5. ... Filed within 30 days of termination for any reason, with a copy to the individual."
+  },
+  {
+    "id": "sie-f-0057",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "Regulatory Element CE",
+    "back": "Annual, by December 31, since 2023. The Firm Element is the firm's own annual training.",
+    "spoken": "Regulatory Element CE. ... Annual, by December 31, since 2023. The Firm Element is the firm's own annual training."
+  },
+  {
+    "id": "sie-f-0058",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "Gift limit (2026)",
+    "back": "$300 per person per year under FINRA Rule 3220, effective March 30, 2026. It was $100 before. MSRB G-20 also moved to $300 for FINRA-member dealers in June 2026.",
+    "spoken": "Gift limit (2026). ... 300 dollars per person per year under FINRA Rule 3220, effective March 30, 2026. It was 100 dollars before. MSRB G-20 also moved to 300 dollars for FINRA-member dealers in June 2026."
+  },
+  {
+    "id": "sie-f-0059",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "MSRB G-37 de minimis",
+    "back": "$250 per election to an issuer official you can vote for. Going over can trigger a 2-year ban on municipal business with that issuer.",
+    "spoken": "MSRB G-37 de minimis. ... 250 dollars per election to an issuer official you can vote for. Going over can trigger a 2-year ban on municipal business with that issuer."
+  },
+  {
+    "id": "sie-f-0060",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "Outside business activities and private securities transactions",
+    "back": "Rule 3270: prior written notice for paid outside work. Rule 3280: selling away for pay needs the firm's written approval and supervision. Both are replaced by Rule 3290 on October 25, 2027.",
+    "spoken": "Outside business activities and private securities transactions. ... Rule 3270: prior written notice for paid outside work. Rule 3280: selling away for pay needs the firm's written approval and supervision. Both are replaced by Rule 3290 on October 25, 2027."
   }
 ]

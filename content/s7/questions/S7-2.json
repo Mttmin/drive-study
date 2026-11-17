@@ -1,71 +1,406 @@
 [
-  {
-    "id": "s7-q-0003",
-    "exam": "S7",
-    "section": "S7-2",
-    "topic": "account-types",
-    "lesson_id": "s7-2-01",
-    "difficulty": 1,
-    "type": "mc",
-    "sample": true,
-    "stem": "Two siblings open a brokerage account as joint tenants with right of survivorship. Which statement is correct?",
-    "choices": [
-      { "key": "A", "text": "They own equal shares, and the survivor becomes the owner" },
-      { "key": "B", "text": "Unequal shares are allowed, and there is no survivorship" },
-      { "key": "C", "text": "The account must be custodial for a minor" },
-      { "key": "D", "text": "A creditor of one owner can never reach any of the assets" }
-    ],
-    "answer": "A",
-    "spoken_stem": "Two siblings open a brokerage account as joint tenants with right of survivorship. Which statement is correct?",
-    "explanation": "JTWROS owners take equal shares, and the surviving tenant becomes the owner of the account without that asset passing through probate. Tenants in common may hold unequal shares and have no survivorship. A custodial account is a different registration. Survivorship does not, by itself, put the assets beyond a creditor of a living owner.",
-    "spoken_explanation": "The answer is A. Joint tenants with right of survivorship own equal shares. When one owner dies, the survivor owns the account, and that asset does not go through probate. Unequal shares with no survivorship describe tenants in common. A minor's account is a custodial account, not this registration. Survivorship does not, by itself, wall the assets off from a creditor of a living owner.",
-    "tags": ["sample", "accounts"],
-    "outline_ref": "Series 7 Function 2"
-  },
-  {
-    "id": "s7-q-0004",
-    "exam": "S7",
-    "section": "S7-2",
-    "topic": "custodial-accounts",
-    "lesson_id": "s7-2-01",
-    "difficulty": 2,
-    "type": "mc",
-    "sample": true,
-    "stem": "A parent funds an UGMA custodial account for a child. Which statement is correct?",
-    "choices": [
-      { "key": "A", "text": "The gift is irrevocable and the child is the beneficial owner" },
-      { "key": "B", "text": "The custodian may take the assets back if the child misbehaves" },
-      { "key": "C", "text": "The donor and the child must be joint tenants" },
-      { "key": "D", "text": "Income in the account is always taxed to the custodian" }
-    ],
-    "answer": "A",
-    "spoken_stem": "A parent funds an UGMA custodial account for a child. Which statement is correct?",
-    "explanation": "A gift to an UGMA account is irrevocable. The minor is the beneficial owner, and the custodian manages the assets until the age the state's version of the law requires. There is one custodian and one minor. Income is generally taxed to the minor, subject to the kiddie-tax rules, not automatically to the custodian. The donor does not hold the assets as a joint tenant with the child.",
-    "spoken_explanation": "The answer is A. The gift is irrevocable, and the child is the owner. The custodian manages the account. The custodian cannot take the assets back because the child misbehaved. It is not a joint account between the parent and the child. Income is generally taxed to the child, not automatically to the custodian, though the kiddie tax can pull some of that income onto a parent's return. The age when the child takes control depends on the state.",
-    "tags": ["sample", "ugma"],
-    "outline_ref": "Series 7 Function 2"
-  },
-  {
-    "id": "s7-q-0005",
-    "exam": "S7",
-    "section": "S7-2",
-    "topic": "recommendations",
-    "lesson_id": "s7-2-01",
-    "difficulty": 2,
-    "type": "mc",
-    "sample": true,
-    "stem": "A representative recommends a speculative options strategy to a retail customer whose only stated objective is preserving capital. This recommendation:",
-    "choices": [
-      { "key": "A", "text": "Fails the care obligation because it conflicts with the stated objective" },
-      { "key": "B", "text": "Is acceptable if the representative expects the options to profit" },
-      { "key": "C", "text": "Is fine as long as the customer meets an accredited-investor test" },
-      { "key": "D", "text": "Is required, because options belong in every retail account" }
-    ],
-    "answer": "A",
-    "spoken_stem": "A representative recommends a speculative options strategy to a retail customer whose only stated objective is preserving capital. Which statement fits?",
-    "explanation": "Regulation Best Interest's care obligation requires a reasonable basis to believe a recommendation to a retail customer is in that customer's best interest, in light of the investment profile. An objective limited to capital preservation is inconsistent with a speculative options bet. The representative's hope for a profit does not replace that match. Accredited-investor status is a different test and does not waive the care obligation. Options are not mandatory in every account.",
-    "spoken_explanation": "The answer is A. For a retail customer, Regulation Best Interest's care obligation asks whether the recommendation fits the customer's profile and is in the customer's best interest. Capital preservation and a speculative options strategy conflict. Expecting a profit does not fix that. Being an accredited investor is a different test, and it does not erase the care obligation. Options are not required in every account.",
-    "tags": ["sample", "reg-bi"],
-    "outline_ref": "Series 7 Function 2"
-  }
+ {
+  "id": "s7-q-0094",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "options-accounts",
+  "lesson_id": "s7-2-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "After a customer's account is approved for options trading, within how many days must the firm obtain the customer's signed options agreement?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "5 days"
+   },
+   {
+    "key": "B",
+    "text": "10 days"
+   },
+   {
+    "key": "C",
+    "text": "15 days"
+   },
+   {
+    "key": "D",
+    "text": "30 days"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "After an options account is approved, within how many days must the firm get the customer's signed options agreement?",
+  "explanation": "Under FINRA Rule 2360, the customer's written agreement to abide by options position and exercise limits and the rules must be obtained within 15 days after the account is approved for options trading. If it is not received, the customer may only close existing positions. The other periods are incorrect.",
+  "spoken_explanation": "Options account sequence: deliver the disclosure document, a principal approves, and the customer returns the signed agreement within fifteen days. Miss it, and the customer can only close positions. The principal must approve the account before the first trade, using the customer's financial info, experience, and objectives.",
+  "tags": [
+   "options-account",
+   "rule-2360",
+   "account-opening"
+  ],
+  "outline_ref": "2.4 Required review, approvals and documentation for account opening; 2.1 options accounts"
+ },
+ {
+  "id": "s7-q-0095",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "options-accounts",
+  "lesson_id": "s7-2-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "The Options Disclosure Document (ODD) must be delivered to a new options customer:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "At or before the time the account is approved for options trading"
+   },
+   {
+    "key": "B",
+    "text": "Before the first trade, which may be after approval"
+   },
+   {
+    "key": "C",
+    "text": "Within 15 days after the account is approved"
+   },
+   {
+    "key": "D",
+    "text": "With the confirmation of the first options trade"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "When must the Options Disclosure Document be delivered to a new options customer?",
+  "explanation": "The ODD, 'Characteristics and Risks of Standardized Options', must be furnished at or before the time the account is approved for options trading. 15 days after approval is the deadline for the signed options agreement, not the ODD. 'Before the first trade' and 'with the first confirmation' are both too late.",
+  "spoken_explanation": "The risk disclosure comes first: at or before the account is approved. The fifteen-day window is for the signed agreement, not the disclosure document. Updated disclosure documents must also be sent when the document is revised. Customers sign the options agreement only after receiving the disclosure document.",
+  "tags": [
+   "options-account",
+   "odd",
+   "rule-2360"
+  ],
+  "outline_ref": "2.1 Disclosures regarding account types; 1.1 options disclosure document"
+ },
+ {
+  "id": "s7-q-0096",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-authorizations",
+  "lesson_id": "s7-2-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which customer instruction requires prior written discretionary authorization?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Buy 300 shares of XYZ today at a price you think is best"
+   },
+   {
+    "key": "B",
+    "text": "Sell some of my XYZ shares today"
+   },
+   {
+    "key": "C",
+    "text": "Buy 100 shares of XYZ at the market"
+   },
+   {
+    "key": "D",
+    "text": "Buy 200 shares of XYZ at 50, good till canceled"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which instruction needs prior written discretionary authority? A, buy three hundred XYZ today at the best price you think. B, sell some of my XYZ today. C, buy a hundred XYZ at market. D, buy two hundred XYZ at fifty, good till canceled.",
+  "explanation": "Discretion exists when the RR chooses the asset, the action (buy or sell), or the amount. 'Sell some' leaves the AMOUNT to the RR, so written authorization is required. Choosing only the time and price (choice A) is not discretion, though it is generally limited to the day it is granted. Market and limit orders with asset, action, and amount specified need no discretion.",
+  "spoken_explanation": "Remember three A's: asset, action, amount. If the rep picks any of them, that's discretion and needs written authority first. Sell some leaves the amount to the rep. Time and price alone isn't discretion. Each discretionary order must be marked discretionary and reviewed by a principal promptly, and the account must be reviewed periodically for excessive trading.",
+  "tags": [
+   "discretionary-accounts",
+   "time-and-price",
+   "account-authorizations"
+  ],
+  "outline_ref": "2.2 Account authorizations: trading authority, discretionary account documents"
+ },
+ {
+  "id": "s7-q-0097",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-registration",
+  "lesson_id": "s7-2-01",
+  "difficulty": 1,
+  "type": "mc",
+  "stem": "Two unrelated customers own an account as tenants in common, 60/40. The 60% owner dies. What happens to that 60% interest?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "It passes to the surviving owner"
+   },
+   {
+    "key": "B",
+    "text": "It passes to the deceased owner's estate"
+   },
+   {
+    "key": "C",
+    "text": "The account is frozen permanently"
+   },
+   {
+    "key": "D",
+    "text": "It is split equally between the estate and the survivor"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Two people own an account as tenants in common, sixty forty. The sixty percent owner dies. Where does that share go?",
+  "explanation": "In a tenants-in-common account, each owner's fractional interest passes to his or her estate at death, so the 60% goes to the deceased's estate. Passing to the survivor is the right of survivorship in a JTWROS account. The account is not frozen permanently, and there is no equal split.",
+  "spoken_explanation": "Tenants in common: your share goes to your estate. Joint with right of survivorship: it goes to the surviving owner. TIC can also be unequal, like sixty forty. Unlike TIC, JTWROS owners must have equal interests and the account skips probate for the survivor. Tenants in common interests can also be unequal, like sixty forty.",
+  "tags": [
+   "account-types",
+   "tenants-in-common",
+   "jtwros"
+  ],
+  "outline_ref": "2.1 Account registration types (TIC)"
+ },
+ {
+  "id": "s7-q-0098",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement-accounts",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "For tax year 2026, what is the maximum Roth IRA contribution for a 45-year-old with $90,000 of earned income and no other IRA contributions?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$7,000"
+   },
+   {
+    "key": "B",
+    "text": "$7,500"
+   },
+   {
+    "key": "C",
+    "text": "$8,600"
+   },
+   {
+    "key": "D",
+    "text": "$24,500"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "For twenty twenty-six, what's the most a forty-five-year-old earning ninety thousand can put into a Roth IRA?",
+  "explanation": "The IRS 2026 IRA contribution limit is $7,500 (up from $7,000 in 2025). This limit is indexed and changes over time. Her income is below the Roth phase-out, and she is under 50, so no catch-up applies. $7,000 was the 2024-2025 limit. $8,600 includes the $1,100 catch-up for age 50+. $24,500 is the 2026 401(k) elective deferral limit.",
+  "spoken_explanation": "For twenty twenty-six the IRA limit is seventy-five hundred dollars. The eleven hundred dollar catch-up only starts at fifty. Twenty-four five is the 401k limit. These figures change over time, so check the current year. Contributions can't exceed earned income for the year, and Roth eligibility phases out at higher incomes.",
+  "tags": [
+   "retirement",
+   "roth-ira",
+   "contribution-limit",
+   "changes-yearly"
+  ],
+  "outline_ref": "2.1 Retirement plans: types of allowable contributions"
+ },
+ {
+  "id": "s7-q-0099",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement-accounts",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A 40-year-old leaves her employer and takes a distribution of her $50,000 401(k) balance paid directly to her, intending to roll it into an IRA. Which is TRUE?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "The plan must withhold 20%, and she has 60 days to roll over the full amount"
+   },
+   {
+    "key": "B",
+    "text": "No withholding applies if she rolls it over within 60 days"
+   },
+   {
+    "key": "C",
+    "text": "She has 90 days to complete the rollover"
+   },
+   {
+    "key": "D",
+    "text": "The plan must withhold 10% as an early withdrawal penalty"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A forty-year-old takes her fifty thousand dollar 401k as a check made out to her, planning to roll it to an IRA. Which is TRUE?",
+  "explanation": "An eligible rollover distribution paid to the participant (indirect rollover) is subject to mandatory 20% federal withholding: $10,000 here. She has 60 days to deposit the FULL $50,000 into the IRA, making up the withheld $10,000 from other funds to avoid tax on it. A direct trustee-to-trustee rollover avoids withholding. 90 days is wrong. The 10% penalty is not 'withheld'. It is assessed on amounts not rolled over.",
+  "spoken_explanation": "Check made out to you from a 401k means twenty percent is withheld up front, here ten thousand. You get sixty days to put the full fifty thousand into the IRA. A direct rollover avoids the withholding altogether. A direct rollover, made trustee to trustee, has no withholding and doesn't count as a sixty-day rollover.",
+  "tags": [
+   "retirement",
+   "rollover",
+   "401k",
+   "withholding"
+  ],
+  "outline_ref": "2.1 Retirement plans: transfers, rollovers"
+ },
+ {
+  "id": "s7-q-0100",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement-accounts",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: The original owner of a Roth IRA must begin taking required minimum distributions at age 73.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. The original owner of a Roth IRA must start required minimum distributions at seventy-three.",
+  "explanation": "False. Roth IRAs have no required minimum distributions during the original owner's lifetime. Traditional IRAs require RMDs beginning at age 73 under SECURE 2.0, rising to 75 for those who turn 74 after 2032. Beneficiaries who inherit a Roth IRA are subject to distribution rules.",
+  "spoken_explanation": "False. Roth IRAs have no RMDs for the original owner. Traditional IRAs start RMDs at seventy-three under current law, scheduled to become seventy-five in the next decade. Under SECURE two point oh, the traditional IRA RMD age is seventy-three, and it's scheduled to rise to seventy-five for people turning seventy-four after twenty thirty-two.",
+  "tags": [
+   "retirement",
+   "roth-ira",
+   "rmd"
+  ],
+  "outline_ref": "2.1 Retirement plans: age restrictions for distributions"
+ },
+ {
+  "id": "s7-q-0101",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "suitability-reg-bi",
+  "lesson_id": "s7-2-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Regulation Best Interest's general obligation is satisfied by complying with each of the following component obligations EXCEPT:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Disclosure obligation"
+   },
+   {
+    "key": "B",
+    "text": "Care obligation"
+   },
+   {
+    "key": "C",
+    "text": "Conflict of interest obligation"
+   },
+   {
+    "key": "D",
+    "text": "Ongoing account monitoring obligation"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Reg BI's general obligation is satisfied by meeting each of these component obligations, EXCEPT which? A, disclosure. B, care. C, conflict of interest. D, ongoing account monitoring.",
+  "explanation": "Reg BI has four component obligations: Disclosure, Care, Conflict of Interest, and Compliance. It does NOT impose an ongoing duty to monitor a retail customer's account unless the broker-dealer agrees to provide monitoring. Disclosure, Care, and Conflict of Interest are each components.",
+  "spoken_explanation": "Reg BI's four parts are disclosure, care, conflict of interest, and compliance. Ongoing monitoring isn't required unless the firm agrees to provide it. Reg BI applies when firms recommend securities or strategies to retail customers, including account type recommendations like rolling over to an IRA.",
+  "tags": [
+   "reg-bi",
+   "best-interest",
+   "except"
+  ],
+  "outline_ref": "2.3 Reasonable-basis, customer-specific and quantitative care obligations; Regulation Best Interest"
+ },
+ {
+  "id": "s7-q-0102",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "suitability-reg-bi",
+  "lesson_id": "s7-2-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "An RR recommends a series of trades to a retail customer. Each trade, viewed alone, is in the customer's best interest, but the account's turnover and cost-to-equity ratio are very high. Which obligation is MOST likely violated?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Reasonable-basis"
+   },
+   {
+    "key": "B",
+    "text": "Customer-specific"
+   },
+   {
+    "key": "C",
+    "text": "Quantitative"
+   },
+   {
+    "key": "D",
+    "text": "Disclosure"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A rep recommends trades that each look fine alone, but account turnover and costs are very high. Which obligation is MOST likely violated?",
+  "explanation": "The quantitative obligation requires that a SERIES of recommended transactions not be excessive in light of the customer's profile, even if each trade is acceptable in isolation. High turnover and cost-to-equity ratios are classic signs of excessive trading (churning). Reasonable-basis relates to understanding the product. Customer-specific relates to fit for this customer of each recommendation. Disclosure relates to telling the customer material facts.",
+  "spoken_explanation": "One trade at a time looks fine, but the pattern is too much. That's the quantitative obligation: the series of trades can't be excessive. Turnover and cost-to-equity are the red flags for churning. Reasonable basis means understanding the product. Customer-specific means it fits this customer. Quantitative means the overall pattern isn't excessive.",
+  "tags": [
+   "suitability",
+   "quantitative",
+   "churning"
+  ],
+  "outline_ref": "2.3 Reasonable-basis, customer-specific and quantitative care obligations"
+ },
+ {
+  "id": "s7-q-0103",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "customer-information",
+  "lesson_id": "s7-2-03",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: If a non-institutional customer declines to provide the name of a trusted contact person, the firm may still open the account.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "True or false. If a customer won't name a trusted contact person, the firm can still open the account.",
+  "explanation": "True. FINRA Rule 4512 requires a firm to make a reasonable effort to obtain the name and contact information of a trusted contact person for non-institutional accounts, but the account may be opened or maintained if the customer declines.",
+  "spoken_explanation": "True. The firm must make a reasonable effort to get a trusted contact, but the customer can refuse and the account can still be opened. The trusted contact can be contacted if the firm suspects financial exploitation or can't reach the customer, and can't make trades.",
+  "tags": [
+   "trusted-contact",
+   "rule-4512",
+   "account-opening"
+  ],
+  "outline_ref": "2.2 Obtains and updates customer information and documentation"
+ },
+ {
+  "id": "s7-q-0104",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "customer-information",
+  "lesson_id": "s7-2-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "An associated person of one FINRA member wants to open a brokerage account at another member firm. Which is required?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Nothing, if it is a cash account"
+   },
+   {
+    "key": "B",
+    "text": "The employing firm's prior written consent"
+   },
+   {
+    "key": "C",
+    "text": "Prior notice to FINRA"
+   },
+   {
+    "key": "D",
+    "text": "Oral approval from the employing firm's principal"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Someone who works for one FINRA member wants to open an account at another member. What's required?",
+  "explanation": "FINRA Rule 3210 requires the associated person to obtain the prior written consent of the employing member before opening an account at another firm, and the executing firm must provide duplicate confirmations and statements to the employer upon request. Cash accounts are not exempt. FINRA is not notified. Oral approval is insufficient.",
+  "spoken_explanation": "Working at one firm and opening an account at another requires the employer's prior written consent. The other firm then sends duplicate statements and confirms to your employer on request. Firms must also be alerted when associated persons trade elsewhere so they can monitor for conflicts and insider trading.",
+  "tags": [
+   "account-opening",
+   "rule-3210",
+   "employee-accounts"
+  ],
+  "outline_ref": "2.2 Customer screening: employees of broker-dealers or SROs"
+ }
 ]

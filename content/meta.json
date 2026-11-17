@@ -1,103 +1,77 @@
 {
-  "version": 1,
-  "disclaimer": "Sample study material for the FINRA SIE and Series 7. It is original, based on FINRA's public content outlines, and not affiliated with FINRA. It is not a full question bank. Rules, dollar limits, and tax treatment change. Check a primary source before you rely on a figure.",
-  "voice_id": "natural-en-us-v1",
-  "sources": {
-    "SIE": "FINRA Securities Industry Essentials Content Outline: 75 scored multiple-choice questions, 1 hour 45 minutes, passing score 70. Section weights 16/44/31/9. Each real exam also includes 10 unscored pretest items.",
-    "S7": "FINRA Series 7 Content Outline: 125 scored multiple-choice questions, 3 hours 45 minutes, passing score 72. Function weights 7/9/73/11. Each real exam also includes 10 unscored pretest items."
-  },
-  "files": {
-    "lessons": [
-      "content/sie/lessons/sie-1-01.json",
-      "content/sie/lessons/sie-2-01.json",
-      "content/s7/lessons/s7-2-01.json",
-      "content/s7/lessons/s7-3-01.json"
-    ],
-    "questions": [
-      "content/sie/questions/SIE-1.json",
-      "content/sie/questions/SIE-2.json",
-      "content/sie/questions/SIE-3.json",
-      "content/sie/questions/SIE-4.json",
-      "content/s7/questions/S7-1.json",
-      "content/s7/questions/S7-2.json",
-      "content/s7/questions/S7-3.json",
-      "content/s7/questions/S7-4.json"
-    ],
-    "flashcards": [
-      "content/sie/flashcards/SIE-1.json",
-      "content/sie/flashcards/SIE-2.json",
-      "content/sie/flashcards/SIE-3.json",
-      "content/sie/flashcards/SIE-4.json",
-      "content/s7/flashcards/S7-1.json",
-      "content/s7/flashcards/S7-2.json",
-      "content/s7/flashcards/S7-3.json",
-      "content/s7/flashcards/S7-4.json"
-    ]
-  },
+  "schema_version": 1,
+  "last_verified": "2026-11-16",
   "exams": {
     "SIE": {
-      "name": "Securities Industry Essentials",
-      "questions": 75,
-      "minutes": 105,
-      "pass_percent": 70,
+      "name": "Securities Industry Essentials (SIE) Exam",
+      "scored_questions": 75,
+      "unscored_questions": 5,
+      "total_questions": 80,
+      "choices_per_question": 4,
+      "time_limit_minutes": 105,
+      "passing_score": 70,
+      "passing_score_note": "FINRA reports a scaled score; 70 is the passing standard on that scale (scores are equated across forms), not literally 70% raw.",
+      "cost_usd": 100,
+      "results_valid_years": 4,
       "sections": [
-        {
-          "id": "SIE-1",
-          "title": "Knowledge of Capital Markets",
-          "weight": 16,
-          "questions": 12
-        },
-        {
-          "id": "SIE-2",
-          "title": "Understanding Products and Their Risks",
-          "weight": 44,
-          "questions": 33
-        },
-        {
-          "id": "SIE-3",
-          "title": "Understanding Trading, Customer Accounts and Prohibited Activities",
-          "weight": 31,
-          "questions": 23
-        },
-        {
-          "id": "SIE-4",
-          "title": "Overview of the Regulatory Framework",
-          "weight": 9,
-          "questions": 7
-        }
+        {"id": "SIE-1", "outline_number": "1", "title": "Knowledge of Capital Markets", "weight": 0.16, "questions": 12},
+        {"id": "SIE-2", "outline_number": "2", "title": "Understanding Products and Their Risks", "weight": 0.44, "questions": 33},
+        {"id": "SIE-3", "outline_number": "3", "title": "Understanding Trading, Customer Accounts and Prohibited Activities", "weight": 0.31, "questions": 23},
+        {"id": "SIE-4", "outline_number": "4", "title": "Overview of the Regulatory Framework", "weight": 0.09, "questions": 7}
+      ],
+      "notes": [
+        "Outline PDF is dated 2025-10. The pretest item count was reduced from 10 to 5 (80 total items) per the current outline.",
+        "Retake waiting period: 30 days after 1st and 2nd failures, 180 days after 3rd; reduced to 15 and 60 days effective January 19, 2027 (FINRA Regulatory Notice 26-18).",
+        "No penalty for guessing."
+      ],
+      "source_urls": [
+        "https://www.finra.org/registration-exams-ce/qualification-exams/securities-industry-essentials-exam",
+        "https://www.finra.org/sites/default/files/2025-10/SIE_Content_Outline.pdf",
+        "https://www.finra.org/rules-guidance/notices/26-18"
       ]
     },
     "S7": {
-      "name": "General Securities Representative (Series 7)",
-      "questions": 125,
-      "minutes": 225,
-      "pass_percent": 72,
+      "name": "Series 7 - General Securities Representative Qualification Examination (GS)",
+      "scored_questions": 125,
+      "unscored_questions": 5,
+      "total_questions": 130,
+      "choices_per_question": 4,
+      "time_limit_minutes": 225,
+      "passing_score": 72,
+      "passing_score_note": "Scaled passing standard of 72 (equated across forms).",
+      "cost_usd": 395,
+      "corequisite": "SIE",
       "sections": [
-        {
-          "id": "S7-1",
-          "title": "Seeks Business for the Broker-Dealer",
-          "weight": 7,
-          "questions": 9
-        },
-        {
-          "id": "S7-2",
-          "title": "Opens Accounts and Evaluates the Customer",
-          "weight": 9,
-          "questions": 11
-        },
-        {
-          "id": "S7-3",
-          "title": "Provides Information and Makes Recommendations",
-          "weight": 73,
-          "questions": 91
-        },
-        {
-          "id": "S7-4",
-          "title": "Processes Transactions",
-          "weight": 11,
-          "questions": 14
-        }
+        {"id": "S7-1", "outline_number": "F1", "title": "Seeks Business for the Broker-Dealer from Customers and Potential Customers", "weight": 0.07, "questions": 9},
+        {"id": "S7-2", "outline_number": "F2", "title": "Opens Accounts After Obtaining and Evaluating Customers' Financial Profile and Investment Objectives", "weight": 0.09, "questions": 11},
+        {"id": "S7-3", "outline_number": "F3", "title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records", "weight": 0.73, "questions": 91},
+        {"id": "S7-4", "outline_number": "F4", "title": "Obtains and Verifies Customers' Purchase and Sales Instructions and Agreements; Processes, Completes and Confirms Transactions", "weight": 0.11, "questions": 14}
+      ],
+      "notes": [
+        "Outline PDF is dated 2025-10. Percentages are rounded by FINRA (7/9/73/11); item counts are exact.",
+        "Margin is in outline 4.4 (S7-4); options strategies are in 3.2 (S7-3).",
+        "Must be associated with and sponsored by a member firm to sit for the exam.",
+        "Retake waiting periods change January 19, 2027, same as the SIE (Regulatory Notice 26-18)."
+      ],
+      "source_urls": [
+        "https://www.finra.org/registration-exams-ce/qualification-exams/series7",
+        "https://www.finra.org/sites/default/files/2025-10/Series_7_Content_Outline.pdf",
+        "https://www.finra.org/rules-guidance/notices/26-18"
       ]
     }
+  },
+  "unverified": [],
+  "yearly_changing_facts_used": {
+    "as_of": "2026-11-16",
+    "items": [
+      {"fact": "IRA contribution limit 2026", "value": "$7,500 + $1,100 catch-up (50+)", "source": "https://www.irs.gov/retirement-plans/cola-increases-for-dollar-limitations-on-benefits-and-contributions"},
+      {"fact": "401(k) elective deferral 2026", "value": "$24,500 + $8,000 catch-up (50+); $11,250 catch-up ages 60-63", "source": "https://www.irs.gov/pub/irs-drop/n-25-67.pdf"},
+      {"fact": "Annual gift tax exclusion 2026", "value": "$19,000", "source": "https://www.irs.gov/businesses/small-businesses-self-employed/whats-new-estate-and-gift-tax"},
+      {"fact": "SIPC limits", "value": "$500,000 per capacity incl. $250,000 cash", "source": "https://www.sipc.org/for-investors/what-sipc-protects"},
+      {"fact": "FINRA Rule 3220 gift limit", "value": "$300 per person per year (eff. 2026-03-30; previously $100)", "source": "https://www.finra.org/rules-guidance/notices/26-05"},
+      {"fact": "MSRB G-20 gift limit", "value": "$300 for FINRA-member dealers from 2026-06-01; bank dealers and MAs from 2026-12-01", "source": "https://www.msrb.org/Rules-and-Interpretations/MSRB-Rules/General/Rule-G-20-0"},
+      {"fact": "Pattern day trader rule", "value": "Replaced by intraday margin standards (Rule 4210), effective 2026-06-04 with phase-in to Oct 2027; $25,000 PDT minimum eliminated", "source": "https://www.finra.org/rules-guidance/notices/26-10"},
+      {"fact": "Outside activities", "value": "FINRA Rule 3290 replaces 3270/3280 effective 2027-10-25", "source": "https://www.finra.org/rules-guidance/notices/26-20"}
+    ]
   }
 }

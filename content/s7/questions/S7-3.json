@@ -1,182 +1,2834 @@
 [
-  {
-    "id": "s7-q-0006",
-    "exam": "S7",
-    "section": "S7-3",
-    "topic": "options-strategies",
-    "lesson_id": "s7-3-01",
-    "difficulty": 2,
-    "type": "mc",
-    "sample": true,
-    "stem": "A customer buys one XYZ 50 call for a premium of 3. What is the breakeven?",
-    "choices": [
-      { "key": "A", "text": "47" },
-      { "key": "B", "text": "50" },
-      { "key": "C", "text": "53" },
-      { "key": "D", "text": "56" }
-    ],
-    "answer": "C",
-    "spoken_stem": "A customer buys one X Y Z fifty call and pays a premium of three points. What is the breakeven price?",
-    "explanation": "Breakeven on a long call is strike plus premium: 50 + 3 = 53. The buyer needs the stock three points above the strike to recover the premium. 47 would subtract the premium, which is the breakeven pattern for a long put (strike minus premium). 50 ignores the premium. 56 adds the premium twice.",
-    "spoken_explanation": "The answer is C, fifty-three. The buyer paid three points for the right to buy at fifty. Breakeven on a long call is the strike plus the premium. Fifty plus three is fifty-three. Forty-seven subtracts the premium. That is the breakeven on a long put, not a long call. Fifty is only the strike. Fifty-six adds the premium twice.",
-    "tags": ["sample", "options"],
-    "outline_ref": "Series 7 Function 3"
-  },
-  {
-    "id": "s7-q-0007",
-    "exam": "S7",
-    "section": "S7-3",
-    "topic": "options-strategies",
-    "lesson_id": "s7-3-01",
-    "difficulty": 3,
-    "type": "mc",
-    "sample": true,
-    "stem": "A customer buys 100 shares at $40 and sells one 45 call for a premium of 2. What is the maximum gain?",
-    "choices": [
-      { "key": "A", "text": "$700" },
-      { "key": "B", "text": "$200" },
-      { "key": "C", "text": "Unlimited" },
-      { "key": "D", "text": "$500" }
-    ],
-    "answer": "A",
-    "spoken_stem": "A customer buys one hundred shares at forty dollars and sells one forty-five call for a premium of two points. What is the maximum gain?",
-    "explanation": "This is a covered call. If the stock is called away at 45, the stock gain is $5 per share, or $500, and the premium kept is $200. Maximum gain is $700. The premium alone is $200. The stock gain alone is $500. Upside is capped by the short call, so the gain is not unlimited. Breakeven on the stock is 40 − 2 = 38, which the question does not ask.",
-    "spoken_explanation": "The answer is A, seven hundred dollars. The stock was bought at forty and can be called away at forty-five. That is five dollars a share on one hundred shares, or five hundred dollars. The call premium is two points, or two hundred dollars, and the customer keeps it. Five hundred plus two hundred is seven hundred. The gain is not unlimited, because the short call caps the sale at forty-five. Two hundred dollars is only the premium. Five hundred dollars ignores the premium.",
-    "tags": ["sample", "covered-call"],
-    "outline_ref": "Series 7 Function 3"
-  },
-  {
-    "id": "s7-q-0008",
-    "exam": "S7",
-    "section": "S7-3",
-    "topic": "options-strategies",
-    "lesson_id": "s7-3-01",
-    "difficulty": 2,
-    "type": "mc",
-    "sample": true,
-    "stem": "A customer buys 100 shares at $50 and buys one 50 put for a premium of 2. What is the maximum loss?",
-    "choices": [
-      { "key": "A", "text": "$200" },
-      { "key": "B", "text": "Unlimited" },
-      { "key": "C", "text": "$5,000" },
-      { "key": "D", "text": "$0, because the put removes every cost" }
-    ],
-    "answer": "A",
-    "spoken_stem": "A customer buys one hundred shares at fifty dollars and buys one fifty put for a premium of two points. What is the maximum loss?",
-    "explanation": "A protective put lets the holder sell the stock at 50 no matter how far the stock falls. The stock loss below 50 is offset by the put. The premium, $200, is still spent. Maximum loss is the premium when the put strike equals the stock cost. Breakeven is 50 + 2 = 52. The loss is not unlimited, and it is not zero.",
-    "spoken_explanation": "The answer is A, two hundred dollars. The put gives the customer the right to sell the shares at fifty, the same price that was paid for the stock. If the stock collapses, the put covers that drop. What the customer cannot get back is the premium, two points, or two hundred dollars. That is the maximum loss. The loss is not unlimited, and it is not zero. Breakeven is fifty-two, the stock price plus the premium.",
-    "tags": ["sample", "protective-put"],
-    "outline_ref": "Series 7 Function 3"
-  },
-  {
-    "id": "s7-q-0009",
-    "exam": "S7",
-    "section": "S7-3",
-    "topic": "options-strategies",
-    "lesson_id": "s7-3-01",
-    "difficulty": 3,
-    "type": "mc",
-    "sample": true,
-    "stem": "A customer sells one 50 call at 5 and buys one 55 call at 2. What is the maximum loss?",
-    "choices": [
-      { "key": "A", "text": "$200" },
-      { "key": "B", "text": "$300" },
-      { "key": "C", "text": "$500" },
-      { "key": "D", "text": "Unlimited" }
-    ],
-    "answer": "A",
-    "spoken_stem": "A customer sells one fifty call at five and buys one fifty-five call at two. What is the maximum loss?",
-    "explanation": "This is a call credit spread. Net credit = 5 − 2 = 3 points, or $300, which is the maximum gain. The strikes are 5 points apart. Maximum loss = width minus credit = 5 − 3 = 2 points, or $200. The long 55 call caps the upside, so the loss is not unlimited. Breakeven is the short strike plus the credit: 50 + 3 = 53.",
-    "spoken_explanation": "The answer is A, two hundred dollars. The customer collected five points and paid two points, so the net credit is three points, or three hundred dollars. That credit is the most the customer can keep. The strikes are five points apart. Maximum loss on a credit spread is the width minus the credit. Five minus three is two points, or two hundred dollars. The long fifty-five call caps the risk, so the loss is not unlimited. Three hundred dollars is the maximum gain, not the loss.",
-    "tags": ["sample", "spreads"],
-    "outline_ref": "Series 7 Function 3"
-  },
-  {
-    "id": "s7-q-0010",
-    "exam": "S7",
-    "section": "S7-3",
-    "topic": "municipal-securities",
-    "difficulty": 1,
-    "type": "mc",
-    "sample": true,
-    "stem": "A general obligation municipal bond is backed primarily by:",
-    "choices": [
-      { "key": "A", "text": "The issuer's taxing power" },
-      { "key": "B", "text": "Revenue from one project, such as a toll road" },
-      { "key": "C", "text": "A bank letter of credit in every case" },
-      { "key": "D", "text": "The U.S. Treasury" }
-    ],
-    "answer": "A",
-    "spoken_stem": "A general obligation municipal bond is backed primarily by which of the following?",
-    "explanation": "A general obligation bond is backed by the issuer's full faith and credit, meaning its taxing power. A revenue bond is paid from a project's revenues, such as a toll road or a water system, and is not a general tax pledge. Credit enhancement can exist, but it is not part of the definition. The U.S. Treasury does not stand behind municipal debt.",
-    "spoken_explanation": "The answer is A, the issuer's taxing power. A general obligation bond is a promise backed by taxes. A revenue bond is the one paid by a project, such as a toll road or a water system. A bank letter of credit can enhance a bond, but it is not what makes the bond a general obligation. The Treasury does not guarantee municipal debt.",
-    "tags": ["sample", "munis"],
-    "outline_ref": "Series 7 Function 3"
-  },
-  {
-    "id": "s7-q-0011",
-    "exam": "S7",
-    "section": "S7-3",
-    "topic": "margin",
-    "difficulty": 2,
-    "type": "mc",
-    "sample": true,
-    "stem": "Under FINRA Rule 4210, the minimum maintenance margin for long margin-eligible stock is generally:",
-    "choices": [
-      { "key": "A", "text": "25 percent of the current market value" },
-      { "key": "B", "text": "50 percent of the current market value" },
-      { "key": "C", "text": "30 percent of the current market value" },
-      { "key": "D", "text": "A flat $2,000, with no percentage test" }
-    ],
-    "answer": "A",
-    "spoken_stem": "Under FINRA Rule 4210, the minimum maintenance margin for long stock that is eligible for margin is generally which amount?",
-    "explanation": "FINRA Rule 4210 sets long maintenance at 25% of current market value for margin securities. Fifty percent is Regulation T initial margin, not the maintenance test. Thirty percent is the maintenance level for a short stock at $5 or more. The $2,000 figure is a minimum equity requirement when opening a margin transaction, not a substitute for the percentage test. A house requirement can be higher than 25%.",
-    "spoken_explanation": "The answer is A, twenty-five percent of the current market value. That is FINRA's maintenance requirement for a long margin stock. Fifty percent is the Regulation T initial deposit, which is a different test. Thirty percent is the usual maintenance level when the customer is short a stock priced at five dollars or more. Two thousand dollars is a minimum equity amount for opening many margin trades. It does not replace the percentage. A firm may set a higher house requirement.",
-    "tags": ["sample", "margin"],
-    "outline_ref": "Series 7 Function 3"
-  },
-  {
-    "id": "s7-q-0012",
-    "exam": "S7",
-    "section": "S7-3",
-    "topic": "margin",
-    "difficulty": 2,
-    "type": "mc",
-    "sample": true,
-    "stem": "A customer is short 100 shares of a $40 stock. FINRA's minimum maintenance margin on that position is generally:",
-    "choices": [
-      { "key": "A", "text": "30 percent of the current market value" },
-      { "key": "B", "text": "25 percent of the current market value" },
-      { "key": "C", "text": "50 percent of the current market value" },
-      { "key": "D", "text": "100 percent of the current market value" }
-    ],
-    "answer": "A",
-    "spoken_stem": "A customer is short one hundred shares of a stock trading at forty dollars. FINRA's minimum maintenance margin on that short position is generally which amount?",
-    "explanation": "For a stock sold short at $5 per share or more, FINRA Rule 4210 requires maintenance of the greater of $5 per share or 30% of current market value. At $40, 30% is $12 per share, which is greater than $5, so the percentage controls. Twenty-five percent is the long-stock maintenance level. Fifty percent is initial margin under Regulation T. One hundred percent would mean no leverage at all.",
-    "spoken_explanation": "The answer is A, thirty percent of the current market value. The stock is at forty dollars, well above five dollars. For a short stock at five dollars or more, FINRA requires the greater of five dollars a share or thirty percent of the current market value. Thirty percent of forty is twelve dollars a share, which is more than five, so the thirty percent controls. Twenty-five percent is the long-stock maintenance figure. Fifty percent is the Regulation T initial margin.",
-    "tags": ["sample", "margin"],
-    "outline_ref": "Series 7 Function 3"
-  },
-  {
-    "id": "s7-q-0013",
-    "exam": "S7",
-    "section": "S7-3",
-    "topic": "debt",
-    "difficulty": 2,
-    "type": "mc",
-    "sample": true,
-    "stem": "A bond with a 4 percent coupon is trading at a discount. Which statement is true?",
-    "choices": [
-      { "key": "A", "text": "Yield to maturity is higher than the coupon" },
-      { "key": "B", "text": "Yield to maturity is lower than the coupon" },
-      { "key": "C", "text": "The bond cannot be a municipal bond" },
-      { "key": "D", "text": "The price will not change if interest rates change" }
-    ],
-    "answer": "A",
-    "spoken_stem": "A bond with a four percent coupon is trading at a discount. Which statement is true?",
-    "explanation": "A discount bond's price is below par, so a buyer who holds to maturity earns the coupon plus the pull up to par. Yield to maturity is therefore higher than the coupon. A premium bond is the opposite: yield to maturity is below the coupon. Municipals can trade at discounts. Discount pricing is exactly how the bond responds when yields are above the coupon.",
-    "spoken_explanation": "The answer is A. Yield to maturity is higher than the four percent coupon. The buyer pays less than par and, if the bond is held to maturity, also earns the rise from that discount up to par. That extra lift makes the yield higher than the coupon. A premium bond works the other way. A municipal bond can trade at a discount. And the price is exactly the thing that moves when rates move.",
-    "tags": ["sample", "bonds"],
-    "outline_ref": "Series 7 Function 3"
-  }
+ {
+  "id": "s7-q-0001",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-basics",
+  "lesson_id": "s7-3-01",
+  "difficulty": 1,
+  "type": "mc",
+  "stem": "A customer buys 1 XYZ Jan 50 call at 3. What is the customer's breakeven at expiration?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "47"
+   },
+   {
+    "key": "B",
+    "text": "50"
+   },
+   {
+    "key": "C",
+    "text": "53"
+   },
+   {
+    "key": "D",
+    "text": "56"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer buys one XYZ January fifty call at a premium of three. What is the breakeven at expiration?",
+  "explanation": "For a long call, breakeven = strike + premium = 50 + 3 = 53. 47 is strike minus premium, which is the breakeven for a long put. 50 is only the strike; at 50 the call expires worthless and the customer loses the full $300 premium. 56 adds the premium twice.",
+  "spoken_explanation": "Calls up. For a call, add the premium to the strike. Strike fifty plus premium three gives a breakeven of fifty-three. Forty-seven would be a put's breakeven, fifty ignores the premium you paid, and fifty-six double counts it. On the exam, the buyer and the seller of the same option share the same breakeven, so you can use this number for either side.",
+  "tags": [
+   "options",
+   "breakeven",
+   "long-call"
+  ],
+  "outline_ref": "3.2 Options: profit and loss calculations, break-even points, economics of positions"
+ },
+ {
+  "id": "s7-q-0002",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-basics",
+  "lesson_id": "s7-3-01",
+  "difficulty": 1,
+  "type": "mc",
+  "stem": "A customer buys 1 XYZ Jan 50 call at 3. What is the customer's maximum potential loss?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$300"
+   },
+   {
+    "key": "B",
+    "text": "$4,700"
+   },
+   {
+    "key": "C",
+    "text": "$5,300"
+   },
+   {
+    "key": "D",
+    "text": "Unlimited"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A customer buys one XYZ January fifty call at three. What is the maximum loss?",
+  "explanation": "A buyer of any option can lose no more than the premium paid: 3 x 100 shares = $300. $4,700 and $5,300 mix the strike with the premium and do not apply to a buyer. Unlimited loss belongs to an uncovered call WRITER, not a call buyer.",
+  "spoken_explanation": "Buyers can only lose what they pay. Premium three times one hundred shares is three hundred dollars. Unlimited risk belongs to the naked call seller, not the buyer, and the strike-based figures don't apply here. The flip side: the call writer's maximum gain is that same three hundred dollar premium. Buyer's max loss equals seller's max gain.",
+  "tags": [
+   "options",
+   "max-loss",
+   "long-call"
+  ],
+  "outline_ref": "3.2 Options: profit and loss calculations, break-even points, economics of positions"
+ },
+ {
+  "id": "s7-q-0003",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-basics",
+  "lesson_id": "s7-3-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer writes 1 uncovered ABC May 40 put at 2.50. What is the customer's maximum potential loss?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$250"
+   },
+   {
+    "key": "B",
+    "text": "$3,750"
+   },
+   {
+    "key": "C",
+    "text": "$4,000"
+   },
+   {
+    "key": "D",
+    "text": "$4,250"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer writes one uncovered ABC May forty put at two and a half. What is the maximum loss?",
+  "explanation": "The worst case for a put writer is the stock going to zero: the writer buys stock at 40 that is worth 0, offset by the 2.50 premium received. Max loss = (40 - 2.50) x 100 = $3,750. $250 is the max GAIN (the premium). $4,000 ignores the premium. $4,250 adds the premium instead of subtracting it.",
+  "spoken_explanation": "Put writer's worst case: stock goes to zero. You must buy at forty, minus the two and a half premium you kept, so thirty-seven fifty per share, times one hundred, is three thousand seven hundred fifty dollars. Two fifty is the max gain, four thousand forgets the premium, and forty-two fifty adds it the wrong way. Remember, the buyer of this put has the mirror image: max gain of thirty-seven fifty, max loss of two fifty.",
+  "tags": [
+   "options",
+   "max-loss",
+   "short-put",
+   "uncovered"
+  ],
+  "outline_ref": "3.2 Options: profit and loss calculations, break-even points, economics of positions"
+ },
+ {
+  "id": "s7-q-0004",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-basics",
+  "lesson_id": "s7-3-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer sells 1 uncovered DEF Oct 60 call at 4. DEF rises to 71 and the call is exercised. Ignoring commissions, what is the result?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$700 gain"
+   },
+   {
+    "key": "B",
+    "text": "$700 loss"
+   },
+   {
+    "key": "C",
+    "text": "$1,100 loss"
+   },
+   {
+    "key": "D",
+    "text": "$1,500 loss"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer sells one uncovered DEF October sixty call at four. The stock rises to seventy-one and the call is exercised. What's the result?",
+  "explanation": "On assignment the writer must buy at 71 and deliver at 60, a loss of 11 points. The 4 premium received offsets part of it: 11 - 4 = 7 points x 100 = $700 loss. $700 gain gets the direction wrong. $1,100 ignores the premium. $1,500 adds the premium to the loss.",
+  "spoken_explanation": "Assigned writer buys at seventy-one and sells at sixty, losing eleven points. Subtract the four point premium you kept: eleven minus four is seven, times one hundred, a seven hundred dollar loss. Eleven hundred forgets the premium; fifteen hundred adds it. Quick check with the breakeven: sixty plus four is sixty-four. The stock finished seven points above that, so a seven point loss. Same answer.",
+  "tags": [
+   "options",
+   "short-call",
+   "uncovered",
+   "exercise"
+  ],
+  "outline_ref": "3.2 Options: profit and loss calculations, break-even points, economics of positions"
+ },
+ {
+  "id": "s7-q-0005",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-basics",
+  "lesson_id": "s7-3-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "GHI is trading at 47. A GHI 45 call is quoted at 3.50. How much of the premium is time value?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$0"
+   },
+   {
+    "key": "B",
+    "text": "$1.50"
+   },
+   {
+    "key": "C",
+    "text": "$2.00"
+   },
+   {
+    "key": "D",
+    "text": "$3.50"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "GHI is at forty-seven. A GHI forty-five call costs three and a half. How much of that premium is time value?",
+  "explanation": "Intrinsic value of a call = market - strike = 47 - 45 = 2. Time value = premium - intrinsic = 3.50 - 2.00 = 1.50. $2.00 is the intrinsic value, not time value. $3.50 is the whole premium. $0 would only be true at expiration.",
+  "spoken_explanation": "First find intrinsic value. Calls are in the money when the market is above the strike: forty-seven minus forty-five is two. Premium three and a half minus intrinsic two leaves one and a half of time value. At expiration, time value is zero, so any option is worth only its intrinsic value on that final day.",
+  "tags": [
+   "options",
+   "intrinsic-value",
+   "time-value"
+  ],
+  "outline_ref": "3.2 Options: listed options characteristics, OCC, exercise/assignment, adjustments, position limits"
+ },
+ {
+  "id": "s7-q-0006",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-basics",
+  "lesson_id": "s7-3-01",
+  "difficulty": 1,
+  "type": "mc",
+  "stem": "JKL is trading at 52. Which of these options is in the money?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "JKL 55 call"
+   },
+   {
+    "key": "B",
+    "text": "JKL 50 put"
+   },
+   {
+    "key": "C",
+    "text": "JKL 55 put"
+   },
+   {
+    "key": "D",
+    "text": "JKL 60 call"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "JKL is trading at fifty-two. Which option is in the money? A, fifty-five call. B, fifty put. C, fifty-five put. D, sixty call.",
+  "explanation": "A put is in the money when the market is BELOW the strike: 52 < 55, so the 55 put has 3 points of intrinsic value. The 55 and 60 calls are out of the money because the market is below their strikes. The 50 put is out of the money because the market is above 50.",
+  "spoken_explanation": "Calls up, puts down. A put is in the money when the stock is below the strike. Fifty-two is below fifty-five, so the fifty-five put is worth three points. Both calls have strikes above the market, and the fifty put has a strike below it, so they're all out of the money. A quick way to check: ask if you'd exercise right now. You'd gladly sell at fifty-five a stock worth fifty-two, so that put has value. Buying at fifty-five or sixty when the market is fifty-two makes no sense.",
+  "tags": [
+   "options",
+   "in-the-money"
+  ],
+  "outline_ref": "3.2 Options: listed options characteristics, OCC, exercise/assignment, adjustments, position limits"
+ },
+ {
+  "id": "s7-q-0007",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-basics",
+  "lesson_id": "s7-3-01",
+  "difficulty": 1,
+  "type": "tf",
+  "stem": "True or false: An investor who writes an uncovered put is bearish on the underlying stock.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. An investor who writes an uncovered put is bearish on the stock.",
+  "explanation": "False. A put writer profits if the stock stays at or above the strike so the put expires worthless, and is obligated to BUY the stock if exercised. That is a bullish (or neutral-to-bullish) position. Bearish positions are long puts and short calls.",
+  "spoken_explanation": "False. Selling a put means you might have to buy the stock, and you profit when the stock stays up. That's bullish. Bearish is buying puts or selling calls. Watch the wording on the exam. Writing a put is bullish, writing a call is bearish. The writer always takes the opposite view of the buyer of the same option.",
+  "tags": [
+   "options",
+   "market-attitude",
+   "short-put"
+  ],
+  "outline_ref": "3.2 Options: profit and loss calculations, break-even points, economics of positions"
+ },
+ {
+  "id": "s7-q-0008",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-basics",
+  "lesson_id": "s7-3-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer buys 1 MNO 50 call at 2. MNO rises to 58. The customer exercises the call and immediately sells the shares at 58. What is the profit?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$200"
+   },
+   {
+    "key": "B",
+    "text": "$600"
+   },
+   {
+    "key": "C",
+    "text": "$800"
+   },
+   {
+    "key": "D",
+    "text": "$5,800"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer buys one MNO fifty call at two. The stock rises to fifty-eight. She exercises and sells the shares at fifty-eight. What's her profit?",
+  "explanation": "She buys at the 50 strike and sells at 58, a gain of 8 points, then subtracts the 2 premium paid: 8 - 2 = 6 points x 100 = $600. $800 ignores the premium. $200 is the premium. $5,800 is the sale proceeds, not profit.",
+  "spoken_explanation": "Buy at fifty, sell at fifty-eight: eight points. Subtract the two point premium: six points, times one hundred, six hundred dollars profit. Eight hundred forgets the premium, and fifty-eight hundred is just the sale proceeds. You can also check with the breakeven. Fifty plus two is fifty-two. The stock finished at fifty-eight, six points above breakeven, so six hundred dollars.",
+  "tags": [
+   "options",
+   "long-call",
+   "exercise",
+   "profit"
+  ],
+  "outline_ref": "3.2 Options: profit and loss calculations, break-even points, economics of positions"
+ },
+ {
+  "id": "s7-q-0009",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-basics",
+  "lesson_id": "s7-3-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer buys 1 PQR 70 put at 5. PQR falls to 61 and the customer closes the put at its intrinsic value. What is the result?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$400 gain"
+   },
+   {
+    "key": "B",
+    "text": "$500 loss"
+   },
+   {
+    "key": "C",
+    "text": "$900 gain"
+   },
+   {
+    "key": "D",
+    "text": "$1,400 gain"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A customer buys one PQR seventy put at five. The stock drops to sixty-one, and she closes the put at intrinsic value. What's the result?",
+  "explanation": "Intrinsic value of the put = strike - market = 70 - 61 = 9. She bought at 5 and sells at 9: 9 - 5 = 4 points x 100 = $400 gain. $900 ignores the premium paid. $500 loss would be the outcome if the put expired worthless. $1,400 adds the premium instead of subtracting it.",
+  "spoken_explanation": "Put intrinsic value is strike minus market: seventy minus sixty-one is nine. Bought at five, sold at nine, that's a four point gain, or four hundred dollars. Nine hundred forgets what she paid. Shortcut with breakeven: seventy minus five is sixty-five. The stock is at sixty-one, four points below breakeven, so four hundred dollars.",
+  "tags": [
+   "options",
+   "long-put",
+   "closing-transaction"
+  ],
+  "outline_ref": "3.2 Options: profit and loss calculations, break-even points, economics of positions"
+ },
+ {
+  "id": "s7-q-0010",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-basics",
+  "lesson_id": "s7-3-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Each of the following positions has unlimited maximum loss EXCEPT:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Short naked call"
+   },
+   {
+    "key": "B",
+    "text": "Short 100 shares of stock"
+   },
+   {
+    "key": "C",
+    "text": "Short straddle"
+   },
+   {
+    "key": "D",
+    "text": "Short naked put"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Each of these positions has unlimited maximum loss, EXCEPT which one? A, short naked call. B, short stock. C, short straddle. D, short naked put.",
+  "explanation": "A short naked put has a large but LIMITED loss: the stock can only fall to zero, so max loss = strike - premium, times 100. A short naked call and short stock both lose without limit as the stock rises. A short straddle includes a short call, so it also carries unlimited upside risk.",
+  "spoken_explanation": "Stocks can rise forever but can only fall to zero. Anything with naked upside exposure, like a short call, short stock, or a short straddle that contains a short call, has unlimited risk. The naked put loses at most the strike minus the premium. So the EXCEPT answer is the short naked put. When an EXCEPT question lists short positions, look for the one with a floor. Zero is the floor for puts.",
+  "tags": [
+   "options",
+   "max-loss",
+   "except"
+  ],
+  "outline_ref": "3.2 Options: profit and loss calculations, break-even points, economics of positions"
+ },
+ {
+  "id": "s7-q-0011",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-hedging",
+  "lesson_id": "s7-3-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer buys 100 shares of STU at 42 and buys 1 STU 40 put at 1.50. What is the breakeven?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "38.50"
+   },
+   {
+    "key": "B",
+    "text": "40.00"
+   },
+   {
+    "key": "C",
+    "text": "42.00"
+   },
+   {
+    "key": "D",
+    "text": "43.50"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "A customer buys one hundred shares of STU at forty-two and buys one STU forty put at one and a half. What's the breakeven?",
+  "explanation": "For long stock plus a long put (protective put), the stock must rise enough to recover the premium: breakeven = stock cost + premium = 42 + 1.50 = 43.50. 40.00 is the put strike, the floor on the sale price, not the breakeven. 42.00 ignores the cost of the put. 38.50 is the long put's own breakeven (40 - 1.50).",
+  "spoken_explanation": "Long stock plus a long put: you paid for the stock and for the insurance, so add them. Forty-two plus one and a half is a breakeven of forty-three and a half. Thirty-eight fifty would be the breakeven of the put by itself. Insurance always pushes the long stock breakeven up by the premium paid. Income pushes it down by the premium received.",
+  "tags": [
+   "options",
+   "protective-put",
+   "breakeven",
+   "hedge"
+  ],
+  "outline_ref": "3.2 Options: basic strategies (covered writing, hedging, protective puts)"
+ },
+ {
+  "id": "s7-q-0012",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-hedging",
+  "lesson_id": "s7-3-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer buys 100 shares of STU at 42 and buys 1 STU 40 put at 1.50. What is the maximum potential loss?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$150"
+   },
+   {
+    "key": "B",
+    "text": "$200"
+   },
+   {
+    "key": "C",
+    "text": "$350"
+   },
+   {
+    "key": "D",
+    "text": "$4,350"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Same position: long one hundred STU at forty-two, plus a long forty put at one and a half. What's the maximum loss?",
+  "explanation": "The put lets the customer sell at 40 no matter how far STU falls. Loss on the stock is capped at 42 - 40 = 2, plus the 1.50 premium = 3.50 x 100 = $350. $150 is only the premium. $200 is only the stock loss down to the strike. $4,350 is the total invested, which could only be lost without the put.",
+  "spoken_explanation": "The put guarantees a sale at forty. From forty-two down to forty you lose two points, plus the one and a half you paid for the put. Two plus one and a half is three and a half points, or three hundred fifty dollars. The maximum gain is unlimited, because the customer still owns the stock and keeps all the upside, minus the premium.",
+  "tags": [
+   "options",
+   "protective-put",
+   "max-loss",
+   "hedge"
+  ],
+  "outline_ref": "3.2 Options: basic strategies (covered writing, hedging, protective puts)"
+ },
+ {
+  "id": "s7-q-0013",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-hedging",
+  "lesson_id": "s7-3-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer buys 100 shares of VWX at 36 and sells 1 VWX 40 call at 2. What is the maximum potential gain?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$200"
+   },
+   {
+    "key": "B",
+    "text": "$400"
+   },
+   {
+    "key": "C",
+    "text": "$600"
+   },
+   {
+    "key": "D",
+    "text": "Unlimited"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer buys one hundred VWX at thirty-six and sells one VWX forty call at two. What's the maximum gain?",
+  "explanation": "In a covered call, gains are capped at the strike because the stock will be called away above 40. Max gain = (strike - cost) + premium = (40 - 36) + 2 = 6 x 100 = $600. $200 counts only the premium. $400 counts only the stock appreciation. Unlimited is wrong because the short call caps the upside.",
+  "spoken_explanation": "Covered call: the stock gets called away at forty. From thirty-six to forty is four points, plus the two point premium you kept, for six points. Six hundred dollars max gain. The trade-off is that above forty, the stock gets called away, so the customer gives up any further upside in exchange for that premium.",
+  "tags": [
+   "options",
+   "covered-call",
+   "max-gain"
+  ],
+  "outline_ref": "3.2 Options: basic strategies (covered writing, hedging, protective puts)"
+ },
+ {
+  "id": "s7-q-0014",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-hedging",
+  "lesson_id": "s7-3-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer buys 100 shares of VWX at 36 and sells 1 VWX 40 call at 2. What is the breakeven?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "34"
+   },
+   {
+    "key": "B",
+    "text": "38"
+   },
+   {
+    "key": "C",
+    "text": "40"
+   },
+   {
+    "key": "D",
+    "text": "42"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Same covered call: long stock at thirty-six, short the forty call at two. What's the breakeven?",
+  "explanation": "The premium received lowers the effective cost of the stock: breakeven = stock cost - premium = 36 - 2 = 34. 38 adds the premium. 40 is the strike. 42 is strike plus premium, which is the breakeven for the call buyer, not this writer.",
+  "spoken_explanation": "Covered call writers subtract the premium from their stock cost. Thirty-six minus two is a breakeven of thirty-four. Forty-two is the buyer's breakeven on the call, not yours. Since the writer collected two dollars of income, the stock can fall two points to thirty-four before the customer starts losing money. Below thirty-four, losses grow point for point.",
+  "tags": [
+   "options",
+   "covered-call",
+   "breakeven"
+  ],
+  "outline_ref": "3.2 Options: basic strategies (covered writing, hedging, protective puts)"
+ },
+ {
+  "id": "s7-q-0015",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-hedging",
+  "lesson_id": "s7-3-02",
+  "difficulty": 1,
+  "type": "mc",
+  "stem": "A customer is short 500 shares of YZA and is worried about a sharp rally. Which option strategy BEST protects against the risk?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Buy 5 YZA puts"
+   },
+   {
+    "key": "B",
+    "text": "Buy 5 YZA calls"
+   },
+   {
+    "key": "C",
+    "text": "Sell 5 YZA calls"
+   },
+   {
+    "key": "D",
+    "text": "Sell 5 YZA puts"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer is short five hundred shares of YZA and worries about a sharp rally. What BEST protects against that risk?",
+  "explanation": "A short seller loses as the stock rises. Long calls give the right to buy at a fixed price, capping that loss: full protection. Buying puts adds more downside bets, not protection. Selling calls adds more upside risk. Selling puts only provides partial protection equal to the premium, so it is not the best hedge.",
+  "spoken_explanation": "Short stock gets hurt when the price rises, so you want the right to buy at a fixed price. That's a long call. Selling puts brings in a little premium but only partial protection. Five hundred shares means five contracts. Remember, buying an option gives full protection and selling an option gives only partial protection. For short stock, buy the call.",
+  "tags": [
+   "options",
+   "hedge",
+   "short-stock",
+   "long-call"
+  ],
+  "outline_ref": "3.2 Options: basic strategies (covered writing, hedging, protective puts)"
+ },
+ {
+  "id": "s7-q-0016",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-hedging",
+  "lesson_id": "s7-3-02",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A customer sells short 100 shares of BCD at 58 and buys 1 BCD 60 call at 3. What is the maximum potential loss?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$200"
+   },
+   {
+    "key": "B",
+    "text": "$300"
+   },
+   {
+    "key": "C",
+    "text": "$500"
+   },
+   {
+    "key": "D",
+    "text": "Unlimited"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer shorts one hundred BCD at fifty-eight and buys one BCD sixty call at three. What's the maximum loss?",
+  "explanation": "The call lets the customer buy back the shares at 60 no matter how high BCD rises. Stock loss is capped at 60 - 58 = 2, plus the 3 premium = 5 x 100 = $500. $200 ignores the premium. $300 is only the premium. Unlimited would be the risk without the hedge.",
+  "spoken_explanation": "The call caps the buyback price at sixty. Shorted at fifty-eight, so the stock side can lose at most two points. Add the three point premium: five points, or five hundred dollars max loss. Breakeven is the short sale price minus the premium: fifty-eight minus three is fifty-five, because the stock has to fall far enough to pay for the call.",
+  "tags": [
+   "options",
+   "hedge",
+   "short-stock",
+   "max-loss"
+  ],
+  "outline_ref": "3.2 Options: basic strategies (covered writing, hedging, protective puts)"
+ },
+ {
+  "id": "s7-q-0017",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-hedging",
+  "lesson_id": "s7-3-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer buys 100 shares of EFG at 50 and writes 1 EFG 55 call at 3. What is the maximum potential loss?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$300"
+   },
+   {
+    "key": "B",
+    "text": "$4,700"
+   },
+   {
+    "key": "C",
+    "text": "$5,000"
+   },
+   {
+    "key": "D",
+    "text": "Unlimited"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer buys one hundred EFG at fifty and writes one EFG fifty-five call at three. What's the maximum loss?",
+  "explanation": "A covered call offers only limited downside protection equal to the premium. If EFG goes to zero, the loss is the stock cost minus the premium: (50 - 3) x 100 = $4,700. $300 is the max premium received. $5,000 ignores the premium. Unlimited is wrong because the call is covered by the stock.",
+  "spoken_explanation": "Covered calls only cushion the downside by the premium. If the stock goes to zero, you lose fifty minus three, forty-seven points, which is forty-seven hundred dollars. The call is covered, so the risk is NOT unlimited. Compare the protective put, which gives full protection below the strike. The covered call only offers partial protection, equal to the premium.",
+  "tags": [
+   "options",
+   "covered-call",
+   "max-loss"
+  ],
+  "outline_ref": "3.2 Options: basic strategies (covered writing, hedging, protective puts)"
+ },
+ {
+  "id": "s7-q-0018",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-hedging",
+  "lesson_id": "s7-3-02",
+  "difficulty": 1,
+  "type": "mc",
+  "stem": "A customer owns 1,000 shares of a stable dividend-paying stock and expects it to trade flat for several months. She wants additional income from the position. Which strategy is MOST suitable?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Buy 10 puts"
+   },
+   {
+    "key": "B",
+    "text": "Write 10 covered calls"
+   },
+   {
+    "key": "C",
+    "text": "Buy 10 calls"
+   },
+   {
+    "key": "D",
+    "text": "Write 10 uncovered puts"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer owns a thousand shares of a stable stock and expects it to stay flat. She wants extra income from it. What's MOST suitable?",
+  "explanation": "Writing covered calls generates premium income on a stock expected to stay flat, with the stock covering the obligation. Buying puts or calls costs money rather than generating income. Uncovered puts produce income but add new risk and do not use the stock she already owns.",
+  "spoken_explanation": "Flat outlook plus a wish for income on shares she already owns: write covered calls. Buying options costs premium, and naked puts pile on new risk. Covered call writers are neutral to slightly bullish. If she were worried about a drop, she'd want a protective put instead.",
+  "tags": [
+   "options",
+   "covered-call",
+   "suitability",
+   "income"
+  ],
+  "outline_ref": "3.2 Options: basic strategies (covered writing, hedging, protective puts)"
+ },
+ {
+  "id": "s7-q-0019",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-hedging",
+  "lesson_id": "s7-3-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer is short 100 shares of HIJ at 45. To generate income while accepting only partial protection against a rise in price, the customer should:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Buy 1 HIJ 45 call"
+   },
+   {
+    "key": "B",
+    "text": "Sell 1 HIJ 45 call"
+   },
+   {
+    "key": "C",
+    "text": "Sell 1 HIJ 45 put"
+   },
+   {
+    "key": "D",
+    "text": "Buy 1 HIJ 45 put"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer is short one hundred HIJ at forty-five. To earn income with only partial protection against a rise, the customer should do what?",
+  "explanation": "Selling a put against a short stock position (a covered put) brings in premium, which offsets a rise only up to the amount of the premium. Buying a call is full protection, but costs money. Selling a call adds upside risk. Buying a put adds bearish exposure and costs money.",
+  "spoken_explanation": "Income means you're selling an option. Against a short stock position, the covered option is a short put. The premium gives some cushion if the stock rises, but only partial. Buying a call would be full protection, and it costs money. Think of it as the mirror image of a covered call. Covered call: long stock, short call. Covered put: short stock, short put.",
+  "tags": [
+   "options",
+   "covered-put",
+   "short-stock",
+   "income"
+  ],
+  "outline_ref": "3.2 Options: basic strategies (covered writing, hedging, protective puts)"
+ },
+ {
+  "id": "s7-q-0020",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-spreads",
+  "lesson_id": "s7-3-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer buys 1 KLM 45 call at 5 and sells 1 KLM 50 call at 2. What is the breakeven?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "42"
+   },
+   {
+    "key": "B",
+    "text": "47"
+   },
+   {
+    "key": "C",
+    "text": "48"
+   },
+   {
+    "key": "D",
+    "text": "53"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer buys one KLM forty-five call at five and sells one KLM fifty call at two. What's the breakeven?",
+  "explanation": "Net debit = 5 - 2 = 3. For a call spread, add the net premium to the LOWER strike: 45 + 3 = 48. 47 adds the 2 premium only. 53 adds the debit to the higher strike. 42 subtracts the debit, which is the method for put spreads.",
+  "spoken_explanation": "Net debit: paid five, received two, so three. Call spreads: add the net premium to the lower strike. Forty-five plus three is a breakeven of forty-eight. Because the customer paid more than he received, it's a debit spread. Debit call spreads are bullish: buy the lower strike, sell the higher.",
+  "tags": [
+   "options",
+   "spread",
+   "bull-call-spread",
+   "breakeven"
+  ],
+  "outline_ref": "3.2 Options: advanced strategies (spreads, straddles, combinations, uncovered writing)"
+ },
+ {
+  "id": "s7-q-0021",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-spreads",
+  "lesson_id": "s7-3-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer buys 1 KLM 45 call at 5 and sells 1 KLM 50 call at 2. What is the maximum potential gain?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$200"
+   },
+   {
+    "key": "B",
+    "text": "$300"
+   },
+   {
+    "key": "C",
+    "text": "$500"
+   },
+   {
+    "key": "D",
+    "text": "Unlimited"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Same spread: long the forty-five call at five, short the fifty call at two. What's the maximum gain?",
+  "explanation": "Max gain on a debit spread = difference between strikes - net debit = (50 - 45) - 3 = 2 x 100 = $200, reached at 50 or above. $300 is the max LOSS (the net debit). $500 is the strike difference before subtracting the debit. Unlimited is wrong because the short 50 call caps the gain.",
+  "spoken_explanation": "Debit spread max gain is the strike gap minus what you paid. The gap is five points, the net debit is three, so the max gain is two points, two hundred dollars. Three hundred is the max loss. The max gain kicks in at fifty or above, when the spread is worth its full five points. The max loss of three hundred happens at forty-five or below.",
+  "tags": [
+   "options",
+   "spread",
+   "bull-call-spread",
+   "max-gain"
+  ],
+  "outline_ref": "3.2 Options: advanced strategies (spreads, straddles, combinations, uncovered writing)"
+ },
+ {
+  "id": "s7-q-0022",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-spreads",
+  "lesson_id": "s7-3-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer buys 1 NOP 60 put at 1 and sells 1 NOP 65 put at 4. How is this position BEST described?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Bull put spread, net credit"
+   },
+   {
+    "key": "B",
+    "text": "Bear put spread, net debit"
+   },
+   {
+    "key": "C",
+    "text": "Bear put spread, net credit"
+   },
+   {
+    "key": "D",
+    "text": "Bull put spread, net debit"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A customer buys one NOP sixty put at one and sells one NOP sixty-five put at four. How is this BEST described?",
+  "explanation": "Received 4, paid 1, so it is a $300 net CREDIT. The customer sold the higher-strike put, which is the more valuable one, and wants both puts to expire, meaning the stock stays at or above 65. Credit spreads profit when premiums narrow or expire, and a put credit spread is bullish. Choices with a 'debit' are wrong because more premium was received than paid. 'Bear' is wrong because the customer wants the price to stay up.",
+  "spoken_explanation": "Received four, paid one: net credit of three. When you sell the more expensive, higher-strike put, you want the stock to stay above sixty-five so both puts die. That makes it a bullish credit spread, a bull put spread. Shortcut: the side you pay more for tells you the outlook. Here the sold sixty-five put is the more valuable leg, so the seller's view, bullish, drives the position.",
+  "tags": [
+   "options",
+   "spread",
+   "bull-put-spread",
+   "credit-spread"
+  ],
+  "outline_ref": "3.2 Options: advanced strategies (spreads, straddles, combinations, uncovered writing)"
+ },
+ {
+  "id": "s7-q-0023",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-spreads",
+  "lesson_id": "s7-3-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer buys 1 NOP 60 put at 1 and sells 1 NOP 65 put at 4. What is the breakeven?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "57"
+   },
+   {
+    "key": "B",
+    "text": "61"
+   },
+   {
+    "key": "C",
+    "text": "62"
+   },
+   {
+    "key": "D",
+    "text": "63"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Same position: long the sixty put at one, short the sixty-five put at four. What's the breakeven?",
+  "explanation": "Net credit = 4 - 1 = 3. For a put spread, subtract the net premium from the HIGHER strike: 65 - 3 = 62. 63 subtracts only 2. 61 adds 1 to the lower strike. 57 subtracts the credit from the lower strike.",
+  "spoken_explanation": "Puts down: subtract the net premium from the higher strike. Net credit is four minus one, three. Sixty-five minus three is a breakeven of sixty-two. The breakeven is the same whether you're the debit or the credit side. It always uses the higher strike for puts and the lower strike for calls.",
+  "tags": [
+   "options",
+   "spread",
+   "bull-put-spread",
+   "breakeven"
+  ],
+  "outline_ref": "3.2 Options: advanced strategies (spreads, straddles, combinations, uncovered writing)"
+ },
+ {
+  "id": "s7-q-0024",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-spreads",
+  "lesson_id": "s7-3-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer buys 1 NOP 60 put at 1 and sells 1 NOP 65 put at 4. What is the maximum potential loss?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$200"
+   },
+   {
+    "key": "B",
+    "text": "$300"
+   },
+   {
+    "key": "C",
+    "text": "$500"
+   },
+   {
+    "key": "D",
+    "text": "$6,200"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Same spread: long the sixty put at one, short the sixty-five put at four. What's the maximum loss?",
+  "explanation": "Max loss on a credit spread = difference between strikes - net credit = (65 - 60) - 3 = 2 x 100 = $200, reached at 60 or below. $300 is the max GAIN (net credit kept). $500 is the strike difference before subtracting the credit. $6,200 treats it like an uncovered put going to zero, but the long 60 put caps the loss.",
+  "spoken_explanation": "Credit spread max loss is the strike gap minus the credit. Five point gap minus three point credit is two points, two hundred dollars. The long sixty put is your floor, so there's no unlimited or huge loss here. Max gain plus max loss always equals the strike gap. Here three plus two equals five. Use that to check your work.",
+  "tags": [
+   "options",
+   "spread",
+   "credit-spread",
+   "max-loss"
+  ],
+  "outline_ref": "3.2 Options: advanced strategies (spreads, straddles, combinations, uncovered writing)"
+ },
+ {
+  "id": "s7-q-0025",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-spreads",
+  "lesson_id": "s7-3-03",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A customer sells 1 QRS 40 call at 6 and buys 1 QRS 45 call at 2. At expiration, the customer realizes the maximum gain if QRS is:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "At or below 40"
+   },
+   {
+    "key": "B",
+    "text": "At 44"
+   },
+   {
+    "key": "C",
+    "text": "At or above 45"
+   },
+   {
+    "key": "D",
+    "text": "Between 40 and 45"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A customer sells one QRS forty call at six and buys one QRS forty-five call at two. At expiration, she earns the maximum gain if QRS is where?",
+  "explanation": "This is a bear call spread for a $400 net credit (6 - 2). The maximum gain is keeping the whole credit, which happens only if both calls expire worthless, at or below 40. At 44 (the breakeven, 40 + 4) the result is zero. At or above 45 is the max loss of $100 (5 - 4). Between 40 and 45 the short call has intrinsic value and eats into the credit.",
+  "spoken_explanation": "Net credit of four. A credit spreader wants everything to expire worthless, and that happens when the stock is at or below the lower strike of forty. Forty-four is breakeven, and forty-five or higher is the max loss of one hundred dollars. Bear call spread recap: sell the lower strike call, buy the higher. Max gain four hundred, max loss one hundred, breakeven forty-four.",
+  "tags": [
+   "options",
+   "spread",
+   "bear-call-spread",
+   "credit-spread"
+  ],
+  "outline_ref": "3.2 Options: advanced strategies (spreads, straddles, combinations, uncovered writing)"
+ },
+ {
+  "id": "s7-q-0026",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-spreads",
+  "lesson_id": "s7-3-03",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: An investor who established a credit spread wants the difference between the two premiums to widen.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. An investor who set up a credit spread wants the difference between the premiums to widen.",
+  "explanation": "False. A credit spreader wants the spread to NARROW, ideally with both options expiring worthless so the full credit is kept. A debit spreader wants the premium difference to widen.",
+  "spoken_explanation": "False. Credit spreads want to narrow, ideally to zero, so you keep the credit. Debit spreads want to widen. Memory hook: D-W-C-N, debit widen, credit narrow. Debit spreaders want to widen because they paid for the spread and want to sell it for more. Credit spreaders want it to shrink so they can buy it back cheaply.",
+  "tags": [
+   "options",
+   "spread",
+   "credit-spread"
+  ],
+  "outline_ref": "3.2 Options: advanced strategies (spreads, straddles, combinations, uncovered writing)"
+ },
+ {
+  "id": "s7-q-0027",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-straddles",
+  "lesson_id": "s7-3-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer buys 1 TUV Mar 50 call at 3 and 1 TUV Mar 50 put at 2. What are the breakeven points?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "45 and 55"
+   },
+   {
+    "key": "B",
+    "text": "47 and 52"
+   },
+   {
+    "key": "C",
+    "text": "48 and 53"
+   },
+   {
+    "key": "D",
+    "text": "50 only"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A customer buys one TUV March fifty call at three and one TUV March fifty put at two. What are the breakevens?",
+  "explanation": "A long straddle has two breakevens: strike +/- total premiums. Total premium = 3 + 2 = 5, so 50 - 5 = 45 and 50 + 5 = 55. 47 and 52 apply each premium separately to opposite sides. 48 and 53 swap them. 50 is the point of MAXIMUM loss, not a breakeven.",
+  "spoken_explanation": "Straddle: add both premiums together. Three plus two is five. Then go five points either way from the strike: fifty minus five is forty-five, fifty plus five is fifty-five. At exactly fifty, you lose the whole five hundred. Long straddle max loss is the total premium, five hundred dollars, if the stock closes right at fifty. Max gain is unlimited on the upside.",
+  "tags": [
+   "options",
+   "straddle",
+   "long-straddle",
+   "breakeven"
+  ],
+  "outline_ref": "3.2 Options: advanced strategies (spreads, straddles, combinations, uncovered writing)"
+ },
+ {
+  "id": "s7-q-0028",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-straddles",
+  "lesson_id": "s7-3-04",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A customer sells 1 WXY 30 call at 2.50 and sells 1 WXY 30 put at 1.50. At expiration WXY is at 35. Ignoring commissions, what is the result?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$100 gain"
+   },
+   {
+    "key": "B",
+    "text": "$100 loss"
+   },
+   {
+    "key": "C",
+    "text": "$400 gain"
+   },
+   {
+    "key": "D",
+    "text": "$500 loss"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer sells one WXY thirty call at two and a half, and one WXY thirty put at one and a half. At expiration the stock is thirty-five. What's the result?",
+  "explanation": "Total premium received = 2.50 + 1.50 = 4. At 35 the put expires worthless and the call is in the money by 5 (35 - 30). Net = 4 - 5 = -1 x 100 = $100 loss. $100 gain reverses the sign. $400 gain would require WXY at exactly 30. $500 loss ignores the premiums received.",
+  "spoken_explanation": "Short straddle collects four points total. At thirty-five, the put is worthless, but the call is in the money by five. Four collected minus five owed is a one point loss, one hundred dollars. The breakevens are twenty-six and thirty-four, so thirty-five is just past the upper one. The short straddle seller's best case is the stock pinned at thirty, keeping the full four hundred. Risk is unlimited to the upside.",
+  "tags": [
+   "options",
+   "straddle",
+   "short-straddle",
+   "profit-loss"
+  ],
+  "outline_ref": "3.2 Options: advanced strategies (spreads, straddles, combinations, uncovered writing)"
+ },
+ {
+  "id": "s7-q-0029",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-straddles",
+  "lesson_id": "s7-3-04",
+  "difficulty": 1,
+  "type": "mc",
+  "stem": "A customer expects a large price move in ZAB after an FDA ruling but has no idea which direction. Which strategy is MOST appropriate?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Short straddle"
+   },
+   {
+    "key": "B",
+    "text": "Long straddle"
+   },
+   {
+    "key": "C",
+    "text": "Covered call"
+   },
+   {
+    "key": "D",
+    "text": "Bull call spread"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer expects a big move in ZAB after an FDA ruling, but doesn't know which direction. What's MOST appropriate?",
+  "explanation": "A long straddle (long call and long put, same strike and expiration) profits from a large move either way. A short straddle profits from LOW volatility. A covered call is neutral to mildly bullish. A bull call spread profits only from a rise.",
+  "spoken_explanation": "Big move, unknown direction means you buy both a call and a put: a long straddle. Sellers of straddles want the stock to sit still, which is the opposite of what this customer expects. Remember the pairing: long straddle equals high volatility expected, short straddle equals low volatility expected. Direction doesn't matter to either.",
+  "tags": [
+   "options",
+   "straddle",
+   "volatility",
+   "suitability"
+  ],
+  "outline_ref": "3.2 Options: advanced strategies (spreads, straddles, combinations, uncovered writing)"
+ },
+ {
+  "id": "s7-q-0030",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-straddles",
+  "lesson_id": "s7-3-04",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A customer buys 1 CDE 60 call at 1 and buys 1 CDE 55 put at 2. What are the breakeven points?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "52 and 63"
+   },
+   {
+    "key": "B",
+    "text": "53 and 61"
+   },
+   {
+    "key": "C",
+    "text": "54 and 62"
+   },
+   {
+    "key": "D",
+    "text": "57 and 58"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A customer buys one CDE sixty call at one, and one CDE fifty-five put at two. What are the breakevens?",
+  "explanation": "This is a long combination (strangle) with total premium of 1 + 2 = 3. The upside breakeven is call strike + total premium = 60 + 3 = 63. The downside breakeven is put strike - total premium = 55 - 3 = 52. 54 and 62 and 53 and 61 apply only individual premiums. 57 and 58 are meaningless midpoints.",
+  "spoken_explanation": "Total premium is one plus two, three. Use each option's own strike: call side, sixty plus three is sixty-three. Put side, fifty-five minus three is fifty-two. Breakevens fifty-two and sixty-three. A combination uses different strikes or expirations, so the stock must move further than with a straddle, but it costs less.",
+  "tags": [
+   "options",
+   "combination",
+   "strangle",
+   "breakeven"
+  ],
+  "outline_ref": "3.2 Options: advanced strategies (spreads, straddles, combinations, uncovered writing)"
+ },
+ {
+  "id": "s7-q-0031",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-index",
+  "lesson_id": "s7-3-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer owns 1 index call with a strike of 1,500, bought at a premium of 12. The index closes at 1,520 and the customer exercises. With a $100 multiplier, the customer receives:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$800 in cash"
+   },
+   {
+    "key": "B",
+    "text": "$2,000 in cash"
+   },
+   {
+    "key": "C",
+    "text": "$1,200 in cash"
+   },
+   {
+    "key": "D",
+    "text": "A basket of the index stocks"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer owns one index call, strike fifteen hundred, bought at twelve. The index closes at fifteen twenty and she exercises. With a one hundred dollar multiplier, what does she receive?",
+  "explanation": "Index options settle in CASH, not shares. The cash delivered = intrinsic value x multiplier = (1,520 - 1,500) x $100 = $2,000. $800 is her net PROFIT after subtracting the $1,200 premium, not the amount received. $1,200 is the premium paid. A stock basket is wrong because broad-based index options are cash-settled.",
+  "spoken_explanation": "Index options settle in cash. In the money by fifteen twenty minus fifteen hundred, twenty points, times one hundred is two thousand dollars delivered. Her profit is eight hundred after the twelve hundred premium, but the question asks what she receives. The cash amount is based on the index's closing value on the day of exercise, and it settles the next business day.",
+  "tags": [
+   "options",
+   "index-options",
+   "cash-settlement"
+  ],
+  "outline_ref": "3.2 Options: listed options characteristics, OCC, exercise/assignment, adjustments, position limits"
+ },
+ {
+  "id": "s7-q-0032",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-rules",
+  "lesson_id": "s7-3-06",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "When OCC assigns an exercise notice to a broker-dealer, the firm may allocate it among its short customers using any of the following methods EXCEPT:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Random selection"
+   },
+   {
+    "key": "B",
+    "text": "First in, first out"
+   },
+   {
+    "key": "C",
+    "text": "Another fair method approved by the firm's regulators"
+   },
+   {
+    "key": "D",
+    "text": "Assigning it to the customer with the largest short position"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "When a firm receives an exercise notice, it can allocate it to customers by each of these methods EXCEPT which? A, random. B, first in first out. C, another fair method approved by regulators. D, the customer with the largest short position.",
+  "explanation": "OCC assigns exercises to member firms randomly. Firms then allocate to customers by random selection, FIFO, or another fair and equitable method that has been disclosed to customers and is acceptable to regulators. Picking the customer with the largest position is not an approved fair method.",
+  "spoken_explanation": "Firms must use a fair method to pick which short customer is assigned: random, first in first out, or another fair method approved by regulators. Picking the biggest position isn't one of them. Since customers can't predict who gets assigned, writers should be ready to deliver or buy at any time on American-style options.",
+  "tags": [
+   "options",
+   "occ",
+   "assignment",
+   "except"
+  ],
+  "outline_ref": "3.2 Options: listed options characteristics, OCC, exercise/assignment, adjustments, position limits"
+ },
+ {
+  "id": "s7-q-0033",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-rules",
+  "lesson_id": "s7-3-06",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer exercises a listed equity call option on a Monday that is a business day, and Tuesday is also a business day. When does the stock purchase settle?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Monday"
+   },
+   {
+    "key": "B",
+    "text": "Tuesday"
+   },
+   {
+    "key": "C",
+    "text": "Wednesday"
+   },
+   {
+    "key": "D",
+    "text": "Thursday"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer exercises a listed equity call on Monday. When does the resulting stock trade settle, assuming normal business days?",
+  "explanation": "Since May 28, 2024, regular-way stock trades and the stock delivery on equity option exercises settle T+1, one business day after exercise, so Tuesday. Monday would be same-day (cash) settlement. Wednesday was the old T+2 cycle. Thursday was the old T+3 cycle.",
+  "spoken_explanation": "Exercise settlement follows regular-way stock settlement, which has been T plus one since May twenty twenty-four. Exercise Monday, settle Tuesday. Wednesday was the old T plus two answer, so watch for outdated study material. Remember too that option premiums themselves settle T plus one. Only the delivery of the stock depends on exercise timing.",
+  "tags": [
+   "options",
+   "exercise",
+   "settlement",
+   "t-plus-1"
+  ],
+  "outline_ref": "3.2 Options: listed options characteristics, OCC, exercise/assignment, adjustments, position limits"
+ },
+ {
+  "id": "s7-q-0034",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-rules",
+  "lesson_id": "s7-3-06",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A customer owns 1 FGH 60 call. FGH declares a 3-for-2 stock split. After the adjustment, the customer owns:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "1 call for 150 shares with a strike of 40"
+   },
+   {
+    "key": "B",
+    "text": "1.5 calls for 100 shares each with a strike of 40"
+   },
+   {
+    "key": "C",
+    "text": "2 calls for 100 shares each with a strike of 30"
+   },
+   {
+    "key": "D",
+    "text": "1 call for 100 shares with a strike of 40"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A customer owns one FGH sixty call. FGH does a three for two split. After adjustment, what does the customer own?",
+  "explanation": "For an uneven split, OCC adjusts the deliverable, not the number of contracts: shares = 100 x 3/2 = 150, and strike = 60 x 2/3 = 40. Total exercise value stays the same: 150 x 40 = $6,000 = 100 x 60. Fractional contracts do not exist. 2 calls at 30 is the result of a 2-for-1 split. 1 call for 100 shares at 40 would cut the contract's value and is wrong.",
+  "spoken_explanation": "Uneven splits change the contract, not the number of contracts. One hundred shares times three halves is one fifty. Strike sixty times two thirds is forty. Check it: one fifty times forty is six thousand, same as one hundred times sixty. For even splits like two for one, it's the opposite. The number of contracts doubles and the strike is halved, with each contract still covering one hundred shares.",
+  "tags": [
+   "options",
+   "adjustments",
+   "stock-split"
+  ],
+  "outline_ref": "3.2 Options: listed options characteristics, OCC, exercise/assignment, adjustments, position limits"
+ },
+ {
+  "id": "s7-q-0035",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-rules",
+  "lesson_id": "s7-3-06",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "For position limit purposes, which of the following positions are on the SAME side of the market?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Long calls and long puts"
+   },
+   {
+    "key": "B",
+    "text": "Long calls and short puts"
+   },
+   {
+    "key": "C",
+    "text": "Long calls and short calls"
+   },
+   {
+    "key": "D",
+    "text": "Short calls and short puts"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "For position limits, which pair is on the SAME side of the market? A, long calls and long puts. B, long calls and short puts. C, long calls and short calls. D, short calls and short puts.",
+  "explanation": "Position limits aggregate positions on the same side of the market. Bullish positions are long calls and short puts. Bearish positions are long puts and short calls. Every other pair combines a bullish and a bearish position.",
+  "spoken_explanation": "Group by attitude. Bullish: long calls and short puts. Bearish: long puts and short calls. Position limits add up each bullish side and each bearish side separately. That's why long calls and short puts on the same stock are added together toward the limit, while long calls and short calls offset.",
+  "tags": [
+   "options",
+   "position-limits",
+   "market-attitude"
+  ],
+  "outline_ref": "3.2 Options: listed options characteristics, OCC, exercise/assignment, adjustments, position limits"
+ },
+ {
+  "id": "s7-q-0036",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-tax",
+  "lesson_id": "s7-3-06",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer buys 100 shares of JKL at 36 and sells 1 JKL 40 call at 2. The call is later exercised. For tax purposes, the customer's sale proceeds are:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$3,800"
+   },
+   {
+    "key": "B",
+    "text": "$4,000"
+   },
+   {
+    "key": "C",
+    "text": "$4,200"
+   },
+   {
+    "key": "D",
+    "text": "$600"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer buys a hundred JKL at thirty-six and sells a forty call at two. The call is exercised. For taxes, what are the sale proceeds?",
+  "explanation": "When a covered call is exercised, the writer adds the premium to the strike to get the sale proceeds: (40 + 2) x 100 = $4,200. Against the $3,600 cost basis, that is a $600 capital gain. $4,000 ignores the premium. $3,800 subtracts it. $600 is the gain, not the proceeds.",
+  "spoken_explanation": "Assigned call writer: strike plus premium equals sale proceeds. Forty plus two is forty-two, so forty-two hundred dollars. Minus the thirty-six hundred cost basis, that's a six hundred dollar gain. Same pattern for an assigned put writer: strike minus premium becomes the cost basis of the stock they're forced to buy.",
+  "tags": [
+   "options",
+   "tax",
+   "covered-call",
+   "exercise"
+  ],
+  "outline_ref": "3.2 Options: tax treatment of option transactions"
+ },
+ {
+  "id": "s7-q-0037",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-tax",
+  "lesson_id": "s7-3-06",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer buys 1 MNO 50 call at 2 and later exercises it. What is the cost basis of the 100 shares acquired?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$4,800"
+   },
+   {
+    "key": "B",
+    "text": "$5,000"
+   },
+   {
+    "key": "C",
+    "text": "$5,200"
+   },
+   {
+    "key": "D",
+    "text": "$200"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer buys one MNO fifty call at two and later exercises it. What's the cost basis of the shares?",
+  "explanation": "When a long call is exercised, the premium is added to the strike to set the cost basis: (50 + 2) x 100 = $5,200. The holding period of the stock starts the day after exercise. $5,000 ignores the premium. $4,800 subtracts it. $200 is only the premium.",
+  "spoken_explanation": "Exercising a call: your cost basis is strike plus premium. Fifty plus two is fifty-two, so fifty-two hundred dollars for the hundred shares. And if a long put is exercised, the strike minus the premium becomes the sale proceeds. Calls add, puts subtract. The holding period of the new shares starts the day after exercise, not the day you bought the call.",
+  "tags": [
+   "options",
+   "tax",
+   "cost-basis",
+   "long-call"
+  ],
+  "outline_ref": "3.2 Options: tax treatment of option transactions"
+ },
+ {
+  "id": "s7-q-0038",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "options-tax",
+  "lesson_id": "s7-3-06",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer writes an uncovered call that expires unexercised. How is the premium treated for tax purposes?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Ordinary income when received"
+   },
+   {
+    "key": "B",
+    "text": "Capital gain on the expiration date"
+   },
+   {
+    "key": "C",
+    "text": "Capital gain on the date the call was written"
+   },
+   {
+    "key": "D",
+    "text": "Return of capital that reduces basis"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer writes an uncovered call, and it expires unexercised. How is the premium taxed?",
+  "explanation": "A writer's premium is not taxed when received. If the option expires, the writer recognizes a capital gain equal to the premium on the expiration date. It is not ordinary income. It is not taxed on the trade date because the position remains open. It is not a return of capital because there is no stock basis involved.",
+  "spoken_explanation": "Option writers don't pay tax when they collect the premium, because the position is still open. If it expires, the premium becomes a capital gain on the expiration date. For a buyer whose option expires, it's the reverse: a capital loss of the premium, recognized on the expiration date.",
+  "tags": [
+   "options",
+   "tax",
+   "expiration"
+  ],
+  "outline_ref": "3.2 Options: tax treatment of option transactions"
+ },
+ {
+  "id": "s7-q-0039",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "municipal-securities",
+  "lesson_id": "s7-3-13",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer in the 30% federal tax bracket is considering a municipal bond yielding 3.5%. What is the taxable equivalent yield?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "2.45%"
+   },
+   {
+    "key": "B",
+    "text": "4.55%"
+   },
+   {
+    "key": "C",
+    "text": "5.00%"
+   },
+   {
+    "key": "D",
+    "text": "6.50%"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer in the thirty percent federal bracket looks at a muni yielding three and a half percent. What's the taxable equivalent yield?",
+  "explanation": "TEY = municipal yield / (1 - tax rate) = 3.5% / 0.70 = 5.00%. 2.45% is the after-tax yield of a 3.5% CORPORATE bond (3.5 x 0.70). 4.55% multiplies by 1.30, which is incorrect. 6.50% adds the bracket number to the yield.",
+  "spoken_explanation": "Taxable equivalent yield: divide the muni yield by one minus the tax rate. One minus thirty percent is point seven. Three point five divided by point seven is five percent. Multiplying instead of dividing gives the wrong answer. Taxable equivalent yield lets you compare a muni against a corporate bond. Higher tax brackets make munis more attractive.",
+  "tags": [
+   "munis",
+   "taxable-equivalent-yield",
+   "calculation"
+  ],
+  "outline_ref": "3.2 Municipal securities: pricing, accrued interest, yield calculations, tax treatment"
+ },
+ {
+  "id": "s7-q-0040",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "municipal-securities",
+  "lesson_id": "s7-3-13",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer in the 25% tax bracket is offered a corporate bond yielding 6%. A municipal bond of similar quality and maturity would have to yield at least how much to be equally attractive?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "4.00%"
+   },
+   {
+    "key": "B",
+    "text": "4.50%"
+   },
+   {
+    "key": "C",
+    "text": "6.00%"
+   },
+   {
+    "key": "D",
+    "text": "8.00%"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer in the twenty-five percent bracket can buy a corporate bond yielding six percent. What must a comparable muni yield to be just as attractive?",
+  "explanation": "Tax-free equivalent = corporate yield x (1 - tax rate) = 6% x 0.75 = 4.50%. 8.00% divides by 0.75, which converts a muni yield into a taxable equivalent (the reverse problem). 6.00% ignores taxes. 4.00% has no basis in the math.",
+  "spoken_explanation": "Going from taxable to tax-free, multiply by one minus the tax rate. Six percent times point seven five is four and a half percent. Dividing would take you the wrong way. A muni yielding more than four and a half percent beats the corporate for this customer. A lower yield means the corporate wins after tax.",
+  "tags": [
+   "munis",
+   "tax-free-equivalent",
+   "calculation"
+  ],
+  "outline_ref": "3.2 Municipal securities: pricing, accrued interest, yield calculations, tax treatment"
+ },
+ {
+  "id": "s7-q-0041",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "municipal-securities",
+  "lesson_id": "s7-3-13",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A customer buys one $1,000 municipal bond with a 6% coupon paying interest January 1 and July 1. The trade settles on March 16. Using the 30/360 method, how much accrued interest does the buyer pay the seller?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$12.33"
+   },
+   {
+    "key": "B",
+    "text": "$12.50"
+   },
+   {
+    "key": "C",
+    "text": "$12.67"
+   },
+   {
+    "key": "D",
+    "text": "$15.00"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer buys a one thousand dollar muni, six percent coupon, paying January first and July first. The trade settles March sixteenth. Using thirty-three-sixty, how much accrued interest does the buyer pay?",
+  "explanation": "Munis use 30/360. Interest accrues from the last payment date (Jan 1) up to but NOT including settlement (Mar 16): January 30 + February 30 + March 15 = 75 days. Annual interest = $60. Accrued = $60 x 75/360 = $12.50. $12.67 counts 76 days (including settlement day). $12.33 counts 74 days. $15.00 is a full quarter (90 days).",
+  "spoken_explanation": "Thirty-day months. January thirty, February thirty, and March one through fifteen, because you stop the day before settlement. That's seventy-five days. Sixty dollars a year times seventy-five over three-sixty is twelve dollars and fifty cents. Corporate and municipal bonds use thirty-three sixty, while Treasuries use actual days. Under T plus one, the settlement date is usually the next business day.",
+  "tags": [
+   "munis",
+   "accrued-interest",
+   "calculation",
+   "30-360"
+  ],
+  "outline_ref": "3.2 Municipal securities: pricing, accrued interest, yield calculations, tax treatment"
+ },
+ {
+  "id": "s7-q-0042",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "municipal-securities",
+  "lesson_id": "s7-3-13",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer buys a municipal bond in the secondary market at 108 and holds it to maturity. What is the tax consequence at maturity?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "An $80 deductible capital loss"
+   },
+   {
+    "key": "B",
+    "text": "An $80 ordinary loss"
+   },
+   {
+    "key": "C",
+    "text": "No gain or loss"
+   },
+   {
+    "key": "D",
+    "text": "An $80 capital gain"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer buys a muni in the secondary market at one-oh-eight and holds it to maturity. What's the tax result at maturity?",
+  "explanation": "A municipal bond premium MUST be amortized, reducing the cost basis each year. By maturity, the basis has been amortized from $1,080 down to the $1,000 par value, so redemption at par produces no gain or loss. The amortized premium is not deductible, so there is no capital or ordinary loss to claim. A gain is impossible because the bond is redeemed below the purchase price.",
+  "spoken_explanation": "Muni premiums must be amortized down to par. By maturity, your basis is one thousand dollars, and you get one thousand back, so there's no gain or loss. And since it's a muni, you don't get a deduction for that eighty dollars either. Contrast with a corporate bond bought at a premium, where amortization is optional and can be deducted against interest income.",
+  "tags": [
+   "munis",
+   "tax",
+   "premium-amortization"
+  ],
+  "outline_ref": "3.2 Municipal securities: pricing, accrued interest, yield calculations, tax treatment"
+ },
+ {
+  "id": "s7-q-0043",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "municipal-securities",
+  "lesson_id": "s7-3-13",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A customer buys a municipal bond in the secondary market at a market discount (not original issue discount) and holds it to maturity. How is the accreted discount treated?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Tax-exempt, like the coupon"
+   },
+   {
+    "key": "B",
+    "text": "Taxable as ordinary income"
+   },
+   {
+    "key": "C",
+    "text": "Taxable as a long-term capital gain"
+   },
+   {
+    "key": "D",
+    "text": "Deductible against other income"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer buys a muni in the secondary market at a market discount, not an original issue discount, and holds it to maturity. How is the discount taxed?",
+  "explanation": "Market discount on a municipal bond bought in the secondary market is generally taxed as ordinary income when the bond matures or is sold, unless it falls under the de minimis rule. Only ORIGINAL issue discount on a municipal bond accretes tax-exempt, like the coupon. Capital gain treatment generally does not apply to accrued market discount. It is income, not a deduction.",
+  "spoken_explanation": "Two kinds of muni discount. Original issue discount accretes tax-free like the interest. Market discount from buying cheap in the secondary market is generally taxed as ordinary income when you sell or the bond matures. The de minimis rule says that a small market discount, under a quarter point per year to maturity, is taxed as a capital gain instead.",
+  "tags": [
+   "munis",
+   "tax",
+   "market-discount",
+   "oid"
+  ],
+  "outline_ref": "3.2 Municipal securities: pricing, accrued interest, yield calculations, tax treatment"
+ },
+ {
+  "id": "s7-q-0044",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "municipal-securities",
+  "lesson_id": "s7-3-13",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A resident of Ohio buys a bond issued by the Commonwealth of Puerto Rico. The interest is exempt from:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Federal tax only"
+   },
+   {
+    "key": "B",
+    "text": "Ohio tax only"
+   },
+   {
+    "key": "C",
+    "text": "Federal, state, and local tax"
+   },
+   {
+    "key": "D",
+    "text": "No taxes"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "An Ohio resident buys a bond issued by Puerto Rico. The interest is exempt from which taxes?",
+  "explanation": "Interest on bonds of U.S. territories such as Puerto Rico, Guam, and the U.S. Virgin Islands is exempt from federal, state, and local income tax in every state: triple tax-exempt. Federal only would describe an out-of-state municipal bond held by an Ohio resident. 'Ohio tax only' and 'no taxes' are both incorrect.",
+  "spoken_explanation": "U.S. territory bonds, like Puerto Rico, are triple tax-exempt: federal, state, and local, no matter where the investor lives. For any other state's bonds, the Ohio resident would pay Ohio tax. Only in-state issues and territory bonds avoid state tax. Residents of the issuing state usually get both federal and state exemption, called double exemption.",
+  "tags": [
+   "munis",
+   "tax",
+   "territories"
+  ],
+  "outline_ref": "3.2 Municipal securities: pricing, accrued interest, yield calculations, tax treatment"
+ },
+ {
+  "id": "s7-q-0045",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "municipal-securities",
+  "lesson_id": "s7-3-12",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "When analyzing a revenue bond, an investor would be LEAST concerned with which of the following?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Debt service coverage ratio"
+   },
+   {
+    "key": "B",
+    "text": "The feasibility study"
+   },
+   {
+    "key": "C",
+    "text": "Assessed value of property in the jurisdiction"
+   },
+   {
+    "key": "D",
+    "text": "Rate covenant"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "When analyzing a revenue bond, what is an investor LEAST concerned with? A, debt service coverage. B, feasibility study. C, assessed property values. D, rate covenant.",
+  "explanation": "Revenue bonds are repaid only from the revenues of the facility, so the analyst focuses on coverage, the feasibility study, and covenants such as the rate covenant. Assessed property values matter for general obligation bonds backed by property taxes, not revenue bonds.",
+  "spoken_explanation": "Revenue bonds live or die on the facility's revenues: coverage, feasibility studies, and rate covenants all matter. Property values and the tax base matter for GO bonds. So the least relevant is assessed property value. For GO bonds, think taxes and voters: property values, tax collection rates, and per capita debt. For revenue bonds, think the business itself.",
+  "tags": [
+   "munis",
+   "revenue-bonds",
+   "analysis",
+   "least"
+  ],
+  "outline_ref": "3.2 Municipal securities: analysis of GO and revenue bonds"
+ },
+ {
+  "id": "s7-q-0046",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "municipal-securities",
+  "lesson_id": "s7-3-12",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A toll road revenue bond has net revenues of $12 million and annual debt service of $8 million. What is the debt service coverage ratio?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "0.67 times"
+   },
+   {
+    "key": "B",
+    "text": "1.33 times"
+   },
+   {
+    "key": "C",
+    "text": "1.50 times"
+   },
+   {
+    "key": "D",
+    "text": "4.00 times"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A toll road has net revenues of twelve million dollars and annual debt service of eight million. What's the debt service coverage ratio?",
+  "explanation": "Debt service coverage = net revenues / annual debt service (principal + interest) = 12 / 8 = 1.50 times. 0.67 inverts the ratio. 4.00 is the dollar difference in millions, not a ratio. 1.33 has no basis in the math.",
+  "spoken_explanation": "Coverage is net revenues divided by debt service. Twelve million over eight million is one and a half times. Higher coverage means more cushion for bondholders. The higher the ratio, the safer the bond. A ratio below one means revenues can't cover payments, and that's a serious credit warning.",
+  "tags": [
+   "munis",
+   "revenue-bonds",
+   "coverage-ratio",
+   "calculation"
+  ],
+  "outline_ref": "3.2 Municipal securities: analysis of GO and revenue bonds"
+ },
+ {
+  "id": "s7-q-0047",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "municipal-securities",
+  "lesson_id": "s7-3-12",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Under a net revenue pledge, the FIRST use of a facility's gross revenues is to pay:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Debt service"
+   },
+   {
+    "key": "B",
+    "text": "Operations and maintenance"
+   },
+   {
+    "key": "C",
+    "text": "The debt service reserve fund"
+   },
+   {
+    "key": "D",
+    "text": "Renewal and replacement"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Under a net revenue pledge, what are the facility's gross revenues used to pay FIRST?",
+  "explanation": "In a net revenue pledge, operations and maintenance are paid first, and bondholders are paid from what remains (net revenues). Debt service comes second. The reserve funds and renewal and replacement come later in the flow of funds. In a gross revenue pledge, debt service is paid first.",
+  "spoken_explanation": "Net revenue pledge: keep the lights on first. Operations and maintenance are paid, then debt service from the net. In a gross pledge, bondholders get paid first. Most revenue bonds use net revenue pledges. Gross pledges are less common and favor bondholders, because they get paid before operating costs.",
+  "tags": [
+   "munis",
+   "revenue-bonds",
+   "flow-of-funds"
+  ],
+  "outline_ref": "3.2 Municipal securities: analysis of GO and revenue bonds"
+ },
+ {
+  "id": "s7-q-0048",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "municipal-securities",
+  "lesson_id": "s7-3-14",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A municipal bond backed by the revenues of a facility and, if those fall short, by the issuing municipality's taxing power is a:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Moral obligation bond"
+   },
+   {
+    "key": "B",
+    "text": "Special assessment bond"
+   },
+   {
+    "key": "C",
+    "text": "Double-barreled bond"
+   },
+   {
+    "key": "D",
+    "text": "Industrial development revenue bond"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A muni backed by facility revenues, and also by the issuer's taxing power if revenues fall short, is called what?",
+  "explanation": "A double-barreled bond has two sources: facility revenue plus the full faith and credit (taxing power) of the issuer. It is generally analyzed and rated as a GO bond. A moral obligation bond only has a non-binding legislative pledge. A special assessment bond is paid by a tax on the benefited properties only. An industrial development revenue bond relies on a corporate lease payment.",
+  "spoken_explanation": "Two barrels, two sources: revenues and taxing power. Because of the taxing power backstop, they're rated like GO bonds. A moral obligation is only a non-binding promise from the legislature. Moral obligation bonds are backed only by the state's promise to consider appropriating funds. The legislature isn't required to pay.",
+  "tags": [
+   "munis",
+   "double-barreled",
+   "bond-types"
+  ],
+  "outline_ref": "3.2 Municipal securities: types, short-term notes, refunding, municipal fund securities"
+ },
+ {
+  "id": "s7-q-0049",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "municipal-securities",
+  "lesson_id": "s7-3-14",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A city issues short-term notes that will be repaid from the proceeds of a long-term bond issue it plans to sell next year. These are:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "TANs"
+   },
+   {
+    "key": "B",
+    "text": "RANs"
+   },
+   {
+    "key": "C",
+    "text": "BANs"
+   },
+   {
+    "key": "D",
+    "text": "GANs"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A city issues short-term notes that will be paid off by a bond issue it plans to sell next year. What are they?",
+  "explanation": "Bond anticipation notes (BANs) are interim financing repaid from a future bond issue. TANs are repaid from expected tax collections. RANs are repaid from other expected revenues, such as state aid. GANs are repaid from expected federal grants.",
+  "spoken_explanation": "Match the note to its repayment source. Bonds coming, BAN. Taxes coming, TAN. Revenues coming, RAN. Grants coming, GAN. These are all short-term municipal notes, generally maturing in a year or less, and are typically rated using MIG ratings. In each case, the name tells you where the repayment money comes from. A TRAN combines taxes and revenues.",
+  "tags": [
+   "munis",
+   "short-term-notes",
+   "ban"
+  ],
+  "outline_ref": "3.2 Municipal securities: types, short-term notes, refunding, municipal fund securities"
+ },
+ {
+  "id": "s7-q-0050",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "municipal-securities",
+  "lesson_id": "s7-3-14",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which statement about advance-refunded (pre-refunded) municipal bonds is TRUE?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "They are backed by an escrow of U.S. government securities and are typically rated very high"
+   },
+   {
+    "key": "B",
+    "text": "They remain a general obligation of the issuer counted in its debt limits"
+   },
+   {
+    "key": "C",
+    "text": "They can no longer be called"
+   },
+   {
+    "key": "D",
+    "text": "They become taxable to the bondholder"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which is TRUE about pre-refunded municipal bonds? A, they're backed by an escrow of government securities and typically rated very high. B, they still count against the issuer's debt. C, they can no longer be called. D, they become taxable.",
+  "explanation": "In an advance refunding, the proceeds of a new issue are placed in escrow, usually in U.S. Treasuries, to pay the old bonds at the call date or maturity. Since they are backed by that escrow, the bonds are considered defeased and typically rated AAA, and they no longer count against the issuer's debt. They are usually redeemed at the first call date, so they are not 'non-callable'. The interest stays tax-exempt.",
+  "spoken_explanation": "Pre-refunded means the money to pay you is already sitting in an escrow of Treasuries. That makes the bonds extremely safe, typically triple A, and takes them off the issuer's books. They're usually called at the first call date, and the interest stays tax-free. Escrowed to maturity is a related term: the escrow pays the bonds at their stated maturity rather than at a call date.",
+  "tags": [
+   "munis",
+   "refunding",
+   "pre-refunded"
+  ],
+  "outline_ref": "3.2 Municipal securities: types, short-term notes, refunding, municipal fund securities"
+ },
+ {
+  "id": "s7-q-0051",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "municipal-securities",
+  "lesson_id": "s7-3-14",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A parent withdraws earnings from a 529 college savings plan and uses the money for a vacation. The earnings portion is:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Tax-free"
+   },
+   {
+    "key": "B",
+    "text": "Subject to income tax only"
+   },
+   {
+    "key": "C",
+    "text": "Subject to income tax plus a 10% penalty"
+   },
+   {
+    "key": "D",
+    "text": "Subject to a 10% penalty only"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A parent withdraws 529 earnings and spends them on a vacation. How are the earnings treated?",
+  "explanation": "Contributions to a 529 are after-tax, so they come back tax-free. For a non-qualified withdrawal, the EARNINGS portion is subject to federal income tax plus a 10% additional tax (penalty), with limited exceptions such as death, disability, or a scholarship. Tax-free treatment applies only to qualified education expenses. 'Tax only' and 'penalty only' are each incomplete.",
+  "spoken_explanation": "Five-twenty-nines are tax-free only for qualified education expenses. Spend earnings on anything else and you pay ordinary income tax plus a ten percent penalty. Contributions come out tax-free because they were after-tax money. Qualified expenses include college tuition, fees, books, and room and board, plus limited K through twelve tuition. Many states also give a deduction for contributions.",
+  "tags": [
+   "munis",
+   "529-plan",
+   "municipal-fund-securities",
+   "tax"
+  ],
+  "outline_ref": "3.2 Municipal securities: types, short-term notes, refunding, municipal fund securities"
+ },
+ {
+  "id": "s7-q-0052",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "debt-securities",
+  "lesson_id": "s7-3-09",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A corporate bond with a 5% coupon is trading at 95. What is the current yield?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "4.75%"
+   },
+   {
+    "key": "B",
+    "text": "5.00%"
+   },
+   {
+    "key": "C",
+    "text": "5.26%"
+   },
+   {
+    "key": "D",
+    "text": "5.50%"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A five percent corporate bond is trading at ninety-five. What's the current yield?",
+  "explanation": "Current yield = annual interest / market price = $50 / $950 = 5.26%. 5.00% is the nominal (coupon) yield. 4.75% multiplies the coupon by the price. 5.50% is a rough guess at YTM, not current yield.",
+  "spoken_explanation": "Current yield is annual interest over price. Five percent of a thousand is fifty dollars. Ninety-five is nine fifty. Fifty over nine fifty is about five point two six percent. Discount bond, so the current yield beats the coupon. Bond yields move opposite to price. When the price falls below par, the current yield rises above the coupon.",
+  "tags": [
+   "debt",
+   "current-yield",
+   "calculation"
+  ],
+  "outline_ref": "3.2 Debt securities: types, yields, ratings, tax implications"
+ },
+ {
+  "id": "s7-q-0053",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "debt-securities",
+  "lesson_id": "s7-3-09",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A callable bond is trading at a discount. Which yield is the HIGHEST?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Nominal yield"
+   },
+   {
+    "key": "B",
+    "text": "Current yield"
+   },
+   {
+    "key": "C",
+    "text": "Yield to maturity"
+   },
+   {
+    "key": "D",
+    "text": "Yield to call"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "A callable bond trades at a discount. Which yield is HIGHEST?",
+  "explanation": "For a discount bond, the yields rank nominal < current < YTM < YTC. The discount is earned back faster if the bond is called early at par, so YTC is highest. The nominal yield is the lowest because it ignores the discount entirely.",
+  "spoken_explanation": "Discount bond, yields go up the ladder: nominal, current, yield to maturity, then yield to call. If it gets called early, you earn the discount sooner, so yield to call is the highest. Reverse it for premium bonds: nominal is highest, then current yield, then yield to maturity, and yield to call is lowest.",
+  "tags": [
+   "debt",
+   "yields",
+   "discount-bond"
+  ],
+  "outline_ref": "3.2 Debt securities: types, yields, ratings, tax implications"
+ },
+ {
+  "id": "s7-q-0054",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "debt-securities",
+  "lesson_id": "s7-3-10",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A convertible bond has a conversion price of $40 and is trading at 110. What is the parity price of the common stock?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$36.36"
+   },
+   {
+    "key": "B",
+    "text": "$40.00"
+   },
+   {
+    "key": "C",
+    "text": "$44.00"
+   },
+   {
+    "key": "D",
+    "text": "$46.00"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A convertible bond has a forty dollar conversion price and trades at one-ten. What's the parity price of the stock?",
+  "explanation": "Conversion ratio = $1,000 par / $40 = 25 shares. Parity stock price = bond market price / ratio = $1,100 / 25 = $44.00. $40.00 is the conversion price, which is parity only when the bond trades at par. $36.36 divides 40 by 1.10. $46.00 has no basis in the math.",
+  "spoken_explanation": "First get the conversion ratio: a thousand par divided by forty is twenty-five shares. The bond is worth eleven hundred. Eleven hundred divided by twenty-five is forty-four dollars parity for the stock. If the stock trades above forty-four, converting is worth more than the bond. Below forty-four, holding the bond is better.",
+  "tags": [
+   "debt",
+   "convertible-bonds",
+   "parity",
+   "calculation"
+  ],
+  "outline_ref": "3.2 Corporate bonds: convertible bonds, parity, conversion"
+ },
+ {
+  "id": "s7-q-0055",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "debt-securities",
+  "lesson_id": "s7-3-09",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "If interest rates rise sharply, which bond will MOST likely fall the most in price?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "A 2-year Treasury note with a 5% coupon"
+   },
+   {
+    "key": "B",
+    "text": "A 20-year zero-coupon bond"
+   },
+   {
+    "key": "C",
+    "text": "A 20-year bond with an 8% coupon"
+   },
+   {
+    "key": "D",
+    "text": "A 6-month Treasury bill"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "If rates rise sharply, which bond MOST likely falls the most in price?",
+  "explanation": "Price sensitivity (duration) increases with longer maturity and lower coupon. A long-term zero-coupon bond has the longest duration of all the choices, so it falls the most. The 20-year 8% bond has the same maturity but its coupons shorten its duration. The note and the T-bill have short maturities.",
+  "spoken_explanation": "Interest rate risk is highest with long maturities and low coupons. A twenty-year zero has both: the longest maturity and no coupon at all. It's the most volatile. Duration is the key. Zeros have duration equal to their maturity, while coupon bonds pay back some value early and are less sensitive.",
+  "tags": [
+   "debt",
+   "interest-rate-risk",
+   "duration",
+   "zero-coupon"
+  ],
+  "outline_ref": "3.2 Debt securities: types, yields, ratings, tax implications"
+ },
+ {
+  "id": "s7-q-0056",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "government-securities",
+  "lesson_id": "s7-3-11",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer in a taxable account owns Treasury STRIPS. Which statement is TRUE?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "No tax is owed until maturity"
+   },
+   {
+    "key": "B",
+    "text": "The annual accretion is taxed each year even though no cash is received"
+   },
+   {
+    "key": "C",
+    "text": "The interest is exempt from federal tax"
+   },
+   {
+    "key": "D",
+    "text": "The accretion is treated as a capital gain"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer owns Treasury STRIPS in a taxable account. Which is TRUE?",
+  "explanation": "STRIPS are zero-coupon Treasuries. The discount accretes each year and is taxable as interest income annually, even though no cash is paid until maturity: phantom income. Waiting until maturity to pay is incorrect. Treasury interest is federally TAXABLE (it is exempt from state and local tax). Accretion is interest income, not a capital gain.",
+  "spoken_explanation": "STRIPS create phantom income. You owe federal tax on the yearly accretion even though no cash arrives until maturity. That's why they fit well in IRAs. Treasury interest is exempt at the state level, not the federal level. Because of phantom income, STRIPS fit well in tax-deferred accounts like IRAs, where the accretion isn't taxed each year.",
+  "tags": [
+   "debt",
+   "treasury",
+   "strips",
+   "tax"
+  ],
+  "outline_ref": "3.2 U.S. Treasury and agency securities; asset-backed securities (CMOs)"
+ },
+ {
+  "id": "s7-q-0057",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "government-securities",
+  "lesson_id": "s7-3-11",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which statement about Treasury Inflation-Protected Securities (TIPS) is TRUE?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "The coupon rate adjusts with CPI"
+   },
+   {
+    "key": "B",
+    "text": "The principal adjusts with CPI, and the coupon rate is fixed"
+   },
+   {
+    "key": "C",
+    "text": "They are exempt from federal income tax"
+   },
+   {
+    "key": "D",
+    "text": "They pay a lower interest amount when inflation rises"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which statement about TIPS is TRUE?",
+  "explanation": "TIPS have a fixed coupon RATE applied to a principal amount that is adjusted for changes in CPI. When inflation rises, principal grows, so the interest dollars grow too. The rate itself does not change. TIPS are federally taxable, including the annual inflation adjustment to principal. Interest increases, not decreases, with inflation.",
+  "spoken_explanation": "With TIPS, the principal moves with inflation and the rate stays fixed. Bigger principal means bigger interest payments. And the inflation adjustment is federally taxable each year, even before you get it. In deflation, principal can fall, but at maturity investors get the greater of adjusted principal or original par.",
+  "tags": [
+   "debt",
+   "treasury",
+   "tips"
+  ],
+  "outline_ref": "3.2 U.S. Treasury and agency securities; asset-backed securities (CMOs)"
+ },
+ {
+  "id": "s7-q-0058",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "government-securities",
+  "lesson_id": "s7-3-11",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which CMO tranche offers the MOST protection against prepayment and extension risk?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Companion (support) tranche"
+   },
+   {
+    "key": "B",
+    "text": "Planned amortization class (PAC)"
+   },
+   {
+    "key": "C",
+    "text": "Targeted amortization class (TAC)"
+   },
+   {
+    "key": "D",
+    "text": "Z-tranche"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which CMO tranche gives the MOST protection against both prepayment and extension risk?",
+  "explanation": "PAC tranches have a principal repayment schedule protected against both prepayment risk and extension risk, because companion tranches absorb the variability. TACs protect only against prepayment risk. Companion tranches absorb the variability, so they have the MOST risk. Z-tranches receive nothing until earlier tranches are retired, so they have the most extension risk.",
+  "spoken_explanation": "PACs are planned, protected on both sides. TACs only protect against prepayment. Companion tranches soak up the uncertainty so the PACs don't have to. In short: PAC, protected both ways. TAC, protected against prepayment only. Companion, the most risk. Z-tranche, last in line. Companion tranches usually pay higher yields to make up for that extra risk.",
+  "tags": [
+   "debt",
+   "cmo",
+   "pac",
+   "prepayment-risk"
+  ],
+  "outline_ref": "3.2 U.S. Treasury and agency securities; asset-backed securities (CMOs)"
+ },
+ {
+  "id": "s7-q-0059",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "debt-securities",
+  "lesson_id": "s7-3-09",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer owns a callable bond purchased at a premium. When calculating yield for the customer's confirmation, the firm should generally use:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Nominal yield"
+   },
+   {
+    "key": "B",
+    "text": "Current yield"
+   },
+   {
+    "key": "C",
+    "text": "Yield to worst, which is usually the yield to call"
+   },
+   {
+    "key": "D",
+    "text": "Yield to maturity, which is always higher"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer buys a callable bond at a premium. What yield should the firm generally show?",
+  "explanation": "Firms disclose the lower of YTM and YTC: the yield to worst. For a premium bond, an early call at par causes the premium to be lost sooner, so YTC is usually the lowest, making it the yield to worst. Nominal and current yield ignore the premium amortization. Yield to maturity is HIGHER than YTC for a premium bond, so quoting it would overstate the return.",
+  "spoken_explanation": "Always quote the worst case. On a premium bond, getting called early means losing the premium faster, so yield to call is usually the lowest. That's the yield to worst. For a discount bond, yield to maturity is usually lower than yield to call, so the yield to maturity is the yield to worst.",
+  "tags": [
+   "debt",
+   "yields",
+   "premium-bond",
+   "yield-to-worst"
+  ],
+  "outline_ref": "3.2 Debt securities: types, yields, ratings, tax implications"
+ },
+ {
+  "id": "s7-q-0060",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "equity-tax",
+  "lesson_id": "s7-3-08",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "On December 10 a customer sells 100 shares of NOP at a loss. On December 28 she buys a call option on NOP. Which is TRUE?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "The loss is fully deductible"
+   },
+   {
+    "key": "B",
+    "text": "The loss is disallowed under the wash sale rule"
+   },
+   {
+    "key": "C",
+    "text": "Only half of the loss is deductible"
+   },
+   {
+    "key": "D",
+    "text": "The loss becomes a short-term gain"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "On December tenth a customer sells NOP at a loss. On December twenty-eighth she buys a call on NOP. Which is TRUE?",
+  "explanation": "The wash sale rule disallows a loss if substantially identical securities, including call options or convertible securities, are purchased within 30 days before or after the sale. December 28 is 18 days after the sale, so the loss is disallowed and added to the basis of the new position. No 'half deductible' rule exists. A disallowed loss does not become a gain.",
+  "spoken_explanation": "Wash sale window is thirty days before or after the losing sale. Buying a call counts as buying the stock back. Eighteen days later is inside the window, so the loss is disallowed. It's added to the new basis, not lost forever. The disallowed loss isn't lost forever. It's added to the cost basis of the new position, deferring the tax benefit.",
+  "tags": [
+   "equity",
+   "tax",
+   "wash-sale"
+  ],
+  "outline_ref": "3.2 Equity securities: characteristics and tax treatment"
+ },
+ {
+  "id": "s7-q-0061",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "equity-tax",
+  "lesson_id": "s7-3-08",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A father bought stock at $20 per share and later gave it to his son when it was worth $35. The son sells it at $40. What is the son's gain per share?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$5, short-term"
+   },
+   {
+    "key": "B",
+    "text": "$5, long-term"
+   },
+   {
+    "key": "C",
+    "text": "$20, long-term"
+   },
+   {
+    "key": "D",
+    "text": "$20, short-term"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A father bought stock at twenty and gave it to his son when it was worth thirty-five. The son sells at forty. What's the son's gain per share?",
+  "explanation": "When gifted stock is worth MORE than the donor's basis at the time of the gift, the recipient takes the donor's basis ($20) and the donor's holding period carries over. Gain = 40 - 20 = $20 per share. Because the father's holding period carries over, it is treated as long-term assuming the combined period exceeds a year. $5 uses the gift-date value, which applies to inherited stock (step-up), not gifts.",
+  "spoken_explanation": "Gifts carry over the giver's basis. Basis twenty, sale at forty, gain twenty per share. The holding period also carries over. The step-up to market value is for inheritance, not gifts. Gifts of stock that has lost value follow a different rule. For a loss, the basis is the lower of the donor's cost or the value on the gift date.",
+  "tags": [
+   "equity",
+   "tax",
+   "gift",
+   "cost-basis"
+  ],
+  "outline_ref": "3.2 Equity securities: characteristics and tax treatment"
+ },
+ {
+  "id": "s7-q-0062",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "equity-tax",
+  "lesson_id": "s7-3-08",
+  "difficulty": 1,
+  "type": "mc",
+  "stem": "A customer inherits stock that the deceased had held for 4 months. The customer sells it 2 months later. The gain or loss is:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Short-term, based on the decedent's cost"
+   },
+   {
+    "key": "B",
+    "text": "Long-term, based on the decedent's cost"
+   },
+   {
+    "key": "C",
+    "text": "Short-term, based on the value at date of death"
+   },
+   {
+    "key": "D",
+    "text": "Long-term, based on the value at date of death"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "A customer inherits stock the deceased held for four months, then sells it two months later. How is the gain or loss treated?",
+  "explanation": "Inherited securities receive a stepped-up (or down) basis equal to fair market value at the date of death, and any gain or loss is automatically treated as long-term regardless of how long the decedent or heir held it. Using the decedent's cost is the rule for gifts, not inheritances. Short-term is wrong because inherited property is always treated as long-term.",
+  "spoken_explanation": "Inheritance means stepped-up basis to the value at death, and the gain is always long-term, no matter how long anyone held it. The step-up can wipe out decades of unrealized gains, which is why heirs often pay little or no capital gains tax. For a gift, by contrast, the donor's basis and holding period carry over.",
+  "tags": [
+   "equity",
+   "tax",
+   "inheritance",
+   "step-up"
+  ],
+  "outline_ref": "3.2 Equity securities: characteristics and tax treatment"
+ },
+ {
+  "id": "s7-q-0063",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "equity-securities",
+  "lesson_id": "s7-3-07",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A rights offering lets shareholders buy 1 new share for every 4 rights plus $20. The stock trades cum-rights at $30. What is the theoretical value of one right?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$1.00"
+   },
+   {
+    "key": "B",
+    "text": "$2.00"
+   },
+   {
+    "key": "C",
+    "text": "$2.50"
+   },
+   {
+    "key": "D",
+    "text": "$10.00"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A rights offering lets holders buy one new share with four rights plus twenty dollars. The stock trades cum-rights at thirty. What's one right worth?",
+  "explanation": "Cum-rights formula: (market price - subscription price) / (number of rights + 1) = (30 - 20) / (4 + 1) = 10 / 5 = $2.00. $2.50 divides by 4, which is the formula for ex-rights trading. $10.00 is the total discount. $1.00 has no basis.",
+  "spoken_explanation": "Cum rights: market minus subscription price, over rights plus one. Thirty minus twenty is ten. Four plus one is five. Ten divided by five is two dollars per right. Dividing by four is the ex-rights version. Rights are short-term, usually expire in a few weeks, and let current shareholders keep their proportionate ownership.",
+  "tags": [
+   "equity",
+   "rights",
+   "calculation"
+  ],
+  "outline_ref": "3.2 Equity securities: characteristics and tax treatment"
+ },
+ {
+  "id": "s7-q-0064",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "equity-securities",
+  "lesson_id": "s7-3-07",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A company's 6% cumulative preferred stock ($100 par) skipped its dividend for the past 2 years. Before any common dividend can be paid this year, each preferred share must receive:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$6"
+   },
+   {
+    "key": "B",
+    "text": "$12"
+   },
+   {
+    "key": "C",
+    "text": "$18"
+   },
+   {
+    "key": "D",
+    "text": "$24"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A six percent cumulative preferred, one hundred dollar par, skipped its dividend the last two years. Before common gets paid this year, how much does each preferred share need?",
+  "explanation": "Annual preferred dividend = 6% x $100 = $6. Cumulative preferred accrues missed dividends in arrears: 2 missed years ($12) plus the current year ($6) = $18 before any common dividend. $6 is only this year. $12 is only the arrears. $24 counts four years.",
+  "spoken_explanation": "Six percent of a hundred is six dollars a year. Cumulative means missed dividends pile up: two missed years is twelve, plus this year's six, is eighteen dollars before common sees a penny. Non-cumulative preferred holders lose missed dividends forever, so cumulative preferred is safer for income investors.",
+  "tags": [
+   "equity",
+   "preferred-stock",
+   "cumulative",
+   "calculation"
+  ],
+  "outline_ref": "3.2 Equity securities: characteristics and tax treatment"
+ },
+ {
+  "id": "s7-q-0065",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "investment-companies",
+  "lesson_id": "s7-3-15",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A mutual fund has a NAV of $10.00 and a public offering price of $10.50. What is the sales charge as a percentage?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "4.76%"
+   },
+   {
+    "key": "B",
+    "text": "5.00%"
+   },
+   {
+    "key": "C",
+    "text": "5.25%"
+   },
+   {
+    "key": "D",
+    "text": "0.50%"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A mutual fund has a net asset value of ten dollars and an offering price of ten fifty. What's the sales charge percentage?",
+  "explanation": "Sales charge % is calculated on the public offering price: (POP - NAV) / POP = 0.50 / 10.50 = 4.76%. 5.00% divides by NAV, a common error. 5.25% and 0.50% have no basis (0.50 is the dollar amount).",
+  "spoken_explanation": "Sales charge percent is based on the offering price, not N A V. Fifty cents divided by ten fifty is about four point seven six percent. Dividing by ten gives five percent, which is the trap. Sales charges are always calculated on the offering price, and the maximum allowed for mutual funds is eight and a half percent.",
+  "tags": [
+   "mutual-funds",
+   "sales-charge",
+   "calculation"
+  ],
+  "outline_ref": "3.2 Packaged products: investment companies, variable contracts, REITs, DPPs"
+ },
+ {
+  "id": "s7-q-0066",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "investment-companies",
+  "lesson_id": "s7-3-15",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer signs a letter of intent to qualify for a breakpoint on Class A shares. Which is TRUE?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "The letter covers purchases over 13 months and may be backdated up to 90 days"
+   },
+   {
+    "key": "B",
+    "text": "The letter covers 12 months and cannot be backdated"
+   },
+   {
+    "key": "C",
+    "text": "The customer is legally obligated to complete the purchases"
+   },
+   {
+    "key": "D",
+    "text": "The reduced sales charge applies only after the 13 months end"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A customer signs a letter of intent for a breakpoint on Class A shares. Which is TRUE?",
+  "explanation": "A letter of intent gives the customer 13 months to reach the breakpoint and may be backdated up to 90 days to include earlier purchases. It is NOT binding: if the customer falls short, the fund keeps escrowed shares to cover the higher sales charge. 12 months is wrong. The reduced sales charge applies to each purchase as it is made under the letter, not only after the period ends.",
+  "spoken_explanation": "Letter of intent: thirteen months to hit the breakpoint, backdate up to ninety days. It's not a binding promise. If you fall short, escrowed shares cover the higher sales charge. Right of accumulation is different: it counts the value of existing holdings toward breakpoints, with no time limit.",
+  "tags": [
+   "mutual-funds",
+   "breakpoints",
+   "letter-of-intent"
+  ],
+  "outline_ref": "3.2 Packaged products: investment companies, variable contracts, REITs, DPPs"
+ },
+ {
+  "id": "s7-q-0067",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "variable-contracts",
+  "lesson_id": "s7-3-16",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A variable annuity has an assumed interest rate (AIR) of 4%. This month the separate account earned the equivalent of 6% annualized. Compared with last month, next month's annuity payment will:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Increase"
+   },
+   {
+    "key": "B",
+    "text": "Decrease"
+   },
+   {
+    "key": "C",
+    "text": "Stay the same"
+   },
+   {
+    "key": "D",
+    "text": "Equal 6% of the account value"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A variable annuity has a four percent assumed interest rate. This month the separate account earned six percent annualized. What happens to next month's payment?",
+  "explanation": "Annuity payments rise when actual returns EXCEED the AIR, fall when returns are below the AIR, and stay the same when they equal the AIR. 6% > 4%, so the payment increases. 'Decrease' would require returns below 4%. 'Stay the same' would require exactly 4%. The payment is not a percentage of account value.",
+  "spoken_explanation": "Compare actual returns to the AIR. Six beats four, so the next payment goes up. Below the AIR, it goes down. Equal to the AIR, it stays flat. The AIR is the benchmark. The AIR is a benchmark, not a guarantee. A conservative AIR means a lower starting payment but more chance of increases.",
+  "tags": [
+   "variable-annuity",
+   "air",
+   "annuitization"
+  ],
+  "outline_ref": "3.2 Packaged products: investment companies, variable contracts, REITs, DPPs"
+ },
+ {
+  "id": "s7-q-0068",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "variable-contracts",
+  "lesson_id": "s7-3-16",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A 52-year-old customer withdraws $20,000 from a non-qualified variable annuity worth $100,000. Her cost basis is $70,000. How is the withdrawal taxed?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Tax-free return of basis"
+   },
+   {
+    "key": "B",
+    "text": "$20,000 ordinary income plus a 10% penalty"
+   },
+   {
+    "key": "C",
+    "text": "$20,000 capital gain"
+   },
+   {
+    "key": "D",
+    "text": "$6,000 ordinary income, prorated"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A fifty-two-year-old withdraws twenty thousand dollars from a non-qualified variable annuity worth a hundred thousand, with a seventy thousand basis. How is it taxed?",
+  "explanation": "Withdrawals from a non-qualified annuity before annuitization are taxed earnings first (LIFO). Earnings = 100,000 - 70,000 = $30,000, so the full $20,000 is earnings: ordinary income, plus a 10% penalty because she is under 59 1/2. A tax-free return of basis would apply only after all earnings are withdrawn. Annuity earnings are never capital gains. Pro rata (exclusion ratio) treatment applies to annuitized payments, not lump withdrawals.",
+  "spoken_explanation": "Annuity withdrawals come out earnings first. She has thirty thousand of earnings, so the whole twenty thousand is taxable as ordinary income. At fifty-two, she's under fifty-nine and a half, so add the ten percent penalty. Once all earnings are withdrawn, the remaining withdrawals are a tax-free return of basis. Annuitized payments use an exclusion ratio.",
+  "tags": [
+   "variable-annuity",
+   "tax",
+   "lifo",
+   "early-withdrawal"
+  ],
+  "outline_ref": "3.2 Packaged products: investment companies, variable contracts, REITs, DPPs"
+ },
+ {
+  "id": "s7-q-0069",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "reits-dpps",
+  "lesson_id": "s7-3-17",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "An investor in a real estate limited partnership has $8,000 of passive losses from the partnership this year. Against which income may these losses be deducted?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Salary"
+   },
+   {
+    "key": "B",
+    "text": "Dividends from a stock portfolio"
+   },
+   {
+    "key": "C",
+    "text": "Income from another passive activity"
+   },
+   {
+    "key": "D",
+    "text": "Interest from a bond portfolio"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "An investor has eight thousand dollars of passive losses from a real estate limited partnership. What income can those losses offset?",
+  "explanation": "Passive losses from a DPP generally can offset only passive income, such as income from another limited partnership. Salary is earned (active) income. Dividends and interest are portfolio income. Neither can be offset by passive losses. Unused passive losses carry forward.",
+  "spoken_explanation": "Passive losses only offset passive income, like profits from another partnership. Wages, dividends and interest are off limits. Unused losses carry forward. Passive losses that go unused carry forward and can be fully deducted when the investor sells the entire interest. Limited partners also can't lose more than they invested, plus any recourse debt they've signed for.",
+  "tags": [
+   "dpp",
+   "limited-partnership",
+   "tax",
+   "passive-income"
+  ],
+  "outline_ref": "3.2 Packaged products: investment companies, variable contracts, REITs, DPPs"
+ },
+ {
+  "id": "s7-q-0070",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "portfolio-analysis",
+  "lesson_id": "s7-3-18",
+  "difficulty": 1,
+  "type": "mc",
+  "stem": "A stock has a beta of 1.3. If the market rises 10%, the stock would be expected to:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Rise about 13%"
+   },
+   {
+    "key": "B",
+    "text": "Rise about 7.7%"
+   },
+   {
+    "key": "C",
+    "text": "Fall about 13%"
+   },
+   {
+    "key": "D",
+    "text": "Rise about 1.3%"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A stock has a beta of one point three. If the market rises ten percent, what's the expected move in the stock?",
+  "explanation": "Beta measures volatility relative to the market. Expected move = beta x market move = 1.3 x 10% = 13% in the SAME direction. 7.7% divides instead of multiplies. A fall would require a negative beta. 1.3% misreads beta as the percentage.",
+  "spoken_explanation": "Beta times the market move. One point three times ten percent is thirteen percent, in the same direction. Beta above one means more volatile than the market. A beta of one moves with the market, below one is less volatile, and above one is more volatile. Alpha measures return beyond what beta predicts.",
+  "tags": [
+   "portfolio-theory",
+   "beta"
+  ],
+  "outline_ref": "3.1 Portfolio theory and fundamental/technical analysis"
+ },
+ {
+  "id": "s7-q-0071",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "portfolio-analysis",
+  "lesson_id": "s7-3-18",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A company has current assets of $500,000, inventory of $200,000, and current liabilities of $250,000. What is its quick (acid-test) ratio?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "0.8 to 1"
+   },
+   {
+    "key": "B",
+    "text": "1.2 to 1"
+   },
+   {
+    "key": "C",
+    "text": "2.0 to 1"
+   },
+   {
+    "key": "D",
+    "text": "2.8 to 1"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A company has current assets of five hundred thousand, inventory of two hundred thousand, and current liabilities of two fifty. What's the quick ratio?",
+  "explanation": "Quick ratio = (current assets - inventory) / current liabilities = (500,000 - 200,000) / 250,000 = 1.2 to 1. 2.0 to 1 is the current ratio (500 / 250), which leaves inventory in. 0.8 to 1 divides inventory by current liabilities. 2.8 has no basis.",
+  "spoken_explanation": "Quick ratio drops inventory. Five hundred minus two hundred is three hundred. Three hundred over two fifty is one point two to one. If you keep inventory in, you get the current ratio of two. The quick ratio is stricter than the current ratio because inventory can be hard to sell quickly. Above one is generally healthy.",
+  "tags": [
+   "fundamental-analysis",
+   "quick-ratio",
+   "calculation"
+  ],
+  "outline_ref": "3.1 Portfolio theory and fundamental/technical analysis"
+ },
+ {
+  "id": "s7-q-0072",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "portfolio-analysis",
+  "lesson_id": "s7-3-18",
+  "difficulty": 1,
+  "type": "mc",
+  "stem": "A technical analyst sees a completed head-and-shoulders top pattern. This is generally interpreted as:",
+  "choices": [
+   {
+    "key": "A",
+    "text": "A bullish reversal"
+   },
+   {
+    "key": "B",
+    "text": "A bearish reversal"
+   },
+   {
+    "key": "C",
+    "text": "A consolidation with no signal"
+   },
+   {
+    "key": "D",
+    "text": "A signal the stock is oversold"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A technical analyst sees a completed head and shoulders top. How is that usually read?",
+  "explanation": "A head-and-shoulders TOP marks the end of an uptrend and signals a bearish reversal when the neckline is broken. An inverted head-and-shoulders (bottom) is the bullish reversal. Consolidation is a sideways range. Oversold describes a stock that has fallen too far too fast, which suggests a potential bounce, not this pattern.",
+  "spoken_explanation": "Head and shoulders top: the uptrend is rolling over. Bearish reversal. Flip it upside down, an inverted head and shoulders, and it's bullish. Breaking the neckline confirms a head and shoulders. Support and resistance, saucers, and moving averages are other tested patterns. Breaking the neckline is the confirmation. Until then, it's just a possible pattern.",
+  "tags": [
+   "technical-analysis",
+   "chart-patterns"
+  ],
+  "outline_ref": "3.1 Portfolio theory and fundamental/technical analysis"
+ },
+ {
+  "id": "s7-q-0073",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "taxes-disclosures",
+  "lesson_id": "s7-3-19",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "In 2026, a married couple elects gift splitting. How much can they give to EACH of their three children without using any of their lifetime exemption?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$19,000"
+   },
+   {
+    "key": "B",
+    "text": "$38,000"
+   },
+   {
+    "key": "C",
+    "text": "$57,000"
+   },
+   {
+    "key": "D",
+    "text": "$114,000"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "In twenty twenty-six, a married couple splits gifts. How much can they give EACH of their three children without touching their lifetime exemption?",
+  "explanation": "The annual gift tax exclusion for 2026 is $19,000 per donor per recipient (unchanged from 2025, IRS figure; this amount is indexed and changes over time). With gift splitting, a couple can give $38,000 to each recipient. $19,000 is the per-person limit. $57,000 is $19,000 x 3 children. $114,000 is the couple's TOTAL across all three children, not per child.",
+  "spoken_explanation": "The twenty twenty-six annual exclusion is nineteen thousand dollars per person, per recipient. Two spouses double it to thirty-eight thousand per child. Across three kids that's a hundred fourteen thousand total, but the question asks per child. This number changes over time, so check the current year. Gifts above the exclusion require filing a gift tax return, but tax is only owed after the lifetime exemption, fifteen million dollars in twenty twenty-six, is used.",
+  "tags": [
+   "tax",
+   "gift-tax",
+   "annual-exclusion",
+   "changes-yearly"
+  ],
+  "outline_ref": "3.3 Tax considerations: annual gift limit, lifetime exclusion"
+ },
+ {
+  "id": "s7-q-0074",
+  "exam": "S7",
+  "section": "S7-3",
+  "topic": "statements-transfers",
+  "lesson_id": "s7-3-20",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Under FINRA's ACATS rule, after receiving a transfer instruction, the carrying (delivering) firm must validate it within how many business days, and then complete the transfer within how many business days?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "1 business day, then 3 business days"
+   },
+   {
+    "key": "B",
+    "text": "3 business days, then 1 business day"
+   },
+   {
+    "key": "C",
+    "text": "1 business day, then 5 business days"
+   },
+   {
+    "key": "D",
+    "text": "2 business days, then 2 business days"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Under the ACATS rule, how fast must the delivering firm validate a transfer instruction, and then complete the transfer?",
+  "explanation": "FINRA Rule 11870 requires the carrying member to validate (or take exception to) the transfer instruction within 1 business day, and to complete the transfer within 3 business days after validation. The other pairs reverse or misstate these deadlines.",
+  "spoken_explanation": "ACATS: one day to validate, then three days to complete. One then three. ACATS speeds transfers between firms. Assets that can't be transferred, like proprietary funds, must be liquidated or held by the old firm per the customer's instructions. The new firm, the receiving firm, starts the process by submitting the customer's signed transfer instruction.",
+  "tags": [
+   "acats",
+   "account-transfers",
+   "rule-11870"
+  ],
+  "outline_ref": "3.4 Transferring accounts between broker-dealers (ACATS)"
+ }
 ]

@@ -1,38 +1,210 @@
 [
   {
-    "id": "sie-f-0005",
+    "id": "sie-f-0011",
     "exam": "SIE",
     "section": "SIE-2",
-    "sample": true,
-    "front": "Common stock",
-    "back": "Ownership, a vote, and a residual claim. Dividends are not guaranteed.",
-    "spoken": "Common stock. Ownership, a vote, and a residual claim. Dividends are not guaranteed."
+    "front": "Liquidation priority",
+    "back": "Secured creditors, then unsecured creditors including debentures, then subordinated debt, then preferred stock, then common stock last.",
+    "spoken": "Liquidation priority. ... Secured creditors, then unsecured creditors including debentures, then subordinated debt, then preferred stock, then common stock last."
   },
   {
-    "id": "sie-f-0006",
+    "id": "sie-f-0012",
     "exam": "SIE",
     "section": "SIE-2",
-    "sample": true,
+    "front": "Cumulative voting",
+    "back": "Total votes equal shares times seats, and you can put them all on one candidate. This favors minority shareholders.",
+    "spoken": "Cumulative voting. ... Total votes equal shares times seats, and you can put them all on one candidate. This favors minority shareholders."
+  },
+  {
+    "id": "sie-f-0013",
+    "exam": "SIE",
+    "section": "SIE-2",
     "front": "Cumulative preferred",
-    "back": "Skipped dividends must be paid before common stockholders receive a dividend.",
-    "spoken": "Cumulative preferred. Skipped dividends must be paid before common stockholders receive a dividend."
+    "back": "Missed dividends accumulate in arrears and must be paid before any common dividend.",
+    "spoken": "Cumulative preferred. ... Missed dividends accumulate in arrears and must be paid before any common dividend."
   },
   {
-    "id": "sie-f-0007",
+    "id": "sie-f-0014",
     "exam": "SIE",
     "section": "SIE-2",
-    "sample": true,
-    "front": "Bond prices and yields",
-    "back": "They move in opposite directions.",
-    "spoken": "Bond prices and yields. They move in opposite directions."
+    "front": "Rights vs. warrants",
+    "back": "Rights: short-term, priced below market, go to existing holders. Warrants: long-term, priced above market at issue, often a sweetener on a bond deal.",
+    "spoken": "Rights vs. warrants. ... Rights: short-term, priced below market, go to existing holders. Warrants: long-term, priced above market at issue, often a sweetener on a bond deal."
   },
   {
-    "id": "sie-f-0008",
+    "id": "sie-f-0015",
     "exam": "SIE",
     "section": "SIE-2",
-    "sample": true,
+    "front": "Rule 144 volume limit",
+    "back": "Per 90 days, the greater of 1% of shares outstanding or the average weekly volume of the prior 4 weeks.",
+    "spoken": "Rule 144 volume limit. ... Per 90 days, the greater of 1 percent of shares outstanding or the average weekly volume of the prior 4 weeks."
+  },
+  {
+    "id": "sie-f-0016",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Discount bond yield order",
+    "back": "Nominal yield is lowest, then current yield, then yield to maturity, then yield to call. A premium bond reverses this order.",
+    "spoken": "Discount bond yield order. ... Nominal yield is lowest, then current yield, then yield to maturity, then yield to call. A premium bond reverses this order."
+  },
+  {
+    "id": "sie-f-0017",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Current yield",
+    "back": "Annual interest or dividend divided by current market price.",
+    "spoken": "Current yield. ... Annual interest or dividend divided by current market price."
+  },
+  {
+    "id": "sie-f-0018",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Lowest investment-grade rating",
+    "back": "BBB at S&P and Fitch. Baa at Moody's. Anything below is high-yield, or junk.",
+    "spoken": "Lowest investment-grade rating. ... BBB at S and P and Fitch. Baa at Moody's. Anything below is high-yield, or junk."
+  },
+  {
+    "id": "sie-f-0019",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Conversion ratio",
+    "back": "Par value divided by conversion price. A $1,000 bond convertible at $40 converts into 25 shares.",
+    "spoken": "Conversion ratio. ... Par value divided by conversion price. A 1,000 dollars bond convertible at 40 dollars converts into 25 shares."
+  },
+  {
+    "id": "sie-f-0020",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Treasury maturities",
+    "back": "Bills: 1 year or less, sold at a discount. Notes: 2 to 10 years. Bonds: 20 and 30 years. Interest is federally taxable but exempt from state and local tax.",
+    "spoken": "Treasury maturities. ... Bills: 1 year or less, sold at a discount. Notes: 2 to 10 years. Bonds: 20 and 30 years. Interest is federally taxable but exempt from state and local tax."
+  },
+  {
+    "id": "sie-f-0021",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Ginnie Mae vs. Fannie and Freddie",
+    "back": "GNMA is backed by the full faith and credit of the U.S. government. FNMA and FHLMC are government-sponsored enterprises with only implied backing.",
+    "spoken": "Ginnie Mae vs. Fannie and Freddie. ... GNMA is backed by the full faith and credit of the U.S. government. FNMA and FHLMC are government-sponsored enterprises with only implied backing."
+  },
+  {
+    "id": "sie-f-0022",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Prepayment vs. extension risk",
+    "back": "Rates fall: mortgages prepay early, so you have to reinvest at lower rates. Rates rise: prepayments slow and the security's life extends.",
+    "spoken": "Prepayment vs. extension risk. ... Rates fall: mortgages prepay early, so you have to reinvest at lower rates. Rates rise: prepayments slow and the security's life extends."
+  },
+  {
+    "id": "sie-f-0023",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "GO vs. revenue bond",
+    "back": "GO: backed by taxing power, usually needs voter approval. Revenue: paid only from the income of the financed facility.",
+    "spoken": "GO vs. revenue bond. ... GO: backed by taxing power, usually needs voter approval. Revenue: paid only from the income of the financed facility."
+  },
+  {
+    "id": "sie-f-0024",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Tax-equivalent yield",
+    "back": "Muni yield divided by one minus the tax rate. Example: 3.4% divided by 0.68 equals 5%.",
+    "spoken": "Tax-equivalent yield. ... Muni yield divided by one minus the tax rate. Example: 3.4 percent divided by 0.68 equals 5 percent."
+  },
+  {
+    "id": "sie-f-0025",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Commercial paper exemption",
+    "back": "Unsecured short-term corporate debt maturing in 270 days or less is exempt from SEC registration.",
+    "spoken": "Commercial paper exemption. ... Unsecured short-term corporate debt maturing in 270 days or less is exempt from SEC registration."
+  },
+  {
+    "id": "sie-f-0026",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Call buyer breakeven",
+    "back": "Strike plus premium. Max loss is the premium. Max gain is unlimited.",
+    "spoken": "Call buyer breakeven. ... Strike plus premium. Max loss is the premium. Max gain is unlimited."
+  },
+  {
+    "id": "sie-f-0027",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Put buyer breakeven",
+    "back": "Strike minus premium. Max gain is strike minus premium, times 100.",
+    "spoken": "Put buyer breakeven. ... Strike minus premium. Max gain is strike minus premium, times 100."
+  },
+  {
+    "id": "sie-f-0028",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Options Disclosure Document",
+    "back": "Must be delivered at or before options account approval. The signed options agreement is due within 15 days after approval.",
+    "spoken": "Options Disclosure Document. ... Must be delivered at or before options account approval. The signed options agreement is due within 15 days after approval."
+  },
+  {
+    "id": "sie-f-0029",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Open-end vs. closed-end fund",
+    "back": "Open-end: continuous offering, redeemed at NAV. Closed-end: one fixed IPO, then trades on an exchange at a premium or discount to NAV.",
+    "spoken": "Open-end vs. closed-end fund. ... Open-end: continuous offering, redeemed at NAV. Closed-end: one fixed IPO, then trades on an exchange at a premium or discount to NAV."
+  },
+  {
+    "id": "sie-f-0030",
+    "exam": "SIE",
+    "section": "SIE-2",
     "front": "Mutual fund sales charge percent",
-    "back": "Public offering price minus net asset value, divided by the public offering price.",
-    "spoken": "Mutual fund sales charge percent. Public offering price minus net asset value, divided by the public offering price."
+    "back": "Offering price minus NAV, divided by the offering price. The FINRA cap is 8.5% of the offering price.",
+    "spoken": "Mutual fund sales charge percent. ... Offering price minus NAV, divided by the offering price. The FINRA cap is 8.5 percent of the offering price."
+  },
+  {
+    "id": "sie-f-0031",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Letter of intent",
+    "back": "Gives breakpoint pricing for purchases over 13 months and can be backdated up to 90 days. It's not binding, but escrowed shares cover the shortfall if you don't finish.",
+    "spoken": "Letter of intent. ... Gives breakpoint pricing for purchases over 13 months and can be backdated up to 90 days. It's not binding, but escrowed shares cover the shortfall if you don't finish."
+  },
+  {
+    "id": "sie-f-0032",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Share classes A, B, C",
+    "back": "A: front-end load, breakpoints, lower 12b-1. B: back-end CDSC that declines over years. C: level load, higher 12b-1, good for short horizons.",
+    "spoken": "Share classes A, B, C. ... A: front-end load, breakpoints, lower 12b-1. B: back-end CDSC that declines over years. C: level load, higher 12b-1, good for short horizons."
+  },
+  {
+    "id": "sie-f-0033",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Variable annuity separate account",
+    "back": "Holds the subaccounts. The owner bears the investment risk, which makes the contract a security.",
+    "spoken": "Variable annuity separate account. ... Holds the subaccounts. The owner bears the investment risk, which makes the contract a security."
+  },
+  {
+    "id": "sie-f-0034",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Annuity withdrawal taxation",
+    "back": "Non-qualified deferred annuity withdrawals are earnings first and taxed as ordinary income, plus 10% before age 59 and a half unless an exception applies.",
+    "spoken": "Annuity withdrawal taxation. ... Non-qualified deferred annuity withdrawals are earnings first and taxed as ordinary income, plus 10 percent before age 59 and a half unless an exception applies."
+  },
+  {
+    "id": "sie-f-0035",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "529 superfunding (2026)",
+    "back": "Five-year gift averaging: 5 times the $19,000 annual exclusion, or $95,000 per donor, $190,000 for a couple. The exclusion is indexed for inflation.",
+    "spoken": "529 superfunding (2026). ... Five-year gift averaging: 5 times the 19,000 dollars annual exclusion, or 95,000 dollars per donor, 190,000 dollars for a couple. The exclusion is indexed for inflation."
+  },
+  {
+    "id": "sie-f-0036",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Limited vs. general partner",
+    "back": "Limited partner: passive, liability limited to the investment. General partner: manages, unlimited liability.",
+    "spoken": "Limited vs. general partner. ... Limited partner: passive, liability limited to the investment. General partner: manages, unlimited liability."
   }
 ]
