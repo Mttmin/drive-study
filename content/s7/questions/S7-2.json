@@ -1,0 +1,71 @@
+[
+  {
+    "id": "s7-q-0003",
+    "exam": "S7",
+    "section": "S7-2",
+    "topic": "account-types",
+    "lesson_id": "s7-2-01",
+    "difficulty": 1,
+    "type": "mc",
+    "sample": true,
+    "stem": "Two siblings open a brokerage account as joint tenants with right of survivorship. Which statement is correct?",
+    "choices": [
+      { "key": "A", "text": "They own equal shares, and the survivor becomes the owner" },
+      { "key": "B", "text": "Unequal shares are allowed, and there is no survivorship" },
+      { "key": "C", "text": "The account must be custodial for a minor" },
+      { "key": "D", "text": "A creditor of one owner can never reach any of the assets" }
+    ],
+    "answer": "A",
+    "spoken_stem": "Two siblings open a brokerage account as joint tenants with right of survivorship. Which statement is correct?",
+    "explanation": "JTWROS owners take equal shares, and the surviving tenant becomes the owner of the account without that asset passing through probate. Tenants in common may hold unequal shares and have no survivorship. A custodial account is a different registration. Survivorship does not, by itself, put the assets beyond a creditor of a living owner.",
+    "spoken_explanation": "The answer is A. Joint tenants with right of survivorship own equal shares. When one owner dies, the survivor owns the account, and that asset does not go through probate. Unequal shares with no survivorship describe tenants in common. A minor's account is a custodial account, not this registration. Survivorship does not, by itself, wall the assets off from a creditor of a living owner.",
+    "tags": ["sample", "accounts"],
+    "outline_ref": "Series 7 Function 2"
+  },
+  {
+    "id": "s7-q-0004",
+    "exam": "S7",
+    "section": "S7-2",
+    "topic": "custodial-accounts",
+    "lesson_id": "s7-2-01",
+    "difficulty": 2,
+    "type": "mc",
+    "sample": true,
+    "stem": "A parent funds an UGMA custodial account for a child. Which statement is correct?",
+    "choices": [
+      { "key": "A", "text": "The gift is irrevocable and the child is the beneficial owner" },
+      { "key": "B", "text": "The custodian may take the assets back if the child misbehaves" },
+      { "key": "C", "text": "The donor and the child must be joint tenants" },
+      { "key": "D", "text": "Income in the account is always taxed to the custodian" }
+    ],
+    "answer": "A",
+    "spoken_stem": "A parent funds an UGMA custodial account for a child. Which statement is correct?",
+    "explanation": "A gift to an UGMA account is irrevocable. The minor is the beneficial owner, and the custodian manages the assets until the age the state's version of the law requires. There is one custodian and one minor. Income is generally taxed to the minor, subject to the kiddie-tax rules, not automatically to the custodian. The donor does not hold the assets as a joint tenant with the child.",
+    "spoken_explanation": "The answer is A. The gift is irrevocable, and the child is the owner. The custodian manages the account. The custodian cannot take the assets back because the child misbehaved. It is not a joint account between the parent and the child. Income is generally taxed to the child, not automatically to the custodian, though the kiddie tax can pull some of that income onto a parent's return. The age when the child takes control depends on the state.",
+    "tags": ["sample", "ugma"],
+    "outline_ref": "Series 7 Function 2"
+  },
+  {
+    "id": "s7-q-0005",
+    "exam": "S7",
+    "section": "S7-2",
+    "topic": "recommendations",
+    "lesson_id": "s7-2-01",
+    "difficulty": 2,
+    "type": "mc",
+    "sample": true,
+    "stem": "A representative recommends a speculative options strategy to a retail customer whose only stated objective is preserving capital. This recommendation:",
+    "choices": [
+      { "key": "A", "text": "Fails the care obligation because it conflicts with the stated objective" },
+      { "key": "B", "text": "Is acceptable if the representative expects the options to profit" },
+      { "key": "C", "text": "Is fine as long as the customer meets an accredited-investor test" },
+      { "key": "D", "text": "Is required, because options belong in every retail account" }
+    ],
+    "answer": "A",
+    "spoken_stem": "A representative recommends a speculative options strategy to a retail customer whose only stated objective is preserving capital. Which statement fits?",
+    "explanation": "Regulation Best Interest's care obligation requires a reasonable basis to believe a recommendation to a retail customer is in that customer's best interest, in light of the investment profile. An objective limited to capital preservation is inconsistent with a speculative options bet. The representative's hope for a profit does not replace that match. Accredited-investor status is a different test and does not waive the care obligation. Options are not mandatory in every account.",
+    "spoken_explanation": "The answer is A. For a retail customer, Regulation Best Interest's care obligation asks whether the recommendation fits the customer's profile and is in the customer's best interest. Capital preservation and a speculative options strategy conflict. Expecting a profit does not fix that. Being an accredited investor is a different test, and it does not erase the care obligation. Options are not required in every account.",
+    "tags": ["sample", "reg-bi"],
+    "outline_ref": "Series 7 Function 2"
+  }
+]

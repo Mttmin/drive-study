@@ -1,0 +1,46 @@
+[
+  {
+    "id": "s7-q-0001",
+    "exam": "S7",
+    "section": "S7-1",
+    "topic": "telemarketing",
+    "difficulty": 2,
+    "type": "mc",
+    "sample": true,
+    "stem": "Under FINRA's telemarketing rule, which call to a prospect's residence is within the allowed hours?",
+    "choices": [
+      { "key": "A", "text": "2:00 p.m. local time of the person called" },
+      { "key": "B", "text": "7:00 a.m. local time of the person called" },
+      { "key": "C", "text": "9:30 p.m. local time of the person called" },
+      { "key": "D", "text": "Any hour, if the firm has not built a do-not-call list" }
+    ],
+    "answer": "A",
+    "spoken_stem": "Under FINRA's telemarketing rule, which unsolicited call to a prospect's home is inside the allowed hours?",
+    "explanation": "FINRA Rule 3230 limits outbound solicitation calls to a residence to 8:00 a.m. through 9:00 p.m. local time of the person called. 7:00 a.m. is too early and 9:30 p.m. is too late. A firm must also maintain a do-not-call list. The clock is the called person's local time, not the representative's.",
+    "spoken_explanation": "The answer is A, two in the afternoon, local time of the person being called. FINRA Rule 3230 allows solicitation calls to a home only from eight in the morning to nine at night, in that person's local time. Seven in the morning is too early. Nine thirty at night is too late. The firm still has to keep a do-not-call list. Skipping that list does not open the clock.",
+    "tags": ["sample", "communications"],
+    "outline_ref": "Series 7 Function 1"
+  },
+  {
+    "id": "s7-q-0002",
+    "exam": "S7",
+    "section": "S7-1",
+    "topic": "communications",
+    "difficulty": 1,
+    "type": "mc",
+    "sample": true,
+    "stem": "A representative wants to text a prospect: \"Guaranteed 20 percent returns with no risk.\" This message is:",
+    "choices": [
+      { "key": "A", "text": "A prohibited exaggerated and promissory claim" },
+      { "key": "B", "text": "Fine if the representative believes it" },
+      { "key": "C", "text": "Required wording on an options recommendation" },
+      { "key": "D", "text": "Allowed, because a text is not a communication with the public" }
+    ],
+    "answer": "A",
+    "spoken_stem": "A representative wants to text a prospect that returns of twenty percent are guaranteed and that there is no risk. What is wrong with that message?",
+    "explanation": "FINRA Rule 2210 covers communications with the public, including texts and social messages. Promising a guaranteed return or claiming no risk is misleading and not allowed. A representative's personal belief does not cure the claim. Options involve risk; guaranteed language is the opposite of a proper disclosure. The channel does not take the message outside the rule.",
+    "spoken_explanation": "The answer is A. Promising a guaranteed twenty percent return with no risk is an exaggerated, promissory claim, and it is prohibited. FINRA's communications rule covers texts, not just printed ads. Believing the sentence does not make it fair. Options are not sold with a guarantee of no risk. The fact that the message is a text does not take it outside the rule.",
+    "tags": ["sample", "communications"],
+    "outline_ref": "Series 7 Function 1"
+  }
+]

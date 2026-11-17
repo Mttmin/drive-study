@@ -1,0 +1,66 @@
+[
+  {
+    "id": "s7-q-0014",
+    "exam": "S7",
+    "section": "S7-4",
+    "topic": "settlement",
+    "difficulty": 1,
+    "type": "mc",
+    "sample": true,
+    "stem": "Regular-way settlement for a corporate stock trade in the United States is:",
+    "choices": [
+      { "key": "A", "text": "The same day, under a cash agreement" },
+      { "key": "B", "text": "One business day after the trade date" },
+      { "key": "C", "text": "Two business days after the trade date" },
+      { "key": "D", "text": "Three business days after the trade date" }
+    ],
+    "answer": "B",
+    "spoken_stem": "Regular-way settlement for a corporate stock trade in the United States is which of the following?",
+    "explanation": "Since May 28, 2024, SEC Rule 15c6-1 requires most broker-dealer trades in stocks and several other securities to settle one business day after the trade date, T+1. Same-day cash settlement is a special agreement, not regular way. T+2 is the prior cycle. T+3 is older still.",
+    "spoken_explanation": "The answer is B. Regular-way settlement is one business day after the trade date, called T plus one. That has been the standard since May 28, 2024. Same-day settlement is a cash trade, and it has to be agreed. It is not regular way. Two business days was the old cycle. Three business days is older than that.",
+    "tags": ["sample", "settlement"],
+    "outline_ref": "Series 7 Function 4"
+  },
+  {
+    "id": "s7-q-0015",
+    "exam": "S7",
+    "section": "S7-4",
+    "topic": "orders",
+    "difficulty": 1,
+    "type": "tf",
+    "sample": true,
+    "stem": "A buy limit order may be executed at a price above the limit price.",
+    "choices": [
+      { "key": "T", "text": "True" },
+      { "key": "F", "text": "False" }
+    ],
+    "answer": "F",
+    "spoken_stem": "True or false. A buy limit order may be executed at a price above the limit price.",
+    "explanation": "False. A buy limit is an order to buy at the limit price or lower. A fill above the limit would violate the instruction. The order may not fill at all. A market order, not a limit order, can pay a higher price. A buy stop can lead to a fill above the stop price because it becomes a market order.",
+    "spoken_explanation": "The answer is false. A buy limit order may be executed at the limit price or lower. It may not be executed above the limit. It also may not be executed at all, if the market never trades there. A market order is the one that can pay a higher price. A buy stop can also fill above the stop, because a stop becomes a market order once it triggers.",
+    "tags": ["sample", "orders"],
+    "outline_ref": "Series 7 Function 4"
+  },
+  {
+    "id": "s7-q-0016",
+    "exam": "S7",
+    "section": "S7-4",
+    "topic": "confirmations",
+    "difficulty": 2,
+    "type": "mc",
+    "sample": true,
+    "stem": "A written confirmation of a customer's equity trade must include which of the following?",
+    "choices": [
+      { "key": "A", "text": "The price and whether the firm acted as agent or principal" },
+      { "key": "B", "text": "The representative's home address" },
+      { "key": "C", "text": "A projection of next year's return" },
+      { "key": "D", "text": "The customer's account password" }
+    ],
+    "answer": "A",
+    "spoken_stem": "A written confirmation of a customer's stock trade must include which of the following?",
+    "explanation": "SEC Rule 10b-10 requires a written confirmation with the identity of the security, the price, the trade date, and whether the broker-dealer acted as agent for the customer or as principal for its own account. It does not include the representative's home address, a forecast of future returns, or the customer's password.",
+    "spoken_explanation": "The answer is A. The confirmation has to show the price and whether the firm acted as the customer's agent or as principal for its own account. SEC Rule 10b-10 is the confirmation rule. It also identifies the security and the trade date. It does not publish the representative's home address, it does not forecast next year's return, and it never includes the customer's password.",
+    "tags": ["sample", "confirmations"],
+    "outline_ref": "Series 7 Function 4"
+  }
+]

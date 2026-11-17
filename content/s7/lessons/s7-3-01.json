@@ -1,0 +1,28 @@
+{
+  "id": "s7-3-01",
+  "exam": "S7",
+  "section": "S7-3",
+  "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+  "title": "Sample: Option breakevens you can do by ear",
+  "order": 1,
+  "est_minutes": 6,
+  "sample": true,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "This is a sample lesson. One option contract covers one hundred shares, so one point of premium is one hundred dollars. Start with a long call. The customer buys a fifty call and pays three points. The right is to buy the stock at fifty. The stock has to rise by the premium before the customer is even. Breakeven is the strike plus the premium, fifty plus three, which is fifty-three. Maximum loss is the premium, three hundred dollars. The gain above fifty-three is open-ended. Do not subtract the premium on a long call. Subtracting is the long put. A fifty put bought for three breaks even at forty-seven, the strike minus the premium."
+    },
+    {
+      "type": "narration",
+      "text": "A covered call is long the stock and short a call. Buy the stock at forty and sell a forty-five call for two points. If the stock is called away at forty-five, the stock gain is five hundred dollars and the premium kept is two hundred dollars. Maximum gain is seven hundred dollars. Breakeven on the stock is forty minus two, or thirty-eight, because the premium cushions a small drop. The upside is capped. A protective put is the opposite mood. Buy the stock at fifty and buy a fifty put for two. If the stock collapses, the put sells it at fifty, so the stock loss is offset. The premium is still gone. Maximum loss is two hundred dollars. Breakeven is fifty-two. A credit call spread is two calls. Sell the fifty call at five and buy the fifty-five call at two. The net credit is three points, three hundred dollars, and that is the most you can make. The strikes are five points apart. Maximum loss is the width minus the credit, five minus three, which is two points, or two hundred dollars. The long call is what keeps the loss from being unlimited."
+    },
+    { "type": "check", "question_id": "s7-q-0006" }
+  ],
+  "key_terms": [
+    { "term": "Long call breakeven", "definition": "Strike plus premium." },
+    { "term": "Covered call", "definition": "Long stock, short call. Upside is capped. Premium lowers the breakeven." },
+    { "term": "Credit spread max loss", "definition": "Difference in strikes, minus the net credit." }
+  ],
+  "mnemonics": ["Call up: add the premium. Put down: subtract the premium."],
+  "summary": "A long fifty call at three breaks even at fifty-three. A covered call caps the sale at the strike and keeps the premium. A protective put limits the downside to the premium when the strike equals the stock cost. A call credit spread's maximum loss is the width of the strikes minus the credit."
+}

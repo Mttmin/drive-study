@@ -1,0 +1,20 @@
+[
+  {
+    "id": "sie-f-0011",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "sample": true,
+    "front": "Form U4",
+    "back": "The form that registers an associated person of a member firm.",
+    "spoken": "Form U4. The form that registers an associated person of a member firm."
+  },
+  {
+    "id": "sie-f-0012",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "sample": true,
+    "front": "Suspicious activity report",
+    "back": "The firm files it. The representative does not tip off the customer.",
+    "spoken": "Suspicious activity report. The firm files it. The representative does not tip off the customer."
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "id": "sie-1-01",
+  "exam": "SIE",
+  "section": "SIE-1",
+  "section_title": "Knowledge of Capital Markets",
+  "title": "Sample: How the capital markets fit together",
+  "order": 1,
+  "est_minutes": 5,
+  "sample": true,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "This is a sample lesson, written for Drive Study. It is not a FINRA question and it is not from a commercial bank. The Securities and Exchange Commission is the primary federal regulator of the securities markets. It writes rules, inspects firms, and brings cases, with a mission to protect investors and keep markets fair. Self-regulatory organizations, including FINRA and the Municipal Securities Rulemaking Board, write and enforce rules for their members under SEC oversight. The states have their own securities regulators. The Federal Reserve sets monetary policy and, through Regulation T, the initial margin rate. SIPC is different from all of these. If a SIPC member brokerage fails and customer cash or securities are missing, SIPC can advance up to five hundred thousand dollars per customer, and only up to two hundred fifty thousand dollars of that can be cash. SIPC does not replace a loss because a stock price fell. FDIC insurance is for bank deposits, not for market risk in a brokerage account."
+    },
+    {
+      "type": "narration",
+      "text": "Markets are easier to keep straight if you ask who is selling. In the primary market, the issuer sells new securities and receives the money. In the secondary market, investors trade securities that already exist. The company does not get those proceeds. The third market is a special slice of the secondary market: exchange-listed shares trading over the counter, away from the listing exchange. The fourth market is institutions trading directly with each other, often through an electronic network. After a trade, someone has to clear and settle it. The Depository Trust and Clearing Corporation, through its clearing subsidiaries, handles most U.S. equity clearing. The Options Clearing Corporation issues and guarantees listed options, so a buyer is not taking the credit risk of one particular writer. Keep those two utilities separate from the regulators. They move and guarantee trades. They do not write the securities laws."
+    },
+    { "type": "check", "question_id": "sie-q-0002" }
+  ],
+  "key_terms": [
+    { "term": "Primary market", "definition": "The issuer sells new securities and receives the proceeds." },
+    { "term": "Third market", "definition": "Over-the-counter trading of exchange-listed securities." },
+    { "term": "SIPC", "definition": "Protects customers if a member broker fails. Not a shield against market loss." }
+  ],
+  "mnemonics": ["Primary means the issuer gets Paid."],
+  "summary": "The SEC regulates. FINRA and the MSRB are self-regulatory organizations. SIPC covers a failed broker, up to five hundred thousand dollars, not a falling market. Primary is a new issue. Secondary is investors trading. Third is listed shares over the counter. Fourth is institutions trading directly. The OCC guarantees listed options."
+}

@@ -1,0 +1,138 @@
+[
+  {
+    "id": "sie-q-0005",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "topic": "equity-securities",
+    "lesson_id": "sie-2-01",
+    "difficulty": 1,
+    "type": "mc",
+    "sample": true,
+    "stem": "Which right does a common stockholder generally have?",
+    "choices": [
+      { "key": "A", "text": "A vote for the board, and a residual claim on assets" },
+      { "key": "B", "text": "A guaranteed annual dividend" },
+      { "key": "C", "text": "Priority over bondholders in a liquidation" },
+      { "key": "D", "text": "A maturity date when the company must redeem the shares" }
+    ],
+    "answer": "A",
+    "spoken_stem": "Which right does a common stockholder generally have?",
+    "explanation": "Common stock is ownership. Holders generally vote for the board and have the last claim on assets and earnings after creditors and preferred stock. Dividends are declared by the board and are not guaranteed. Bonds are debt and are paid before equity in a liquidation. Common stock has no maturity date.",
+    "spoken_explanation": "The answer is A. A common stockholder owns a piece of the company, generally votes for the board, and stands last in line for assets. The dividend is not guaranteed. The board has to declare it. Bondholders are paid before owners if the company is liquidated. Common stock does not mature and come due the way a bond does.",
+    "tags": ["sample", "equity"],
+    "outline_ref": "SIE 2.1"
+  },
+  {
+    "id": "sie-q-0006",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "topic": "preferred-stock",
+    "lesson_id": "sie-2-01",
+    "difficulty": 2,
+    "type": "mc",
+    "sample": true,
+    "stem": "A company skipped the dividend on its cumulative preferred stock. Before it pays a dividend on common stock, it must do which of the following?",
+    "choices": [
+      { "key": "A", "text": "Pay the skipped preferred dividends" },
+      { "key": "B", "text": "Redeem the preferred shares at par" },
+      { "key": "C", "text": "Convert the preferred shares into bonds" },
+      { "key": "D", "text": "Get a margin waiver under Regulation T" }
+    ],
+    "answer": "A",
+    "spoken_stem": "A company skipped the dividend on its cumulative preferred stock. Before it pays a dividend on the common stock, what must it do?",
+    "explanation": "Cumulative preferred accumulates skipped dividends. Those dividends in arrears must be paid before common stockholders receive a dividend. The company does not have to redeem the shares or convert them. Non-cumulative preferred does not carry skipped dividends forward. No preferred dividend is owed unless the board declares it, but once the board wants to pay common, the arrears come first.",
+    "spoken_explanation": "The answer is A. Cumulative preferred keeps a tab of skipped dividends. Those skipped dividends have to be paid before the common stock gets anything. The company does not have to buy the shares back, and it does not have to turn them into bonds. Non-cumulative preferred does not work this way. Skipped dividends on that stock are simply skipped.",
+    "tags": ["sample", "preferred"],
+    "outline_ref": "SIE 2.1"
+  },
+  {
+    "id": "sie-q-0007",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "topic": "debt",
+    "lesson_id": "sie-2-01",
+    "difficulty": 1,
+    "type": "mc",
+    "sample": true,
+    "stem": "Market interest rates rise. What happens to the price of an existing fixed-coupon bond, all else equal?",
+    "choices": [
+      { "key": "A", "text": "The price falls" },
+      { "key": "B", "text": "The price rises" },
+      { "key": "C", "text": "The coupon rate rises with the market" },
+      { "key": "D", "text": "The par value is reduced" }
+    ],
+    "answer": "A",
+    "spoken_stem": "Market interest rates rise. What happens to the price of an existing bond with a fixed coupon, if nothing else changes?",
+    "explanation": "Bond prices and yields move in opposite directions. If new bonds pay a higher coupon, an older lower coupon is worth less, so its price falls until the yield is competitive. The coupon rate printed on an existing bond does not change. Par value stays the same; the market price is what moves.",
+    "spoken_explanation": "The answer is A. The price falls. Bond prices and interest rates move in opposite directions. A new bond would pay the higher rate. The old bond's coupon stays the same, so buyers will pay less for it. The coupon printed on the bond does not rise, and the par value does not change. The market price is the piece that moves.",
+    "tags": ["sample", "bonds"],
+    "outline_ref": "SIE 2.2"
+  },
+  {
+    "id": "sie-q-0008",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "topic": "investment-companies",
+    "lesson_id": "sie-2-01",
+    "difficulty": 2,
+    "type": "mc",
+    "sample": true,
+    "stem": "A front-end load mutual fund has a NAV of $18 and a POP of $20. What is the sales charge percentage?",
+    "choices": [
+      { "key": "A", "text": "10 percent" },
+      { "key": "B", "text": "11.1 percent" },
+      { "key": "C", "text": "2 percent" },
+      { "key": "D", "text": "18 percent" }
+    ],
+    "answer": "A",
+    "spoken_stem": "A mutual fund with a front-end sales charge has a net asset value of eighteen dollars and a public offering price of twenty dollars. What is the sales charge percentage?",
+    "explanation": "Sales charge percent = (POP − NAV) / POP. (20 − 18) / 20 = 2 / 20 = 10%. Dividing by NAV instead (2 / 18 ≈ 11.1%) is the common trap. The dollar sales charge is $2 per share, not the percentage. NAV is not the sales charge.",
+    "spoken_explanation": "The answer is A, ten percent. Subtract the net asset value from the public offering price. Twenty minus eighteen is two dollars. Divide that two dollars by the public offering price, which is twenty, not by the net asset value. Two divided by twenty is ten percent. Two divided by eighteen is about eleven point one percent, and that is the trap. The exam divides by the public offering price.",
+    "tags": ["sample", "funds"],
+    "outline_ref": "SIE 2.3"
+  },
+  {
+    "id": "sie-q-0009",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "topic": "options",
+    "difficulty": 1,
+    "type": "mc",
+    "sample": true,
+    "stem": "The buyer of a listed call option has which of the following?",
+    "choices": [
+      { "key": "A", "text": "The right, but not the obligation, to buy the stock at the strike" },
+      { "key": "B", "text": "The obligation to buy the stock at the strike" },
+      { "key": "C", "text": "The right to sell the stock at the strike" },
+      { "key": "D", "text": "A loan from the Options Clearing Corporation" }
+    ],
+    "answer": "A",
+    "spoken_stem": "The buyer of a listed call option has which of the following?",
+    "explanation": "A call buyer pays a premium for the right to buy the underlying at the strike price. The buyer has no obligation to exercise. A put, not a call, is the right to sell. The writer of the call takes on the obligation. The OCC guarantees the contract; it does not lend the premium to the buyer.",
+    "spoken_explanation": "The answer is A. The buyer of a call pays a premium for the right to buy the stock at the strike price. The buyer does not have to exercise. The right to sell is a put, not a call. The obligation sits with the writer, the person who sold the call. The Options Clearing Corporation guarantees the contract. It does not lend the buyer the money.",
+    "tags": ["sample", "options"],
+    "outline_ref": "SIE 2.4"
+  },
+  {
+    "id": "sie-q-0010",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "topic": "municipal-securities",
+    "difficulty": 2,
+    "type": "mc",
+    "sample": true,
+    "stem": "Interest on a typical municipal bond is treated how for federal income tax?",
+    "choices": [
+      { "key": "A", "text": "It is generally exempt from federal income tax" },
+      { "key": "B", "text": "The interest and any capital gain are both always exempt" },
+      { "key": "C", "text": "It is taxed as ordinary income in every case" },
+      { "key": "D", "text": "It is guaranteed by the U.S. Treasury" }
+    ],
+    "answer": "A",
+    "spoken_stem": "For federal income tax, how is the interest on a typical municipal bond treated?",
+    "explanation": "Interest on most municipal bonds is exempt from regular federal income tax. That is not a blanket promise: some private-activity bonds are subject to the alternative minimum tax, capital gains on a sale are taxable, and state tax depends on the bond and the investor's state. Municipal bonds are not obligations of the U.S. Treasury.",
+    "spoken_explanation": "The answer is A. Interest on a typical municipal bond is exempt from regular federal income tax. That does not make every dollar tax free. A capital gain from selling the bond can still be taxed, and some private-activity bonds run into the alternative minimum tax. State tax depends on where the investor lives. The Treasury does not guarantee a municipal bond.",
+    "tags": ["sample", "munis"],
+    "outline_ref": "SIE 2.2"
+  }
+]

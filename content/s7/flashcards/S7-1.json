@@ -1,0 +1,20 @@
+[
+  {
+    "id": "s7-f-0001",
+    "exam": "S7",
+    "section": "S7-1",
+    "sample": true,
+    "front": "Telemarketing hours",
+    "back": "8:00 a.m. to 9:00 p.m. local time of the person called.",
+    "spoken": "Telemarketing hours. Eight in the morning to nine at night, local time of the person called."
+  },
+  {
+    "id": "s7-f-0002",
+    "exam": "S7",
+    "section": "S7-1",
+    "sample": true,
+    "front": "Guaranteed-return language",
+    "back": "Promising a guaranteed profit or no risk in a communication is prohibited.",
+    "spoken": "Guaranteed-return language. Promising a guaranteed profit or no risk in a communication is prohibited."
+  }
+]

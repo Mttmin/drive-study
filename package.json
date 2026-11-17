@@ -1,0 +1,26 @@
+{
+  "name": "drive-study",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build && node scripts/copy-static.mjs && node scripts/build-podcast-feed.mjs && node scripts/generate-sw.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "validate": "node scripts/validate-content.mjs",
+    "utterances": "node scripts/list-utterances.mjs",
+    "test": "vitest run",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "preact": "^10.25.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@preact/preset-vite": "^2.10.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.6",
+    "vitest": "^2.1.8",
+    "workbox-build": "^7.3.0"
+  }
+}

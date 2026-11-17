@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sie-f-0005",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "sample": true,
+    "front": "Common stock",
+    "back": "Ownership, a vote, and a residual claim. Dividends are not guaranteed.",
+    "spoken": "Common stock. Ownership, a vote, and a residual claim. Dividends are not guaranteed."
+  },
+  {
+    "id": "sie-f-0006",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "sample": true,
+    "front": "Cumulative preferred",
+    "back": "Skipped dividends must be paid before common stockholders receive a dividend.",
+    "spoken": "Cumulative preferred. Skipped dividends must be paid before common stockholders receive a dividend."
+  },
+  {
+    "id": "sie-f-0007",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "sample": true,
+    "front": "Bond prices and yields",
+    "back": "They move in opposite directions.",
+    "spoken": "Bond prices and yields. They move in opposite directions."
+  },
+  {
+    "id": "sie-f-0008",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "sample": true,
+    "front": "Mutual fund sales charge percent",
+    "back": "Public offering price minus net asset value, divided by the public offering price.",
+    "spoken": "Mutual fund sales charge percent. Public offering price minus net asset value, divided by the public offering price."
+  }
+]

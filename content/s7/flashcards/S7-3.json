@@ -1,0 +1,47 @@
+[
+  {
+    "id": "s7-f-0006",
+    "exam": "S7",
+    "section": "S7-3",
+    "sample": true,
+    "front": "Long call breakeven",
+    "back": "Strike price plus the premium.",
+    "spoken": "Long call breakeven. Strike price plus the premium."
+  },
+  {
+    "id": "s7-f-0007",
+    "exam": "S7",
+    "section": "S7-3",
+    "sample": true,
+    "front": "Covered call",
+    "back": "Long the stock and short a call. The upside is capped.",
+    "spoken": "Covered call. Long the stock and short a call. The upside is capped."
+  },
+  {
+    "id": "s7-f-0008",
+    "exam": "S7",
+    "section": "S7-3",
+    "sample": true,
+    "front": "Protective put",
+    "back": "Long the stock and long a put. Downside is limited. Breakeven is the stock price plus the premium.",
+    "spoken": "Protective put. Long the stock and long a put. Downside is limited. Breakeven is the stock price plus the premium."
+  },
+  {
+    "id": "s7-f-0009",
+    "exam": "S7",
+    "section": "S7-3",
+    "sample": true,
+    "front": "General obligation bond versus revenue bond",
+    "back": "A general obligation bond is backed by taxing power. A revenue bond is backed by a project's revenues.",
+    "spoken": "General obligation bond versus revenue bond. A general obligation bond is backed by taxing power. A revenue bond is backed by a project's revenues."
+  },
+  {
+    "id": "s7-f-0010",
+    "exam": "S7",
+    "section": "S7-3",
+    "sample": true,
+    "front": "FINRA maintenance margin",
+    "back": "Generally 25 percent of current market value for a long stock, and 30 percent for a short stock at $5 or more.",
+    "spoken": "FINRA maintenance margin. Generally twenty-five percent of current market value for a long stock, and thirty percent for a short stock priced at five dollars or more."
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "Drive Study",
+  "short_name": "Drive Study",
+  "description": "SIE and Series 7 study by voice.",
+  "start_url": "/drive-study/",
+  "scope": "/drive-study/",
+  "display": "standalone",
+  "background_color": "#12160f",
+  "theme_color": "#12160f",
+  "icons": [
+    { "src": "/drive-study/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/drive-study/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

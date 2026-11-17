@@ -1,0 +1,182 @@
+[
+  {
+    "id": "s7-q-0006",
+    "exam": "S7",
+    "section": "S7-3",
+    "topic": "options-strategies",
+    "lesson_id": "s7-3-01",
+    "difficulty": 2,
+    "type": "mc",
+    "sample": true,
+    "stem": "A customer buys one XYZ 50 call for a premium of 3. What is the breakeven?",
+    "choices": [
+      { "key": "A", "text": "47" },
+      { "key": "B", "text": "50" },
+      { "key": "C", "text": "53" },
+      { "key": "D", "text": "56" }
+    ],
+    "answer": "C",
+    "spoken_stem": "A customer buys one X Y Z fifty call and pays a premium of three points. What is the breakeven price?",
+    "explanation": "Breakeven on a long call is strike plus premium: 50 + 3 = 53. The buyer needs the stock three points above the strike to recover the premium. 47 would subtract the premium, which is the breakeven pattern for a long put (strike minus premium). 50 ignores the premium. 56 adds the premium twice.",
+    "spoken_explanation": "The answer is C, fifty-three. The buyer paid three points for the right to buy at fifty. Breakeven on a long call is the strike plus the premium. Fifty plus three is fifty-three. Forty-seven subtracts the premium. That is the breakeven on a long put, not a long call. Fifty is only the strike. Fifty-six adds the premium twice.",
+    "tags": ["sample", "options"],
+    "outline_ref": "Series 7 Function 3"
+  },
+  {
+    "id": "s7-q-0007",
+    "exam": "S7",
+    "section": "S7-3",
+    "topic": "options-strategies",
+    "lesson_id": "s7-3-01",
+    "difficulty": 3,
+    "type": "mc",
+    "sample": true,
+    "stem": "A customer buys 100 shares at $40 and sells one 45 call for a premium of 2. What is the maximum gain?",
+    "choices": [
+      { "key": "A", "text": "$700" },
+      { "key": "B", "text": "$200" },
+      { "key": "C", "text": "Unlimited" },
+      { "key": "D", "text": "$500" }
+    ],
+    "answer": "A",
+    "spoken_stem": "A customer buys one hundred shares at forty dollars and sells one forty-five call for a premium of two points. What is the maximum gain?",
+    "explanation": "This is a covered call. If the stock is called away at 45, the stock gain is $5 per share, or $500, and the premium kept is $200. Maximum gain is $700. The premium alone is $200. The stock gain alone is $500. Upside is capped by the short call, so the gain is not unlimited. Breakeven on the stock is 40 − 2 = 38, which the question does not ask.",
+    "spoken_explanation": "The answer is A, seven hundred dollars. The stock was bought at forty and can be called away at forty-five. That is five dollars a share on one hundred shares, or five hundred dollars. The call premium is two points, or two hundred dollars, and the customer keeps it. Five hundred plus two hundred is seven hundred. The gain is not unlimited, because the short call caps the sale at forty-five. Two hundred dollars is only the premium. Five hundred dollars ignores the premium.",
+    "tags": ["sample", "covered-call"],
+    "outline_ref": "Series 7 Function 3"
+  },
+  {
+    "id": "s7-q-0008",
+    "exam": "S7",
+    "section": "S7-3",
+    "topic": "options-strategies",
+    "lesson_id": "s7-3-01",
+    "difficulty": 2,
+    "type": "mc",
+    "sample": true,
+    "stem": "A customer buys 100 shares at $50 and buys one 50 put for a premium of 2. What is the maximum loss?",
+    "choices": [
+      { "key": "A", "text": "$200" },
+      { "key": "B", "text": "Unlimited" },
+      { "key": "C", "text": "$5,000" },
+      { "key": "D", "text": "$0, because the put removes every cost" }
+    ],
+    "answer": "A",
+    "spoken_stem": "A customer buys one hundred shares at fifty dollars and buys one fifty put for a premium of two points. What is the maximum loss?",
+    "explanation": "A protective put lets the holder sell the stock at 50 no matter how far the stock falls. The stock loss below 50 is offset by the put. The premium, $200, is still spent. Maximum loss is the premium when the put strike equals the stock cost. Breakeven is 50 + 2 = 52. The loss is not unlimited, and it is not zero.",
+    "spoken_explanation": "The answer is A, two hundred dollars. The put gives the customer the right to sell the shares at fifty, the same price that was paid for the stock. If the stock collapses, the put covers that drop. What the customer cannot get back is the premium, two points, or two hundred dollars. That is the maximum loss. The loss is not unlimited, and it is not zero. Breakeven is fifty-two, the stock price plus the premium.",
+    "tags": ["sample", "protective-put"],
+    "outline_ref": "Series 7 Function 3"
+  },
+  {
+    "id": "s7-q-0009",
+    "exam": "S7",
+    "section": "S7-3",
+    "topic": "options-strategies",
+    "lesson_id": "s7-3-01",
+    "difficulty": 3,
+    "type": "mc",
+    "sample": true,
+    "stem": "A customer sells one 50 call at 5 and buys one 55 call at 2. What is the maximum loss?",
+    "choices": [
+      { "key": "A", "text": "$200" },
+      { "key": "B", "text": "$300" },
+      { "key": "C", "text": "$500" },
+      { "key": "D", "text": "Unlimited" }
+    ],
+    "answer": "A",
+    "spoken_stem": "A customer sells one fifty call at five and buys one fifty-five call at two. What is the maximum loss?",
+    "explanation": "This is a call credit spread. Net credit = 5 − 2 = 3 points, or $300, which is the maximum gain. The strikes are 5 points apart. Maximum loss = width minus credit = 5 − 3 = 2 points, or $200. The long 55 call caps the upside, so the loss is not unlimited. Breakeven is the short strike plus the credit: 50 + 3 = 53.",
+    "spoken_explanation": "The answer is A, two hundred dollars. The customer collected five points and paid two points, so the net credit is three points, or three hundred dollars. That credit is the most the customer can keep. The strikes are five points apart. Maximum loss on a credit spread is the width minus the credit. Five minus three is two points, or two hundred dollars. The long fifty-five call caps the risk, so the loss is not unlimited. Three hundred dollars is the maximum gain, not the loss.",
+    "tags": ["sample", "spreads"],
+    "outline_ref": "Series 7 Function 3"
+  },
+  {
+    "id": "s7-q-0010",
+    "exam": "S7",
+    "section": "S7-3",
+    "topic": "municipal-securities",
+    "difficulty": 1,
+    "type": "mc",
+    "sample": true,
+    "stem": "A general obligation municipal bond is backed primarily by:",
+    "choices": [
+      { "key": "A", "text": "The issuer's taxing power" },
+      { "key": "B", "text": "Revenue from one project, such as a toll road" },
+      { "key": "C", "text": "A bank letter of credit in every case" },
+      { "key": "D", "text": "The U.S. Treasury" }
+    ],
+    "answer": "A",
+    "spoken_stem": "A general obligation municipal bond is backed primarily by which of the following?",
+    "explanation": "A general obligation bond is backed by the issuer's full faith and credit, meaning its taxing power. A revenue bond is paid from a project's revenues, such as a toll road or a water system, and is not a general tax pledge. Credit enhancement can exist, but it is not part of the definition. The U.S. Treasury does not stand behind municipal debt.",
+    "spoken_explanation": "The answer is A, the issuer's taxing power. A general obligation bond is a promise backed by taxes. A revenue bond is the one paid by a project, such as a toll road or a water system. A bank letter of credit can enhance a bond, but it is not what makes the bond a general obligation. The Treasury does not guarantee municipal debt.",
+    "tags": ["sample", "munis"],
+    "outline_ref": "Series 7 Function 3"
+  },
+  {
+    "id": "s7-q-0011",
+    "exam": "S7",
+    "section": "S7-3",
+    "topic": "margin",
+    "difficulty": 2,
+    "type": "mc",
+    "sample": true,
+    "stem": "Under FINRA Rule 4210, the minimum maintenance margin for long margin-eligible stock is generally:",
+    "choices": [
+      { "key": "A", "text": "25 percent of the current market value" },
+      { "key": "B", "text": "50 percent of the current market value" },
+      { "key": "C", "text": "30 percent of the current market value" },
+      { "key": "D", "text": "A flat $2,000, with no percentage test" }
+    ],
+    "answer": "A",
+    "spoken_stem": "Under FINRA Rule 4210, the minimum maintenance margin for long stock that is eligible for margin is generally which amount?",
+    "explanation": "FINRA Rule 4210 sets long maintenance at 25% of current market value for margin securities. Fifty percent is Regulation T initial margin, not the maintenance test. Thirty percent is the maintenance level for a short stock at $5 or more. The $2,000 figure is a minimum equity requirement when opening a margin transaction, not a substitute for the percentage test. A house requirement can be higher than 25%.",
+    "spoken_explanation": "The answer is A, twenty-five percent of the current market value. That is FINRA's maintenance requirement for a long margin stock. Fifty percent is the Regulation T initial deposit, which is a different test. Thirty percent is the usual maintenance level when the customer is short a stock priced at five dollars or more. Two thousand dollars is a minimum equity amount for opening many margin trades. It does not replace the percentage. A firm may set a higher house requirement.",
+    "tags": ["sample", "margin"],
+    "outline_ref": "Series 7 Function 3"
+  },
+  {
+    "id": "s7-q-0012",
+    "exam": "S7",
+    "section": "S7-3",
+    "topic": "margin",
+    "difficulty": 2,
+    "type": "mc",
+    "sample": true,
+    "stem": "A customer is short 100 shares of a $40 stock. FINRA's minimum maintenance margin on that position is generally:",
+    "choices": [
+      { "key": "A", "text": "30 percent of the current market value" },
+      { "key": "B", "text": "25 percent of the current market value" },
+      { "key": "C", "text": "50 percent of the current market value" },
+      { "key": "D", "text": "100 percent of the current market value" }
+    ],
+    "answer": "A",
+    "spoken_stem": "A customer is short one hundred shares of a stock trading at forty dollars. FINRA's minimum maintenance margin on that short position is generally which amount?",
+    "explanation": "For a stock sold short at $5 per share or more, FINRA Rule 4210 requires maintenance of the greater of $5 per share or 30% of current market value. At $40, 30% is $12 per share, which is greater than $5, so the percentage controls. Twenty-five percent is the long-stock maintenance level. Fifty percent is initial margin under Regulation T. One hundred percent would mean no leverage at all.",
+    "spoken_explanation": "The answer is A, thirty percent of the current market value. The stock is at forty dollars, well above five dollars. For a short stock at five dollars or more, FINRA requires the greater of five dollars a share or thirty percent of the current market value. Thirty percent of forty is twelve dollars a share, which is more than five, so the thirty percent controls. Twenty-five percent is the long-stock maintenance figure. Fifty percent is the Regulation T initial margin.",
+    "tags": ["sample", "margin"],
+    "outline_ref": "Series 7 Function 3"
+  },
+  {
+    "id": "s7-q-0013",
+    "exam": "S7",
+    "section": "S7-3",
+    "topic": "debt",
+    "difficulty": 2,
+    "type": "mc",
+    "sample": true,
+    "stem": "A bond with a 4 percent coupon is trading at a discount. Which statement is true?",
+    "choices": [
+      { "key": "A", "text": "Yield to maturity is higher than the coupon" },
+      { "key": "B", "text": "Yield to maturity is lower than the coupon" },
+      { "key": "C", "text": "The bond cannot be a municipal bond" },
+      { "key": "D", "text": "The price will not change if interest rates change" }
+    ],
+    "answer": "A",
+    "spoken_stem": "A bond with a four percent coupon is trading at a discount. Which statement is true?",
+    "explanation": "A discount bond's price is below par, so a buyer who holds to maturity earns the coupon plus the pull up to par. Yield to maturity is therefore higher than the coupon. A premium bond is the opposite: yield to maturity is below the coupon. Municipals can trade at discounts. Discount pricing is exactly how the bond responds when yields are above the coupon.",
+    "spoken_explanation": "The answer is A. Yield to maturity is higher than the four percent coupon. The buyer pays less than par and, if the bond is held to maturity, also earns the rise from that discount up to par. That extra lift makes the yield higher than the coupon. A premium bond works the other way. A municipal bond can trade at a discount. And the price is exactly the thing that moves when rates move.",
+    "tags": ["sample", "bonds"],
+    "outline_ref": "Series 7 Function 3"
+  }
+]

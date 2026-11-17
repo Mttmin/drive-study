@@ -1,0 +1,29 @@
+[
+  {
+    "id": "s7-f-0003",
+    "exam": "S7",
+    "section": "S7-2",
+    "sample": true,
+    "front": "Joint tenants with right of survivorship",
+    "back": "Equal shares. The survivor becomes the owner.",
+    "spoken": "Joint tenants with right of survivorship. Equal shares. The survivor becomes the owner."
+  },
+  {
+    "id": "s7-f-0004",
+    "exam": "S7",
+    "section": "S7-2",
+    "sample": true,
+    "front": "Tenants in common",
+    "back": "Shares can be unequal. There is no right of survivorship.",
+    "spoken": "Tenants in common. Shares can be unequal. There is no right of survivorship."
+  },
+  {
+    "id": "s7-f-0005",
+    "exam": "S7",
+    "section": "S7-2",
+    "sample": true,
+    "front": "Regulation Best Interest, care obligation",
+    "back": "A recommendation to a retail customer must fit the profile and be in the customer's best interest.",
+    "spoken": "Regulation Best Interest, care obligation. A recommendation to a retail customer must fit the profile and be in the customer's best interest."
+  }
+]

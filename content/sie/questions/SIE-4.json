@@ -1,0 +1,46 @@
+[
+  {
+    "id": "sie-q-0015",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "registration",
+    "difficulty": 1,
+    "type": "mc",
+    "sample": true,
+    "stem": "Form U4 is used to:",
+    "choices": [
+      { "key": "A", "text": "Register an associated person of a member firm" },
+      { "key": "B", "text": "Incorporate a new broker-dealer" },
+      { "key": "C", "text": "Open a customer's margin account" },
+      { "key": "D", "text": "Report a trade to the consolidated tape" }
+    ],
+    "answer": "A",
+    "spoken_stem": "What is Form U4 used for?",
+    "explanation": "Form U4, the Uniform Application for Securities Industry Registration or Transfer, registers an associated person through the Central Registration Depository. It collects employment, residential, disclosure, and qualification information. The firm must amend it when the information becomes inaccurate. It is not the customer's margin agreement, the firm's formation document, or a trade report.",
+    "spoken_explanation": "The answer is A. Form U4 registers an associated person of a member firm. It is filed through the Central Registration Depository and covers work history and disclosures. The firm has to update it when the answers change. It does not incorporate the broker-dealer, it does not open the customer's margin account, and it does not print a trade on the tape.",
+    "tags": ["sample", "u4"],
+    "outline_ref": "SIE 4.1"
+  },
+  {
+    "id": "sie-q-0016",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "aml",
+    "difficulty": 2,
+    "type": "mc",
+    "sample": true,
+    "stem": "A representative suspects a customer is structuring cash activity to avoid a report. What should the representative do?",
+    "choices": [
+      { "key": "A", "text": "Escalate inside the firm and not warn the customer that a report may be filed" },
+      { "key": "B", "text": "Call the customer and describe the suspicion so they can fix the deposits" },
+      { "key": "C", "text": "Post the suspicion where other customers can see it" },
+      { "key": "D", "text": "Ignore it, because only banks file suspicious activity reports" }
+    ],
+    "answer": "A",
+    "spoken_stem": "A representative suspects a customer is structuring cash activity to avoid a report. What should the representative do?",
+    "explanation": "Broker-dealers file suspicious activity reports with FinCEN. The representative escalates under the firm's AML procedures and must not tip off the customer. Telling the subject can be a separate violation. Broker-dealers, not only banks, have SAR duties. When a suspect is identified, the firm generally has 30 days from initial detection to file; the representative's job is to escalate, not to file from a personal phone.",
+    "spoken_explanation": "The answer is A. Escalate inside the firm, and do not tell the customer that a suspicious activity report may be filed. Tipping the customer off is prohibited. Broker-dealers file these reports with FinCEN. It is not a bank-only duty. When a suspect is known, the firm generally has thirty days from detection to file. That clock belongs to the firm. The representative's job is to follow the firm's anti-money-laundering process and stay quiet with the customer.",
+    "tags": ["sample", "sar"],
+    "outline_ref": "SIE 4.3"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "sie-q-0011",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "orders",
+    "difficulty": 1,
+    "type": "mc",
+    "sample": true,
+    "stem": "A customer wants to buy shares at $40 or lower. Which order matches that instruction?",
+    "choices": [
+      { "key": "A", "text": "A buy limit order" },
+      { "key": "B", "text": "A buy stop order" },
+      { "key": "C", "text": "A market order" },
+      { "key": "D", "text": "A sell limit order" }
+    ],
+    "answer": "A",
+    "spoken_stem": "A customer wants to buy shares at forty dollars or lower. Which order matches that instruction?",
+    "explanation": "A buy limit sets the maximum price the customer will pay, so it can execute at the limit or lower. It does not guarantee a fill. A market order takes the next available price and can pay more than $40. A buy stop is usually placed above the market and becomes a market order when triggered. A sell limit is an order to sell, not buy.",
+    "spoken_explanation": "The answer is A. A buy limit order sets the most the customer will pay. It can fill at forty dollars or below, and it might not fill at all. A market order takes the next price, which can be above forty. A buy stop is typically entered above the market and turns into a market order if the price trades up through it. A sell limit is an order to sell.",
+    "tags": ["sample", "orders"],
+    "outline_ref": "SIE 3.1"
+  },
+  {
+    "id": "sie-q-0012",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "margin",
+    "difficulty": 2,
+    "type": "mc",
+    "sample": true,
+    "stem": "Under Regulation T, the initial margin to buy listed common stock in a margin account is generally:",
+    "choices": [
+      { "key": "A", "text": "50 percent of the purchase price" },
+      { "key": "B", "text": "25 percent of the purchase price" },
+      { "key": "C", "text": "30 percent of the purchase price" },
+      { "key": "D", "text": "100 percent, because common stock cannot be margined" }
+    ],
+    "answer": "A",
+    "spoken_stem": "Under Regulation T, the initial margin required to buy listed common stock in a margin account is generally which amount?",
+    "explanation": "Regulation T, set by the Federal Reserve, generally requires 50% initial margin for a long purchase of margin-eligible stock. FINRA maintenance margin on a long position is 25% of current market value, which is a different test applied after the trade. Thirty percent is the usual FINRA maintenance level for a short stock priced at $5 or more. A cash account, not a margin account, requires payment in full.",
+    "spoken_explanation": "The answer is A, fifty percent of the purchase price. Regulation T is the Federal Reserve's initial margin rule. Twenty-five percent is the FINRA maintenance requirement for a long stock position after the trade, not the initial deposit. Thirty percent is the usual maintenance level for a short stock priced at five dollars or more. Common stock can be bought in a margin account. A cash account is the one that requires payment in full.",
+    "tags": ["sample", "margin"],
+    "outline_ref": "SIE 3.2"
+  },
+  {
+    "id": "sie-q-0013",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "prohibited-activities",
+    "difficulty": 2,
+    "type": "mc",
+    "sample": true,
+    "stem": "A representative places many in-and-out trades in a customer's account, producing commissions, with no reasonable basis in the customer's objectives. This is:",
+    "choices": [
+      { "key": "A", "text": "Churning" },
+      { "key": "B", "text": "A required annual rebalance" },
+      { "key": "C", "text": "A fourth-market cross" },
+      { "key": "D", "text": "Regular-way settlement" }
+    ],
+    "answer": "A",
+    "spoken_stem": "A representative places many in-and-out trades in a customer's account. The trades produce commissions and have no reasonable basis in the customer's objectives. What is this practice called?",
+    "explanation": "Churning is excessive trading in light of the customer's investment objectives, done for the representative's benefit, typically commissions. It is a prohibited practice. A rebalance is not required just to create trades. The fourth market is institution-to-institution trading. Settlement is the exchange of cash and securities after a trade, not a pattern of excessive trading.",
+    "spoken_explanation": "The answer is A, churning. Churning is excessive trading that does not fit the customer's objectives and is done to generate commissions. It is prohibited. A rebalance is not something the representative must do just to create trades. The fourth market is institutions trading with each other. Settlement is how a trade is completed. It is not a name for too many trades.",
+    "tags": ["sample", "conduct"],
+    "outline_ref": "SIE 3.3"
+  },
+  {
+    "id": "sie-q-0014",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "topic": "accounts",
+    "difficulty": 1,
+    "type": "mc",
+    "sample": true,
+    "stem": "In a cash account, a customer who buys common stock must:",
+    "choices": [
+      { "key": "A", "text": "Pay for the purchase in full" },
+      { "key": "B", "text": "Deposit only the 25 percent maintenance margin" },
+      { "key": "C", "text": "Deposit only the 50 percent Regulation T margin" },
+      { "key": "D", "text": "Borrow the purchase price from SIPC" }
+    ],
+    "answer": "A",
+    "spoken_stem": "In a cash account, a customer who buys common stock must do which of the following?",
+    "explanation": "A cash account requires payment in full. Borrowing to buy securities happens in a margin account, subject to Regulation T and FINRA margin rules. Maintenance margin is not a cash-account deposit. SIPC does not lend customers the purchase price.",
+    "spoken_explanation": "The answer is A. In a cash account the customer pays in full. The fifty percent Regulation T deposit and the twenty-five percent maintenance figure belong to a margin account, where the customer borrows part of the purchase price. SIPC does not lend the money to buy the stock. SIPC protects customers if a member broker fails.",
+    "tags": ["sample", "accounts"],
+    "outline_ref": "SIE 3.2"
+  }
+]

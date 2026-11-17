@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "disclaimer": "Sample study material for the FINRA SIE and Series 7. It is original, based on FINRA's public content outlines, and not affiliated with FINRA. It is not a full question bank. Rules, dollar limits, and tax treatment change. Check a primary source before you rely on a figure.",
+  "voice_id": "natural-en-us-v1",
+  "sources": {
+    "SIE": "FINRA Securities Industry Essentials Content Outline: 75 scored multiple-choice questions, 1 hour 45 minutes, passing score 70. Section weights 16/44/31/9. Each real exam also includes 10 unscored pretest items.",
+    "S7": "FINRA Series 7 Content Outline: 125 scored multiple-choice questions, 3 hours 45 minutes, passing score 72. Function weights 7/9/73/11. Each real exam also includes 10 unscored pretest items."
+  },
+  "files": {
+    "lessons": [
+      "content/sie/lessons/sie-1-01.json",
+      "content/sie/lessons/sie-2-01.json",
+      "content/s7/lessons/s7-2-01.json",
+      "content/s7/lessons/s7-3-01.json"
+    ],
+    "questions": [
+      "content/sie/questions/SIE-1.json",
+      "content/sie/questions/SIE-2.json",
+      "content/sie/questions/SIE-3.json",
+      "content/sie/questions/SIE-4.json",
+      "content/s7/questions/S7-1.json",
+      "content/s7/questions/S7-2.json",
+      "content/s7/questions/S7-3.json",
+      "content/s7/questions/S7-4.json"
+    ],
+    "flashcards": [
+      "content/sie/flashcards/SIE-1.json",
+      "content/sie/flashcards/SIE-2.json",
+      "content/sie/flashcards/SIE-3.json",
+      "content/sie/flashcards/SIE-4.json",
+      "content/s7/flashcards/S7-1.json",
+      "content/s7/flashcards/S7-2.json",
+      "content/s7/flashcards/S7-3.json",
+      "content/s7/flashcards/S7-4.json"
+    ]
+  },
+  "exams": {
+    "SIE": {
+      "name": "Securities Industry Essentials",
+      "questions": 75,
+      "minutes": 105,
+      "pass_percent": 70,
+      "sections": [
+        {
+          "id": "SIE-1",
+          "title": "Knowledge of Capital Markets",
+          "weight": 16,
+          "questions": 12
+        },
+        {
+          "id": "SIE-2",
+          "title": "Understanding Products and Their Risks",
+          "weight": 44,
+          "questions": 33
+        },
+        {
+          "id": "SIE-3",
+          "title": "Understanding Trading, Customer Accounts and Prohibited Activities",
+          "weight": 31,
+          "questions": 23
+        },
+        {
+          "id": "SIE-4",
+          "title": "Overview of the Regulatory Framework",
+          "weight": 9,
+          "questions": 7
+        }
+      ]
+    },
+    "S7": {
+      "name": "General Securities Representative (Series 7)",
+      "questions": 125,
+      "minutes": 225,
+      "pass_percent": 72,
+      "sections": [
+        {
+          "id": "S7-1",
+          "title": "Seeks Business for the Broker-Dealer",
+          "weight": 7,
+          "questions": 9
+        },
+        {
+          "id": "S7-2",
+          "title": "Opens Accounts and Evaluates the Customer",
+          "weight": 9,
+          "questions": 11
+        },
+        {
+          "id": "S7-3",
+          "title": "Provides Information and Makes Recommendations",
+          "weight": 73,
+          "questions": 91
+        },
+        {
+          "id": "S7-4",
+          "title": "Processes Transactions",
+          "weight": 11,
+          "questions": 14
+        }
+      ]
+    }
+  }
+}

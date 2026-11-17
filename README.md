@@ -43,7 +43,7 @@ content/{sie,s7}/flashcards/<section>.json
 - SIE: 75 scored questions, 105 minutes, 70% to pass. Sections 16% / 44% / 31% / 9% (12 / 33 / 23 / 7).
 - Series 7: 125 scored questions, 225 minutes, 72% to pass. Functions 7% / 9% / 73% / 11% (9 / 11 / 91 / 14).
 
-Sample questions are marked `"sample": true`. The app shows a SAMPLE badge. Real items can omit the flag.
+The sample pack is 32 questions, 24 flashcards, and 4 lessons (2 per exam), marked `"sample": true`. The app shows a SAMPLE badge. Real items can omit the flag.
 
 ## Audio and GitHub Pages
 

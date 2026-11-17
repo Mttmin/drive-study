@@ -1,0 +1,28 @@
+{
+  "id": "s7-2-01",
+  "exam": "S7",
+  "section": "S7-2",
+  "section_title": "Opens Accounts After Obtaining and Evaluating Customers' Financial Profile and Investment Objectives",
+  "title": "Sample: Whose account is this, and does the idea fit?",
+  "order": 1,
+  "est_minutes": 5,
+  "sample": true,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "This is a sample lesson for the Series 7. Account registration decides who owns the assets and what happens at death. Joint tenants with right of survivorship own equal shares. When one owner dies, the survivor owns the account, and that asset does not pass through probate. Tenants in common can own unequal shares, and a dead owner's share goes to that person's estate. There is no survivorship. A custodial account under the gifts to minors law is neither of those. The gift is irrevocable. The child is the beneficial owner. One adult is the custodian and manages the account until the state says the child takes over. The custodian cannot take the money back because the child misbehaved. Income is generally the child's, though the kiddie tax can change whose return reports it."
+    },
+    {
+      "type": "narration",
+      "text": "Once the account exists, a recommendation has to fit it. For a retail customer, Regulation Best Interest's care obligation requires a reasonable basis to believe the recommendation is in the customer's best interest, given the investment profile. That profile includes the stated objective, the time horizon, and the money the customer can afford to lose. A customer who says the only goal is preserving capital is not a match for a speculative options strategy, even if the representative thinks the trade will make money. Accredited-investor status is a different test, used for some private offerings. It does not waive the care obligation. Suitability ideas still show up on the exam, especially outside a retail recommendation. The practical question in the car is simple. What did the customer say they wanted, and does this idea serve that?"
+    },
+    { "type": "check", "question_id": "s7-q-0005" }
+  ],
+  "key_terms": [
+    { "term": "JTWROS", "definition": "Equal owners. The survivor takes the account." },
+    { "term": "UGMA", "definition": "Irrevocable gift. The minor is the owner. A custodian manages it." },
+    { "term": "Reg BI care obligation", "definition": "A retail recommendation must be in the customer's best interest." }
+  ],
+  "mnemonics": ["Survivorship means the survivor stays. In common, the share goes with the estate."],
+  "summary": "Joint tenants with survivorship own equal shares and the survivor takes the account. Tenants in common can be unequal and have no survivorship. A custodial gift is irrevocable. A retail recommendation has to fit the stated objective under the care obligation."
+}

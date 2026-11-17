@@ -1,0 +1,20 @@
+[
+  {
+    "id": "s7-f-0011",
+    "exam": "S7",
+    "section": "S7-4",
+    "sample": true,
+    "front": "Regular-way settlement",
+    "back": "T+1. One business day after the trade date for corporate stocks.",
+    "spoken": "Regular-way settlement. T plus one. One business day after the trade date for corporate stocks."
+  },
+  {
+    "id": "s7-f-0012",
+    "exam": "S7",
+    "section": "S7-4",
+    "sample": true,
+    "front": "Trade confirmation",
+    "back": "Must show the price and whether the firm acted as agent or principal.",
+    "spoken": "Trade confirmation. It must show the price and whether the firm acted as agent or principal."
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "sie-f-0009",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "sample": true,
+    "front": "Regulation T",
+    "back": "The Federal Reserve's initial margin rule. Generally 50 percent to buy common stock.",
+    "spoken": "Regulation T. The Federal Reserve's initial margin rule. Generally fifty percent to buy common stock."
+  },
+  {
+    "id": "sie-f-0010",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "sample": true,
+    "front": "Churning",
+    "back": "Excessive trading that does not fit the customer's objectives and generates commissions.",
+    "spoken": "Churning. Excessive trading that does not fit the customer's objectives and generates commissions."
+  }
+]

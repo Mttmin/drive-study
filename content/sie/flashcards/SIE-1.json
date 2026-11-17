@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sie-f-0001",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "sample": true,
+    "front": "Primary market",
+    "back": "The issuer sells new securities and receives the proceeds.",
+    "spoken": "Primary market. The issuer sells new securities and receives the proceeds."
+  },
+  {
+    "id": "sie-f-0002",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "sample": true,
+    "front": "Secondary market",
+    "back": "Investors trade securities that are already outstanding.",
+    "spoken": "Secondary market. Investors trade securities that are already outstanding."
+  },
+  {
+    "id": "sie-f-0003",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "sample": true,
+    "front": "Third market",
+    "back": "Exchange-listed securities trading over the counter.",
+    "spoken": "Third market. Exchange-listed securities trading over the counter."
+  },
+  {
+    "id": "sie-f-0004",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "sample": true,
+    "front": "SIPC coverage",
+    "back": "Up to $500,000 if a member broker fails, including up to $250,000 cash. Not market losses.",
+    "spoken": "SIPC coverage. Up to five hundred thousand dollars if a member broker fails, including up to two hundred fifty thousand dollars of cash. It does not cover market losses."
+  }
+]

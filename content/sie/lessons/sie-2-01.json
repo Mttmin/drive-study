@@ -1,0 +1,28 @@
+{
+  "id": "sie-2-01",
+  "exam": "SIE",
+  "section": "SIE-2",
+  "section_title": "Understanding Products and Their Risks",
+  "title": "Sample: Stock, bonds, and a fund sales charge",
+  "order": 1,
+  "est_minutes": 5,
+  "sample": true,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "This is a sample lesson. Common stock is ownership. A common stockholder generally votes for the board and has a residual claim, which means bondholders and preferred stockholders are ahead if the company is wound up. The dividend is not guaranteed. The board declares it, or it does not. Preferred stock usually pays a stated dividend and stands ahead of common stock for dividends and in a liquidation. It usually does not vote. If the preferred is cumulative and the company skips a dividend, that skipped amount has to be paid before the common stock receives a dividend. If it is non-cumulative, a skipped dividend is gone. Neither kind of stock has a maturity date the way a bond does."
+    },
+    {
+      "type": "narration",
+      "text": "A bond is a loan. The coupon is the stated interest rate, and it does not change just because market rates change. Prices and yields move in opposite directions. When rates rise, an existing bond with a lower coupon is worth less, so its price falls. A mutual fund share is priced at net asset value, the fund's assets minus its liabilities, divided by the shares. A front-end load fund is sold at a public offering price above that value. The sales charge percentage is the difference divided by the public offering price, not by the net asset value. If the net asset value is eighteen dollars and the public offering price is twenty, the sales charge is two dollars divided by twenty, which is ten percent. Dividing two by eighteen is the trap. A call option is a different product again. The buyer pays a premium for the right, not the obligation, to buy the stock at the strike. The right to sell is a put."
+    },
+    { "type": "check", "question_id": "sie-q-0008" }
+  ],
+  "key_terms": [
+    { "term": "Cumulative preferred", "definition": "Skipped dividends accrue and are paid before a common dividend." },
+    { "term": "Sales charge percent", "definition": "(POP minus NAV) divided by POP." },
+    { "term": "Call", "definition": "The right to buy at the strike. Not an obligation." }
+  ],
+  "mnemonics": ["Prices and yields: when one goes up, the other goes down."],
+  "summary": "Common stock votes and stands last. Preferred usually does not vote and may be cumulative. Bond prices fall when rates rise. A fund sales charge percent divides by the public offering price. A call is the right to buy."
+}

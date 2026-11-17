@@ -1,0 +1,92 @@
+[
+  {
+    "id": "sie-q-0001",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "regulators",
+    "lesson_id": "sie-1-01",
+    "difficulty": 1,
+    "type": "mc",
+    "sample": true,
+    "stem": "Which description best fits the Securities and Exchange Commission?",
+    "choices": [
+      { "key": "A", "text": "The primary federal regulator of the securities markets" },
+      { "key": "B", "text": "The insurer of brokerage accounts against a drop in market value" },
+      { "key": "C", "text": "The clearing house that guarantees listed options" },
+      { "key": "D", "text": "A state securities regulator" }
+    ],
+    "answer": "A",
+    "spoken_stem": "Which description best fits the Securities and Exchange Commission?",
+    "explanation": "The SEC is the primary federal securities regulator. Its mission is to protect investors, maintain fair and orderly markets, and facilitate capital formation. SIPC protects customers if a member broker fails; it does not back market losses. The Options Clearing Corporation issues and guarantees listed options. State regulators work through state law and NASAA, alongside the SEC, not instead of it.",
+    "spoken_explanation": "The answer is A. The Securities and Exchange Commission is the primary federal regulator of the securities markets. It protects investors and works to keep markets fair and orderly. It does not insure you against a falling stock price. That kind of brokerage-failure protection is SIPC, and listed options are guaranteed by the Options Clearing Corporation. State regulators are separate from the SEC.",
+    "tags": ["sample", "sec"],
+    "outline_ref": "SIE 1.1.1"
+  },
+  {
+    "id": "sie-q-0002",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-structure",
+    "lesson_id": "sie-1-01",
+    "difficulty": 2,
+    "type": "mc",
+    "sample": true,
+    "stem": "Exchange-listed shares that trade over the counter, away from the listing exchange, are trading in which market?",
+    "choices": [
+      { "key": "A", "text": "The third market" },
+      { "key": "B", "text": "The primary market" },
+      { "key": "C", "text": "The fourth market" },
+      { "key": "D", "text": "A new issue" }
+    ],
+    "answer": "A",
+    "spoken_stem": "Exchange-listed shares that trade over the counter, away from the listing exchange, are trading in which market?",
+    "explanation": "The third market is over-the-counter trading of exchange-listed securities. The primary market is the issuer selling new securities. The secondary market is investors trading outstanding securities, including on an exchange. The fourth market is institutions trading directly with each other, often through an electronic network.",
+    "spoken_explanation": "The answer is A. The third market is where exchange-listed shares trade over the counter, away from the listing exchange. The primary market is the company selling new shares. The fourth market is institutions trading directly with each other. A new issue is a primary-market sale, not an over-the-counter trade of shares that are already listed.",
+    "tags": ["sample", "markets"],
+    "outline_ref": "SIE 1.2.1"
+  },
+  {
+    "id": "sie-q-0003",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "sipc",
+    "lesson_id": "sie-1-01",
+    "difficulty": 1,
+    "type": "tf",
+    "sample": true,
+    "stem": "SIPC protection replaces money a customer loses because the market price of a stock fell.",
+    "choices": [
+      { "key": "T", "text": "True" },
+      { "key": "F", "text": "False" }
+    ],
+    "answer": "F",
+    "spoken_stem": "True or false. SIPC protection replaces money a customer loses because the market price of a stock fell.",
+    "explanation": "False. SIPC protects customers if a SIPC-member brokerage fails and customer cash or securities are missing. The advance is up to $500,000 per customer, including up to $250,000 for cash. It does not protect against market losses. FDIC insurance is for bank deposits, not brokerage market risk.",
+    "spoken_explanation": "The answer is false. SIPC steps in when a member brokerage fails and customer cash or securities are missing. The protection is up to five hundred thousand dollars, and only up to two hundred fifty thousand dollars of that can be cash. A drop in the market price is an investment loss. SIPC does not replace it. Bank deposits are the FDIC's job, not SIPC's.",
+    "tags": ["sample", "sipc"],
+    "outline_ref": "SIE 1.1.3"
+  },
+  {
+    "id": "sie-q-0004",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "clearing",
+    "lesson_id": "sie-1-01",
+    "difficulty": 2,
+    "type": "mc",
+    "sample": true,
+    "stem": "What is the role of the Options Clearing Corporation in the listed options market?",
+    "choices": [
+      { "key": "A", "text": "It issues and guarantees listed options contracts" },
+      { "key": "B", "text": "It insures customers against market losses" },
+      { "key": "C", "text": "It sets the Regulation T margin rate" },
+      { "key": "D", "text": "It files Form U4 for representatives" }
+    ],
+    "answer": "A",
+    "spoken_stem": "What is the role of the Options Clearing Corporation in the listed options market?",
+    "explanation": "The OCC is the issuer and guarantor of listed options. Buyers and sellers deal with the OCC as the central counterparty, which is why a buyer does not take the credit risk of a particular writer. The Federal Reserve sets Regulation T. Form U4 is a registration form. SIPC, not the OCC, addresses a failed broker.",
+    "spoken_explanation": "The answer is A. The Options Clearing Corporation issues listed options and guarantees them. The buyer is not depending on one particular seller to perform. The Federal Reserve sets the Regulation T margin rate. Form U4 registers an associated person. SIPC, not the Options Clearing Corporation, deals with a failed brokerage.",
+    "tags": ["sample", "occ"],
+    "outline_ref": "SIE 1.1.4"
+  }
+]
