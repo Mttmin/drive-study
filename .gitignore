@@ -8,3 +8,12 @@ playwright/.cache/
 *.log
 .vite/
 .eslintcache
+
+# tts build artifacts
+__pycache__/
+*.pyc
+tools/tts/.venv
+tools/tts/.cache
+tools/tts/bin
+build/
+.audio-worktree/

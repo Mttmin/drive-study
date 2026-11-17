@@ -1,0 +1,68 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [main, audio]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout app
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build app
+        run: |
+          set -euo pipefail
+          if [ -f package.json ]; then
+            npm ci
+            npm run build
+          else
+            mkdir -p dist
+          fi
+
+      # drive-study-audio-overlay-start
+      - name: Overlay the audio branch
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          if git ls-remote --exit-code --heads origin audio >/dev/null 2>&1; then
+            git fetch --depth=1 origin audio
+            rm -rf dist/audio
+            git archive origin/audio audio | tar -C dist -x
+          else
+            echo "No audio branch yet. Publishing the stub manifest."
+          fi
+      # drive-study-audio-overlay-end
+
+      - name: Build podcast feed
+        run: node scripts/build-podcast-feed.mjs dist
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

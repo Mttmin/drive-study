@@ -65,6 +65,8 @@ The hash contract is [docs/audio-manifest.md](docs/audio-manifest.md). Reference
 node scripts/list-utterances.mjs
 ```
 
+Rebuild the clips and podcast episodes with `make audio` (see `tools/tts/README.md`). The Pages workflow writes the Apple Podcasts feed at `podcast/feed.xml`. Subscribe with `podcast://mttmin.github.io/drive-study/podcast/feed.xml`.
+
 Playback speed (0.8x–2x) is applied in the player for downloaded audio, streamed audio, and `speechSynthesis`. It is not part of the hash.
 
 ## Progress file
