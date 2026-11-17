@@ -151,6 +151,8 @@ pub struct ClipEntry {
     pub duration_ms: Option<u64>,
     #[serde(default)]
     pub content_type: Option<String>,
+    #[serde(default)]
+    pub section: Option<String>,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]

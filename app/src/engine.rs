@@ -949,7 +949,7 @@ async fn speak(text: &str, settings: RwSignal<Settings>, manifest: &drive_study_
     if prefs.voice_source != "phone" {
         if let Some(clip) = manifest.clips.get(&key) {
             if let Some(url) = resolve_clip(&clip.path, &prefs.voice_source).await {
-                if play_url(&url, prefs.rate, control, generation).await {
+                if play_url(&url, prefs.rate, control, generation, utterance_budget_ms(text, prefs.rate)).await {
                     let mut shown = model.get_untracked();
                     shown.source = if url.starts_with("blob:") { "Downloaded clip".into() } else { "Streamed clip".into() };
                     model.set(shown);
@@ -1013,19 +1013,40 @@ async fn cached_blob(url: &str) -> Option<String> {
     web_sys::Url::create_object_url_with_blob(&blob).ok()
 }
 
-async fn play_url(url: &str, rate: f64, control: &Control, generation: u32) -> bool {
+fn utterance_budget_ms(text: &str, rate: f64) -> f64 {
+    let words = text.split_whitespace().count().max(1) as f64;
+    (words / (2.2 * rate.max(0.8)) * 1000.0 + 1_200.0).clamp(1_500.0, 90_000.0)
+}
+
+async fn play_url(url: &str, rate: f64, control: &Control, generation: u32, budget_ms: f64) -> bool {
     let Ok(audio) = web_sys::HtmlAudioElement::new_with_src(url) else { return false };
     audio.set_playback_rate(rate);
     CURRENT.with(|slot| *slot.borrow_mut() = Some(audio.clone()));
     let Ok(promise) = audio.play() else { return false };
-    if JsFuture::from(promise).await.is_err() {
+    let started = js_sys::Date::now();
+    let play = JsFuture::from(promise);
+    let timeout = TimeoutFuture::new(2_500);
+    futures::pin_mut!(play, timeout);
+    if let futures::future::Either::Left((Ok(_), _)) = futures::future::select(play, timeout).await {
+    } else {
+        let _ = audio.pause();
         return false;
     }
-    let started = js_sys::Date::now();
-    while !audio.ended() && js_sys::Date::now() - started < 120_000.0 {
+    while !audio.ended() {
         if !control.live(generation) || control.has_pending() {
             let _ = audio.pause();
             return false;
+        }
+        let elapsed = js_sys::Date::now() - started;
+        let duration_ms = audio.duration();
+        let cap = if duration_ms.is_finite() && duration_ms > 0.0 {
+            duration_ms * 1000.0 / rate.max(0.8) + 1_500.0
+        } else {
+            budget_ms
+        };
+        if elapsed > cap {
+            let _ = audio.pause();
+            break;
         }
         if control.paused.load(Ordering::Relaxed) {
             let _ = audio.pause();
@@ -1038,14 +1059,14 @@ async fn play_url(url: &str, rate: f64, control: &Control, generation: u32) -> b
         }
         TimeoutFuture::new(40).await;
     }
-    control.live(generation) || audio.ended()
+    audio.current_time() > 0.05 || audio.ended()
 }
 
 async fn speak_phone(text: &str, rate: f64, voice_uri: Option<&str>, control: &Control, generation: u32) {
-    let Some(synth) = synthesis() else {
-        TimeoutFuture::new(400).await;
+    let Some(synth) = synthesis() else { return };
+    if synth.get_voices().length() == 0 {
         return;
-    };
+    }
     let Ok(utterance) = web_sys::SpeechSynthesisUtterance::new_with_text(text) else { return };
     utterance.set_rate(rate as f32);
     if let Some(uri) = voice_uri {
@@ -1062,35 +1083,20 @@ async fn speak_phone(text: &str, rate: f64, voice_uri: Option<&str>, control: &C
     let flag = done.clone();
     let on_end = Closure::wrap(Box::new(move || flag.store(true, Ordering::Relaxed)) as Box<dyn FnMut()>);
     utterance.set_onend(Some(on_end.as_ref().unchecked_ref()));
+    let flag_error = done.clone();
+    let on_error = Closure::wrap(Box::new(move || flag_error.store(true, Ordering::Relaxed)) as Box<dyn FnMut()>);
+    utterance.set_onerror(Some(on_error.as_ref().unchecked_ref()));
     synth.cancel();
     synth.speak(&utterance);
     let started = js_sys::Date::now();
-    let voices = synth.get_voices().length();
-    let words = text.split_whitespace().count().max(1) as f64;
-    let budget = (words / (2.2 * rate.max(0.8)) * 1000.0 + 900.0).min(90_000.0);
-    let mut heard = false;
-    let mut quiet = 0u32;
-    let mut nudged = 0.0;
-    while !done.load(Ordering::Relaxed) && js_sys::Date::now() - started < 90_000.0 {
+    let budget = utterance_budget_ms(text, rate);
+    while !done.load(Ordering::Relaxed) {
         if !control.live(generation) || control.has_pending() {
             synth.cancel();
             break;
         }
-        let elapsed = js_sys::Date::now() - started;
-        if synth.speaking() || synth.pending() {
-            heard = true;
-            quiet = 0;
-            if elapsed - nudged > 10_000.0 {
-                let _ = synth.pause();
-                let _ = synth.resume();
-                nudged = elapsed;
-            }
-        } else if heard {
-            quiet += 1;
-            if quiet > 8 {
-                break;
-            }
-        } else if (voices == 0 && elapsed > 400.0) || elapsed > budget {
+        if js_sys::Date::now() - started >= budget {
+            synth.cancel();
             break;
         }
         TimeoutFuture::new(40).await;
@@ -1283,20 +1289,71 @@ pub async fn import_progress(file: &ProgressFile) -> Result<(), String> {
     tx.done().await.map(|_| ()).map_err(|err| format!("{err:?}"))
 }
 
-pub async fn download_urls(urls: &[String]) -> Result<(), String> {
+#[derive(Clone, Default)]
+pub struct DownloadProgress {
+    pub label: String,
+    pub done: u32,
+    pub total: u32,
+    pub bytes: u64,
+    pub failed: u32,
+    pub message: String,
+    pub finished: bool,
+}
+
+pub async fn download_urls(clips: &[(String, u64)], label: &str, progress: RwSignal<DownloadProgress>) -> Result<(), String> {
     let window = web_sys::window().ok_or("no window")?;
     let caches = window.caches().map_err(|_| "This browser cannot store audio offline.")?;
     let cache = JsFuture::from(caches.open("drive-study-audio-v1")).await.map_err(|_| "Could not open the audio cache.")?;
     let cache: web_sys::Cache = cache.dyn_into().map_err(|_| "cache")?;
-    for url in urls {
-        let response = JsFuture::from(window.fetch_with_str(url)).await.map_err(|_| format!("Could not fetch {url}"))?;
-        let response: web_sys::Response = response.dyn_into().map_err(|_| "response")?;
-        if !response.ok() {
-            return Err(format!("Missing audio file ({})", response.status()));
+    let total = clips.len() as u32;
+    let mut done = 0u32;
+    let mut failed = 0u32;
+    let mut bytes = 0u64;
+    let mut message = String::new();
+    progress.set(DownloadProgress { label: label.into(), done, total, bytes, failed, message: "Starting.".into(), finished: false });
+    for (url, size) in clips {
+        let hit = JsFuture::from(cache.match_with_str(url)).await.ok();
+        let already = hit.as_ref().is_some_and(|value| !value.is_undefined() && !value.is_null());
+        if already {
+            bytes += *size;
+        } else {
+            match fetch_into_cache(&window, &cache, url).await {
+                Ok(saved) => bytes += if saved == 0 { *size } else { saved },
+                Err(error) => {
+                    failed += 1;
+                    message = error;
+                }
+            }
         }
-        JsFuture::from(cache.put_with_str(url, &response)).await.map_err(|_| format!("Could not save {url}"))?;
+        done += 1;
+        progress.set(DownloadProgress {
+            label: label.into(),
+            done,
+            total,
+            bytes,
+            failed,
+            message: if message.is_empty() { format!("{done} of {total}") } else { message.clone() },
+            finished: false,
+        });
     }
-    Ok(())
+    let summary = if failed == 0 {
+        "Saved on this phone. Already stored clips were skipped.".into()
+    } else {
+        format!("{failed} clips failed. {message} Tap download again to resume.")
+    };
+    progress.set(DownloadProgress { label: label.into(), done, total, bytes, failed, message: summary, finished: true });
+    if failed == 0 { Ok(()) } else { Err(format!("{failed} clips failed")) }
+}
+
+async fn fetch_into_cache(window: &web_sys::Window, cache: &web_sys::Cache, url: &str) -> Result<u64, String> {
+    let response = JsFuture::from(window.fetch_with_str(url)).await.map_err(|_| format!("Could not fetch {url}"))?;
+    let response: web_sys::Response = response.dyn_into().map_err(|_| "Bad response".to_string())?;
+    if !response.ok() {
+        return Err(format!("Clip missing ({})", response.status()));
+    }
+    let length = response.headers().get("content-length").ok().flatten().and_then(|value| value.parse().ok()).unwrap_or(0);
+    JsFuture::from(cache.put_with_str(url, &response)).await.map_err(|_| format!("Could not store {url}"))?;
+    Ok(length)
 }
 
 pub async fn delete_urls(urls: &[String]) {

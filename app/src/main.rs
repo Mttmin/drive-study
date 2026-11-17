@@ -3,9 +3,9 @@ mod engine;
 use std::collections::{HashMap, HashSet};
 
 use drive_study_core::{
-    build_drive, build_lesson, build_mistakes, build_mock, build_quiz, build_rapid, clip_key, readiness, streak_from_dates, weak_topics, AudioManifest, ExamId, Flashcard, Lesson, Meta, PlanId, Question, ReadinessAttempt, SectionBlueprint, VOICE_ID,
+    build_drive, build_lesson, build_mistakes, build_mock, build_quiz, build_rapid, readiness, streak_from_dates, weak_topics, AudioManifest, ExamId, Flashcard, Lesson, Meta, PlanId, Question, ReadinessAttempt, SectionBlueprint, VOICE_ID,
 };
-use engine::{arm_audio, download_urls, delete_urls, export_progress, import_progress, is_due_card, load_state, register_service_worker, run_session, save_settings, today_key, Act, Control, PlayerModel, ProgressFile, Settings, Summary};
+use engine::{arm_audio, download_urls, delete_urls, export_progress, import_progress, is_due_card, load_state, register_service_worker, run_session, save_settings, today_key, Act, Control, DownloadProgress, PlayerModel, ProgressFile, Settings, Summary};
 use leptos::prelude::*;
 use wasm_bindgen::JsCast;
 use wasm_bindgen_futures::JsFuture;
@@ -494,6 +494,7 @@ fn SettingsScreen(
 ) -> impl IntoView {
     let voices = RwSignal::new(Vec::<(String, String)>::new());
     let storage = RwSignal::new(String::new());
+    let job = RwSignal::new(DownloadProgress::default());
     leptos::task::spawn_local(async move {
         voices.set(load_voices());
         storage.set(storage_line().await);
@@ -555,7 +556,22 @@ fn SettingsScreen(
             </label>
             <h2>"Downloads"</h2>
             <p class="muted">{move || format!("{} Published clips: {}.", storage.get(), manifest.get().clips.len())}</p>
-            {move || download_rows(shelf, manifest)}
+            {move || {
+                let current = job.get();
+                (current.total > 0).then(|| {
+                    let width = format!("{}%", if current.total == 0 { 0.0 } else { current.done as f64 / current.total as f64 * 100.0 });
+                    let line = format!("{} / {} clips · {:.1} MB", current.done, current.total, current.bytes as f64 / 1_048_576.0);
+                    view! {
+                        <div class="card" data-testid="download-progress">
+                            <div class="spread"><b>{current.label.clone()}</b><span>{line}</span></div>
+                            <div class="bar"><span style:width=width></span></div>
+                            <p class=if current.failed == 0 { "muted" } else { "bad" }>{current.message.clone()}</p>
+                        </div>
+                    }
+                })
+            }}
+            <button class="big secondary" type="button" data-testid="download-all" on:click=move |_| start_download(manifest, job, storage, None)>"Download all sections"</button>
+            {move || download_rows(shelf, manifest, job, storage)}
             <h2>"Progress"</h2>
             <div class="row">
                 <button type="button" on:click=move |_| {
@@ -604,32 +620,29 @@ fn SettingsScreen(
     }
 }
 
-fn download_rows(shelf: RwSignal<Option<Shelf>>, manifest: RwSignal<AudioManifest>) -> Vec<impl IntoView> {
-    let Some(loaded) = shelf.get() else { return Vec::new() };
-    let mut sections = Vec::new();
-    if let Some(exam) = loaded.meta.exams.get("SIE") { sections.extend(exam.sections.clone()); }
-    if let Some(exam) = loaded.meta.exams.get("S7") { sections.extend(exam.sections.clone()); }
-    sections.into_iter().map(|section| {
-        let ready = ["questions", "flashcards", "lessons"].iter().all(|part| loaded.loaded.contains(&format!("{}:{part}", section.id)));
-        let urls = if ready { clip_urls(&loaded, &manifest.get_untracked(), &section.id) } else { Vec::new() };
-        let count = urls.len();
-        let title = section.title.clone();
-        let label = if ready { format!("{count} clips") } else { "Tap download to load".into() };
-        let section_id = section.id.clone();
-        let urls_for_delete = urls;
+fn download_rows(shelf: RwSignal<Option<Shelf>>, manifest: RwSignal<AudioManifest>, job: RwSignal<DownloadProgress>, storage: RwSignal<String>) -> Vec<impl IntoView> {
+    let mut titles = HashMap::new();
+    if let Some(loaded) = shelf.get() {
+        for exam in loaded.meta.exams.values() {
+            for section in &exam.sections {
+                titles.insert(section.id.clone(), section.title.clone());
+            }
+        }
+    }
+    published_sections(&manifest.get()).into_iter().map(|(id, clips)| {
+        let title = titles.get(&id).cloned().unwrap_or_else(|| id.clone());
+        let count = clips.len();
+        let bytes: u64 = clips.iter().map(|(_, size)| size).sum();
+        let label = format!("{count} clips · {:.0} MB", bytes as f64 / 1_048_576.0);
+        let urls: Vec<String> = clips.iter().map(|(url, _)| url.clone()).collect();
+        let section_id = id.clone();
         view! {
             <div class="card">
                 <div class="spread"><b>{title}</b><span>{label}</span></div>
                 <div class="row">
-                    <button type="button" disabled=ready && count == 0 on:click=move |_| {
-                        let section_id = section_id.clone();
-                        begin_session(shelf, vec![section_id.clone()], &["questions", "flashcards", "lessons"], "Loading this section…", move |loaded| {
-                            let urls = clip_urls(loaded, &manifest.get_untracked(), &section_id);
-                            leptos::task::spawn_local(async move { let _ = download_urls(&urls).await; });
-                        });
-                    }>"Download"</button>
+                    <button type="button" data-testid=format!("download-{section_id}") disabled=count == 0 on:click=move |_| start_download(manifest, job, storage, Some(section_id.clone()))>"Download"</button>
                     <button type="button" on:click=move |_| {
-                        let urls = urls_for_delete.clone();
+                        let urls = urls.clone();
                         leptos::task::spawn_local(async move { delete_urls(&urls).await; });
                     }>"Delete"</button>
                 </div>
@@ -638,24 +651,53 @@ fn download_rows(shelf: RwSignal<Option<Shelf>>, manifest: RwSignal<AudioManifes
     }).collect()
 }
 
-fn clip_urls(shelf: &Shelf, manifest: &AudioManifest, section: &str) -> Vec<String> {
-    let mut texts = Vec::new();
-    for question in shelf.questions.iter().filter(|question| question.section == section) {
-        texts.push(question.spoken_stem.clone());
-        texts.push(drive_study_core::choices_readout(&question.kind, &question.choices.iter().map(|choice| (choice.key.clone(), choice.text.clone())).collect::<Vec<_>>()));
-        texts.push(question.spoken_explanation.clone());
+fn published_sections(manifest: &AudioManifest) -> Vec<(String, Vec<(String, u64)>)> {
+    let mut ids: Vec<String> = manifest.clips.values().filter_map(|clip| clip.section.clone()).collect();
+    ids.sort();
+    ids.dedup();
+    ids.into_iter().map(|id| {
+        let clips = section_clips(manifest, &id);
+        (id, clips)
+    }).collect()
+}
+
+fn section_clips(manifest: &AudioManifest, section: &str) -> Vec<(String, u64)> {
+    let mut clips: Vec<_> = manifest.clips.values().filter(|clip| clip.section.as_deref() == Some(section)).map(|clip| (absolute(&clip.path), clip.bytes.unwrap_or(0))).collect();
+    clips.sort();
+    clips
+}
+
+fn start_download(manifest: RwSignal<AudioManifest>, job: RwSignal<DownloadProgress>, storage: RwSignal<String>, section: Option<String>) {
+    let current = job.get_untracked();
+    if current.total > 0 && !current.finished {
+        return;
     }
-    for card in shelf.cards.iter().filter(|card| card.section == section) {
-        texts.push(card.spoken.clone());
+    let audio = manifest.get_untracked();
+    let (label, clips) = if let Some(section) = section {
+        (section.clone(), section_clips(&audio, &section))
+    } else {
+        let mut clips: Vec<_> = audio.clips.values().map(|clip| (absolute(&clip.path), clip.bytes.unwrap_or(0))).collect();
+        clips.sort();
+        ("All sections".into(), clips)
+    };
+    let bytes: u64 = clips.iter().map(|(_, size)| size).sum();
+    if !confirm_download(&label, clips.len(), bytes) {
+        return;
     }
-    for lesson in shelf.lessons.iter().filter(|lesson| lesson.section == section) {
-        for segment in &lesson.segments {
-            if let drive_study_core::Segment::Narration { text } = segment {
-                texts.push(text.clone());
-            }
-        }
+    leptos::task::spawn_local(async move {
+        let _ = download_urls(&clips, &label, job).await;
+        storage.set(storage_line().await);
+    });
+}
+
+fn confirm_download(label: &str, count: usize, bytes: u64) -> bool {
+    let mb = bytes as f64 / 1_048_576.0;
+    if count < 80 && mb < 15.0 {
+        return true;
     }
-    texts.into_iter().filter_map(|text| manifest.clips.get(&clip_key(VOICE_ID, &text)).map(|clip| absolute(&clip.path))).collect()
+    web_sys::window()
+        .and_then(|window| window.confirm_with_message(&format!("{label}: {count} clips, about {mb:.0} MB. Download on Wi-Fi? Clips already saved are skipped, so you can resume.")).ok())
+        .unwrap_or(false)
 }
 
 fn absolute(path: &str) -> String {

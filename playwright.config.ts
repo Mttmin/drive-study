@@ -16,7 +16,18 @@ export default defineConfig({
   projects: [
     {
       name: "webkit-iphone",
+      testIgnore: "**/listen-stuck.spec.ts",
       use: { ...devices["iPhone 14"], browserName: "webkit" },
+    },
+    {
+      name: "webkit-no-tts",
+      testMatch: "**/listen-stuck.spec.ts",
+      use: { ...devices["iPhone 14"], browserName: "webkit" },
+    },
+    {
+      name: "chromium-no-tts",
+      testMatch: "**/listen-stuck.spec.ts",
+      use: { browserName: "chromium", viewport: { width: 390, height: 844 }, hasTouch: true },
     },
   ],
 });

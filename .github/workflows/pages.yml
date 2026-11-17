@@ -61,7 +61,7 @@ jobs:
         if: github.ref == 'refs/heads/main'
         run: |
           npm ci
-          npx playwright install --with-deps webkit
+          npx playwright install --with-deps webkit chromium
           npx playwright test
 
       # drive-study-audio-overlay-start
