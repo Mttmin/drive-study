@@ -204,17 +204,20 @@ def questions_by_section(questions: list[dict]) -> dict[str, list[dict]]:
     return dict(grouped)
 
 
-def chunk_questions(items: list, low: int = 10, high: int = 20, target: int = 15) -> list[list]:
+def chunk_questions(items: list, low: int = 15, high: int = 20) -> list[list]:
+    """Split into episodes of at most `high` questions, as even as possible.
+
+    Sections of `high` or fewer stay one episode. Counts that divide cleanly
+    land in `low`..`high`. A count just over `high` splits evenly instead of
+    leaving a one-question tail.
+    """
+    del low
     n = len(items)
     if n == 0:
         return []
     if n <= high:
         return [list(items)]
-    chunks_n = max(1, round(n / target))
-    while n / chunks_n > high:
-        chunks_n += 1
-    while chunks_n > 1 and n / chunks_n < low:
-        chunks_n -= 1
+    chunks_n = (n + high - 1) // high
     base, extra = divmod(n, chunks_n)
     out: list[list] = []
     index = 0

@@ -110,9 +110,6 @@ class EpisodeBuilder:
             title = f"{_exam_label(exam_raw)} quiz. {section_title}"
         else:
             filename = f"quiz-{section}-part-{part_index:02d}.mp3"
-            # Part 1 also uses the name the app contract looks up.
-            if part_index == 1:
-                filename = f"quiz-{section}.mp3"
             guid = f"drive-study-quiz-{section}-part-{part_index:02d}"
             title = f"{_exam_label(exam_raw)} quiz. {section_title} ({part_index} of {part_count})"
         self._write(
