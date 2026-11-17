@@ -1,0 +1,21 @@
+[package]
+name = "drive-study-core"
+version = "0.1.0"
+edition = "2021"
+description = "Study rules, scoring, and the audio-clip key for Drive Study"
+
+[dependencies]
+chrono = { version = "0.4", default-features = false, features = ["std"] }
+regex = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha1 = "0.10"
+unicode-normalization = "0.1"
+
+[[bin]]
+name = "validate-content"
+path = "src/bin/validate.rs"
+
+[[bin]]
+name = "generate-sw"
+path = "src/bin/generate_sw.rs"

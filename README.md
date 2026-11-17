@@ -12,22 +12,26 @@ Plain-language steps for an iPhone are in [docs/USER_GUIDE.md](docs/USER_GUIDE.m
 
 ## Develop
 
-```bash
-npm install
-npm run dev
-```
-
-Open `http://127.0.0.1:5173/drive-study/`.
+The interface is [Leptos](https://leptos.dev/) (client-side) compiled to WebAssembly with [Trunk](https://trunkrs.dev/). Study rules live in the `core` crate and are tested with `cargo test`. The service worker is plain JavaScript. Speech recognition, the media session, and the wake lock are reached from Rust through wasm-bindgen.
 
 ```bash
-npm run validate   # content schema and references
-npm test           # spaced repetition, scoring, blueprint, answer grammar
-npm run build
-npm run preview
-npm run test:e2e   # Playwright, mobile WebKit
+rustup target add wasm32-unknown-unknown
+cargo install trunk --locked --version 0.21.14
+cargo test -p drive-study-core
+cargo run -p drive-study-core --bin validate-content
+cd app && env -u NO_COLOR trunk serve
 ```
 
-Stack: Vite, TypeScript, Preact. No UI framework beyond that. Progress, mistakes, and settings are in IndexedDB. A service worker precaches the shell and every content JSON file.
+Open `http://127.0.0.1:8080/drive-study/`.
+
+```bash
+cd app && env -u NO_COLOR trunk build --release
+cargo run -p drive-study-core --bin generate-sw -- dist
+npm ci
+npx playwright test
+```
+
+`node scripts/list-utterances.mjs` is what `make audio` reads. Leave that script and `shared/audioKey.js` in place. The Rust key function is checked against clips from the live `audio` branch.
 
 ## Content
 

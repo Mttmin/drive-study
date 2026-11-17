@@ -26,29 +26,42 @@ jobs:
         with:
           ref: main
 
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
+
+      - uses: Swatinem/rust-cache@v2
+
+      - name: Install Trunk
+        run: cargo install trunk --locked --version 0.21.14
+
+      - name: Test study rules and content
+        if: github.ref == 'refs/heads/main'
+        run: |
+          cargo test -p drive-study-core
+          cargo run -p drive-study-core --bin validate-content
+
+      - name: Build the WASM app
+        working-directory: app
+        run: env -u NO_COLOR trunk build --release
+
+      - name: Service worker
+        run: cargo run -p drive-study-core --bin generate-sw -- dist
+
       - name: Setup Node
+        if: github.ref == 'refs/heads/main'
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
 
-      - name: Install
-        run: npm ci
-
-      - name: Validate content and unit tests
-        if: github.ref == 'refs/heads/main'
-        run: |
-          npm run validate
-          npm test
-
       - name: Mobile WebKit smoke test
         if: github.ref == 'refs/heads/main'
         run: |
+          npm ci
           npx playwright install --with-deps webkit
-          npm run test:e2e
-
-      - name: Build app
-        run: npm run build
+          npx playwright test
 
       # drive-study-audio-overlay-start
       - name: Overlay the audio branch
@@ -71,7 +84,7 @@ jobs:
         run: node scripts/build-podcast-feed.mjs dist
 
       - name: Refresh the service worker after audio lands
-        run: node scripts/generate-sw.mjs
+        run: cargo run -p drive-study-core --bin generate-sw -- dist
 
       - name: Report artifact size
         run: du -sh dist dist/audio || true

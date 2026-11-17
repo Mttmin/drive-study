@@ -4,7 +4,7 @@ Version 1. Last updated 2026-11-16.
 
 This is the contract between the Drive Study app and the TTS pipeline that fills the `audio` branch. The app looks clips up by content hash. A missing key is not an error: playback falls through to the next source (cached clip, then streamed clip, then `speechSynthesis`).
 
-The reference implementation is [`shared/audioKey.js`](../shared/audioKey.js). Match it byte for byte. Do not re-implement the hash from memory if you can import that module.
+The reference implementation is [`shared/audioKey.js`](../shared/audioKey.js). The Rust copy is `clip_key` in `core/src/audio.rs`. A cargo test checks it against fixtures taken from the live `audio` branch manifest. Match either one byte for byte. Do not re-implement the hash from memory.
 
 ## Where files live
 

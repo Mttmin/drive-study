@@ -8,10 +8,10 @@ export default defineConfig({
     serviceWorkers: "allow",
   },
   webServer: {
-    command: "npm run build && npm run preview -- --port 4173 --strictPort",
+    command: "python3 scripts/serve-dist.py",
     port: 4173,
-    reuseExistingServer: false,
-    timeout: 180000,
+    reuseExistingServer: !process.env.CI,
+    timeout: 30000,
   },
   projects: [
     {

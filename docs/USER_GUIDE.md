@@ -1,6 +1,6 @@
 # Using Drive Study on an iPhone
 
-Drive Study reads SIE and Series 7 practice out loud so you can study in the car. It is a website you can put on your home screen. The questions in the app right now are samples, so you can try every mode. They are not a full bank and they are not official FINRA questions.
+Drive Study reads SIE and Series 7 practice out loud so you can study in the car. It is a website you can put on your home screen. The questions in the app right now are samples, so you can try every mode. They are not a full bank and they are not official FINRA questions. Lessons, quiz, rapid fire, a timed or untimed mock, mistakes, stats, and the 20-minute Drive button are all on the home screen.
 
 ## Install
 

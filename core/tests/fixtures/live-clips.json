@@ -1,0 +1,90 @@
+[
+  {
+    "kind": "spoken_stem",
+    "ref": "sie-q-0001",
+    "voice": "natural-en-us-v1",
+    "text": "Which description best fits the Securities and Exchange Commission?",
+    "key": "2e3e364efde07e74b3f01b51a393b14883bc51a0",
+    "path": "audio/clips/2e/2e3e364efde07e74b3f01b51a393b14883bc51a0.mp3"
+  },
+  {
+    "kind": "choices",
+    "ref": "sie-q-0001",
+    "voice": "natural-en-us-v1",
+    "text": "A. The primary federal regulator of the securities markets. B. The insurer of brokerage accounts against a drop in market value. C. The clearing house that guarantees listed options. D. A state securities regulator.",
+    "key": "dc0ae61d13fc73668dc7cc27515dc6f68193cc3d",
+    "path": "audio/clips/dc/dc0ae61d13fc73668dc7cc27515dc6f68193cc3d.mp3"
+  },
+  {
+    "kind": "spoken_explanation",
+    "ref": "sie-q-0001",
+    "voice": "natural-en-us-v1",
+    "text": "The answer is A. The Securities and Exchange Commission is the primary federal regulator of the securities markets. It protects investors and works to keep markets fair and orderly. It does not insure you against a falling stock price. That kind of brokerage-failure protection is SIPC, and listed options are guaranteed by the Options Clearing Corporation. State regulators are separate from the SEC.",
+    "key": "a1317ab54e9f2328e0cda7b801ec8e9d62c66e0b",
+    "path": "audio/clips/a1/a1317ab54e9f2328e0cda7b801ec8e9d62c66e0b.mp3"
+  },
+  {
+    "kind": "spoken_stem",
+    "ref": "sie-q-0003",
+    "voice": "natural-en-us-v1",
+    "text": "True or false. SIPC protection replaces money a customer loses because the market price of a stock fell.",
+    "key": "da8dc2b70166a7233cb01994b53cb6f91c8692e6",
+    "path": "audio/clips/da/da8dc2b70166a7233cb01994b53cb6f91c8692e6.mp3"
+  },
+  {
+    "kind": "choices",
+    "ref": "sie-q-0003",
+    "voice": "natural-en-us-v1",
+    "text": "True, or false.",
+    "key": "2881aa498f64f70c9a3c10cf2d96b580e095c99d",
+    "path": "audio/clips/28/2881aa498f64f70c9a3c10cf2d96b580e095c99d.mp3"
+  },
+  {
+    "kind": "spoken_explanation",
+    "ref": "sie-q-0003",
+    "voice": "natural-en-us-v1",
+    "text": "The answer is false. SIPC steps in when a member brokerage fails and customer cash or securities are missing. The protection is up to five hundred thousand dollars, and only up to two hundred fifty thousand dollars of that can be cash. A drop in the market price is an investment loss. SIPC does not replace it. Bank deposits are the FDIC's job, not SIPC's.",
+    "key": "eecf9c82544ee372eb3cb1b17bae7c07a2e0a4be",
+    "path": "audio/clips/ee/eecf9c82544ee372eb3cb1b17bae7c07a2e0a4be.mp3"
+  },
+  {
+    "kind": "spoken_stem",
+    "ref": "s7-q-0006",
+    "voice": "natural-en-us-v1",
+    "text": "A customer buys one X Y Z fifty call and pays a premium of three points. What is the breakeven price?",
+    "key": "2b2ac61c643350603f4e57ea4ca5f31b42893684",
+    "path": "audio/clips/2b/2b2ac61c643350603f4e57ea4ca5f31b42893684.mp3"
+  },
+  {
+    "kind": "choices",
+    "ref": "s7-q-0006",
+    "voice": "natural-en-us-v1",
+    "text": "A. 47. B. 50. C. 53. D. 56.",
+    "key": "5f85df5234c19c0c0a24bc36d8ca81898c6da5a5",
+    "path": "audio/clips/5f/5f85df5234c19c0c0a24bc36d8ca81898c6da5a5.mp3"
+  },
+  {
+    "kind": "spoken_explanation",
+    "ref": "s7-q-0006",
+    "voice": "natural-en-us-v1",
+    "text": "The answer is C, fifty-three. The buyer paid three points for the right to buy at fifty. Breakeven on a long call is the strike plus the premium. Fifty plus three is fifty-three. Forty-seven subtracts the premium. That is the breakeven on a long put, not a long call. Fifty is only the strike. Fifty-six adds the premium twice.",
+    "key": "27e90d7436c81f428693b04fb622af00b343bc69",
+    "path": "audio/clips/27/27e90d7436c81f428693b04fb622af00b343bc69.mp3"
+  },
+  {
+    "kind": "flashcard",
+    "ref": "sie-f-0001",
+    "voice": "natural-en-us-v1",
+    "text": "Primary market. The issuer sells new securities and receives the proceeds.",
+    "key": "059dad2e6fe1aae73233235c9a8a35cedb9a2578",
+    "path": "audio/clips/05/059dad2e6fe1aae73233235c9a8a35cedb9a2578.mp3"
+  },
+  {
+    "kind": "narration",
+    "ref": "sie-1-01#0",
+    "voice": "natural-en-us-v1",
+    "text": "This is a sample lesson, written for Drive Study. It is not a FINRA question and it is not from a commercial bank. The Securities and Exchange Commission is the primary federal regulator of the securities markets. It writes rules, inspects firms, and brings cases, with a mission to protect investors and keep markets fair. Self-regulatory organizations, including FINRA and the Municipal Securities Rulemaking Board, write and enforce rules for their members under SEC oversight. The states have their own securities regulators. The Federal Reserve sets monetary policy and, through Regulation T, the initial margin rate. SIPC is different from all of these. If a SIPC member brokerage fails and customer cash or securities are missing, SIPC can advance up to five hundred thousand dollars per customer, and only up to two hundred fifty thousand dollars of that can be cash. SIPC does not replace a loss because a stock price fell. FDIC insurance is for bank deposits, not for market risk in a brokerage account.",
+    "key": "66d710b210d9352262c0c44e6d43d4520045e99d",
+    "path": "audio/clips/66/66d710b210d9352262c0c44e6d43d4520045e99d.mp3"
+  }
+]
