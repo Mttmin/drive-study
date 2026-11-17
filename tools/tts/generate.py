@@ -30,22 +30,25 @@ from encode import (  # noqa: E402
     mp3_duration,
     write_wav,
 )
-from engine import GpuStarved, load_engine  # noqa: E402
+from engine import GpuStarved, gpu_free_mib, gpu_quiet_hours, load_engine, release_engine  # noqa: E402
+from engine import MIN_FREE_MIB  # noqa: E402
 from lexicon import VOICE_ID, clip_path  # noqa: E402
 from podcast import EpisodeBuilder, load_dates, save_dates  # noqa: E402
 
 KOKORO_VOICE = "af_heart"
-BITRATE = "40k"
+BITRATE = "32k"
 SIZE_BUDGET = 900 * 1024 * 1024
 
 
 class ClipStore:
-    def __init__(self, out_root: Path, engine, ffmpeg: str, bitrate: str, force: bool):
+    def __init__(self, out_root: Path, engine, ffmpeg: str, bitrate: str, force: bool, kokoro_voice: str):
         self.out_root = out_root
         self.engine = engine
         self.ffmpeg = ffmpeg
         self.bitrate = bitrate
         self.force = force
+        self.kokoro_voice = kokoro_voice
+        self._clips_since_mem_check = 0
         self.clips: dict[str, dict] = {}
         self.errors: list[dict] = []
         self.synth_seconds = 0.0
@@ -60,6 +63,7 @@ class ClipStore:
         text = normalize_spoken(text)
         if not text:
             raise RuntimeError("empty utterance")
+        self._yield_gpu_if_needed()
         key = clip_key(VOICE_ID, text)
         rel = clip_path(key)
         dest = self.out_root / rel
@@ -96,6 +100,23 @@ class ClipStore:
         if self.synthesized % 10 == 0:
             print(f"  synthesized {self.synthesized} ({self.synth_seconds:.1f}s) {text[:70]}")
         return dest
+
+    def _yield_gpu_if_needed(self) -> None:
+        if getattr(self.engine, "device", "") != "cuda":
+            return
+        self._clips_since_mem_check += 1
+        quiet = gpu_quiet_hours()
+        low_mem = False
+        if not quiet and self._clips_since_mem_check >= 20:
+            self._clips_since_mem_check = 0
+            free = gpu_free_mib()
+            low_mem = free is not None and free < MIN_FREE_MIB
+        if not quiet and not low_mem:
+            return
+        why = "quiet hours (00:55-07:00 ET)" if quiet else "GPU memory got tight"
+        print(f"{why}. Releasing CUDA and continuing on CPU.")
+        release_engine(self.engine)
+        self.engine = load_engine(self.kokoro_voice, "cpu")
 
     def _record(self, key, rel, dest, kind, ref, section, reused: bool) -> dict:
         seconds = mp3_duration(self.ffmpeg, dest)
@@ -187,7 +208,7 @@ def main() -> int:
         print("Nothing to speak.", file=sys.stderr)
         return 2
 
-    store = ClipStore(out, engine, ffmpeg, args.bitrate, args.force)
+    store = ClipStore(out, engine, ffmpeg, args.bitrate, args.force, args.kokoro_voice)
 
     def run_utterances() -> None:
         for item in utterances:
@@ -282,7 +303,7 @@ def main() -> int:
     if audio_bytes > args.budget_bytes:
         print(
             f"Audio is {audio_bytes} bytes, over the {args.budget_bytes} byte budget. "
-            "Refusing to treat this as publishable. Rebuild with --bitrate 32k.",
+            "Refusing to treat this as publishable. Rebuild with --bitrate 24k.",
             file=sys.stderr,
         )
         return 3

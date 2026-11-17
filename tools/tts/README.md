@@ -2,7 +2,7 @@
 
 Kokoro-82M speaks the bank. The manifest voice id is `natural-en-us-v1`, which is what [`shared/audioKey.js`](../../shared/audioKey.js) hashes. The voice that produces that audio is Kokoro `af_heart` (American English, the model's strongest voice). `am_michael` is the other pleasant US voice; pass `--kokoro-voice am_michael` to rebuild the bank with it. The voice id stays `natural-en-us-v1`, so the app does not change.
 
-Clips are mono 24 kHz MP3 at 40 kbps CBR, normalized to about -16 LUFS, with edge silence trimmed. The app contract would also accept 64–96 kbps. 40 kbps is inside the requested 32–48 kbps range and leaves room for quiz episodes under the 1 GB Pages limit. If a full bank ever exceeds 900 MB, the build exits and `make audio ARGS="--bitrate 32k"` is the smaller setting.
+Clips are mono 24 kHz MP3 at 32 kbps CBR, normalized to about -16 LUFS, with edge silence trimmed. 32 kbps keeps the full bank, including quiz episodes, well under the 900 MB publish guard. The build exits instead of publishing if the tree exceeds that guard.
 
 A clip is rebuilt only when its file is missing. The file name is the SHA-1 from `clipKey()`.
 

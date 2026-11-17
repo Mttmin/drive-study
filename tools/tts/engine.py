@@ -122,6 +122,19 @@ class GpuStarved(RuntimeError):
     """CUDA ran out of memory. Caller should switch this process to CPU."""
 
 
+def release_engine(engine) -> None:
+    """Drop this process's CUDA tensors. Does not signal any other process."""
+    engine.pipeline = None
+    import gc
+
+    gc.collect()
+    if getattr(engine, "device", "") == "cuda":
+        import torch
+
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+
+
 def load_engine(voice: str, requested_device: str = "auto") -> KokoroEngine:
     device = choose_device(requested_device)
     try:
