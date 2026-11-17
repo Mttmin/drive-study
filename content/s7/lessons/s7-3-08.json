@@ -1,0 +1,103 @@
+{
+ "id": "s7-3-08",
+ "exam": "S7",
+ "section": "S7-3",
+ "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+ "title": "Taxation of equity transactions",
+ "order": 8,
+ "est_minutes": 7,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Taxes are where many suitability questions are decided. This lesson covers how dividends and capital gains are taxed, how cost basis works, the wash sale rule, and the special rules for inherited and gifted stock."
+  },
+  {
+   "type": "narration",
+   "text": "Dividends come in two flavors. Qualified dividends, from most U.S. corporations and many foreign ones held long enough, are taxed at the long-term capital gains rates of zero, fifteen, or twenty percent depending on income. Nonqualified, or ordinary, dividends are taxed as ordinary income. High earners may also owe the three point eight percent net investment income tax on dividends and gains above set income thresholds. Dividends are taxable in the year received, even if they're reinvested."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0456"
+  },
+  {
+   "type": "narration",
+   "text": "Capital gains depend on the holding period. If you hold an asset more than one year, the gain or loss is long-term. If you hold it a year or less, it's short-term and taxed at ordinary income rates. The holding period starts the day after the trade date and ends on the sale's trade date, not the settlement date. To net, first combine short-term gains and losses, then long-term gains and losses, then combine the two totals. If the overall result is a net loss, up to three thousand dollars a year can offset ordinary income, and the rest carries forward indefinitely."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0464"
+  },
+  {
+   "type": "narration",
+   "text": "Cost basis is what you paid, including commissions. When you sell part of a position, the default method is first in, first out, but a customer can identify specific shares to control the tax result. Selling the highest-cost shares, for example, produces the smallest gain. Reinvested dividends add to basis, which keeps you from paying tax twice. A return of capital isn't taxed when received but reduces your basis. Stock splits and stock dividends spread the same total basis over more shares."
+  },
+  {
+   "type": "narration",
+   "text": "The wash sale rule stops you from taking a loss while keeping the position. If you sell a security at a loss and buy the same or a substantially identical security within thirty days before or after the sale, the loss is disallowed. That makes a sixty-one-day window. The disallowed loss isn't lost forever: it's added to the basis of the replacement shares. Buying a call on the same stock counts as a repurchase. Buying a different company in the same industry generally doesn't, which is how investors do tax-loss harvesting while staying invested."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0673"
+  },
+  {
+   "type": "narration",
+   "text": "Inherited stock gets a step-up. The heir's basis is generally the fair market value on the date of death, and the holding period is automatically long-term no matter how long the heir held it. That's why selling right after inheriting usually produces little or no gain. Gifted stock is different. The recipient generally takes the donor's basis, called carryover basis, along with the donor's holding period. If the stock is worth less than the donor's basis at the time of the gift, then for figuring a loss, the recipient uses the lower fair market value. That keeps a donor from passing a tax loss to someone else."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-1070"
+  },
+  {
+   "type": "narration",
+   "text": "A few more rules show up on the exam. Short sale gains are generally short-term regardless of how long the short is held. Investment interest expense on margin loans may be deductible against net investment income. Gifts of appreciated stock to charity can be deducted at fair market value if held more than a year. Mutual fund capital gains distributions are treated as long-term regardless of how long you've owned the fund shares."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: more than a year is long-term. Qualified dividends get capital gains rates. Net losses offset up to three thousand dollars of ordinary income a year, with carryforward. FIFO is the default, but specific identification is allowed. The wash sale window is thirty days either side, and the loss is added to the new basis. Inherited stock steps up and is always long-term. Gifted stock carries over the donor's basis."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Qualified dividend: A dividend from a domestic or qualified foreign corporation, held for the required period, that is taxed at long-term capital gains rates. Long-term capital gain: A gain on a capital asset held for more than one year. Wash sale: A sale at a loss with a purchase of substantially identical securities within thirty days before or after, which disallows the loss. Stepped-up basis: The cost basis of inherited securities, reset to fair market value at the date of death. Specific identification: A cost basis method in which the customer names which lots are being sold, often to manage the tax result. FIFO: The default cost basis method for stocks when no lots are identified, which treats the earliest shares bought as sold first. Return of capital: A distribution that is not taxed when received but reduces the investor's cost basis. Capital loss carryforward: Net capital losses beyond the three thousand dollar annual offset against ordinary income, carried into future years without limit."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Qualified dividend",
+   "definition": "A dividend from a domestic or qualified foreign corporation, held for the required period, that is taxed at long-term capital gains rates"
+  },
+  {
+   "term": "Long-term capital gain",
+   "definition": "A gain on a capital asset held for more than one year"
+  },
+  {
+   "term": "Wash sale",
+   "definition": "A sale at a loss with a purchase of substantially identical securities within 30 days before or after, which disallows the loss"
+  },
+  {
+   "term": "Stepped-up basis",
+   "definition": "The cost basis of inherited securities, reset to fair market value at the date of death"
+  },
+  {
+   "term": "Specific identification",
+   "definition": "A cost basis method in which the customer names which lots are being sold, often to manage the tax result"
+  },
+  {
+   "term": "FIFO",
+   "definition": "The default cost basis method for stocks when no lots are identified, which treats the earliest shares bought as sold first"
+  },
+  {
+   "term": "Return of capital",
+   "definition": "A distribution that is not taxed when received but reduces the investor's cost basis"
+  },
+  {
+   "term": "Capital loss carryforward",
+   "definition": "Net capital losses beyond the 3,000 dollar annual offset against ordinary income, carried into future years without limit"
+  }
+ ],
+ "mnemonics": [
+  "Wash sale: thirty, sale day, thirty, sixty-one days.",
+  "Inherit: step up, always long. Gift: carry over.",
+  "Three thousand a year against ordinary income, carry forward the rest."
+ ],
+ "summary": "Qualified dividends are taxed at 0/15/20%, and ordinary dividends at ordinary rates. The NIIT is 3.8% for high earners. Long-term means held more than one year, counted from the trade date. A net capital loss offsets up to $3,000 of ordinary income per year and carries forward indefinitely. FIFO is the default, and specific identification lowers gains. Reinvested dividends add to basis, and a return of capital reduces it. Wash sales cover 30 days before or after (61 days): the loss is disallowed and added to the replacement basis. Inherited stock steps up to the date-of-death value and is always long-term. Gifted stock takes the donor's carryover basis, or the lower FMV when figuring a loss. Fund capital gains distributions are long-term."
+}

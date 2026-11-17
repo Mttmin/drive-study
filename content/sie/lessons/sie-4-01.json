@@ -1,0 +1,94 @@
+{
+  "id": "sie-4-01",
+  "exam": "SIE",
+  "section": "SIE-4",
+  "section_title": "Overview of the Regulatory Framework",
+  "title": "Registration, Qualification and Continuing Education",
+  "order": 1,
+  "est_minutes": 6,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Section four of the SIE is small, about nine percent of the exam, but it's about you: what you must do to be registered, who can't be registered, and how you keep your registration current. Let's start with who needs to register."
+    },
+    {
+      "type": "narration",
+      "text": "Under FINRA Rule twelve ten, anyone engaged in a member firm's investment banking or securities business must be registered in the appropriate category. That includes reps who solicit customers, take orders, or make recommendations, and the principals who supervise them. Unregistered employees, like sales assistants, can do clerical and ministerial work, and they can call to set appointments as long as they don't discuss investments. They cannot take orders, recommend securities, or be paid commissions or other transaction-based compensation, which FINRA Rule twenty forty forbids paying to unregistered persons. Firms may also permissively register people who don't need it, like compliance staff, to keep their qualifications alive."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0100"
+    },
+    {
+      "type": "narration",
+      "text": "To register as a general securities representative, you need two exams: the SIE, a corequisite that tests general knowledge, plus a representative-level exam such as the Series seven or six. Anyone eighteen or older can take the SIE without firm sponsorship, and results are valid for four years. The representative exams require sponsorship by a member firm. Enrollment generally opens a one hundred twenty day window to take the exam. If you fail, you must wait before retaking. As of November twenty twenty-six, the wait is thirty days after the first and second failures and one hundred eighty days after the third. FINRA is cutting those waits to fifteen and sixty days starting January nineteenth, twenty twenty-seven. If you leave the industry, your qualification generally lapses after two years, unless you join the Maintaining Qualifications Program, which extends it up to five years if you complete annual continuing education."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0182"
+    },
+    {
+      "type": "narration",
+      "text": "Next, background checks. Under S E C Rule seventeen f two, broker-dealer personnel are generally fingerprinted, with prints sent to the F B I through FINRA. Under FINRA Rule thirty-one ten e, before applying to register someone, the firm must investigate their character, reputation, qualifications and experience. It must also verify their Form U four information, including a public records search for things like liens, judgments and bankruptcies, within thirty days of filing."
+    },
+    {
+      "type": "narration",
+      "text": "Some people can't be associated with a member at all, at least not without special approval. That's statutory disqualification, defined in Exchange Act Section three a thirty-nine. It includes any felony conviction within the past ten years, misdemeanor convictions within ten years involving securities, fraud, embezzlement, theft, bribery, perjury and similar dishonesty, expulsion or suspension from an S R O, certain injunctions and regulatory orders, and willfully filing false information with regulators. A disqualified person can stay in the industry only if the firm applies and FINRA approves continued association, usually with heightened supervision. A bankruptcy or a settled complaint must be disclosed, but it isn't a statutory disqualification by itself."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0098"
+    },
+    {
+      "type": "narration",
+      "text": "Remember the states too. State blue-sky laws generally require agents to be registered in the state where the customer lives before soliciting there, usually after passing the Series sixty-three or sixty-six. And nobody may say that registration means a regulator approves of them. FINRA Rule eleven twenty-two and S E C Rule fifteen c one three prohibit misrepresenting registration or membership."
+    },
+    {
+      "type": "narration",
+      "text": "Last, continuing education under FINRA Rule twelve forty. It has two parts. The Regulatory Element is FINRA-delivered training, now required every year by December thirty-first and tailored to your registrations. If you miss it, you become C E inactive, and you can't do registered work or be paid for it until you finish. Two years C E inactive and your registration is administratively terminated. The Firm Element is your firm's own annual training program, built from a needs analysis and a written training plan covering products, services and compliance topics relevant to your job."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0186"
+    },
+    {
+      "type": "narration",
+      "text": "Try a quick scenario. A sales assistant answers the phone while her rep is at lunch. The customer says, sell my five hundred shares of XYZ right now. What should she do? Because she isn't registered, she can't accept the order. She should take a message and get the rep or another registered person to handle it. Could she be paid a bonus per trade she processed? No, that's transaction-based compensation to an unregistered person, which Rule twenty forty prohibits."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Anyone doing securities business must register, and unregistered staff can't take orders, recommend, or get commissions. You need the SIE plus a representative exam, and SIE results last four years. Retake waits are thirty, thirty and one eighty days now, and fifteen and sixty days from January twenty twenty-seven. Qualifications lapse after two years, or up to five with the Maintaining Qualifications Program. Firms fingerprint and investigate applicants. Statutory disqualification includes felonies and securities- or fraud-related misdemeanors within ten years. States require their own agent registration. The C E Regulatory Element is annual by December thirty-first, and missing it means C E inactive. The Firm Element is the firm's annual training."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Rule 1210",
+      "definition": "Registration requirements, including the SIE and representative exams and permissive registration."
+    },
+    {
+      "term": "Statutory disqualification",
+      "definition": "Bars association, absent FINRA approval, for events like a felony within 10 years."
+    },
+    {
+      "term": "Regulatory Element",
+      "definition": "FINRA's annual CE, due by December 31."
+    },
+    {
+      "term": "Firm Element",
+      "definition": "The member firm's annual CE program based on a needs analysis."
+    },
+    {
+      "term": "Maintaining Qualifications Program",
+      "definition": "Keeps qualifications valid for up to 5 years after leaving, through annual CE."
+    },
+    {
+      "term": "Rule 17f-2",
+      "definition": "SEC fingerprinting requirement for broker-dealer personnel."
+    }
+  ],
+  "mnemonics": [
+    "2-4-5: qualifications lapse in 2 years, SIE results last 4, MQP stretches to 5.",
+    "Unregistered staff: no Orders, no Opinions, no commissions (no O's)."
+  ],
+  "summary": "Persons in the securities business must register under Rule 1210. They need the SIE, valid 4 years, plus a representative exam. Unregistered staff can't take orders, recommend or earn commissions. Firms fingerprint and investigate applicants. Statutory disqualification includes felonies and certain misdemeanors within 10 years. Qualifications lapse after 2 years, or 5 with the Maintaining Qualifications Program. Retake waits are 30, 30 and 180 days, falling to 15 and 60 days from January 19, 2027. The CE Regulatory Element is annual by December 31, and the Firm Element is the firm's own annual training."
+}

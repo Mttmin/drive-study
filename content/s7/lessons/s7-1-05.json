@@ -1,0 +1,111 @@
+{
+ "id": "s7-1-05",
+ "exam": "S7",
+ "section": "S7-1",
+ "section_title": "Seeks Business for the Broker-Dealer from Customers and Potential Customers",
+ "title": "Municipal primary market and syndicates",
+ "order": 5,
+ "est_minutes": 7,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Municipal underwriting has its own vocabulary, and the Series 7 likes to test it. This lesson walks through how an issuer picks an underwriter, how the syndicate is organized, how orders are filled, and how everyone gets paid."
+  },
+  {
+   "type": "narration",
+   "text": "There are two main ways to sell a new municipal issue. In a competitive sale, the issuer publishes a notice of sale. It's often summarized in The Bond Buyer and lists the issue's terms, the bidding rules, and the deadline. Syndicates submit sealed bids, usually with a good faith deposit, and the bonds go to the bid with the lowest interest cost to the issuer, measured as net interest cost or true interest cost. General obligation bonds are often sold this way. In a negotiated sale, the issuer picks an underwriter first and negotiates the terms. This is common for revenue bonds and complex deals. Some issues are placed privately with a few institutions."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0524"
+  },
+  {
+   "type": "narration",
+   "text": "Disclosure for munis works differently from corporates, because municipal securities are exempt from SEC registration. Instead, the issuer prepares a preliminary official statement and then a final official statement describing the issue and its risks. Under SEC Rule fifteen c two dash twelve, underwriters of most new issues must get the issuer's commitment to provide continuing disclosure. That means annual financial information and notices of material events, all filed on the MSRB's EMMA website. Bond counsel provides the legal opinion on the bonds' validity and the tax status of the interest. An unqualified opinion has no reservations, while a qualified opinion has some."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0529"
+  },
+  {
+   "type": "narration",
+   "text": "The syndicate is formed by a syndicate letter or agreement, and its type matters for liability. In a Western, or divided, account, each member is responsible only for its own allocation. In an Eastern, or undivided, account, each member shares responsibility for any unsold bonds in proportion to its participation, even if it sold its own allocation. Here's a classic question: a firm has a twenty percent participation in an Eastern account, sells all its bonds, and two million dollars of bonds remain unsold. The firm is still on the hook for twenty percent, or four hundred thousand dollars."
+  },
+  {
+   "type": "narration",
+   "text": "During the order period, orders are filled according to the priority set out in the syndicate agreement. The usual order is: presale orders first, then group net orders, which credit the whole syndicate, then designated orders, which name specific members to get credit, and finally member orders, which are a member's own takedown orders. The MSRB requires the priority rules to be disclosed and followed."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0535"
+  },
+  {
+   "type": "narration",
+   "text": "Compensation comes from the spread, the difference between the price the syndicate pays the issuer and the reoffering price. The spread is divided into the manager's fee and the takedown. The takedown is the discount at which members buy bonds from the syndicate, and it's split into the concession, which goes to whoever sells the bond, and the additional takedown, which the member keeps. A selling group dealer that isn't in the syndicate earns only the concession."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0540"
+  },
+  {
+   "type": "narration",
+   "text": "Political contributions get special attention in munis. Under MSRB Rule G thirty-seven, if a municipal finance professional contributes more than two hundred fifty dollars per election to an issuer official they can vote for, the firm is barred from negotiated municipal business with that issuer for two years. Firms report political contributions to the MSRB. The goal is to stop pay to play."
+  },
+  {
+   "type": "narration",
+   "text": "Exam recap: competitive sales go to the lowest interest cost bid, and negotiated sales pick the underwriter first. Official statements replace prospectuses. Western accounts are divided, and Eastern accounts are undivided. Order priority runs presale, group net, designated, then member. The spread splits into the manager's fee and the takedown, and the takedown splits into the concession and the additional takedown."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Notice of sale: The issuer's published invitation for bids in a competitive municipal sale, stating the terms and the bid deadline. Official statement: The municipal offering document prepared by the issuer that discloses the terms and risks of a new issue. Preliminary official statement: The draft municipal offering document used before final pricing to gauge interest. Western account: A syndicate account in which each member is liable only for its own allocation of bonds. Eastern account: A syndicate account in which each member is liable for its share of any bonds left unsold by the whole syndicate. Takedown: The discount at which a syndicate member buys bonds from the syndicate, equal to the total spread minus the manager's fee. Concession: The portion of the spread a selling group member earns on bonds it sells. Additional takedown: The portion of the takedown kept by a syndicate member, over and above the concession."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Notice of sale",
+   "definition": "The issuer's published invitation for bids in a competitive municipal sale, stating the terms and the bid deadline"
+  },
+  {
+   "term": "Official statement",
+   "definition": "The municipal offering document prepared by the issuer that discloses the terms and risks of a new issue"
+  },
+  {
+   "term": "Preliminary official statement",
+   "definition": "The draft municipal offering document used before final pricing to gauge interest"
+  },
+  {
+   "term": "Western account",
+   "definition": "A syndicate account in which each member is liable only for its own allocation of bonds"
+  },
+  {
+   "term": "Eastern account",
+   "definition": "A syndicate account in which each member is liable for its share of any bonds left unsold by the whole syndicate"
+  },
+  {
+   "term": "Takedown",
+   "definition": "The discount at which a syndicate member buys bonds from the syndicate, equal to the total spread minus the manager's fee"
+  },
+  {
+   "term": "Concession",
+   "definition": "The portion of the spread a selling group member earns on bonds it sells"
+  },
+  {
+   "term": "Additional takedown",
+   "definition": "The portion of the takedown kept by a syndicate member, over and above the concession"
+  },
+  {
+   "term": "Manager's fee",
+   "definition": "The portion of the underwriting spread paid to the managing underwriter for organizing the syndicate"
+  },
+  {
+   "term": "Group net order",
+   "definition": "A municipal order credited to all syndicate members according to their participation, typically given top priority"
+  }
+ ],
+ "mnemonics": [
+  "Western: divided, your own bonds. Eastern: everyone shares the leftovers.",
+  "Priority: pre, group, designated, member.",
+  "Spread = manager's fee plus takedown; takedown = concession plus additional takedown."
+ ],
+ "summary": "Competitive muni sales award bonds to the lowest NIC or TIC bid after a notice of sale. Negotiated sales select the underwriter first. Disclosure comes through the preliminary and final official statements, and Rule 15c2-12 requires continuing disclosure on EMMA. Bond counsel gives the legal opinion. In a Western (divided) account, members are liable only for their own allocation. In an Eastern (undivided) account, they share unsold bonds in proportion to participation. Order priority is usually presale, group net, designated, then member. The spread is the manager's fee plus the takedown, and the takedown is the concession plus the additional takedown. G-37 sets a $250 per-election de minimis, and exceeding it brings a two-year business ban."
+}

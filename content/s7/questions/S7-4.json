@@ -723,5 +723,3514 @@
    "complaints"
   ],
   "outline_ref": "4.3 Methods of formal resolution: arbitration"
+ },
+ {
+  "id": "s7-q-0338",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 1,
+  "type": "mc",
+  "stem": "A customer buys 600 shares of VWX at $84 in a new margin account. What deposit does Regulation T require?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$25,200"
+   },
+   {
+    "key": "B",
+    "text": "$12,600"
+   },
+   {
+    "key": "C",
+    "text": "$15,120"
+   },
+   {
+    "key": "D",
+    "text": "$50,400"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A customer buys six hundred shares of VWX at eighty-four dollars in a new margin account. What's the Reg T deposit?",
+  "explanation": "Purchase = 600 x $84 = $50,400. Reg T initial margin is 50%: $50,400 x 50% = $25,200. The firm lends the rest, which becomes the debit balance. $12,600: is 25%, the maintenance level, not the Reg T initial requirement. $50,400: is full payment, as in a cash account. $15,120: is 30%, the short maintenance level.",
+  "spoken_explanation": "six hundred shares times eighty-four dollars is fifty thousand four hundred dollars. Reg T is fifty percent, so the deposit is twenty-five thousand two hundred dollars, and the other twenty-five thousand two hundred dollars is the loan, the debit balance. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "reg-t",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0339",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 1,
+  "type": "mc",
+  "stem": "A customer buys 1,200 shares of KLM at $52 in a new margin account. What deposit does Regulation T require?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$62,400"
+   },
+   {
+    "key": "B",
+    "text": "$15,600"
+   },
+   {
+    "key": "C",
+    "text": "$31,200"
+   },
+   {
+    "key": "D",
+    "text": "$18,720"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer buys one thousand two hundred shares of KLM at fifty-two dollars in a new margin account. What's the Reg T deposit?",
+  "explanation": "Purchase = 1,200 x $52 = $62,400. Reg T initial margin is 50%: $62,400 x 50% = $31,200. The firm lends the rest, which becomes the debit balance. $15,600: is 25%, the maintenance level, not the Reg T initial requirement. $62,400: is full payment, as in a cash account. $18,720: is 30%, the short maintenance level.",
+  "spoken_explanation": "one thousand two hundred shares times fifty-two dollars is sixty-two thousand four hundred dollars. Reg T is fifty percent, so the deposit is thirty-one thousand two hundred dollars, and the other thirty-one thousand two hundred dollars is the loan, the debit balance. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "reg-t",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0340",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 1,
+  "type": "mc",
+  "stem": "A customer buys 2,000 shares of DEF at $36 in a new margin account. What deposit does Regulation T require?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$72,000"
+   },
+   {
+    "key": "B",
+    "text": "$18,000"
+   },
+   {
+    "key": "C",
+    "text": "$36,000"
+   },
+   {
+    "key": "D",
+    "text": "$21,600"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer buys two thousand shares of DEF at thirty-six dollars in a new margin account. What's the Reg T deposit?",
+  "explanation": "Purchase = 2,000 x $36 = $72,000. Reg T initial margin is 50%: $72,000 x 50% = $36,000. The firm lends the rest, which becomes the debit balance. $18,000: is 25%, the maintenance level, not the Reg T initial requirement. $72,000: is full payment, as in a cash account. $21,600: is 30%, the short maintenance level.",
+  "spoken_explanation": "two thousand shares times thirty-six dollars is seventy-two thousand dollars. Reg T is fifty percent, so the deposit is thirty-six thousand dollars, and the other thirty-six thousand dollars is the loan, the debit balance. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "reg-t",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0341",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 1,
+  "type": "mc",
+  "stem": "A customer buys 2,000 shares of GHI at $63 in a new margin account. What deposit does Regulation T require?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$37,800"
+   },
+   {
+    "key": "B",
+    "text": "$126,000"
+   },
+   {
+    "key": "C",
+    "text": "$63,000"
+   },
+   {
+    "key": "D",
+    "text": "$31,500"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer buys two thousand shares of GHI at sixty-three dollars in a new margin account. What's the Reg T deposit?",
+  "explanation": "Purchase = 2,000 x $63 = $126,000. Reg T initial margin is 50%: $126,000 x 50% = $63,000. The firm lends the rest, which becomes the debit balance. $31,500: is 25%, the maintenance level, not the Reg T initial requirement. $126,000: is full payment, as in a cash account. $37,800: is 30%, the short maintenance level.",
+  "spoken_explanation": "two thousand shares times sixty-three dollars is one hundred twenty-six thousand dollars. Reg T is fifty percent, so the deposit is sixty-three thousand dollars, and the other sixty-three thousand dollars is the loan, the debit balance. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "reg-t",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0342",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 1,
+  "type": "mc",
+  "stem": "A customer buys 800 shares of MNO at $39 in a new margin account. What deposit does Regulation T require?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$15,600"
+   },
+   {
+    "key": "B",
+    "text": "$9,360"
+   },
+   {
+    "key": "C",
+    "text": "$31,200"
+   },
+   {
+    "key": "D",
+    "text": "$7,800"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A customer buys eight hundred shares of MNO at thirty-nine dollars in a new margin account. What's the Reg T deposit?",
+  "explanation": "Purchase = 800 x $39 = $31,200. Reg T initial margin is 50%: $31,200 x 50% = $15,600. The firm lends the rest, which becomes the debit balance. $7,800: is 25%, the maintenance level, not the Reg T initial requirement. $31,200: is full payment, as in a cash account. $9,360: is 30%, the short maintenance level.",
+  "spoken_explanation": "eight hundred shares times thirty-nine dollars is thirty-one thousand two hundred dollars. Reg T is fifty percent, so the deposit is fifteen thousand six hundred dollars, and the other fifteen thousand six hundred dollars is the loan, the debit balance. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "reg-t",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0343",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-rules",
+  "lesson_id": "s7-4-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer opens a new margin account and buys $1,200 of stock. What is the minimum required deposit?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$3,200"
+   },
+   {
+    "key": "B",
+    "text": "$600"
+   },
+   {
+    "key": "C",
+    "text": "$2,000"
+   },
+   {
+    "key": "D",
+    "text": "$1,200"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "A customer opens a new margin account and buys one thousand two hundred dollars of stock. What's the minimum deposit?",
+  "explanation": "For a long purchase, the deposit is the greater of 50% or $2,000, but never more than the purchase price. Reg T alone: $600. Answer: $1,200. $600: is the Reg T 50% alone, ignoring FINRA's $2,000 minimum. $2,000: applies the $2,000 minimum where it doesn't control. $3,200: adds the minimum to the trade value.",
+  "spoken_explanation": "For a long purchase, the deposit is the greater of fifty percent or two thousand dollars but never more than the purchase price. Here, Reg T alone would be six hundred dollars, so the required deposit is one thousand two hundred dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "minimum-equity",
+   "rule-4210",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: requirements and characteristics of margin accounts (minimums)"
+ },
+ {
+  "id": "s7-q-0344",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-rules",
+  "lesson_id": "s7-4-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer opens a new margin account and buys $1,800 of stock. What is the minimum required deposit?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$2,000"
+   },
+   {
+    "key": "B",
+    "text": "$3,800"
+   },
+   {
+    "key": "C",
+    "text": "$900"
+   },
+   {
+    "key": "D",
+    "text": "$1,800"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "A customer opens a new margin account and buys one thousand eight hundred dollars of stock. What's the minimum deposit?",
+  "explanation": "For a long purchase, the deposit is the greater of 50% or $2,000, but never more than the purchase price. Reg T alone: $900. Answer: $1,800. $900: is the Reg T 50% alone, ignoring FINRA's $2,000 minimum. $2,000: applies the $2,000 minimum where it doesn't control. $3,800: adds the minimum to the trade value.",
+  "spoken_explanation": "For a long purchase, the deposit is the greater of fifty percent or two thousand dollars but never more than the purchase price. Here, Reg T alone would be nine hundred dollars, so the required deposit is one thousand eight hundred dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "minimum-equity",
+   "rule-4210",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: requirements and characteristics of margin accounts (minimums)"
+ },
+ {
+  "id": "s7-q-0345",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-rules",
+  "lesson_id": "s7-4-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer opens a new margin account and buys $2,600 of stock. What is the minimum required deposit?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$1,300"
+   },
+   {
+    "key": "B",
+    "text": "$2,600"
+   },
+   {
+    "key": "C",
+    "text": "$2,000"
+   },
+   {
+    "key": "D",
+    "text": "$4,600"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer opens a new margin account and buys two thousand six hundred dollars of stock. What's the minimum deposit?",
+  "explanation": "For a long purchase, the deposit is the greater of 50% or $2,000, but never more than the purchase price. Reg T alone: $1,300. Answer: $2,000. $1,300: is the Reg T 50% alone, ignoring FINRA's $2,000 minimum. $2,600: is the full value of the trade. $4,600: adds the minimum to the trade value.",
+  "spoken_explanation": "For a long purchase, the deposit is the greater of fifty percent or two thousand dollars but never more than the purchase price. Here, Reg T alone would be one thousand three hundred dollars, so the required deposit is two thousand dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "minimum-equity",
+   "rule-4210",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: requirements and characteristics of margin accounts (minimums)"
+ },
+ {
+  "id": "s7-q-0346",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-rules",
+  "lesson_id": "s7-4-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer opens a new margin account and buys $3,500 of stock. What is the minimum required deposit?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$5,500"
+   },
+   {
+    "key": "B",
+    "text": "$1,750"
+   },
+   {
+    "key": "C",
+    "text": "$2,000"
+   },
+   {
+    "key": "D",
+    "text": "$3,500"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer opens a new margin account and buys three thousand five hundred dollars of stock. What's the minimum deposit?",
+  "explanation": "For a long purchase, the deposit is the greater of 50% or $2,000, but never more than the purchase price. Reg T alone: $1,750. Answer: $2,000. $1,750: is the Reg T 50% alone, ignoring FINRA's $2,000 minimum. $3,500: is the full value of the trade. $5,500: adds the minimum to the trade value.",
+  "spoken_explanation": "For a long purchase, the deposit is the greater of fifty percent or two thousand dollars but never more than the purchase price. Here, Reg T alone would be one thousand seven hundred fifty dollars, so the required deposit is two thousand dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "minimum-equity",
+   "rule-4210",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: requirements and characteristics of margin accounts (minimums)"
+ },
+ {
+  "id": "s7-q-0347",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-rules",
+  "lesson_id": "s7-4-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer opens a new margin account and sells short $1,500 of stock. What is the minimum required deposit?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$1,500"
+   },
+   {
+    "key": "B",
+    "text": "$3,500"
+   },
+   {
+    "key": "C",
+    "text": "$750"
+   },
+   {
+    "key": "D",
+    "text": "$2,000"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "A customer opens a new margin account and shorts one thousand five hundred dollars of stock. What's the minimum deposit?",
+  "explanation": "For a short sale, the deposit is the greater of 50% or $2,000, with no 'lesser of cost' break, because short risk is unlimited. Reg T alone: $750. Answer: $2,000. $750: is the Reg T 50% alone, ignoring FINRA's $2,000 minimum. $1,500: is the full value of the trade. $3,500: adds the minimum to the trade value.",
+  "spoken_explanation": "For a short sale, the deposit is the greater of fifty percent or two thousand dollars with no 'lesser of cost' break, because short risk is unlimited. Here, Reg T alone would be seven hundred fifty dollars, so the required deposit is two thousand dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "minimum-equity",
+   "rule-4210",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: requirements and characteristics of margin accounts (minimums)"
+ },
+ {
+  "id": "s7-q-0348",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-rules",
+  "lesson_id": "s7-4-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer opens a new margin account and sells short $3,000 of stock. What is the minimum required deposit?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$5,000"
+   },
+   {
+    "key": "B",
+    "text": "$1,500"
+   },
+   {
+    "key": "C",
+    "text": "$2,000"
+   },
+   {
+    "key": "D",
+    "text": "$3,000"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer opens a new margin account and shorts three thousand dollars of stock. What's the minimum deposit?",
+  "explanation": "For a short sale, the deposit is the greater of 50% or $2,000, with no 'lesser of cost' break, because short risk is unlimited. Reg T alone: $1,500. Answer: $2,000. $1,500: is the Reg T 50% alone, ignoring FINRA's $2,000 minimum. $3,000: is the full value of the trade. $5,000: adds the minimum to the trade value.",
+  "spoken_explanation": "For a short sale, the deposit is the greater of fifty percent or two thousand dollars with no 'lesser of cost' break, because short risk is unlimited. Here, Reg T alone would be one thousand five hundred dollars, so the required deposit is two thousand dollars.",
+  "tags": [
+   "margin",
+   "minimum-equity",
+   "rule-4210",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: requirements and characteristics of margin accounts (minimums)"
+ },
+ {
+  "id": "s7-q-0349",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer bought 1,500 shares of KLM at $59 in a margin account, depositing the Reg T minimum. The stock rises to $63. What is the equity in the account?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$3,000"
+   },
+   {
+    "key": "B",
+    "text": "$94,500"
+   },
+   {
+    "key": "C",
+    "text": "$44,250"
+   },
+   {
+    "key": "D",
+    "text": "$50,250"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "A customer bought one thousand five hundred shares of KLM at fifty-nine on margin, depositing the Reg T minimum. The stock rises to sixty-three. What's the equity now?",
+  "explanation": "LMV = 1,500 x $63 = $94,500. Debit = $44,250 (unchanged). Equity = $94,500 - $44,250 = $50,250. Reg T requirement = 50% x $94,500 = $47,250. Excess equity (SMA) = $3,000. $3,000: is the excess equity, not total equity. $94,500: is the market value. $44,250: is the original equity before the rise.",
+  "spoken_explanation": "New market value is ninety-four thousand five hundred dollars. The debit stays at forty-four thousand two hundred fifty dollars, so equity is fifty thousand two hundred fifty dollars. Reg T needs half the market value, forty-seven thousand two hundred fifty dollars, leaving excess equity of three thousand dollars.",
+  "tags": [
+   "margin",
+   "long-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0350",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-sma",
+  "lesson_id": "s7-4-07",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer bought 2,000 shares of XYZ at $40 in a margin account, depositing the Reg T minimum. The stock rises to $48. How much excess equity (SMA) is created?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$8,000"
+   },
+   {
+    "key": "B",
+    "text": "$16,000"
+   },
+   {
+    "key": "C",
+    "text": "$48,000"
+   },
+   {
+    "key": "D",
+    "text": "$56,000"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A customer bought two thousand shares of XYZ at forty on margin, depositing the Reg T minimum. The stock rises to forty-eight. How much excess equity is created?",
+  "explanation": "LMV = 2,000 x $48 = $96,000. Debit = $40,000 (unchanged). Equity = $96,000 - $40,000 = $56,000. Reg T requirement = 50% x $96,000 = $48,000. Excess equity (SMA) = $8,000. $56,000: is total equity, not the excess. $16,000: is buying power, twice the SMA. $48,000: is the Reg T requirement.",
+  "spoken_explanation": "New market value is ninety-six thousand dollars. The debit stays at forty thousand dollars, so equity is fifty-six thousand dollars. Reg T needs half the market value, forty-eight thousand dollars, leaving excess equity of eight thousand dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "long-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: special memorandum account (SMA)"
+ },
+ {
+  "id": "s7-q-0351",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-sma",
+  "lesson_id": "s7-4-07",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer bought 500 shares of ABC at $23 in a margin account, depositing the Reg T minimum. The stock rises to $33. What is the customer's buying power?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$10,750"
+   },
+   {
+    "key": "B",
+    "text": "$5,000"
+   },
+   {
+    "key": "C",
+    "text": "$10,000"
+   },
+   {
+    "key": "D",
+    "text": "$2,500"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer bought five hundred shares of ABC at twenty-three on margin, depositing the Reg T minimum. The stock rises to thirty-three. What's the buying power?",
+  "explanation": "LMV = 500 x $33 = $16,500. Debit = $5,750 (unchanged). Equity = $16,500 - $5,750 = $10,750. Reg T requirement = 50% x $16,500 = $8,250. Excess equity (SMA) = $2,500. Buying power = SMA x 2 = $5,000. $2,500: is the SMA; buying power is twice that. $10,000: quadruples the SMA. $10,750: is total equity.",
+  "spoken_explanation": "New market value is sixteen thousand five hundred dollars. The debit stays at five thousand seven hundred fifty dollars, so equity is ten thousand seven hundred fifty dollars. Reg T needs half the market value, eight thousand two hundred fifty dollars, leaving excess equity of two thousand five hundred dollars. Buying power is twice that, five thousand dollars.",
+  "tags": [
+   "margin",
+   "long-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: special memorandum account (SMA)"
+ },
+ {
+  "id": "s7-q-0352",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer bought 2,000 shares of JKL at $46 in a margin account, depositing the Reg T minimum. The stock rises to $50. What is the equity in the account?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$54,000"
+   },
+   {
+    "key": "B",
+    "text": "$4,000"
+   },
+   {
+    "key": "C",
+    "text": "$46,000"
+   },
+   {
+    "key": "D",
+    "text": "$100,000"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A customer bought two thousand shares of JKL at forty-six on margin, depositing the Reg T minimum. The stock rises to fifty. What's the equity now?",
+  "explanation": "LMV = 2,000 x $50 = $100,000. Debit = $46,000 (unchanged). Equity = $100,000 - $46,000 = $54,000. Reg T requirement = 50% x $100,000 = $50,000. Excess equity (SMA) = $4,000. $4,000: is the excess equity, not total equity. $100,000: is the market value. $46,000: is the original equity before the rise.",
+  "spoken_explanation": "New market value is one hundred thousand dollars. The debit stays at forty-six thousand dollars, so equity is fifty-four thousand dollars. Reg T needs half the market value, fifty thousand dollars, leaving excess equity of four thousand dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "long-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0353",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-sma",
+  "lesson_id": "s7-4-07",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer bought 1,000 shares of KLM at $63 in a margin account, depositing the Reg T minimum. The stock rises to $67. How much excess equity (SMA) is created?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$4,000"
+   },
+   {
+    "key": "B",
+    "text": "$35,500"
+   },
+   {
+    "key": "C",
+    "text": "$2,000"
+   },
+   {
+    "key": "D",
+    "text": "$33,500"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer bought one thousand shares of KLM at sixty-three on margin, depositing the Reg T minimum. The stock rises to sixty-seven. How much excess equity is created?",
+  "explanation": "LMV = 1,000 x $67 = $67,000. Debit = $31,500 (unchanged). Equity = $67,000 - $31,500 = $35,500. Reg T requirement = 50% x $67,000 = $33,500. Excess equity (SMA) = $2,000. $35,500: is total equity, not the excess. $4,000: is buying power, twice the SMA. $33,500: is the Reg T requirement.",
+  "spoken_explanation": "New market value is sixty-seven thousand dollars. The debit stays at thirty-one thousand five hundred dollars, so equity is thirty-five thousand five hundred dollars. Reg T needs half the market value, thirty-three thousand five hundred dollars, leaving excess equity of two thousand dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "long-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: special memorandum account (SMA)"
+ },
+ {
+  "id": "s7-q-0354",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-sma",
+  "lesson_id": "s7-4-07",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer bought 1,500 shares of KLM at $59 in a margin account, depositing the Reg T minimum. The stock rises to $65. What is the customer's buying power?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$4,500"
+   },
+   {
+    "key": "B",
+    "text": "$53,250"
+   },
+   {
+    "key": "C",
+    "text": "$9,000"
+   },
+   {
+    "key": "D",
+    "text": "$18,000"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer bought one thousand five hundred shares of KLM at fifty-nine on margin, depositing the Reg T minimum. The stock rises to sixty-five. What's the buying power?",
+  "explanation": "LMV = 1,500 x $65 = $97,500. Debit = $44,250 (unchanged). Equity = $97,500 - $44,250 = $53,250. Reg T requirement = 50% x $97,500 = $48,750. Excess equity (SMA) = $4,500. Buying power = SMA x 2 = $9,000. $4,500: is the SMA; buying power is twice that. $18,000: quadruples the SMA. $53,250: is total equity.",
+  "spoken_explanation": "New market value is ninety-seven thousand five hundred dollars. The debit stays at forty-four thousand two hundred fifty dollars, so equity is fifty-three thousand two hundred fifty dollars. Reg T needs half the market value, forty-eight thousand seven hundred fifty dollars, leaving excess equity of four thousand five hundred dollars. Buying power is twice that, nine thousand dollars.",
+  "tags": [
+   "margin",
+   "long-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: special memorandum account (SMA)"
+ },
+ {
+  "id": "s7-q-0355",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer bought 2,000 shares of MNO at $28 in a margin account, depositing the Reg T minimum. The stock rises to $32. What is the equity in the account?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$36,000"
+   },
+   {
+    "key": "B",
+    "text": "$28,000"
+   },
+   {
+    "key": "C",
+    "text": "$64,000"
+   },
+   {
+    "key": "D",
+    "text": "$4,000"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A customer bought two thousand shares of MNO at twenty-eight on margin, depositing the Reg T minimum. The stock rises to thirty-two. What's the equity now?",
+  "explanation": "LMV = 2,000 x $32 = $64,000. Debit = $28,000 (unchanged). Equity = $64,000 - $28,000 = $36,000. Reg T requirement = 50% x $64,000 = $32,000. Excess equity (SMA) = $4,000. $4,000: is the excess equity, not total equity. $64,000: is the market value. $28,000: is the original equity before the rise.",
+  "spoken_explanation": "New market value is sixty-four thousand dollars. The debit stays at twenty-eight thousand dollars, so equity is thirty-six thousand dollars. Reg T needs half the market value, thirty-two thousand dollars, leaving excess equity of four thousand dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "long-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0356",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-sma",
+  "lesson_id": "s7-4-07",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer bought 800 shares of ABC at $59 in a margin account, depositing the Reg T minimum. The stock rises to $69. How much excess equity (SMA) is created?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$27,600"
+   },
+   {
+    "key": "B",
+    "text": "$8,000"
+   },
+   {
+    "key": "C",
+    "text": "$31,600"
+   },
+   {
+    "key": "D",
+    "text": "$4,000"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "A customer bought eight hundred shares of ABC at fifty-nine on margin, depositing the Reg T minimum. The stock rises to sixty-nine. How much excess equity is created?",
+  "explanation": "LMV = 800 x $69 = $55,200. Debit = $23,600 (unchanged). Equity = $55,200 - $23,600 = $31,600. Reg T requirement = 50% x $55,200 = $27,600. Excess equity (SMA) = $4,000. $31,600: is total equity, not the excess. $8,000: is buying power, twice the SMA. $27,600: is the Reg T requirement.",
+  "spoken_explanation": "New market value is fifty-five thousand two hundred dollars. The debit stays at twenty-three thousand six hundred dollars, so equity is thirty-one thousand six hundred dollars. Reg T needs half the market value, twenty-seven thousand six hundred dollars, leaving excess equity of four thousand dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "long-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: special memorandum account (SMA)"
+ },
+ {
+  "id": "s7-q-0357",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-sma",
+  "lesson_id": "s7-4-07",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer bought 2,000 shares of KLM at $29 in a margin account, depositing the Reg T minimum. The stock rises to $41. What is the customer's buying power?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$12,000"
+   },
+   {
+    "key": "B",
+    "text": "$48,000"
+   },
+   {
+    "key": "C",
+    "text": "$53,000"
+   },
+   {
+    "key": "D",
+    "text": "$24,000"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "A customer bought two thousand shares of KLM at twenty-nine on margin, depositing the Reg T minimum. The stock rises to forty-one. What's the buying power?",
+  "explanation": "LMV = 2,000 x $41 = $82,000. Debit = $29,000 (unchanged). Equity = $82,000 - $29,000 = $53,000. Reg T requirement = 50% x $82,000 = $41,000. Excess equity (SMA) = $12,000. Buying power = SMA x 2 = $24,000. $12,000: is the SMA; buying power is twice that. $48,000: quadruples the SMA. $53,000: is total equity.",
+  "spoken_explanation": "New market value is eighty-two thousand dollars. The debit stays at twenty-nine thousand dollars, so equity is fifty-three thousand dollars. Reg T needs half the market value, forty-one thousand dollars, leaving excess equity of twelve thousand dollars. Buying power is twice that, twenty-four thousand dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "long-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: special memorandum account (SMA)"
+ },
+ {
+  "id": "s7-q-0358",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer bought 1,000 shares of JKL at $59 in a margin account, depositing the Reg T minimum. The stock rises to $69. What is the equity in the account?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$69,000"
+   },
+   {
+    "key": "B",
+    "text": "$29,500"
+   },
+   {
+    "key": "C",
+    "text": "$39,500"
+   },
+   {
+    "key": "D",
+    "text": "$5,000"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer bought one thousand shares of JKL at fifty-nine on margin, depositing the Reg T minimum. The stock rises to sixty-nine. What's the equity now?",
+  "explanation": "LMV = 1,000 x $69 = $69,000. Debit = $29,500 (unchanged). Equity = $69,000 - $29,500 = $39,500. Reg T requirement = 50% x $69,000 = $34,500. Excess equity (SMA) = $5,000. $5,000: is the excess equity, not total equity. $69,000: is the market value. $29,500: is the original equity before the rise.",
+  "spoken_explanation": "New market value is sixty-nine thousand dollars. The debit stays at twenty-nine thousand five hundred dollars, so equity is thirty-nine thousand five hundred dollars. Reg T needs half the market value, thirty-four thousand five hundred dollars, leaving excess equity of five thousand dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "long-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0359",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-sma",
+  "lesson_id": "s7-4-07",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer bought 1,000 shares of VWX at $45 in a margin account, depositing the Reg T minimum. The stock rises to $51. How much excess equity (SMA) is created?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$28,500"
+   },
+   {
+    "key": "B",
+    "text": "$3,000"
+   },
+   {
+    "key": "C",
+    "text": "$6,000"
+   },
+   {
+    "key": "D",
+    "text": "$25,500"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer bought one thousand shares of VWX at forty-five on margin, depositing the Reg T minimum. The stock rises to fifty-one. How much excess equity is created?",
+  "explanation": "LMV = 1,000 x $51 = $51,000. Debit = $22,500 (unchanged). Equity = $51,000 - $22,500 = $28,500. Reg T requirement = 50% x $51,000 = $25,500. Excess equity (SMA) = $3,000. $28,500: is total equity, not the excess. $6,000: is buying power, twice the SMA. $25,500: is the Reg T requirement.",
+  "spoken_explanation": "New market value is fifty-one thousand dollars. The debit stays at twenty-two thousand five hundred dollars, so equity is twenty-eight thousand five hundred dollars. Reg T needs half the market value, twenty-five thousand five hundred dollars, leaving excess equity of three thousand dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "long-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: special memorandum account (SMA)"
+ },
+ {
+  "id": "s7-q-0360",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-sma",
+  "lesson_id": "s7-4-07",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer bought 1,000 shares of MNO at $36 in a margin account, depositing the Reg T minimum. The stock rises to $48. What is the customer's buying power?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$30,000"
+   },
+   {
+    "key": "B",
+    "text": "$24,000"
+   },
+   {
+    "key": "C",
+    "text": "$12,000"
+   },
+   {
+    "key": "D",
+    "text": "$6,000"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer bought one thousand shares of MNO at thirty-six on margin, depositing the Reg T minimum. The stock rises to forty-eight. What's the buying power?",
+  "explanation": "LMV = 1,000 x $48 = $48,000. Debit = $18,000 (unchanged). Equity = $48,000 - $18,000 = $30,000. Reg T requirement = 50% x $48,000 = $24,000. Excess equity (SMA) = $6,000. Buying power = SMA x 2 = $12,000. $6,000: is the SMA; buying power is twice that. $24,000: quadruples the SMA. $30,000: is total equity.",
+  "spoken_explanation": "New market value is forty-eight thousand dollars. The debit stays at eighteen thousand dollars, so equity is thirty thousand dollars. Reg T needs half the market value, twenty-four thousand dollars, leaving excess equity of six thousand dollars. Buying power is twice that, twelve thousand dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "long-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: special memorandum account (SMA)"
+ },
+ {
+  "id": "s7-q-0361",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A customer is long 800 shares of PQR with a debit balance of $23,000. Using the 25% FINRA minimum, below what share price will the customer receive a maintenance call?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$57.50"
+   },
+   {
+    "key": "B",
+    "text": "$38.33"
+   },
+   {
+    "key": "C",
+    "text": "$35.94"
+   },
+   {
+    "key": "D",
+    "text": "$28.75"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer is long eight hundred shares with a debit of twenty-three thousand dollars. At the twenty-five percent minimum, below what price is there a maintenance call?",
+  "explanation": "At 25% maintenance, debit = 75% of LMV, so minimum LMV = $23,000 / 0.75 = $30,666.67; / 800 shares = $38.33. $28.75: is the price where equity hits zero. $57.50: uses 50% (Reg T) instead of 25% maintenance. $35.94: multiplies by 1.25 instead of dividing by 0.75.",
+  "spoken_explanation": "Divide the debit by point seven five: twenty-three thousand dollars divided by point seven five is about thirty thousand six hundred sixty-seven dollars. Divide by eight hundred shares for about thirty-eight dollars and thirty-three cents per share. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "maintenance",
+   "long-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: maintenance requirements, deposits to meet calls"
+ },
+ {
+  "id": "s7-q-0362",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A customer is long 1,500 shares of GHI with a debit balance of $43,000. Using the 25% FINRA minimum, below what share price will the customer receive a maintenance call?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$28.67"
+   },
+   {
+    "key": "B",
+    "text": "$57.33"
+   },
+   {
+    "key": "C",
+    "text": "$38.22"
+   },
+   {
+    "key": "D",
+    "text": "$35.83"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer is long one thousand five hundred shares with a debit of forty-three thousand dollars. At the twenty-five percent minimum, below what price is there a maintenance call?",
+  "explanation": "At 25% maintenance, debit = 75% of LMV, so minimum LMV = $43,000 / 0.75 = $57,333.33; / 1,500 shares = $38.22. $28.67: is the price where equity hits zero. $57.33: uses 50% (Reg T) instead of 25% maintenance. $35.83: multiplies by 1.25 instead of dividing by 0.75.",
+  "spoken_explanation": "Divide the debit by point seven five: forty-three thousand dollars divided by point seven five is about fifty-seven thousand three hundred thirty-three dollars. Divide by one thousand five hundred shares for about thirty-eight dollars and twenty-two cents per share. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "maintenance",
+   "long-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: maintenance requirements, deposits to meet calls"
+ },
+ {
+  "id": "s7-q-0363",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A customer is long 300 shares of DEF with a debit balance of $47,000. Using the 25% FINRA minimum, below what share price will the customer receive a maintenance call?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$156.67"
+   },
+   {
+    "key": "B",
+    "text": "$208.89"
+   },
+   {
+    "key": "C",
+    "text": "$313.33"
+   },
+   {
+    "key": "D",
+    "text": "$195.83"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A customer is long three hundred shares with a debit of forty-seven thousand dollars. At the twenty-five percent minimum, below what price is there a maintenance call?",
+  "explanation": "At 25% maintenance, debit = 75% of LMV, so minimum LMV = $47,000 / 0.75 = $62,666.67; / 300 shares = $208.89. $156.67: is the price where equity hits zero. $313.33: uses 50% (Reg T) instead of 25% maintenance. $195.83: multiplies by 1.25 instead of dividing by 0.75.",
+  "spoken_explanation": "Divide the debit by point seven five: forty-seven thousand dollars divided by point seven five is about sixty-two thousand six hundred sixty-seven dollars. Divide by three hundred shares for about two hundred eight dollars and eighty-nine cents per share. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "maintenance",
+   "long-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: maintenance requirements, deposits to meet calls"
+ },
+ {
+  "id": "s7-q-0364",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A customer is long 400 shares of GHI with a debit balance of $31,000. Using the 25% FINRA minimum, below what share price will the customer receive a maintenance call?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$96.88"
+   },
+   {
+    "key": "B",
+    "text": "$77.50"
+   },
+   {
+    "key": "C",
+    "text": "$155"
+   },
+   {
+    "key": "D",
+    "text": "$103.33"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "A customer is long four hundred shares with a debit of thirty-one thousand dollars. At the twenty-five percent minimum, below what price is there a maintenance call?",
+  "explanation": "At 25% maintenance, debit = 75% of LMV, so minimum LMV = $31,000 / 0.75 = $41,333.33; / 400 shares = $103.33. $77.50: is the price where equity hits zero. $155: uses 50% (Reg T) instead of 25% maintenance. $96.88: multiplies by 1.25 instead of dividing by 0.75.",
+  "spoken_explanation": "Divide the debit by point seven five: thirty-one thousand dollars divided by point seven five is about forty-one thousand three hundred thirty-three dollars. Divide by four hundred shares for about one hundred three dollars and thirty-three cents per share. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "maintenance",
+   "long-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: maintenance requirements, deposits to meet calls"
+ },
+ {
+  "id": "s7-q-0365",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-short",
+  "lesson_id": "s7-4-06",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A customer sold short 200 shares of KLM at $72 and deposited the Reg T requirement, for a credit balance of $21,600. Using the 30% FINRA maintenance requirement, above what price will the customer get a maintenance call?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$86.40"
+   },
+   {
+    "key": "B",
+    "text": "$108"
+   },
+   {
+    "key": "C",
+    "text": "$72"
+   },
+   {
+    "key": "D",
+    "text": "$83.08"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "A customer shorted two hundred shares at seventy-two with a credit balance of twenty-one thousand six hundred dollars. At thirty percent maintenance, above what price is there a call?",
+  "explanation": "Short equity must be at least 30% of SMV, so credit must be at least 130% of SMV. Maximum SMV = $21,600 / 1.30 = $16,615.38; / 200 = $83.08. $108: is where equity reaches zero. $72: is the original short price. $86.40: uses 25%, the long maintenance level.",
+  "spoken_explanation": "Divide the credit by one point three: twenty-one thousand six hundred dollars over one point three is about sixteen thousand six hundred fifteen dollars. Per share, that's about eighty-three dollars and eight cents. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "maintenance",
+   "short-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: maintenance requirements, deposits to meet calls"
+ },
+ {
+  "id": "s7-q-0366",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-short",
+  "lesson_id": "s7-4-06",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A customer sold short 400 shares of KLM at $25 and deposited the Reg T requirement, for a credit balance of $15,000. Using the 30% FINRA maintenance requirement, above what price will the customer get a maintenance call?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$37.50"
+   },
+   {
+    "key": "B",
+    "text": "$25"
+   },
+   {
+    "key": "C",
+    "text": "$28.85"
+   },
+   {
+    "key": "D",
+    "text": "$30"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer shorted four hundred shares at twenty-five with a credit balance of fifteen thousand dollars. At thirty percent maintenance, above what price is there a call?",
+  "explanation": "Short equity must be at least 30% of SMV, so credit must be at least 130% of SMV. Maximum SMV = $15,000 / 1.30 = $11,538.46; / 400 = $28.85. $37.50: is where equity reaches zero. $25: is the original short price. $30: uses 25%, the long maintenance level.",
+  "spoken_explanation": "Divide the credit by one point three: fifteen thousand dollars over one point three is about eleven thousand five hundred thirty-eight dollars. Per share, that's about twenty-eight dollars and eighty-five cents. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "maintenance",
+   "short-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: maintenance requirements, deposits to meet calls"
+ },
+ {
+  "id": "s7-q-0367",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-short",
+  "lesson_id": "s7-4-06",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A customer sold short 1,500 shares of NOP at $66 and deposited the Reg T requirement, for a credit balance of $148,500. Using the 30% FINRA maintenance requirement, above what price will the customer get a maintenance call?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$66"
+   },
+   {
+    "key": "B",
+    "text": "$99"
+   },
+   {
+    "key": "C",
+    "text": "$76.15"
+   },
+   {
+    "key": "D",
+    "text": "$79.20"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer shorted one thousand five hundred shares at sixty-six with a credit balance of one hundred forty-eight thousand five hundred dollars. At thirty percent maintenance, above what price is there a call?",
+  "explanation": "Short equity must be at least 30% of SMV, so credit must be at least 130% of SMV. Maximum SMV = $148,500 / 1.30 = $114,230.77; / 1,500 = $76.15. $99: is where equity reaches zero. $66: is the original short price. $79.20: uses 25%, the long maintenance level.",
+  "spoken_explanation": "Divide the credit by one point three: one hundred forty-eight thousand five hundred dollars over one point three is about one hundred fourteen thousand two hundred thirty-one dollars. Per share, that's about seventy-six dollars and fifteen cents. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "maintenance",
+   "short-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: maintenance requirements, deposits to meet calls"
+ },
+ {
+  "id": "s7-q-0368",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-short",
+  "lesson_id": "s7-4-06",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A customer sold short 800 shares of VWX at $28 and deposited the Reg T requirement, for a credit balance of $33,600. Using the 30% FINRA maintenance requirement, above what price will the customer get a maintenance call?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$32.31"
+   },
+   {
+    "key": "B",
+    "text": "$28"
+   },
+   {
+    "key": "C",
+    "text": "$33.60"
+   },
+   {
+    "key": "D",
+    "text": "$42"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A customer shorted eight hundred shares at twenty-eight with a credit balance of thirty-three thousand six hundred dollars. At thirty percent maintenance, above what price is there a call?",
+  "explanation": "Short equity must be at least 30% of SMV, so credit must be at least 130% of SMV. Maximum SMV = $33,600 / 1.30 = $25,846.15; / 800 = $32.31. $42: is where equity reaches zero. $28: is the original short price. $33.60: uses 25%, the long maintenance level.",
+  "spoken_explanation": "Divide the credit by one point three: thirty-three thousand six hundred dollars over one point three is about twenty-five thousand eight hundred forty-six dollars. Per share, that's about thirty-two dollars and thirty-one cents. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "maintenance",
+   "short-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: maintenance requirements, deposits to meet calls"
+ },
+ {
+  "id": "s7-q-0369",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-short",
+  "lesson_id": "s7-4-06",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer sells short 600 shares of JKL at $43 in a margin account and deposits the Reg T requirement. What is the credit balance?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$12,900"
+   },
+   {
+    "key": "B",
+    "text": "$51,600"
+   },
+   {
+    "key": "C",
+    "text": "$38,700"
+   },
+   {
+    "key": "D",
+    "text": "$25,800"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer shorts six hundred shares of JKL at forty-three and deposits the Reg T requirement. What's the credit balance?",
+  "explanation": "Proceeds $25,800 + Reg T deposit (50%) $12,900 = $38,700. $25,800: is just the short sale proceeds. $12,900: is the Reg T deposit. $51,600: doubles the proceeds.",
+  "spoken_explanation": "Short proceeds of twenty-five thousand eight hundred dollars stay in the account, plus the fifty percent deposit of twelve thousand nine hundred dollars, for a credit balance of thirty-eight thousand seven hundred dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "short-account",
+   "credit-balance",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0370",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-short",
+  "lesson_id": "s7-4-06",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer sold short 600 shares of XYZ at $46, depositing the Reg T requirement. The stock is now $43. What is the equity in the account?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$15,600"
+   },
+   {
+    "key": "B",
+    "text": "$41,400"
+   },
+   {
+    "key": "C",
+    "text": "$25,800"
+   },
+   {
+    "key": "D",
+    "text": "$13,800"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A customer shorted six hundred shares at forty-six, depositing the Reg T requirement. The stock is now forty-three. What's the equity?",
+  "explanation": "Credit = $27,600 + $13,800 = $41,400. SMV = 600 x $43 = $25,800. Equity = credit - SMV = $15,600. Short equity rises when the stock falls. $13,800: is the original equity, before the price change. $41,400: is the credit balance. $25,800: is the current short market value.",
+  "spoken_explanation": "Credit balance is forty-one thousand four hundred dollars. Short market value now is twenty-five thousand eight hundred dollars. Equity is credit minus short market value: fifteen thousand six hundred dollars. Short sellers gain equity when the stock falls. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "short-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0371",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-short",
+  "lesson_id": "s7-4-06",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer sells short 300 shares of ABC at $53 in a margin account and deposits the Reg T requirement. What is the credit balance?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$23,850"
+   },
+   {
+    "key": "B",
+    "text": "$15,900"
+   },
+   {
+    "key": "C",
+    "text": "$7,950"
+   },
+   {
+    "key": "D",
+    "text": "$31,800"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A customer shorts three hundred shares of ABC at fifty-three and deposits the Reg T requirement. What's the credit balance?",
+  "explanation": "Proceeds $15,900 + Reg T deposit (50%) $7,950 = $23,850. $15,900: is just the short sale proceeds. $7,950: is the Reg T deposit. $31,800: doubles the proceeds.",
+  "spoken_explanation": "Short proceeds of fifteen thousand nine hundred dollars stay in the account, plus the fifty percent deposit of seven thousand nine hundred fifty dollars, for a credit balance of twenty-three thousand eight hundred fifty dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "short-account",
+   "credit-balance",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0372",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-short",
+  "lesson_id": "s7-4-06",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer sold short 800 shares of XYZ at $43, depositing the Reg T requirement. The stock is now $46. What is the equity in the account?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$51,600"
+   },
+   {
+    "key": "B",
+    "text": "$36,800"
+   },
+   {
+    "key": "C",
+    "text": "$17,200"
+   },
+   {
+    "key": "D",
+    "text": "$14,800"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "A customer shorted eight hundred shares at forty-three, depositing the Reg T requirement. The stock is now forty-six. What's the equity?",
+  "explanation": "Credit = $34,400 + $17,200 = $51,600. SMV = 800 x $46 = $36,800. Equity = credit - SMV = $14,800. Short equity rises when the stock falls. $17,200: is the original equity, before the price change. $51,600: is the credit balance. $36,800: is the current short market value.",
+  "spoken_explanation": "Credit balance is fifty-one thousand six hundred dollars. Short market value now is thirty-six thousand eight hundred dollars. Equity is credit minus short market value: fourteen thousand eight hundred dollars. Short sellers gain equity when the stock falls. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "short-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0373",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-short",
+  "lesson_id": "s7-4-06",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer sells short 200 shares of MNO at $26 in a margin account and deposits the Reg T requirement. What is the credit balance?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$2,600"
+   },
+   {
+    "key": "B",
+    "text": "$10,400"
+   },
+   {
+    "key": "C",
+    "text": "$5,200"
+   },
+   {
+    "key": "D",
+    "text": "$7,800"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "A customer shorts two hundred shares of MNO at twenty-six and deposits the Reg T requirement. What's the credit balance?",
+  "explanation": "Proceeds $5,200 + Reg T deposit (50%) $2,600 = $7,800. $5,200: is just the short sale proceeds. $2,600: is the Reg T deposit. $10,400: doubles the proceeds.",
+  "spoken_explanation": "Short proceeds of five thousand two hundred dollars stay in the account, plus the fifty percent deposit of two thousand six hundred dollars, for a credit balance of seven thousand eight hundred dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "short-account",
+   "credit-balance",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0374",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-short",
+  "lesson_id": "s7-4-06",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A customer sold short 500 shares of VWX at $76, depositing the Reg T requirement. The stock is now $81. What is the equity in the account?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$57,000"
+   },
+   {
+    "key": "B",
+    "text": "$40,500"
+   },
+   {
+    "key": "C",
+    "text": "$16,500"
+   },
+   {
+    "key": "D",
+    "text": "$19,000"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A customer shorted five hundred shares at seventy-six, depositing the Reg T requirement. The stock is now eighty-one. What's the equity?",
+  "explanation": "Credit = $38,000 + $19,000 = $57,000. SMV = 500 x $81 = $40,500. Equity = credit - SMV = $16,500. Short equity rises when the stock falls. $19,000: is the original equity, before the price change. $57,000: is the credit balance. $40,500: is the current short market value.",
+  "spoken_explanation": "Credit balance is fifty-seven thousand dollars. Short market value now is forty thousand five hundred dollars. Equity is credit minus short market value: sixteen thousand five hundred dollars. Short sellers gain equity when the stock falls. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "short-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0375",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A long margin account has a market value of $38,600 and a debit balance of $34,000. Using the 25% minimum, how much cash must the customer deposit to meet the maintenance call?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$14,700"
+   },
+   {
+    "key": "B",
+    "text": "$5,050"
+   },
+   {
+    "key": "C",
+    "text": "$4,600"
+   },
+   {
+    "key": "D",
+    "text": "$9,650"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A long margin account is worth thirty-eight thousand six hundred dollars with a debit of thirty-four thousand dollars. At twenty-five percent maintenance, how much cash meets the call?",
+  "explanation": "Equity = $38,600 - $34,000 = $4,600. Required = 25% x $38,600 = $9,650. Call = $9,650 - $4,600 = $5,050 in cash. (A deposit of fully paid securities would need more, since only 75% of their value counts.) $9,650: is the total required equity, not the shortfall. $14,700: uses the 50% Reg T level. $4,600: is current equity.",
+  "spoken_explanation": "Equity is thirty-eight thousand six hundred dollars minus thirty-four thousand dollars, which is four thousand six hundred dollars. Required is a quarter of thirty-eight thousand six hundred dollars, which is nine thousand six hundred fifty dollars. The shortfall, five thousand fifty dollars, is the cash call.",
+  "tags": [
+   "margin",
+   "maintenance-call",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: maintenance requirements, deposits to meet calls"
+ },
+ {
+  "id": "s7-q-0376",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A long margin account has a market value of $62,500 and a debit balance of $55,000. Using the 25% minimum, how much cash must the customer deposit to meet the maintenance call?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$23,750"
+   },
+   {
+    "key": "B",
+    "text": "$15,625"
+   },
+   {
+    "key": "C",
+    "text": "$7,500"
+   },
+   {
+    "key": "D",
+    "text": "$8,125"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "A long margin account is worth sixty-two thousand five hundred dollars with a debit of fifty-five thousand dollars. At twenty-five percent maintenance, how much cash meets the call?",
+  "explanation": "Equity = $62,500 - $55,000 = $7,500. Required = 25% x $62,500 = $15,625. Call = $15,625 - $7,500 = $8,125 in cash. (A deposit of fully paid securities would need more, since only 75% of their value counts.) $15,625: is the total required equity, not the shortfall. $23,750: uses the 50% Reg T level. $7,500: is current equity.",
+  "spoken_explanation": "Equity is sixty-two thousand five hundred dollars minus fifty-five thousand dollars, which is seven thousand five hundred dollars. Required is a quarter of sixty-two thousand five hundred dollars, which is fifteen thousand six hundred twenty-five dollars. The shortfall, eight thousand one hundred twenty-five dollars, is the cash call.",
+  "tags": [
+   "margin",
+   "maintenance-call",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: maintenance requirements, deposits to meet calls"
+ },
+ {
+  "id": "s7-q-0377",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A long margin account has a market value of $56,200 and a debit balance of $45,000. Using the 25% minimum, how much cash must the customer deposit to meet the maintenance call?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$11,200"
+   },
+   {
+    "key": "B",
+    "text": "$16,900"
+   },
+   {
+    "key": "C",
+    "text": "$2,850"
+   },
+   {
+    "key": "D",
+    "text": "$14,050"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A long margin account is worth fifty-six thousand two hundred dollars with a debit of forty-five thousand dollars. At twenty-five percent maintenance, how much cash meets the call?",
+  "explanation": "Equity = $56,200 - $45,000 = $11,200. Required = 25% x $56,200 = $14,050. Call = $14,050 - $11,200 = $2,850 in cash. (A deposit of fully paid securities would need more, since only 75% of their value counts.) $14,050: is the total required equity, not the shortfall. $16,900: uses the 50% Reg T level. $11,200: is current equity.",
+  "spoken_explanation": "Equity is fifty-six thousand two hundred dollars minus forty-five thousand dollars, which is eleven thousand two hundred dollars. Required is a quarter of fifty-six thousand two hundred dollars, which is fourteen thousand fifty dollars. The shortfall, two thousand eight hundred fifty dollars, is the cash call.",
+  "tags": [
+   "margin",
+   "maintenance-call",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: maintenance requirements, deposits to meet calls"
+ },
+ {
+  "id": "s7-q-0378",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-long",
+  "lesson_id": "s7-4-05",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A long margin account has a market value of $43,900 and a debit balance of $36,000. Using the 25% minimum, how much cash must the customer deposit to meet the maintenance call?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$3,075"
+   },
+   {
+    "key": "B",
+    "text": "$7,900"
+   },
+   {
+    "key": "C",
+    "text": "$14,050"
+   },
+   {
+    "key": "D",
+    "text": "$10,975"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A long margin account is worth forty-three thousand nine hundred dollars with a debit of thirty-six thousand dollars. At twenty-five percent maintenance, how much cash meets the call?",
+  "explanation": "Equity = $43,900 - $36,000 = $7,900. Required = 25% x $43,900 = $10,975. Call = $10,975 - $7,900 = $3,075 in cash. (A deposit of fully paid securities would need more, since only 75% of their value counts.) $10,975: is the total required equity, not the shortfall. $14,050: uses the 50% Reg T level. $7,900: is current equity.",
+  "spoken_explanation": "Equity is forty-three thousand nine hundred dollars minus thirty-six thousand dollars, which is seven thousand nine hundred dollars. Required is a quarter of forty-three thousand nine hundred dollars, which is ten thousand nine hundred seventy-five dollars. The shortfall, three thousand seventy-five dollars, is the cash call.",
+  "tags": [
+   "margin",
+   "maintenance-call",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: maintenance requirements, deposits to meet calls"
+ },
+ {
+  "id": "s7-q-0379",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-combined",
+  "lesson_id": "s7-4-06",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A combined margin account has LMV of $68,000, a debit balance of $31,000, SMV of $22,000, and a credit balance of $33,000. What is the total equity?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$11,000"
+   },
+   {
+    "key": "B",
+    "text": "$48,000"
+   },
+   {
+    "key": "C",
+    "text": "$101,000"
+   },
+   {
+    "key": "D",
+    "text": "$37,000"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A combined account has long market value of sixty-eight thousand dollars, a debit of thirty-one thousand dollars, short market value of twenty-two thousand dollars, and a credit of thirty-three thousand dollars. What's the total equity?",
+  "explanation": "Combined equity = LMV + CR - DR - SMV = $68,000 + $33,000 - $31,000 - $22,000 = $48,000. $37,000: counts only the long side. $11,000: counts only the short side. $101,000: adds the assets and ignores the liabilities.",
+  "spoken_explanation": "Add what you own, the long market value and the credit, then subtract what you owe, the debit and the short market value. one hundred one thousand dollars minus fifty-three thousand dollars is forty-eight thousand dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "combined-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0380",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-combined",
+  "lesson_id": "s7-4-06",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A combined margin account has LMV of $70,000, a debit balance of $32,000, SMV of $32,000, and a credit balance of $48,000. What is the total equity?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$118,000"
+   },
+   {
+    "key": "B",
+    "text": "$16,000"
+   },
+   {
+    "key": "C",
+    "text": "$38,000"
+   },
+   {
+    "key": "D",
+    "text": "$54,000"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "A combined account has long market value of seventy thousand dollars, a debit of thirty-two thousand dollars, short market value of thirty-two thousand dollars, and a credit of forty-eight thousand dollars. What's the total equity?",
+  "explanation": "Combined equity = LMV + CR - DR - SMV = $70,000 + $48,000 - $32,000 - $32,000 = $54,000. $38,000: counts only the long side. $16,000: counts only the short side. $118,000: adds the assets and ignores the liabilities.",
+  "spoken_explanation": "Add what you own, the long market value and the credit, then subtract what you owe, the debit and the short market value. one hundred eighteen thousand dollars minus sixty-four thousand dollars is fifty-four thousand dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "combined-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0381",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-combined",
+  "lesson_id": "s7-4-06",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A combined margin account has LMV of $79,000, a debit balance of $38,500, SMV of $10,000, and a credit balance of $15,000. What is the total equity?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$40,500"
+   },
+   {
+    "key": "B",
+    "text": "$45,500"
+   },
+   {
+    "key": "C",
+    "text": "$5,000"
+   },
+   {
+    "key": "D",
+    "text": "$94,000"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A combined account has long market value of seventy-nine thousand dollars, a debit of thirty-eight thousand five hundred dollars, short market value of ten thousand dollars, and a credit of fifteen thousand dollars. What's the total equity?",
+  "explanation": "Combined equity = LMV + CR - DR - SMV = $79,000 + $15,000 - $38,500 - $10,000 = $45,500. $40,500: counts only the long side. $5,000: counts only the short side. $94,000: adds the assets and ignores the liabilities.",
+  "spoken_explanation": "Add what you own, the long market value and the credit, then subtract what you owe, the debit and the short market value. ninety-four thousand dollars minus forty-eight thousand five hundred dollars is forty-five thousand five hundred dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "combined-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: initial margin, Regulation T requirement, excess equity, buying power"
+ },
+ {
+  "id": "s7-q-0382",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-sma",
+  "lesson_id": "s7-4-07",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A margin account has LMV of $50,000, a debit of $32,500, and no SMA. The customer sells $5,000 of stock. How much is credited to SMA?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$2,500"
+   },
+   {
+    "key": "B",
+    "text": "$5,000"
+   },
+   {
+    "key": "C",
+    "text": "$0"
+   },
+   {
+    "key": "D",
+    "text": "$1,250"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A margin account is worth fifty thousand dollars with a debit of thirty-two thousand five hundred dollars and no SMA. The customer sells five thousand dollars of stock. How much goes to SMA?",
+  "explanation": "Equity = $17,500 = 35.0% of LMV, below 50%, so the account is restricted. In a restricted account, 50% of sale proceeds is released to SMA: $2,500. All proceeds reduce the debit. $5,000: releases all of the proceeds. $0: ignores the 50% release rule for restricted accounts. $1,250: uses 25%.",
+  "spoken_explanation": "Equity is seventeen thousand five hundred dollars, under half the market value, so the account is restricted. On a sale, half the proceeds go to SMA: half of five thousand dollars is two thousand five hundred dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "sma",
+   "restricted-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: special memorandum account (SMA)"
+ },
+ {
+  "id": "s7-q-0383",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-sma",
+  "lesson_id": "s7-4-07",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A margin account has LMV of $64,000, a debit of $41,600, and no SMA. The customer sells $7,000 of stock. How much is credited to SMA?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$3,500"
+   },
+   {
+    "key": "B",
+    "text": "$1,750"
+   },
+   {
+    "key": "C",
+    "text": "$0"
+   },
+   {
+    "key": "D",
+    "text": "$7,000"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A margin account is worth sixty-four thousand dollars with a debit of forty-one thousand six hundred dollars and no SMA. The customer sells seven thousand dollars of stock. How much goes to SMA?",
+  "explanation": "Equity = $22,400 = 35.0% of LMV, below 50%, so the account is restricted. In a restricted account, 50% of sale proceeds is released to SMA: $3,500. All proceeds reduce the debit. $7,000: releases all of the proceeds. $0: ignores the 50% release rule for restricted accounts. $1,750: uses 25%.",
+  "spoken_explanation": "Equity is twenty-two thousand four hundred dollars, under half the market value, so the account is restricted. On a sale, half the proceeds go to SMA: half of seven thousand dollars is three thousand five hundred dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "sma",
+   "restricted-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: special memorandum account (SMA)"
+ },
+ {
+  "id": "s7-q-0384",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-sma",
+  "lesson_id": "s7-4-07",
+  "difficulty": 3,
+  "type": "mc",
+  "stem": "A margin account has LMV of $66,000, a debit of $36,300, and no SMA. The customer sells $8,000 of stock. How much is credited to SMA?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$0"
+   },
+   {
+    "key": "B",
+    "text": "$2,000"
+   },
+   {
+    "key": "C",
+    "text": "$4,000"
+   },
+   {
+    "key": "D",
+    "text": "$8,000"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A margin account is worth sixty-six thousand dollars with a debit of thirty-six thousand three hundred dollars and no SMA. The customer sells eight thousand dollars of stock. How much goes to SMA?",
+  "explanation": "Equity = $29,700 = 45.0% of LMV, below 50%, so the account is restricted. In a restricted account, 50% of sale proceeds is released to SMA: $4,000. All proceeds reduce the debit. $8,000: releases all of the proceeds. $0: ignores the 50% release rule for restricted accounts. $2,000: uses 25%.",
+  "spoken_explanation": "Equity is twenty-nine thousand seven hundred dollars, under half the market value, so the account is restricted. On a sale, half the proceeds go to SMA: half of eight thousand dollars is four thousand dollars. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "sma",
+   "restricted-account",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: special memorandum account (SMA)"
+ },
+ {
+  "id": "s7-q-0385",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-sma",
+  "lesson_id": "s7-4-07",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A margin account has SMA of $3,000. A cash dividend of $1,300 is credited to the account. What is the new SMA?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$4,300"
+   },
+   {
+    "key": "B",
+    "text": "$5,600"
+   },
+   {
+    "key": "C",
+    "text": "$3,650"
+   },
+   {
+    "key": "D",
+    "text": "$3,000"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "A margin account has SMA of three thousand dollars. A one thousand three hundred dollars cash dividend comes in. What's the new SMA?",
+  "explanation": "Cash dividends and interest are credited 100% to SMA: $3,000 + $1,300 = $4,300. $3,650: credits only half the dividend. $3,000: ignores the dividend. $5,600: doubles the dividend.",
+  "spoken_explanation": "Cash dividends go fully to SMA. three thousand dollars plus one thousand three hundred dollars is four thousand three hundred dollars. Cash deposits work the same way. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "sma",
+   "dividends",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: special memorandum account (SMA)"
+ },
+ {
+  "id": "s7-q-0386",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "margin-sma",
+  "lesson_id": "s7-4-07",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A margin account has SMA of $7,000. A cash dividend of $700 is credited to the account. What is the new SMA?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$8,400"
+   },
+   {
+    "key": "B",
+    "text": "$7,350"
+   },
+   {
+    "key": "C",
+    "text": "$7,700"
+   },
+   {
+    "key": "D",
+    "text": "$7,000"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "A margin account has SMA of seven thousand dollars. A seven hundred dollars cash dividend comes in. What's the new SMA?",
+  "explanation": "Cash dividends and interest are credited 100% to SMA: $7,000 + $700 = $7,700. $7,350: credits only half the dividend. $7,000: ignores the dividend. $8,400: doubles the dividend.",
+  "spoken_explanation": "Cash dividends go fully to SMA. seven thousand dollars plus seven hundred dollars is seven thousand seven hundred dollars. Cash deposits work the same way. Margin math always comes back to one equation: equity equals market value minus debit in a long account, or credit minus short market value in a short account.",
+  "tags": [
+   "margin",
+   "sma",
+   "dividends",
+   "calculation"
+  ],
+  "outline_ref": "4.4 Margin: special memorandum account (SMA)"
+ },
+ {
+  "id": "s7-q-0894",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "orders",
+  "lesson_id": "s7-4-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An order to buy or sell immediately at the best available price, which guarantees execution but not price?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Firm quote"
+   },
+   {
+    "key": "B",
+    "text": "Immediate-or-cancel order"
+   },
+   {
+    "key": "C",
+    "text": "Not-held order"
+   },
+   {
+    "key": "D",
+    "text": "Market order"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: an order to buy or sell immediately at the best available price, which guarantees execution but not price?",
+  "explanation": "Market order is an order to buy or sell immediately at the best available price, which guarantees execution but not price. Not-held order: is an order giving the representative discretion over the time and price of execution. Immediate-or-cancel order: is an order that must be executed immediately, with any unfilled part canceled. Firm quote: is a quote at which the dealer is obligated to trade at least the stated size.",
+  "spoken_explanation": "The answer is Market order: an order to buy or sell immediately at the best available price, which guarantees execution but not price. Don't confuse it with Not-held order, which is an order giving the representative discretion over the time and price of execution. Ask whether an order guarantees price, execution, or neither.",
+  "tags": [
+   "concept",
+   "orders"
+  ],
+  "outline_ref": "4.1 Types of quotes and orders; short sales; best execution"
+ },
+ {
+  "id": "s7-q-0895",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "orders",
+  "lesson_id": "s7-4-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An order to buy at or below, or sell at or above, a set price, which guarantees price but not execution?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Not-held order"
+   },
+   {
+    "key": "B",
+    "text": "Limit order"
+   },
+   {
+    "key": "C",
+    "text": "Immediate-or-cancel order"
+   },
+   {
+    "key": "D",
+    "text": "Market-on-close order"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: an order to buy at or below, or sell at or above, a set price, which guarantees price but not execution?",
+  "explanation": "Limit order is an order to buy at or below, or sell at or above, a set price, which guarantees price but not execution. Market-on-close order: is an order to be executed at or as near as possible to the closing price. Not-held order: is an order giving the representative discretion over the time and price of execution. Immediate-or-cancel order: is an order that must be executed immediately, with any unfilled part canceled.",
+  "spoken_explanation": "The answer is Limit order: an order to buy at or below, or sell at or above, a set price, which guarantees price but not execution. Don't confuse it with Market-on-close order, which is an order to be executed at or as near as possible to the closing price.",
+  "tags": [
+   "concept",
+   "orders"
+  ],
+  "outline_ref": "4.1 Types of quotes and orders; short sales; best execution"
+ },
+ {
+  "id": "s7-q-0896",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "orders",
+  "lesson_id": "s7-4-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An order that becomes a market order once the stock trades at or through the stop price?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Stop order"
+   },
+   {
+    "key": "B",
+    "text": "Subject quote"
+   },
+   {
+    "key": "C",
+    "text": "Fill-or-kill order"
+   },
+   {
+    "key": "D",
+    "text": "Not-held order"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: an order that becomes a market order once the stock trades at or through the stop price?",
+  "explanation": "Stop order is an order that becomes a market order once the stock trades at or through the stop price. Subject quote: is a quote that needs reconfirmation before the dealer will trade on it. Not-held order: is an order giving the representative discretion over the time and price of execution. Fill-or-kill order: is an order that must be executed immediately and in full, or it is canceled.",
+  "spoken_explanation": "The answer is Stop order: an order that becomes a market order once the stock trades at or through the stop price. Don't confuse it with Subject quote, which is a quote that needs reconfirmation before the dealer will trade on it. Ask whether an order guarantees price, execution, or neither.",
+  "tags": [
+   "concept",
+   "orders"
+  ],
+  "outline_ref": "4.1 Types of quotes and orders; short sales; best execution"
+ },
+ {
+  "id": "s7-q-0897",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "orders",
+  "lesson_id": "s7-4-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An order that becomes a limit order once the stop price is reached?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Stop-limit order"
+   },
+   {
+    "key": "B",
+    "text": "Market-on-close order"
+   },
+   {
+    "key": "C",
+    "text": "Fill-or-kill order"
+   },
+   {
+    "key": "D",
+    "text": "Subject quote"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: an order that becomes a limit order once the stop price is reached?",
+  "explanation": "Stop-limit order is an order that becomes a limit order once the stop price is reached. Market-on-close order: is an order to be executed at or as near as possible to the closing price. Subject quote: is a quote that needs reconfirmation before the dealer will trade on it. Fill-or-kill order: is an order that must be executed immediately and in full, or it is canceled.",
+  "spoken_explanation": "The answer is Stop-limit order: an order that becomes a limit order once the stop price is reached. Don't confuse it with Market-on-close order, which is an order to be executed at or as near as possible to the closing price. Ask whether an order guarantees price, execution, or neither.",
+  "tags": [
+   "concept",
+   "orders"
+  ],
+  "outline_ref": "4.1 Types of quotes and orders; short sales; best execution"
+ },
+ {
+  "id": "s7-q-0898",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "orders",
+  "lesson_id": "s7-4-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An order that must be filled completely or not at all, though not necessarily immediately?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "All-or-none order"
+   },
+   {
+    "key": "B",
+    "text": "Subject quote"
+   },
+   {
+    "key": "C",
+    "text": "Fill-or-kill order"
+   },
+   {
+    "key": "D",
+    "text": "Locate requirement"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: an order that must be filled completely or not at all, though not necessarily immediately?",
+  "explanation": "All-or-none order is an order that must be filled completely or not at all, though not necessarily immediately. Fill-or-kill order: is an order that must be executed immediately and in full, or it is canceled. Locate requirement: is the Reg SHO rule that a firm must borrow or have reasonable grounds to believe it can borrow a security before accepting a short sale. Subject quote: is a quote that needs reconfirmation before the dealer will trade on it.",
+  "spoken_explanation": "The answer is All-or-none order: an order that must be filled completely or not at all, though not necessarily immediately. Don't confuse it with Fill-or-kill order, which is an order that must be executed immediately and in full, or it is canceled. Ask whether an order guarantees price, execution, or neither.",
+  "tags": [
+   "concept",
+   "orders"
+  ],
+  "outline_ref": "4.1 Types of quotes and orders; short sales; best execution"
+ },
+ {
+  "id": "s7-q-0899",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "orders",
+  "lesson_id": "s7-4-01",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: All-or-none order is an approximate price range for a trade that needs special handling, such as a large block.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. All-or-none order is an approximate price range for a trade that needs special handling, such as a large block.",
+  "explanation": "False. That describes Workout quote. All-or-none order is an order that must be filled completely or not at all, though not necessarily immediately.",
+  "spoken_explanation": "False. That describes Workout quote. All-or-none order is actually an order that must be filled completely or not at all, though not necessarily immediately. Ask whether an order guarantees price, execution, or neither. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "orders"
+  ],
+  "outline_ref": "4.1 Types of quotes and orders; short sales; best execution"
+ },
+ {
+  "id": "s7-q-0900",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "orders",
+  "lesson_id": "s7-4-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An order that must be executed immediately and in full, or it is canceled?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Good-till-canceled order"
+   },
+   {
+    "key": "B",
+    "text": "Limit order"
+   },
+   {
+    "key": "C",
+    "text": "Fill-or-kill order"
+   },
+   {
+    "key": "D",
+    "text": "Firm quote"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: an order that must be executed immediately and in full, or it is canceled?",
+  "explanation": "Fill-or-kill order is an order that must be executed immediately and in full, or it is canceled. Limit order: is an order to buy at or below, or sell at or above, a set price, which guarantees price but not execution. Firm quote: is a quote at which the dealer is obligated to trade at least the stated size. Good-till-canceled order: is an order that stays open until it is executed or canceled.",
+  "spoken_explanation": "The answer is Fill-or-kill order: an order that must be executed immediately and in full, or it is canceled. Don't confuse it with Limit order, which is an order to buy at or below, or sell at or above, a set price, which guarantees price but not execution.",
+  "tags": [
+   "concept",
+   "orders"
+  ],
+  "outline_ref": "4.1 Types of quotes and orders; short sales; best execution"
+ },
+ {
+  "id": "s7-q-0901",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "orders",
+  "lesson_id": "s7-4-01",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Fill-or-kill order is an order that must be executed immediately and in full, or it is canceled.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "True or false. Fill-or-kill order is an order that must be executed immediately and in full, or it is canceled.",
+  "explanation": "True. Fill-or-kill order is an order that must be executed immediately and in full, or it is canceled.",
+  "spoken_explanation": "True. Fill-or-kill order is an order that must be executed immediately and in full, or it is canceled. Ask whether an order guarantees price, execution, or neither. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "orders"
+  ],
+  "outline_ref": "4.1 Types of quotes and orders; short sales; best execution"
+ },
+ {
+  "id": "s7-q-0902",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "orders",
+  "lesson_id": "s7-4-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An order that must be executed immediately, with any unfilled part canceled?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Good-till-canceled order"
+   },
+   {
+    "key": "B",
+    "text": "Subject quote"
+   },
+   {
+    "key": "C",
+    "text": "Immediate-or-cancel order"
+   },
+   {
+    "key": "D",
+    "text": "Market-on-close order"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: an order that must be executed immediately, with any unfilled part canceled?",
+  "explanation": "Immediate-or-cancel order is an order that must be executed immediately, with any unfilled part canceled. Market-on-close order: is an order to be executed at or as near as possible to the closing price. Good-till-canceled order: is an order that stays open until it is executed or canceled. Subject quote: is a quote that needs reconfirmation before the dealer will trade on it.",
+  "spoken_explanation": "The answer is Immediate-or-cancel order: an order that must be executed immediately, with any unfilled part canceled. Don't confuse it with Market-on-close order, which is an order to be executed at or as near as possible to the closing price. Ask whether an order guarantees price, execution, or neither.",
+  "tags": [
+   "concept",
+   "orders"
+  ],
+  "outline_ref": "4.1 Types of quotes and orders; short sales; best execution"
+ },
+ {
+  "id": "s7-q-0903",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "orders",
+  "lesson_id": "s7-4-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An order giving the representative discretion over the time and price of execution?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Limit order"
+   },
+   {
+    "key": "B",
+    "text": "Not-held order"
+   },
+   {
+    "key": "C",
+    "text": "Stop order"
+   },
+   {
+    "key": "D",
+    "text": "All-or-none order"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: an order giving the representative discretion over the time and price of execution?",
+  "explanation": "Not-held order is an order giving the representative discretion over the time and price of execution. Limit order: is an order to buy at or below, or sell at or above, a set price, which guarantees price but not execution. All-or-none order: is an order that must be filled completely or not at all, though not necessarily immediately. Stop order: is an order that becomes a market order once the stock trades at or through the stop price.",
+  "spoken_explanation": "The answer is Not-held order: an order giving the representative discretion over the time and price of execution. Don't confuse it with Limit order, which is an order to buy at or below, or sell at or above, a set price, which guarantees price but not execution.",
+  "tags": [
+   "concept",
+   "orders"
+  ],
+  "outline_ref": "4.1 Types of quotes and orders; short sales; best execution"
+ },
+ {
+  "id": "s7-q-0904",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "orders",
+  "lesson_id": "s7-4-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An order to be executed at or as near as possible to the closing price?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Market order"
+   },
+   {
+    "key": "B",
+    "text": "Workout quote"
+   },
+   {
+    "key": "C",
+    "text": "Subject quote"
+   },
+   {
+    "key": "D",
+    "text": "Market-on-close order"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: an order to be executed at or as near as possible to the closing price?",
+  "explanation": "Market-on-close order is an order to be executed at or as near as possible to the closing price. Workout quote: is an approximate price range for a trade that needs special handling, such as a large block. Subject quote: is a quote that needs reconfirmation before the dealer will trade on it. Market order: is an order to buy or sell immediately at the best available price, which guarantees execution but not price.",
+  "spoken_explanation": "The answer is Market-on-close order: an order to be executed at or as near as possible to the closing price. Don't confuse it with Workout quote, which is an approximate price range for a trade that needs special handling, such as a large block. Ask whether an order guarantees price, execution, or neither.",
+  "tags": [
+   "concept",
+   "orders"
+  ],
+  "outline_ref": "4.1 Types of quotes and orders; short sales; best execution"
+ },
+ {
+  "id": "s7-q-0905",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "orders",
+  "lesson_id": "s7-4-01",
+  "difficulty": 1,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An order that stays open until it is executed or canceled?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Subject quote"
+   },
+   {
+    "key": "B",
+    "text": "Good-till-canceled order"
+   },
+   {
+    "key": "C",
+    "text": "Immediate-or-cancel order"
+   },
+   {
+    "key": "D",
+    "text": "Fill-or-kill order"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: an order that stays open until it is executed or canceled?",
+  "explanation": "Good-till-canceled order is an order that stays open until it is executed or canceled. Subject quote: is a quote that needs reconfirmation before the dealer will trade on it. Immediate-or-cancel order: is an order that must be executed immediately, with any unfilled part canceled. Fill-or-kill order: is an order that must be executed immediately and in full, or it is canceled.",
+  "spoken_explanation": "The answer is Good-till-canceled order: an order that stays open until it is executed or canceled. Don't confuse it with Subject quote, which is a quote that needs reconfirmation before the dealer will trade on it. Ask whether an order guarantees price, execution, or neither. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "orders"
+  ],
+  "outline_ref": "4.1 Types of quotes and orders; short sales; best execution"
+ },
+ {
+  "id": "s7-q-0906",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "orders",
+  "lesson_id": "s7-4-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A quote at which the dealer is obligated to trade at least the stated size?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "All-or-none order"
+   },
+   {
+    "key": "B",
+    "text": "Subject quote"
+   },
+   {
+    "key": "C",
+    "text": "Stop order"
+   },
+   {
+    "key": "D",
+    "text": "Firm quote"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: a quote at which the dealer is obligated to trade at least the stated size?",
+  "explanation": "Firm quote is a quote at which the dealer is obligated to trade at least the stated size. Subject quote: is a quote that needs reconfirmation before the dealer will trade on it. All-or-none order: is an order that must be filled completely or not at all, though not necessarily immediately. Stop order: is an order that becomes a market order once the stock trades at or through the stop price.",
+  "spoken_explanation": "The answer is Firm quote: a quote at which the dealer is obligated to trade at least the stated size. Don't confuse it with Subject quote, which is a quote that needs reconfirmation before the dealer will trade on it. Ask whether an order guarantees price, execution, or neither.",
+  "tags": [
+   "concept",
+   "orders"
+  ],
+  "outline_ref": "4.1 Types of quotes and orders; short sales; best execution"
+ },
+ {
+  "id": "s7-q-0907",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "orders",
+  "lesson_id": "s7-4-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A quote that needs reconfirmation before the dealer will trade on it?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Best execution"
+   },
+   {
+    "key": "B",
+    "text": "Subject quote"
+   },
+   {
+    "key": "C",
+    "text": "Not-held order"
+   },
+   {
+    "key": "D",
+    "text": "Workout quote"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: a quote that needs reconfirmation before the dealer will trade on it?",
+  "explanation": "Subject quote is a quote that needs reconfirmation before the dealer will trade on it. Workout quote: is an approximate price range for a trade that needs special handling, such as a large block. Best execution: is a firm's duty to use reasonable diligence to get the most favorable terms reasonably available for customer orders. Not-held order: is an order giving the representative discretion over the time and price of execution.",
+  "spoken_explanation": "The answer is Subject quote: a quote that needs reconfirmation before the dealer will trade on it. Don't confuse it with Workout quote, which is an approximate price range for a trade that needs special handling, such as a large block. Ask whether an order guarantees price, execution, or neither.",
+  "tags": [
+   "concept",
+   "orders"
+  ],
+  "outline_ref": "4.1 Types of quotes and orders; short sales; best execution"
+ },
+ {
+  "id": "s7-q-0908",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "orders",
+  "lesson_id": "s7-4-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An approximate price range for a trade that needs special handling, such as a large block?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Market order"
+   },
+   {
+    "key": "B",
+    "text": "Immediate-or-cancel order"
+   },
+   {
+    "key": "C",
+    "text": "Workout quote"
+   },
+   {
+    "key": "D",
+    "text": "All-or-none order"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: an approximate price range for a trade that needs special handling, such as a large block?",
+  "explanation": "Workout quote is an approximate price range for a trade that needs special handling, such as a large block. Immediate-or-cancel order: is an order that must be executed immediately, with any unfilled part canceled. All-or-none order: is an order that must be filled completely or not at all, though not necessarily immediately. Market order: is an order to buy or sell immediately at the best available price, which guarantees execution but not price.",
+  "spoken_explanation": "The answer is Workout quote: an approximate price range for a trade that needs special handling, such as a large block. Don't confuse it with Immediate-or-cancel order, which is an order that must be executed immediately, with any unfilled part canceled. Ask whether an order guarantees price, execution, or neither.",
+  "tags": [
+   "concept",
+   "orders"
+  ],
+  "outline_ref": "4.1 Types of quotes and orders; short sales; best execution"
+ },
+ {
+  "id": "s7-q-0909",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "orders",
+  "lesson_id": "s7-4-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The Reg SHO rule that a firm must borrow or have reasonable grounds to believe it can borrow a security before accepting a short sale?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Subject quote"
+   },
+   {
+    "key": "B",
+    "text": "Firm quote"
+   },
+   {
+    "key": "C",
+    "text": "Locate requirement"
+   },
+   {
+    "key": "D",
+    "text": "Best execution"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: the Reg SHO rule that a firm must borrow or have reasonable grounds to believe it can borrow a security before accepting a short sale?",
+  "explanation": "Locate requirement is the Reg SHO rule that a firm must borrow or have reasonable grounds to believe it can borrow a security before accepting a short sale. Subject quote: is a quote that needs reconfirmation before the dealer will trade on it. Firm quote: is a quote at which the dealer is obligated to trade at least the stated size. Best execution: is a firm's duty to use reasonable diligence to get the most favorable terms reasonably available for customer orders.",
+  "spoken_explanation": "The answer is Locate requirement: the Reg SHO rule that a firm must borrow or have reasonable grounds to believe it can borrow a security before accepting a short sale. Don't confuse it with Subject quote, which is a quote that needs reconfirmation before the dealer will trade on it.",
+  "tags": [
+   "concept",
+   "orders"
+  ],
+  "outline_ref": "4.1 Types of quotes and orders; short sales; best execution"
+ },
+ {
+  "id": "s7-q-0910",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "orders",
+  "lesson_id": "s7-4-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A firm's duty to use reasonable diligence to get the most favorable terms reasonably available for customer orders?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Locate requirement"
+   },
+   {
+    "key": "B",
+    "text": "Best execution"
+   },
+   {
+    "key": "C",
+    "text": "Fill-or-kill order"
+   },
+   {
+    "key": "D",
+    "text": "Not-held order"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: a firm's duty to use reasonable diligence to get the most favorable terms reasonably available for customer orders?",
+  "explanation": "Best execution is a firm's duty to use reasonable diligence to get the most favorable terms reasonably available for customer orders. Locate requirement: is the Reg SHO rule that a firm must borrow or have reasonable grounds to believe it can borrow a security before accepting a short sale. Fill-or-kill order: is an order that must be executed immediately and in full, or it is canceled. Not-held order: is an order giving the representative discretion over the time and price of execution.",
+  "spoken_explanation": "The answer is Best execution: a firm's duty to use reasonable diligence to get the most favorable terms reasonably available for customer orders. Don't confuse it with Locate requirement, which is the Reg SHO rule that a firm must borrow or have reasonable grounds to believe it can borrow a security before accepting a short sale.",
+  "tags": [
+   "concept",
+   "orders"
+  ],
+  "outline_ref": "4.1 Types of quotes and orders; short sales; best execution"
+ },
+ {
+  "id": "s7-q-0911",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "settlement",
+  "lesson_id": "s7-4-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: Standard settlement one business day after trade date for stocks, corporate and municipal bonds, and Treasuries?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "When-issued trade"
+   },
+   {
+    "key": "B",
+    "text": "Regular-way settlement"
+   },
+   {
+    "key": "C",
+    "text": "Cash settlement"
+   },
+   {
+    "key": "D",
+    "text": "Direct Registration System"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: standard settlement one business day after trade date for stocks, corporate and municipal bonds, and Treasuries?",
+  "explanation": "Regular-way settlement is standard settlement one business day after trade date for stocks, corporate and municipal bonds, and Treasuries. Direct Registration System: is a book-entry system that lets investors hold shares in their own names on the issuer's records without a physical certificate. When-issued trade: is a trade in a security that has been approved for issue but not yet issued, settling on a date set after issuance. Cash settlement: is same-day settlement, with delivery due by 2:30 PM Eastern time if the trade is executed before then.",
+  "spoken_explanation": "The answer is Regular-way settlement: standard settlement one business day after trade date for stocks, corporate and municipal bonds, and Treasuries. Don't confuse it with Direct Registration System, which is a book-entry system that lets investors hold shares in their own names on the issuer's records without a physical certificate.",
+  "tags": [
+   "concept",
+   "settlement"
+  ],
+  "outline_ref": "4.2 Delivery and settlement; good delivery"
+ },
+ {
+  "id": "s7-q-0912",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "settlement",
+  "lesson_id": "s7-4-02",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Regular-way settlement is a trade in a security that has been approved for issue but not yet issued, settling on a date set after issuance.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. Regular-way settlement is a trade in a security that has been approved for issue but not yet issued, settling on a date set after issuance.",
+  "explanation": "False. That describes When-issued trade. Regular-way settlement is standard settlement one business day after trade date for stocks, corporate and municipal bonds, and Treasuries.",
+  "spoken_explanation": "False. That describes When-issued trade. Regular-way settlement is actually standard settlement one business day after trade date for stocks, corporate and municipal bonds, and Treasuries. Settlement questions turn on the security type and the calendar. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "settlement"
+  ],
+  "outline_ref": "4.2 Delivery and settlement; good delivery"
+ },
+ {
+  "id": "s7-q-0913",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "settlement",
+  "lesson_id": "s7-4-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: Same-day settlement, with delivery due by 2:30 PM Eastern time if the trade is executed before then?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Due bill"
+   },
+   {
+    "key": "B",
+    "text": "Cash settlement"
+   },
+   {
+    "key": "C",
+    "text": "Stock power"
+   },
+   {
+    "key": "D",
+    "text": "When-issued trade"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: same-day settlement, with delivery due by two:thirty PM Eastern time if the trade is executed before then?",
+  "explanation": "Cash settlement is same-day settlement, with delivery due by 2:30 PM Eastern time if the trade is executed before then. When-issued trade: is a trade in a security that has been approved for issue but not yet issued, settling on a date set after issuance. Stock power: is a separate assignment form that transfers ownership of a stock certificate without signing the certificate itself. Due bill: is a document a seller gives to a buyer to show the buyer is owed a dividend or distribution received by the seller.",
+  "spoken_explanation": "The answer is Cash settlement: same-day settlement, with delivery due by two:thirty PM Eastern time if the trade is executed before then. Don't confuse it with When-issued trade, which is a trade in a security that has been approved for issue but not yet issued, settling on a date set after issuance.",
+  "tags": [
+   "concept",
+   "settlement"
+  ],
+  "outline_ref": "4.2 Delivery and settlement; good delivery"
+ },
+ {
+  "id": "s7-q-0914",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "settlement",
+  "lesson_id": "s7-4-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A trade in a security that has been approved for issue but not yet issued, settling on a date set after issuance?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "When-issued trade"
+   },
+   {
+    "key": "B",
+    "text": "Regular-way settlement"
+   },
+   {
+    "key": "C",
+    "text": "Direct Registration System"
+   },
+   {
+    "key": "D",
+    "text": "Stock power"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: a trade in a security that has been approved for issue but not yet issued, settling on a date set after issuance?",
+  "explanation": "When-issued trade is a trade in a security that has been approved for issue but not yet issued, settling on a date set after issuance. Direct Registration System: is a book-entry system that lets investors hold shares in their own names on the issuer's records without a physical certificate. Stock power: is a separate assignment form that transfers ownership of a stock certificate without signing the certificate itself. Regular-way settlement: is standard settlement one business day after trade date for stocks, corporate and municipal bonds, and Treasuries.",
+  "spoken_explanation": "The answer is When-issued trade: a trade in a security that has been approved for issue but not yet issued, settling on a date set after issuance. Don't confuse it with Direct Registration System, which is a book-entry system that lets investors hold shares in their own names on the issuer's records without a physical certificate.",
+  "tags": [
+   "concept",
+   "settlement"
+  ],
+  "outline_ref": "4.2 Delivery and settlement; good delivery"
+ },
+ {
+  "id": "s7-q-0915",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "settlement",
+  "lesson_id": "s7-4-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A document a seller gives to a buyer to show the buyer is owed a dividend or distribution received by the seller?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Due bill"
+   },
+   {
+    "key": "B",
+    "text": "Ex-dividend date"
+   },
+   {
+    "key": "C",
+    "text": "When-issued trade"
+   },
+   {
+    "key": "D",
+    "text": "Reclamation"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: a document a seller gives to a buyer to show the buyer is owed a dividend or distribution received by the seller?",
+  "explanation": "Due bill is a document a seller gives to a buyer to show the buyer is owed a dividend or distribution received by the seller. Ex-dividend date: is the first day a stock trades without the right to the upcoming dividend, which is the record date under T+1 settlement. When-issued trade: is a trade in a security that has been approved for issue but not yet issued, settling on a date set after issuance. Reclamation: is the right to return securities previously accepted when a delivery problem is later discovered.",
+  "spoken_explanation": "The answer is Due bill: a document a seller gives to a buyer to show the buyer is owed a dividend or distribution received by the seller. Don't confuse it with Ex-dividend date, which is the first day a stock trades without the right to the upcoming dividend, which is the record date under T plus one settlement.",
+  "tags": [
+   "concept",
+   "settlement"
+  ],
+  "outline_ref": "4.2 Delivery and settlement; good delivery"
+ },
+ {
+  "id": "s7-q-0916",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "settlement",
+  "lesson_id": "s7-4-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A separate assignment form that transfers ownership of a stock certificate without signing the certificate itself?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Don't know notice"
+   },
+   {
+    "key": "B",
+    "text": "Cash settlement"
+   },
+   {
+    "key": "C",
+    "text": "Stock power"
+   },
+   {
+    "key": "D",
+    "text": "When-issued trade"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: a separate assignment form that transfers ownership of a stock certificate without signing the certificate itself?",
+  "explanation": "Stock power is a separate assignment form that transfers ownership of a stock certificate without signing the certificate itself. Don't know notice: is a DK, sent when a firm does not recognize a trade a contra-party has reported. Cash settlement: is same-day settlement, with delivery due by 2:30 PM Eastern time if the trade is executed before then. When-issued trade: is a trade in a security that has been approved for issue but not yet issued, settling on a date set after issuance.",
+  "spoken_explanation": "The answer is Stock power: a separate assignment form that transfers ownership of a stock certificate without signing the certificate itself. Don't confuse it with Don't know notice, which is a DK, sent when a firm does not recognize a trade a contra-party has reported. Settlement questions turn on the security type and the calendar.",
+  "tags": [
+   "concept",
+   "settlement"
+  ],
+  "outline_ref": "4.2 Delivery and settlement; good delivery"
+ },
+ {
+  "id": "s7-q-0917",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "settlement",
+  "lesson_id": "s7-4-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: Delivery of securities in proper form, with correct denominations, signatures and endorsements, so the buyer must accept it?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Reclamation"
+   },
+   {
+    "key": "B",
+    "text": "When-issued trade"
+   },
+   {
+    "key": "C",
+    "text": "Good delivery"
+   },
+   {
+    "key": "D",
+    "text": "Direct Registration System"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: delivery of securities in proper form, with correct denominations, signatures and endorsements, so the buyer must accept it?",
+  "explanation": "Good delivery is delivery of securities in proper form, with correct denominations, signatures and endorsements, so the buyer must accept it. Direct Registration System: is a book-entry system that lets investors hold shares in their own names on the issuer's records without a physical certificate. Reclamation: is the right to return securities previously accepted when a delivery problem is later discovered. When-issued trade: is a trade in a security that has been approved for issue but not yet issued, settling on a date set after issuance.",
+  "spoken_explanation": "The answer is Good delivery: delivery of securities in proper form, with correct denominations, signatures and endorsements, so the buyer must accept it. Don't confuse it with Direct Registration System, which is a book-entry system that lets investors hold shares in their own names on the issuer's records without a physical certificate.",
+  "tags": [
+   "concept",
+   "settlement"
+  ],
+  "outline_ref": "4.2 Delivery and settlement; good delivery"
+ },
+ {
+  "id": "s7-q-0918",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "settlement",
+  "lesson_id": "s7-4-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A book-entry system that lets investors hold shares in their own names on the issuer's records without a physical certificate?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Don't know notice"
+   },
+   {
+    "key": "B",
+    "text": "Reclamation"
+   },
+   {
+    "key": "C",
+    "text": "Due bill"
+   },
+   {
+    "key": "D",
+    "text": "Direct Registration System"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: a book-entry system that lets investors hold shares in their own names on the issuer's records without a physical certificate?",
+  "explanation": "Direct Registration System is a book-entry system that lets investors hold shares in their own names on the issuer's records without a physical certificate. Reclamation: is the right to return securities previously accepted when a delivery problem is later discovered. Due bill: is a document a seller gives to a buyer to show the buyer is owed a dividend or distribution received by the seller. Don't know notice: is a DK, sent when a firm does not recognize a trade a contra-party has reported.",
+  "spoken_explanation": "The answer is Direct Registration System: a book-entry system that lets investors hold shares in their own names on the issuer's records without a physical certificate. Don't confuse it with Reclamation, which is the right to return securities previously accepted when a delivery problem is later discovered.",
+  "tags": [
+   "concept",
+   "settlement"
+  ],
+  "outline_ref": "4.2 Delivery and settlement; good delivery"
+ },
+ {
+  "id": "s7-q-0919",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "settlement",
+  "lesson_id": "s7-4-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A DK, sent when a firm does not recognize a trade a contra-party has reported?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Direct Registration System"
+   },
+   {
+    "key": "B",
+    "text": "Reclamation"
+   },
+   {
+    "key": "C",
+    "text": "Don't know notice"
+   },
+   {
+    "key": "D",
+    "text": "Due bill"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: a DK, sent when a firm does not recognize a trade a contra-party has reported?",
+  "explanation": "Don't know notice is a DK, sent when a firm does not recognize a trade a contra-party has reported. Due bill: is a document a seller gives to a buyer to show the buyer is owed a dividend or distribution received by the seller. Direct Registration System: is a book-entry system that lets investors hold shares in their own names on the issuer's records without a physical certificate. Reclamation: is the right to return securities previously accepted when a delivery problem is later discovered.",
+  "spoken_explanation": "The answer is Don't know notice: a DK, sent when a firm does not recognize a trade a contra-party has reported. Don't confuse it with Due bill, which is a document a seller gives to a buyer to show the buyer is owed a dividend or distribution received by the seller.",
+  "tags": [
+   "concept",
+   "settlement"
+  ],
+  "outline_ref": "4.2 Delivery and settlement; good delivery"
+ },
+ {
+  "id": "s7-q-0920",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "settlement",
+  "lesson_id": "s7-4-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The right to return securities previously accepted when a delivery problem is later discovered?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Direct Registration System"
+   },
+   {
+    "key": "B",
+    "text": "Don't know notice"
+   },
+   {
+    "key": "C",
+    "text": "Due bill"
+   },
+   {
+    "key": "D",
+    "text": "Reclamation"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: the right to return securities previously accepted when a delivery problem is later discovered?",
+  "explanation": "Reclamation is the right to return securities previously accepted when a delivery problem is later discovered. Don't know notice: is a DK, sent when a firm does not recognize a trade a contra-party has reported. Direct Registration System: is a book-entry system that lets investors hold shares in their own names on the issuer's records without a physical certificate. Due bill: is a document a seller gives to a buyer to show the buyer is owed a dividend or distribution received by the seller.",
+  "spoken_explanation": "The answer is Reclamation: the right to return securities previously accepted when a delivery problem is later discovered. Don't confuse it with Don't know notice, which is a DK, sent when a firm does not recognize a trade a contra-party has reported. Settlement questions turn on the security type and the calendar.",
+  "tags": [
+   "concept",
+   "settlement"
+  ],
+  "outline_ref": "4.2 Delivery and settlement; good delivery"
+ },
+ {
+  "id": "s7-q-0921",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "settlement",
+  "lesson_id": "s7-4-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The first day a stock trades without the right to the upcoming dividend, which is the record date under T+1 settlement?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Ex-dividend date"
+   },
+   {
+    "key": "B",
+    "text": "Reclamation"
+   },
+   {
+    "key": "C",
+    "text": "Cash settlement"
+   },
+   {
+    "key": "D",
+    "text": "Due bill"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: the first day a stock trades without the right to the upcoming dividend, which is the record date under T plus one settlement?",
+  "explanation": "Ex-dividend date is the first day a stock trades without the right to the upcoming dividend, which is the record date under T+1 settlement. Reclamation: is the right to return securities previously accepted when a delivery problem is later discovered. Cash settlement: is same-day settlement, with delivery due by 2:30 PM Eastern time if the trade is executed before then. Due bill: is a document a seller gives to a buyer to show the buyer is owed a dividend or distribution received by the seller.",
+  "spoken_explanation": "The answer is Ex-dividend date: the first day a stock trades without the right to the upcoming dividend, which is the record date under T plus one settlement. Don't confuse it with Reclamation, which is the right to return securities previously accepted when a delivery problem is later discovered.",
+  "tags": [
+   "concept",
+   "settlement"
+  ],
+  "outline_ref": "4.2 Delivery and settlement; good delivery"
+ },
+ {
+  "id": "s7-q-0922",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "market-making",
+  "lesson_id": "s7-4-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: FINRA's system for reporting over-the-counter trades in corporate and agency bonds and certain other debt?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "EMMA"
+   },
+   {
+    "key": "B",
+    "text": "TRACE"
+   },
+   {
+    "key": "C",
+    "text": "Trade reporting facility"
+   },
+   {
+    "key": "D",
+    "text": "Market-wide circuit breaker"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: FINRA's system for reporting over-the-counter trades in corporate and agency bonds and certain other debt?",
+  "explanation": "TRACE is FINRA's system for reporting over-the-counter trades in corporate and agency bonds and certain other debt. EMMA: is the MSRB website that publishes municipal trade prices and disclosure documents for free. Market-wide circuit breaker: is a trading halt across all markets triggered by large declines in the S and P 500, at levels of 7, 13 and 20 percent. Trade reporting facility: is a FINRA facility for reporting off-exchange trades in exchange-listed stocks.",
+  "spoken_explanation": "The answer is TRACE: FINRA's system for reporting over-the-counter trades in corporate and agency bonds and certain other debt. Don't confuse it with EMMA, which is the MSRB website that publishes municipal trade prices and disclosure documents for free. Match each reporting system to the market it covers.",
+  "tags": [
+   "concept",
+   "market-making"
+  ],
+  "outline_ref": "4.2 Market making, trade reporting (TRACE, EMMA, RTRS, TRF)"
+ },
+ {
+  "id": "s7-q-0923",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "market-making",
+  "lesson_id": "s7-4-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The MSRB's real-time transaction reporting system for municipal securities trades?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "EMMA"
+   },
+   {
+    "key": "B",
+    "text": "RTRS"
+   },
+   {
+    "key": "C",
+    "text": "TRACE"
+   },
+   {
+    "key": "D",
+    "text": "Principal transaction"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: the MSRB's real-time transaction reporting system for municipal securities trades?",
+  "explanation": "RTRS is the MSRB's real-time transaction reporting system for municipal securities trades. EMMA: is the MSRB website that publishes municipal trade prices and disclosure documents for free. TRACE: is FINRA's system for reporting over-the-counter trades in corporate and agency bonds and certain other debt. Principal transaction: is a trade in which the firm buys from or sells to the customer from its own inventory, charging a markup or markdown.",
+  "spoken_explanation": "The answer is RTRS: the MSRB's real-time transaction reporting system for municipal securities trades. Don't confuse it with EMMA, which is the MSRB website that publishes municipal trade prices and disclosure documents for free. Match each reporting system to the market it covers. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "market-making"
+  ],
+  "outline_ref": "4.2 Market making, trade reporting (TRACE, EMMA, RTRS, TRF)"
+ },
+ {
+  "id": "s7-q-0924",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "market-making",
+  "lesson_id": "s7-4-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The MSRB website that publishes municipal trade prices and disclosure documents for free?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "EMMA"
+   },
+   {
+    "key": "B",
+    "text": "RTRS"
+   },
+   {
+    "key": "C",
+    "text": "Designated market maker"
+   },
+   {
+    "key": "D",
+    "text": "Principal transaction"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: the MSRB website that publishes municipal trade prices and disclosure documents for free?",
+  "explanation": "EMMA is the MSRB website that publishes municipal trade prices and disclosure documents for free. Designated market maker: is the NYSE member responsible for maintaining a fair and orderly market in assigned stocks. Principal transaction: is a trade in which the firm buys from or sells to the customer from its own inventory, charging a markup or markdown. RTRS: is the MSRB's real-time transaction reporting system for municipal securities trades.",
+  "spoken_explanation": "The answer is EMMA: the MSRB website that publishes municipal trade prices and disclosure documents for free. Don't confuse it with Designated market maker, which is the NYSE member responsible for maintaining a fair and orderly market in assigned stocks. Match each reporting system to the market it covers.",
+  "tags": [
+   "concept",
+   "market-making"
+  ],
+  "outline_ref": "4.2 Market making, trade reporting (TRACE, EMMA, RTRS, TRF)"
+ },
+ {
+  "id": "s7-q-0925",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "market-making",
+  "lesson_id": "s7-4-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A FINRA facility for reporting off-exchange trades in exchange-listed stocks?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "TRACE"
+   },
+   {
+    "key": "B",
+    "text": "Principal transaction"
+   },
+   {
+    "key": "C",
+    "text": "Trade reporting facility"
+   },
+   {
+    "key": "D",
+    "text": "EMMA"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: a FINRA facility for reporting off-exchange trades in exchange-listed stocks?",
+  "explanation": "Trade reporting facility is a FINRA facility for reporting off-exchange trades in exchange-listed stocks. EMMA: is the MSRB website that publishes municipal trade prices and disclosure documents for free. Principal transaction: is a trade in which the firm buys from or sells to the customer from its own inventory, charging a markup or markdown. TRACE: is FINRA's system for reporting over-the-counter trades in corporate and agency bonds and certain other debt.",
+  "spoken_explanation": "The answer is Trade reporting facility: a FINRA facility for reporting off-exchange trades in exchange-listed stocks. Don't confuse it with EMMA, which is the MSRB website that publishes municipal trade prices and disclosure documents for free. Match each reporting system to the market it covers. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "market-making"
+  ],
+  "outline_ref": "4.2 Market making, trade reporting (TRACE, EMMA, RTRS, TRF)"
+ },
+ {
+  "id": "s7-q-0926",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "market-making",
+  "lesson_id": "s7-4-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The NYSE member responsible for maintaining a fair and orderly market in assigned stocks?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Designated market maker"
+   },
+   {
+    "key": "B",
+    "text": "Trade reporting facility"
+   },
+   {
+    "key": "C",
+    "text": "Principal transaction"
+   },
+   {
+    "key": "D",
+    "text": "TRACE"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: the NYSE member responsible for maintaining a fair and orderly market in assigned stocks?",
+  "explanation": "Designated market maker is the NYSE member responsible for maintaining a fair and orderly market in assigned stocks. Trade reporting facility: is a FINRA facility for reporting off-exchange trades in exchange-listed stocks. Principal transaction: is a trade in which the firm buys from or sells to the customer from its own inventory, charging a markup or markdown. TRACE: is FINRA's system for reporting over-the-counter trades in corporate and agency bonds and certain other debt.",
+  "spoken_explanation": "The answer is Designated market maker: the NYSE member responsible for maintaining a fair and orderly market in assigned stocks. Don't confuse it with Trade reporting facility, which is a FINRA facility for reporting off-exchange trades in exchange-listed stocks. Match each reporting system to the market it covers.",
+  "tags": [
+   "concept",
+   "market-making"
+  ],
+  "outline_ref": "4.2 Market making, trade reporting (TRACE, EMMA, RTRS, TRF)"
+ },
+ {
+  "id": "s7-q-0927",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "market-making",
+  "lesson_id": "s7-4-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A trading halt across all markets triggered by large declines in the S and P 500, at levels of 7, 13 and 20 percent?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "EMMA"
+   },
+   {
+    "key": "B",
+    "text": "Market-wide circuit breaker"
+   },
+   {
+    "key": "C",
+    "text": "TRACE"
+   },
+   {
+    "key": "D",
+    "text": "Designated market maker"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: a trading halt across all markets triggered by large declines in the S and P five hundred, at levels of seven, thirteen and twenty percent?",
+  "explanation": "Market-wide circuit breaker is a trading halt across all markets triggered by large declines in the S and P 500, at levels of 7, 13 and 20 percent. Designated market maker: is the NYSE member responsible for maintaining a fair and orderly market in assigned stocks. TRACE: is FINRA's system for reporting over-the-counter trades in corporate and agency bonds and certain other debt. EMMA: is the MSRB website that publishes municipal trade prices and disclosure documents for free.",
+  "spoken_explanation": "The answer is Market-wide circuit breaker: a trading halt across all markets triggered by large declines in the S and P five hundred, at levels of seven, thirteen and twenty percent. Don't confuse it with Designated market maker, which is the NYSE member responsible for maintaining a fair and orderly market in assigned stocks.",
+  "tags": [
+   "concept",
+   "market-making"
+  ],
+  "outline_ref": "4.2 Market making, trade reporting (TRACE, EMMA, RTRS, TRF)"
+ },
+ {
+  "id": "s7-q-0928",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "market-making",
+  "lesson_id": "s7-4-03",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Market-wide circuit breaker is the MSRB website that publishes municipal trade prices and disclosure documents for free.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. Market-wide circuit breaker is the MSRB website that publishes municipal trade prices and disclosure documents for free.",
+  "explanation": "False. That describes EMMA. Market-wide circuit breaker is a trading halt across all markets triggered by large declines in the S and P 500, at levels of 7, 13 and 20 percent.",
+  "spoken_explanation": "False. That describes EMMA. Market-wide circuit breaker is actually a trading halt across all markets triggered by large declines in the S and P five hundred, at levels of seven, thirteen and twenty percent. Match each reporting system to the market it covers. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "market-making"
+  ],
+  "outline_ref": "4.2 Market making, trade reporting (TRACE, EMMA, RTRS, TRF)"
+ },
+ {
+  "id": "s7-q-0929",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "market-making",
+  "lesson_id": "s7-4-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A trade in which the firm buys from or sells to the customer from its own inventory, charging a markup or markdown?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Principal transaction"
+   },
+   {
+    "key": "B",
+    "text": "Agency transaction"
+   },
+   {
+    "key": "C",
+    "text": "Market-wide circuit breaker"
+   },
+   {
+    "key": "D",
+    "text": "Trade reporting facility"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: a trade in which the firm buys from or sells to the customer from its own inventory, charging a markup or markdown?",
+  "explanation": "Principal transaction is a trade in which the firm buys from or sells to the customer from its own inventory, charging a markup or markdown. Agency transaction: is a trade in which the firm acts as broker between buyer and seller, charging a commission. Trade reporting facility: is a FINRA facility for reporting off-exchange trades in exchange-listed stocks. Market-wide circuit breaker: is a trading halt across all markets triggered by large declines in the S and P 500, at levels of 7, 13 and 20 percent.",
+  "spoken_explanation": "The answer is Principal transaction: a trade in which the firm buys from or sells to the customer from its own inventory, charging a markup or markdown. Don't confuse it with Agency transaction, which is a trade in which the firm acts as broker between buyer and seller, charging a commission.",
+  "tags": [
+   "concept",
+   "market-making"
+  ],
+  "outline_ref": "4.2 Market making, trade reporting (TRACE, EMMA, RTRS, TRF)"
+ },
+ {
+  "id": "s7-q-0930",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "market-making",
+  "lesson_id": "s7-4-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A trade in which the firm acts as broker between buyer and seller, charging a commission?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Trade reporting facility"
+   },
+   {
+    "key": "B",
+    "text": "Agency transaction"
+   },
+   {
+    "key": "C",
+    "text": "RTRS"
+   },
+   {
+    "key": "D",
+    "text": "Market-wide circuit breaker"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: a trade in which the firm acts as broker between buyer and seller, charging a commission?",
+  "explanation": "Agency transaction is a trade in which the firm acts as broker between buyer and seller, charging a commission. RTRS: is the MSRB's real-time transaction reporting system for municipal securities trades. Market-wide circuit breaker: is a trading halt across all markets triggered by large declines in the S and P 500, at levels of 7, 13 and 20 percent. Trade reporting facility: is a FINRA facility for reporting off-exchange trades in exchange-listed stocks.",
+  "spoken_explanation": "The answer is Agency transaction: a trade in which the firm acts as broker between buyer and seller, charging a commission. Don't confuse it with RTRS, which is the MSRB's real-time transaction reporting system for municipal securities trades. Match each reporting system to the market it covers.",
+  "tags": [
+   "concept",
+   "market-making"
+  ],
+  "outline_ref": "4.2 Market making, trade reporting (TRACE, EMMA, RTRS, TRF)"
+ },
+ {
+  "id": "s7-q-0931",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "complaints-arbitration",
+  "lesson_id": "s7-4-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A written grievance by a customer about a representative or firm, which must be kept on record and reported to a principal?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Mediation"
+   },
+   {
+    "key": "B",
+    "text": "Written complaint"
+   },
+   {
+    "key": "C",
+    "text": "Arbitration"
+   },
+   {
+    "key": "D",
+    "text": "Form U4"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: a written grievance by a customer about a representative or firm, which must be kept on record and reported to a principal?",
+  "explanation": "Written complaint is a written grievance by a customer about a representative or firm, which must be kept on record and reported to a principal. Form U4: is the uniform registration form for representatives, which must be updated for events such as certain customer complaints, liens and criminal charges. Mediation: is a voluntary, non-binding process in which a neutral mediator helps the parties settle. Arbitration: is a binding dispute resolution process before a FINRA panel, with very limited grounds for appeal.",
+  "spoken_explanation": "The answer is Written complaint: a written grievance by a customer about a representative or firm, which must be kept on record and reported to a principal. Don't confuse it with Form U4, which is the uniform registration form for representatives, which must be updated for events such as certain customer complaints, liens and criminal charges.",
+  "tags": [
+   "concept",
+   "complaints-arbitration"
+  ],
+  "outline_ref": "4.3 Errors, complaints and dispute resolution; Form U4"
+ },
+ {
+  "id": "s7-q-0932",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "complaints-arbitration",
+  "lesson_id": "s7-4-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A binding dispute resolution process before a FINRA panel, with very limited grounds for appeal?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Form U5"
+   },
+   {
+    "key": "B",
+    "text": "Arbitration"
+   },
+   {
+    "key": "C",
+    "text": "Written complaint"
+   },
+   {
+    "key": "D",
+    "text": "Mediation"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: a binding dispute resolution process before a FINRA panel, with very limited grounds for appeal?",
+  "explanation": "Arbitration is a binding dispute resolution process before a FINRA panel, with very limited grounds for appeal. Mediation: is a voluntary, non-binding process in which a neutral mediator helps the parties settle. Form U5: is the termination notice a firm files when a representative leaves, due within 30 days. Written complaint: is a written grievance by a customer about a representative or firm, which must be kept on record and reported to a principal.",
+  "spoken_explanation": "The answer is Arbitration: a binding dispute resolution process before a FINRA panel, with very limited grounds for appeal. Don't confuse it with Mediation, which is a voluntary, non-binding process in which a neutral mediator helps the parties settle. Know the order: complaint, possible arbitration or mediation, then any required U4 updates.",
+  "tags": [
+   "concept",
+   "complaints-arbitration"
+  ],
+  "outline_ref": "4.3 Errors, complaints and dispute resolution; Form U4"
+ },
+ {
+  "id": "s7-q-0933",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "complaints-arbitration",
+  "lesson_id": "s7-4-04",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Arbitration is correcting an error by canceling a trade and rebooking it in the right account, which requires principal approval.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. Arbitration is correcting an error by canceling a trade and rebooking it in the right account, which requires principal approval.",
+  "explanation": "False. That describes Cancel and rebill. Arbitration is a binding dispute resolution process before a FINRA panel, with very limited grounds for appeal.",
+  "spoken_explanation": "False. That describes Cancel and rebill. Arbitration is actually a binding dispute resolution process before a FINRA panel, with very limited grounds for appeal. Know the order: complaint, possible arbitration or mediation, then any required U4 updates. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "complaints-arbitration"
+  ],
+  "outline_ref": "4.3 Errors, complaints and dispute resolution; Form U4"
+ },
+ {
+  "id": "s7-q-0934",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "complaints-arbitration",
+  "lesson_id": "s7-4-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A voluntary, non-binding process in which a neutral mediator helps the parties settle?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Mediation"
+   },
+   {
+    "key": "B",
+    "text": "Written complaint"
+   },
+   {
+    "key": "C",
+    "text": "Form U5"
+   },
+   {
+    "key": "D",
+    "text": "Cancel and rebill"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: a voluntary, non-binding process in which a neutral mediator helps the parties settle?",
+  "explanation": "Mediation is a voluntary, non-binding process in which a neutral mediator helps the parties settle. Form U5: is the termination notice a firm files when a representative leaves, due within 30 days. Cancel and rebill: is correcting an error by canceling a trade and rebooking it in the right account, which requires principal approval. Written complaint: is a written grievance by a customer about a representative or firm, which must be kept on record and reported to a principal.",
+  "spoken_explanation": "The answer is Mediation: a voluntary, non-binding process in which a neutral mediator helps the parties settle. Don't confuse it with Form U5, which is the termination notice a firm files when a representative leaves, due within thirty days. Know the order: complaint, possible arbitration or mediation, then any required U4 updates.",
+  "tags": [
+   "concept",
+   "complaints-arbitration"
+  ],
+  "outline_ref": "4.3 Errors, complaints and dispute resolution; Form U4"
+ },
+ {
+  "id": "s7-q-0935",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "complaints-arbitration",
+  "lesson_id": "s7-4-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The uniform registration form for representatives, which must be updated for events such as certain customer complaints, liens and criminal charges?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Written complaint"
+   },
+   {
+    "key": "B",
+    "text": "Arbitration"
+   },
+   {
+    "key": "C",
+    "text": "Form U4"
+   },
+   {
+    "key": "D",
+    "text": "Erroneous report"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: the uniform registration form for representatives, which must be updated for events such as certain customer complaints, liens and criminal charges?",
+  "explanation": "Form U4 is the uniform registration form for representatives, which must be updated for events such as certain customer complaints, liens and criminal charges. Erroneous report: is an incorrect trade report sent to a customer, which does not bind the firm to the wrong price. Written complaint: is a written grievance by a customer about a representative or firm, which must be kept on record and reported to a principal. Arbitration: is a binding dispute resolution process before a FINRA panel, with very limited grounds for appeal.",
+  "spoken_explanation": "The answer is Form U4: the uniform registration form for representatives, which must be updated for events such as certain customer complaints, liens and criminal charges. Don't confuse it with Erroneous report, which is an incorrect trade report sent to a customer, which does not bind the firm to the wrong price.",
+  "tags": [
+   "concept",
+   "complaints-arbitration"
+  ],
+  "outline_ref": "4.3 Errors, complaints and dispute resolution; Form U4"
+ },
+ {
+  "id": "s7-q-0936",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "complaints-arbitration",
+  "lesson_id": "s7-4-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The termination notice a firm files when a representative leaves, due within 30 days?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Cancel and rebill"
+   },
+   {
+    "key": "B",
+    "text": "Form U4"
+   },
+   {
+    "key": "C",
+    "text": "Form U5"
+   },
+   {
+    "key": "D",
+    "text": "Written complaint"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: the termination notice a firm files when a representative leaves, due within thirty days?",
+  "explanation": "Form U5 is the termination notice a firm files when a representative leaves, due within 30 days. Form U4: is the uniform registration form for representatives, which must be updated for events such as certain customer complaints, liens and criminal charges. Written complaint: is a written grievance by a customer about a representative or firm, which must be kept on record and reported to a principal. Cancel and rebill: is correcting an error by canceling a trade and rebooking it in the right account, which requires principal approval.",
+  "spoken_explanation": "The answer is Form U5: the termination notice a firm files when a representative leaves, due within thirty days. Don't confuse it with Form U4, which is the uniform registration form for representatives, which must be updated for events such as certain customer complaints, liens and criminal charges.",
+  "tags": [
+   "concept",
+   "complaints-arbitration"
+  ],
+  "outline_ref": "4.3 Errors, complaints and dispute resolution; Form U4"
+ },
+ {
+  "id": "s7-q-0937",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "complaints-arbitration",
+  "lesson_id": "s7-4-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: Correcting an error by canceling a trade and rebooking it in the right account, which requires principal approval?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Written complaint"
+   },
+   {
+    "key": "B",
+    "text": "Erroneous report"
+   },
+   {
+    "key": "C",
+    "text": "Form U5"
+   },
+   {
+    "key": "D",
+    "text": "Cancel and rebill"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: correcting an error by canceling a trade and rebooking it in the right account, which requires principal approval?",
+  "explanation": "Cancel and rebill is correcting an error by canceling a trade and rebooking it in the right account, which requires principal approval. Written complaint: is a written grievance by a customer about a representative or firm, which must be kept on record and reported to a principal. Form U5: is the termination notice a firm files when a representative leaves, due within 30 days. Erroneous report: is an incorrect trade report sent to a customer, which does not bind the firm to the wrong price.",
+  "spoken_explanation": "The answer is Cancel and rebill: correcting an error by canceling a trade and rebooking it in the right account, which requires principal approval. Don't confuse it with Written complaint, which is a written grievance by a customer about a representative or firm, which must be kept on record and reported to a principal.",
+  "tags": [
+   "concept",
+   "complaints-arbitration"
+  ],
+  "outline_ref": "4.3 Errors, complaints and dispute resolution; Form U4"
+ },
+ {
+  "id": "s7-q-0938",
+  "exam": "S7",
+  "section": "S7-4",
+  "topic": "complaints-arbitration",
+  "lesson_id": "s7-4-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An incorrect trade report sent to a customer, which does not bind the firm to the wrong price?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Erroneous report"
+   },
+   {
+    "key": "B",
+    "text": "Cancel and rebill"
+   },
+   {
+    "key": "C",
+    "text": "Mediation"
+   },
+   {
+    "key": "D",
+    "text": "Form U4"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: an incorrect trade report sent to a customer, which does not bind the firm to the wrong price?",
+  "explanation": "Erroneous report is an incorrect trade report sent to a customer, which does not bind the firm to the wrong price. Form U4: is the uniform registration form for representatives, which must be updated for events such as certain customer complaints, liens and criminal charges. Mediation: is a voluntary, non-binding process in which a neutral mediator helps the parties settle. Cancel and rebill: is correcting an error by canceling a trade and rebooking it in the right account, which requires principal approval.",
+  "spoken_explanation": "The answer is Erroneous report: an incorrect trade report sent to a customer, which does not bind the firm to the wrong price. Don't confuse it with Form U4, which is the uniform registration form for representatives, which must be updated for events such as certain customer complaints, liens and criminal charges.",
+  "tags": [
+   "concept",
+   "complaints-arbitration"
+  ],
+  "outline_ref": "4.3 Errors, complaints and dispute resolution; Form U4"
  }
 ]

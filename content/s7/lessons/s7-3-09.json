@@ -1,0 +1,111 @@
+{
+ "id": "s7-3-09",
+ "exam": "S7",
+ "section": "S7-3",
+ "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+ "title": "Debt fundamentals and yields",
+ "order": 9,
+ "est_minutes": 8,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Bonds are loans. The investor lends money to the issuer, the issuer pays interest, and the principal comes back at maturity. Nearly every bond question on the Series 7 rests on one relationship: when interest rates rise, bond prices fall, and when rates fall, prices rise."
+  },
+  {
+   "type": "narration",
+   "text": "Start with the vocabulary. Par value, or face value, is usually one thousand dollars per bond, and it's what's repaid at maturity. The coupon, or nominal yield, is the fixed annual interest rate as a percentage of par. A five percent coupon pays fifty dollars a year, usually in two payments of twenty-five dollars. Bond prices are quoted as a percent of par in points, where one point is ten dollars. A price of ninety-eight is nine hundred eighty dollars, and a price of one hundred two and a half is one thousand twenty-five dollars. A basis point is one one-hundredth of a percent. One hundred basis points equal one percent."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0399"
+  },
+  {
+   "type": "narration",
+   "text": "There are several kinds of yield. Current yield is the annual interest divided by the current market price. A bond paying fifty dollars that costs eight hundred dollars has a current yield of six and a quarter percent. Yield to maturity is the total annualized return if you hold to maturity, including the gain or loss as the price moves to par. Yield to call assumes the bond is called at the first call date. When a bond trades at a discount, below par, the yields line up from lowest to highest: nominal, current, yield to maturity, then yield to call. At a premium, above par, the order reverses: yield to call is lowest and nominal is highest. When quoting a callable premium bond, the firm must quote the lower of yield to call or yield to maturity, which is called yield to worst."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0681"
+  },
+  {
+   "type": "narration",
+   "text": "Price volatility depends on three features. Longer maturity means a bigger price change when rates move. A lower coupon also means a bigger price change, so zero coupon bonds are the most volatile for their maturity. Duration combines both into one number. It estimates the percentage price change for a one percent change in rates. A bond with a duration of seven would lose about seven percent if rates rose one percent."
+  },
+  {
+   "type": "narration",
+   "text": "The yield curve plots yields against maturity. A normal curve slopes upward, with long rates higher than short. An inverted curve slopes downward and has often come before recessions. A flat curve means short and long rates are about the same. Investors expecting rates to rise shorten their maturities. Investors expecting rates to fall lengthen maturities to lock in yields and capture price gains."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0692"
+  },
+  {
+   "type": "narration",
+   "text": "Accrued interest is owed to the seller for the days they held the bond since the last coupon. The buyer pays it and gets it back in the next full coupon. It runs from the last payment date up to, but not including, the settlement date. Corporate and municipal bonds use a thirty-day month, three-hundred-sixty-day year. Treasuries use actual days over the actual days in the period. Bonds in default, and income bonds that aren't paying, trade flat, meaning without accrued interest."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-1021"
+  },
+  {
+   "type": "narration",
+   "text": "Credit quality matters too. Ratings from agencies like Moody's and S and P judge the risk of default. Bonds rated triple B minus, or Baa three, and above are investment grade. Anything lower is non-investment grade, or high yield. Lower ratings mean higher yields to compensate for the risk. Credit spreads, the yield gap between corporate bonds and Treasuries, widen when investors worry about the economy."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: price and yield move in opposite directions. Current yield is the coupon over the price. At a discount, the yields rise in order: nominal, current, maturity, call. At a premium, they fall in that order. Long maturities and low coupons swing the most. Accrued interest runs up to the day before settlement. Triple B minus is the lowest investment grade rating."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Debenture: An unsecured corporate bond backed only by the issuer's general credit. Mortgage bond: A corporate bond secured by a lien on real property. Equipment trust certificate: A bond secured by equipment such as aircraft or railcars, typically issued by transportation companies. Collateral trust bond: A bond secured by securities that the issuer owns and deposits with a trustee. Income bond: A bond that pays interest only if the issuer earns enough, often issued in reorganizations. Subordinated debenture: An unsecured bond that ranks behind other unsecured debt in liquidation. Zero-coupon bond: A bond issued at a deep discount that pays no periodic interest and matures at par. Step-up bond: A bond whose coupon rate increases on a set schedule."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Debenture",
+   "definition": "An unsecured corporate bond backed only by the issuer's general credit"
+  },
+  {
+   "term": "Mortgage bond",
+   "definition": "A corporate bond secured by a lien on real property"
+  },
+  {
+   "term": "Equipment trust certificate",
+   "definition": "A bond secured by equipment such as aircraft or railcars, typically issued by transportation companies"
+  },
+  {
+   "term": "Collateral trust bond",
+   "definition": "A bond secured by securities that the issuer owns and deposits with a trustee"
+  },
+  {
+   "term": "Income bond",
+   "definition": "A bond that pays interest only if the issuer earns enough, often issued in reorganizations"
+  },
+  {
+   "term": "Subordinated debenture",
+   "definition": "An unsecured bond that ranks behind other unsecured debt in liquidation"
+  },
+  {
+   "term": "Zero-coupon bond",
+   "definition": "A bond issued at a deep discount that pays no periodic interest and matures at par"
+  },
+  {
+   "term": "Step-up bond",
+   "definition": "A bond whose coupon rate increases on a set schedule"
+  },
+  {
+   "term": "Eurodollar bond",
+   "definition": "A U.S. dollar-denominated bond issued and traded outside the United States"
+  },
+  {
+   "term": "Commercial paper",
+   "definition": "Short-term unsecured corporate debt, typically maturing in 270 days or less to avoid SEC registration"
+  }
+ ],
+ "mnemonics": [
+  "Discount: N, C, M, C going up. Premium: the reverse.",
+  "Long and low swing the most.",
+  "One point equals ten dollars; one basis point equals one one-hundredth of a percent."
+ ],
+ "summary": "Bond prices move opposite interest rates. Par is $1,000, one point is $10 and one basis point is 0.01%. Current yield is annual interest divided by price. At a discount, nominal < current < YTM < YTC. At a premium, the order reverses, and firms quote yield to worst. Longer maturity and lower coupon mean greater volatility, and duration estimates the % price change per 1% rate move. Yield curves can be normal, inverted or flat. Accrued interest runs from the last coupon up to but not including settlement (30/360 for corporates and munis, actual/actual for Treasuries). Defaulted bonds trade flat. BBB−/Baa3 and above is investment grade."
+}

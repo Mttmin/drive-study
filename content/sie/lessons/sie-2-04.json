@@ -1,0 +1,114 @@
+{
+  "id": "sie-2-04",
+  "exam": "SIE",
+  "section": "SIE-2",
+  "section_title": "Understanding Products and Their Risks",
+  "title": "Treasuries, Agencies and Mortgage-Backed Securities",
+  "order": 4,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "This lesson covers the safest bonds in the market and their close cousins: U.S. Treasury securities, federal agency and G S E securities, and the mortgage-backed and asset-backed securities built on pools of loans. The exam focuses on maturities, how each is sold, how it's taxed, and which risks remain even when default risk is close to zero."
+    },
+    {
+      "type": "narration",
+      "text": "Treasuries are backed by the full faith and credit of the U.S. government, so they're treated as having essentially no default risk. There are three main kinds by maturity. Treasury bills mature in one year or less, with standard terms from four to fifty-two weeks. They're sold at a discount and pay no coupon, so your interest is the difference between the purchase price and the face value. Treasury notes run from two to ten years, and Treasury bonds run twenty or thirty years. Notes and bonds pay interest every six months. Interest on all Treasuries is subject to federal income tax but exempt from state and local income tax."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0030"
+    },
+    {
+      "type": "narration",
+      "text": "A quirk on quotes: T-bills are quoted by discount yield, not by price. A higher yield means a lower price, so the bid, what a dealer will pay, shows a higher number than the ask. Notes and bonds are quoted as a percentage of par in thirty-seconds of a point."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0279"
+    },
+    {
+      "type": "narration",
+      "text": "The Treasury sells new securities at auction. Competitive bidders, usually large dealers and institutions, name the yield they'll accept and may or may not get filled. Noncompetitive bidders agree to take whatever yield the auction sets, and are generally guaranteed their securities up to ten million dollars per auction. That's how individuals usually buy, through TreasuryDirect or a broker."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0270"
+    },
+    {
+      "type": "narration",
+      "text": "Two special Treasury products. TIPS, Treasury Inflation-Protected Securities, adjust their principal for inflation using the consumer price index. The coupon rate is fixed, but because it's applied to the adjusted principal, interest payments rise with inflation. The catch is taxes: the annual principal increase is generally taxed in the year it happens, even though you don't get that cash until maturity. That's called phantom income. STRIPS are Treasuries separated into individual interest and principal pieces, each sold as a zero-coupon security. Zeros are bought at a deep discount, and if held to maturity they eliminate reinvestment risk, because there are no coupons to reinvest. But they're the most price-sensitive to rate changes, and their yearly accreted interest is also taxed as phantom income. Broker-dealers create similar products called Treasury receipts, which are backed by Treasuries in escrow but aren't direct government obligations."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0038"
+    },
+    {
+      "type": "narration",
+      "text": "Next, agencies. Ginnie Mae, the Government National Mortgage Association, is a government agency, and its mortgage-backed securities carry the full faith and credit of the U.S. government. Fannie Mae and Freddie Mac are government-sponsored enterprises, shareholder-owned companies chartered by Congress. They've been in federal conservatorship since two thousand eight, but their securities don't carry an explicit full-faith-and-credit guarantee. For the exam: Ginnie Mae is the only one of the three with direct government backing. Tax treatment differs too. Interest on Ginnie, Fannie and Freddie mortgage securities is fully taxable at the federal, state and local levels. Some other agency debt, like Federal Home Loan Bank and Farm Credit securities, is exempt from state and local tax."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0031"
+    },
+    {
+      "type": "narration",
+      "text": "A mortgage pass-through works like this. Thousands of home loans are pooled, and investors receive the monthly payments of interest and principal. Because homeowners can pay off early, investors face prepayment risk: when rates fall, people refinance, and principal comes back early, just when reinvestment rates are low. When rates rise, prepayments slow down and the security lasts longer than expected. That's extension risk. A government guarantee covers default, not timing."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0032"
+    },
+    {
+      "type": "narration",
+      "text": "Collateralized mortgage obligations, or C M Os, slice the mortgage cash flows into tranches with different expected average lives and risks. A planned amortization class tranche has the most predictable cash flows, because companion, or support, tranches absorb the changes in prepayment speed. Z tranches accrue interest and get paid last. Interest-only and principal-only strips react sharply to prepayments. C M Os are complex and may be unsuitable for many retail customers, and firms must explain that average lives can change. Finally, asset-backed securities follow the same pooling idea using auto loans, credit card balances, student loans or equipment leases instead of first mortgages."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0276"
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Bills, one year or less, are sold at a discount. Notes run two to ten years, and bonds twenty or thirty. All three are federally taxable and state-tax-exempt. TIPS protect against inflation but create phantom income. STRIPS are zeros with no reinvestment risk. Ginnie Mae alone carries full faith and credit, and mortgage-backed interest is fully taxable. Pass-throughs pay monthly and carry prepayment and extension risk, and C M O tranches redistribute that risk, with P A Cs the most predictable."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Treasury bill",
+      "definition": "Matures in a year or less; sold at a discount."
+    },
+    {
+      "term": "Treasury note",
+      "definition": "2 to 10 years; semiannual interest."
+    },
+    {
+      "term": "Treasury bond",
+      "definition": "20 or 30 years; semiannual interest."
+    },
+    {
+      "term": "TIPS",
+      "definition": "Principal adjusts for CPI; the adjustment is taxed annually."
+    },
+    {
+      "term": "STRIPS",
+      "definition": "Zero-coupon pieces of Treasuries; no reinvestment risk if held to maturity."
+    },
+    {
+      "term": "GNMA",
+      "definition": "Government agency; MBS backed by full faith and credit."
+    },
+    {
+      "term": "Prepayment risk",
+      "definition": "Principal returned early when rates fall."
+    },
+    {
+      "term": "PAC tranche",
+      "definition": "CMO tranche with the most predictable cash flows."
+    }
+  ],
+  "mnemonics": [
+    "Bills, Notes, Bonds: one, ten, thirty.",
+    "Ginnie is Government; Fannie and Freddie are sponsored."
+  ],
+  "summary": "Treasuries carry no meaningful default risk but still carry interest rate and inflation risk; they're federally taxable and state-exempt. TIPS and STRIPS create phantom income. GNMA has full government backing, and mortgage securities pay monthly with prepayment and extension risk that CMOs divide among tranches."
+}

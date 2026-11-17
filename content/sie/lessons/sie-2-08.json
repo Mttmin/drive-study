@@ -1,0 +1,118 @@
+{
+  "id": "sie-2-08",
+  "exam": "SIE",
+  "section": "SIE-2",
+  "section_title": "Understanding Products and Their Risks",
+  "title": "Options in Practice",
+  "order": 8,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Now that you know the parts, let's see how options are used and handled in real accounts: moneyness, covered versus uncovered positions, hedging versus speculation, opening and closing trades, exercise and assignment, and the account rules under FINRA Rule twenty-three sixty."
+    },
+    {
+      "type": "narration",
+      "text": "First, moneyness. A call is in the money when the stock is above the strike. A put is in the money when the stock is below the strike. At the money means the stock equals the strike. Out of the money is the opposite of in the money. Here's a memory aid: Call Up, Put Down works again. A call is in the money when the stock is up above the strike, and a put when it's down below. With a stock at sixty-two, a sixty call and a sixty-five put are both in the money."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0043"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0328"
+    },
+    {
+      "type": "narration",
+      "text": "Covered versus uncovered. A call writer is covered when they own the underlying stock, so they can deliver it if assigned. Writing a covered call is an income strategy for someone neutral to slightly bullish: you collect the premium, but you give up gains above the strike. Breakeven is the stock cost minus the premium. Buy at fifty-two and write a fifty-five call for three, and your breakeven is forty-nine. Writing a call without owning the stock is uncovered, or naked, and that has unlimited risk, so it requires the highest level of options approval."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0044"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0042"
+    },
+    {
+      "type": "narration",
+      "text": "Hedging versus speculation. A hedge reduces risk on a position you already have. If you own stock and fear a drop, buy a put. That's a protective put, which sets a floor at the strike while keeping your upside. If you're short stock and fear a rally, buy a call, which caps your cost to buy the shares back. Speculation is betting on direction without a position to protect, such as buying calls because you expect a rally. Options give leverage, because a small premium controls one hundred shares, so the percentage swings are large, and the whole premium can be lost."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0330"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0331"
+    },
+    {
+      "type": "narration",
+      "text": "Opening and closing. Every option trade either opens or closes a position. Buying a call to start is an opening purchase, and selling it later is a closing sale. Writing a call to start is an opening sale, and buying it back is a closing purchase. Most investors close positions in the market instead of exercising."
+    },
+    {
+      "type": "narration",
+      "text": "Exercise and assignment. The Options Clearing Corporation, the O C C, issues and guarantees all listed U.S. options. It stands between every buyer and seller, so you never have to worry about the person on the other side. When a holder exercises, the O C C assigns the notice at random to a clearing member firm with customers short that option. The firm then assigns it to one of its customers using random selection, first-in first-out, or another fair method that it discloses. Exercising an equity option settles like a stock trade, which is one business day later."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0334"
+    },
+    {
+      "type": "narration",
+      "text": "Account rules. Under FINRA Rule twenty-three sixty, a customer must receive the Options Disclosure Document, titled Characteristics and Risks of Standardized Options and published by the O C C, at or before the time the account is approved for options. A registered options principal must approve the account before the first trade, based on the customer's financial situation, experience and objectives. Firms usually approve different levels, from covered calls up to uncovered writing. The customer must then return a signed options agreement within fifteen days after approval, agreeing to follow position and exercise limits."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0045"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0335"
+    },
+    {
+      "type": "narration",
+      "text": "Let's run a quick scenario. A customer owns five hundred shares of a stock that has doubled. She doesn't want to sell yet because of taxes, but she's worried about a pullback. Buying five puts protects all five hundred shares. If she just wanted extra income and didn't mind selling at a higher price, she could write five covered calls instead. One choice buys protection, and the other sells away upside for a premium."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Calls are in the money above the strike, and puts below. Covered calls need owned stock, and naked calls carry unlimited risk. Hedge long stock with puts and short stock with calls. Opening and closing trades come in pairs. The O C C guarantees and assigns, and firms assign customers fairly. The O D D comes at or before approval, a registered options principal approves the account, and the signed agreement is due within fifteen days."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "In the money",
+      "definition": "Call: stock above strike. Put: stock below strike."
+    },
+    {
+      "term": "Covered call",
+      "definition": "Writing a call on stock you own."
+    },
+    {
+      "term": "Protective put",
+      "definition": "Buying a put on stock you own to set a floor."
+    },
+    {
+      "term": "OCC",
+      "definition": "Options Clearing Corporation; issues and guarantees listed options."
+    },
+    {
+      "term": "ODD",
+      "definition": "Options Disclosure Document; delivered at or before account approval."
+    },
+    {
+      "term": "Registered options principal",
+      "definition": "Approves options accounts."
+    },
+    {
+      "term": "Closing sale",
+      "definition": "Selling an option you bought, to exit."
+    }
+  ],
+  "mnemonics": [
+    "Own it? Protect it with a Put. Short it? Protect it with a Call.",
+    "ODD by approval, agreement within 15."
+  ],
+  "summary": "Know moneyness, covered versus uncovered writing, and which options hedge long or short stock. The OCC guarantees and assigns exercises. Under Rule 2360, the ODD is delivered by approval, a principal approves the account, and the signed agreement is due within 15 days."
+}

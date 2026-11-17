@@ -1,0 +1,111 @@
+{
+ "id": "s7-3-17",
+ "exam": "S7",
+ "section": "S7-3",
+ "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+ "title": "REITs, DPPs and alternatives",
+ "order": 17,
+ "est_minutes": 7,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Alternative investments can add diversification and income, but they often come with high fees, complex structures, and limited liquidity. The exam tests what they are, how they're taxed, and who they're suitable for."
+  },
+  {
+   "type": "narration",
+   "text": "A real estate investment trust, or REIT, owns or finances income-producing real estate. If it distributes at least ninety percent of its taxable income to shareholders and meets other tests, it isn't taxed at the corporate level. Equity REITs own properties and earn rent. Mortgage REITs hold mortgages and earn interest, which makes them sensitive to rates. Hybrid REITs do both. REIT dividends are generally taxed as ordinary income, not at the lower qualified dividend rate, although a deduction may lower the tax for some investors. REITs can't pass losses through to shareholders. Publicly traded REITs are liquid. Non-traded REITs are registered but don't trade on an exchange. They often carry high up-front fees and very limited redemption, so they're illiquid and need careful suitability review. Private REITs aren't registered at all."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0808"
+  },
+  {
+   "type": "narration",
+   "text": "Direct participation programs, or DPPs, are usually limited partnerships. Income, gains, losses, deductions, and credits flow directly to investors, with no corporate tax. The general partner manages the business, has unlimited liability, and owes a fiduciary duty to the limited partners. Limited partners are passive investors whose liability is limited to their investment. If they take part in management, they risk losing that limited liability. Three documents matter: the partnership agreement sets the rights of the partners, the certificate of limited partnership is filed with the state, and the subscription agreement is signed by the investor and accepted when the general partner signs it."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0813"
+  },
+  {
+   "type": "narration",
+   "text": "DPP tax rules are a big exam topic. Losses from a DPP are passive and can generally offset only passive income, not wages or portfolio income. Unused passive losses carry forward and can be used when the investor sells the interest. An investor can deduct losses only up to the amount they have at risk. A DPP is a poor investment if it's bought only for tax losses. The IRS can disallow a partnership that has no economic purpose. Investors in DPPs should have money they can tie up for a long time, since there's no real secondary market."
+  },
+  {
+   "type": "narration",
+   "text": "The type of program determines the risk. In real estate, raw land is the most speculative, since it produces no income and relies on appreciation. New construction carries building and leasing risk. Existing properties produce immediate rental income. Government-assisted housing offers tax credits and steady income. In oil and gas, exploratory programs, which drill wildcat wells in unproven areas, are the riskiest and pay the most if they succeed. Developmental programs drill near proven reserves, and income programs buy producing wells for immediate cash flow. Oil and gas investors get depletion deductions as the resource is used up, and intangible drilling costs, such as labor and fuel, are generally deductible right away. Equipment leasing programs provide income and depreciation."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0817"
+  },
+  {
+   "type": "narration",
+   "text": "Other alternatives include hedge funds and private equity funds, which are generally limited to accredited or other qualified investors and have high fees and limited liquidity. Business development companies invest in small private companies. Structured products and principal-protected notes combine a bond with derivatives, and their guarantees depend on the issuer's credit. Liquid alternative mutual funds use hedge-fund-style strategies in a daily-liquidity wrapper."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0822"
+  },
+  {
+   "type": "narration",
+   "text": "Suitability is the common theme. These products suit investors with enough net worth and income, a long horizon, a tolerance for illiquidity, and an understanding of the risks. They're rarely suitable for a retiree who needs access to cash, or for a large share of any customer's portfolio."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: REITs distribute ninety percent, their dividends are taxed as ordinary income, and they don't pass through losses. Non-traded REITs are illiquid. In a DPP, the general partner manages with unlimited liability, and limited partners are passive with limited liability. The GP accepts the subscription by signing. Passive losses offset passive income only. Raw land and exploratory drilling are the riskiest. Income programs pay right away."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Equity REIT: A real estate investment trust that owns properties and earns rental income. Mortgage REIT: A real estate investment trust that lends on or buys mortgages and earns interest income. Non-traded REIT: A REIT that is registered but not listed on an exchange, with limited liquidity and high up-front costs. REIT distribution requirement: The tax rule that a REIT must distribute at least ninety percent of its taxable income to shareholders. General partner: The partner in a limited partnership who manages the business and has unlimited liability. Limited partner: A passive investor in a limited partnership whose liability is limited to the investment and who cannot manage the business. Subscription agreement: The document a limited partner signs to invest, which the general partner must accept. Passive income: Income from a limited partnership or rental activity, the only income passive losses can generally offset."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Equity REIT",
+   "definition": "A real estate investment trust that owns properties and earns rental income"
+  },
+  {
+   "term": "Mortgage REIT",
+   "definition": "A real estate investment trust that lends on or buys mortgages and earns interest income"
+  },
+  {
+   "term": "Non-traded REIT",
+   "definition": "A REIT that is registered but not listed on an exchange, with limited liquidity and high up-front costs"
+  },
+  {
+   "term": "REIT distribution requirement",
+   "definition": "The tax rule that a REIT must distribute at least 90 percent of its taxable income to shareholders"
+  },
+  {
+   "term": "General partner",
+   "definition": "The partner in a limited partnership who manages the business and has unlimited liability"
+  },
+  {
+   "term": "Limited partner",
+   "definition": "A passive investor in a limited partnership whose liability is limited to the investment and who cannot manage the business"
+  },
+  {
+   "term": "Subscription agreement",
+   "definition": "The document a limited partner signs to invest, which the general partner must accept"
+  },
+  {
+   "term": "Passive income",
+   "definition": "Income from a limited partnership or rental activity, the only income passive losses can generally offset"
+  },
+  {
+   "term": "Depletion",
+   "definition": "A tax deduction that reflects the using up of a natural resource such as oil or gas"
+  },
+  {
+   "term": "Intangible drilling costs",
+   "definition": "Deductible oil and gas expenses for items like labor and fuel that have no salvage value"
+  }
+ ],
+ "mnemonics": [
+  "REIT: ninety percent out, no losses through.",
+  "GP: manages, unlimited. LP: passive, limited.",
+  "Raw land and wildcats: most risk."
+ ],
+ "summary": "REITs avoid entity tax by distributing at least 90% of taxable income. Dividends are mostly ordinary income, and losses don't pass through. REITs can be equity, mortgage or hybrid, and listed, non-traded (illiquid, fee-heavy) or private. DPP limited partnerships are flow-through: the GP manages with unlimited liability, while LPs are passive with limited liability. Documents are the partnership agreement, certificate and subscription agreement (accepted by the GP's signature). Passive losses offset only passive income, and deductions are limited to the amount at risk. Raw land and exploratory oil and gas are riskiest, and income programs are safest. Depletion and IDCs apply. Hedge funds and private equity generally require accredited investors. Structured product guarantees depend on the issuer."
+}

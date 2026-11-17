@@ -1,0 +1,122 @@
+{
+  "id": "sie-2-15",
+  "exam": "SIE",
+  "section": "SIE-2",
+  "section_title": "Understanding Products and Their Risks",
+  "title": "Investment Risks and How to Manage Them",
+  "order": 15,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Every product we've covered carries risk, and the SIE expects you to name the risk from a short description and know how to reduce it. Let's group them so they stick."
+    },
+    {
+      "type": "narration",
+      "text": "First, the big divide: systematic versus non-systematic risk. Systematic risk, also called market risk, affects nearly all securities at once, like a recession, a financial crisis, or a broad rate shock. Diversification can't remove it. Beta measures a stock's sensitivity to the market: a beta of one point five means the stock tends to move about one and a half times as much as the market. Non-systematic risk, also called business or specific risk, affects a single company or industry, like a product recall or a failed drug trial. Diversification across many companies and industries reduces it."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0062"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0429"
+    },
+    {
+      "type": "narration",
+      "text": "Next, the interest-rate family. Interest rate risk is the risk that rising rates push bond prices down. It's greatest for long maturities and low or zero coupons. Reinvestment risk is the flip side: when rates fall, coupons and returned principal have to be reinvested at lower rates. Call risk is the risk that an issuer redeems a high-coupon bond when rates fall. Prepayment risk is the mortgage version: homeowners refinance, and principal comes back early. When rates rise, prepayments slow, which is extension risk."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0430"
+    },
+    {
+      "type": "narration",
+      "text": "Purchasing power risk, also called inflation risk, is the risk that inflation erodes the real value of fixed payments. It's the main danger for someone who keeps everything in long-term fixed-rate bonds or cash. Stocks and TIPS have historically offered more protection against inflation."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0063"
+    },
+    {
+      "type": "narration",
+      "text": "Then the credit and capital family. Credit, or default, risk is the risk that an issuer won't pay interest or principal as promised. Ratings help measure it. Capital risk is the risk of losing some or all of the principal, which is highest for speculative products like options and penny stocks."
+    },
+    {
+      "type": "narration",
+      "text": "Then the market-access family. Liquidity risk is the risk you can't sell quickly at a fair price, which is common with D P Ps, non-traded REITs and thinly traded securities. Currency, or exchange rate, risk affects foreign investments, including A D Rs: if the foreign currency weakens against the dollar, the investment is worth fewer dollars. Political risk is the risk that a foreign government seizes assets, imposes controls or becomes unstable. Regulatory, or legislative, risk is the risk that new laws or rules hurt an investment. Timing risk is buying or selling at the wrong moment."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0433"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0432"
+    },
+    {
+      "type": "narration",
+      "text": "Now the tools for managing risk. Diversification spreads money across many securities to reduce non-systematic risk. Asset allocation divides a portfolio among stocks, bonds and cash based on the customer's goals, time horizon and risk tolerance. Rebalancing periodically brings the portfolio back to its target mix, by trimming whatever has grown and adding to what has lagged. Hedging uses tools like options to offset potential losses. For example, index puts can protect against a broad market decline, which diversification can't. And dollar-cost averaging, investing a fixed amount at regular intervals, reduces timing risk and tends to lower the average cost per share, because a fixed amount buys more shares when prices are low."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0440"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0442"
+    },
+    {
+      "type": "narration",
+      "text": "A quick scenario. A seventy-year-old retiree holds only long-term Treasury bonds because she believes they're risk-free. You'd point out that they have essentially no default risk, but carry plenty of interest rate risk if she sells before maturity, and purchasing power risk over a long retirement. A mix with some equities or inflation-protected bonds, rebalanced over time, might match her needs better."
+    },
+    {
+      "type": "narration",
+      "text": "One more pairing the exam likes: which risk does each product beat, and which does it keep? Zero-coupon Treasuries held to maturity beat reinvestment and default risk, but keep big interest rate risk if sold early. TIPS fight purchasing power risk. A broad index fund removes most non-systematic risk but keeps market risk. A money market fund has very little interest rate risk, but its yield may lag inflation over the long run. A foreign stock fund adds diversification but brings currency and political risk. Matching the risk to the customer's biggest worry is what good recommendations are built on."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Systematic risk can't be diversified away, but it can be hedged. Non-systematic risk can be diversified. Interest rate, reinvestment, call and prepayment risks all track interest rates. Purchasing power risk is inflation. Credit risk is default, and capital risk is losing principal. Liquidity, currency, political, regulatory and timing risks round out the list. Manage risk with diversification, asset allocation, rebalancing, hedging and dollar-cost averaging."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Systematic risk",
+      "definition": "Market-wide risk that diversification can't remove."
+    },
+    {
+      "term": "Non-systematic risk",
+      "definition": "Company or industry risk reduced by diversification."
+    },
+    {
+      "term": "Beta",
+      "definition": "Volatility relative to the market; 1 equals the market."
+    },
+    {
+      "term": "Reinvestment risk",
+      "definition": "Having to reinvest at lower rates."
+    },
+    {
+      "term": "Purchasing power risk",
+      "definition": "Inflation eroding the value of fixed payments."
+    },
+    {
+      "term": "Liquidity risk",
+      "definition": "Inability to sell quickly at a fair price."
+    },
+    {
+      "term": "Rebalancing",
+      "definition": "Restoring a portfolio's target allocation."
+    },
+    {
+      "term": "Dollar-cost averaging",
+      "definition": "Investing fixed amounts regularly; lowers average cost."
+    }
+  ],
+  "mnemonics": [
+    "Diversify the Specific; Hedge the Systematic.",
+    "Rates fall: Reinvest, Call, Prepay. Rates rise: Price drops, Extension."
+  ],
+  "summary": "Systematic risk affects the whole market and can be hedged but not diversified away; non-systematic risk can be diversified. Know the rate-driven risks, inflation, credit and capital risk, and liquidity, currency, political, regulatory and timing risk, plus the tools: diversification, allocation, rebalancing, hedging and dollar-cost averaging."
+}

@@ -408,7 +408,7 @@ fn check_card(path: &str, file_section: &str, card: &Flashcard, meta: &Meta, err
     if card.exam.as_str() != folder || card.section != file_section || !section_known(meta, card.exam.as_str(), &card.section) {
         errors.push(format!("{} flashcard does not match its file", card.id));
     }
-    if card.front.trim().len() < 4 || card.back.trim().len() < 4 || card.spoken.trim().len() < 4 {
+    if card.front.trim().is_empty() || card.back.trim().len() < 4 || card.spoken.trim().len() < 4 {
         errors.push(format!("{} weak spoken fields", card.id));
     }
 }

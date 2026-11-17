@@ -1,0 +1,107 @@
+{
+ "id": "s7-2-05",
+ "exam": "S7",
+ "section": "S7-2",
+ "section_title": "Opens Accounts After Obtaining and Evaluating Customers' Financial Profile and Investment Objectives",
+ "title": "Account approvals and supervision",
+ "order": 5,
+ "est_minutes": 6,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "The last part of function two is what happens after the paperwork is in: approvals, ongoing supervision, and the special rules for certain account types. On the exam, these questions usually ask who must approve and when."
+  },
+  {
+   "type": "narration",
+   "text": "Every new account needs principal approval. Under the account record rules, a principal must sign to accept the account, and the approval should be documented. Reps can't open an account just because the paperwork looks complete. For options accounts, a registered options principal approves the account in writing, based on information about the customer's experience, finances, and objectives. Approval usually comes in levels: covered calls, buying options, spreads, and finally uncovered writing, which requires the most experience and money. Within fifteen days of approval, the customer must return the signed options agreement, agreeing to follow position and exercise limits. If it isn't returned, the customer can only close existing positions."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0095"
+  },
+  {
+   "type": "narration",
+   "text": "Margin accounts need a signed margin agreement, and the firm can't extend credit until it has one. FINRA's margin rule requires minimum equity of two thousand dollars, or the full purchase price if that's less, in a margin account. Regulation T separately sets the initial requirement, currently fifty percent of a purchase. Pattern day trader rules were recently replaced by an intraday margin framework that's being phased in, so check current requirements if you see a day trading question."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0614"
+  },
+  {
+   "type": "narration",
+   "text": "Discretionary accounts get extra supervision. Each discretionary order must be marked as discretionary, approved promptly by a principal, and the account reviewed frequently to catch excessive trading. The customer's written authorization must be on file before the first discretionary trade. Fee-based and wrap accounts raise their own concern, reverse churning, which means charging an asset-based fee to a customer who trades rarely and would pay less in commissions. Firms must review whether a fee-based account remains appropriate."
+  },
+  {
+   "type": "narration",
+   "text": "Changes to accounts trigger notice duties. A change of address or investment objective must be documented. Under the books and records rules, firms send the customer a copy of the account record, at the latest within thirty days of opening and every thirty-six months after that, so the customer can correct it. When the name, address, or investment objectives change, the firm sends notice of the change. If the customer moves, the firm generally sends notice to both the old and new addresses."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0617"
+  },
+  {
+   "type": "narration",
+   "text": "Supervision extends to correspondence and complaints. Written complaints must be kept and reported, and principals review incoming and outgoing correspondence under the firm's procedures. Holding mail is allowed only on the customer's written instructions and for a limited time, and the firm must be able to communicate with the customer. Accounts with numbered or coded titles are allowed if the customer signs a written statement acknowledging ownership."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0621"
+  },
+  {
+   "type": "narration",
+   "text": "For accounts held for employees of other firms, the employing firm can request duplicate confirmations and statements, and the account must have been opened with the employer's written consent. For accounts of investment advisers acting for clients, the adviser needs written authorization from each client, usually through the advisory contract. For accounts held by banks, trusts, or other fiduciaries, the firm checks the documents granting authority."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: a principal accepts every account. The ROP approves options accounts, and the agreement is due within fifteen days. No margin credit is extended without a signed agreement and the minimum deposit. Discretionary orders get prompt principal approval and frequent review. Account record updates go to the customer within thirty days of opening and every thirty-six months, and fee-based accounts must be checked for reverse churning."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Credit agreement: The part of a margin agreement that discloses how interest on the debit balance is calculated. Hypothecation agreement: The part of a margin agreement that lets the firm pledge the customer's securities as collateral for the margin loan. Loan consent: The optional part of a margin agreement that permits the firm to lend the customer's margin securities to other customers or firms. Margin disclosure statement: The document a firm must provide before opening a margin account, explaining risks such as forced liquidation without notice. Registered options principal: The principal who approves options accounts and options communications. New account form: The record of a customer's essential facts, approved by a principal, that must be updated and confirmed periodically. Hold mail instruction: A written customer request that a firm hold mail for a period, permitted under FINRA rules with conditions. Freeriding: Selling a security in a cash account before paying for it, which results in a ninety-day freeze."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Credit agreement",
+   "definition": "The part of a margin agreement that discloses how interest on the debit balance is calculated"
+  },
+  {
+   "term": "Hypothecation agreement",
+   "definition": "The part of a margin agreement that lets the firm pledge the customer's securities as collateral for the margin loan"
+  },
+  {
+   "term": "Loan consent",
+   "definition": "The optional part of a margin agreement that permits the firm to lend the customer's margin securities to other customers or firms"
+  },
+  {
+   "term": "Margin disclosure statement",
+   "definition": "The document a firm must provide before opening a margin account, explaining risks such as forced liquidation without notice"
+  },
+  {
+   "term": "Registered options principal",
+   "definition": "The principal who approves options accounts and options communications"
+  },
+  {
+   "term": "New account form",
+   "definition": "The record of a customer's essential facts, approved by a principal, that must be updated and confirmed periodically"
+  },
+  {
+   "term": "Hold mail instruction",
+   "definition": "A written customer request that a firm hold mail for a period, permitted under FINRA rules with conditions"
+  },
+  {
+   "term": "Freeriding",
+   "definition": "Selling a security in a cash account before paying for it, which results in a 90-day freeze"
+  },
+  {
+   "term": "Frozen account",
+   "definition": "A cash account restriction for 90 days during which the customer must have cash in the account before any purchase"
+  }
+ ],
+ "mnemonics": [
+  "Options: ROP approves, fifteen days for the agreement.",
+  "Account records: thirty days, then thirty-six months.",
+  "Discretion: mark it, approve it promptly, review it often."
+ ],
+ "summary": "A principal accepts every new account. The ROP approves options accounts in levels, and the signed options agreement is due within 15 days. A margin account needs a signed agreement and the $2,000 minimum (or full price if less). The PDT framework is being replaced by FINRA's 2026 intraday margin rule, phased in. Discretionary orders are marked, approved promptly and reviewed frequently. Fee-based accounts need monitoring for reverse churning. Account record copies go out within 30 days of opening and every 36 months, with notices for changes. Holding mail requires written instructions. Numbered accounts need a written ownership statement."
+}

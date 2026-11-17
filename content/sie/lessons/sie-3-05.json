@@ -1,0 +1,122 @@
+{
+  "id": "sie-3-05",
+  "exam": "SIE",
+  "section": "SIE-3",
+  "section_title": "Understanding Trading, Customer Accounts and Prohibited Activities",
+  "title": "Account Registrations",
+  "order": 5,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Account registration means whose name is on the account, and it decides who can trade, who gets paid, and what happens at death. The SIE tests individual, joint, transfer on death, corporate, partnership, trust, custodial and estate accounts, plus powers of attorney."
+    },
+    {
+      "type": "narration",
+      "text": "An individual account has one owner, who makes all decisions. If the owner wants someone else to trade, the firm needs written authorization: a limited power of attorney allows trading only, and a full power of attorney also allows withdrawals. Any power of attorney ends when the customer dies. A transfer on death designation lets an individual account pass directly to named beneficiaries at death, bypassing probate, while the owner keeps full control during life."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0505"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0500"
+    },
+    {
+      "type": "narration",
+      "text": "Joint accounts have two or more owners. Any owner can generally place orders, but checks must be made payable to all owners. The two main forms differ at death. With joint tenants with right of survivorship, or J T W R O S, the deceased owner's share passes to the surviving owners. With tenants in common, each owner's share, which can be unequal, like sixty and forty, passes to that owner's estate. In community property states, assets acquired during marriage are generally owned equally by both spouses."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0077"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0498"
+    },
+    {
+      "type": "narration",
+      "text": "Business accounts need proof of authority. For a corporation, the firm gets a corporate resolution naming the officers authorized to trade. To trade on margin, the firm also needs the corporate charter or bylaws to confirm it's allowed. For a partnership, the firm gets the partnership agreement or a partnership account agreement naming the authorized partners. For a trust, the trustee makes the decisions, and the firm gets the trust agreement or a certification of trust to confirm the trustee's powers."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0501"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0502"
+    },
+    {
+      "type": "narration",
+      "text": "Custodial accounts for minors are opened under the Uniform Transfers to Minors Act or the older Uniform Gifts to Minors Act. The rules are strict. One custodian and one minor per account. The minor's Social Security number is used for taxes, because the minor owns the assets. Gifts are irrevocable: they can't be taken back. The custodian manages the account prudently for the minor's benefit, and can't use margin or sell short. When the minor reaches the age set by state law, the assets go to them outright."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0078"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0504"
+    },
+    {
+      "type": "narration",
+      "text": "What happens at death? For an individual account, the firm freezes the account, cancels open orders, and waits for the executor or administrator to provide documents like a death certificate and letters testamentary, which are issued by a probate court and prove the executor's authority. For a J T W R O S account, the surviving owner provides a death certificate and the account is re-registered. For tenants in common, the deceased owner's share goes to the estate, and the firm needs estate documents for that portion."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0506"
+    },
+    {
+      "type": "narration",
+      "text": "Let's also talk about who can place orders and receive money, since the exam likes these details. In a joint account, any owner can trade, but disbursements go to all owners. In a custodial account, only the custodian can trade, and the minor can't. In a trust account, only the trustee. In a corporate account, only the officers named in the resolution. And if a third party, like a relative or a financial adviser, wants to trade, they need written authority from the account owner. When in doubt, ask whose name is on the account and what document gives someone else authority."
+    },
+    {
+      "type": "narration",
+      "text": "Two more items. A numbered account identifies the account by a number or symbol for privacy, and it's allowed if the customer signs a written statement acknowledging ownership. The firm still knows exactly who the owner is. And every account, whatever its registration, must meet customer identification and anti-money laundering rules."
+    },
+    {
+      "type": "narration",
+      "text": "A scenario. A father wants to open an account for his twelve-year-old daughter, with himself and his wife both as custodians, funded with stock he may want back later for a house down payment. Three problems. A U T M A account has only one custodian. The gift is irrevocable, so he can't take it back for himself. And the daughter will own the assets outright when she reaches the state's age of termination. If he wants to keep control, he should invest in his own name or consider a five twenty-nine plan."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Powers of attorney must be written and end at death. T O D bypasses probate. J T W R O S passes to survivors, and tenants in common pass to the estate. Corporations need a resolution, plus the charter for margin. Partnerships need the partnership agreement, and trusts need the trust documents. U T M A accounts have one custodian, one minor, the minor's Social Security number, irrevocable gifts and no margin. At death, individual accounts freeze until estate documents arrive."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "JTWROS",
+      "definition": "Joint account where a deceased owner's share passes to survivors."
+    },
+    {
+      "term": "Tenants in common",
+      "definition": "Joint account where each share passes to the owner's estate."
+    },
+    {
+      "term": "Transfer on death",
+      "definition": "Account passes directly to named beneficiaries, avoiding probate."
+    },
+    {
+      "term": "Corporate resolution",
+      "definition": "Names officers authorized to trade for a corporation."
+    },
+    {
+      "term": "UTMA/UGMA",
+      "definition": "Custodial account for a minor; one custodian, one minor, irrevocable gifts."
+    },
+    {
+      "term": "Letters testamentary",
+      "definition": "Court document confirming an executor's authority."
+    },
+    {
+      "term": "Limited power of attorney",
+      "definition": "Third-party authority to trade but not withdraw."
+    }
+  ],
+  "mnemonics": [
+    "Survivorship goes to the Survivor; Common goes to the estate.",
+    "UTMA: one, one, and done: one custodian, one minor, and the gift is done for good."
+  ],
+  "summary": "Joint accounts differ at death: JTWROS passes to survivors, tenants in common to the estate. Businesses and trusts must document who can trade. UTMA accounts have one custodian and one minor, use the minor's SSN, can't use margin, and gifts are irrevocable. Powers of attorney end at death, and individual accounts freeze until estate papers arrive."
+}

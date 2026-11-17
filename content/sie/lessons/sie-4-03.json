@@ -1,0 +1,90 @@
+{
+  "id": "sie-4-03",
+  "exam": "SIE",
+  "section": "SIE-4",
+  "section_title": "Overview of the Regulatory Framework",
+  "title": "Outside Activities, Gifts and Political Contributions",
+  "order": 3,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "The last SIE lesson covers your conduct outside the job and around clients: outside work, side deals in securities, gifts, entertainment, non-cash compensation, and political contributions. Several of these rules changed in twenty twenty-six, so pay attention to the dates."
+    },
+    {
+      "type": "narration",
+      "text": "Start with outside business activities, governed by FINRA Rule thirty-two seventy. Before taking on outside work for pay, or as an employee, officer, director, partner or independent contractor of another business, you must give your firm prior written notice. That includes work completely unrelated to securities, like a paid weekend job in real estate or a paid board seat. Unpaid personal activities, like volunteering at a food bank, don't require notice. Once notified, the firm must assess whether the activity could interfere with your duties or be seen by customers as part of the firm's business, and it may restrict or prohibit it."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0101"
+    },
+    {
+      "type": "narration",
+      "text": "Private securities transactions, often called selling away, are covered by FINRA Rule thirty-two eighty. If you'll take part in a securities transaction outside your firm's regular business, such as selling shares in a friend's startup, you must give prior written notice describing the deal and your role. If you'll be compensated, the firm must approve or disapprove in writing, and if it approves, it must record the transaction on its books and supervise it as if it were the firm's own. Without compensation, the firm acknowledges the notice and may set conditions. Selling away without telling the firm is one of the most common reasons people get barred. Heads up: the S E C approved new FINRA Rule thirty-two ninety in September twenty twenty-six. It combines these two rules into one outside activities rule effective October twenty-fifth, twenty twenty-seven. Until then, thirty-two seventy and thirty-two eighty apply."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0102"
+    },
+    {
+      "type": "narration",
+      "text": "Now gifts. FINRA Rule thirty-two twenty limits gifts to employees or agents of another person, in relation to that person's business, to prevent improper influence. The limit used to be one hundred dollars per person per year. As of March thirtieth, twenty twenty-six, it's three hundred dollars, and older study materials may still say one hundred. Gifts to the same person are added up over the year, and the firm's procedures say whether it tracks by calendar year, fiscal year or on a rolling basis. Tickets are valued at the higher of cost or face value. The M S R B matched the three hundred dollar limit in Rule G-twenty for FINRA-member dealers on June first, twenty twenty-six. Personal gifts unrelated to the business, like a wedding present, generally don't count."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0103"
+    },
+    {
+      "type": "narration",
+      "text": "Business entertainment is different. An ordinary meal, game or show where you or another firm representative are present isn't counted toward the gift limit, as long as it isn't so frequent or extensive as to raise questions of propriety. Firms must have procedures to supervise it. If you hand over the tickets and don't go, they're a gift. Non-cash compensation rules cover what product sponsors, like fund or annuity companies, can give reps. Sponsors can pay for training or education meetings only if the firm approves attendance, attendance isn't tied to sales targets, the location is appropriate, and no guests are paid for. Gifts from sponsors are capped at three hundred dollars per person per year under the conforming twenty twenty-six amendments."
+    },
+    {
+      "type": "narration",
+      "text": "Political contributions matter for municipal securities business under M S R B Rule G thirty-seven, the pay-to-play rule. A municipal finance professional may contribute up to two hundred fifty dollars per election to an issuer official they're entitled to vote for, without consequences. Larger contributions, or any contribution to an official they can't vote for, can trigger a two-year ban on the firm doing negotiated municipal securities business with that issuer. Firms disclose contributions on Form G thirty-seven."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0104"
+    },
+    {
+      "type": "narration",
+      "text": "Finally, other reportable events tie back to the U four. Bankruptcies within ten years, unsatisfied liens and judgments, compromises with creditors, felony charges and convictions, and investment- or fraud-related misdemeanors must be disclosed within thirty days. You also need your firm's prior written consent before opening a brokerage account at another firm under Rule thirty-two ten. And under Rule twenty sixty, information obtained as a fiduciary, such as when acting as transfer agent, can't be used to solicit trades unless the issuer asks."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Outside paid work needs prior written notice under Rule thirty-two seventy. Selling away for pay needs written approval and firm supervision under Rule thirty-two eighty, and Rule thirty-two ninety replaces both in October twenty twenty-seven. The gift limit is three hundred dollars per person per year since March twenty twenty-six, with entertainment exempt if you attend. Sponsor-paid training needs approval and can't be a sales reward. Under G thirty-seven, contributions over two hundred fifty dollars per election can trigger a two-year municipal business ban. Bankruptcies, liens and criminal events go on the U four within thirty days."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Outside business activity (Rule 3270)",
+      "definition": "Paid outside work requires prior written notice to the firm."
+    },
+    {
+      "term": "Private securities transaction (Rule 3280)",
+      "definition": "Selling away. If compensated, it needs the firm's written approval and supervision."
+    },
+    {
+      "term": "Rule 3290",
+      "definition": "The new consolidated outside activities rule, effective October 25, 2027."
+    },
+    {
+      "term": "Gift limit (Rule 3220)",
+      "definition": "$300 per person per year since March 30, 2026. Previously $100."
+    },
+    {
+      "term": "Business entertainment",
+      "definition": "Not counted as a gift if a firm representative attends, unless excessive."
+    },
+    {
+      "term": "MSRB G-37",
+      "definition": "$250 per election de minimis; larger contributions can bring a 2-year ban."
+    }
+  ],
+  "mnemonics": [
+    "Notice for Outside work, Approval for Away sales (paid).",
+    "Gifts 300, G-37 at 250: three hundred to give, two-fifty to vote."
+  ],
+  "summary": "Outside business activities need prior written notice. Private securities transactions for pay need written firm approval and supervision, and Rule 3290 replaces both rules on October 25, 2027. The gift limit rose to $300 per person per year on March 30, 2026, with entertainment exempt when the rep attends. Non-cash compensation from sponsors is tightly conditioned. Under MSRB G-37, contributions over $250 per election can trigger a two-year ban on municipal business. Bankruptcies, liens and criminal events must be disclosed on Form U4."
+}

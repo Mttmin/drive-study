@@ -1,0 +1,111 @@
+{
+ "id": "s7-2-03",
+ "exam": "S7",
+ "section": "S7-2",
+ "section_title": "Opens Accounts After Obtaining and Evaluating Customers' Financial Profile and Investment Objectives",
+ "title": "Customer identification, privacy and authorizations",
+ "order": 3,
+ "est_minutes": 7,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Before anyone trades, the firm has to know who the customer is. This lesson covers the account record rules, the anti-money laundering program, privacy, and senior investor protections. These are mostly memorization, so think of them as checklists."
+  },
+  {
+   "type": "narration",
+   "text": "Under the USA PATRIOT Act's customer identification program, the firm must collect at least four items before opening an account: name, date of birth for an individual, a residential or business street address, and an identification number. For U.S. persons, that's a taxpayer ID number. For non-U.S. persons, it can be a passport or other government ID number. The firm verifies identity through documents or non-documentary methods, and it checks customers against the Treasury's OFAC list of specially designated nationals. A match means the account can't be opened or the assets must be blocked, and OFAC is notified."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0104"
+  },
+  {
+   "type": "narration",
+   "text": "FINRA Rule forty-five twelve sets out the customer account record. For every account, the firm needs the customer's name and residence, whether the customer is of legal age, the name of the registered representative, and the signature of the principal who accepts the account. For an individual account other than an institutional one, the firm must also make reasonable efforts to get the tax ID number, occupation and employer, annual income, net worth, and investment objectives. The firm must also make a reasonable effort to get the name and contact information of a trusted contact person age eighteen or older. Not having one doesn't stop the account from opening. The trusted contact can be reached about suspected financial exploitation, the customer's health status, or the identity of a legal guardian, executor, or trustee."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0585"
+  },
+  {
+   "type": "narration",
+   "text": "Senior investor protection ties into this. Under FINRA Rule twenty-one sixty-five, when a firm reasonably believes a specified adult is being financially exploited, it may place a temporary hold on disbursements, and it must notify the trusted contact and the customer. A specified adult is someone sixty-five or older, or eighteen or older with a mental or physical impairment."
+  },
+  {
+   "type": "narration",
+   "text": "Anti-money laundering covers three stages. Placement puts dirty cash into the system, layering moves it around to hide its source, and integration brings it back out looking legitimate. Firms file a currency transaction report for cash transactions over ten thousand dollars in a single day, counting related transactions together. Structuring means breaking deposits into smaller amounts to dodge that report, and it's itself a crime. A broker-dealer files a suspicious activity report for suspicious transactions of five thousand dollars or more, and it must never tell the customer it filed one. Every firm needs a written AML program, an AML compliance officer, independent testing, and ongoing training."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0590"
+  },
+  {
+   "type": "narration",
+   "text": "Privacy is covered by SEC Regulation S-P. Firms deliver a privacy notice when the customer relationship begins, and annually after that, unless the firm qualifies for the exception for unchanged policies. Customers can opt out of having their nonpublic personal information shared with nonaffiliated third parties, with certain exceptions. Regulation S-AM lets customers opt out of affiliates using shared information for marketing. Regulation S-ID requires an identity theft program with red flags."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0595"
+  },
+  {
+   "type": "narration",
+   "text": "Two account-opening disclosures matter for options and margin. For options, the customer must get the Options Disclosure Document at or before account approval, and must return a signed options agreement within fifteen days of approval. For margin, the customer must get the margin disclosure statement at account opening and sign the margin agreement. That agreement includes the credit agreement and the hypothecation agreement. The loan consent, which lets the firm lend the customer's securities, is optional."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: the CIP minimum is name, date of birth, address, and ID number, plus an OFAC check. Rule forty-five twelve requires a principal's signature, reasonable efforts to collect financial information, and a trusted contact. CTRs are for cash over ten thousand dollars, SARs for suspicious activity of five thousand or more, and you never tip off the customer. Privacy notices go out at the start and annually. Options agreements are due within fifteen days of approval, and the loan consent is optional."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Customer identification program: The USA PATRIOT Act requirement to verify a new customer's identity using name, date of birth, address and an ID number. Currency transaction report: A report filed with FinCEN for cash transactions over ten thousand dollars in a single business day. Suspicious activity report: A FinCEN filing a broker-dealer must make for suspicious transactions of five thousand dollars or more, without telling the customer. Structuring: Breaking cash deposits into smaller amounts to avoid currency reporting thresholds. Placement: The money-laundering stage in which illicit cash first enters the financial system. Layering: The money-laundering stage in which funds are moved through many transactions to hide their origin. Integration: The money-laundering stage in which laundered funds re-enter the economy looking legitimate. OFAC SDN list: The Treasury list of specially designated nationals and blocked persons that firms must screen against."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Customer identification program",
+   "definition": "The USA PATRIOT Act requirement to verify a new customer's identity using name, date of birth, address and an ID number"
+  },
+  {
+   "term": "Currency transaction report",
+   "definition": "A report filed with FinCEN for cash transactions over 10,000 dollars in a single business day"
+  },
+  {
+   "term": "Suspicious activity report",
+   "definition": "A FinCEN filing a broker-dealer must make for suspicious transactions of 5,000 dollars or more, without telling the customer"
+  },
+  {
+   "term": "Structuring",
+   "definition": "Breaking cash deposits into smaller amounts to avoid currency reporting thresholds"
+  },
+  {
+   "term": "Placement",
+   "definition": "The money-laundering stage in which illicit cash first enters the financial system"
+  },
+  {
+   "term": "Layering",
+   "definition": "The money-laundering stage in which funds are moved through many transactions to hide their origin"
+  },
+  {
+   "term": "Integration",
+   "definition": "The money-laundering stage in which laundered funds re-enter the economy looking legitimate"
+  },
+  {
+   "term": "OFAC SDN list",
+   "definition": "The Treasury list of specially designated nationals and blocked persons that firms must screen against"
+  },
+  {
+   "term": "Regulation S-P",
+   "definition": "The SEC privacy rule requiring an initial privacy notice, an opt-out right for sharing with nonaffiliated third parties, and safeguards for customer information"
+  },
+  {
+   "term": "Beneficial owner",
+   "definition": "Under the customer due diligence rule, each person owning 25 percent or more of a legal entity customer, plus one person with significant control"
+  }
+ ],
+ "mnemonics": [
+  "CIP: Name, Birthday, Address, Number.",
+  "Cash over ten K: CTR. Suspicious five K: SAR, and don't tell.",
+  "Options agreement: fifteen days."
+ ],
+ "summary": "CIP requires name, DOB, address and ID number, plus an OFAC SDN screen. Rule 4512 requires the principal's acceptance and reasonable efforts to obtain the tax ID, occupation, income, net worth, objectives and a trusted contact (18+, optional for the customer). Rule 2165 allows temporary holds for suspected exploitation of specified adults (65+, or 18+ with impairment). CTRs cover cash over $10,000 a day. SARs cover suspicious activity of $5,000 or more by a broker-dealer, and the customer is never told. Structuring is illegal. Reg S-P requires initial and annual privacy notices and an opt-out for nonaffiliate sharing. Options agreements are due within 15 days of approval. The margin disclosure statement comes at opening, and the loan consent is optional."
+}

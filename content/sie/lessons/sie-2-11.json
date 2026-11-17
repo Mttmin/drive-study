@@ -1,0 +1,118 @@
+{
+  "id": "sie-2-11",
+  "exam": "SIE",
+  "section": "SIE-2",
+  "section_title": "Understanding Products and Their Risks",
+  "title": "Variable Annuities",
+  "order": 11,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "A variable annuity is a contract with an insurance company that combines investing with insurance features. Because returns depend on investments in securities, it's both an insurance product and a security. You need a securities registration and a state insurance license to sell one. The SIE tests the structure, units, payout options, taxes and the special sales rule, FINRA Rule twenty-three thirty."
+    },
+    {
+      "type": "narration",
+      "text": "First, fixed versus variable. In a fixed annuity, the insurer guarantees a rate of return and the payments, and invests the money in its general account. The insurer bears the investment risk, so a fixed annuity isn't a security. In a variable annuity, premiums go into a separate account, divided into subaccounts that work like mutual funds. The contract owner chooses among them and bears the investment risk. The separate account is kept apart from the insurer's general assets."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0053"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0374"
+    },
+    {
+      "type": "narration",
+      "text": "A variable annuity has two phases. During the accumulation phase, the owner makes payments, which buy accumulation units whose value rises and falls with the subaccounts. Growth is tax-deferred. At annuitization, the owner turns the contract into a stream of payments. The accumulation units are converted into a fixed number of annuity units, and each payment equals that number of units times the current annuity unit value. The value of an annuity unit depends on how the separate account performs compared to the assumed interest rate, or A I R. If the account beats the A I R, the next payment goes up. If it matches, the payment stays the same. If it falls short, the payment goes down."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0376"
+    },
+    {
+      "type": "narration",
+      "text": "Payout options trade off income against guarantees. Life only, or straight life, pays the most each month, but payments stop at death, with nothing left for heirs. Life with period certain guarantees payments for a minimum number of years, even if the annuitant dies early. Joint and last survivor keeps paying as long as either of two people is alive. Unit refund returns any remaining value to a beneficiary. The more guarantees you add, the smaller the monthly payment."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0377"
+    },
+    {
+      "type": "narration",
+      "text": "Costs matter. Variable annuities charge a mortality and expense fee for the insurance guarantees, administrative fees, the subaccounts' investment management fees, and charges for optional riders. Most also have surrender charges, which are deferred sales charges on withdrawals during the first several years, declining over time. A standard death benefit typically guarantees the beneficiary at least the premiums paid, adjusted for withdrawals, if the owner dies during accumulation."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0382"
+    },
+    {
+      "type": "narration",
+      "text": "Now taxes, for a non-qualified annuity, meaning one bought with after-tax money outside a retirement plan. Contributions aren't deductible, but earnings grow tax-deferred. Partial withdrawals come out earnings first, and those earnings are taxed as ordinary income. Earnings withdrawn before age fifty-nine and a half generally also face a ten percent additional tax. There's no step-up in basis at death, so beneficiaries pay ordinary income tax on the earnings. And a Section ten thirty-five exchange lets you swap one annuity for another without current tax, though a new surrender period usually starts."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0054"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0381"
+    },
+    {
+      "type": "narration",
+      "text": "FINRA Rule twenty-three thirty adds special protections for deferred variable annuity recommendations to individual customers. The rep must have a reasonable basis to believe the customer has been informed of the material features, like surrender charges, fees and tax treatment, and that the customer would benefit from features like tax deferral or death benefits. For exchanges, the rep must consider whether the customer has had another annuity exchange within the past thirty-six months. A registered principal must review and approve or reject the transaction no later than seven business days after the office of supervisory jurisdiction receives a complete application, and the funds can't go to the insurer until then."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0383"
+    },
+    {
+      "type": "narration",
+      "text": "Who's a good fit? Someone who has already maxed out retirement plans, wants more tax deferral, has a long horizon, and wants lifetime income options. Who isn't? A young investor with no emergency savings who might need the money soon, or anyone putting a variable annuity inside an I R A only for tax deferral the I R A already provides."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Variable annuities are both insurance and securities, invested in a separate account where the owner bears investment risk. Accumulation units come before annuitization, and annuity units after. Payments rise or fall versus the A I R. Life only pays the most. Earnings come out first and are taxed as ordinary income, with a ten percent additional tax before fifty-nine and a half. Rule twenty-three thirty requires principal approval within seven business days."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Separate account",
+      "definition": "Holds variable annuity investments apart from the insurer's general account."
+    },
+    {
+      "term": "Accumulation unit",
+      "definition": "Measures ownership during the accumulation phase."
+    },
+    {
+      "term": "Annuity unit",
+      "definition": "Fixed number of units after annuitization; payments vary with unit value."
+    },
+    {
+      "term": "AIR",
+      "definition": "Assumed interest rate; benchmark for changes in payments."
+    },
+    {
+      "term": "Life only",
+      "definition": "Payout option with the highest payment; stops at death."
+    },
+    {
+      "term": "Surrender charge",
+      "definition": "Deferred charge on early withdrawals; declines over time."
+    },
+    {
+      "term": "1035 exchange",
+      "definition": "Tax-free swap of one annuity for another."
+    },
+    {
+      "term": "Rule 2330",
+      "definition": "Deferred VA sales rule; principal review within 7 business days."
+    }
+  ],
+  "mnemonics": [
+    "Beat the AIR, payments climb in the air.",
+    "Accumulate, then Annuitize: A before A."
+  ],
+  "summary": "Variable annuities invest through a separate account, so the owner bears investment risk. Units convert at annuitization, and payments move with performance versus the AIR. Life only pays the most. Earnings are taxed as ordinary income, last in first out, with a 10% additional tax before 59 1/2. Rule 2330 adds disclosure and principal review."
+}

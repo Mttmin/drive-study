@@ -694,5 +694,2819 @@
       "discount-rate"
     ],
     "outline_ref": "1.3.1 The Federal Reserve Board's Impact on Business Activity"
+  },
+  {
+    "id": "sie-q-0105",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "regulators",
+    "lesson_id": "sie-1-01",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A registered representative tells a prospect, \"This IPO was approved by the SEC, so it's a safe investment.\" This statement is:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A violation, because the SEC never approves or passes on the merits of a security"
+      },
+      {
+        "key": "B",
+        "text": "Acceptable if the registration statement is effective"
+      },
+      {
+        "key": "C",
+        "text": "Acceptable for exempt securities only"
+      },
+      {
+        "key": "D",
+        "text": "A violation only if the IPO later loses value"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "A registered representative tells a prospect, \"This IPO was approved by the SEC, so it's a safe investment.\" This statement is: A, A violation, because the SEC never approves or passes on the merits of a security. B, Acceptable if the registration statement is effective. C, Acceptable for exempt securities only. D, A violation only if the IPO later loses value.",
+    "explanation": "A is correct. Section 23 of the Securities Act of 1933 makes it unlawful to represent that the SEC has approved a security or passed on its merits. An effective registration only means the required disclosure was filed. B is wrong because effectiveness is not approval. C is wrong because exempt securities aren't registered at all. D is wrong because the misstatement is a violation no matter how the stock performs.",
+    "spoken_explanation": "A is correct. Section 23 of the Securities Act of 1933 makes it unlawful to represent that the SEC has approved a security or passed on its merits. An effective registration only means the required disclosure was filed. B is wrong because effectiveness is not approval. C is wrong because exempt securities aren't registered at all. D is wrong because the misstatement is a violation no matter how the stock performs.",
+    "tags": [
+      "sec",
+      "securities-act-1933",
+      "section-23"
+    ],
+    "outline_ref": "1.1.1 The Securities and Exchange Commission (SEC)"
+  },
+  {
+    "id": "sie-q-0106",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "regulators",
+    "lesson_id": "sie-1-01",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "The SEC discovers evidence that a promoter knowingly ran a securities fraud. Which statement about enforcement is TRUE?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The SEC can sentence the promoter to prison"
+      },
+      {
+        "key": "B",
+        "text": "Only FINRA can act because the promoter is not a member"
+      },
+      {
+        "key": "C",
+        "text": "The SEC brings civil actions and may refer criminal matters to the Department of Justice"
+      },
+      {
+        "key": "D",
+        "text": "Only the state where the promoter lives can act"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "The SEC discovers evidence that a promoter knowingly ran a securities fraud. Which statement about enforcement is TRUE? A, The SEC can sentence the promoter to prison. B, Only FINRA can act because the promoter is not a member. C, The SEC brings civil actions and may refer criminal matters to the Department of Justice. D, Only the state where the promoter lives can act.",
+    "explanation": "C is correct. The SEC is a civil enforcement agency. It can seek injunctions, fines, disgorgement and bars, and it refers criminal cases to the Department of Justice for prosecution. A is wrong because only courts in criminal cases impose prison. B is wrong because FINRA's jurisdiction covers only its members and their associated persons, while the SEC can pursue anyone. D is wrong because state regulators may also act, but federal law applies too.",
+    "spoken_explanation": "C is correct. The SEC is a civil enforcement agency. It can seek injunctions, fines, disgorgement and bars, and it refers criminal cases to the Department of Justice for prosecution. A is wrong because only courts in criminal cases impose prison. B is wrong because FINRA's jurisdiction covers only its members and their associated persons, while the SEC can pursue anyone. D is wrong because state regulators may also act, but federal law applies too.",
+    "tags": [
+      "sec",
+      "enforcement"
+    ],
+    "outline_ref": "1.1.1 The Securities and Exchange Commission (SEC)"
+  },
+  {
+    "id": "sie-q-0107",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "regulators",
+    "lesson_id": "sie-1-01",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "All of the following are functions of FINRA EXCEPT:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Administering qualification exams"
+      },
+      {
+        "key": "B",
+        "text": "Running an arbitration forum for industry disputes"
+      },
+      {
+        "key": "C",
+        "text": "Setting the initial margin requirement for stock purchases"
+      },
+      {
+        "key": "D",
+        "text": "Examining member firms for rule compliance"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "All of the following are functions of FINRA EXCEPT: A, Administering qualification exams. B, Running an arbitration forum for industry disputes. C, Setting the initial margin requirement for stock purchases. D, Examining member firms for rule compliance.",
+    "explanation": "C is correct because initial margin is set by the Federal Reserve Board under Regulation T. FINRA sets maintenance margin under Rule 4210 but not the initial Reg T requirement. A, B and D are FINRA functions: it develops and administers exams like the SIE, runs the main dispute resolution forum for the securities industry, and conducts examinations of its member broker-dealers.",
+    "spoken_explanation": "C is correct because initial margin is set by the Federal Reserve Board under Regulation T. FINRA sets maintenance margin under Rule 4210 but not the initial Reg T requirement. A, B and D are FINRA functions: it develops and administers exams like the SIE, runs the main dispute resolution forum for the securities industry, and conducts examinations of its member broker-dealers.",
+    "tags": [
+      "finra",
+      "sro",
+      "reg-t"
+    ],
+    "outline_ref": "1.1.2 Self-regulatory Organizations (SROs)"
+  },
+  {
+    "id": "sie-q-0108",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "regulators",
+    "lesson_id": "sie-1-01",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A customer buys shares of a money market mutual fund through the brokerage unit located inside her bank branch. Is the investment FDIC-insured?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Yes, because it was bought at a bank"
+      },
+      {
+        "key": "B",
+        "text": "Yes, up to $250,000"
+      },
+      {
+        "key": "C",
+        "text": "No, mutual funds are securities and are not FDIC-insured"
+      },
+      {
+        "key": "D",
+        "text": "No, but the Federal Reserve guarantees it"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "A customer buys shares of a money market mutual fund through the brokerage unit located inside her bank branch. Is the investment FDIC-insured? A, Yes, because it was bought at a bank. B, Yes, up to 250,000 dollars. C, No, mutual funds are securities and are not FDIC-insured. D, No, but the Federal Reserve guarantees it.",
+    "explanation": "C is correct. FDIC insurance covers bank deposits such as checking, savings and bank CDs. It does not cover securities, including mutual funds, money market funds, stocks, bonds or annuities, even when they're bought at a bank. A and B are wrong for that reason, and firms selling at bank branches must disclose that the products are not FDIC-insured. D is wrong because the Fed does not guarantee mutual funds.",
+    "spoken_explanation": "C is correct. FDIC insurance covers bank deposits such as checking, savings and bank CDs. It does not cover securities, including mutual funds, money market funds, stocks, bonds or annuities, even when they're bought at a bank. A and B are wrong for that reason, and firms selling at bank branches must disclose that the products are not FDIC-insured. D is wrong because the Fed does not guarantee mutual funds.",
+    "tags": [
+      "fdic",
+      "money-market-funds"
+    ],
+    "outline_ref": "1.1.3 Other Regulators and Agencies"
+  },
+  {
+    "id": "sie-q-0109",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "sipc",
+    "lesson_id": "sie-1-01",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "A customer has an individual account, a second individual account in her own name, and a joint account with her husband at the same failed SIPC member. How many separate SIPC coverage limits apply?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "One"
+      },
+      {
+        "key": "B",
+        "text": "Four"
+      },
+      {
+        "key": "C",
+        "text": "Three"
+      },
+      {
+        "key": "D",
+        "text": "Two"
+      }
+    ],
+    "answer": "D",
+    "spoken_stem": "A customer has an individual account, a second individual account in her own name, and a joint account with her husband at the same failed SIPC member. How many separate SIPC coverage limits apply? A, One. B, Four. C, Three. D, Two.",
+    "explanation": "D is correct. SIPC coverage is per separate capacity, not per account. Her two individual accounts are the same capacity, so they are combined under one limit. The joint account with her husband is a separate capacity with its own limit. That makes two limits of up to $500,000 each, including up to $250,000 of cash, as of 2026. A ignores the joint capacity. C and B count accounts instead of capacities.",
+    "spoken_explanation": "D is correct. SIPC coverage is per separate capacity, not per account. Her two individual accounts are the same capacity, so they are combined under one limit. The joint account with her husband is a separate capacity with its own limit. That makes two limits of up to 500,000 dollars each, including up to 250,000 dollars of cash, as of 2026. A ignores the joint capacity. C and B count accounts instead of capacities.",
+    "tags": [
+      "sipc",
+      "separate-capacity",
+      "changes-yearly"
+    ],
+    "outline_ref": "1.1.3 Other Regulators and Agencies"
+  },
+  {
+    "id": "sie-q-0110",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "regulators",
+    "lesson_id": "sie-1-01",
+    "difficulty": 1,
+    "type": "mc",
+    "stem": "Which agency sets the tax rules that determine how dividends, interest and capital gains on securities are taxed?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "SEC"
+      },
+      {
+        "key": "B",
+        "text": "FINRA"
+      },
+      {
+        "key": "C",
+        "text": "The Department of the Treasury, through the IRS"
+      },
+      {
+        "key": "D",
+        "text": "The Federal Reserve"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "Which agency sets the tax rules that determine how dividends, interest and capital gains on securities are taxed? A, SEC. B, FINRA. C, The Department of the Treasury, through the IRS. D, The Federal Reserve.",
+    "explanation": "C is correct. The Department of the Treasury, through the Internal Revenue Service, administers federal tax law, including how investment income and retirement accounts are taxed. Treasury also issues government debt and houses FinCEN and OFAC. A regulates securities markets and disclosure, not taxes. B regulates broker-dealers. D runs monetary policy and sets margin credit rules, not tax rules.",
+    "spoken_explanation": "C is correct. The Department of the Treasury, through the Internal Revenue Service, administers federal tax law, including how investment income and retirement accounts are taxed. Treasury also issues government debt and houses FinCEN and OFAC. A regulates securities markets and disclosure, not taxes. B regulates broker-dealers. D runs monetary policy and sets margin credit rules, not tax rules.",
+    "tags": [
+      "treasury",
+      "irs",
+      "taxation"
+    ],
+    "outline_ref": "1.1.3 Other Regulators and Agencies"
+  },
+  {
+    "id": "sie-q-0111",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "regulators",
+    "lesson_id": "sie-1-01",
+    "difficulty": 1,
+    "type": "tf",
+    "stem": "True or false: An options exchange such as Cboe is itself a self-regulatory organization that writes and enforces rules for its members.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "True or false: An options exchange such as Cboe is itself a self-regulatory organization that writes and enforces rules for its members.",
+    "explanation": "True. Registered national securities exchanges, including Cboe, are self-regulatory organizations under the Securities Exchange Act of 1934. They write rules for trading on their markets and discipline their members, under SEC oversight. Cboe rules cover things like position limits and options trading practices. FINRA is the largest SRO, but it is not the only one.",
+    "spoken_explanation": "True. Registered national securities exchanges, including Cboe, are self-regulatory organizations under the Securities Exchange Act of 1934. They write rules for trading on their markets and discipline their members, under SEC oversight. Cboe rules cover things like position limits and options trading practices. FINRA is the largest SRO, but it is not the only one.",
+    "tags": [
+      "sro",
+      "cboe"
+    ],
+    "outline_ref": "1.1.2 Self-regulatory Organizations (SROs)"
+  },
+  {
+    "id": "sie-q-0112",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-participants",
+    "lesson_id": "sie-1-02",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Under FINRA rules, which of the following is generally considered an institutional account?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "An individual with $5 million in assets"
+      },
+      {
+        "key": "B",
+        "text": "A married couple with $1 million in income"
+      },
+      {
+        "key": "C",
+        "text": "A natural person with total assets of at least $50 million"
+      },
+      {
+        "key": "D",
+        "text": "Any accredited investor"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "Under FINRA rules, which of the following is generally considered an institutional account? A, An individual with 5 million dollars in assets. B, A married couple with 1 million dollars in income. C, A natural person with total assets of at least 50 million dollars. D, Any accredited investor.",
+    "explanation": "C is correct. FINRA Rule 4512(c) defines an institutional account to include banks, insurance companies, registered investment companies, registered investment advisers, and any person, including a natural person, with total assets of at least $50 million. A and B are wealthy retail customers. D is wrong because accredited investor status is a Regulation D concept for private placements and doesn't make someone institutional under FINRA rules.",
+    "spoken_explanation": "C is correct. FINRA Rule 4512(c) defines an institutional account to include banks, insurance companies, registered investment companies, registered investment advisers, and any person, including a natural person, with total assets of at least 50 million dollars. A and B are wealthy retail customers. D is wrong because accredited investor status is a Regulation D concept for private placements and doesn't make someone institutional under FINRA rules.",
+    "tags": [
+      "institutional-investor",
+      "rule-4512"
+    ],
+    "outline_ref": "1.1.4 Market Participants and their Roles"
+  },
+  {
+    "id": "sie-q-0113",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-participants",
+    "lesson_id": "sie-1-02",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A hedge fund executes trades through several brokers but has one firm provide custody, financing, securities lending and consolidated reporting. That firm is acting as a:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Prime broker"
+      },
+      {
+        "key": "B",
+        "text": "Introducing broker"
+      },
+      {
+        "key": "C",
+        "text": "Transfer agent"
+      },
+      {
+        "key": "D",
+        "text": "Municipal advisor"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "A hedge fund executes trades through several brokers but has one firm provide custody, financing, securities lending and consolidated reporting. That firm is acting as a: A, Prime broker. B, Introducing broker. C, Transfer agent. D, Municipal advisor.",
+    "explanation": "A is correct. A prime broker provides a package of services to large active clients like hedge funds: clearing and custody, margin financing, securities lending for short sales, and consolidated reporting. The client can still use other executing brokers. B takes orders but relies on a clearing firm. C maintains an issuer's shareholder records. D advises municipal issuers on bond deals.",
+    "spoken_explanation": "A is correct. A prime broker provides a package of services to large active clients like hedge funds: clearing and custody, margin financing, securities lending for short sales, and consolidated reporting. The client can still use other executing brokers. B takes orders but relies on a clearing firm. C maintains an issuer's shareholder records. D advises municipal issuers on bond deals.",
+    "tags": [
+      "prime-broker",
+      "hedge-funds"
+    ],
+    "outline_ref": "1.1.4 Market Participants and their Roles"
+  },
+  {
+    "id": "sie-q-0114",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-participants",
+    "lesson_id": "sie-1-02",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Which BEST describes an investment adviser?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A firm that buys and sells securities for its own account"
+      },
+      {
+        "key": "B",
+        "text": "A bank that holds securities for safekeeping"
+      },
+      {
+        "key": "C",
+        "text": "A person or firm paid to give advice about securities, which owes clients a fiduciary duty"
+      },
+      {
+        "key": "D",
+        "text": "A company that issues securities to raise capital"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "Which BEST describes an investment adviser? A, A firm that buys and sells securities for its own account. B, A bank that holds securities for safekeeping. C, A person or firm paid to give advice about securities, which owes clients a fiduciary duty. D, A company that issues securities to raise capital.",
+    "explanation": "C is correct. Under the Investment Advisers Act of 1940, an investment adviser is in the business of giving advice about securities for compensation, and owes clients a fiduciary duty of care and loyalty. Larger advisers generally register with the SEC and smaller ones with the states. A describes a dealer. B describes a custodian. D describes an issuer.",
+    "spoken_explanation": "C is correct. Under the Investment Advisers Act of 1940, an investment adviser is in the business of giving advice about securities for compensation, and owes clients a fiduciary duty of care and loyalty. Larger advisers generally register with the SEC and smaller ones with the states. A describes a dealer. B describes a custodian. D describes an issuer.",
+    "tags": [
+      "investment-adviser",
+      "fiduciary"
+    ],
+    "outline_ref": "1.1.4 Market Participants and their Roles"
+  },
+  {
+    "id": "sie-q-0115",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-participants",
+    "lesson_id": "sie-1-02",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A county hires a firm to advise it on the structure and timing of an upcoming bond issue, but the firm will not underwrite the bonds. The firm is acting as a:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Municipal advisor"
+      },
+      {
+        "key": "B",
+        "text": "Syndicate manager"
+      },
+      {
+        "key": "C",
+        "text": "Bond counsel"
+      },
+      {
+        "key": "D",
+        "text": "Transfer agent"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "A county hires a firm to advise it on the structure and timing of an upcoming bond issue, but the firm will not underwrite the bonds. The firm is acting as a: A, Municipal advisor. B, Syndicate manager. C, Bond counsel. D, Transfer agent.",
+    "explanation": "A is correct. A municipal advisor gives advice to or on behalf of a municipal entity about municipal financial products or the issuance of municipal securities. It must register with the SEC and the MSRB, and it owes a fiduciary duty to its municipal entity clients. B is the lead underwriter that buys and resells the bonds. C gives the legal opinion on validity and tax status. D keeps ownership records.",
+    "spoken_explanation": "A is correct. A municipal advisor gives advice to or on behalf of a municipal entity about municipal financial products or the issuance of municipal securities. It must register with the SEC and the MSRB, and it owes a fiduciary duty to its municipal entity clients. B is the lead underwriter that buys and resells the bonds. C gives the legal opinion on validity and tax status. D keeps ownership records.",
+    "tags": [
+      "municipal-advisor",
+      "msrb"
+    ],
+    "outline_ref": "1.1.4 Market Participants and their Roles"
+  },
+  {
+    "id": "sie-q-0116",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-participants",
+    "lesson_id": "sie-1-02",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A firm continuously publishes a firm bid and offer for a stock and stands ready to buy or sell at those prices for its own account. The firm is a:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Market maker acting as principal"
+      },
+      {
+        "key": "B",
+        "text": "Broker acting as agent"
+      },
+      {
+        "key": "C",
+        "text": "Transfer agent"
+      },
+      {
+        "key": "D",
+        "text": "Custodian"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "A firm continuously publishes a firm bid and offer for a stock and stands ready to buy or sell at those prices for its own account. The firm is a: A, Market maker acting as principal. B, Broker acting as agent. C, Transfer agent. D, Custodian.",
+    "explanation": "A is correct. A market maker, a type of dealer, posts two-sided quotes and trades from its own inventory as principal, profiting from the spread between bid and ask. It must honor its firm quotes, and failing to do so is backing away. B is wrong because an agent doesn't trade for its own account. C and D provide recordkeeping and safekeeping, not trading.",
+    "spoken_explanation": "A is correct. A market maker, a type of dealer, posts two-sided quotes and trades from its own inventory as principal, profiting from the spread between bid and ask. It must honor its firm quotes, and failing to do so is backing away. B is wrong because an agent doesn't trade for its own account. C and D provide recordkeeping and safekeeping, not trading.",
+    "tags": [
+      "market-maker",
+      "dealer"
+    ],
+    "outline_ref": "1.1.4 Market Participants and their Roles"
+  },
+  {
+    "id": "sie-q-0117",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-participants",
+    "lesson_id": "sie-1-02",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Which entity is responsible for making sure that a corporation does not have more shares outstanding than its charter authorizes?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Transfer agent"
+      },
+      {
+        "key": "B",
+        "text": "Custodian"
+      },
+      {
+        "key": "C",
+        "text": "Registrar"
+      },
+      {
+        "key": "D",
+        "text": "Clearing corporation"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "Which entity is responsible for making sure that a corporation does not have more shares outstanding than its charter authorizes? A, Transfer agent. B, Custodian. C, Registrar. D, Clearing corporation.",
+    "explanation": "C is correct. The registrar audits the transfer agent's work and certifies that the number of outstanding shares does not exceed the authorized amount. A, the transfer agent, keeps the list of shareholders, issues and cancels certificates, and often handles dividend payments. B holds assets for safekeeping. D handles trade comparison and settlement between firms.",
+    "spoken_explanation": "C is correct. The registrar audits the transfer agent's work and certifies that the number of outstanding shares does not exceed the authorized amount. A, the transfer agent, keeps the list of shareholders, issues and cancels certificates, and often handles dividend payments. B holds assets for safekeeping. D handles trade comparison and settlement between firms.",
+    "tags": [
+      "registrar",
+      "transfer-agent"
+    ],
+    "outline_ref": "1.1.4 Market Participants and their Roles"
+  },
+  {
+    "id": "sie-q-0118",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-participants",
+    "lesson_id": "sie-1-02",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Most U.S. stock trades settle by book entry rather than by physically delivering certificates. Which organization serves as the central securities depository that makes this possible?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Depository Trust Company, part of DTCC"
+      },
+      {
+        "key": "B",
+        "text": "Options Clearing Corporation"
+      },
+      {
+        "key": "C",
+        "text": "The issuer's registrar"
+      },
+      {
+        "key": "D",
+        "text": "The Federal Reserve Bank of New York for all securities"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "Most U.S. stock trades settle by book entry rather than by physically delivering certificates. Which organization serves as the central securities depository that makes this possible? A, Depository Trust Company, part of DTCC. B, Options Clearing Corporation. C, The issuer's registrar. D, The Federal Reserve Bank of New York for all securities.",
+    "explanation": "A is correct. The Depository Trust Company, a subsidiary of DTCC, holds securities in immobilized form and records ownership changes between participant firms electronically. That is book-entry settlement. B guarantees and clears listed options. C certifies share counts. D handles book entry for Treasury securities through Fedwire, but not for corporate stock.",
+    "spoken_explanation": "A is correct. The Depository Trust Company, a subsidiary of DTCC, holds securities in immobilized form and records ownership changes between participant firms electronically. That is book-entry settlement. B guarantees and clears listed options. C certifies share counts. D handles book entry for Treasury securities through Fedwire, but not for corporate stock.",
+    "tags": [
+      "dtcc",
+      "book-entry",
+      "settlement"
+    ],
+    "outline_ref": "1.1.4 Market Participants and their Roles"
+  },
+  {
+    "id": "sie-q-0119",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-participants",
+    "lesson_id": "sie-1-02",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "Under the Trust Indenture Act of 1939, a corporate bond issue sold to the public must generally have:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A trust indenture with an independent trustee to protect bondholders"
+      },
+      {
+        "key": "B",
+        "text": "A guarantee from the U.S. government"
+      },
+      {
+        "key": "C",
+        "text": "Approval from the MSRB"
+      },
+      {
+        "key": "D",
+        "text": "A sinking fund"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "Under the Trust Indenture Act of 1939, a corporate bond issue sold to the public must generally have: A, A trust indenture with an independent trustee to protect bondholders. B, A guarantee from the U.S. government. C, Approval from the MSRB. D, A sinking fund.",
+    "explanation": "A is correct. The Trust Indenture Act requires most publicly offered corporate debt to be issued under a written indenture, the contract between the issuer and the bondholders. An independent trustee, usually a bank, enforces its terms on behalf of the bondholders. B is wrong because corporate bonds carry no government guarantee. C is wrong because the MSRB deals with municipal securities. D is wrong because a sinking fund is optional.",
+    "spoken_explanation": "A is correct. The Trust Indenture Act requires most publicly offered corporate debt to be issued under a written indenture, the contract between the issuer and the bondholders. An independent trustee, usually a bank, enforces its terms on behalf of the bondholders. B is wrong because corporate bonds carry no government guarantee. C is wrong because the MSRB deals with municipal securities. D is wrong because a sinking fund is optional.",
+    "tags": [
+      "trustee",
+      "trust-indenture-act",
+      "corporate-bonds"
+    ],
+    "outline_ref": "1.1.4 Market Participants and their Roles"
+  },
+  {
+    "id": "sie-q-0120",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-participants",
+    "lesson_id": "sie-1-02",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Which investor generally receives the MOST regulatory protection in terms of disclosure and suitability obligations?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A retail investor"
+      },
+      {
+        "key": "B",
+        "text": "A registered investment company"
+      },
+      {
+        "key": "C",
+        "text": "An insurance company"
+      },
+      {
+        "key": "D",
+        "text": "A bank trust department"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "Which investor generally receives the MOST regulatory protection in terms of disclosure and suitability obligations? A, A retail investor. B, A registered investment company. C, An insurance company. D, A bank trust department.",
+    "explanation": "A is correct. Retail investors are presumed to be the least sophisticated, so rules such as Regulation Best Interest, Form CRS, and the stricter standards for retail communications are aimed at them. C, B and D are institutional investors, which are presumed capable of evaluating risk independently. Firms often have reduced obligations to them, for example under the institutional-customer exemption in the suitability rule.",
+    "spoken_explanation": "A is correct. Retail investors are presumed to be the least sophisticated, so rules such as Regulation Best Interest, Form CRS, and the stricter standards for retail communications are aimed at them. C, B and D are institutional investors, which are presumed capable of evaluating risk independently. Firms often have reduced obligations to them, for example under the institutional-customer exemption in the suitability rule.",
+    "tags": [
+      "retail-investor",
+      "institutional-investor",
+      "reg-bi"
+    ],
+    "outline_ref": "1.1.4 Market Participants and their Roles"
+  },
+  {
+    "id": "sie-q-0121",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-participants",
+    "lesson_id": "sie-1-02",
+    "difficulty": 1,
+    "type": "tf",
+    "stem": "True or false: In a public offering, the investment banking firm that helps the issuer structure and sell the securities is called the underwriter.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "True or false: In a public offering, the investment banking firm that helps the issuer structure and sell the securities is called the underwriter.",
+    "explanation": "True. The underwriter, an investment banking firm or broker-dealer, advises the issuer on structure, pricing and timing. It helps prepare the registration statement and distributes the securities to investors, either by buying them as principal in a firm commitment or by selling them as agent in a best efforts deal. Larger deals use a syndicate of underwriters led by a managing underwriter.",
+    "spoken_explanation": "True. The underwriter, an investment banking firm or broker-dealer, advises the issuer on structure, pricing and timing. It helps prepare the registration statement and distributes the securities to investors, either by buying them as principal in a firm commitment or by selling them as agent in a best efforts deal. Larger deals use a syndicate of underwriters led by a managing underwriter.",
+    "tags": [
+      "underwriter",
+      "investment-banking"
+    ],
+    "outline_ref": "1.1.4 Market Participants and their Roles"
+  },
+  {
+    "id": "sie-q-0122",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-structure",
+    "lesson_id": "sie-1-03",
+    "difficulty": 1,
+    "type": "mc",
+    "stem": "When a company sells newly issued shares to investors in its initial public offering, the transaction takes place in the:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Primary market"
+      },
+      {
+        "key": "B",
+        "text": "Secondary market"
+      },
+      {
+        "key": "C",
+        "text": "Third market"
+      },
+      {
+        "key": "D",
+        "text": "Fourth market"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "When a company sells newly issued shares to investors in its initial public offering, the transaction takes place in the: A, Primary market. B, Secondary market. C, Third market. D, Fourth market.",
+    "explanation": "A is correct. In the primary market, the issuer itself sells new securities and receives the proceeds. That includes IPOs and later follow-on offerings of new shares. B is trading between investors after issuance, where the issuer receives nothing. C and D are subsets of secondary trading: listed securities traded over the counter, and institutions trading directly with each other.",
+    "spoken_explanation": "A is correct. In the primary market, the issuer itself sells new securities and receives the proceeds. That includes IPOs and later follow-on offerings of new shares. B is trading between investors after issuance, where the issuer receives nothing. C and D are subsets of secondary trading: listed securities traded over the counter, and institutions trading directly with each other.",
+    "tags": [
+      "primary-market",
+      "ipo"
+    ],
+    "outline_ref": "1.2.1 Types of Markets"
+  },
+  {
+    "id": "sie-q-0123",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-structure",
+    "lesson_id": "sie-1-03",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "An investor sells 1,000 shares of a large company's stock on an exchange. Who receives the sale proceeds?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The issuing company"
+      },
+      {
+        "key": "B",
+        "text": "The underwriter"
+      },
+      {
+        "key": "C",
+        "text": "The exchange"
+      },
+      {
+        "key": "D",
+        "text": "The investor who sold the shares"
+      }
+    ],
+    "answer": "D",
+    "spoken_stem": "An investor sells 1,000 shares of a large company's stock on an exchange. Who receives the sale proceeds? A, The issuing company. B, The underwriter. C, The exchange. D, The investor who sold the shares.",
+    "explanation": "D is correct. This is a secondary market trade between investors, so the selling investor receives the money from the buyer, minus costs. A is wrong because the issuer receives proceeds only when it sells new shares in the primary market. C is wrong because the exchange earns fees but not the proceeds. B is wrong because underwriters are involved only in distributing offerings.",
+    "spoken_explanation": "D is correct. This is a secondary market trade between investors, so the selling investor receives the money from the buyer, minus costs. A is wrong because the issuer receives proceeds only when it sells new shares in the primary market. C is wrong because the exchange earns fees but not the proceeds. B is wrong because underwriters are involved only in distributing offerings.",
+    "tags": [
+      "secondary-market"
+    ],
+    "outline_ref": "1.2.1 Types of Markets"
+  },
+  {
+    "id": "sie-q-0124",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-structure",
+    "lesson_id": "sie-1-03",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Which statement BEST describes the over-the-counter market?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A single physical trading floor where specialists run auctions"
+      },
+      {
+        "key": "B",
+        "text": "A decentralized dealer network where prices are negotiated between dealers and customers"
+      },
+      {
+        "key": "C",
+        "text": "A market only for newly issued securities"
+      },
+      {
+        "key": "D",
+        "text": "A market restricted to U.S. government securities"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "Which statement BEST describes the over-the-counter market? A, A single physical trading floor where specialists run auctions. B, A decentralized dealer network where prices are negotiated between dealers and customers. C, A market only for newly issued securities. D, A market restricted to U.S. government securities.",
+    "explanation": "B is correct. The OTC market is a decentralized network where dealers quote prices and negotiate trades, often electronically, as principal. Most bonds, including municipal and corporate bonds, trade OTC, as do many unlisted stocks. A describes a traditional exchange auction market. C describes the primary market. D is wrong because the OTC market covers far more than governments.",
+    "spoken_explanation": "B is correct. The OTC market is a decentralized network where dealers quote prices and negotiate trades, often electronically, as principal. Most bonds, including municipal and corporate bonds, trade OTC, as do many unlisted stocks. A describes a traditional exchange auction market. C describes the primary market. D is wrong because the OTC market covers far more than governments.",
+    "tags": [
+      "otc",
+      "negotiated-market"
+    ],
+    "outline_ref": "1.2.1 Types of Markets"
+  },
+  {
+    "id": "sie-q-0125",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-structure",
+    "lesson_id": "sie-1-03",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A broker-dealer that is not an exchange member buys NYSE-listed shares from another dealer over the counter. This trade is in the:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Primary market"
+      },
+      {
+        "key": "B",
+        "text": "Second market"
+      },
+      {
+        "key": "C",
+        "text": "Third market"
+      },
+      {
+        "key": "D",
+        "text": "Fourth market"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "A broker-dealer that is not an exchange member buys NYSE-listed shares from another dealer over the counter. This trade is in the: A, Primary market. B, Second market. C, Third market. D, Fourth market.",
+    "explanation": "C is correct. The third market is the over-the-counter trading of exchange-listed securities between broker-dealers. A is the issuer selling new securities. B traditionally refers to listed securities trading on the exchange itself. D is direct trading between institutions without a broker-dealer, typically on an electronic network.",
+    "spoken_explanation": "C is correct. The third market is the over-the-counter trading of exchange-listed securities between broker-dealers. A is the issuer selling new securities. B traditionally refers to listed securities trading on the exchange itself. D is direct trading between institutions without a broker-dealer, typically on an electronic network.",
+    "tags": [
+      "third-market",
+      "otc"
+    ],
+    "outline_ref": "1.2.1 Types of Markets"
+  },
+  {
+    "id": "sie-q-0126",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-structure",
+    "lesson_id": "sie-1-03",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "An alternative trading system that matches large institutional orders without publicly displaying quotes before execution is commonly called a:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Dark pool"
+      },
+      {
+        "key": "B",
+        "text": "Specialist post"
+      },
+      {
+        "key": "C",
+        "text": "Primary dealer"
+      },
+      {
+        "key": "D",
+        "text": "Clearing house"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "An alternative trading system that matches large institutional orders without publicly displaying quotes before execution is commonly called a: A, Dark pool. B, Specialist post. C, Primary dealer. D, Clearing house.",
+    "explanation": "A is correct. Dark pools are alternative trading systems that don't publish pre-trade quotes, which helps institutions move large blocks without moving the market. Trades are still reported after execution. B refers to the old exchange specialist model. C is a bank or dealer that trades directly with the Federal Reserve. D clears and settles trades but doesn't match orders.",
+    "spoken_explanation": "A is correct. Dark pools are alternative trading systems that don't publish pre-trade quotes, which helps institutions move large blocks without moving the market. Trades are still reported after execution. B refers to the old exchange specialist model. C is a bank or dealer that trades directly with the Federal Reserve. D clears and settles trades but doesn't match orders.",
+    "tags": [
+      "ats",
+      "dark-pool",
+      "fourth-market"
+    ],
+    "outline_ref": "1.2.1 Types of Markets"
+  },
+  {
+    "id": "sie-q-0127",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-structure",
+    "lesson_id": "sie-1-03",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Which statement about electronic communication networks (ECNs) is TRUE?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "They are used only for municipal bonds"
+      },
+      {
+        "key": "B",
+        "text": "They automatically match buy and sell orders, displaying them to subscribers"
+      },
+      {
+        "key": "C",
+        "text": "They guarantee all trades like the OCC"
+      },
+      {
+        "key": "D",
+        "text": "They are the only way to buy IPO shares"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "Which statement about electronic communication networks (ECNs) is TRUE? A, They are used only for municipal bonds. B, They automatically match buy and sell orders, displaying them to subscribers. C, They guarantee all trades like the OCC. D, They are the only way to buy IPO shares.",
+    "explanation": "B is correct. An ECN is an electronic system that displays orders and automatically matches buyers and sellers, which is used by broker-dealers and institutions, including in the fourth market. A is wrong because ECNs mainly handle equities. C is wrong because ECNs don't guarantee trades the way the Options Clearing Corporation guarantees listed options. D is wrong because IPOs are distributed through underwriters.",
+    "spoken_explanation": "B is correct. An ECN is an electronic system that displays orders and automatically matches buyers and sellers, which is used by broker-dealers and institutions, including in the fourth market. A is wrong because ECNs mainly handle equities. C is wrong because ECNs don't guarantee trades the way the Options Clearing Corporation guarantees listed options. D is wrong because IPOs are distributed through underwriters.",
+    "tags": [
+      "ecn",
+      "electronic-markets"
+    ],
+    "outline_ref": "1.2.1 Types of Markets"
+  },
+  {
+    "id": "sie-q-0128",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-structure",
+    "lesson_id": "sie-1-03",
+    "difficulty": 1,
+    "type": "mc",
+    "stem": "A market maker quotes a stock at 24.10 bid, 24.15 ask. A customer who wants to sell immediately at the market will receive:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "$24.15"
+      },
+      {
+        "key": "B",
+        "text": "$24.125"
+      },
+      {
+        "key": "C",
+        "text": "$24.10"
+      },
+      {
+        "key": "D",
+        "text": "$0.05"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "A market maker quotes a stock at 24.10 bid, 24.15 ask. A customer who wants to sell immediately at the market will receive: A, 24 dollars and 15 cents. B, 24 dollars and 12 cents. C, 24 dollars and 10 cents. D, 5 cents.",
+    "explanation": "C is correct. The bid is the price at which the market maker will buy, so a customer selling at the market receives the bid, $24.10. A customer buying at the market would pay the ask, $24.15. B is the midpoint, which isn't the quoted trade price. D is the spread, which is the market maker's potential profit, not a price.",
+    "spoken_explanation": "C is correct. The bid is the price at which the market maker will buy, so a customer selling at the market receives the bid, 24 dollars and 10 cents. A customer buying at the market would pay the ask, 24 dollars and 15 cents. B is the midpoint, which isn't the quoted trade price. D is the spread, which is the market maker's potential profit, not a price.",
+    "tags": [
+      "bid-ask",
+      "quotes"
+    ],
+    "outline_ref": "1.2.1 Types of Markets"
+  },
+  {
+    "id": "sie-q-0129",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-structure",
+    "lesson_id": "sie-1-03",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "A company's founders sell 2 million of their existing shares to the public through an underwritten offering. The company issues no new shares. This is a:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Primary offering, with proceeds to the company"
+      },
+      {
+        "key": "B",
+        "text": "Shelf takedown by the issuer"
+      },
+      {
+        "key": "C",
+        "text": "Rights offering"
+      },
+      {
+        "key": "D",
+        "text": "Secondary offering, with proceeds to the selling shareholders"
+      }
+    ],
+    "answer": "D",
+    "spoken_stem": "A company's founders sell 2 million of their existing shares to the public through an underwritten offering. The company issues no new shares. This is a: A, Primary offering, with proceeds to the company. B, Shelf takedown by the issuer. C, Rights offering. D, Secondary offering, with proceeds to the selling shareholders.",
+    "explanation": "D is correct. In a secondary offering, existing holders such as founders or early investors sell shares they already own. The proceeds go to them, and the share count doesn't change. A is wrong because the company isn't selling new shares. C is wrong because a rights offering lets existing shareholders buy new shares. B is wrong because a shelf takedown by the issuer would involve new securities. An offering can also be split, with both new and existing shares.",
+    "spoken_explanation": "D is correct. In a secondary offering, existing holders such as founders or early investors sell shares they already own. The proceeds go to them, and the share count doesn't change. A is wrong because the company isn't selling new shares. C is wrong because a rights offering lets existing shareholders buy new shares. B is wrong because a shelf takedown by the issuer would involve new securities. An offering can also be split, with both new and existing shares.",
+    "tags": [
+      "secondary-offering",
+      "ipo"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0130",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-structure",
+    "lesson_id": "sie-1-03",
+    "difficulty": 2,
+    "type": "tf",
+    "stem": "True or false: Most municipal and corporate bonds trade on stock exchanges rather than over the counter.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "True or false: Most municipal and corporate bonds trade on stock exchanges rather than over the counter.",
+    "explanation": "False. The vast majority of corporate and municipal bond trading happens over the counter, through dealers that negotiate prices. Trades are reported for transparency through FINRA's TRACE system for corporate bonds and the MSRB's EMMA platform for municipal bonds. Only a small number of bonds trade on exchanges. Stocks, by contrast, trade heavily on exchanges.",
+    "spoken_explanation": "False. The vast majority of corporate and municipal bond trading happens over the counter, through dealers that negotiate prices. Trades are reported for transparency through FINRA's TRACE system for corporate bonds and the MSRB's EMMA platform for municipal bonds. Only a small number of bonds trade on exchanges. Stocks, by contrast, trade heavily on exchanges.",
+    "tags": [
+      "otc",
+      "bonds",
+      "trace",
+      "emma"
+    ],
+    "outline_ref": "1.2.1 Types of Markets"
+  },
+  {
+    "id": "sie-q-0131",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "market-structure",
+    "lesson_id": "sie-1-03",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "On the New York Stock Exchange, the member firm assigned to maintain a fair and orderly market in a specific listed stock is called the:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Designated market maker"
+      },
+      {
+        "key": "B",
+        "text": "Introducing broker"
+      },
+      {
+        "key": "C",
+        "text": "Syndicate manager"
+      },
+      {
+        "key": "D",
+        "text": "Floor broker for the issuer"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "On the New York Stock Exchange, the member firm assigned to maintain a fair and orderly market in a specific listed stock is called the: A, Designated market maker. B, Introducing broker. C, Syndicate manager. D, Floor broker for the issuer.",
+    "explanation": "A is correct. On the NYSE, each listed stock has a designated market maker, formerly called the specialist. The DMM is responsible for maintaining a fair and orderly market, facilitating the opening and closing auctions, and providing liquidity when needed. B routes customer orders to a clearing firm. C leads an underwriting. D isn't a recognized role; floor brokers execute orders for their firm's customers, not for issuers.",
+    "spoken_explanation": "A is correct. On the NYSE, each listed stock has a designated market maker, formerly called the specialist. The DMM is responsible for maintaining a fair and orderly market, facilitating the opening and closing auctions, and providing liquidity when needed. B routes customer orders to a clearing firm. C leads an underwriting. D isn't a recognized role, floor brokers execute orders for their firm's customers, not for issuers.",
+    "tags": [
+      "nyse",
+      "designated-market-maker"
+    ],
+    "outline_ref": "1.2.1 Types of Markets"
+  },
+  {
+    "id": "sie-q-0132",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "federal-reserve",
+    "lesson_id": "sie-1-04",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "The rate the Federal Reserve charges member banks that borrow directly from it is the:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Discount rate"
+      },
+      {
+        "key": "B",
+        "text": "Prime rate"
+      },
+      {
+        "key": "C",
+        "text": "Federal funds rate"
+      },
+      {
+        "key": "D",
+        "text": "Call money rate"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "The rate the Federal Reserve charges member banks that borrow directly from it is the: A, Discount rate. B, Prime rate. C, Federal funds rate. D, Call money rate.",
+    "explanation": "A is correct. The discount rate is the rate the Federal Reserve charges banks for loans from its discount window. C is the rate banks charge each other for overnight loans of reserves. B is the rate banks charge their most creditworthy corporate customers. D, also called the broker call loan rate, is what banks charge broker-dealers for loans that fund customer margin accounts.",
+    "spoken_explanation": "A is correct. The discount rate is the rate the Federal Reserve charges banks for loans from its discount window. C is the rate banks charge each other for overnight loans of reserves. B is the rate banks charge their most creditworthy corporate customers. D, also called the broker call loan rate, is what banks charge broker-dealers for loans that fund customer margin accounts.",
+    "tags": [
+      "discount-rate",
+      "federal-reserve"
+    ],
+    "outline_ref": "1.3.1 The Federal Reserve Board's Impact on Business Activity and Market Stability"
+  },
+  {
+    "id": "sie-q-0133",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "federal-reserve",
+    "lesson_id": "sie-1-04",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "Interest charged to customers on margin debit balances is MOST directly based on which rate?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Broker call loan rate"
+      },
+      {
+        "key": "B",
+        "text": "Prime rate"
+      },
+      {
+        "key": "C",
+        "text": "Discount rate"
+      },
+      {
+        "key": "D",
+        "text": "Ten-year Treasury yield"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "Interest charged to customers on margin debit balances is MOST directly based on which rate? A, Broker call loan rate. B, Prime rate. C, Discount rate. D, Ten-year Treasury yield.",
+    "explanation": "A is correct. Broker-dealers finance customer margin loans by borrowing from banks at the broker call loan rate, also called the call money rate. They then charge customers that rate plus a markup. C is what the Fed charges banks. B applies to bank loans to their best corporate borrowers. D is a long-term market yield, not a funding rate for margin.",
+    "spoken_explanation": "A is correct. Broker-dealers finance customer margin loans by borrowing from banks at the broker call loan rate, also called the call money rate. They then charge customers that rate plus a markup. C is what the Fed charges banks. B applies to bank loans to their best corporate borrowers. D is a long-term market yield, not a funding rate for margin.",
+    "tags": [
+      "call-money-rate",
+      "margin"
+    ],
+    "outline_ref": "1.3.1 The Federal Reserve Board's Impact on Business Activity and Market Stability"
+  },
+  {
+    "id": "sie-q-0134",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "federal-reserve",
+    "lesson_id": "sie-1-04",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "If the Federal Reserve tightens monetary policy, which outcome is MOST likely?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Bond prices rise"
+      },
+      {
+        "key": "B",
+        "text": "The money supply grows faster"
+      },
+      {
+        "key": "C",
+        "text": "Interest rates rise and bond prices fall"
+      },
+      {
+        "key": "D",
+        "text": "Government spending increases"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "If the Federal Reserve tightens monetary policy, which outcome is MOST likely? A, Bond prices rise. B, The money supply grows faster. C, Interest rates rise and bond prices fall. D, Government spending increases.",
+    "explanation": "C is correct. Tightening, through steps like selling securities in open market operations or raising its policy rates, drains reserves and pushes interest rates up. Because bond prices move inversely to rates, existing bond prices fall. A is the effect of easing. B is also easing. D is fiscal policy, controlled by Congress and the President.",
+    "spoken_explanation": "C is correct. Tightening, through steps like selling securities in open market operations or raising its policy rates, drains reserves and pushes interest rates up. Because bond prices move inversely to rates, existing bond prices fall. A is the effect of easing. B is also easing. D is fiscal policy, controlled by Congress and the President.",
+    "tags": [
+      "monetary-policy",
+      "tightening",
+      "interest-rate-risk"
+    ],
+    "outline_ref": "1.3.1 The Federal Reserve Board's Impact on Business Activity and Market Stability"
+  },
+  {
+    "id": "sie-q-0135",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "federal-reserve",
+    "lesson_id": "sie-1-04",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Which Federal Reserve action would generally be expected to REDUCE the money supply?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Raising bank reserve requirements"
+      },
+      {
+        "key": "B",
+        "text": "Buying Treasury securities in the open market"
+      },
+      {
+        "key": "C",
+        "text": "Lowering the discount rate"
+      },
+      {
+        "key": "D",
+        "text": "Lowering the federal funds target range"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "Which Federal Reserve action would generally be expected to REDUCE the money supply? A, Raising bank reserve requirements. B, Buying Treasury securities in the open market. C, Lowering the discount rate. D, Lowering the federal funds target range.",
+    "explanation": "A is correct. Raising reserve requirements forces banks to hold more reserves and lend less, which shrinks the money supply. It's a powerful but rarely used tool, and the Fed set reserve requirements to zero in 2020. C, B and D are all easing actions that tend to increase the money supply and lower rates.",
+    "spoken_explanation": "A is correct. Raising reserve requirements forces banks to hold more reserves and lend less, which shrinks the money supply. It's a powerful but rarely used tool, and the Fed set reserve requirements to zero in 2020. C, B and D are all easing actions that tend to increase the money supply and lower rates.",
+    "tags": [
+      "reserve-requirements",
+      "monetary-policy"
+    ],
+    "outline_ref": "1.3.1 The Federal Reserve Board's Impact on Business Activity and Market Stability"
+  },
+  {
+    "id": "sie-q-0136",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "federal-reserve",
+    "lesson_id": "sie-1-04",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Which body directs the Federal Reserve's open market operations?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The Federal Open Market Committee"
+      },
+      {
+        "key": "B",
+        "text": "The Securities and Exchange Commission"
+      },
+      {
+        "key": "C",
+        "text": "The Department of the Treasury"
+      },
+      {
+        "key": "D",
+        "text": "Congress"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "Which body directs the Federal Reserve's open market operations? A, The Federal Open Market Committee. B, The Securities and Exchange Commission. C, The Department of the Treasury. D, Congress.",
+    "explanation": "A is correct. The Federal Open Market Committee, made up of the Board of Governors and five Reserve Bank presidents, sets the federal funds target range and directs open market purchases and sales of securities. B regulates securities markets. C issues Treasury debt and handles fiscal operations but doesn't run monetary policy. D controls fiscal policy through taxes and spending.",
+    "spoken_explanation": "A is correct. The Federal Open Market Committee, made up of the Board of Governors and five Reserve Bank presidents, sets the federal funds target range and directs open market purchases and sales of securities. B regulates securities markets. C issues Treasury debt and handles fiscal operations but doesn't run monetary policy. D controls fiscal policy through taxes and spending.",
+    "tags": [
+      "fomc",
+      "federal-reserve"
+    ],
+    "outline_ref": "1.3.1 The Federal Reserve Board's Impact on Business Activity and Market Stability"
+  },
+  {
+    "id": "sie-q-0137",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "federal-reserve",
+    "lesson_id": "sie-1-04",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "The Federal Reserve's statutory dual mandate is to promote:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Balanced budgets and low taxes"
+      },
+      {
+        "key": "B",
+        "text": "Maximum employment and stable prices"
+      },
+      {
+        "key": "C",
+        "text": "A strong dollar and trade surpluses"
+      },
+      {
+        "key": "D",
+        "text": "High stock prices and low bond yields"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "The Federal Reserve's statutory dual mandate is to promote: A, Balanced budgets and low taxes. B, Maximum employment and stable prices. C, A strong dollar and trade surpluses. D, High stock prices and low bond yields.",
+    "explanation": "B is correct. Congress directs the Fed to pursue maximum employment and stable prices, along with moderate long-term interest rates. The Fed interprets stable prices as about 2% inflation over time. A is fiscal territory. C and D are not Fed mandates, although Fed policy affects currency and markets.",
+    "spoken_explanation": "B is correct. Congress directs the Fed to pursue maximum employment and stable prices, along with moderate long-term interest rates. The Fed interprets stable prices as about 2 percent inflation over time. A is fiscal territory. C and D are not Fed mandates, although Fed policy affects currency and markets.",
+    "tags": [
+      "federal-reserve",
+      "dual-mandate"
+    ],
+    "outline_ref": "1.3.1 The Federal Reserve Board's Impact on Business Activity and Market Stability"
+  },
+  {
+    "id": "sie-q-0138",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "federal-reserve",
+    "lesson_id": "sie-1-04",
+    "difficulty": 1,
+    "type": "mc",
+    "stem": "The prime rate is the rate that:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Banks charge their most creditworthy corporate customers"
+      },
+      {
+        "key": "B",
+        "text": "The Fed charges member banks"
+      },
+      {
+        "key": "C",
+        "text": "Banks charge each other overnight"
+      },
+      {
+        "key": "D",
+        "text": "The Treasury pays on 30-year bonds"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "The prime rate is the rate that: A, Banks charge their most creditworthy corporate customers. B, The Fed charges member banks. C, Banks charge each other overnight. D, The Treasury pays on 30-year bonds.",
+    "explanation": "A is correct. The prime rate is the base lending rate that commercial banks charge their most creditworthy business customers, and many consumer loans are priced off it. It generally moves with the federal funds rate. B is the discount rate. C is the federal funds rate. D is the yield on the long bond, a market rate rather than a bank lending rate.",
+    "spoken_explanation": "A is correct. The prime rate is the base lending rate that commercial banks charge their most creditworthy business customers, and many consumer loans are priced off it. It generally moves with the federal funds rate. B is the discount rate. C is the federal funds rate. D is the yield on the long bond, a market rate rather than a bank lending rate.",
+    "tags": [
+      "prime-rate"
+    ],
+    "outline_ref": "1.3.1 The Federal Reserve Board's Impact on Business Activity and Market Stability"
+  },
+  {
+    "id": "sie-q-0139",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "federal-reserve",
+    "lesson_id": "sie-1-04",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "When short-term Treasury yields are HIGHER than long-term Treasury yields, the yield curve is described as:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Inverted"
+      },
+      {
+        "key": "B",
+        "text": "Flat"
+      },
+      {
+        "key": "C",
+        "text": "Normal"
+      },
+      {
+        "key": "D",
+        "text": "Positive"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "When short-term Treasury yields are HIGHER than long-term Treasury yields, the yield curve is described as: A, Inverted. B, Flat. C, Normal. D, Positive.",
+    "explanation": "A is correct. An inverted yield curve has short-term rates above long-term rates. It often appears when the Fed has tightened aggressively and markets expect slower growth or rate cuts, and it has historically been seen as a warning sign of recession. C and D describe an upward-sloping curve where long rates exceed short rates, the usual shape. B means short and long rates are about equal.",
+    "spoken_explanation": "A is correct. An inverted yield curve has short-term rates above long-term rates. It often appears when the Fed has tightened aggressively and markets expect slower growth or rate cuts, and it has historically been seen as a warning sign of recession. C and D describe an upward-sloping curve where long rates exceed short rates, the usual shape. B means short and long rates are about equal.",
+    "tags": [
+      "yield-curve",
+      "interest-rates"
+    ],
+    "outline_ref": "1.3.1 The Federal Reserve Board's Impact on Business Activity and Market Stability"
+  },
+  {
+    "id": "sie-q-0140",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "federal-reserve",
+    "lesson_id": "sie-1-04",
+    "difficulty": 2,
+    "type": "tf",
+    "stem": "True or false: Lower interest rates resulting from Fed easing generally tend to support higher stock and bond prices.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "True or false: Lower interest rates resulting from Fed easing generally tend to support higher stock and bond prices.",
+    "explanation": "True. Lower rates raise the value of existing fixed-rate bonds, because price and yield move inversely. Lower rates also reduce corporate borrowing costs and make stocks more attractive relative to bonds, which tends to support stock prices. Easing is not a guarantee, since other factors also move markets, but the general relationship is a common test item.",
+    "spoken_explanation": "True. Lower rates raise the value of existing fixed-rate bonds, because price and yield move inversely. Lower rates also reduce corporate borrowing costs and make stocks more attractive relative to bonds, which tends to support stock prices. Easing is not a guarantee, since other factors also move markets, but the general relationship is a common test item.",
+    "tags": [
+      "monetary-policy",
+      "easing"
+    ],
+    "outline_ref": "1.3.1 The Federal Reserve Board's Impact on Business Activity and Market Stability"
+  },
+  {
+    "id": "sie-q-0141",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "economics",
+    "lesson_id": "sie-1-05",
+    "difficulty": 1,
+    "type": "mc",
+    "stem": "Which sequence correctly lists the phases of the business cycle?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Expansion, peak, contraction, trough"
+      },
+      {
+        "key": "B",
+        "text": "Peak, expansion, trough, contraction"
+      },
+      {
+        "key": "C",
+        "text": "Trough, peak, expansion, contraction"
+      },
+      {
+        "key": "D",
+        "text": "Contraction, expansion, trough, peak"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "Which sequence correctly lists the phases of the business cycle? A, Expansion, peak, contraction, trough. B, Peak, expansion, trough, contraction. C, Trough, peak, expansion, contraction. D, Contraction, expansion, trough, peak.",
+    "explanation": "A is correct. The economy expands, reaches a peak, contracts, bottoms out at a trough, and then begins expanding again. During expansion, output, employment and corporate profits rise. After the peak, activity slows into a contraction, which becomes a recession if it is significant and lasting. B, C and D put the phases out of order.",
+    "spoken_explanation": "A is correct. The economy expands, reaches a peak, contracts, bottoms out at a trough, and then begins expanding again. During expansion, output, employment and corporate profits rise. After the peak, activity slows into a contraction, which becomes a recession if it is significant and lasting. B, C and D put the phases out of order.",
+    "tags": [
+      "business-cycle"
+    ],
+    "outline_ref": "1.3.2 Business Economic Factors"
+  },
+  {
+    "id": "sie-q-0142",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "economics",
+    "lesson_id": "sie-1-05",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A common rule-of-thumb definition of a recession is:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Two consecutive quarters of declining real GDP"
+      },
+      {
+        "key": "B",
+        "text": "Any month in which stocks fall 10%"
+      },
+      {
+        "key": "C",
+        "text": "One quarter of rising unemployment"
+      },
+      {
+        "key": "D",
+        "text": "Inflation above 5% for a year"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "A common rule-of-thumb definition of a recession is: A, Two consecutive quarters of declining real GDP. B, Any month in which stocks fall 10 percent. C, One quarter of rising unemployment. D, Inflation above 5 percent for a year.",
+    "explanation": "A is correct. The popular rule of thumb is two consecutive quarters of declining real GDP. Officially, the National Bureau of Economic Research dates recessions using a broader set of measures, such as employment, income and production. B describes a market correction, not an economic recession. C is too short and too narrow. D describes high inflation, which may or may not accompany a recession.",
+    "spoken_explanation": "A is correct. The popular rule of thumb is two consecutive quarters of declining real GDP. Officially, the National Bureau of Economic Research dates recessions using a broader set of measures, such as employment, income and production. B describes a market correction, not an economic recession. C is too short and too narrow. D describes high inflation, which may or may not accompany a recession.",
+    "tags": [
+      "recession",
+      "gdp"
+    ],
+    "outline_ref": "1.3.2 Business Economic Factors"
+  },
+  {
+    "id": "sie-q-0143",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "economics",
+    "lesson_id": "sie-1-05",
+    "difficulty": 1,
+    "type": "mc",
+    "stem": "Which measure is MOST commonly used to track inflation at the consumer level?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Consumer Price Index"
+      },
+      {
+        "key": "B",
+        "text": "Gross domestic product"
+      },
+      {
+        "key": "C",
+        "text": "Dow Jones Industrial Average"
+      },
+      {
+        "key": "D",
+        "text": "Balance of payments"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "Which measure is MOST commonly used to track inflation at the consumer level? A, Consumer Price Index. B, Gross domestic product. C, Dow Jones Industrial Average. D, Balance of payments.",
+    "explanation": "A is correct. The Consumer Price Index measures changes in the prices of a basket of goods and services bought by urban consumers, and it's the most widely cited inflation gauge. It's also used to adjust TIPS principal. B measures total output. C is a stock index. D records a country's transactions with the rest of the world.",
+    "spoken_explanation": "A is correct. The Consumer Price Index measures changes in the prices of a basket of goods and services bought by urban consumers, and it's the most widely cited inflation gauge. It's also used to adjust TIPS principal. B measures total output. C is a stock index. D records a country's transactions with the rest of the world.",
+    "tags": [
+      "inflation",
+      "cpi"
+    ],
+    "outline_ref": "1.3.2 Business Economic Factors"
+  },
+  {
+    "id": "sie-q-0144",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "economics",
+    "lesson_id": "sie-1-05",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "An economy experiencing high inflation together with high unemployment and slow growth is in a period of:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Deflation"
+      },
+      {
+        "key": "B",
+        "text": "Stagflation"
+      },
+      {
+        "key": "C",
+        "text": "Expansion"
+      },
+      {
+        "key": "D",
+        "text": "Disinflation"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "An economy experiencing high inflation together with high unemployment and slow growth is in a period of: A, Deflation. B, Stagflation. C, Expansion. D, Disinflation.",
+    "explanation": "B is correct. Stagflation combines stagnant growth and high unemployment with high inflation. It's hard for policymakers, because fighting inflation with higher rates can worsen unemployment. A is a general decline in prices. C is rising economic activity. D is a slowdown in the rate of inflation, where prices still rise, but more slowly.",
+    "spoken_explanation": "B is correct. Stagflation combines stagnant growth and high unemployment with high inflation. It's hard for policymakers, because fighting inflation with higher rates can worsen unemployment. A is a general decline in prices. C is rising economic activity. D is a slowdown in the rate of inflation, where prices still rise, but more slowly.",
+    "tags": [
+      "stagflation",
+      "inflation"
+    ],
+    "outline_ref": "1.3.2 Business Economic Factors"
+  },
+  {
+    "id": "sie-q-0145",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "economics",
+    "lesson_id": "sie-1-05",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Which financial statement shows a company's assets, liabilities and shareholders' equity at a single point in time?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Income statement"
+      },
+      {
+        "key": "B",
+        "text": "Balance sheet"
+      },
+      {
+        "key": "C",
+        "text": "Statement of cash flows"
+      },
+      {
+        "key": "D",
+        "text": "Proxy statement"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "Which financial statement shows a company's assets, liabilities and shareholders' equity at a single point in time? A, Income statement. B, Balance sheet. C, Statement of cash flows. D, Proxy statement.",
+    "explanation": "B is correct. The balance sheet is a snapshot on a specific date, and it always balances: assets equal liabilities plus shareholders' equity. A reports revenues, expenses and net income over a period such as a quarter or year. C shows cash moving in and out from operating, investing and financing activities over a period. D is a solicitation document for shareholder votes, not a financial statement.",
+    "spoken_explanation": "B is correct. The balance sheet is a snapshot on a specific date, and it always balances: assets equal liabilities plus shareholders' equity. A reports revenues, expenses and net income over a period such as a quarter or year. C shows cash moving in and out from operating, investing and financing activities over a period. D is a solicitation document for shareholder votes, not a financial statement.",
+    "tags": [
+      "financial-statements",
+      "balance-sheet"
+    ],
+    "outline_ref": "1.3.2 Business Economic Factors"
+  },
+  {
+    "id": "sie-q-0146",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "economics",
+    "lesson_id": "sie-1-05",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "A company has current assets of $8 million, current liabilities of $5 million and long-term debt of $10 million. What is its working capital?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "$3 million"
+      },
+      {
+        "key": "B",
+        "text": "$13 million"
+      },
+      {
+        "key": "C",
+        "text": "-$7 million"
+      },
+      {
+        "key": "D",
+        "text": "$18 million"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "A company has current assets of 8 million dollars, current liabilities of 5 million dollars and long-term debt of 10 million dollars. What is its working capital? A, 3 million dollars. B, 13 million dollars. C, negative 7 million dollars. D, 18 million dollars.",
+    "explanation": "A is correct. Working capital is current assets minus current liabilities, so $8 million minus $5 million equals $3 million. It measures short-term liquidity, the ability to pay obligations coming due within a year. Long-term debt is not part of the calculation, so C, which subtracts it, is wrong. B adds current liabilities. D adds long-term debt to current assets.",
+    "spoken_explanation": "A, three million. Working capital is current assets minus current liabilities. Eight million minus five million is three million. Long-term debt doesn't belong in the formula, because working capital is about what the company can pay in the next year. It's a liquidity measure, and positive working capital means current assets cover current bills.",
+    "tags": [
+      "working-capital",
+      "financial-statements",
+      "math"
+    ],
+    "outline_ref": "1.3.2 Business Economic Factors"
+  },
+  {
+    "id": "sie-q-0147",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "economics",
+    "lesson_id": "sie-1-05",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "An economist argues that the government should increase spending during a recession to boost demand. This view is MOST closely associated with:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Monetarist theory"
+      },
+      {
+        "key": "B",
+        "text": "Supply-side theory"
+      },
+      {
+        "key": "C",
+        "text": "Keynesian theory"
+      },
+      {
+        "key": "D",
+        "text": "Classical gold-standard theory"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "An economist argues that the government should increase spending during a recession to boost demand. This view is MOST closely associated with: A, Monetarist theory. B, Supply-side theory. C, Keynesian theory. D, Classical gold-standard theory.",
+    "explanation": "C is correct. Keynesian economics holds that aggregate demand drives the economy, so government should use fiscal policy, such as spending and tax changes, to fill shortfalls in demand during downturns. A, associated with Milton Friedman, emphasizes controlling the money supply. B emphasizes lowering taxes and regulation to boost production. D isn't one of the theories the outline focuses on.",
+    "spoken_explanation": "C is correct. Keynesian economics holds that aggregate demand drives the economy, so government should use fiscal policy, such as spending and tax changes, to fill shortfalls in demand during downturns. A, associated with Milton Friedman, emphasizes controlling the money supply. B emphasizes lowering taxes and regulation to boost production. D isn't one of the theories the outline focuses on.",
+    "tags": [
+      "keynesian",
+      "monetarist",
+      "economic-theory"
+    ],
+    "outline_ref": "1.3.2 Business Economic Factors"
+  },
+  {
+    "id": "sie-q-0148",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "economics",
+    "lesson_id": "sie-1-05",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Which of the following is generally classified as a COINCIDENT economic indicator?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Building permits"
+      },
+      {
+        "key": "B",
+        "text": "Industrial production"
+      },
+      {
+        "key": "C",
+        "text": "Average prime rate"
+      },
+      {
+        "key": "D",
+        "text": "Stock market prices"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "Which of the following is generally classified as a COINCIDENT economic indicator? A, Building permits. B, Industrial production. C, Average prime rate. D, Stock market prices.",
+    "explanation": "B is correct. Industrial production moves at the same time as the overall economy, along with nonfarm payrolls, personal income and manufacturing and trade sales. A and D are leading indicators that tend to turn before the economy does. C is a lagging indicator, since banks adjust the prime rate after economic conditions have already changed.",
+    "spoken_explanation": "B is correct. Industrial production moves at the same time as the overall economy, along with nonfarm payrolls, personal income and manufacturing and trade sales. A and D are leading indicators that tend to turn before the economy does. C is a lagging indicator, since banks adjust the prime rate after economic conditions have already changed.",
+    "tags": [
+      "economic-indicators",
+      "coincident"
+    ],
+    "outline_ref": "1.3.2 Business Economic Factors"
+  },
+  {
+    "id": "sie-q-0149",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "economics",
+    "lesson_id": "sie-1-05",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "Which type of stock is generally MOST hurt by rising interest rates because investors buy it mainly for steady dividend income?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Utility stocks"
+      },
+      {
+        "key": "B",
+        "text": "Technology growth stocks that pay no dividend"
+      },
+      {
+        "key": "C",
+        "text": "Gold mining stocks"
+      },
+      {
+        "key": "D",
+        "text": "Consumer staples in a recession"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "Which type of stock is generally MOST hurt by rising interest rates because investors buy it mainly for steady dividend income? A, Utility stocks. B, Technology growth stocks that pay no dividend. C, Gold mining stocks. D, Consumer staples in a recession.",
+    "explanation": "A is correct. Utility stocks are known as interest-sensitive, because investors value them for steady dividends. When rates rise, bonds offer competitive income, and utilities' heavy borrowing gets more expensive, so their prices tend to fall. B can also be hurt by higher rates through discounting of future earnings, but the classic interest-sensitive income stock is the utility. C tends to track gold prices. D is defensive in a downturn.",
+    "spoken_explanation": "A is correct. Utility stocks are known as interest-sensitive, because investors value them for steady dividends. When rates rise, bonds offer competitive income, and utilities' heavy borrowing gets more expensive, so their prices tend to fall. B can also be hurt by higher rates through discounting of future earnings, but the classic interest-sensitive income stock is the utility. C tends to track gold prices. D is defensive in a downturn.",
+    "tags": [
+      "interest-sensitive",
+      "utilities"
+    ],
+    "outline_ref": "1.3.2 Business Economic Factors"
+  },
+  {
+    "id": "sie-q-0150",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "economics",
+    "lesson_id": "sie-1-05",
+    "difficulty": 2,
+    "type": "tf",
+    "stem": "True or false: A company's income statement reports its revenues, expenses and net income over a period of time.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "True or false: A company's income statement reports its revenues, expenses and net income over a period of time.",
+    "explanation": "True. The income statement, or profit and loss statement, covers a period such as a quarter or year. It starts with revenue, subtracts cost of goods sold and operating expenses to reach operating income, then subtracts interest and taxes to arrive at net income. Earnings per share is net income available to common shareholders divided by shares outstanding.",
+    "spoken_explanation": "True. The income statement, or profit and loss statement, covers a period such as a quarter or year. It starts with revenue, subtracts cost of goods sold and operating expenses to reach operating income, then subtracts interest and taxes to arrive at net income. Earnings per share is net income available to common shareholders divided by shares outstanding.",
+    "tags": [
+      "income-statement",
+      "financial-statements"
+    ],
+    "outline_ref": "1.3.2 Business Economic Factors"
+  },
+  {
+    "id": "sie-q-0151",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "international-economics",
+    "lesson_id": "sie-1-06",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "The U.S. balance of payments includes the current account. Which item is part of the current account?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Exports and imports of goods and services"
+      },
+      {
+        "key": "B",
+        "text": "A foreign company building a factory in Ohio"
+      },
+      {
+        "key": "C",
+        "text": "A U.S. investor buying German government bonds"
+      },
+      {
+        "key": "D",
+        "text": "Changes in the Fed's gold holdings only"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "The U.S. balance of payments includes the current account. Which item is part of the current account? A, Exports and imports of goods and services. B, A foreign company building a factory in Ohio. C, A U.S. investor buying German government bonds. D, Changes in the Fed's gold holdings only.",
+    "explanation": "A is correct. The current account records trade in goods and services, plus income flows like interest and dividends and unilateral transfers. B and C are investment flows recorded in the financial account, sometimes called the capital account in exam materials. D is incomplete and isn't what defines the current account.",
+    "spoken_explanation": "A is correct. The current account records trade in goods and services, plus income flows like interest and dividends and unilateral transfers. B and C are investment flows recorded in the financial account, sometimes called the capital account in exam materials. D is incomplete and isn't what defines the current account.",
+    "tags": [
+      "balance-of-payments",
+      "current-account"
+    ],
+    "outline_ref": "1.3.3 International Economic Factors"
+  },
+  {
+    "id": "sie-q-0152",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "international-economics",
+    "lesson_id": "sie-1-06",
+    "difficulty": 1,
+    "type": "mc",
+    "stem": "A country that imports more goods and services than it exports has a:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Trade surplus"
+      },
+      {
+        "key": "B",
+        "text": "Trade deficit"
+      },
+      {
+        "key": "C",
+        "text": "Budget surplus"
+      },
+      {
+        "key": "D",
+        "text": "Budget deficit"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "A country that imports more goods and services than it exports has a: A, Trade surplus. B, Trade deficit. C, Budget surplus. D, Budget deficit.",
+    "explanation": "B is correct. A trade deficit means imports exceed exports, so more money flows out to pay for foreign goods than comes in from sales abroad. A is the reverse. C and D refer to government finances, meaning tax revenue compared with spending, which is a separate concept from trade. The United States has generally run trade deficits for decades.",
+    "spoken_explanation": "B is correct. A trade deficit means imports exceed exports, so more money flows out to pay for foreign goods than comes in from sales abroad. A is the reverse. C and D refer to government finances, meaning tax revenue compared with spending, which is a separate concept from trade. The United States has generally run trade deficits for decades.",
+    "tags": [
+      "trade-deficit",
+      "balance-of-payments"
+    ],
+    "outline_ref": "1.3.3 International Economic Factors"
+  },
+  {
+    "id": "sie-q-0153",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "international-economics",
+    "lesson_id": "sie-1-06",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "A Japanese automaker produces cars at a plant in Tennessee. The value of those cars is included in:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "U.S. GDP and Japan's GNP"
+      },
+      {
+        "key": "B",
+        "text": "U.S. GNP and Japan's GDP"
+      },
+      {
+        "key": "C",
+        "text": "U.S. GDP and U.S. GNP"
+      },
+      {
+        "key": "D",
+        "text": "Japan's GDP only"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "A Japanese automaker produces cars at a plant in Tennessee. The value of those cars is included in: A, U.S. GDP and Japan's GNP. B, U.S. GNP and Japan's GDP. C, U.S. GDP and U.S. GNP. D, Japan's GDP only.",
+    "explanation": "A is correct. GDP measures output produced within a country's borders, regardless of who owns the producer, so the Tennessee plant's output counts in U.S. GDP. GNP measures output produced by a country's residents and companies, wherever it happens, so it counts in Japan's GNP. B reverses the definitions. C ignores ownership. D ignores location.",
+    "spoken_explanation": "A is correct. GDP measures output produced within a country's borders, regardless of who owns the producer, so the Tennessee plant's output counts in U.S. GDP. GNP measures output produced by a country's residents and companies, wherever it happens, so it counts in Japan's GNP. B reverses the definitions. C ignores ownership. D ignores location.",
+    "tags": [
+      "gdp",
+      "gnp"
+    ],
+    "outline_ref": "1.3.3 International Economic Factors"
+  },
+  {
+    "id": "sie-q-0154",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "international-economics",
+    "lesson_id": "sie-1-06",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Nominal GDP grew 6% last year while inflation was 4%. Approximately how much did real GDP grow?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2%"
+      },
+      {
+        "key": "B",
+        "text": "6%"
+      },
+      {
+        "key": "C",
+        "text": "10%"
+      },
+      {
+        "key": "D",
+        "text": "1.5%"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "Nominal GDP grew 6 percent last year while inflation was 4 percent. Approximately how much did real GDP grow? A, 2 percent. B, 6 percent. C, 10 percent. D, 1.5 percent.",
+    "explanation": "A is correct. Real GDP adjusts nominal GDP for inflation. Approximately, real growth equals nominal growth minus inflation: 6% minus 4% equals 2%. C adds inflation instead of subtracting it. B ignores inflation. D divides the two numbers, which is not how the adjustment works. Real GDP is the better measure of whether the economy actually produced more.",
+    "spoken_explanation": "A, about two percent. Real G D P strips out inflation. Take nominal growth, six percent, and subtract inflation, four percent. That leaves about two percent of real growth. Adding them, or ignoring inflation, are the trap answers. Real numbers tell you whether the economy actually produced more, not just whether prices went up.",
+    "tags": [
+      "real-gdp",
+      "inflation",
+      "math"
+    ],
+    "outline_ref": "1.3.3 International Economic Factors"
+  },
+  {
+    "id": "sie-q-0155",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "international-economics",
+    "lesson_id": "sie-1-06",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "A U.S. investor owns shares of a European company. The stock is flat in euros over the year, but the euro strengthens 5% against the dollar. In dollar terms, the investor's position is approximately:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Up 5%"
+      },
+      {
+        "key": "B",
+        "text": "Unchanged"
+      },
+      {
+        "key": "C",
+        "text": "Down 5%"
+      },
+      {
+        "key": "D",
+        "text": "Up 10%"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "A U.S. investor owns shares of a European company. The stock is flat in euros over the year, but the euro strengthens 5 percent against the dollar. In dollar terms, the investor's position is approximately: A, Up 5 percent. B, Unchanged. C, Down 5 percent. D, Up 10 percent.",
+    "explanation": "A is correct. The shares are worth the same number of euros, but each euro now converts into about 5% more dollars, so the dollar value rises about 5%. That is currency risk working in the investor's favor. If the euro had weakened, the dollar value would have fallen. C reverses the effect. B ignores the currency. D doubles it.",
+    "spoken_explanation": "A is correct. The shares are worth the same number of euros, but each euro now converts into about 5 percent more dollars, so the dollar value rises about 5 percent. That is currency risk working in the investor's favor. If the euro had weakened, the dollar value would have fallen. C reverses the effect. B ignores the currency. D doubles it.",
+    "tags": [
+      "currency-risk",
+      "exchange-rates",
+      "math"
+    ],
+    "outline_ref": "1.3.3 International Economic Factors"
+  },
+  {
+    "id": "sie-q-0156",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "international-economics",
+    "lesson_id": "sie-1-06",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Which of the following is MOST likely to happen when the U.S. dollar strengthens significantly?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "U.S. exports become cheaper abroad"
+      },
+      {
+        "key": "B",
+        "text": "U.S. tourists abroad pay more"
+      },
+      {
+        "key": "C",
+        "text": "Foreign goods become more expensive for Americans"
+      },
+      {
+        "key": "D",
+        "text": "U.S. multinational companies report lower overseas earnings when converted to dollars"
+      }
+    ],
+    "answer": "D",
+    "spoken_stem": "Which of the following is MOST likely to happen when the U.S. dollar strengthens significantly? A, U.S. exports become cheaper abroad. B, U.S. tourists abroad pay more. C, Foreign goods become more expensive for Americans. D, U.S. multinational companies report lower overseas earnings when converted to dollars.",
+    "explanation": "D is correct. When the dollar strengthens, profits earned in foreign currencies convert into fewer dollars, which reduces reported earnings for U.S. multinationals. A is wrong because a strong dollar makes U.S. exports more expensive abroad. C and B are wrong because a strong dollar makes foreign goods and foreign travel cheaper for Americans.",
+    "spoken_explanation": "D is correct. When the dollar strengthens, profits earned in foreign currencies convert into fewer dollars, which reduces reported earnings for U.S. multinationals. A is wrong because a strong dollar makes U.S. exports more expensive abroad. C and B are wrong because a strong dollar makes foreign goods and foreign travel cheaper for Americans.",
+    "tags": [
+      "exchange-rates",
+      "multinationals"
+    ],
+    "outline_ref": "1.3.3 International Economic Factors"
+  },
+  {
+    "id": "sie-q-0157",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "international-economics",
+    "lesson_id": "sie-1-06",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "Which transaction creates an outflow of dollars, a debit, in the U.S. balance of payments?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A foreign tourist spending money in New York"
+      },
+      {
+        "key": "B",
+        "text": "A U.S. company exporting wheat"
+      },
+      {
+        "key": "C",
+        "text": "A U.S. pension fund buying shares of a Japanese company"
+      },
+      {
+        "key": "D",
+        "text": "A foreign central bank buying U.S. Treasuries"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "Which transaction creates an outflow of dollars, a debit, in the U.S. balance of payments? A, A foreign tourist spending money in New York. B, A U.S. company exporting wheat. C, A U.S. pension fund buying shares of a Japanese company. D, A foreign central bank buying U.S. Treasuries.",
+    "explanation": "C is correct. When a U.S. investor buys foreign securities, dollars flow out of the country, which is recorded as a debit. A, B and D all bring money into the United States: foreign tourists spending here, export sales, and foreign purchases of U.S. assets are inflows, or credits. Persistent outflows that exceed inflows contribute to a balance of payments deficit.",
+    "spoken_explanation": "C is correct. When a U.S. investor buys foreign securities, dollars flow out of the country, which is recorded as a debit. A, B and D all bring money into the United States: foreign tourists spending here, export sales, and foreign purchases of U.S. assets are inflows, or credits. Persistent outflows that exceed inflows contribute to a balance of payments deficit.",
+    "tags": [
+      "balance-of-payments"
+    ],
+    "outline_ref": "1.3.3 International Economic Factors"
+  },
+  {
+    "id": "sie-q-0158",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "international-economics",
+    "lesson_id": "sie-1-06",
+    "difficulty": 2,
+    "type": "tf",
+    "stem": "True or false: A weakening U.S. dollar generally increases the dollar value of foreign investments held by U.S. investors.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "True or false: A weakening U.S. dollar generally increases the dollar value of foreign investments held by U.S. investors.",
+    "explanation": "True. When the dollar weakens, foreign currencies buy more dollars. So assets valued in euros, yen or pounds are worth more when converted back into dollars, even if their local price didn't change. That's why some investors hold foreign assets as a hedge against a falling dollar. A strengthening dollar has the opposite effect on those holdings.",
+    "spoken_explanation": "True. When the dollar weakens, foreign currencies buy more dollars. So assets valued in euros, yen or pounds are worth more when converted back into dollars, even if their local price didn't change. That's why some investors hold foreign assets as a hedge against a falling dollar. A strengthening dollar has the opposite effect on those holdings.",
+    "tags": [
+      "exchange-rates",
+      "currency-risk"
+    ],
+    "outline_ref": "1.3.3 International Economic Factors"
+  },
+  {
+    "id": "sie-q-0159",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-07",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "In a large firm commitment underwriting, a group of broker-dealers that each agree to buy and resell a portion of the issue, and share the risk, is called the:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Selling group"
+      },
+      {
+        "key": "B",
+        "text": "Clearing group"
+      },
+      {
+        "key": "C",
+        "text": "Underwriting syndicate"
+      },
+      {
+        "key": "D",
+        "text": "Transfer group"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "In a large firm commitment underwriting, a group of broker-dealers that each agree to buy and resell a portion of the issue, and share the risk, is called the: A, Selling group. B, Clearing group. C, Underwriting syndicate. D, Transfer group.",
+    "explanation": "C is correct. The underwriting syndicate is the group of firms that commit capital and share liability for the issue, led by the managing or lead underwriter. A, the selling group, is made up of firms that help sell the securities as agents but take no underwriting risk. B and D aren't offering structures. Syndicates spread risk so no single firm must absorb a huge deal.",
+    "spoken_explanation": "C is correct. The underwriting syndicate is the group of firms that commit capital and share liability for the issue, led by the managing or lead underwriter. A, the selling group, is made up of firms that help sell the securities as agents but take no underwriting risk. B and D aren't offering structures. Syndicates spread risk so no single firm must absorb a huge deal.",
+    "tags": [
+      "syndicate",
+      "underwriting"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0160",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-07",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "In an underwriting spread, which component is typically the LARGEST?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Selling concession"
+      },
+      {
+        "key": "B",
+        "text": "Underwriting fee"
+      },
+      {
+        "key": "C",
+        "text": "Manager's fee"
+      },
+      {
+        "key": "D",
+        "text": "Registration fee"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "In an underwriting spread, which component is typically the LARGEST? A, Selling concession. B, Underwriting fee. C, Manager's fee. D, Registration fee.",
+    "explanation": "A is correct. The spread is the difference between the public offering price and what the issuer receives. It's divided into the manager's fee, paid to the lead manager for every share, which is usually smallest; the underwriting fee, paid to syndicate members for taking risk; and the selling concession, paid to whoever sells the shares, which is usually largest. D is an issuer cost paid to the SEC, not part of the spread.",
+    "spoken_explanation": "A is correct. The spread is the difference between the public offering price and what the issuer receives. It's divided into the manager's fee, paid to the lead manager for every share, which is usually smallest, the underwriting fee, paid to syndicate members for taking risk, and the selling concession, paid to whoever sells the shares, which is usually largest. D is an issuer cost paid to the SEC, not part of the spread.",
+    "tags": [
+      "underwriting-spread",
+      "selling-concession"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0161",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-07",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "An IPO is priced to the public at $20.00 per share, and the issuer receives $18.70 per share. If the selling concession is $0.80 and the manager's fee is $0.15, what is the underwriting fee per share?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "$0.35"
+      },
+      {
+        "key": "B",
+        "text": "$0.95"
+      },
+      {
+        "key": "C",
+        "text": "$1.30"
+      },
+      {
+        "key": "D",
+        "text": "$0.50"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "An IPO is priced to the public at 20 dollars per share, and the issuer receives 18 dollars and 70 cents per share. If the selling concession is 80 cents and the manager's fee is 15 cents, what is the underwriting fee per share? A, 35 cents. B, 95 cents. C, 1 dollar and 30 cents. D, 50 cents.",
+    "explanation": "A is correct. First, the spread is $20.00 minus $18.70, which equals $1.30. Then subtract the known parts: $1.30 minus the $0.80 selling concession minus the $0.15 manager's fee equals $0.35 for the underwriting fee. B adds the concession and manager's fee instead of subtracting them from the spread. C is the total spread. D has no basis.",
+    "spoken_explanation": "A, thirty-five cents. Step one, find the spread: public price twenty dollars minus the issuer's eighteen seventy is a dollar thirty. Step two, take away the parts you know: the eighty-cent selling concession and the fifteen-cent manager's fee add up to ninety-five cents. A dollar thirty minus ninety-five cents leaves thirty-five cents for the underwriting fee.",
+    "tags": [
+      "underwriting-spread",
+      "math"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0162",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-07",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "In an all-or-none best efforts underwriting, what happens if the underwriter sells only 80% of the shares by the deadline?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The underwriter buys the remaining 20%"
+      },
+      {
+        "key": "B",
+        "text": "The SEC extends the deadline automatically"
+      },
+      {
+        "key": "C",
+        "text": "The issuer keeps the 80% raised"
+      },
+      {
+        "key": "D",
+        "text": "The offering is canceled and investors' funds are returned"
+      }
+    ],
+    "answer": "D",
+    "spoken_stem": "In an all-or-none best efforts underwriting, what happens if the underwriter sells only 80 percent of the shares by the deadline? A, The underwriter buys the remaining 20 percent. B, The SEC extends the deadline automatically. C, The issuer keeps the 80 percent raised. D, The offering is canceled and investors' funds are returned.",
+    "explanation": "D is correct. In an all-or-none offering, the issuer gets the money only if the entire issue is sold. Investor funds are held in escrow, and if the full amount isn't sold, the deal is canceled and the money is returned. A describes a firm commitment. C describes a standard best efforts deal. B is wrong because the SEC doesn't extend underwriting deadlines.",
+    "spoken_explanation": "D is correct. In an all-or-none offering, the issuer gets the money only if the entire issue is sold. Investor funds are held in escrow, and if the full amount isn't sold, the deal is canceled and the money is returned. A describes a firm commitment. C describes a standard best efforts deal. B is wrong because the SEC doesn't extend underwriting deadlines.",
+    "tags": [
+      "all-or-none",
+      "best-efforts"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0163",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-07",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "Under Regulation M, a managing underwriter may place a stabilizing bid to support a new issue's price in the aftermarket. The bid must be:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Above the public offering price"
+      },
+      {
+        "key": "B",
+        "text": "At any price approved by FINRA"
+      },
+      {
+        "key": "C",
+        "text": "At or below the public offering price"
+      },
+      {
+        "key": "D",
+        "text": "At least 10% below the public offering price"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "Under Regulation M, a managing underwriter may place a stabilizing bid to support a new issue's price in the aftermarket. The bid must be: A, Above the public offering price. B, At any price approved by FINRA. C, At or below the public offering price. D, At least 10 percent below the public offering price.",
+    "explanation": "C is correct. Regulation M allows stabilization, the managing underwriter's bid to support the price, only at or below the public offering price, and it must be disclosed in the prospectus. A would be manipulation, pushing the price above the offering price. B is wrong because FINRA doesn't approve stabilization prices. D isn't a rule. Stabilization is one of the few legal forms of price support.",
+    "spoken_explanation": "C is correct. Regulation M allows stabilization, the managing underwriter's bid to support the price, only at or below the public offering price, and it must be disclosed in the prospectus. A would be manipulation, pushing the price above the offering price. B is wrong because FINRA doesn't approve stabilization prices. D isn't a rule. Stabilization is one of the few legal forms of price support.",
+    "tags": [
+      "stabilization",
+      "regulation-m"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0164",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-07",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "How are general obligation municipal bonds typically sold to underwriters, compared with most corporate bond issues?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "GO bonds are usually sold by competitive bid; corporates are usually negotiated"
+      },
+      {
+        "key": "B",
+        "text": "GO bonds are usually negotiated; corporates are usually competitive"
+      },
+      {
+        "key": "C",
+        "text": "Both are always sold by competitive bid"
+      },
+      {
+        "key": "D",
+        "text": "Both are always negotiated"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "How are general obligation municipal bonds typically sold to underwriters, compared with most corporate bond issues? A, GO bonds are usually sold by competitive bid, corporates are usually negotiated. B, GO bonds are usually negotiated, corporates are usually competitive. C, Both are always sold by competitive bid. D, Both are always negotiated.",
+    "explanation": "A is correct. Many states require GO bonds to be sold through competitive bidding, where syndicates submit bids and the issuer awards the bonds to the bid with the lowest interest cost. Revenue bonds and most corporate issues are usually negotiated, with the issuer choosing an underwriter and negotiating terms. B reverses the usual practice. C and D are absolutes that don't hold.",
+    "spoken_explanation": "A is correct. Many states require GO bonds to be sold through competitive bidding, where syndicates submit bids and the issuer awards the bonds to the bid with the lowest interest cost. Revenue bonds and most corporate issues are usually negotiated, with the issuer choosing an underwriter and negotiating terms. B reverses the usual practice. C and D are absolutes that don't hold.",
+    "tags": [
+      "competitive-sale",
+      "negotiated-sale",
+      "municipal-bonds"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0165",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-07",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A company that went public three years ago sells additional newly issued shares to the public. This is BEST described as a:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Initial public offering"
+      },
+      {
+        "key": "B",
+        "text": "Private placement"
+      },
+      {
+        "key": "C",
+        "text": "Follow-on offering"
+      },
+      {
+        "key": "D",
+        "text": "Secondary market trade"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "A company that went public three years ago sells additional newly issued shares to the public. This is BEST described as a: A, Initial public offering. B, Private placement. C, Follow-on offering. D, Secondary market trade.",
+    "explanation": "C is correct. A follow-on offering, also called a subsequent primary offering, is a later sale of new shares by a company that's already public. The proceeds go to the company and existing holders are diluted. A happens only once, the first time the company sells to the public. B is a non-public sale under an exemption. D is trading between investors.",
+    "spoken_explanation": "C is correct. A follow-on offering, also called a subsequent primary offering, is a later sale of new shares by a company that's already public. The proceeds go to the company and existing holders are diluted. A happens only once, the first time the company sells to the public. B is a non-public sale under an exemption. D is trading between investors.",
+    "tags": [
+      "follow-on-offering",
+      "primary-market"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0166",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-07",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "Under FINRA Rule 2269, a broker-dealer that is participating in a distribution of a security and recommends that security to a customer must:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Disclose its participation or interest in the distribution"
+      },
+      {
+        "key": "B",
+        "text": "Refuse to sell the security to retail customers"
+      },
+      {
+        "key": "C",
+        "text": "Charge no commission"
+      },
+      {
+        "key": "D",
+        "text": "Obtain SEC approval for the sale"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "Under FINRA Rule 2269, a broker-dealer that is participating in a distribution of a security and recommends that security to a customer must: A, Disclose its participation or interest in the distribution. B, Refuse to sell the security to retail customers. C, Charge no commission. D, Obtain SEC approval for the sale.",
+    "explanation": "A is correct. Rule 2269 requires a member that participates in, or is financially interested in, a primary or secondary distribution to disclose that fact to customers before completing transactions, and in writing at or before completion. The disclosure alerts customers to the firm's conflict of interest. B, C and D are not required. FINRA Rule 2262 has a related requirement to disclose a control relationship with an issuer.",
+    "spoken_explanation": "A is correct. Rule 2269 requires a member that participates in, or is financially interested in, a primary or secondary distribution to disclose that fact to customers before completing transactions, and in writing at or before completion. The disclosure alerts customers to the firm's conflict of interest. B, C and D are not required. FINRA Rule 2262 has a related requirement to disclose a control relationship with an issuer.",
+    "tags": [
+      "rule-2269",
+      "conflicts-of-interest"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0167",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-07",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "An issuer offers to pay a broker-dealer to begin making a market in its stock. Under FINRA Rule 5250, this payment is:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Permitted if disclosed in the prospectus"
+      },
+      {
+        "key": "B",
+        "text": "Required for new listings"
+      },
+      {
+        "key": "C",
+        "text": "Permitted for OTC stocks only"
+      },
+      {
+        "key": "D",
+        "text": "Prohibited, with limited exceptions such as reimbursement of certain registration fees"
+      }
+    ],
+    "answer": "D",
+    "spoken_stem": "An issuer offers to pay a broker-dealer to begin making a market in its stock. Under FINRA Rule 5250, this payment is: A, Permitted if disclosed in the prospectus. B, Required for new listings. C, Permitted for OTC stocks only. D, Prohibited, with limited exceptions such as reimbursement of certain registration fees.",
+    "explanation": "D is correct. FINRA Rule 5250 prohibits members from accepting payments from issuers, or their affiliates and promoters, for publishing quotes, acting as a market maker, or submitting an application to quote a security. The rule protects the independence of market-making decisions. Limited exceptions include reimbursement of certain registration and listing fees. A, C and B misstate the rule.",
+    "spoken_explanation": "D is correct. FINRA Rule 5250 prohibits members from accepting payments from issuers, or their affiliates and promoters, for publishing quotes, acting as a market maker, or submitting an application to quote a security. The rule protects the independence of market-making decisions. Limited exceptions include reimbursement of certain registration and listing fees. A, C and B misstate the rule.",
+    "tags": [
+      "rule-5250",
+      "market-maker"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0168",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-07",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "MSRB Rule G-34 requires an underwriter of a new municipal issue to apply for a:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Credit rating"
+      },
+      {
+        "key": "B",
+        "text": "State tax exemption"
+      },
+      {
+        "key": "C",
+        "text": "Bond insurance policy"
+      },
+      {
+        "key": "D",
+        "text": "CUSIP number"
+      }
+    ],
+    "answer": "D",
+    "spoken_stem": "MSRB Rule G-34 requires an underwriter of a new municipal issue to apply for a: A, Credit rating. B, State tax exemption. C, Bond insurance policy. D, CUSIP number.",
+    "explanation": "D is correct. Rule G-34 requires the underwriter to apply for CUSIP numbers, the unique identifiers for each maturity of a new municipal issue, so the bonds can be cleared and settled. A, C and B are optional decisions by the issuer. Ratings and insurance are commonly obtained but not required by G-34. Tax exemption comes from federal and state law, not an application by the underwriter.",
+    "spoken_explanation": "D is correct. Rule G-34 requires the underwriter to apply for CUSIP numbers, the unique identifiers for each maturity of a new municipal issue, so the bonds can be cleared and settled. A, C and B are optional decisions by the issuer. Ratings and insurance are commonly obtained but not required by G-34. Tax exemption comes from federal and state law, not an application by the underwriter.",
+    "tags": [
+      "cusip",
+      "msrb-g-34",
+      "municipal-bonds"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0169",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-07",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "The primary disclosure document for a new municipal bond issue is the:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Prospectus"
+      },
+      {
+        "key": "B",
+        "text": "Red herring"
+      },
+      {
+        "key": "C",
+        "text": "Program disclosure document"
+      },
+      {
+        "key": "D",
+        "text": "Official statement"
+      }
+    ],
+    "answer": "D",
+    "spoken_stem": "The primary disclosure document for a new municipal bond issue is the: A, Prospectus. B, Red herring. C, Program disclosure document. D, Official statement.",
+    "explanation": "D is correct. Municipal securities are exempt from SEC registration, so instead of a prospectus, issuers prepare an official statement. SEC Rule 15c2-12 requires underwriters to obtain and review it, and MSRB Rule G-32 requires delivery to customers by settlement. A is for registered offerings. C, the program disclosure document, is used for 529 plans. B is a preliminary prospectus.",
+    "spoken_explanation": "D is correct. Municipal securities are exempt from SEC registration, so instead of a prospectus, issuers prepare an official statement. SEC Rule 15c2-12 requires underwriters to obtain and review it, and MSRB Rule G-32 requires delivery to customers by settlement. A is for registered offerings. C, the program disclosure document, is used for 529 plans. B is a preliminary prospectus.",
+    "tags": [
+      "official-statement",
+      "municipal-bonds",
+      "rule-15c2-12"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0170",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-07",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Which statement about the selling group in an underwriting is TRUE?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Selling group members act as agents and have no liability for unsold shares"
+      },
+      {
+        "key": "B",
+        "text": "Selling group members share financial liability for unsold shares"
+      },
+      {
+        "key": "C",
+        "text": "The selling group sets the public offering price"
+      },
+      {
+        "key": "D",
+        "text": "The selling group is always the issuer's employees"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "Which statement about the selling group in an underwriting is TRUE? A, Selling group members act as agents and have no liability for unsold shares. B, Selling group members share financial liability for unsold shares. C, The selling group sets the public offering price. D, The selling group is always the issuer's employees.",
+    "explanation": "A is correct. Selling group members help distribute the issue and earn the selling concession on what they sell, but they don't commit capital, so they bear no underwriting liability. B describes syndicate members. C is wrong because the issuer and managing underwriter set the price. D is wrong because selling group members are broker-dealers, not issuer staff.",
+    "spoken_explanation": "A is correct. Selling group members help distribute the issue and earn the selling concession on what they sell, but they don't commit capital, so they bear no underwriting liability. B describes syndicate members. C is wrong because the issuer and managing underwriter set the price. D is wrong because selling group members are broker-dealers, not issuer staff.",
+    "tags": [
+      "selling-group",
+      "underwriting"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0171",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-07",
+    "difficulty": 2,
+    "type": "tf",
+    "stem": "True or false: A customer's indication of interest in an upcoming IPO is a binding commitment to buy the shares once the registration becomes effective.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "True or false: A customer's indication of interest in an upcoming IPO is a binding commitment to buy the shares once the registration becomes effective.",
+    "explanation": "False. An indication of interest is non-binding. During the cooling-off period, the firm can gauge demand and the customer can express interest, but no sale happens until the registration is effective and the customer confirms the order. The customer can walk away, and the firm can't treat the indication as a completed trade or accept payment early.",
+    "spoken_explanation": "False. An indication of interest is non-binding. During the cooling-off period, the firm can gauge demand and the customer can express interest, but no sale happens until the registration is effective and the customer confirms the order. The customer can walk away, and the firm can't treat the indication as a completed trade or accept payment early.",
+    "tags": [
+      "indication-of-interest",
+      "ipo",
+      "cooling-off"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0172",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-08",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Which of the following securities is EXEMPT from registration under the Securities Act of 1933?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Common stock in a corporate IPO"
+      },
+      {
+        "key": "B",
+        "text": "A corporate debenture sold to the public"
+      },
+      {
+        "key": "C",
+        "text": "A newly issued closed-end fund"
+      },
+      {
+        "key": "D",
+        "text": "A municipal general obligation bond"
+      }
+    ],
+    "answer": "D",
+    "spoken_stem": "Which of the following securities is EXEMPT from registration under the Securities Act of 1933? A, Common stock in a corporate IPO. B, A corporate debenture sold to the public. C, A newly issued closed-end fund. D, A municipal general obligation bond.",
+    "explanation": "D is correct. The 1933 Act exempts several types of securities, including U.S. government and agency securities, municipal securities, bank securities, and commercial paper maturing within 270 days. A, C and B are non-exempt corporate or investment company securities, which must be registered unless they're sold under a transaction exemption such as a private placement. Exempt from registration doesn't mean exempt from anti-fraud rules.",
+    "spoken_explanation": "D is correct. The 1933 Act exempts several types of securities, including U.S. government and agency securities, municipal securities, bank securities, and commercial paper maturing within 270 days. A, C and B are non-exempt corporate or investment company securities, which must be registered unless they're sold under a transaction exemption such as a private placement. Exempt from registration doesn't mean exempt from anti-fraud rules.",
+    "tags": [
+      "exempt-securities",
+      "securities-act-1933"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0173",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-08",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "Under Rule 506(b) of Regulation D, an issuer may sell to:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Unlimited accredited investors and up to 35 non-accredited investors, without general solicitation"
+      },
+      {
+        "key": "B",
+        "text": "Only accredited investors, with general solicitation allowed"
+      },
+      {
+        "key": "C",
+        "text": "Any number of investors, with general solicitation allowed"
+      },
+      {
+        "key": "D",
+        "text": "Only qualified institutional buyers"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "Under Rule 506(b) of Regulation D, an issuer may sell to: A, Unlimited accredited investors and up to 35 non-accredited investors, without general solicitation. B, Only accredited investors, with general solicitation allowed. C, Any number of investors, with general solicitation allowed. D, Only qualified institutional buyers.",
+    "explanation": "A is correct. Rule 506(b) allows an unlimited number of accredited investors and up to 35 non-accredited purchasers, who must be sophisticated, alone or with a representative. General solicitation is not allowed. B describes Rule 506(c), which permits general solicitation if all buyers are accredited and the issuer takes reasonable steps to verify their status. C isn't a Reg D option. D describes Rule 144A resales.",
+    "spoken_explanation": "A is correct. Rule 506(b) allows an unlimited number of accredited investors and up to 35 non-accredited purchasers, who must be sophisticated, alone or with a representative. General solicitation is not allowed. B describes Rule 506(c), which permits general solicitation if all buyers are accredited and the issuer takes reasonable steps to verify their status. C isn't a Reg D option. D describes Rule 144A resales.",
+    "tags": [
+      "reg-d",
+      "rule-506",
+      "private-placement"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0174",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-08",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "Rule 144A allows resales of restricted securities without registration to:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Any accredited investor"
+      },
+      {
+        "key": "B",
+        "text": "Retail investors after 6 months"
+      },
+      {
+        "key": "C",
+        "text": "Qualified institutional buyers"
+      },
+      {
+        "key": "D",
+        "text": "Residents of the issuer's home state"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "Rule 144A allows resales of restricted securities without registration to: A, Any accredited investor. B, Retail investors after 6 months. C, Qualified institutional buyers. D, Residents of the issuer's home state.",
+    "explanation": "C is correct. Rule 144A creates a safe harbor for resales of restricted securities to qualified institutional buyers, generally institutions that own and invest at least $100 million in securities. This creates a liquid institutional market for privately placed securities. A is the Regulation D accredited standard, not 144A. B confuses it with Rule 144 holding periods. D describes Rule 147.",
+    "spoken_explanation": "C is correct. Rule 144A creates a safe harbor for resales of restricted securities to qualified institutional buyers, generally institutions that own and invest at least 100 million dollars in securities. This creates a liquid institutional market for privately placed securities. A is the Regulation D accredited standard, not 144A. B confuses it with Rule 144 holding periods. D describes Rule 147.",
+    "tags": [
+      "rule-144a",
+      "qib",
+      "restricted-securities"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0175",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "equity",
+    "lesson_id": "sie-1-08",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "An investor buys restricted stock in a private placement from a company that has been an SEC reporting company for several years. Under Rule 144, the minimum holding period before public resale is:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "30 days"
+      },
+      {
+        "key": "B",
+        "text": "1 year"
+      },
+      {
+        "key": "C",
+        "text": "6 months"
+      },
+      {
+        "key": "D",
+        "text": "2 years"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "An investor buys restricted stock in a private placement from a company that has been an SEC reporting company for several years. Under Rule 144, the minimum holding period before public resale is: A, 30 days. B, 1 year. C, 6 months. D, 2 years.",
+    "explanation": "C is correct. Under Rule 144, restricted securities of an issuer that has been an SEC reporting company for at least 90 days must be held at least 6 months before resale. B, one year, applies to non-reporting issuers. A and D aren't Rule 144 periods. Affiliates who sell must also follow volume limits and file Form 144 if they sell more than 5,000 shares or more than $50,000 in a 90-day period.",
+    "spoken_explanation": "C is correct. Under Rule 144, restricted securities of an issuer that has been an SEC reporting company for at least 90 days must be held at least 6 months before resale. B, one year, applies to non-reporting issuers. A and D aren't Rule 144 periods. Affiliates who sell must also follow volume limits and file Form 144 if they sell more than 5,000 shares or more than 50,000 dollars in a 90-day period.",
+    "tags": [
+      "rule-144",
+      "restricted-securities",
+      "holding-period"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0176",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-08",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "Shareholders of a company vote on a merger in which they will receive shares of the acquiring company. Under SEC Rule 145, the shareholder vote is treated as:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "An exempt transaction requiring no disclosure"
+      },
+      {
+        "key": "B",
+        "text": "A tender offer"
+      },
+      {
+        "key": "C",
+        "text": "An offer and sale of the new securities that generally requires registration"
+      },
+      {
+        "key": "D",
+        "text": "A Regulation D private placement"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "Shareholders of a company vote on a merger in which they will receive shares of the acquiring company. Under SEC Rule 145, the shareholder vote is treated as: A, An exempt transaction requiring no disclosure. B, A tender offer. C, An offer and sale of the new securities that generally requires registration. D, A Regulation D private placement.",
+    "explanation": "C is correct. Rule 145 treats a vote on a reclassification, merger, consolidation or asset transfer as an offer and sale of the new securities. That means the transaction generally must be registered, often on Form S-4, so shareholders get full disclosure before voting. A is wrong because disclosure is required. B is a direct offer to buy shares from holders. D isn't how mergers are treated.",
+    "spoken_explanation": "C is correct. Rule 145 treats a vote on a reclassification, merger, consolidation or asset transfer as an offer and sale of the new securities. That means the transaction generally must be registered, often on Form S-4, so shareholders get full disclosure before voting. A is wrong because disclosure is required. B is a direct offer to buy shares from holders. D isn't how mergers are treated.",
+    "tags": [
+      "rule-145",
+      "mergers"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0177",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-08",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "After a registration statement has been filed, an eligible issuer distributes a written term sheet that is not the statutory prospectus. Under SEC Rules 164 and 433, this document is a:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Tombstone ad"
+      },
+      {
+        "key": "B",
+        "text": "Free writing prospectus"
+      },
+      {
+        "key": "C",
+        "text": "Official statement"
+      },
+      {
+        "key": "D",
+        "text": "Final prospectus"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "After a registration statement has been filed, an eligible issuer distributes a written term sheet that is not the statutory prospectus. Under SEC Rules 164 and 433, this document is a: A, Tombstone ad. B, Free writing prospectus. C, Official statement. D, Final prospectus.",
+    "explanation": "B is correct. A free writing prospectus is any written offer other than the statutory prospectus, such as a term sheet, used after the registration statement is filed. Rules 164 and 433 permit it under conditions such as legends and, in many cases, filing with the SEC. A is a simple announcement with limited information. C is for municipal bonds. D is the statutory prospectus delivered after the registration is effective.",
+    "spoken_explanation": "B is correct. A free writing prospectus is any written offer other than the statutory prospectus, such as a term sheet, used after the registration statement is filed. Rules 164 and 433 permit it under conditions such as legends and, in many cases, filing with the SEC. A is a simple announcement with limited information. C is for municipal bonds. D is the statutory prospectus delivered after the registration is effective.",
+    "tags": [
+      "free-writing-prospectus",
+      "rule-164"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0178",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-08",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Under Section 8 of the Securities Act of 1933, absent SEC action, a registration statement generally becomes effective:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Immediately on filing"
+      },
+      {
+        "key": "B",
+        "text": "20 days after filing"
+      },
+      {
+        "key": "C",
+        "text": "90 days after filing"
+      },
+      {
+        "key": "D",
+        "text": "Only when the SEC signs an approval order"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "Under Section 8 of the Securities Act of 1933, absent SEC action, a registration statement generally becomes effective: A, Immediately on filing. B, 20 days after filing. C, 90 days after filing. D, Only when the SEC signs an approval order.",
+    "explanation": "B is correct. Section 8 provides that a registration statement becomes effective 20 days after filing, unless the SEC accelerates or delays it. Filing an amendment restarts the 20-day clock. That's why the minimum cooling-off period is 20 days. A is wrong because no sales can happen on filing. C isn't the Section 8 period. D is wrong because the SEC never approves securities.",
+    "spoken_explanation": "B is correct. Section 8 provides that a registration statement becomes effective 20 days after filing, unless the SEC accelerates or delays it. Filing an amendment restarts the 20-day clock. That's why the minimum cooling-off period is 20 days. A is wrong because no sales can happen on filing. C isn't the Section 8 period. D is wrong because the SEC never approves securities.",
+    "tags": [
+      "securities-act-1933",
+      "registration",
+      "effective-date"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0179",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-08",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "An issuer registering an offering with the SEC files at the same time with several states, so that its state registrations become effective when the federal registration does. This method of state registration is:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Registration by coordination"
+      },
+      {
+        "key": "B",
+        "text": "Registration by qualification"
+      },
+      {
+        "key": "C",
+        "text": "Registration by notification"
+      },
+      {
+        "key": "D",
+        "text": "Federal covered security notice filing"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "An issuer registering an offering with the SEC files at the same time with several states, so that its state registrations become effective when the federal registration does. This method of state registration is: A, Registration by coordination. B, Registration by qualification. C, Registration by notification. D, Federal covered security notice filing.",
+    "explanation": "A is correct. Registration by coordination is used when the offering is also being registered with the SEC. The state registration becomes effective with the federal one. B is a full state-level registration for offerings not registered federally. C, also called registration by filing, is for established issuers meeting certain standards. D applies to covered securities, such as listed stocks, which states can't require to register beyond notice filings.",
+    "spoken_explanation": "A is correct. Registration by coordination is used when the offering is also being registered with the SEC. The state registration becomes effective with the federal one. B is a full state-level registration for offerings not registered federally. C, also called registration by filing, is for established issuers meeting certain standards. D applies to covered securities, such as listed stocks, which states can't require to register beyond notice filings.",
+    "tags": [
+      "blue-sky",
+      "state-registration"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0180",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-08",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Under SEC Rule 431, a summary prospectus:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Replaces the need for any full prospectus"
+      },
+      {
+        "key": "B",
+        "text": "Is used only for municipal bonds"
+      },
+      {
+        "key": "C",
+        "text": "Contains selected information from the full prospectus and is commonly used for mutual funds"
+      },
+      {
+        "key": "D",
+        "text": "May include a final price before effectiveness"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "Under SEC Rule 431, a summary prospectus: A, Replaces the need for any full prospectus. B, Is used only for municipal bonds. C, Contains selected information from the full prospectus and is commonly used for mutual funds. D, May include a final price before effectiveness.",
+    "explanation": "C is correct. A summary prospectus contains key information excerpted from the full statutory prospectus. It's widely used for mutual funds, where the full prospectus must be available on request and online. A is wrong because it supplements the full prospectus rather than replacing it. B is wrong because munis use official statements. D is wrong because no final offering price is set before effectiveness.",
+    "spoken_explanation": "C is correct. A summary prospectus contains key information excerpted from the full statutory prospectus. It's widely used for mutual funds, where the full prospectus must be available on request and online. A is wrong because it supplements the full prospectus rather than replacing it. B is wrong because munis use official statements. D is wrong because no final offering price is set before effectiveness.",
+    "tags": [
+      "summary-prospectus",
+      "rule-431",
+      "mutual-funds"
+    ],
+    "outline_ref": "1.4 Offerings"
+  },
+  {
+    "id": "sie-q-0181",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "topic": "offerings",
+    "lesson_id": "sie-1-08",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "An IPO is listed on a national securities exchange. For how long after the effective date must dealers deliver a prospectus to aftermarket purchasers?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "No requirement"
+      },
+      {
+        "key": "B",
+        "text": "90 days"
+      },
+      {
+        "key": "C",
+        "text": "40 days"
+      },
+      {
+        "key": "D",
+        "text": "25 days"
+      }
+    ],
+    "answer": "D",
+    "spoken_stem": "An IPO is listed on a national securities exchange. For how long after the effective date must dealers deliver a prospectus to aftermarket purchasers? A, No requirement. B, 90 days. C, 40 days. D, 25 days.",
+    "explanation": "D is correct. Under SEC Rule 174, the aftermarket prospectus delivery period for an IPO listed on a national securities exchange is 25 days. B, 90 days, applies to IPOs that are not exchange-listed. C, 40 days, applies to non-IPO offerings that are not exchange-listed. A applies to additional offerings by issuers that are already reporting companies.",
+    "spoken_explanation": "D is correct. Under SEC Rule 174, the aftermarket prospectus delivery period for an IPO listed on a national securities exchange is 25 days. B, 90 days, applies to IPOs that are not exchange-listed. C, 40 days, applies to non-IPO offerings that are not exchange-listed. A applies to additional offerings by issuers that are already reporting companies.",
+    "tags": [
+      "prospectus-delivery",
+      "rule-174",
+      "ipo"
+    ],
+    "outline_ref": "1.4 Offerings"
   }
 ]

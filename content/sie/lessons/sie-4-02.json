@@ -1,0 +1,94 @@
+{
+  "id": "sie-4-02",
+  "exam": "SIE",
+  "section": "SIE-4",
+  "section_title": "Overview of the Regulatory Framework",
+  "title": "Forms U4 and U5, Complaints and Red Flags",
+  "order": 2,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Your regulatory record follows you through your whole career. It lives mainly on two forms, the U four when you join a firm and the U five when you leave, and it shows up publicly on BrokerCheck. This lesson covers those forms, customer complaints, reporting duties, red flags, and arbitration."
+    },
+    {
+      "type": "narration",
+      "text": "The Form U four, the Uniform Application for Securities Industry Registration or Transfer, is filed by the member firm when it hires you. It asks for ten years of employment history and five years of residential history, plus a long list of disclosure questions: criminal charges and convictions, regulatory actions, civil judicial actions, customer complaints and arbitrations, terminations, and financial events like bankruptcies within ten years, unsatisfied liens and judgments, and compromises with creditors. You sign it, attesting it's true, and you agree to arbitrate disputes as S R O rules require. A firm principal signs too. Under FINRA Rule twenty-two sixty-three, the firm must give you a written disclosure explaining that arbitration agreement."
+    },
+    {
+      "type": "narration",
+      "text": "The U four isn't a one-time form. You must keep it current, and amendments are due within thirty days of learning the facts. Note that charges count, not just convictions. Felony charges must be reported, and so must misdemeanor charges involving investments or dishonesty, like fraud or theft. Willfully lying on the U four, or leaving things off, is a serious violation that can lead to a bar and can itself be a statutory disqualification."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0096"
+    },
+    {
+      "type": "narration",
+      "text": "When you leave a firm, for any reason, the firm files a Form U five within thirty days and gives you a copy. It states the reason for termination and answers disclosure questions, such as whether you were under internal review or fired after allegations of wrongdoing. If the firm later learns of something reportable, it must amend the U five within thirty days. Everything on these forms feeds BrokerCheck, FINRA's free public database under Rule eighty-three twelve. Firms must link to BrokerCheck on their websites, and under Rule twenty-two sixty-seven they must send customers the BrokerCheck hotline and website in writing every year."
+    },
+    {
+      "type": "narration",
+      "text": "Customer complaints have specific rules. A written customer complaint is any written grievance from a customer, including email and other electronic messages, about the firm or its people in connection with securities. Under Rule forty-five thirteen, firms keep records of written complaints for four years at the office of supervisory jurisdiction. Under Rule forty-five thirty, firms report complaint statistics to FINRA quarterly, by the fifteenth day of the month after the quarter. They must also report specified events within thirty calendar days, such as an associated person's felony conviction or the firm being named in certain proceedings. Oral complaints should be handled under firm procedures, but they're not written complaints for these rules."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0201"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0203"
+    },
+    {
+      "type": "narration",
+      "text": "Supervisors also watch for red flags. Classic ones include customer checks made payable to the rep instead of the firm, a rep using personal email or texting for business the firm can't capture, a pattern of complaints, a lifestyle that doesn't match the rep's income, reluctance to take vacations or let others see accounts, frequent address changes on customer accounts, and customers who seem confused about their own holdings. Any of these calls for investigation."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0205"
+    },
+    {
+      "type": "narration",
+      "text": "Finally, arbitration. FINRA runs the main forum for securities disputes. Disputes between member firms and their associated persons, like fights over commissions, generally must be arbitrated, with narrow exceptions such as certain statutory discrimination claims. Customers arbitrate when they've signed a predispute arbitration agreement, or they may choose to file anyway. Claims are generally not eligible if six years have passed since the event. Arbitration awards are generally final and binding, with very limited grounds for appeal."
+    },
+    {
+      "type": "narration",
+      "text": "Here's a scenario that pulls it together. A rep is charged with felony theft in March. In April, a customer emails the branch manager accusing the rep of unauthorized trading. In May, the firm fires the rep. What has to happen? The rep's U four must be amended within thirty days of the charge. The email is a written complaint, so it goes in the firm's records for four years, gets counted in the next quarterly statistics, and is disclosed on the U four. The firm files the U five within thirty days of firing him, sends him a copy, and answers its disclosure questions truthfully."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. The U four covers ten years of employment and five of residence, plus disclosures. It's signed by you and a principal, and amendments are due within thirty days, including for charges. The U five is filed within thirty days of leaving, with a copy to you, and amended if new facts arise. Both feed BrokerCheck. Written complaints are kept four years under Rule forty-five thirteen and reported quarterly by the fifteenth under Rule forty-five thirty, and specified events are reported within thirty days. Watch for red flags like checks payable to the rep. Industry disputes go to FINRA arbitration, claims expire after six years, and awards are final."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Form U4",
+      "definition": "The registration application, with employment, residence and disclosure history. Amendments due within 30 days."
+    },
+    {
+      "term": "Form U5",
+      "definition": "The termination notice, filed within 30 days with a copy to the individual."
+    },
+    {
+      "term": "Written customer complaint",
+      "definition": "Any written or electronic grievance from a customer about securities activities."
+    },
+    {
+      "term": "Rule 4530",
+      "definition": "Specified events reported within 30 days; complaint statistics quarterly by the 15th."
+    },
+    {
+      "term": "BrokerCheck",
+      "definition": "FINRA's public database of firm and representative records."
+    },
+    {
+      "term": "Arbitration eligibility",
+      "definition": "Claims are generally ineligible after 6 years."
+    }
+  ],
+  "mnemonics": [
+    "U4 = Up-to-date within 30 days. U5 = You're out, filed within 30 days.",
+    "Complaints: keep 4 years, report quarterly by the 15th."
+  ],
+  "summary": "Form U4 records 10 years of employment, 5 years of residence, and disclosures including criminal charges, and must be amended within 30 days. Form U5 is filed within 30 days of termination with a copy to the individual. Both feed BrokerCheck. Written complaints are kept 4 years and reported quarterly, and specified events are reported within 30 days. Supervisors investigate red flags. Industry disputes go to binding FINRA arbitration, with claims eligible for 6 years."
+}

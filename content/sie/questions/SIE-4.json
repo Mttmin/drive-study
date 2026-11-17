@@ -338,5 +338,1645 @@
       "pay-to-play"
     ],
     "outline_ref": "4.2.2 Reportable Events"
+  },
+  {
+    "id": "sie-q-0182",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "registration",
+    "lesson_id": "sie-4-01",
+    "difficulty": 1,
+    "type": "mc",
+    "stem": "A college student passes the SIE but does not join a FINRA member firm right away. For how long are her SIE results valid?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2 years"
+      },
+      {
+        "key": "B",
+        "text": "4 years"
+      },
+      {
+        "key": "C",
+        "text": "5 years"
+      },
+      {
+        "key": "D",
+        "text": "Indefinitely"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "A college student passes the SIE but does not join a FINRA member firm right away. For how long are her SIE results valid? A, 2 years. B, 4 years. C, 5 years. D, Indefinitely.",
+    "explanation": "B is correct. SIE results are valid for four years from the date the candidate passes. She can pass the SIE without firm sponsorship, but to register she must also pass a representative-level exam, such as the Series 7, while associated with a member firm within that window. A is the general lapse period for registrations of people who leave the industry. C relates to the Maintaining Qualifications Program. D is wrong.",
+    "spoken_explanation": "B is correct. SIE results are valid for four years from the date the candidate passes. She can pass the SIE without firm sponsorship, but to register she must also pass a representative-level exam, such as the Series 7, while associated with a member firm within that window. A is the general lapse period for registrations of people who leave the industry. C relates to the Maintaining Qualifications Program. D is wrong.",
+    "tags": [
+      "sie",
+      "registration"
+    ],
+    "outline_ref": "4.1.1 Registration and Continuing Education"
+  },
+  {
+    "id": "sie-q-0183",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "registration",
+    "lesson_id": "sie-4-01",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Which statement about passing the SIE is TRUE?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It alone qualifies a person to sell securities"
+      },
+      {
+        "key": "B",
+        "text": "It replaces the Series 63 state exam"
+      },
+      {
+        "key": "C",
+        "text": "It requires sponsorship by a member firm"
+      },
+      {
+        "key": "D",
+        "text": "It is a corequisite; the candidate must also pass a representative-level exam and be associated with a member firm to register"
+      }
+    ],
+    "answer": "D",
+    "spoken_stem": "Which statement about passing the SIE is TRUE? A, It alone qualifies a person to sell securities. B, It replaces the Series 63 state exam. C, It requires sponsorship by a member firm. D, It is a corequisite, the candidate must also pass a representative-level exam and be associated with a member firm to register.",
+    "explanation": "D is correct. The SIE is a general knowledge corequisite. To become registered, a person must also pass a qualification exam such as the Series 6 or 7, which requires member firm sponsorship, and be associated with a member. A is wrong because the SIE alone permits no securities business. C is wrong because anyone 18 or older can take the SIE without sponsorship. B is wrong because state law exams like the Series 63 are separate.",
+    "spoken_explanation": "D is correct. The SIE is a general knowledge corequisite. To become registered, a person must also pass a qualification exam such as the Series 6 or 7, which requires member firm sponsorship, and be associated with a member. A is wrong because the SIE alone permits no securities business. C is wrong because anyone 18 or older can take the SIE without sponsorship. B is wrong because state law exams like the Series 63 are separate.",
+    "tags": [
+      "sie",
+      "corequisite",
+      "rule-1210"
+    ],
+    "outline_ref": "4.1.1 Registration and Continuing Education"
+  },
+  {
+    "id": "sie-q-0184",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "registration",
+    "lesson_id": "sie-4-01",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A registered representative leaves the industry and does not elect to participate in the Maintaining Qualifications Program. Generally, after how long will he have to requalify by exam to register again?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6 months"
+      },
+      {
+        "key": "B",
+        "text": "1 year"
+      },
+      {
+        "key": "C",
+        "text": "2 years"
+      },
+      {
+        "key": "D",
+        "text": "10 years"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "A registered representative leaves the industry and does not elect to participate in the Maintaining Qualifications Program. Generally, after how long will he have to requalify by exam to register again? A, 6 months. B, 1 year. C, 2 years. D, 10 years.",
+    "explanation": "C is correct. Under FINRA Rule 1210, a person whose registration has been terminated for two or more years generally must requalify by exam. The Maintaining Qualifications Program lets eligible people extend that window to up to five years by completing annual continuing education. A, B and D are not the standard lapse period. This is separate from the four-year validity of SIE results.",
+    "spoken_explanation": "C is correct. Under FINRA Rule 1210, a person whose registration has been terminated for two or more years generally must requalify by exam. The Maintaining Qualifications Program lets eligible people extend that window to up to five years by completing annual continuing education. A, B and D are not the standard lapse period. This is separate from the four-year validity of SIE results.",
+    "tags": [
+      "registration",
+      "lapse",
+      "rule-1210"
+    ],
+    "outline_ref": "4.1.1 Registration and Continuing Education"
+  },
+  {
+    "id": "sie-q-0185",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "registration",
+    "lesson_id": "sie-4-01",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "Under the Maintaining Qualifications Program, a person who leaves the industry can keep their qualification status valid for up to five years by:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Paying an annual FINRA fee only"
+      },
+      {
+        "key": "B",
+        "text": "Completing annual continuing education"
+      },
+      {
+        "key": "C",
+        "text": "Retaking the SIE every year"
+      },
+      {
+        "key": "D",
+        "text": "Remaining a customer of a member firm"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "Under the Maintaining Qualifications Program, a person who leaves the industry can keep their qualification status valid for up to five years by: A, Paying an annual FINRA fee only. B, Completing annual continuing education. C, Retaking the SIE every year. D, Remaining a customer of a member firm.",
+    "explanation": "B is correct. The Maintaining Qualifications Program, part of FINRA Rule 1240, lets eligible individuals who terminate a registration maintain their qualifications for up to five years by completing continuing education each year. Without it, qualifications generally lapse after two years. A, C and D aren't how the program works.",
+    "spoken_explanation": "B is correct. The Maintaining Qualifications Program, part of FINRA Rule 1240, lets eligible individuals who terminate a registration maintain their qualifications for up to five years by completing continuing education each year. Without it, qualifications generally lapse after two years. A, C and D aren't how the program works.",
+    "tags": [
+      "mqp",
+      "continuing-education",
+      "rule-1240"
+    ],
+    "outline_ref": "4.1.1 Registration and Continuing Education"
+  },
+  {
+    "id": "sie-q-0186",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "continuing-education",
+    "lesson_id": "sie-4-01",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A registered representative fails to complete the annual Regulatory Element by December 31. What is the consequence?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The rep becomes CE inactive and may not perform activities requiring registration or receive compensation for them until it's completed"
+      },
+      {
+        "key": "B",
+        "text": "A $1,000 fine only"
+      },
+      {
+        "key": "C",
+        "text": "The rep's registration is immediately and permanently revoked"
+      },
+      {
+        "key": "D",
+        "text": "There is no consequence until a second year is missed"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "A registered representative fails to complete the annual Regulatory Element by December 31. What is the consequence? A, The rep becomes CE inactive and may not perform activities requiring registration or receive compensation for them until it's completed. B, A 1,000 dollars fine only. C, The rep's registration is immediately and permanently revoked. D, There is no consequence until a second year is missed.",
+    "explanation": "A is correct. Under FINRA Rule 1240, a person who misses the Regulatory Element deadline is designated CE inactive. Until the requirement is satisfied, the person can't perform, or be compensated for, any activity requiring registration. If the person stays CE inactive for two consecutive years, the registration is administratively terminated. B, C and D misstate the consequence.",
+    "spoken_explanation": "A is correct. Under FINRA Rule 1240, a person who misses the Regulatory Element deadline is designated CE inactive. Until the requirement is satisfied, the person can't perform, or be compensated for, any activity requiring registration. If the person stays CE inactive for two consecutive years, the registration is administratively terminated. B, C and D misstate the consequence.",
+    "tags": [
+      "continuing-education",
+      "ce-inactive",
+      "rule-1240"
+    ],
+    "outline_ref": "4.1.1 Registration and Continuing Education"
+  },
+  {
+    "id": "sie-q-0187",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "continuing-education",
+    "lesson_id": "sie-4-01",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "The Firm Element of continuing education is BEST described as:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Annual training developed by the member firm based on a needs analysis of its covered persons"
+      },
+      {
+        "key": "B",
+        "text": "A FINRA-administered computer exam taken every three years"
+      },
+      {
+        "key": "C",
+        "text": "Training required only for principals"
+      },
+      {
+        "key": "D",
+        "text": "Optional training that has no rule basis"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "The Firm Element of continuing education is BEST described as: A, Annual training developed by the member firm based on a needs analysis of its covered persons. B, A FINRA-administered computer exam taken every three years. C, Training required only for principals. D, Optional training that has no rule basis.",
+    "explanation": "A is correct. Under FINRA Rule 1240, each member firm must maintain a continuing education program for its covered registered persons. The program is based on an annual needs analysis and written training plan, covering topics like products, services and regulatory concerns relevant to their roles. B wrongly describes the Regulatory Element, which is FINRA-delivered and annual. C and D are wrong because Firm Element applies broadly and is required.",
+    "spoken_explanation": "A is correct. Under FINRA Rule 1240, each member firm must maintain a continuing education program for its covered registered persons. The program is based on an annual needs analysis and written training plan, covering topics like products, services and regulatory concerns relevant to their roles. B wrongly describes the Regulatory Element, which is FINRA-delivered and annual. C and D are wrong because Firm Element applies broadly and is required.",
+    "tags": [
+      "firm-element",
+      "continuing-education"
+    ],
+    "outline_ref": "4.1.1 Registration and Continuing Education"
+  },
+  {
+    "id": "sie-q-0188",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "registration",
+    "lesson_id": "sie-4-01",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Under SEC Rule 17f-2, which broker-dealer employee generally must be fingerprinted?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Only registered representatives"
+      },
+      {
+        "key": "B",
+        "text": "Only employees who work on the trading floor"
+      },
+      {
+        "key": "C",
+        "text": "Only principals"
+      },
+      {
+        "key": "D",
+        "text": "Partners, directors, officers and employees, including those who handle funds or securities or have access to records, subject to limited exceptions"
+      }
+    ],
+    "answer": "D",
+    "spoken_stem": "Under SEC Rule 17f-2, which broker-dealer employee generally must be fingerprinted? A, Only registered representatives. B, Only employees who work on the trading floor. C, Only principals. D, Partners, directors, officers and employees, including those who handle funds or securities or have access to records, subject to limited exceptions.",
+    "explanation": "D is correct. SEC Rule 17f-2 requires broker-dealers to fingerprint their partners, directors, officers and employees, with limited exceptions for people who don't sell securities, don't handle funds or securities, and don't have access to original books and records. Fingerprints are submitted to the FBI through FINRA for a criminal background check. A, C and B are too narrow.",
+    "spoken_explanation": "D is correct. SEC Rule 17f-2 requires broker-dealers to fingerprint their partners, directors, officers and employees, with limited exceptions for people who don't sell securities, don't handle funds or securities, and don't have access to original books and records. Fingerprints are submitted to the FBI through FINRA for a criminal background check. A, C and B are too narrow.",
+    "tags": [
+      "fingerprinting",
+      "rule-17f-2",
+      "background-checks"
+    ],
+    "outline_ref": "4.1.1 Registration and Continuing Education"
+  },
+  {
+    "id": "sie-q-0189",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "registration",
+    "lesson_id": "sie-4-01",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "Under FINRA Rule 3110(e), before applying to register a new person, a member firm must:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Rely solely on the applicant's own statements"
+      },
+      {
+        "key": "B",
+        "text": "Investigate the applicant's good character, business reputation, qualifications and experience"
+      },
+      {
+        "key": "C",
+        "text": "Obtain FINRA's prior approval of the hire"
+      },
+      {
+        "key": "D",
+        "text": "Wait 90 days after the hire"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "Under FINRA Rule 3110(e), before applying to register a new person, a member firm must: A, Rely solely on the applicant's own statements. B, Investigate the applicant's good character, business reputation, qualifications and experience. C, Obtain FINRA's prior approval of the hire. D, Wait 90 days after the hire.",
+    "explanation": "B is correct. Rule 3110(e) requires the firm to ascertain, through investigation, the good character, business reputation, qualifications and experience of an applicant before applying for registration. Firms must also verify the Form U4 information, including a public records search for items like judgments, liens and bankruptcies, within 30 calendar days after filing. A is insufficient. C and D aren't requirements.",
+    "spoken_explanation": "B is correct. Rule 3110(e) requires the firm to ascertain, through investigation, the good character, business reputation, qualifications and experience of an applicant before applying for registration. Firms must also verify the Form U4 information, including a public records search for items like judgments, liens and bankruptcies, within 30 calendar days after filing. A is insufficient. C and D aren't requirements.",
+    "tags": [
+      "background-checks",
+      "rule-3110",
+      "form-u4"
+    ],
+    "outline_ref": "4.1.1 Registration and Continuing Education"
+  },
+  {
+    "id": "sie-q-0190",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "registration",
+    "lesson_id": "sie-4-01",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "Which of the following events would MOST likely make a person subject to statutory disqualification?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A misdemeanor conviction for embezzlement 4 years ago"
+      },
+      {
+        "key": "B",
+        "text": "A misdemeanor conviction for disorderly conduct 2 years ago"
+      },
+      {
+        "key": "C",
+        "text": "A civil lawsuit by a neighbor that was dismissed"
+      },
+      {
+        "key": "D",
+        "text": "A tax lien that was paid off"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "Which of the following events would MOST likely make a person subject to statutory disqualification? A, A misdemeanor conviction for embezzlement 4 years ago. B, A misdemeanor conviction for disorderly conduct 2 years ago. C, A civil lawsuit by a neighbor that was dismissed. D, A tax lien that was paid off.",
+    "explanation": "A is correct. Statutory disqualification under Exchange Act Section 3(a)(39) includes any felony conviction within 10 years and misdemeanor convictions within 10 years involving securities, embezzlement, fraud, theft, bribery, perjury and similar conduct. B is a misdemeanor unrelated to investments or dishonesty. C is a dismissed civil matter. D may need to be disclosed on a U4 if unsatisfied, but it isn't a disqualification.",
+    "spoken_explanation": "A is correct. Statutory disqualification under Exchange Act Section 3(a)(39) includes any felony conviction within 10 years and misdemeanor convictions within 10 years involving securities, embezzlement, fraud, theft, bribery, perjury and similar conduct. B is a misdemeanor unrelated to investments or dishonesty. C is a dismissed civil matter. D may need to be disclosed on a U4 if unsatisfied, but it isn't a disqualification.",
+    "tags": [
+      "statutory-disqualification"
+    ],
+    "outline_ref": "4.1.1 Registration and Continuing Education"
+  },
+  {
+    "id": "sie-q-0191",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "registration",
+    "lesson_id": "sie-4-01",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "A member firm's compliance analyst does not need a registration for her job but wants to keep her Series 7 qualification active. Under FINRA Rule 1210, the firm may:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Not register her under any circumstances"
+      },
+      {
+        "key": "B",
+        "text": "Permissively register her"
+      },
+      {
+        "key": "C",
+        "text": "Register her only if she solicits customers"
+      },
+      {
+        "key": "D",
+        "text": "Register her only with the SEC"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "A member firm's compliance analyst does not need a registration for her job but wants to keep her Series 7 qualification active. Under FINRA Rule 1210, the firm may: A, Not register her under any circumstances. B, Permissively register her. C, Register her only if she solicits customers. D, Register her only with the SEC.",
+    "explanation": "B is correct. Rule 1210 allows permissive registrations, which let a firm register associated persons who are not required to be registered, such as people in administrative or compliance roles. That keeps their qualifications active, and they're subject to all the rules that apply to registered persons. A is wrong because permissive registration is allowed. C is wrong because she'd then be required to register. D is wrong because individual representatives register through FINRA's system.",
+    "spoken_explanation": "B is correct. Rule 1210 allows permissive registrations, which let a firm register associated persons who are not required to be registered, such as people in administrative or compliance roles. That keeps their qualifications active, and they're subject to all the rules that apply to registered persons. A is wrong because permissive registration is allowed. C is wrong because she'd then be required to register. D is wrong because individual representatives register through FINRA's system.",
+    "tags": [
+      "permissive-registration",
+      "rule-1210"
+    ],
+    "outline_ref": "4.1.1 Registration and Continuing Education"
+  },
+  {
+    "id": "sie-q-0192",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "registration",
+    "lesson_id": "sie-4-01",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "As of November 2026, a candidate fails the SIE for the second time. How long must the candidate wait before retaking it?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "30 days"
+      },
+      {
+        "key": "B",
+        "text": "15 days"
+      },
+      {
+        "key": "C",
+        "text": "No wait"
+      },
+      {
+        "key": "D",
+        "text": "180 days"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "As of November 2026, a candidate fails the SIE for the second time. How long must the candidate wait before retaking it? A, 30 days. B, 15 days. C, No wait. D, 180 days.",
+    "explanation": "A is correct. Under FINRA's current rules, as of November 2026, candidates must wait 30 days after a first or second failed attempt and 180 days after a third or later failure. FINRA Regulatory Notice 26-18 reduces these waits to 15 days after the first and second failures and 60 days after the third, effective January 19, 2027. So B will become correct for retakes after that date. C and D aren't the current second-attempt waits.",
+    "spoken_explanation": "A is correct. Under FINRA's current rules, as of November 2026, candidates must wait 30 days after a first or second failed attempt and 180 days after a third or later failure. FINRA Regulatory Notice 26-18 reduces these waits to 15 days after the first and second failures and 60 days after the third, effective January 19, 2027. So B will become correct for retakes after that date. C and D aren't the current second-attempt waits.",
+    "tags": [
+      "exam-retake",
+      "changes-yearly",
+      "recent-rule-change"
+    ],
+    "outline_ref": "4.1.1 Registration and Continuing Education"
+  },
+  {
+    "id": "sie-q-0193",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "registration",
+    "lesson_id": "sie-4-01",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A registered representative located in New York wants to solicit a customer who lives in New Jersey. In addition to FINRA registration, the rep generally must:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Do nothing more"
+      },
+      {
+        "key": "B",
+        "text": "Obtain the customer's waiver"
+      },
+      {
+        "key": "C",
+        "text": "Be registered as an agent in New Jersey"
+      },
+      {
+        "key": "D",
+        "text": "Register with the SEC individually"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "A registered representative located in New York wants to solicit a customer who lives in New Jersey. In addition to FINRA registration, the rep generally must: A, Do nothing more. B, Obtain the customer's waiver. C, Be registered as an agent in New Jersey. D, Register with the SEC individually.",
+    "explanation": "C is correct. State blue-sky laws generally require agents to be registered in the state where the customer resides before soliciting or effecting transactions there, subject to limited exemptions. Passing the Series 63 or 66 is usually required for agent registration. A ignores state law. B is wrong because customers can't waive state registration. D is wrong because individual reps don't register separately with the SEC.",
+    "spoken_explanation": "C is correct. State blue-sky laws generally require agents to be registered in the state where the customer resides before soliciting or effecting transactions there, subject to limited exemptions. Passing the Series 63 or 66 is usually required for agent registration. A ignores state law. B is wrong because customers can't waive state registration. D is wrong because individual reps don't register separately with the SEC.",
+    "tags": [
+      "state-registration",
+      "blue-sky"
+    ],
+    "outline_ref": "4.1.1 Registration and Continuing Education"
+  },
+  {
+    "id": "sie-q-0194",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "registration",
+    "lesson_id": "sie-4-01",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "Once a candidate is enrolled for a FINRA qualification exam, the window within which the exam must be taken is generally:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "30 days"
+      },
+      {
+        "key": "B",
+        "text": "60 days"
+      },
+      {
+        "key": "C",
+        "text": "120 days"
+      },
+      {
+        "key": "D",
+        "text": "1 year"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "Once a candidate is enrolled for a FINRA qualification exam, the window within which the exam must be taken is generally: A, 30 days. B, 60 days. C, 120 days. D, 1 year.",
+    "explanation": "C is correct. A FINRA exam enrollment generally opens a 120-day window during which the candidate must schedule and sit for the exam. If the window expires, the candidate must re-enroll and pay again. A, B and D are not the standard window. The fee for the SIE is set by FINRA, and firms often pay for representative exams.",
+    "spoken_explanation": "C is correct. A FINRA exam enrollment generally opens a 120-day window during which the candidate must schedule and sit for the exam. If the window expires, the candidate must re-enroll and pay again. A, B and D are not the standard window. The fee for the SIE is set by FINRA, and firms often pay for representative exams.",
+    "tags": [
+      "exam-enrollment"
+    ],
+    "outline_ref": "4.1.1 Registration and Continuing Education"
+  },
+  {
+    "id": "sie-q-0195",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "registration",
+    "lesson_id": "sie-4-01",
+    "difficulty": 2,
+    "type": "tf",
+    "stem": "True or false: A representative may tell customers that being registered with FINRA means FINRA has approved her abilities and endorses her recommendations.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "True or false: A representative may tell customers that being registered with FINRA means FINRA has approved her abilities and endorses her recommendations.",
+    "explanation": "False. FINRA Rule 1122 and SEC Rule 15c1-3 prohibit misleading statements about membership or registration. Registration means only that the person met the qualification requirements. It doesn't mean any regulator approves of the person's skill, character or recommendations. Implying endorsement is a misrepresentation that can lead to discipline.",
+    "spoken_explanation": "False. FINRA Rule 1122 and SEC Rule 15c1-3 prohibit misleading statements about membership or registration. Registration means only that the person met the qualification requirements. It doesn't mean any regulator approves of the person's skill, character or recommendations. Implying endorsement is a misrepresentation that can lead to discipline.",
+    "tags": [
+      "registration",
+      "rule-1122",
+      "misrepresentation"
+    ],
+    "outline_ref": "4.1.1 Registration and Continuing Education"
+  },
+  {
+    "id": "sie-q-0196",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "registration",
+    "lesson_id": "sie-4-01",
+    "difficulty": 2,
+    "type": "tf",
+    "stem": "True or false: A person subject to statutory disqualification can never associate with a FINRA member under any circumstances.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "True or false: A person subject to statutory disqualification can never associate with a FINRA member under any circumstances.",
+    "explanation": "False. A statutorily disqualified person may be able to associate with a member firm if the firm files an eligibility application, often called a Membership Continuance Application, and FINRA approves it. Approval often comes with heightened supervision conditions. Without approval, the firm can't let that person associate with it. The burden is on the firm to show the association is in the public interest.",
+    "spoken_explanation": "False. A statutorily disqualified person may be able to associate with a member firm if the firm files an eligibility application, often called a Membership Continuance Application, and FINRA approves it. Approval often comes with heightened supervision conditions. Without approval, the firm can't let that person associate with it. The burden is on the firm to show the association is in the public interest.",
+    "tags": [
+      "statutory-disqualification",
+      "eligibility"
+    ],
+    "outline_ref": "4.1.1 Registration and Continuing Education"
+  },
+  {
+    "id": "sie-q-0197",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "form-u4",
+    "lesson_id": "sie-4-02",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Form U4 requires a candidate to provide which of the following?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Five years of employment history and three years of residential history"
+      },
+      {
+        "key": "B",
+        "text": "Only the current employer"
+      },
+      {
+        "key": "C",
+        "text": "Ten years of employment history and five years of residential history"
+      },
+      {
+        "key": "D",
+        "text": "A full credit report"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "Form U4 requires a candidate to provide which of the following? A, Five years of employment history and three years of residential history. B, Only the current employer. C, Ten years of employment history and five years of residential history. D, A full credit report.",
+    "explanation": "C is correct. Form U4 asks for 10 years of employment history and 5 years of residential history, plus disclosure questions covering criminal matters, regulatory actions, civil judicial actions, customer complaints, terminations and financial matters such as bankruptcies, liens and judgments. A has the periods wrong. B is incomplete. D is wrong because the firm may run its own checks, but the U4 is the disclosure form.",
+    "spoken_explanation": "C is correct. Form U4 asks for 10 years of employment history and 5 years of residential history, plus disclosure questions covering criminal matters, regulatory actions, civil judicial actions, customer complaints, terminations and financial matters such as bankruptcies, liens and judgments. A has the periods wrong. B is incomplete. D is wrong because the firm may run its own checks, but the U4 is the disclosure form.",
+    "tags": [
+      "form-u4"
+    ],
+    "outline_ref": "4.2.1 Employee Conduct"
+  },
+  {
+    "id": "sie-q-0198",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "form-u4",
+    "lesson_id": "sie-4-02",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Who signs the Form U4?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Only the candidate"
+      },
+      {
+        "key": "B",
+        "text": "Only the firm's CEO"
+      },
+      {
+        "key": "C",
+        "text": "Only FINRA"
+      },
+      {
+        "key": "D",
+        "text": "Both the candidate and an appropriate principal of the firm"
+      }
+    ],
+    "answer": "D",
+    "spoken_stem": "Who signs the Form U4? A, Only the candidate. B, Only the firm's CEO. C, Only FINRA. D, Both the candidate and an appropriate principal of the firm.",
+    "explanation": "D is correct. The candidate attests that the information is accurate and complete. That attestation includes agreeing to arbitrate disputes as required by SRO rules. A principal of the member firm also signs, certifying that the firm has taken appropriate steps to verify the information. A, C and B are incomplete or incorrect. Filing false information is a serious violation for both the individual and the firm.",
+    "spoken_explanation": "D is correct. The candidate attests that the information is accurate and complete. That attestation includes agreeing to arbitrate disputes as required by SRO rules. A principal of the member firm also signs, certifying that the firm has taken appropriate steps to verify the information. A, C and B are incomplete or incorrect. Filing false information is a serious violation for both the individual and the firm.",
+    "tags": [
+      "form-u4",
+      "supervision"
+    ],
+    "outline_ref": "4.2.1 Employee Conduct"
+  },
+  {
+    "id": "sie-q-0199",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "form-u4",
+    "lesson_id": "sie-4-02",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "A representative deliberately omits a prior regulatory suspension from his Form U4. The MOST likely consequence is:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "No consequence if the suspension was in another state"
+      },
+      {
+        "key": "B",
+        "text": "Disciplinary action, possibly including a bar, and the omission itself can be grounds for statutory disqualification"
+      },
+      {
+        "key": "C",
+        "text": "A warning letter only"
+      },
+      {
+        "key": "D",
+        "text": "The omission is permitted if more than 5 years old"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "A representative deliberately omits a prior regulatory suspension from his Form U4. The MOST likely consequence is: A, No consequence if the suspension was in another state. B, Disciplinary action, possibly including a bar, and the omission itself can be grounds for statutory disqualification. C, A warning letter only. D, The omission is permitted if more than 5 years old.",
+    "explanation": "B is correct. Willfully filing false or misleading information, or omitting material facts, on Form U4 violates FINRA rules, including Rule 1122 and the standards of Rule 2010. It can lead to fines, suspension or a bar. A willful omission can itself be a statutory disqualification event. A and D are wrong because regulatory actions are reportable regardless of where or when. C understates the seriousness.",
+    "spoken_explanation": "B is correct. Willfully filing false or misleading information, or omitting material facts, on Form U4 violates FINRA rules, including Rule 1122 and the standards of Rule 2010. It can lead to fines, suspension or a bar. A willful omission can itself be a statutory disqualification event. A and D are wrong because regulatory actions are reportable regardless of where or when. C understates the seriousness.",
+    "tags": [
+      "form-u4",
+      "misrepresentation",
+      "disciplinary-action"
+    ],
+    "outline_ref": "4.2.1 Employee Conduct"
+  },
+  {
+    "id": "sie-q-0200",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "form-u5",
+    "lesson_id": "sie-4-02",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "After a representative's Form U5 is filed, the former firm learns of a customer complaint that would have been reportable. The firm must:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Do nothing because the rep has left"
+      },
+      {
+        "key": "B",
+        "text": "Amend the Form U5 within 30 days of learning of the matter"
+      },
+      {
+        "key": "C",
+        "text": "Notify only the rep's new firm by phone"
+      },
+      {
+        "key": "D",
+        "text": "Wait until the complaint is resolved"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "After a representative's Form U5 is filed, the former firm learns of a customer complaint that would have been reportable. The firm must: A, Do nothing because the rep has left. B, Amend the Form U5 within 30 days of learning of the matter. C, Notify only the rep's new firm by phone. D, Wait until the complaint is resolved.",
+    "explanation": "B is correct. A firm must keep the Form U5 current. If it learns of facts that would have been reportable, it must file an amendment within 30 days and provide a copy to the individual. That way the record follows the rep and appears on BrokerCheck as required. A, C and D fail that obligation.",
+    "spoken_explanation": "B is correct. A firm must keep the Form U5 current. If it learns of facts that would have been reportable, it must file an amendment within 30 days and provide a copy to the individual. That way the record follows the rep and appears on BrokerCheck as required. A, C and D fail that obligation.",
+    "tags": [
+      "form-u5",
+      "amendments"
+    ],
+    "outline_ref": "4.2.1 Employee Conduct"
+  },
+  {
+    "id": "sie-q-0201",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "complaints",
+    "lesson_id": "sie-4-02",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Under FINRA rules, which of the following is a written customer complaint?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A customer's angry phone call"
+      },
+      {
+        "key": "B",
+        "text": "An email from a customer alleging that her rep made unauthorized trades"
+      },
+      {
+        "key": "C",
+        "text": "A customer's verbal request to close an account"
+      },
+      {
+        "key": "D",
+        "text": "A rep's notes about a customer's tone"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "Under FINRA rules, which of the following is a written customer complaint? A, A customer's angry phone call. B, An email from a customer alleging that her rep made unauthorized trades. C, A customer's verbal request to close an account. D, A rep's notes about a customer's tone.",
+    "explanation": "B is correct. FINRA Rule 4513 defines a written customer complaint as any written grievance, including electronic communications, from a customer or someone acting for the customer, involving the activities of the firm or its associated persons in connection with securities. A and C are oral, and D isn't from the customer. Oral complaints should still be handled under firm procedures, but they aren't written complaints for these record and reporting rules.",
+    "spoken_explanation": "B is correct. FINRA Rule 4513 defines a written customer complaint as any written grievance, including electronic communications, from a customer or someone acting for the customer, involving the activities of the firm or its associated persons in connection with securities. A and C are oral, and D isn't from the customer. Oral complaints should still be handled under firm procedures, but they aren't written complaints for these record and reporting rules.",
+    "tags": [
+      "customer-complaints",
+      "rule-4513"
+    ],
+    "outline_ref": "4.2.1 Employee Conduct"
+  },
+  {
+    "id": "sie-q-0202",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "complaints",
+    "lesson_id": "sie-4-02",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "Under FINRA Rule 4513, a member must keep records of written customer complaints at the office of supervisory jurisdiction for at least:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4 years"
+      },
+      {
+        "key": "B",
+        "text": "3 years"
+      },
+      {
+        "key": "C",
+        "text": "1 year"
+      },
+      {
+        "key": "D",
+        "text": "6 years"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "Under FINRA Rule 4513, a member must keep records of written customer complaints at the office of supervisory jurisdiction for at least: A, 4 years. B, 3 years. C, 1 year. D, 6 years.",
+    "explanation": "A is correct. Rule 4513 requires each member to keep a record of every written customer complaint for at least four years. The record covers the complainant, the date, the associated person involved, a description of the complaint, and any action taken, and it's kept at the office of supervisory jurisdiction responsible for that office. C and B are too short. D is the period for certain other records, such as blotters.",
+    "spoken_explanation": "A is correct. Rule 4513 requires each member to keep a record of every written customer complaint for at least four years. The record covers the complainant, the date, the associated person involved, a description of the complaint, and any action taken, and it's kept at the office of supervisory jurisdiction responsible for that office. C and B are too short. D is the period for certain other records, such as blotters.",
+    "tags": [
+      "customer-complaints",
+      "rule-4513",
+      "books-and-records"
+    ],
+    "outline_ref": "4.2.1 Employee Conduct"
+  },
+  {
+    "id": "sie-q-0203",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "complaints",
+    "lesson_id": "sie-4-02",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "Under FINRA Rule 4530, member firms report statistical and summary information about written customer complaints:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Annually by January 31"
+      },
+      {
+        "key": "B",
+        "text": "Monthly, by the 5th business day"
+      },
+      {
+        "key": "C",
+        "text": "Quarterly, by the 15th day of the month following the quarter"
+      },
+      {
+        "key": "D",
+        "text": "Only when FINRA requests it"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "Under FINRA Rule 4530, member firms report statistical and summary information about written customer complaints: A, Annually by January 31. B, Monthly, by the 5th business day. C, Quarterly, by the 15th day of the month following the quarter. D, Only when FINRA requests it.",
+    "explanation": "C is correct. Rule 4530(d) requires firms to report statistical and summary information about written customer complaints quarterly, by the 15th day of the month after each calendar quarter ends. Separately, Rule 4530(a) requires reporting certain specified events, like being named in certain proceedings or an associated person's conviction, within 30 calendar days of the firm knowing. A, B and D aren't the requirement.",
+    "spoken_explanation": "C is correct. Rule 4530(d) requires firms to report statistical and summary information about written customer complaints quarterly, by the 15th day of the month after each calendar quarter ends. Separately, Rule 4530(a) requires reporting certain specified events, like being named in certain proceedings or an associated person's conviction, within 30 calendar days of the firm knowing. A, B and D aren't the requirement.",
+    "tags": [
+      "rule-4530",
+      "customer-complaints",
+      "reporting"
+    ],
+    "outline_ref": "4.2.1 Employee Conduct"
+  },
+  {
+    "id": "sie-q-0204",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "reporting",
+    "lesson_id": "sie-4-02",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "A member firm learns that one of its registered representatives has been convicted of a felony. Under FINRA Rule 4530, the firm must report this to FINRA within:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "10 calendar days"
+      },
+      {
+        "key": "B",
+        "text": "30 calendar days"
+      },
+      {
+        "key": "C",
+        "text": "60 calendar days"
+      },
+      {
+        "key": "D",
+        "text": "By the next quarterly statistical report"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "A member firm learns that one of its registered representatives has been convicted of a felony. Under FINRA Rule 4530, the firm must report this to FINRA within: A, 10 calendar days. B, 30 calendar days. C, 60 calendar days. D, By the next quarterly statistical report.",
+    "explanation": "B is correct. Rule 4530(a) requires a member to report specified events, including an associated person being convicted of or pleading guilty or no contest to any felony, within 30 calendar days after the firm knows or should have known of it. The rep's Form U4 must also be amended. A and C aren't the deadlines. D confuses this with the quarterly complaint statistics.",
+    "spoken_explanation": "B is correct. Rule 4530(a) requires a member to report specified events, including an associated person being convicted of or pleading guilty or no contest to any felony, within 30 calendar days after the firm knows or should have known of it. The rep's Form U4 must also be amended. A and C aren't the deadlines. D confuses this with the quarterly complaint statistics.",
+    "tags": [
+      "rule-4530",
+      "reporting",
+      "felony"
+    ],
+    "outline_ref": "4.2.1 Employee Conduct"
+  },
+  {
+    "id": "sie-q-0205",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "red-flags",
+    "lesson_id": "sie-4-02",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Which of the following is a potential red flag that a firm's supervisor should investigate?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A rep consistently meets sales targets through diversified recommendations"
+      },
+      {
+        "key": "B",
+        "text": "A customer requests quarterly statements"
+      },
+      {
+        "key": "C",
+        "text": "A rep asks customers to send checks payable to the rep personally"
+      },
+      {
+        "key": "D",
+        "text": "A rep takes required annual CE"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "Which of the following is a potential red flag that a firm's supervisor should investigate? A, A rep consistently meets sales targets through diversified recommendations. B, A customer requests quarterly statements. C, A rep asks customers to send checks payable to the rep personally. D, A rep takes required annual CE.",
+    "explanation": "C is correct. Customer funds should be payable to the firm or clearing firm, never to the rep personally. A request for checks payable to the rep is a classic red flag for conversion or misappropriation. Other red flags include customer complaints, a rep using personal email for business, sudden unexplained wealth, and reluctance to take vacations. A, B and D describe normal activity.",
+    "spoken_explanation": "C is correct. Customer funds should be payable to the firm or clearing firm, never to the rep personally. A request for checks payable to the rep is a classic red flag for conversion or misappropriation. Other red flags include customer complaints, a rep using personal email for business, sudden unexplained wealth, and reluctance to take vacations. A, B and D describe normal activity.",
+    "tags": [
+      "red-flags",
+      "supervision",
+      "misappropriation"
+    ],
+    "outline_ref": "4.2.1 Employee Conduct"
+  },
+  {
+    "id": "sie-q-0206",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "brokercheck",
+    "lesson_id": "sie-4-02",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "BrokerCheck, operated by FINRA under Rule 8312, provides the public with:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Registered representatives' credit scores"
+      },
+      {
+        "key": "B",
+        "text": "Customers' account balances"
+      },
+      {
+        "key": "C",
+        "text": "Information about the employment history, registrations and certain disclosures of firms and individuals"
+      },
+      {
+        "key": "D",
+        "text": "Firms' trading algorithms"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "BrokerCheck, operated by FINRA under Rule 8312, provides the public with: A, Registered representatives' credit scores. B, Customers' account balances. C, Information about the employment history, registrations and certain disclosures of firms and individuals. D, Firms' trading algorithms.",
+    "explanation": "C is correct. BrokerCheck is a free FINRA tool that shows information about firms and registered persons, including qualifications, employment history and disclosure events like customer complaints, regulatory actions and certain criminal matters. FINRA Rule 2210 requires firms to include a readily apparent reference and hyperlink to BrokerCheck on their websites. A, B and D aren't disclosed.",
+    "spoken_explanation": "C is correct. BrokerCheck is a free FINRA tool that shows information about firms and registered persons, including qualifications, employment history and disclosure events like customer complaints, regulatory actions and certain criminal matters. FINRA Rule 2210 requires firms to include a readily apparent reference and hyperlink to BrokerCheck on their websites. A, B and D aren't disclosed.",
+    "tags": [
+      "brokercheck",
+      "rule-8312"
+    ],
+    "outline_ref": "4.2.1 Employee Conduct"
+  },
+  {
+    "id": "sie-q-0207",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "brokercheck",
+    "lesson_id": "sie-4-02",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "Under FINRA Rule 2267, member firms must provide customers in writing, at least once each calendar year:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Their personal tax returns"
+      },
+      {
+        "key": "B",
+        "text": "A list of all employees' home addresses"
+      },
+      {
+        "key": "C",
+        "text": "A free stock"
+      },
+      {
+        "key": "D",
+        "text": "The FINRA BrokerCheck hotline number and website address, and a statement about the availability of an investor brochure"
+      }
+    ],
+    "answer": "D",
+    "spoken_stem": "Under FINRA Rule 2267, member firms must provide customers in writing, at least once each calendar year: A, Their personal tax returns. B, A list of all employees' home addresses. C, A free stock. D, The FINRA BrokerCheck hotline number and website address, and a statement about the availability of an investor brochure.",
+    "explanation": "D is correct. Rule 2267, on investor education and protection, requires members to provide customers in writing, at least once each calendar year, the FINRA BrokerCheck hotline number and website, plus a statement that an investor brochure about BrokerCheck is available. A, C and B aren't part of the rule. This helps customers research their brokers.",
+    "spoken_explanation": "D is correct. Rule 2267, on investor education and protection, requires members to provide customers in writing, at least once each calendar year, the FINRA BrokerCheck hotline number and website, plus a statement that an investor brochure about BrokerCheck is available. A, C and B aren't part of the rule. This helps customers research their brokers.",
+    "tags": [
+      "rule-2267",
+      "brokercheck",
+      "investor-education"
+    ],
+    "outline_ref": "4.2.1 Employee Conduct"
+  },
+  {
+    "id": "sie-q-0208",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "arbitration",
+    "lesson_id": "sie-4-02",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A dispute arises between a FINRA member firm and one of its registered representatives over unpaid commissions. Generally, the dispute must be resolved through:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "State court only"
+      },
+      {
+        "key": "B",
+        "text": "Federal court only"
+      },
+      {
+        "key": "C",
+        "text": "SEC administrative hearing"
+      },
+      {
+        "key": "D",
+        "text": "FINRA arbitration"
+      }
+    ],
+    "answer": "D",
+    "spoken_stem": "A dispute arises between a FINRA member firm and one of its registered representatives over unpaid commissions. Generally, the dispute must be resolved through: A, State court only. B, Federal court only. C, SEC administrative hearing. D, FINRA arbitration.",
+    "explanation": "D is correct. Under FINRA's Code of Arbitration Procedure for Industry Disputes, disputes between members and their associated persons arising out of their business activities generally must be arbitrated, with limited exceptions such as certain statutory employment discrimination claims. The rep agrees to this when signing the Form U4. A, C and B aren't the default forum.",
+    "spoken_explanation": "D is correct. Under FINRA's Code of Arbitration Procedure for Industry Disputes, disputes between members and their associated persons arising out of their business activities generally must be arbitrated, with limited exceptions such as certain statutory employment discrimination claims. The rep agrees to this when signing the Form U4. A, C and B aren't the default forum.",
+    "tags": [
+      "arbitration",
+      "industry-disputes",
+      "form-u4"
+    ],
+    "outline_ref": "4.2.1 Employee Conduct"
+  },
+  {
+    "id": "sie-q-0209",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "arbitration",
+    "lesson_id": "sie-4-02",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "Under FINRA Rule 2263, when a person is asked to sign or acknowledge a Form U4, the firm must:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Provide a written arbitration disclosure explaining that the person is agreeing to arbitrate certain disputes"
+      },
+      {
+        "key": "B",
+        "text": "Provide a copy of all customer account agreements"
+      },
+      {
+        "key": "C",
+        "text": "Obtain a credit report"
+      },
+      {
+        "key": "D",
+        "text": "Pay the person a signing bonus"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "Under FINRA Rule 2263, when a person is asked to sign or acknowledge a Form U4, the firm must: A, Provide a written arbitration disclosure explaining that the person is agreeing to arbitrate certain disputes. B, Provide a copy of all customer account agreements. C, Obtain a credit report. D, Pay the person a signing bonus.",
+    "explanation": "A is correct. Rule 2263 requires a member to give an associated person a written statement, when asking them to sign or acknowledge a U4, that explains the arbitration agreement. It covers the fact that arbitration is generally final and binding, that discovery is more limited than in court, and that the person may be waiving the right to sue in court. B, C and D aren't required by the rule.",
+    "spoken_explanation": "A is correct. Rule 2263 requires a member to give an associated person a written statement, when asking them to sign or acknowledge a U4, that explains the arbitration agreement. It covers the fact that arbitration is generally final and binding, that discovery is more limited than in court, and that the person may be waiving the right to sue in court. B, C and D aren't required by the rule.",
+    "tags": [
+      "rule-2263",
+      "arbitration",
+      "form-u4"
+    ],
+    "outline_ref": "4.2.1 Employee Conduct"
+  },
+  {
+    "id": "sie-q-0210",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "arbitration",
+    "lesson_id": "sie-4-02",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "Under FINRA's arbitration codes, a claim generally is NOT eligible for arbitration if it is filed more than how long after the event giving rise to it?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1 year"
+      },
+      {
+        "key": "B",
+        "text": "3 years"
+      },
+      {
+        "key": "C",
+        "text": "6 years"
+      },
+      {
+        "key": "D",
+        "text": "10 years"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "Under FINRA's arbitration codes, a claim generally is NOT eligible for arbitration if it is filed more than how long after the event giving rise to it? A, 1 year. B, 3 years. C, 6 years. D, 10 years.",
+    "explanation": "C is correct. FINRA's arbitration codes provide that no claim is eligible for arbitration if six years or more have passed since the occurrence or event that gave rise to it. A and B are too short. D is too long. Arbitration awards are generally final and binding, with very limited grounds for appeal to a court.",
+    "spoken_explanation": "C is correct. FINRA's arbitration codes provide that no claim is eligible for arbitration if six years or more have passed since the occurrence or event that gave rise to it. A and B are too short. D is too long. Arbitration awards are generally final and binding, with very limited grounds for appeal to a court.",
+    "tags": [
+      "arbitration",
+      "eligibility"
+    ],
+    "outline_ref": "4.2.1 Employee Conduct"
+  },
+  {
+    "id": "sie-q-0211",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "form-u5",
+    "lesson_id": "sie-4-02",
+    "difficulty": 1,
+    "type": "tf",
+    "stem": "True or false: A firm must provide the terminated representative with a copy of the Form U5 it files.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "True or false: A firm must provide the terminated representative with a copy of the Form U5 it files.",
+    "explanation": "True. Under the FINRA By-Laws, the firm must provide the individual with a copy of the Form U5 at the same time it files the form, and the deadline is within 30 days after termination. Amendments must also be shared with the individual. Because the U5 explains the termination and any disclosures, the rep has a strong interest in seeing what it says.",
+    "spoken_explanation": "True. Under the FINRA By-Laws, the firm must provide the individual with a copy of the Form U5 at the same time it files the form, and the deadline is within 30 days after termination. Amendments must also be shared with the individual. Because the U5 explains the termination and any disclosures, the rep has a strong interest in seeing what it says.",
+    "tags": [
+      "form-u5"
+    ],
+    "outline_ref": "4.2.1 Employee Conduct"
+  },
+  {
+    "id": "sie-q-0212",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "complaints",
+    "lesson_id": "sie-4-02",
+    "difficulty": 2,
+    "type": "tf",
+    "stem": "True or false: An oral complaint that a customer makes over the phone must be recorded and reported to FINRA in the same way as a written complaint.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "True or false: An oral complaint that a customer makes over the phone must be recorded and reported to FINRA in the same way as a written complaint.",
+    "explanation": "False. FINRA's complaint recordkeeping and statistical reporting rules, Rules 4513 and 4530, apply to written complaints, including electronic ones. Firms should still handle oral complaints under their supervisory procedures, and an oral complaint may lead to other obligations. But it isn't treated as a written customer complaint for these record and reporting requirements.",
+    "spoken_explanation": "False. FINRA's complaint recordkeeping and statistical reporting rules, Rules 4513 and 4530, apply to written complaints, including electronic ones. Firms should still handle oral complaints under their supervisory procedures, and an oral complaint may lead to other obligations. But it isn't treated as a written customer complaint for these record and reporting requirements.",
+    "tags": [
+      "customer-complaints",
+      "rule-4513"
+    ],
+    "outline_ref": "4.2.1 Employee Conduct"
+  },
+  {
+    "id": "sie-q-0213",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "gifts",
+    "lesson_id": "sie-4-03",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A representative takes a client's portfolio manager to a $450 dinner and a baseball game, and attends both with him. Under FINRA Rule 3220, this is:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A violation because it exceeds $300"
+      },
+      {
+        "key": "B",
+        "text": "Prohibited because entertainment is never allowed"
+      },
+      {
+        "key": "C",
+        "text": "Permissible only if the client reimburses half"
+      },
+      {
+        "key": "D",
+        "text": "Generally permissible business entertainment, as long as it isn't so frequent or extensive as to raise questions of propriety"
+      }
+    ],
+    "answer": "D",
+    "spoken_stem": "A representative takes a client's portfolio manager to a 450 dollars dinner and a baseball game, and attends both with him. Under FINRA Rule 3220, this is: A, A violation because it exceeds 300 dollars. B, Prohibited because entertainment is never allowed. C, Permissible only if the client reimburses half. D, Generally permissible business entertainment, as long as it isn't so frequent or extensive as to raise questions of propriety.",
+    "explanation": "D is correct. Ordinary and usual business entertainment, like a meal or sporting event where the member's representative is present, isn't counted toward the gift limit, provided it isn't so frequent or extensive as to raise questions of propriety. Firms must have supervisory procedures for entertainment. A is wrong because the $300 limit, effective March 30, 2026, applies to gifts, not hosted entertainment. C and B aren't the rule. If the rep just handed over the tickets and didn't attend, they would be a gift.",
+    "spoken_explanation": "D is correct. Ordinary and usual business entertainment, like a meal or sporting event where the member's representative is present, isn't counted toward the gift limit, provided it isn't so frequent or extensive as to raise questions of propriety. Firms must have supervisory procedures for entertainment. A is wrong because the 300 dollars limit, effective March 30, 2026, applies to gifts, not hosted entertainment. C and B aren't the rule. If the rep just handed over the tickets and didn't attend, they would be a gift.",
+    "tags": [
+      "business-entertainment",
+      "rule-3220",
+      "gifts"
+    ],
+    "outline_ref": "4.2.2 Reportable Events"
+  },
+  {
+    "id": "sie-q-0214",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "gifts",
+    "lesson_id": "sie-4-03",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "A rep gives a client's employee two concert tickets with a face value of $120 each, but does NOT attend. Under amended FINRA Rule 3220, as of 2026, the gift is:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Within the limit, because each ticket is under $300"
+      },
+      {
+        "key": "B",
+        "text": "A violation regardless of value"
+      },
+      {
+        "key": "C",
+        "text": "Exempt because tickets are entertainment"
+      },
+      {
+        "key": "D",
+        "text": "A gift valued at $240, within the $300 annual limit if no other gifts were given"
+      }
+    ],
+    "answer": "D",
+    "spoken_stem": "A rep gives a client's employee two concert tickets with a face value of 120 dollars each, but does NOT attend. Under amended FINRA Rule 3220, as of 2026, the gift is: A, Within the limit, because each ticket is under 300 dollars. B, A violation regardless of value. C, Exempt because tickets are entertainment. D, A gift valued at 240 dollars, within the 300 dollars annual limit if no other gifts were given.",
+    "explanation": "D is correct. When the rep doesn't attend, tickets are a gift, not entertainment. Tickets are valued at the higher of cost or face value, so two $120 tickets equal $240. The annual limit per recipient is $300 under Rule 3220 as amended effective March 30, 2026, so this fits if nothing else was given that year. A wrongly values each ticket separately instead of aggregating. C applies only when the rep is present. B is wrong.",
+    "spoken_explanation": "D is correct. When the rep doesn't attend, tickets are a gift, not entertainment. Tickets are valued at the higher of cost or face value, so two 120 dollars tickets equal 240 dollars. The annual limit per recipient is 300 dollars under Rule 3220 as amended effective March 30, 2026, so this fits if nothing else was given that year. A wrongly values each ticket separately instead of aggregating. C applies only when the rep is present. B is wrong.",
+    "tags": [
+      "gifts",
+      "rule-3220",
+      "changes-yearly",
+      "recent-rule-change"
+    ],
+    "outline_ref": "4.2.2 Reportable Events"
+  },
+  {
+    "id": "sie-q-0215",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "non-cash-compensation",
+    "lesson_id": "sie-4-03",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "A mutual fund sponsor wants to pay for a training meeting for a broker-dealer's reps. Under FINRA's non-cash compensation rules, which condition applies?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Attendance can be a reward for meeting sales targets"
+      },
+      {
+        "key": "B",
+        "text": "The sponsor may also pay for the reps' spouses"
+      },
+      {
+        "key": "C",
+        "text": "The firm must approve attendance, and attendance can't be conditioned on achieving sales targets"
+      },
+      {
+        "key": "D",
+        "text": "The meeting can be at any luxury resort"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "A mutual fund sponsor wants to pay for a training meeting for a broker-dealer's reps. Under FINRA's non-cash compensation rules, which condition applies? A, Attendance can be a reward for meeting sales targets. B, The sponsor may also pay for the reps' spouses. C, The firm must approve attendance, and attendance can't be conditioned on achieving sales targets. D, The meeting can be at any luxury resort.",
+    "explanation": "C is correct. The non-cash compensation rules, Rules 2341(l)(5), 2320(g)(4), 2310(c) and 5110(h), allow product sponsors to pay for training or education meetings only if the member approves attendance, attendance isn't conditioned on sales, the location is appropriate for the purpose, and the sponsor doesn't pay for guests. A, B and D violate those conditions. Gifts from sponsors are separately capped at $300 per person per year as of 2026.",
+    "spoken_explanation": "C is correct. The non-cash compensation rules, Rules 2341(l)(5), 2320(g)(4), 2310(c) and 5110(h), allow product sponsors to pay for training or education meetings only if the member approves attendance, attendance isn't conditioned on sales, the location is appropriate for the purpose, and the sponsor doesn't pay for guests. A, B and D violate those conditions. Gifts from sponsors are separately capped at 300 dollars per person per year as of 2026.",
+    "tags": [
+      "non-cash-compensation",
+      "rule-2341"
+    ],
+    "outline_ref": "4.2.2 Reportable Events"
+  },
+  {
+    "id": "sie-q-0216",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "political-contributions",
+    "lesson_id": "sie-4-03",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "A municipal finance professional at a dealer contributes $1,000 to the campaign of a city mayor who can influence the award of the city's bond business. The professional lives in that city. Under MSRB Rule G-37, the MOST likely consequence is:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Nothing, since he can vote for the mayor"
+      },
+      {
+        "key": "B",
+        "text": "The contribution must be reported only on his tax return"
+      },
+      {
+        "key": "C",
+        "text": "He must resign immediately"
+      },
+      {
+        "key": "D",
+        "text": "His firm is generally banned from negotiated municipal securities business with the city for two years"
+      }
+    ],
+    "answer": "D",
+    "spoken_stem": "A municipal finance professional at a dealer contributes 1,000 dollars to the campaign of a city mayor who can influence the award of the city's bond business. The professional lives in that city. Under MSRB Rule G-37, the MOST likely consequence is: A, Nothing, since he can vote for the mayor. B, The contribution must be reported only on his tax return. C, He must resign immediately. D, His firm is generally banned from negotiated municipal securities business with the city for two years.",
+    "explanation": "D is correct. G-37's exemption covers only contributions of up to $250 per election to officials the professional is entitled to vote for. A $1,000 contribution exceeds that, which generally triggers a two-year ban on the dealer engaging in negotiated municipal securities business with that issuer. A ignores the $250 cap. C and B aren't the rule. Firms also disclose contributions on Form G-37.",
+    "spoken_explanation": "D is correct. G-37's exemption covers only contributions of up to 250 dollars per election to officials the professional is entitled to vote for. A 1,000 dollars contribution exceeds that, which generally triggers a two-year ban on the dealer engaging in negotiated municipal securities business with that issuer. A ignores the 250 dollars cap. C and B aren't the rule. Firms also disclose contributions on Form G-37.",
+    "tags": [
+      "msrb-g-37",
+      "political-contributions",
+      "pay-to-play"
+    ],
+    "outline_ref": "4.2.2 Reportable Events"
+  },
+  {
+    "id": "sie-q-0217",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "outside-activities",
+    "lesson_id": "sie-4-03",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Under FINRA Rule 3270, which outside activity requires prior written notice to the member firm?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Volunteering unpaid at a food bank"
+      },
+      {
+        "key": "B",
+        "text": "Coaching a child's soccer team without pay"
+      },
+      {
+        "key": "C",
+        "text": "Managing one's own personal checking account"
+      },
+      {
+        "key": "D",
+        "text": "Serving as a paid director of a local company"
+      }
+    ],
+    "answer": "D",
+    "spoken_stem": "Under FINRA Rule 3270, which outside activity requires prior written notice to the member firm? A, Volunteering unpaid at a food bank. B, Coaching a child's soccer team without pay. C, Managing one's own personal checking account. D, Serving as a paid director of a local company.",
+    "explanation": "D is correct. Rule 3270 requires prior written notice for outside business activities where the person is an employee, independent contractor, sole proprietor, officer, director or partner of another person, or is compensated or reasonably expects compensation. A paid directorship qualifies. A, C and B are unpaid personal activities. As of November 2026, Rule 3270 applies until new Rule 3290 takes effect on October 25, 2027.",
+    "spoken_explanation": "D is correct. Rule 3270 requires prior written notice for outside business activities where the person is an employee, independent contractor, sole proprietor, officer, director or partner of another person, or is compensated or reasonably expects compensation. A paid directorship qualifies. A, C and B are unpaid personal activities. As of November 2026, Rule 3270 applies until new Rule 3290 takes effect on October 25, 2027.",
+    "tags": [
+      "outside-business-activities",
+      "rule-3270",
+      "rule-change-pending"
+    ],
+    "outline_ref": "4.2.2 Reportable Events"
+  },
+  {
+    "id": "sie-q-0218",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "outside-activities",
+    "lesson_id": "sie-4-03",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "A rep wants to help a friend's startup sell shares to a few investors but will receive no compensation. Under FINRA Rule 3280, the rep must:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Do nothing because no compensation is involved"
+      },
+      {
+        "key": "B",
+        "text": "Obtain FINRA approval"
+      },
+      {
+        "key": "C",
+        "text": "Give the firm prior written notice describing the transaction and his role"
+      },
+      {
+        "key": "D",
+        "text": "Become a partner in the startup first"
+      }
+    ],
+    "answer": "C",
+    "spoken_stem": "A rep wants to help a friend's startup sell shares to a few investors but will receive no compensation. Under FINRA Rule 3280, the rep must: A, Do nothing because no compensation is involved. B, Obtain FINRA approval. C, Give the firm prior written notice describing the transaction and his role. D, Become a partner in the startup first.",
+    "explanation": "C is correct. For a private securities transaction without compensation, Rule 3280 still requires prior written notice to the firm describing the proposed transaction and the person's role. The firm must acknowledge it in writing and may require adherence to specified conditions. If compensation were involved, the firm would have to approve or disapprove and supervise it if approved. A, B and D are wrong. Rule 3290 replaces Rule 3280 effective October 25, 2027.",
+    "spoken_explanation": "C is correct. For a private securities transaction without compensation, Rule 3280 still requires prior written notice to the firm describing the proposed transaction and the person's role. The firm must acknowledge it in writing and may require adherence to specified conditions. If compensation were involved, the firm would have to approve or disapprove and supervise it if approved. A, B and D are wrong. Rule 3290 replaces Rule 3280 effective October 25, 2027.",
+    "tags": [
+      "private-securities-transactions",
+      "rule-3280",
+      "rule-change-pending"
+    ],
+    "outline_ref": "4.2.2 Reportable Events"
+  },
+  {
+    "id": "sie-q-0219",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "form-u4",
+    "lesson_id": "sie-4-03",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A registered representative files for personal bankruptcy. Which statement is TRUE?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It must be reported on Form U4, which the firm amends within 30 days"
+      },
+      {
+        "key": "B",
+        "text": "It's private and need not be disclosed"
+      },
+      {
+        "key": "C",
+        "text": "It automatically results in a statutory disqualification"
+      },
+      {
+        "key": "D",
+        "text": "It must be disclosed only if more than $1 million is owed"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "A registered representative files for personal bankruptcy. Which statement is TRUE? A, It must be reported on Form U4, which the firm amends within 30 days. B, It's private and need not be disclosed. C, It automatically results in a statutory disqualification. D, It must be disclosed only if more than 1 million dollars is owed.",
+    "explanation": "A is correct. Form U4 asks about bankruptcy petitions within the past 10 years, so the U4 must be amended within 30 days of the rep learning of the facts. The disclosure appears on BrokerCheck. B is wrong because it's reportable. C is wrong because bankruptcy alone isn't a statutory disqualification. D is wrong because there's no such dollar threshold for bankruptcy disclosure.",
+    "spoken_explanation": "A is correct. Form U4 asks about bankruptcy petitions within the past 10 years, so the U4 must be amended within 30 days of the rep learning of the facts. The disclosure appears on BrokerCheck. B is wrong because it's reportable. C is wrong because bankruptcy alone isn't a statutory disqualification. D is wrong because there's no such dollar threshold for bankruptcy disclosure.",
+    "tags": [
+      "form-u4",
+      "bankruptcy",
+      "reportable-events"
+    ],
+    "outline_ref": "4.2.2 Reportable Events"
+  },
+  {
+    "id": "sie-q-0220",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "form-u4",
+    "lesson_id": "sie-4-03",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "Which financial event involving a registered rep must generally be disclosed on Form U4?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "An unsatisfied tax lien"
+      },
+      {
+        "key": "B",
+        "text": "Paying a credit card bill late once"
+      },
+      {
+        "key": "C",
+        "text": "Refinancing a home mortgage"
+      },
+      {
+        "key": "D",
+        "text": "Opening a new bank account"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "Which financial event involving a registered rep must generally be disclosed on Form U4? A, An unsatisfied tax lien. B, Paying a credit card bill late once. C, Refinancing a home mortgage. D, Opening a new bank account.",
+    "explanation": "A is correct. Form U4 asks about unsatisfied judgments and liens, as well as bankruptcies and compromises with creditors. These financial disclosures can be red flags for financial stress. B, C and D are ordinary personal finance matters that aren't U4 disclosure items. Once a lien is satisfied, the disclosure is updated.",
+    "spoken_explanation": "A is correct. Form U4 asks about unsatisfied judgments and liens, as well as bankruptcies and compromises with creditors. These financial disclosures can be red flags for financial stress. B, C and D are ordinary personal finance matters that aren't U4 disclosure items. Once a lien is satisfied, the disclosure is updated.",
+    "tags": [
+      "form-u4",
+      "liens",
+      "reportable-events"
+    ],
+    "outline_ref": "4.2.2 Reportable Events"
+  },
+  {
+    "id": "sie-q-0221",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "form-u4",
+    "lesson_id": "sie-4-03",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "A registered representative is charged with, but not yet convicted of, a misdemeanor involving fraud. Must the charge be disclosed on Form U4?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "No, only convictions are reportable"
+      },
+      {
+        "key": "B",
+        "text": "Only if the charge is in the same state as the firm"
+      },
+      {
+        "key": "C",
+        "text": "Only if the case goes to trial"
+      },
+      {
+        "key": "D",
+        "text": "Yes, certain misdemeanor charges, including those involving fraud or investments, must be disclosed"
+      }
+    ],
+    "answer": "D",
+    "spoken_stem": "A registered representative is charged with, but not yet convicted of, a misdemeanor involving fraud. Must the charge be disclosed on Form U4? A, No, only convictions are reportable. B, Only if the charge is in the same state as the firm. C, Only if the case goes to trial. D, Yes, certain misdemeanor charges, including those involving fraud or investments, must be disclosed.",
+    "explanation": "D is correct. Form U4 requires disclosure of felony charges and of misdemeanor charges involving investments or an investment-related business, or fraud, false statements, wrongful taking of property, bribery, perjury, forgery, counterfeiting, extortion or conspiracy to commit those offenses. Disclosure is required at the charge stage, not only on conviction. A, C and B misstate the requirement. The amendment is due within 30 days.",
+    "spoken_explanation": "D is correct. Form U4 requires disclosure of felony charges and of misdemeanor charges involving investments or an investment-related business, or fraud, false statements, wrongful taking of property, bribery, perjury, forgery, counterfeiting, extortion or conspiracy to commit those offenses. Disclosure is required at the charge stage, not only on conviction. A, C and B misstate the requirement. The amendment is due within 30 days.",
+    "tags": [
+      "form-u4",
+      "criminal-disclosure"
+    ],
+    "outline_ref": "4.2.2 Reportable Events"
+  },
+  {
+    "id": "sie-q-0222",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "outside-activities",
+    "lesson_id": "sie-4-03",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "A registered rep wants to open a brokerage account at another broker-dealer. Under FINRA Rule 3210, the rep must:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Do nothing"
+      },
+      {
+        "key": "B",
+        "text": "Obtain the prior written consent of his employing firm"
+      },
+      {
+        "key": "C",
+        "text": "Notify FINRA directly"
+      },
+      {
+        "key": "D",
+        "text": "Only use the account for mutual funds"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "A registered rep wants to open a brokerage account at another broker-dealer. Under FINRA Rule 3210, the rep must: A, Do nothing. B, Obtain the prior written consent of his employing firm. C, Notify FINRA directly. D, Only use the account for mutual funds.",
+    "explanation": "B is correct. Rule 3210 requires associated persons to obtain their employer's prior written consent before opening or keeping a securities account at another firm or financial institution. They must also notify the other firm of their association. The employer can request duplicate confirmations and statements. A ignores the rule. C isn't the requirement. D has no basis. Certain accounts, such as some mutual fund accounts held directly with the fund company, are excepted.",
+    "spoken_explanation": "B is correct. Rule 3210 requires associated persons to obtain their employer's prior written consent before opening or keeping a securities account at another firm or financial institution. They must also notify the other firm of their association. The employer can request duplicate confirmations and statements. A ignores the rule. C isn't the requirement. D has no basis. Certain accounts, such as some mutual fund accounts held directly with the fund company, are excepted.",
+    "tags": [
+      "rule-3210",
+      "employee-accounts"
+    ],
+    "outline_ref": "4.2.2 Reportable Events"
+  },
+  {
+    "id": "sie-q-0223",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "gifts",
+    "lesson_id": "sie-4-03",
+    "difficulty": 2,
+    "type": "mc",
+    "stem": "The purpose of FINRA Rule 3220 is BEST described as:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Limiting payments that could improperly influence employees of other firms to direct business to the member"
+      },
+      {
+        "key": "B",
+        "text": "Limiting how much customers can deposit"
+      },
+      {
+        "key": "C",
+        "text": "Regulating rep salaries"
+      },
+      {
+        "key": "D",
+        "text": "Setting commission rates"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "The purpose of FINRA Rule 3220 is BEST described as: A, Limiting payments that could improperly influence employees of other firms to direct business to the member. B, Limiting how much customers can deposit. C, Regulating rep salaries. D, Setting commission rates.",
+    "explanation": "A is correct. Rule 3220 limits gifts and gratuities given to employees or agents of another person in relation to that person's business. The rule is meant to prevent bribery and conflicts of interest that could steer business improperly. As of March 30, 2026, the limit is $300 per person per year. B, C and D aren't related. The MSRB's G-20 serves the same purpose for municipal securities business.",
+    "spoken_explanation": "A is correct. Rule 3220 limits gifts and gratuities given to employees or agents of another person in relation to that person's business. The rule is meant to prevent bribery and conflicts of interest that could steer business improperly. As of March 30, 2026, the limit is 300 dollars per person per year. B, C and D aren't related. The MSRB's G-20 serves the same purpose for municipal securities business.",
+    "tags": [
+      "rule-3220",
+      "gifts",
+      "conflicts-of-interest"
+    ],
+    "outline_ref": "4.2.2 Reportable Events"
+  },
+  {
+    "id": "sie-q-0224",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "conduct",
+    "lesson_id": "sie-4-03",
+    "difficulty": 3,
+    "type": "mc",
+    "stem": "A broker-dealer acts as transfer agent for an issuer and uses the shareholder list it maintains to solicit purchases of other securities. Under FINRA Rule 2060, this is:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Permitted for any purpose"
+      },
+      {
+        "key": "B",
+        "text": "Prohibited unless the issuer requests and authorizes the use"
+      },
+      {
+        "key": "C",
+        "text": "Permitted if customers are charged reduced commissions"
+      },
+      {
+        "key": "D",
+        "text": "Required by the issuer"
+      }
+    ],
+    "answer": "B",
+    "spoken_stem": "A broker-dealer acts as transfer agent for an issuer and uses the shareholder list it maintains to solicit purchases of other securities. Under FINRA Rule 2060, this is: A, Permitted for any purpose. B, Prohibited unless the issuer requests and authorizes the use. C, Permitted if customers are charged reduced commissions. D, Required by the issuer.",
+    "explanation": "B is correct. Rule 2060 prohibits a member that receives information in a fiduciary capacity, such as acting as transfer agent or trustee, from using it to solicit purchases, sales or exchanges of securities, unless the issuer specifically requests and authorizes it. A, C and D ignore the prohibition. It protects issuers and their shareholders from misuse of confidential information.",
+    "spoken_explanation": "B is correct. Rule 2060 prohibits a member that receives information in a fiduciary capacity, such as acting as transfer agent or trustee, from using it to solicit purchases, sales or exchanges of securities, unless the issuer specifically requests and authorizes it. A, C and D ignore the prohibition. It protects issuers and their shareholders from misuse of confidential information.",
+    "tags": [
+      "rule-2060",
+      "fiduciary-information"
+    ],
+    "outline_ref": "4.2.2 Reportable Events"
+  },
+  {
+    "id": "sie-q-0225",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "gifts",
+    "lesson_id": "sie-4-03",
+    "difficulty": 2,
+    "type": "tf",
+    "stem": "True or false: Under FINRA Rule 3220, gifts given in relation to the business of the recipient's employer are aggregated per recipient on an annual basis for the $300 limit.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "True or false: Under FINRA Rule 3220, gifts given in relation to the business of the recipient's employer are aggregated per recipient on an annual basis for the 300 dollars limit.",
+    "explanation": "True. The $300 limit, effective March 30, 2026, applies per recipient per year. All gifts to the same person in relation to the employer's business during the year are added together. Firms must track and record gifts to check compliance, and their procedures must say whether they track by calendar year, fiscal year or on a rolling basis. Personal gifts unrelated to business, such as a wedding gift, aren't counted.",
+    "spoken_explanation": "True. The 300 dollars limit, effective March 30, 2026, applies per recipient per year. All gifts to the same person in relation to the employer's business during the year are added together. Firms must track and record gifts to check compliance, and their procedures must say whether they track by calendar year, fiscal year or on a rolling basis. Personal gifts unrelated to business, such as a wedding gift, aren't counted.",
+    "tags": [
+      "gifts",
+      "rule-3220",
+      "changes-yearly"
+    ],
+    "outline_ref": "4.2.2 Reportable Events"
+  },
+  {
+    "id": "sie-q-0226",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "topic": "outside-activities",
+    "lesson_id": "sie-4-03",
+    "difficulty": 2,
+    "type": "tf",
+    "stem": "True or false: After receiving notice of an outside business activity, a member firm may restrict or prohibit the activity if it could interfere with the rep's duties or be viewed by customers as part of the firm's business.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answer": "A",
+    "spoken_stem": "True or false: After receiving notice of an outside business activity, a member firm may restrict or prohibit the activity if it could interfere with the rep's duties or be viewed by customers as part of the firm's business.",
+    "explanation": "True. Under Rule 3270, the firm must consider whether the activity will interfere with or otherwise compromise the person's responsibilities to the firm or its customers. It must also consider whether customers or the public might view it as part of the firm's business. The firm may impose conditions or prohibit the activity, and it must keep a record of its decision.",
+    "spoken_explanation": "True. Under Rule 3270, the firm must consider whether the activity will interfere with or otherwise compromise the person's responsibilities to the firm or its customers. It must also consider whether customers or the public might view it as part of the firm's business. The firm may impose conditions or prohibit the activity, and it must keep a record of its decision.",
+    "tags": [
+      "outside-business-activities",
+      "rule-3270",
+      "supervision"
+    ],
+    "outline_ref": "4.2.2 Reportable Events"
   }
 ]

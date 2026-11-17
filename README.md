@@ -47,7 +47,7 @@ content/{sie,s7}/flashcards/<section>.json
 - SIE: 75 scored questions plus 5 pretest, 105 minutes, passing score 70. Sections 16% / 44% / 31% / 9%.
 - Series 7: 125 scored questions plus 5 pretest, 225 minutes, passing score 72. Functions 7% / 9% / 73% / 11%. Margin is in S7-4.
 
-True/false items use choices A = True and B = False. Wave 1 is 104 SIE questions, 60 SIE flashcards, 3 SIE lessons, 111 Series 7 questions, 70 Series 7 flashcards, and 3 Series 7 lessons. Later waves keep those ids and append new ones.
+True/false items use choices A = True and B = False. The full bank is 600 SIE questions, 300 SIE flashcards, 38 SIE lessons, 1,080 Series 7 questions, 469 Series 7 flashcards, and 38 Series 7 lessons. The app loads a section when you start it, and the service worker still precaches the JSON. Items tagged `changes-yearly` show a short "verify the current year" note.
 
 ## Audio and GitHub Pages
 

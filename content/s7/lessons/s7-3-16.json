@@ -1,0 +1,111 @@
+{
+ "id": "s7-3-16",
+ "exam": "S7",
+ "section": "S7-3",
+ "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+ "title": "Variable annuities and variable life",
+ "order": 16,
+ "est_minutes": 8,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Variable annuities and variable life insurance are securities and insurance at once. They're regulated by state insurance departments and by the SEC and FINRA, because the customer bears the investment risk in the separate account. Selling them requires both a securities registration and an insurance license."
+  },
+  {
+   "type": "narration",
+   "text": "A variable annuity has two phases. In the accumulation phase, the customer's money buys accumulation units in subaccounts of the insurer's separate account, which work like mutual funds. Their value rises and falls with the investments. Contributions to a non-qualified annuity are after-tax, but growth is tax-deferred, and there's no annual contribution limit. In the payout phase, accumulation units convert to annuity units. Each payment equals the number of annuity units times the current unit value."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0790"
+  },
+  {
+   "type": "narration",
+   "text": "The assumed interest rate, or AIR, is the key payout concept. It's a benchmark used to set the first payment. If the separate account's actual return beats the AIR, the next payment goes up. If it equals the AIR, the payment stays the same. If it falls short, the payment goes down. Note that a return of three percent against a four percent AIR lowers the payment even though the investments made money."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0795"
+  },
+  {
+   "type": "narration",
+   "text": "Payout options trade income against protection. Life only, or straight life, pays the most per month, but payments stop at death, even if that's after one payment. Life with period certain guarantees payments for a minimum number of years, to the annuitant or a beneficiary. Joint and last survivor pays as long as either of two people is alive, so it pays less per month. Unit refund pays the beneficiary any remaining value if the annuitant dies early. Most annuities also offer a death benefit during accumulation that guarantees the beneficiary at least the amount invested. Optional riders, like guaranteed living benefits, cost extra."
+  },
+  {
+   "type": "narration",
+   "text": "Taxes on non-qualified annuities follow a few rules. Withdrawals before annuitization are taxed last in, first out, so earnings come out first and are taxed as ordinary income. Before fifty-nine and a half, earnings withdrawn also face a ten percent additional tax unless an exception applies. Once annuitized, each payment is split into a tax-free return of the after-tax cost and taxable earnings, using an exclusion ratio. Heirs don't get a step-up in basis on annuity gains. A section ten thirty-five exchange moves one annuity into another without tax, but it isn't automatically suitable."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0800"
+  },
+  {
+   "type": "narration",
+   "text": "FINRA Rule twenty-three thirty governs recommended purchases and exchanges of deferred variable annuities. The rep must have a reasonable basis to believe the customer was told about the main features, such as surrender charges, fees, tax penalties, and market risk. The rep must believe the customer would benefit from features like tax deferral, annuitization, or a death or living benefit, and that the product as a whole is suitable. For exchanges, the rep must also consider surrender charges, loss of existing benefits, higher fees, and whether the customer has done another variable annuity exchange in the past thirty-six months. A principal must review and approve the transaction. Common red flags are elderly customers locking money into long surrender periods, and putting an annuity inside an IRA just for tax deferral."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0805"
+  },
+  {
+   "type": "narration",
+   "text": "Variable life insurance combines a death benefit with a cash value invested in the separate account. Scheduled premium variable life has a fixed premium and a guaranteed minimum death benefit, though the cash value isn't guaranteed. Variable universal life lets the policyholder change premiums and the death benefit, but the policy can lapse if the cash value runs too low. Policyholders can usually borrow against the cash value. Loans reduce the death benefit if unpaid, but they generally aren't taxable unless the policy is a modified endowment contract. Death benefits generally pass to beneficiaries free of income tax. Variable life suits someone who needs permanent insurance first and can accept investment risk."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: variable annuities have accumulation units, then annuity units. Payments rise when returns beat the AIR. Life only pays the most, and joint and last survivor pays the least. Withdrawals are taxed earnings first, with a ten percent additional tax before fifty-nine and a half. Rule twenty-three thirty requires a suitability review, principal approval, and a thirty-six-month lookback for exchanges. Variable life guarantees the minimum death benefit, not the cash value."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Separate account: The insurer's account that holds the investments of variable contracts apart from its general account, with the contract owner bearing the investment risk. Accumulation unit: The measure of ownership in a variable annuity's separate account during the accumulation phase. Annuity unit: The measure used to calculate each variable annuity payment once the contract is annuitized. Assumed interest rate: The benchmark return used to set the first variable annuity payment and to adjust later payments up or down. Life only annuity: A payout option that pays for the annuitant's lifetime only, giving the highest monthly payment and nothing to heirs. Life with period certain: A payout option that pays for life but guarantees payments for a minimum number of years to a beneficiary. Joint and last survivor: A payout option that continues payments as long as either of two annuitants is alive. Unit refund option: A payout option that returns any undistributed value to a beneficiary if the annuitant dies early."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Separate account",
+   "definition": "The insurer's account that holds the investments of variable contracts apart from its general account, with the contract owner bearing the investment risk"
+  },
+  {
+   "term": "Accumulation unit",
+   "definition": "The measure of ownership in a variable annuity's separate account during the accumulation phase"
+  },
+  {
+   "term": "Annuity unit",
+   "definition": "The measure used to calculate each variable annuity payment once the contract is annuitized"
+  },
+  {
+   "term": "Assumed interest rate",
+   "definition": "The benchmark return used to set the first variable annuity payment and to adjust later payments up or down"
+  },
+  {
+   "term": "Life only annuity",
+   "definition": "A payout option that pays for the annuitant's lifetime only, giving the highest monthly payment and nothing to heirs"
+  },
+  {
+   "term": "Life with period certain",
+   "definition": "A payout option that pays for life but guarantees payments for a minimum number of years to a beneficiary"
+  },
+  {
+   "term": "Joint and last survivor",
+   "definition": "A payout option that continues payments as long as either of two annuitants is alive"
+  },
+  {
+   "term": "Unit refund option",
+   "definition": "A payout option that returns any undistributed value to a beneficiary if the annuitant dies early"
+  },
+  {
+   "term": "Mortality and expense risk charge",
+   "definition": "An annual variable annuity fee that pays for the insurer's guarantees, such as the death benefit"
+  },
+  {
+   "term": "Surrender charge",
+   "definition": "A declining fee on withdrawals above a free amount during the early years of a variable annuity"
+  }
+ ],
+ "mnemonics": [
+  "Beat the AIR, pay goes up; miss it, pay goes down.",
+  "Life only: most pay, no guarantee to heirs.",
+  "Annuity withdrawals: earnings first, LIFO."
+ ],
+ "summary": "Variable annuities are both securities and insurance, using a separate account. In accumulation, contributions buy accumulation units, and in payout, annuity units. Payments rise if returns beat the AIR. Payout options include life only (highest), period certain, joint and survivor (lowest) and unit refund. Non-qualified withdrawals are LIFO, with earnings taxed as ordinary income plus 10% before 59½. Annuitized payments use an exclusion ratio. There's no step-up. 1035 exchanges are tax-free but not automatically suitable. Rule 2330 requires disclosure, a suitability basis, a 36-month exchange lookback and principal approval. Scheduled premium variable life guarantees the minimum death benefit, VUL has flexible premiums, policy loans are generally not taxable unless the policy is a MEC, and death benefits are income tax-free."
+}

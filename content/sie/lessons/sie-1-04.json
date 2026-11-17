@@ -1,0 +1,94 @@
+{
+  "id": "sie-1-04",
+  "exam": "SIE",
+  "section": "SIE-1",
+  "section_title": "Knowledge of Capital Markets",
+  "title": "The Fed: Monetary Policy, Fiscal Policy and Interest Rates",
+  "order": 4,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Interest rates touch every product on this exam, from bonds to margin to annuities. The single most important influence on short-term rates is the Federal Reserve. In this lesson we'll cover what the Fed is, its tools, the key rates, and how monetary policy differs from fiscal policy."
+    },
+    {
+      "type": "narration",
+      "text": "The Federal Reserve is the central bank of the United States. Congress gave it a dual mandate: maximum employment and stable prices, which the Fed interprets as inflation of about two percent over time. It's run by a seven-member Board of Governors, and its monetary policy decisions come from the Federal Open Market Committee, the F O M C. That committee is the seven governors plus five Reserve Bank presidents, and it meets about eight times a year."
+    },
+    {
+      "type": "narration",
+      "text": "The Fed's main tool is open market operations: buying and selling government securities. When the Fed buys Treasuries, it pays by crediting banks' reserve accounts, which adds money to the system and pushes short-term rates down. That's easing, also called expansionary policy. When the Fed sells, it pulls reserves out, and rates rise. That's tightening. A simple memory trick: Fed buys, rates fall. Fed sells, rates rise."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0012"
+    },
+    {
+      "type": "narration",
+      "text": "The Fed's other classic tools are the discount rate and reserve requirements. The discount rate is the rate the Fed charges banks that borrow directly from its discount window. Raising it discourages borrowing, and lowering it encourages lending. Reserve requirements are the share of deposits banks must hold in reserve. Raising them shrinks the money supply, and lowering them expands it. In practice it's a blunt tool, and the Fed cut reserve requirements to zero in twenty twenty. The exam may still ask how changing them would work in theory."
+    },
+    {
+      "type": "narration",
+      "text": "Now let's line up the rates, because the exam loves to swap them. The federal funds rate is the overnight rate banks charge each other for reserves. The F O M C sets a target range for it, and it's the most watched policy rate. The discount rate is what the Fed charges banks, usually set a bit above fed funds. The prime rate is what banks charge their most creditworthy corporate customers, and many consumer loans float off it. And the broker call loan rate, also called the call money rate, is what banks charge broker-dealers to finance customer margin accounts. Margin interest is usually the call rate plus a markup."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0132"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0133"
+    },
+    {
+      "type": "narration",
+      "text": "How does all this hit the markets? When the Fed tightens, rates rise. Existing bonds fall in price, because price and yield move inversely. Rate-sensitive stocks like utilities often fall, and borrowing gets more expensive for companies and consumers. When the Fed eases, the reverse usually happens. Watch the yield curve too. Normally, long-term rates are higher than short-term rates, so the curve slopes upward. When the Fed pushes short rates up hard, short yields can rise above long yields. That's an inverted yield curve, which has often come before a recession."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0139"
+    },
+    {
+      "type": "narration",
+      "text": "Finally, separate monetary policy from fiscal policy. Monetary policy is the Fed managing money and credit through rates and open market operations. Fiscal policy is government taxing and spending, decided by Congress and the President. A tax cut, a stimulus package or a new infrastructure program is fiscal policy. Keynesian economists favor active fiscal policy to manage demand. Monetarists focus on steady control of the money supply. When a question names Congress, the President, taxes or spending, the answer is fiscal. When it names the Fed or rates, it's monetary."
+    },
+    {
+      "type": "narration",
+      "text": "Here's a quick scenario to lock it in. Inflation has been running well above the Fed's goal. What does the Fed likely do? It tightens: it raises the fed funds target range and may sell securities or let its holdings run off. What happens next? Short-term rates rise, bond prices fall, margin interest goes up because the call rate rises, and rate-sensitive stocks like utilities tend to weaken. Now flip it. The economy is in a recession and unemployment is climbing. The Fed eases by cutting its target rate and buying securities, so rates fall and bond prices rise. Meanwhile, Congress might pass a spending bill. That part is fiscal policy, not the Fed."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. The Fed's dual mandate is maximum employment and stable prices. The F O M C runs open market operations: buying adds money and lowers rates, and selling drains money and raises them. The discount rate is Fed to banks, fed funds is bank to bank overnight, prime is banks to their best corporate customers, and the call rate is banks to broker-dealers for margin. Tightening raises rates and lowers bond prices. An inverted curve is a recession warning. Fiscal policy is taxes and spending by Congress and the President."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "FOMC",
+      "definition": "The Fed committee that sets the fed funds target and directs open market operations."
+    },
+    {
+      "term": "Discount rate",
+      "definition": "The rate the Fed charges banks at its discount window."
+    },
+    {
+      "term": "Federal funds rate",
+      "definition": "The overnight rate banks charge each other for reserves."
+    },
+    {
+      "term": "Prime rate",
+      "definition": "The rate banks charge their most creditworthy corporate borrowers."
+    },
+    {
+      "term": "Broker call loan rate",
+      "definition": "The rate banks charge broker-dealers for margin financing."
+    },
+    {
+      "term": "Fiscal policy",
+      "definition": "Taxing and spending by Congress and the President."
+    }
+  ],
+  "mnemonics": [
+    "Fed Buys, rates go Bye-bye (fall). Fed Sells, rates Soar.",
+    "Discount is the fed's Desk to banks; Fed funds is bank to bank; Prime is for Premier clients; Call is for Customer margin."
+  ],
+  "summary": "The Fed pursues maximum employment and stable prices. The FOMC buys securities to ease and sells them to tighten. The discount rate, fed funds rate, prime rate and call rate are different borrowing rates and shouldn't be confused. Tightening raises rates and lowers bond prices, and an inverted yield curve often signals recession. Fiscal policy, meaning taxes and spending, belongs to Congress and the President."
+}

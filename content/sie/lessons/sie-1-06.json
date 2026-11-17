@@ -1,0 +1,90 @@
+{
+  "id": "sie-1-06",
+  "exam": "SIE",
+  "section": "SIE-1",
+  "section_title": "Knowledge of Capital Markets",
+  "title": "International Economics: Balance of Payments, GDP and Exchange Rates",
+  "order": 6,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Markets are global, and the SIE outline includes three international topics: the U S balance of payments, gross domestic product versus gross national product, and exchange rates. This lesson is short on formulas but full of cause and effect, so focus on who wins and who loses."
+    },
+    {
+      "type": "narration",
+      "text": "Start with the balance of payments, the record of all transactions between U S residents and the rest of the world. Money flowing into the United States is a credit. Money flowing out is a debit. The current account covers trade in goods and services, along with income such as interest and dividends, and transfers such as foreign aid or money sent home by workers. When we import more than we export, we run a trade deficit, and the U S has run trade deficits for decades. Investment flows are recorded separately, in what exam materials often call the capital account and economists call the financial account. When a U S pension fund buys Japanese stock, dollars flow out, which is a debit. When a foreign central bank buys Treasuries, dollars flow in, which is a credit."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0151"
+    },
+    {
+      "type": "narration",
+      "text": "Next, output. Gross domestic product, G D P, is the market value of all final goods and services produced within a country's borders, no matter who owns the factory. Gross national product, G N P, is output produced by a country's residents and companies, wherever they're located. So a Japanese automaker's Tennessee plant counts in U S G D P and in Japan's G N P. Nominal G D P is measured in current dollars. Real G D P adjusts for inflation, and it's the one that tells you whether the economy actually produced more. Roughly, real growth equals nominal growth minus inflation. Six percent nominal growth with four percent inflation is about two percent real growth."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0153"
+    },
+    {
+      "type": "narration",
+      "text": "Now exchange rates, the price of one currency in terms of another. When the dollar strengthens, each dollar buys more foreign currency. Imports and foreign travel get cheaper for Americans. U S exporters struggle because their goods cost more overseas, and U S multinationals report lower overseas earnings once they translate them back into dollars. When the dollar weakens, flip everything: exporters benefit, importers and travelers pay more, and foreign earnings and foreign investments are worth more in dollars."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0016"
+    },
+    {
+      "type": "narration",
+      "text": "That last point is currency risk, and the exam tests it from the investor's side. If a U S investor owns a European stock that's flat in euros, but the euro strengthens five percent against the dollar, the investor gains about five percent in dollar terms. If the euro weakens, the investor loses, even though the stock price didn't move. This applies to foreign stocks, foreign bonds, and American Depositary Receipts. A D Rs trade in dollars on U S markets, but their value and dividends still trace back to the foreign currency. Investors can reduce currency risk by hedging, or accept it as part of the diversification foreign assets provide."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0155"
+    },
+    {
+      "type": "narration",
+      "text": "What moves exchange rates? Higher U S interest rates tend to attract foreign capital and strengthen the dollar. Higher inflation tends to weaken a currency. Trade balances, economic growth and political stability matter too. The exam won't ask you to forecast currencies, but it will ask about direction: who benefits and who's hurt when the dollar moves."
+    },
+    {
+      "type": "narration",
+      "text": "One more scenario puts it all together. Suppose U S interest rates climb well above rates in Europe. Global investors want those higher yields, so they buy dollars to purchase Treasuries. That's an inflow, a credit in the balance of payments, and the extra demand tends to strengthen the dollar. As the dollar strengthens, American shoppers find imported goods cheaper, American tourists in Paris get more for their money, and U S exporters find their goods harder to sell abroad. A U S investor holding European stocks sees those holdings lose value in dollar terms, even if the stocks are flat in euros. That's currency risk working against the investor."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. The balance of payments records flows in and out. Inflows are credits and outflows are debits. The current account holds trade, income and transfers, and a trade deficit means imports exceed exports. G D P counts output inside the borders, and G N P counts output by a country's people and companies anywhere. Real G D P strips out inflation. A strong dollar helps importers and travelers and hurts exporters and multinationals. A weak dollar does the reverse and boosts the dollar value of foreign holdings. Currency risk applies to foreign stocks, bonds and A D Rs."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Balance of payments",
+      "definition": "A record of all transactions between U.S. residents and the rest of the world."
+    },
+    {
+      "term": "Current account",
+      "definition": "Trade in goods and services, plus income and transfers."
+    },
+    {
+      "term": "GDP",
+      "definition": "Output produced within a country's borders."
+    },
+    {
+      "term": "GNP",
+      "definition": "Output produced by a country's residents and companies, anywhere."
+    },
+    {
+      "term": "Real GDP",
+      "definition": "GDP adjusted for inflation."
+    },
+    {
+      "term": "Currency risk",
+      "definition": "The risk that exchange rate changes reduce the value of foreign investments."
+    }
+  ],
+  "mnemonics": [
+    "GDP: Domestic means inside the borders. GNP: National means the people, anywhere.",
+    "Weak dollar Works for exporters; Strong dollar Suits shoppers and travelers."
+  ],
+  "summary": "The balance of payments tracks inflows, recorded as credits, and outflows, recorded as debits. The current account covers trade, and a trade deficit means imports exceed exports. GDP measures output inside the borders, GNP measures output by nationals, and real GDP removes inflation. A strong dollar helps importers and travelers, while a weak dollar helps exporters and the dollar value of foreign holdings. Currency risk affects foreign stocks, bonds and ADRs."
+}

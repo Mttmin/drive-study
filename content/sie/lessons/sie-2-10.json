@@ -1,0 +1,110 @@
+{
+  "id": "sie-2-10",
+  "exam": "SIE",
+  "section": "SIE-2",
+  "section_title": "Understanding Products and Their Risks",
+  "title": "Fund Costs and Sales Charges",
+  "order": 10,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Fund costs are a big deal for investors and a big deal for regulators, because small fees compound into large amounts over time. The SIE tests how sales charges work, share classes, 12b-1 fees, breakpoints, rights of accumulation, letters of intent, and the abuses FINRA watches for."
+    },
+    {
+      "type": "narration",
+      "text": "Start with the offering price. A fund with a front-end sales charge sells shares at the public offering price, which is N A V plus the sales charge. The sales charge percentage is figured on the offering price, not on N A V. So if the N A V is eighteen forty and the offering price is twenty, the charge is one sixty, and one sixty divided by twenty is eight percent. Going the other way, if the N A V is nine forty and the charge is six percent, divide nine forty by point nine four to get an offering price of ten dollars. FINRA caps sales charges at eight and a half percent of the offering price, and funds that skip features like breakpoints must charge less."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0049"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0368"
+    },
+    {
+      "type": "narration",
+      "text": "Next, 12b-1 fees. These are annual fees taken from fund assets to pay for marketing and distribution, and they're part of the expense ratio. FINRA caps the distribution part at point seven five percent a year and the service fee at point two five percent, for a total of one percent. A fund can only call itself no-load if it has no front or deferred sales charge and its 12b-1 fees are no more than point two five percent."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0360"
+    },
+    {
+      "type": "narration",
+      "text": "Now share classes. Class A shares charge a front-end load, reduced at breakpoints, and have lower ongoing fees, so they usually suit larger, long-term investors. Class B shares have no front-end load but charge a contingent deferred sales charge if you sell within several years, declining over time. They have higher 12b-1 fees and usually convert to A shares later. Class C shares are level-load: usually no front-end charge, a small charge if sold within about a year, and higher 12b-1 fees for as long as you hold them. C shares can suit a shorter time horizon, but for a long horizon and a large amount, A shares usually cost less."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0051"
+    },
+    {
+      "type": "narration",
+      "text": "Breakpoints are dollar levels where the front-end sales charge drops. A firm and its reps must tell customers about them. Rights of accumulation let an investor count what they already own in the fund family, often across household accounts, toward a breakpoint. A letter of intent lets an investor get the breakpoint price now by stating they'll invest a certain amount over thirteen months. It can be backdated up to ninety days. The letter isn't binding. If the investor falls short, the fund just collects the higher sales charge, typically from shares held in escrow."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0050"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0363"
+    },
+    {
+      "type": "narration",
+      "text": "Now the abuses. A breakpoint sale is recommending a purchase just below a breakpoint, or splitting purchases among fund families, so the customer pays a higher charge. It's prohibited. Switching, or moving a customer from one fund family to another and triggering a new sales charge without a clear benefit, is also a red flag, and it fails Reg B I's care obligation. A large purchase of B shares, which have no breakpoints, raises the same concern. Within a fund family, an exchange privilege often lets investors switch funds at N A V without a new sales charge, but remember that the exchange is still a taxable sale in a regular account."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0362"
+    },
+    {
+      "type": "narration",
+      "text": "A quick scenario. A customer has forty thousand dollars to invest for twenty years and already owns fifteen thousand dollars in the same fund family. With rights of accumulation, her total is fifty-five thousand, which may cross the fifty-thousand-dollar breakpoint for A shares, so A shares with the reduced charge are likely the best value. Recommending C shares would mean paying higher annual fees for two decades."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. The sales charge percentage is figured on the offering price, and the maximum is eight and a half percent. 12b-1 fees are capped at one percent total, and no-load means no more than point two five. Class A is a front load, class B a deferred load, class C a level load. Breakpoints, rights of accumulation and letters of intent reduce charges, and the letter runs thirteen months with a ninety-day backdate. Breakpoint sales and unjustified switching are prohibited."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Public offering price",
+      "definition": "NAV plus the sales charge."
+    },
+    {
+      "term": "Sales charge percentage",
+      "definition": "(POP minus NAV) divided by POP."
+    },
+    {
+      "term": "12b-1 fee",
+      "definition": "Annual distribution fee from fund assets; max 1% total."
+    },
+    {
+      "term": "No-load",
+      "definition": "No sales charges and 12b-1 fees of 0.25% or less."
+    },
+    {
+      "term": "Breakpoint",
+      "definition": "Investment level where the sales charge percentage drops."
+    },
+    {
+      "term": "Rights of accumulation",
+      "definition": "Existing holdings count toward breakpoints."
+    },
+    {
+      "term": "Letter of intent",
+      "definition": "13-month nonbinding pledge for breakpoint pricing; 90-day backdate."
+    },
+    {
+      "term": "Breakpoint sale",
+      "definition": "Prohibited sale just below a breakpoint."
+    }
+  ],
+  "mnemonics": [
+    "A for Ahead (pay up front), B for Back (pay on exit), C for Constant (ongoing fee).",
+    "Letter of intent: 13 months forward, 90 days back."
+  ],
+  "summary": "Sales charges are a percentage of the offering price, capped at 8.5%. 12b-1 fees are capped at 1%, and no-load funds charge 0.25% or less. Know share classes A, B and C, breakpoints, rights of accumulation and letters of intent, and avoid breakpoint sales and switching."
+}

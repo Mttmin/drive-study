@@ -1,0 +1,126 @@
+{
+  "id": "sie-3-03",
+  "exam": "SIE",
+  "section": "SIE-3",
+  "section_title": "Understanding Trading, Customer Accounts and Prohibited Activities",
+  "title": "Settlement and Corporate Actions",
+  "order": 3,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "This lesson covers what happens after a trade, settlement, and the corporate events that change what shareholders own: stock splits, buybacks, tender and exchange offers, rights offerings, mergers and proxies."
+    },
+    {
+      "type": "narration",
+      "text": "Settlement is when the buyer pays and the seller delivers the securities. Since May twenty-eighth, twenty twenty-four, regular-way settlement for U.S. stocks, corporate bonds and municipal bonds is T plus one, one business day after the trade date. Treasuries also settle T plus one. Cash settlement means same-day settlement, which can be arranged when a customer needs money right away. A seller's option lets the seller choose a later date. Most securities are held in book-entry form, recorded electronically at the Depository Trust Company, and customer shares are usually held in street name, registered in the firm's name for the customer's benefit."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0072"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0473"
+    },
+    {
+      "type": "narration",
+      "text": "Now corporate actions. In a forward stock split, each share becomes more shares, and the price drops in proportion. With a two-for-one split, a hundred shares at ninety become two hundred shares at forty-five. The total value doesn't change, and your cost basis per share is cut in half. A three-for-two split works the same way: two hundred shares bought at ninety become three hundred shares with a basis of sixty. A reverse split does the opposite: in a one-for-ten reverse split, a thousand shares at two dollars become one hundred shares at twenty. Companies often reverse split to keep their price above exchange listing minimums."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0071"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0476"
+    },
+    {
+      "type": "narration",
+      "text": "A stock dividend gives shareholders additional shares instead of cash. You own more shares, but each is worth less, so your total value and percentage ownership stay about the same, and your basis is spread across more shares. Ordinary stock dividends generally aren't taxable when received."
+    },
+    {
+      "type": "narration",
+      "text": "Buybacks happen when a company repurchases its own shares, either in the open market or through a tender offer. Fewer shares outstanding means higher earnings per share, and the repurchased shares become treasury stock. A tender offer is a public offer to buy shares directly from shareholders, usually at a premium, for a limited time. It might come from the company itself or from an outside buyer seeking control. An exchange offer swaps one security for another, such as bonds for stock, and is often used to restructure debt."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0477"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0483"
+    },
+    {
+      "type": "narration",
+      "text": "Rights offerings, which we covered earlier, let existing shareholders buy new shares at a discount before the public. Mergers and acquisitions combine companies. Shareholders of the company being acquired usually vote on the deal by proxy, and they may receive cash, shares of the buyer, or a mix."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0479"
+    },
+    {
+      "type": "narration",
+      "text": "Proxies are how most shareholders vote. A proxy is a written authorization letting someone else vote your shares at a meeting. When shares are held in street name, FINRA Rule twenty-two fifty-one requires the broker-dealer to forward proxy materials and annual reports to the beneficial owners, and the issuer reimburses the firm's reasonable costs. Firms generally can't vote customer shares on contested or significant matters without the customer's instructions."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0073"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0480"
+    },
+    {
+      "type": "narration",
+      "text": "Let's also connect settlement to dividends, because the exam loves that link. To receive a dividend, you must be the owner of record on the record date. A trade settles one business day after the trade date. So if you buy on the ex-date, your trade won't settle until after the record date, and the seller gets the dividend. That's why, under T plus one, the ex-date and the record date are the same day for regular cash dividends. For stock dividends of twenty-five percent or more, there's a twist: the ex-date is set as the business day after the payable date. Mutual funds are different too, since their boards set the ex-date."
+    },
+    {
+      "type": "narration",
+      "text": "A quick scenario. A customer owns three hundred shares of a company that announces a two-for-one split, a tender offer for ten percent of its shares at a premium, and an upcoming shareholder vote on a merger. After the split, she has six hundred shares at half the price. She can decide whether to tender some shares at the premium before the offer expires. And her firm will forward the proxy materials so she can vote on the merger, either online, by mail, or by attending the meeting."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Regular-way settlement is T plus one for stocks, corporate bonds, munis and Treasuries, and cash settlement is same day. Splits change shares and price but not total value, and basis adjusts per share. Stock dividends work similarly. Buybacks shrink shares outstanding and raise earnings per share. Tender offers buy shares, usually at a premium, and exchange offers swap securities. Shareholders vote on mergers by proxy, and firms must forward proxy materials under Rule twenty-two fifty-one."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Regular-way settlement",
+      "definition": "T+1 for stocks, corporate and muni bonds, and Treasuries."
+    },
+    {
+      "term": "Cash settlement",
+      "definition": "Same-day settlement."
+    },
+    {
+      "term": "Street name",
+      "definition": "Shares registered in the firm's name for the customer."
+    },
+    {
+      "term": "Forward split",
+      "definition": "More shares at a lower price; same total value."
+    },
+    {
+      "term": "Reverse split",
+      "definition": "Fewer shares at a higher price; same total value."
+    },
+    {
+      "term": "Tender offer",
+      "definition": "Offer to buy shares directly from holders, usually at a premium."
+    },
+    {
+      "term": "Exchange offer",
+      "definition": "Offer to swap one security for another."
+    },
+    {
+      "term": "Rule 2251",
+      "definition": "Firms forward proxy materials to beneficial owners."
+    }
+  ],
+  "mnemonics": [
+    "Split the shares, split the price, keep the value.",
+    "T+1 for nearly everything; cash means today."
+  ],
+  "summary": "Most U.S. securities settle T+1, and cash trades settle same day. Splits and stock dividends change shares and per-share basis but not total value. Buybacks raise EPS, tender offers buy shares at a premium, exchange offers swap securities, and shareholders vote on mergers by proxy, with firms forwarding materials under Rule 2251."
+}

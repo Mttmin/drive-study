@@ -44,7 +44,7 @@ for d, (EX, pfx) in EXAMS.items():
         if L.get("id") in lessons: err(f"{f}: duplicate lesson id {L['id']}")
         lessons[L.get("id")] = L
         words = sum(len(s.get("text", "").split()) for s in L.get("segments", []) if s.get("type") == "narration")
-        if not 600 <= words <= 1700: warn(f"{f}: narration {words} words (target 750-1500)")
+        if not 700 <= words <= 1600: warn(f"{f}: narration {words} words (target 750-1500)")
         for s in L.get("segments", []):
             if s.get("type") not in ("narration", "check"): err(f"{f}: bad segment type {s.get('type')}")
     qids, qsec = {}, {}

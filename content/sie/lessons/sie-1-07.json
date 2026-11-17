@@ -1,0 +1,94 @@
+{
+  "id": "sie-1-07",
+  "exam": "SIE",
+  "section": "SIE-1",
+  "section_title": "Knowledge of Capital Markets",
+  "title": "Underwriting: How New Issues Reach Investors",
+  "order": 7,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "When a company or a city needs to raise money by selling securities, it rarely does it alone. It hires investment bankers to underwrite the deal. This lesson covers the participants, the types of offerings, the methods of distribution, how underwriters get paid, and a few rules that apply during and after the offering."
+    },
+    {
+      "type": "narration",
+      "text": "The investment banker, or underwriter, advises the issuer on what to sell, how much, at what price, and when. It helps prepare the registration statement and prospectus, or for a municipal issue, the official statement. For larger deals, a managing underwriter, also called the lead manager or book-runner, forms an underwriting syndicate, a group of firms that share the work and, in a firm commitment, the financial risk. Firms that help sell the deal without taking underwriting risk form the selling group. They act as agents and simply earn a concession on what they sell. Municipal issuers often also hire a municipal advisor, who represents the issuer's interests and owes it a fiduciary duty, and who can't also underwrite the same deal."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0159"
+    },
+    {
+      "type": "narration",
+      "text": "Methods of distribution come in two families. In a firm commitment, the underwriters buy the entire issue from the issuer as principal and resell it to the public. The issuer gets its money for sure, and any unsold shares are the underwriters' problem. In best efforts, the underwriter acts as agent, sells what it can, and returns the rest. The issuer bears the risk. Two variations of best efforts are all or none, where the deal is canceled and investors' money is returned from escrow unless every share is sold, and mini-maxi, where a minimum must be sold for the deal to close, up to a stated maximum."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0010"
+    },
+    {
+      "type": "narration",
+      "text": "Offerings also differ by who is selling. In an initial public offering, a company sells to the public for the first time. A follow-on offering is a public company selling more new shares. Both are primary offerings, with proceeds going to the issuer. A secondary offering is existing holders selling their shares, with proceeds going to them. Deals can also be competitive or negotiated. In a competitive sale, common for general obligation municipal bonds, syndicates submit sealed bids and the issuer picks the lowest interest cost. In a negotiated sale, typical for corporate deals and many revenue bonds, the issuer chooses an underwriter and negotiates the terms."
+    },
+    {
+      "type": "narration",
+      "text": "Underwriters get paid through the spread, the difference between the public offering price and what the issuer receives. It has three parts. The manager's fee goes to the lead manager on every share and is usually the smallest. The underwriting fee goes to syndicate members for taking risk. The selling concession goes to whoever actually sells the shares and is usually the largest piece. Try it: the public price is twenty dollars and the issuer nets eighteen seventy, so the spread is a dollar thirty. If the concession is eighty cents and the manager's fee fifteen cents, the underwriting fee is what's left, thirty-five cents."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0161"
+    },
+    {
+      "type": "narration",
+      "text": "After pricing, the managing underwriter may support the price in the aftermarket with a stabilizing bid. Under Regulation M, that bid must be at or below the public offering price, and the possibility must be disclosed in the prospectus. Bidding above the offering price would be manipulation. Several other rules apply too. FINRA Rule 2269 requires a firm participating in a distribution to disclose that participation when it recommends the security. FINRA Rule 5250 forbids firms from accepting payments from issuers for making a market in their stock. And M S R B Rule G-34 requires the underwriter of a new municipal issue to obtain CUSIP numbers so the bonds can clear and settle."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0163"
+    },
+    {
+      "type": "narration",
+      "text": "Each type of offering has its own disclosure document. Registered corporate offerings use a prospectus, with a preliminary version, the red herring, during the cooling-off period and a final version once registration is effective. Municipal issues use an official statement, which underwriters must obtain and review under S E C Rule fifteen c two twelve and deliver to customers by settlement under M S R B Rule G-32. 529 college savings plans use a program disclosure document. And D P Ps, direct participation programs, may use an offering memorandum when they're sold privately."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0169"
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Underwriters advise and distribute, syndicates share risk, and selling groups sell as agents with no liability. In a firm commitment, the underwriter buys it all and keeps the risk. In best efforts, the issuer keeps the risk, and all or none and mini-maxi are variations. I P Os and follow-ons are primary offerings, and secondary offerings pay the selling holders. G O bonds are usually competitive, while corporates are usually negotiated. The spread is the manager's fee, plus the underwriting fee, plus the selling concession, which is the biggest piece. Stabilizing bids must be at or below the offering price. The disclosure documents are the prospectus, the official statement, and the program disclosure document."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Firm commitment",
+      "definition": "The underwriter buys the whole issue as principal and bears the risk on unsold shares."
+    },
+    {
+      "term": "Best efforts",
+      "definition": "The underwriter sells as agent, and the issuer bears the risk."
+    },
+    {
+      "term": "Selling concession",
+      "definition": "The largest part of the spread, paid to whoever sells the shares."
+    },
+    {
+      "term": "Stabilizing bid",
+      "definition": "Aftermarket price support at or below the public offering price, under Regulation M."
+    },
+    {
+      "term": "Official statement",
+      "definition": "The disclosure document for a municipal bond issue."
+    },
+    {
+      "term": "Selling group",
+      "definition": "Firms that help sell as agents with no underwriting liability."
+    }
+  ],
+  "mnemonics": [
+    "Spread order from smallest to largest: Manager, Underwriter, Seller (MUS).",
+    "Firm commitment: the Firm owns the risk. Best efforts: the issuer bears it."
+  ],
+  "summary": "Underwriters structure and distribute offerings. Syndicates share risk, and selling groups act as agents. Firm commitment puts the risk on the underwriter, while best efforts, all or none, and mini-maxi leave it with the issuer. IPOs and follow-ons are primary, and secondary offerings pay existing holders. The spread is the manager's fee plus the underwriting fee plus the selling concession. Stabilization happens at or below the offering price. Corporate offerings use a prospectus, munis an official statement, and 529s a program disclosure document."
+}

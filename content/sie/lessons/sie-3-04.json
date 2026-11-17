@@ -1,0 +1,122 @@
+{
+  "id": "sie-3-04",
+  "exam": "SIE",
+  "section": "SIE-3",
+  "section_title": "Understanding Trading, Customer Accounts and Prohibited Activities",
+  "title": "Types of Accounts",
+  "order": 4,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Customers can open several types of accounts, and each comes with its own rules. This lesson covers cash and margin accounts, the margin documents and disclosures, options accounts, discretionary accounts, fee-based versus commission accounts, and freeriding."
+    },
+    {
+      "type": "narration",
+      "text": "A cash account is the simplest. The customer pays in full for every purchase. No borrowing, no short sales, no uncovered option writing. Some accounts, like I R As and custodial accounts for minors, must be cash accounts. If a customer buys a security in a cash account and sells it before paying, intending to use the sale proceeds to pay, that's freeriding. Under Regulation T, the account is frozen for ninety days, meaning the customer must pay in full before any purchase is executed."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0496"
+    },
+    {
+      "type": "narration",
+      "text": "A margin account lets the customer borrow from the firm to buy securities, and it's required for short sales. The Federal Reserve's Regulation T sets the initial requirement, currently fifty percent for most stocks. So a forty-thousand-dollar purchase needs twenty thousand dollars down, and the firm lends the rest. FINRA Rule forty-two ten requires at least two thousand dollars of equity to buy on margin, or the full purchase price if that's less. It also sets maintenance minimums: twenty-five percent equity for long positions and thirty percent for short stock positions. Firms can set higher house requirements. If equity falls below the requirement, the firm issues a maintenance call, and it can sell securities without contacting the customer."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0074"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0487"
+    },
+    {
+      "type": "narration",
+      "text": "Opening a margin account involves a margin agreement with three parts. The credit agreement discloses the terms of the loan, including how interest is calculated. The hypothecation agreement pledges the customer's securities as collateral, and lets the firm re-pledge them to a bank. Both are required. The loan consent agreement, which lets the firm lend the customer's securities to others, such as short sellers, is optional. Under FINRA Rule twenty-two sixty-four, the firm must also give non-institutional customers a margin disclosure statement before or at account opening, and annually. It warns that you can lose more than you deposit, the firm can sell your securities without notice, and you aren't entitled to an extension on a call."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0075"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0490"
+    },
+    {
+      "type": "narration",
+      "text": "An options account requires delivery of the Options Disclosure Document by the time of approval, approval by a registered options principal, and a signed options agreement returned within fifteen days after approval."
+    },
+    {
+      "type": "narration",
+      "text": "Discretionary accounts let a rep choose the security, the action, or the amount without asking the customer first. Under FINRA Rule thirty-two sixty, the rep needs the customer's prior written authorization, usually a limited power of attorney, and the firm must accept the account. A principal must promptly approve each discretionary order and review the account frequently to catch excessive trading. Time and price authority is different: if the customer names the security, action and amount, and only leaves timing and price to the rep, that's not discretion, and it doesn't need written authorization. It's generally good only for the day it's given."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0076"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0491"
+    },
+    {
+      "type": "narration",
+      "text": "Fee-based versus commission. In a commission account, the customer pays per trade. In a fee-based account, the customer pays a percentage of assets regardless of activity. Fee-based accounts suit active customers who want ongoing advice. For buy-and-hold customers who trade rarely, they can cost far more, and putting such a customer in a fee-based account is called reverse churning. The opposite problem, excessive trading in a commission account, is churning."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0492"
+    },
+    {
+      "type": "narration",
+      "text": "One more thing about who can open what. Corporations can open margin accounts only if their charter or bylaws allow it, so the firm collects those documents along with a corporate resolution. Custodial accounts for minors can't use margin, because the custodian can't pledge a minor's assets. Retirement accounts can't use margin either. And educational accounts, like five twenty-nine plans and Coverdell accounts, are investment vehicles with their own tax rules, which we'll cover in the retirement and education lesson. When you see a question about the right account type, start with who the customer is and what they need the money for."
+    },
+    {
+      "type": "narration",
+      "text": "A scenario. A new customer wants to buy fifteen hundred dollars of stock on margin in an I R A. Two problems. First, I R As can't use margin at all. Second, even in a regular margin account, a purchase under two thousand dollars must be paid in full under FINRA's minimum equity rule. So the right answer is to buy it outright, as a cash purchase."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Cash accounts require full payment, and freeriding brings a ninety-day freeze. Margin accounts let customers borrow: Reg T initial fifty percent, a two-thousand-dollar FINRA minimum, and maintenance of twenty-five percent long and thirty percent short. The credit and hypothecation agreements are required, and loan consent is optional. The margin disclosure statement comes at opening and annually. Discretion requires written authorization and principal oversight, but time and price alone doesn't. Watch for churning and reverse churning."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Cash account",
+      "definition": "Purchases paid in full; no borrowing or short sales."
+    },
+    {
+      "term": "Freeriding",
+      "definition": "Selling before paying in a cash account; 90-day freeze."
+    },
+    {
+      "term": "Regulation T",
+      "definition": "Fed rule setting 50% initial margin on most stocks."
+    },
+    {
+      "term": "FINRA minimum equity",
+      "definition": "$2,000 to buy on margin, or full price if less."
+    },
+    {
+      "term": "Maintenance margin",
+      "definition": "At least 25% for long positions, 30% for short stock."
+    },
+    {
+      "term": "Hypothecation",
+      "definition": "Pledging customer securities as loan collateral."
+    },
+    {
+      "term": "Loan consent",
+      "definition": "Optional; lets the firm lend customer securities."
+    },
+    {
+      "term": "Reverse churning",
+      "definition": "Placing a low-activity customer in a costly fee-based account."
+    }
+  ],
+  "mnemonics": [
+    "Margin agreement: Credit and Hypothecation are a must; Loan consent is a choice.",
+    "Reg T fifty, FINRA two thousand, maintenance twenty-five."
+  ],
+  "summary": "Cash accounts require full payment; freeriding triggers a 90-day freeze. Margin accounts follow Reg T's 50% initial requirement, FINRA's $2,000 minimum, and maintenance of 25% long and 30% short. Know the margin agreement parts and Rule 2264 disclosures, the rules for discretionary versus time-and-price orders, and churning versus reverse churning."
+}

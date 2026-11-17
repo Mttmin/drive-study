@@ -1,0 +1,111 @@
+{
+ "id": "s7-4-01",
+ "exam": "S7",
+ "section": "S7-4",
+ "section_title": "Obtains and Verifies Customers' Purchase and Sales Instructions and Agreements; Processes, Completes and Confirms Transactions",
+ "title": "Quotes, orders and short sales",
+ "order": 1,
+ "est_minutes": 8,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Function four is about processing transactions. It starts with reading quotes and entering the right order type. Get these mechanics right and a good number of questions become simple logic."
+  },
+  {
+   "type": "narration",
+   "text": "A quote has a bid, the highest price a buyer will pay, and an ask, or offer, the lowest price a seller will accept. The difference is the spread. Customers buy at the ask and sell at the bid. The national best bid and offer, the NBBO, is the best bid and the best offer across all trading centers. Under Regulation NMS, trading centers generally can't trade through a better protected quote displayed elsewhere. A firm quote is one you can trade on. A subject or nominal quote must be labeled as such. Backing away means failing to honor your own firm quote, and it's a violation."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0092"
+  },
+  {
+   "type": "narration",
+   "text": "A market order executes right away at the best available price, so it guarantees execution but not the price. A limit order sets the worst price you'll accept. A buy limit is placed at or below the current market, and a sell limit at or above it. A limit order guarantees the price but not execution. A stop order is a trigger. Once the stock trades at or through the stop price, it becomes a market order. Buy stops go above the market. They're used to limit losses on a short position or to buy on a breakout. Sell stops go below the market, to protect profits or limit losses on a long position. A stop-limit order becomes a limit order once triggered, so it may not fill in a fast market."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0898"
+  },
+  {
+   "type": "narration",
+   "text": "Here's a memory aid for where orders sit. Buy limits and sell stops sit below the market. Sell limits and buy stops sit above it. Think BLiSS: buy limit, sell stop, below. The risk with a stop order is a gap. If the stock opens far past the stop, the market order fills at whatever price is available, which can be much worse than the stop."
+  },
+  {
+   "type": "narration",
+   "text": "Orders also carry time and size instructions. Day orders expire at the end of the trading day if not filled. Good till canceled orders stay open until filled or canceled, though firms may limit how long they stay on the books. Fill or kill must be filled completely right away or canceled. Immediate or cancel fills whatever it can right away and cancels the rest. All or none must be filled completely but doesn't have to be immediate. At the open and market on close orders execute at those times. Not held orders give the floor broker discretion over time and price."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0903"
+  },
+  {
+   "type": "narration",
+   "text": "Short selling means selling borrowed shares, hoping to buy them back later at a lower price. The risk is unlimited, because the stock can rise without limit. Under Regulation SHO, before a short sale, the firm must locate shares that can be borrowed and delivered on settlement date, and every sell order must be marked long or short. If the firm fails to deliver, it has close-out obligations. The alternative uptick rule, SEC Rule two-oh-one, applies when a stock drops ten percent or more from the prior day's close. For the rest of that day and the whole next day, short sales generally can be executed only at a price above the current national best bid. Short sellers must also pay any dividends on the borrowed stock to the lender, and short sales must be made in a margin account."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0908"
+  },
+  {
+   "type": "narration",
+   "text": "Some short sales are used for hedging. A short against the box sells short shares the customer already owns. Under current tax law, it's generally treated as a constructive sale, so it no longer defers gains. A buy stop above the market can protect a short seller. A short seller can also buy a call to cap the risk. High short interest, the total shares sold short, is sometimes read as bullish, since those shares eventually must be bought back."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: buy at the ask and sell at the bid. Market orders guarantee execution, and limit orders guarantee price. Stops turn into market orders when triggered. Buy limits and sell stops sit below the market. Short sales need a locate, a long or short mark, and a margin account. A ten percent drop triggers Rule two-oh-one for that day and the next."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Market order: An order to buy or sell immediately at the best available price, which guarantees execution but not price. Limit order: An order to buy at or below, or sell at or above, a set price, which guarantees price but not execution. Stop order: An order that becomes a market order once the stock trades at or through the stop price. Stop-limit order: An order that becomes a limit order once the stop price is reached. All-or-none order: An order that must be filled completely or not at all, though not necessarily immediately. Fill-or-kill order: An order that must be executed immediately and in full, or it is canceled. Immediate-or-cancel order: An order that must be executed immediately, with any unfilled part canceled. Not-held order: An order giving the representative discretion over the time and price of execution."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Market order",
+   "definition": "An order to buy or sell immediately at the best available price, which guarantees execution but not price"
+  },
+  {
+   "term": "Limit order",
+   "definition": "An order to buy at or below, or sell at or above, a set price, which guarantees price but not execution"
+  },
+  {
+   "term": "Stop order",
+   "definition": "An order that becomes a market order once the stock trades at or through the stop price"
+  },
+  {
+   "term": "Stop-limit order",
+   "definition": "An order that becomes a limit order once the stop price is reached"
+  },
+  {
+   "term": "All-or-none order",
+   "definition": "An order that must be filled completely or not at all, though not necessarily immediately"
+  },
+  {
+   "term": "Fill-or-kill order",
+   "definition": "An order that must be executed immediately and in full, or it is canceled"
+  },
+  {
+   "term": "Immediate-or-cancel order",
+   "definition": "An order that must be executed immediately, with any unfilled part canceled"
+  },
+  {
+   "term": "Not-held order",
+   "definition": "An order giving the representative discretion over the time and price of execution"
+  },
+  {
+   "term": "Market-on-close order",
+   "definition": "An order to be executed at or as near as possible to the closing price"
+  },
+  {
+   "term": "Good-till-canceled order",
+   "definition": "An order that stays open until it is executed or canceled"
+  }
+ ],
+ "mnemonics": [
+  "BLiSS: Buy Limit, Sell Stop, below the market.",
+  "Market: execution. Limit: price.",
+  "Down ten percent: short only above the bid, today and tomorrow."
+ ],
+ "summary": "Customers buy at the ask and sell at the bid. Reg NMS bars trade-throughs of protected quotes, and backing away from a firm quote is a violation. Market orders guarantee execution, limits guarantee price, stops become market orders when triggered, and stop-limits become limit orders. Buy limits and sell stops sit below the market, and sell limits and buy stops above it. Time and size instructions include day, GTC, FOK, IOC, AON, at-the-open, MOC and not held. Reg SHO requires a locate, long/short marking and close-out duties. Rule 201: after a 10% drop, shorts must be above the NBB for the rest of that day and the next. Shorts require margin accounts and pay dividends to the lender. Short against the box is a constructive sale."
+}

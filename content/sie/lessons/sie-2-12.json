@@ -1,0 +1,126 @@
+{
+  "id": "sie-2-12",
+  "exam": "SIE",
+  "section": "SIE-2",
+  "section_title": "Understanding Products and Their Risks",
+  "title": "Municipal Fund Securities: 529s, ABLE and LGIPs",
+  "order": 12,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Municipal fund securities sound complicated, but the idea is simple. They're investment pools sponsored by state or local governments that would be investment companies if a government didn't sponsor them. Under M S R B Rule D twelve, the three you need are five twenty-nine education savings plans, ABLE accounts, and local government investment pools. Because they're municipal securities, dealers who sell them follow M S R B rules."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0392"
+    },
+    {
+      "type": "narration",
+      "text": "Let's start with five twenty-nine plans, the big one. There are two kinds. Prepaid tuition plans let families buy tuition credits at today's prices for future use, usually at in-state public colleges, which protects against tuition inflation. College savings plans invest contributions in portfolios, often age-based options that get more conservative as the beneficiary nears college, so the account's value depends on market performance."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0389"
+    },
+    {
+      "type": "narration",
+      "text": "There are two key people. The account owner, often a parent or grandparent, opens and controls the account, picks investments within the plan's menu, decides on withdrawals, and can change the beneficiary. The beneficiary is the student. If the beneficiary doesn't go to college, the owner can switch the beneficiary to another family member without tax consequences."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0055"
+    },
+    {
+      "type": "narration",
+      "text": "Taxes. Contributions are made with after-tax dollars and aren't federally deductible, though many states give a deduction or credit for their own plan. Earnings grow tax-deferred, and withdrawals for qualified higher education expenses, like tuition, fees, books and certain room and board, are free of federal tax. For a non-qualified withdrawal, the earnings portion is taxed as ordinary income and generally hit with a ten percent additional tax. There are no federal income limits on who can contribute."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0387"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0388"
+    },
+    {
+      "type": "narration",
+      "text": "Contributions count as gifts to the beneficiary. For twenty twenty-six, the annual gift tax exclusion is nineteen thousand dollars per recipient. Five twenty-nine plans allow a special election to treat a lump sum as if it were spread over five years, so a single donor can put in up to ninety-five thousand dollars at once without using any lifetime exemption, as long as no other gifts go to that beneficiary during those five years. That's often called superfunding, and remember that the exclusion amount can change each year."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0056"
+    },
+    {
+      "type": "narration",
+      "text": "You can generally invest in any state's plan, but you might miss home-state tax benefits. Dealers must disclose that the investor's home state may offer tax or other benefits for its own plan. Plans come in two sales channels. Direct-sold plans are bought straight from the program with low fees. Adviser-sold plans go through brokers and may have share classes with sales charges. Under M S R B Rule G forty-five, underwriters of five twenty-nine plans must report plan data, such as assets, contributions, fees and performance, to the M S R B."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0390"
+    },
+    {
+      "type": "narration",
+      "text": "Next, ABLE accounts, created by the Achieving a Better Life Experience Act. They let people with qualifying disabilities save for disability-related expenses, like housing, transportation, education and health care. Earnings grow tax-deferred and qualified withdrawals are tax-free, and balances up to certain levels generally don't count against means-tested benefits like S S I and Medicaid. Total annual contributions from all sources are generally limited to the gift tax annual exclusion, nineteen thousand dollars for twenty twenty-six."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0395"
+    },
+    {
+      "type": "narration",
+      "text": "Finally, local government investment pools, or L G I Ps. States set them up so towns, counties and school districts can pool and invest short-term cash, much like a money market fund. Only government entities can invest, and as municipal fund securities, they aren't registered under the Investment Company Act."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0057"
+    },
+    {
+      "type": "narration",
+      "text": "Let's run a scenario. A grandfather in Ohio wants to help his granddaughter with college. He opens a five twenty-nine savings plan with himself as owner and her as beneficiary. He picks an age-based portfolio. He asks his rep about Nevada's plan, which he read about online. The rep explains he can invest there, but Ohio may give a state tax deduction only for Ohio's own plan, so he should compare. Years later, the granddaughter wins a full scholarship. The grandfather has choices: he can change the beneficiary to her younger brother with no tax, or withdraw money. If he withdraws up to the scholarship amount, the ten percent additional tax is waived, though ordinary income tax still applies to the earnings portion."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Municipal fund securities are government-sponsored pools: five twenty-nines, ABLE accounts and L G I Ps. The five twenty-nine owner controls the account, contributions are after-tax, growth is deferred, and qualified withdrawals are tax-free, while non-qualified earnings get ordinary income tax plus ten percent. The twenty twenty-six gift exclusion is nineteen thousand dollars, and five-year superfunding allows ninety-five thousand. ABLE accounts serve people with disabilities, and L G I Ps serve local governments."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Municipal fund security",
+      "definition": "Government-sponsored pool that would otherwise be an investment company (MSRB D-12)."
+    },
+    {
+      "term": "529 savings plan",
+      "definition": "Investment account for education; value depends on performance."
+    },
+    {
+      "term": "Prepaid tuition plan",
+      "definition": "Locks in tuition credits at today's prices."
+    },
+    {
+      "term": "Account owner",
+      "definition": "Controls a 529, including withdrawals and beneficiary changes."
+    },
+    {
+      "term": "Superfunding",
+      "definition": "Five-year election for a lump-sum 529 gift; $95,000 for 2026."
+    },
+    {
+      "term": "ABLE account",
+      "definition": "Tax-advantaged savings for people with disabilities."
+    },
+    {
+      "term": "LGIP",
+      "definition": "State pool for local governments' short-term cash."
+    },
+    {
+      "term": "MSRB G-45",
+      "definition": "Underwriters report 529 and ABLE plan data to the MSRB."
+    }
+  ],
+  "mnemonics": [
+    "Owner owns the decisions; beneficiary benefits.",
+    "Nineteen times five equals ninety-five: superfunding in 2026."
+  ],
+  "summary": "Municipal fund securities include 529 plans, ABLE accounts and LGIPs, and dealers follow MSRB rules. 529 owners control the accounts; contributions are after-tax, growth is deferred, and qualified withdrawals are tax-free. For 2026, the gift exclusion is $19,000 and superfunding allows $95,000. ABLE accounts help people with disabilities, and LGIPs serve local governments."
+}

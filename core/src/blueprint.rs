@@ -119,6 +119,38 @@ mod tests {
     }
 
     #[test]
+    fn fractional_outline_weights_match_the_published_counts() {
+        let sie = sections(&[("SIE-1", 0.16), ("SIE-2", 0.44), ("SIE-3", 0.31), ("SIE-4", 0.09)]);
+        let got = allocate_questions(&sie, 75);
+        assert_eq!((got["SIE-1"], got["SIE-2"], got["SIE-3"], got["SIE-4"]), (12, 33, 23, 7));
+        let s7 = sections(&[("S7-1", 0.07), ("S7-2", 0.09), ("S7-3", 0.73), ("S7-4", 0.11)]);
+        let got = allocate_questions(&s7, 125);
+        assert_eq!((got["S7-1"], got["S7-2"], got["S7-3"], got["S7-4"]), (9, 11, 91, 14));
+    }
+
+    #[test]
+    fn a_large_pool_still_draws_the_blueprint_counts() {
+        let sections = sections(&[("SIE-1", 0.16), ("SIE-2", 0.44), ("SIE-3", 0.31), ("SIE-4", 0.09)]);
+        let mut items = Vec::new();
+        for section in &sections {
+            for n in 0..200 {
+                items.push(DrawItem { id: format!("{}-{n}", section.id), section: section.id.clone(), value: n });
+            }
+        }
+        let mut cursor = 0.17_f64;
+        let drawn = draw_weighted(&items, &sections, 75, &mut || {
+            cursor = (cursor * 1.7) % 1.0;
+            cursor
+        });
+        assert_eq!(drawn.len(), 75);
+        let mut counts = HashMap::new();
+        for item in drawn {
+            *counts.entry(item.section).or_insert(0usize) += 1;
+        }
+        assert_eq!((counts["SIE-1"], counts["SIE-2"], counts["SIE-3"], counts["SIE-4"]), (12, 33, 23, 7));
+    }
+
+    #[test]
     fn sums_to_the_total() {
         let sie = sections(&[("SIE-1", 16.0), ("SIE-2", 44.0), ("SIE-3", 31.0), ("SIE-4", 9.0)]);
         let got = allocate_questions(&sie, 10);

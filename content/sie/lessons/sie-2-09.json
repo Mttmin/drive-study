@@ -1,0 +1,122 @@
+{
+  "id": "sie-2-09",
+  "exam": "SIE",
+  "section": "SIE-2",
+  "section_title": "Understanding Products and Their Risks",
+  "title": "Investment Companies",
+  "order": 9,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Investment companies pool money from many investors and invest it in a portfolio. They're the main way ordinary people own stocks and bonds, so the SIE spends real time on them. We'll cover the types under the Investment Company Act of nineteen forty, how open-end and closed-end funds work, unit investment trusts, net asset value, and who does what inside a fund."
+    },
+    {
+      "type": "narration",
+      "text": "The nineteen forty Act sorts investment companies into three types. Face-amount certificate companies are rare, and you mostly just need the name. Unit investment trusts, or U I Ts, hold a fixed portfolio. And management companies, which actively manage a portfolio, are split into open-end and closed-end. Management companies can also be diversified or non-diversified. To call itself diversified, a fund must meet the seventy-five, five, ten test: for seventy-five percent of its assets, no more than five percent in any one issuer, and no more than ten percent of any issuer's voting stock."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0343"
+    },
+    {
+      "type": "narration",
+      "text": "Open-end funds are what most people call mutual funds. They continuously issue new shares and redeem shares from investors who want out. You never trade shares with another investor. You buy from the fund and you redeem with the fund. Shares are priced using forward pricing: your order gets the next net asset value calculated after the fund receives it, usually at the close of the market. Purchases may add a sales charge, so the buy price is the public offering price, and redemptions are at N A V, sometimes minus a redemption fee. By law, a fund must generally pay redemption proceeds within seven days."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0344"
+    },
+    {
+      "type": "narration",
+      "text": "Net asset value per share is simple: total assets minus liabilities, divided by shares outstanding. A fund with five hundred twenty million dollars in assets, twenty million in liabilities and twenty-five million shares has an N A V of twenty dollars."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0353"
+    },
+    {
+      "type": "narration",
+      "text": "Closed-end funds work differently. They raise money in an initial public offering with a fixed number of shares, and after that, the shares trade on an exchange like stock. The fund doesn't redeem them. Because the price is set by supply and demand, closed-end shares can trade at a premium or a discount to their N A V. Closed-end funds can also use leverage and hold less liquid assets, because they don't face daily redemptions."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0048"
+    },
+    {
+      "type": "narration",
+      "text": "Unit investment trusts buy a fixed portfolio, often of bonds or a set basket of stocks, and generally hold it until a termination date. There's no board of directors and no investment adviser making ongoing decisions. Units are redeemable, and sponsors often maintain a secondary market. Exchange-traded funds are typically organized as open-end funds or U I Ts, but they trade on exchanges all day, which we'll cover in a later lesson."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0052"
+    },
+    {
+      "type": "narration",
+      "text": "Now, the people inside a fund. The board of directors is elected by shareholders. It oversees the fund, approves the adviser's contract, and sets dividend policy. The investment adviser manages the portfolio and earns a management fee, usually the biggest piece of the expense ratio. The custodian, usually a bank, holds the fund's cash and securities for safekeeping. The transfer agent keeps shareholder records, issues and redeems shares, and sends out distributions. The principal underwriter, also called the sponsor or distributor, markets the shares. Shareholders vote on major matters, including electing the board, approving the advisory contract, and changing the fund's fundamental investment objective, which requires a majority vote of outstanding shares."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0348"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0351"
+    },
+    {
+      "type": "narration",
+      "text": "Two last points. First, before it can make a public offering, an investment company must generally have at least one hundred thousand dollars of net worth. Second, taxation. Funds that pass through their income to shareholders avoid fund-level tax. Shareholders pay tax on dividends and capital gains distributions in the year they're paid, even if they reinvest them. Reinvested amounts increase the shareholder's cost basis, so they aren't taxed twice when the shares are sold."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0355"
+    },
+    {
+      "type": "narration",
+      "text": "Let's try a quick scenario. A customer says, I want to buy shares of a fund at today's opening price. You explain that mutual fund orders get the next N A V, usually calculated at the close, plus any sales charge. If she wants intraday pricing, an E T F or closed-end fund traded on an exchange would do that, but closed-end shares might cost more or less than their N A V."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Three types: face-amount certificate companies, U I Ts and management companies. Open-end funds issue and redeem shares at forward-priced N A V, and redemptions are paid within seven days. Closed-end funds trade on exchanges at a premium or discount. U I Ts have fixed portfolios and no board or adviser. N A V is assets minus liabilities, divided by shares. The board oversees, the adviser invests, the custodian holds, the transfer agent keeps records, and shareholders vote on objective changes."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Open-end fund",
+      "definition": "Continuously issues and redeems shares at NAV; a mutual fund."
+    },
+    {
+      "term": "Closed-end fund",
+      "definition": "Fixed shares after an IPO; trades on an exchange at a premium or discount."
+    },
+    {
+      "term": "Unit investment trust",
+      "definition": "Fixed portfolio, no board or adviser, redeemable units."
+    },
+    {
+      "term": "Forward pricing",
+      "definition": "Orders filled at the next NAV calculated."
+    },
+    {
+      "term": "NAV per share",
+      "definition": "Assets minus liabilities, divided by shares outstanding."
+    },
+    {
+      "term": "75-5-10 test",
+      "definition": "Requirement for a fund to call itself diversified."
+    },
+    {
+      "term": "Custodian",
+      "definition": "Holds the fund's cash and securities."
+    },
+    {
+      "term": "Transfer agent",
+      "definition": "Keeps shareholder records and processes issues and redemptions."
+    }
+  ],
+  "mnemonics": [
+    "Three types: Face, Unit, Management: F U M.",
+    "Open-end: buy from and sell to the fund. Closed-end: trade with other investors."
+  ],
+  "summary": "The 1940 Act defines face-amount certificate companies, UITs and management companies. Open-end funds use forward pricing at NAV and redeem within seven days. Closed-end funds trade on exchanges at a premium or discount. Know the roles of the board, adviser, custodian and transfer agent, and that distributions are taxable even when reinvested."
+}

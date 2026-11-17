@@ -1,0 +1,111 @@
+{
+ "id": "s7-3-14",
+ "exam": "S7",
+ "section": "S7-3",
+ "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+ "title": "Muni types and municipal fund securities",
+ "order": 14,
+ "est_minutes": 7,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Municipal issuers borrow for many purposes and time frames, so muni securities come in many forms. This lesson covers maturity structures, short-term notes, variable rate products, and municipal fund securities like five twenty-nine plans and local government investment pools."
+  },
+  {
+   "type": "narration",
+   "text": "Start with maturity structure. A serial issue has bonds maturing in stages over many years, which suits GO bonds repaid from steady tax revenue. A term issue has all bonds maturing on one date, usually supported by a sinking fund, which is common for revenue bonds. A balloon issue repays some principal early but most at the final maturity. Because each serial maturity has its own yield, serial bonds are quoted on a yield basis."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0720"
+  },
+  {
+   "type": "narration",
+   "text": "Municipal notes are short-term borrowings, usually maturing in a year or less, that bridge a timing gap until expected money comes in. Tax anticipation notes are repaid from upcoming tax collections. Revenue anticipation notes are repaid from other expected revenue, like state aid. Tax and revenue anticipation notes combine the two. Bond anticipation notes are repaid from a planned long-term bond issue. Grant anticipation notes are repaid from expected federal or state grants. Short-term notes get their own short-term ratings. Tax-exempt commercial paper is another short-term option for issuers."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0730"
+  },
+  {
+   "type": "narration",
+   "text": "Variable rate demand obligations are long-term bonds whose interest rate resets periodically, often weekly, and that include a put, or tender, feature. The investor can sell the bonds back at par plus accrued interest, usually with a few days' notice. A bank letter of credit or liquidity facility typically backs that put. Because they're quasi-liquid and their price stays near par, money market funds often hold them. Auction rate securities were another variable rate product, but their auctions failed in two thousand eight and investors were stuck, which shows that liquidity can disappear."
+  },
+  {
+   "type": "narration",
+   "text": "Municipal fund securities aren't bonds at all. They're interests in pools run by government entities, and the MSRB regulates the dealers who sell them. The best-known type is the five twenty-nine college savings plan. Contributions are after-tax, growth is tax-deferred, and withdrawals for qualified education expenses are tax-free federally. Non-qualified withdrawals owe ordinary income tax plus a ten percent additional tax on the earnings. The account owner keeps control and can change the beneficiary to another family member. Prepaid tuition plans lock in tuition at today's rates at certain schools. ABLE accounts are also municipal fund securities. Local government investment pools, called LGIPs, let state and local governments invest their short-term cash. They aren't sold to individuals."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0740"
+  },
+  {
+   "type": "narration",
+   "text": "Suitability with 529s focuses on state tax benefits. Many states give a deduction or credit only for contributions to their own state's plan. Before recommending an out-of-state plan, the rep should tell the customer that their home state may offer tax or other benefits not available through another state's plan. Fees and share classes matter too. Advisor-sold plans may charge sales loads, while direct-sold plans often cost less. For gift taxes, the donor can elect to treat one contribution as made over five years, which allows up to five times the annual exclusion at once. That's ninety-five thousand dollars in twenty twenty-six, or one hundred ninety thousand for a married couple splitting gifts."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0763"
+  },
+  {
+   "type": "narration",
+   "text": "Underwriting and disclosure for 529s also come from the MSRB. The plan's offering document, called a program disclosure document or official statement, takes the place of a prospectus. Dealers must deliver it to customers by settlement. Rule G thirty-seven political contribution limits also apply to five twenty-nine business, because elected officials oversee the plans."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: serial bonds mature in stages and are quoted by yield, while term bonds mature at once. Notes like TANs, RANs, BANs, and GANs bridge cash gaps until known revenue arrives. VRDOs reset rates and include a put. 529s are municipal fund securities, so check home-state tax benefits and fees. The five-year gift election allows five times the annual exclusion. LGIPs are for governments only."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. General obligation bond: A municipal bond backed by the full faith, credit and taxing power of the issuer, usually requiring voter approval. Revenue bond: A municipal bond repaid only from the revenues of the facility it finances, such as a toll road or water system. Limited tax GO bond: A general obligation bond backed by a tax that is capped in rate or amount. Special tax bond: A bond repaid from a specific tax, such as a tax on gasoline, tobacco or hotel rooms, rather than the general tax base. Special assessment bond: A bond repaid by a tax levied only on the properties that benefit from the project, such as sidewalks or sewers. Moral obligation bond: A revenue bond backed by a state legislature's non-binding promise to consider appropriating funds if revenues fall short. Industrial development revenue bond: A municipal bond backed by a corporate lease payment, carrying the credit risk of the corporation. Lease rental bond: A bond repaid from lease payments made by a government agency that uses the financed facility."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "General obligation bond",
+   "definition": "A municipal bond backed by the full faith, credit and taxing power of the issuer, usually requiring voter approval"
+  },
+  {
+   "term": "Revenue bond",
+   "definition": "A municipal bond repaid only from the revenues of the facility it finances, such as a toll road or water system"
+  },
+  {
+   "term": "Limited tax GO bond",
+   "definition": "A general obligation bond backed by a tax that is capped in rate or amount"
+  },
+  {
+   "term": "Special tax bond",
+   "definition": "A bond repaid from a specific tax, such as a tax on gasoline, tobacco or hotel rooms, rather than the general tax base"
+  },
+  {
+   "term": "Special assessment bond",
+   "definition": "A bond repaid by a tax levied only on the properties that benefit from the project, such as sidewalks or sewers"
+  },
+  {
+   "term": "Moral obligation bond",
+   "definition": "A revenue bond backed by a state legislature's non-binding promise to consider appropriating funds if revenues fall short"
+  },
+  {
+   "term": "Industrial development revenue bond",
+   "definition": "A municipal bond backed by a corporate lease payment, carrying the credit risk of the corporation"
+  },
+  {
+   "term": "Lease rental bond",
+   "definition": "A bond repaid from lease payments made by a government agency that uses the financed facility"
+  },
+  {
+   "term": "Certificate of participation",
+   "definition": "A municipal security representing a share of lease payments that depend on annual appropriations"
+  },
+  {
+   "term": "Private activity bond",
+   "definition": "A municipal bond whose proceeds benefit a private party, and whose interest may be a tax preference item for the AMT"
+  }
+ ],
+ "mnemonics": [
+  "TAN, RAN, BAN, GAN: name the money that's coming.",
+  "VRDO: resets plus a put.",
+  "529: home state first, five-year gift election."
+ ],
+ "summary": "Serial maturities stage over years and are quoted on yield. Term bonds mature together with a sinking fund. Balloon issues are mostly at the end. Notes include TANs, RANs, TRANs, BANs and GANs, plus tax-exempt CP. VRDOs reset periodically with a put at par backed by a bank liquidity facility. Auction rate securities failed in 2008. Municipal fund securities include 529 plans (after-tax contributions, tax-free qualified withdrawals, owner control, a 10% additional tax on non-qualified earnings), prepaid tuition plans, ABLE accounts and LGIPs (governments only). Disclose home-state 529 benefits. The five-year gift election allows $95,000 in 2026 ($190,000 split). The program disclosure document is delivered by settlement."
+}

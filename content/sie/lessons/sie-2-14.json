@@ -1,0 +1,106 @@
+{
+  "id": "sie-2-14",
+  "exam": "SIE",
+  "section": "SIE-2",
+  "section_title": "Understanding Products and Their Risks",
+  "title": "Exchange-Traded Products",
+  "order": 14,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Exchange-traded products are among the fastest-growing investments, and the SIE wants you to know how E T Fs work, how they differ from mutual funds and E T Ns, and why leveraged and inverse products need special care."
+    },
+    {
+      "type": "narration",
+      "text": "An exchange-traded fund is a pooled investment, usually registered under the Investment Company Act as an open-end fund or a U I T, whose shares trade on an exchange all day at market prices. That means investors can use limit and stop orders, buy on margin, and sell short, none of which works with a traditional mutual fund. Investors pay the fund's expense ratio, plus any brokerage commission and the bid-ask spread. There are no front-end loads or 12b-1-style sales charges for buying an E T F in the market."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0416"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0424"
+    },
+    {
+      "type": "narration",
+      "text": "How does an E T F's price stay close to its net asset value? Through creation and redemption. Large broker-dealers called authorized participants can deliver a basket of securities to the fund in exchange for new E T F shares, or turn in E T F shares for the basket. If the market price drifts above N A V, they create shares and sell them. If it drifts below, they buy shares and redeem them. That arbitrage keeps the price close to N A V most of the time, although gaps can open when the underlying assets are illiquid or markets are stressed. Because redemptions can be paid in kind, E T Fs often realize fewer capital gains, making them more tax-efficient than many mutual funds."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0417"
+    },
+    {
+      "type": "narration",
+      "text": "Passive E T Fs track an index, like the S and P five hundred, and generally have low costs. The difference between the fund's return and the index's return is tracking error, which comes from expenses, cash and sampling. Active E T Fs have managers picking securities, trying to beat a benchmark, usually for a higher fee. There are E T Fs for stocks, bonds, commodities, sectors and countries."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0420"
+    },
+    {
+      "type": "narration",
+      "text": "An exchange-traded note is a different animal. It's a senior unsecured debt obligation of a bank or other issuer, which promises to pay a return linked to an index. It doesn't hold the underlying assets. So in addition to market risk, an E T N holder faces the issuer's credit risk. If the issuer fails, the note could lose much of its value even if the index does well."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0060"
+    },
+    {
+      "type": "narration",
+      "text": "Now, leveraged and inverse E T Fs. A leveraged E T F seeks a multiple, such as two times or three times, of its index's daily return. An inverse E T F seeks the opposite of the daily return, and some are leveraged inverse. The key word is daily. These funds reset every day, so over longer periods, compounding makes their returns drift away from the simple multiple of the index, especially in volatile markets. An index can end a month flat while a two-times leveraged fund on it loses money. FINRA has warned that these products are typically unsuitable for retail investors who plan to hold them for longer than one trading session, unless the investor understands the risks and the firm monitors the position."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0061"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0422"
+    },
+    {
+      "type": "narration",
+      "text": "Here's a quick example of that drift. An index starts at one hundred, rises ten percent to one ten, then falls ten percent to ninety-nine. That's a one percent loss. A two-times fund rises twenty percent to one twenty, then falls twenty percent to ninety-six. That's a four percent loss, not two. That's the compounding effect of daily resets."
+    },
+    {
+      "type": "narration",
+      "text": "Let's run a customer conversation. A customer in his forties wants a low-cost core holding for his retirement account and has heard about a three-times leveraged fund on the same index that went up a lot last month. You'd explain that a plain index E T F tracks the index over time with a low expense ratio, while the leveraged fund resets daily and can lose value even when the index ends flat. For a long-term core position, the plain index fund is the natural fit. If he also asks about an E T N on a commodity index, remind him the note is only as good as the bank that issued it, because no underlying assets back it."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. E T Fs trade all day, can be shorted and bought on margin, and charge expense ratios plus trading costs. Authorized participants keep prices near N A V and help with tax efficiency. Passive funds track indexes with some tracking error. E T Ns are unsecured debt with issuer credit risk. Leveraged and inverse funds reset daily, and are typically unsuitable for buy-and-hold retail investors."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "ETF",
+      "definition": "Pooled fund trading on an exchange throughout the day."
+    },
+    {
+      "term": "Authorized participant",
+      "definition": "Firm that creates and redeems ETF shares in large blocks."
+    },
+    {
+      "term": "Tracking error",
+      "definition": "Gap between an index fund's return and its index's return."
+    },
+    {
+      "term": "ETN",
+      "definition": "Unsecured debt note linked to an index; carries issuer credit risk."
+    },
+    {
+      "term": "Leveraged ETF",
+      "definition": "Seeks a multiple of the index's daily return."
+    },
+    {
+      "term": "Inverse ETF",
+      "definition": "Seeks the opposite of the index's daily return."
+    }
+  ],
+  "mnemonics": [
+    "ETF holds Funds' assets; ETN is a Note, a promise.",
+    "Leveraged and inverse: Daily means Don't hold."
+  ],
+  "summary": "ETFs trade intraday, can be shorted or bought on margin, and use creation and redemption to stay near NAV and limit capital gains. ETNs are unsecured debt with issuer credit risk. Leveraged and inverse ETFs reset daily, so long-term returns can drift far from the multiple; they're typically unsuitable for buy-and-hold retail investors."
+}

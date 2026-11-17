@@ -1,0 +1,122 @@
+{
+  "id": "sie-2-07",
+  "exam": "SIE",
+  "section": "SIE-2",
+  "section_title": "Understanding Products and Their Risks",
+  "title": "Options Basics",
+  "order": 7,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Options intimidate a lot of SIE candidates, but the exam stays at the basics: what calls and puts are, who has rights and who has obligations, breakevens, maximum gain and loss, and how equity and index options settle. Let's build it step by step."
+    },
+    {
+      "type": "narration",
+      "text": "An option is a contract that gives the buyer a right, and puts the seller under an obligation. The buyer is also called the holder, or the long. The seller is also called the writer, or the short. The buyer pays a price for the contract, called the premium, and the seller receives it. Remember this: buyers have rights, sellers have obligations."
+    },
+    {
+      "type": "narration",
+      "text": "There are two kinds. A call gives the buyer the right to buy the underlying stock at a fixed price, the strike price, until expiration. A put gives the buyer the right to sell the stock at the strike price. Flip to the writers. A call writer must sell the stock at the strike if assigned, and a put writer must buy the stock at the strike if assigned. One standard equity option contract covers one hundred shares, and the premium is quoted per share. So a premium of two dollars and ten cents costs two hundred ten dollars per contract."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0316"
+    },
+    {
+      "type": "narration",
+      "text": "Next, direction. Call buyers are bullish and want the stock to rise. Put buyers are bearish and want it to fall. Writers take the opposite view. A call writer is bearish or neutral, and a put writer is bullish or neutral. Writers keep the premium if the option expires worthless. So the two bullish positions are long call and short put, and the two bearish positions are long put and short call."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0315"
+    },
+    {
+      "type": "narration",
+      "text": "Now breakevens. Use the memory aid Call Up, Put Down. For a call, breakeven is the strike plus the premium. Buy a fifty call for three, and the stock must reach fifty-three for you to break even at expiration. For a put, breakeven is the strike minus the premium. Buy a sixty put for four, and the stock must fall to fifty-six. The breakeven is the same for the buyer and the writer of the same option. They're just on opposite sides of it."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0040"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0317"
+    },
+    {
+      "type": "narration",
+      "text": "Maximum gain and loss come up constantly. For any option buyer, the most you can lose is the premium you paid. A call buyer's maximum gain is unlimited, because there's no ceiling on a stock price. A put buyer's maximum gain is the strike minus the premium, times one hundred, because the stock can only fall to zero. For writers, it flips. A writer's maximum gain is always the premium received. An uncovered call writer's maximum loss is unlimited. A put writer's maximum loss is the strike minus the premium, times one hundred. Let's talk one through. Write a fifty put for three. If the stock goes to zero, you must pay fifty for worthless shares, but you kept three, so you lose forty-seven per share, which is forty-seven hundred dollars."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0041"
+    },
+    {
+      "type": "narration",
+      "text": "Value has two parts. Intrinsic value is how much the option is in the money. For a call, that's the stock price minus the strike, if positive. For a put, it's the strike minus the stock price, if positive. Time value is everything else in the premium, the price of possibility before expiration. With a stock at forty-seven, a forty-five call trading at three fifty has two dollars of intrinsic value and a dollar fifty of time value. Time value shrinks toward zero as expiration nears."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0323"
+    },
+    {
+      "type": "narration",
+      "text": "Standard monthly equity options expire on the third Friday of the expiration month. Exercise style matters too. American-style options can be exercised any time up to expiration, and standard U.S. equity options are American-style. European-style options can be exercised only at expiration, and many broad-based index options use that style."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0047"
+    },
+    {
+      "type": "narration",
+      "text": "Finally, settlement. Equity options settle physically: exercising a call means paying the strike and getting the shares, and exercising a put means delivering shares and receiving the strike. Index options settle in cash. Nobody delivers five hundred stocks. Instead, the writer pays the holder the in-the-money amount times the multiplier, usually one hundred."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0046"
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Buyers have rights and pay premiums, sellers have obligations and collect premiums. Calls are about buying, puts about selling. Long call and short put are bullish, long put and short call are bearish. Call Up, Put Down for breakevens. Buyers risk only the premium, and uncovered call writers face unlimited risk. Premium equals intrinsic value plus time value. Equity options are American-style and physically settled, and index options are usually cash-settled."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Call",
+      "definition": "Right to buy at the strike price."
+    },
+    {
+      "term": "Put",
+      "definition": "Right to sell at the strike price."
+    },
+    {
+      "term": "Premium",
+      "definition": "Price of the option; quoted per share, 100 shares per contract."
+    },
+    {
+      "term": "Strike price",
+      "definition": "Price at which the option can be exercised."
+    },
+    {
+      "term": "Intrinsic value",
+      "definition": "In-the-money amount."
+    },
+    {
+      "term": "Time value",
+      "definition": "Premium minus intrinsic value."
+    },
+    {
+      "term": "American-style",
+      "definition": "Exercisable any time before expiration."
+    },
+    {
+      "term": "European-style",
+      "definition": "Exercisable only at expiration."
+    }
+  ],
+  "mnemonics": [
+    "Call Up, Put Down: add the premium for calls, subtract it for puts.",
+    "Buyers have Rights, Sellers have Obligations."
+  ],
+  "summary": "Calls give the right to buy and puts the right to sell; writers take the obligations. Breakeven is strike plus premium for calls and strike minus premium for puts. Buyers risk only the premium, and uncovered call writers face unlimited risk. Equity options are American-style and physically settled, and index options settle in cash."
+}

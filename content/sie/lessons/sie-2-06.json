@@ -1,0 +1,114 @@
+{
+  "id": "sie-2-06",
+  "exam": "SIE",
+  "section": "SIE-2",
+  "section_title": "Understanding Products and Their Risks",
+  "title": "Municipal Securities",
+  "order": 6,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Municipal bonds are issued by states, cities, counties and other public authorities to fund schools, roads, water systems and more. The big selling point is tax-exempt interest. The SIE tests the difference between general obligation and revenue bonds, the special types, short-term notes, the tax rules, and the tax-equivalent yield calculation."
+    },
+    {
+      "type": "narration",
+      "text": "General obligation bonds, or G O bonds, are backed by the issuer's full faith, credit and taxing power. For cities and counties, that mostly means property taxes, and for states it means income and sales taxes. Because they put taxpayers on the hook, G O bonds usually need voter approval, and they're often subject to debt limits. They fund projects that don't produce revenue, like schools, parks and police stations."
+    },
+    {
+      "type": "narration",
+      "text": "Revenue bonds are repaid only from the revenue of a specific facility, such as tolls on a bridge, fees at an airport, or water and sewer charges. There's no taxing power behind them, so before issuing, the authority commissions a feasibility study to show the project will earn enough. Revenue bonds don't need voter approval, and they come with protective covenants, like a rate covenant promising to set user fees high enough to cover debt service."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0033"
+    },
+    {
+      "type": "narration",
+      "text": "Now the special types. Special assessment bonds are repaid from a tax charged only on the properties that benefit, like new sidewalks or sewer lines in one neighborhood. Special tax bonds are repaid from a specific excise tax, like gasoline, tobacco or hotel taxes, and they count as revenue bonds even though a tax pays them. Double-barreled bonds are revenue bonds that also have the issuer's taxing power as a backup, so they're rated like G O bonds. Moral obligation bonds carry a non-binding pledge that the state legislature may cover a shortfall, but it's not legally required to. And industrial development revenue bonds are issued by a municipality to build a facility leased to a private company, so the real credit risk is that company's lease payments."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0299"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0298"
+    },
+    {
+      "type": "narration",
+      "text": "Municipalities also borrow short-term with notes. Tax anticipation notes are repaid from upcoming tax collections. Revenue anticipation notes are repaid from expected revenues, like state aid. Bond anticipation notes give interim financing until long-term bonds are sold, and are repaid from those bond proceeds. Grant anticipation notes are repaid from federal grants. Moody's rates these notes on the M I G scale, and M I G one is the highest."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0303"
+    },
+    {
+      "type": "narration",
+      "text": "Now taxes. Interest on most municipal bonds is exempt from federal income tax. States usually exempt interest on their own bonds for their residents, but tax bonds from other states. So a New Yorker who buys a New York City bond can be triple tax-exempt: free of federal, state and city tax. But if that New Yorker buys an Ohio bond, New York taxes the interest. Bonds from U.S. territories, like Puerto Rico, Guam and the U.S. Virgin Islands, are tax-exempt in every state. The exemption covers interest only: if you sell a muni for a gain, that gain is taxable. Some munis are issued as taxable bonds, like the Build America Bonds of two thousand nine and twenty ten, used for projects that don't qualify for tax exemption."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0305"
+    },
+    {
+      "type": "narration",
+      "text": "The tax-equivalent yield tells you what a taxable bond would have to pay to match a muni after taxes. Divide the muni yield by one minus the tax rate. Let's talk it through. A muni yields three point eight percent, and the investor is in the twenty-four percent bracket. One minus twenty-four percent is seventy-six percent. Three point eight divided by point seven six is five percent. To go the other direction, from a taxable yield to the muni equivalent, multiply by one minus the tax rate. Higher brackets get more benefit from munis, which is why munis generally make sense for higher-bracket investors and not for tax-advantaged accounts like I R As."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0308"
+    },
+    {
+      "type": "narration",
+      "text": "Last, disclosure and regulation. Munis are exempt from S E C registration, so there's no S E C prospectus. Instead the issuer prepares an official statement, which underwriters deliver to buyers and submit to the M S R B's EMMA website. Bond counsel writes the legal opinion confirming the bonds are valid and addressing tax exemption. But being exempt from registration doesn't mean exempt from antifraud rules. Issuers and dealers can still be liable for misleading disclosure. The M S R B writes the rules for municipal dealers, and FINRA, the S E C and the bank regulators enforce them."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0312"
+    },
+    {
+      "type": "narration",
+      "text": "Summary. G O bonds are backed by taxing power and voter approval. Revenue bonds are backed by project revenue and a feasibility study. Know the special types: special assessment, special tax, double-barreled, moral obligation and I D R. Notes bridge short-term gaps. Interest is federally exempt, state exemption is usually only in-state, territory bonds are exempt everywhere, and gains are taxable. Tax-equivalent yield is muni yield divided by one minus the tax rate."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "General obligation bond",
+      "definition": "Backed by the issuer's taxing power; usually needs voter approval."
+    },
+    {
+      "term": "Revenue bond",
+      "definition": "Backed by a facility's revenue; requires a feasibility study."
+    },
+    {
+      "term": "Double-barreled bond",
+      "definition": "Revenue bond with taxing power as backup."
+    },
+    {
+      "term": "Moral obligation bond",
+      "definition": "Legislature may, but need not, cover shortfalls."
+    },
+    {
+      "term": "IDR",
+      "definition": "Muni-issued bond repaid by a corporation's lease payments."
+    },
+    {
+      "term": "BAN, TAN, RAN",
+      "definition": "Short-term notes repaid by bonds, taxes or revenues."
+    },
+    {
+      "term": "Tax-equivalent yield",
+      "definition": "Muni yield divided by (1 minus tax rate)."
+    },
+    {
+      "term": "Official statement",
+      "definition": "Disclosure document for a new muni issue."
+    }
+  ],
+  "mnemonics": [
+    "Muni to taxable, divide. Taxable to muni, multiply.",
+    "G O means Go vote: taxpayers back it, so voters approve it."
+  ],
+  "summary": "GO bonds rely on taxing power and revenue bonds on project revenue, with special types in between. Interest is federally tax-exempt and usually state-exempt only in-state; gains are taxable. Tax-equivalent yield equals muni yield over one minus the tax rate. Munis use an official statement and stay subject to antifraud rules."
+}

@@ -1,0 +1,99 @@
+{
+ "id": "s7-4-07",
+ "exam": "S7",
+ "section": "S7-4",
+ "section_title": "Obtains and Verifies Customers' Purchase and Sales Instructions and Agreements; Processes, Completes and Confirms Transactions",
+ "title": "Margin III: SMA, restrictions, special accounts",
+ "order": 7,
+ "est_minutes": 8,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "The final margin lesson covers the special memorandum account, restricted accounts, margin on options and new issues, and how the rules apply to different account types. These questions test reasoning more than formulas."
+  },
+  {
+   "type": "narration",
+   "text": "The special memorandum account, or SMA, is a line of credit attached to a margin account. It's created by excess equity, which is equity above the Reg T requirement. Things that increase SMA include market gains that create excess equity, cash deposits, fifty percent of the proceeds from selling securities, and dividends or interest received. SMA goes down only when the customer uses it, by withdrawing cash or buying securities. It doesn't go down when the market falls. That's the key point: once created, SMA stays even if equity drops later."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0087"
+  },
+  {
+   "type": "narration",
+   "text": "Using SMA is the next skill. To buy more stock, SMA has buying power of twice its value, because of the fifty percent Reg T rate. Ten thousand dollars of SMA can buy twenty thousand dollars of stock with no new deposit. To withdraw cash, the customer can take out up to the SMA amount, as long as the withdrawal doesn't push equity below the maintenance requirement. Example: a long account has a market value of forty thousand and a debit of fifteen thousand, so equity is twenty-five thousand. Reg T requires twenty thousand, so excess equity and SMA are five thousand, and buying power is ten thousand."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0354"
+  },
+  {
+   "type": "narration",
+   "text": "A restricted account has equity below the Reg T fifty percent level but above the twenty-five percent maintenance level. Being restricted isn't a call, and the customer doesn't have to deposit anything. The customer can still buy by depositing fifty percent of the new purchase. When selling in a restricted account, Reg T's retention requirement applies: the customer can withdraw only half of the sale proceeds, unless SMA allows more. If equity falls below the maintenance level, that triggers a maintenance call, and the firm can sell the securities if the call isn't met promptly. Firms often set house requirements higher than FINRA's minimums, and they can change them without notice."
+  },
+  {
+   "type": "narration",
+   "text": "Not every security can be bought on margin. Generally, exchange-listed stocks and certain other securities designated by the Federal Reserve are marginable. Under Section eleven d one of the Exchange Act, a firm that took part in distributing a new issue can't extend credit on it for thirty days. Mutual fund shares are continuously offered, so they can't be bought on margin. They can be used as collateral once they've been held for thirty days. Options with nine months or less to expiration must be paid in full. Longer-term listed options can be bought on margin at seventy-five percent of the cost."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0360"
+  },
+  {
+   "type": "narration",
+   "text": "Uncovered options have their own margin formula. For a short equity option, the requirement is one hundred percent of the premium plus twenty percent of the underlying stock's value, minus any amount by which the option is out of the money. There's a minimum: the premium plus ten percent of the underlying value. Index options use a lower percentage for broad-based indexes. Covered calls need no margin for the call, since the stock covers it. Spreads need margin equal to the maximum loss when the short leg's risk exceeds the long leg's protection."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0385"
+  },
+  {
+   "type": "narration",
+   "text": "Account types limit margin use. Cash accounts can't use margin, and freeriding in a cash account brings a ninety-day freeze. IRAs and other retirement accounts generally can't borrow, so they can't trade on margin or write uncovered options. Custodial accounts can't use margin either. Corporate margin accounts need the corporate documents to permit it. Portfolio margin is an alternative for qualified, approved customers. It bases requirements on the risk of the whole portfolio, which often lowers margin for hedged positions, but it requires higher minimum equity and more supervision."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: SMA goes up with excess equity, deposits, half of sale proceeds, and dividends. It goes down only when used, never from market declines. Buying power is twice SMA. Restricted accounts aren't calls, but sales have a fifty percent retention requirement. New issues can't be margined for thirty days, and options with nine months or less must be paid in full. Uncovered options require the premium plus twenty percent minus the out-of-the-money amount."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Special memorandum account: A line of credit created by excess equity, deposits, half of sale proceeds and dividends; reduced only when used. Excess equity: Equity above the Regulation T requirement. Buying power: Twice the SMA balance at a fifty percent Reg T rate. Restricted account: A margin account with equity below the Reg T requirement but above maintenance; not a call. Retention requirement: In a restricted account, half of sale proceeds must stay in the account unless SMA covers more. Maintenance call: A demand for funds when equity falls below the minimum maintenance level. Portfolio margin: A risk-based margin method for qualified, approved accounts."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Special memorandum account",
+   "definition": "A line of credit created by excess equity, deposits, half of sale proceeds and dividends; reduced only when used."
+  },
+  {
+   "term": "Excess equity",
+   "definition": "Equity above the Regulation T requirement."
+  },
+  {
+   "term": "Buying power",
+   "definition": "Twice the SMA balance at a fifty percent Reg T rate."
+  },
+  {
+   "term": "Restricted account",
+   "definition": "A margin account with equity below the Reg T requirement but above maintenance; not a call."
+  },
+  {
+   "term": "Retention requirement",
+   "definition": "In a restricted account, half of sale proceeds must stay in the account unless SMA covers more."
+  },
+  {
+   "term": "Maintenance call",
+   "definition": "A demand for funds when equity falls below the minimum maintenance level."
+  },
+  {
+   "term": "Portfolio margin",
+   "definition": "A risk-based margin method for qualified, approved accounts."
+  }
+ ],
+ "mnemonics": [
+  "SMA never falls when the market falls.",
+  "Buying power: two times SMA.",
+  "Naked option: premium plus twenty, minus out of the money, at least premium plus ten."
+ ],
+ "summary": "SMA comes from excess equity, deposits, 50% of sale proceeds and dividends. It falls only when used, never from market declines. Buying power = 2 × SMA, and withdrawals are allowed if equity stays above maintenance. A restricted account (equity below 50% but at least 25%) isn't a call, and sales carry a 50% retention requirement. A maintenance call is triggered below 25%, and house requirements can be higher. New issues can't be margined for 30 days, and mutual funds can't be bought on margin but can be collateral after 30 days. Options of 9 months or less are paid in full, and longer listed options are 75% marginable. Uncovered equity options require premium + 20% of the underlying − OTM amount, with a minimum of premium + 10%. No margin in cash, IRA or custodial accounts. Portfolio margin is risk-based for approved customers."
+}

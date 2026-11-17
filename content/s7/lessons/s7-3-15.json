@@ -1,0 +1,111 @@
+{
+ "id": "s7-3-15",
+ "exam": "S7",
+ "section": "S7-3",
+ "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+ "title": "Investment companies, ETFs, UITs",
+ "order": 15,
+ "est_minutes": 8,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Pooled investments are where most retail money ends up, so the Series 7 tests them closely: structure, pricing, share classes, breakpoints, and the suitability problems that come with them."
+  },
+  {
+   "type": "narration",
+   "text": "The Investment Company Act of nineteen forty defines three types of investment companies. Face-amount certificate companies are rare. Unit investment trusts hold a fixed portfolio with no active manager, issue redeemable units, and end on a set date. Management companies have an active manager and can be open-end, the familiar mutual fund, or closed-end. Every fund has a board of directors, an investment adviser that manages the portfolio, a custodian that holds the assets, and a transfer agent that keeps the shareholder records."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0450"
+  },
+  {
+   "type": "narration",
+   "text": "Open-end mutual funds continuously issue new shares and redeem them at net asset value, which is total assets minus liabilities, divided by shares outstanding. Forward pricing means orders get the next NAV calculated after the order is received, usually at the close of trading. The public offering price is NAV plus any sales charge. Redemptions must be paid within seven days. Closed-end funds issue a fixed number of shares in an IPO and then trade on an exchange at whatever price the market sets, which can be a premium or a discount to NAV. They can use more leverage and hold less liquid securities."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0772"
+  },
+  {
+   "type": "narration",
+   "text": "Share classes differ in how they charge for sales. Class A shares have a front-end sales charge that falls at breakpoints, plus usually a small twelve b-one fee. They suit larger, long-term investments. Class B shares have a back-end, or contingent deferred, sales charge that declines over the years, plus higher twelve b-one fees. Class C shares have a level load, with a higher ongoing twelve b-one fee and usually a small back-end charge in the first year, so they suit shorter holding periods. FINRA caps sales charges at eight and a half percent of the offering price. A fund can call itself no-load only if it has no sales charge and a twelve b-one fee of no more than a quarter of one percent."
+  },
+  {
+   "type": "narration",
+   "text": "Breakpoints are the most-tested suitability issue. A breakpoint is a dollar level at which the sales charge drops. A letter of intent lets an investor get a lower charge now by promising to invest enough to reach the breakpoint within thirteen months. The letter can be backdated up to ninety days. Rights of accumulation give a lower rate once the investor's total holdings in the fund family pass a breakpoint. Breakpoint selling, meaning recommending a purchase just below a breakpoint, or splitting purchases among fund families to earn more commission, is a violation. Selling mutual funds that are about to pay a distribution, sometimes called selling dividends, is also improper, because the investor gets taxed and the NAV drops by the distribution amount."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0781"
+  },
+  {
+   "type": "narration",
+   "text": "Exchange-traded funds trade on an exchange throughout the day at market prices, which stay close to NAV because authorized participants create and redeem shares in large blocks. ETFs usually have low costs and are tax-efficient, and you can buy them on margin or sell them short. Leveraged and inverse ETFs aim for a multiple of the daily return, and they reset every day. Over longer periods, compounding can make their results drift far from the multiple of the index's return. They're generally unsuitable for buy-and-hold retail investors. Exchange-traded notes are unsecured debt of the issuing bank, so they carry the issuer's credit risk."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-1060"
+  },
+  {
+   "type": "narration",
+   "text": "Taxes on funds follow the conduit theory. A fund that distributes at least ninety percent of its net investment income avoids being taxed at the fund level, and shareholders pay the tax. Distributions are taxable even if reinvested. Capital gains distributions are long-term no matter how long the shareholder has held the fund. Exchanging between funds in the same family at NAV avoids a new sales charge, but it's still a taxable sale."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: there are three types of investment company. Open-end funds redeem at NAV and use forward pricing, while closed-end funds trade on exchanges at a premium or discount. A shares carry a front load and breakpoints, B shares a back load, and C shares a level load. The maximum sales charge is eight and a half percent. A letter of intent runs thirteen months and can be backdated ninety days. Leveraged ETFs reset daily, and ETNs carry credit risk."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Open-end fund: An investment company that continuously issues new shares and redeems shares at NAV. Closed-end fund: An investment company with a fixed number of shares sold in an IPO, which then trade in the secondary market at a premium or discount to NAV. Unit investment trust: An investment company with a fixed, unmanaged portfolio that issues redeemable units and has no board of directors. Exchange-traded fund: A fund whose shares trade on an exchange throughout the day and can be bought on margin and sold short. Forward pricing: The rule that open-end fund orders are filled at the next NAV calculated after the order is received. 12b-one fee: An annual fund fee for distribution and marketing costs, deducted from fund assets. Breakpoint: A dollar level of purchase at which a fund's front-end sales charge is reduced. Breakpoint sale: The prohibited practice of selling fund shares just below a breakpoint to earn a higher sales charge."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Open-end fund",
+   "definition": "An investment company that continuously issues new shares and redeems shares at NAV"
+  },
+  {
+   "term": "Closed-end fund",
+   "definition": "An investment company with a fixed number of shares sold in an IPO, which then trade in the secondary market at a premium or discount to NAV"
+  },
+  {
+   "term": "Unit investment trust",
+   "definition": "An investment company with a fixed, unmanaged portfolio that issues redeemable units and has no board of directors"
+  },
+  {
+   "term": "Exchange-traded fund",
+   "definition": "A fund whose shares trade on an exchange throughout the day and can be bought on margin and sold short"
+  },
+  {
+   "term": "Forward pricing",
+   "definition": "The rule that open-end fund orders are filled at the next NAV calculated after the order is received"
+  },
+  {
+   "term": "12b-1 fee",
+   "definition": "An annual fund fee for distribution and marketing costs, deducted from fund assets"
+  },
+  {
+   "term": "Breakpoint",
+   "definition": "A dollar level of purchase at which a fund's front-end sales charge is reduced"
+  },
+  {
+   "term": "Breakpoint sale",
+   "definition": "The prohibited practice of selling fund shares just below a breakpoint to earn a higher sales charge"
+  },
+  {
+   "term": "Right of accumulation",
+   "definition": "A feature that counts existing fund family holdings toward reaching a breakpoint on new purchases, with no time limit"
+  },
+  {
+   "term": "Contingent deferred sales charge",
+   "definition": "A back-end load on Class B shares that declines the longer the shares are held"
+  }
+ ],
+ "mnemonics": [
+  "A: ahead. B: back. C: constant.",
+  "Letter of intent: thirteen months, ninety days back.",
+  "No-load: no sales charge, twelve b-one at a quarter percent or less."
+ ],
+ "summary": "The 1940 Act recognizes face-amount companies, UITs and management companies (open-end and closed-end). Open-end funds are priced forward at NAV, POP = NAV + sales charge, and redemptions are paid within 7 days. Closed-end funds trade at a premium or discount. Class A has a front load and breakpoints, B a CDSC and C a level load. The maximum sales charge is 8.5%, and no-load requires a 12b-1 fee of 0.25% or less. An LOI covers 13 months and can be backdated 90 days. Rights of accumulation apply. Breakpoint selling and selling dividends are violations. ETFs trade intraday via AP creation and redemption. Leveraged and inverse ETFs reset daily and aren't for buy-and-hold. ETNs carry issuer credit risk. Conduit theory requires a 90% distribution, and fund capital gains distributions are long-term."
+}

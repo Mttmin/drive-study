@@ -1,0 +1,103 @@
+{
+ "id": "s7-4-03",
+ "exam": "S7",
+ "section": "S7-4",
+ "section_title": "Obtains and Verifies Customers' Purchase and Sales Instructions and Agreements; Processes, Completes and Confirms Transactions",
+ "title": "Market making and trade reporting",
+ "order": 3,
+ "est_minutes": 7,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "A firm can handle a customer's order in two capacities, and that choice drives how it gets paid, what it has to disclose, and which fairness rules apply. This lesson covers agency and principal trades, markups, best execution, order handling, and trade reporting."
+  },
+  {
+   "type": "narration",
+   "text": "Acting as agent, or broker, the firm finds the other side of the trade for the customer and charges a commission. Acting as principal, or dealer, the firm buys from or sells to the customer out of its own inventory, charging a markup on sales or a markdown on purchases. A firm can't act as both agent and principal in the same trade. A market maker is a dealer that stands ready to buy and sell a security at its quoted prices, which adds liquidity. A riskless principal trade happens when a firm gets a customer order, buys the security for its own account, and immediately sells it to the customer at a markup."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0923"
+  },
+  {
+   "type": "narration",
+   "text": "FINRA's fair pricing rule requires reasonable markups and commissions. FINRA's five percent policy is a guideline, not a rule. A markup above five percent may be justified, and one below five percent can still be unfair. The markup is figured from the prevailing market price, generally the best inside offer when the customer buys and the best inside bid when the customer sells, not from the firm's own cost. Relevant factors include the type of security, its availability, the price, the size of the trade, the services provided, and the firm's pattern of markups. Riskless principal trades generally justify lower markups. A proceeds transaction, selling one security and immediately using the money to buy another, is treated as one trade for markup purposes."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0925"
+  },
+  {
+   "type": "narration",
+   "text": "Best execution, under FINRA Rule fifty-three ten, requires using reasonable diligence to get the most favorable terms reasonably available for the customer. Factors include the security's market, the trade size, the number of markets checked, and the accessibility of quotes. Firms routing customer orders must review execution quality regularly. Payment for order flow is allowed but must be disclosed. Firms also publish reports on where they route orders."
+  },
+  {
+   "type": "narration",
+   "text": "Customer orders get priority over the firm's own trading. Under FINRA Rule fifty-three twenty, the Manning rule, a firm holding a customer limit order generally can't trade for its own account at a price that would satisfy that order without executing the customer's order. Front-running a large customer order is prohibited. Under SEC Regulation NMS, market makers must display customer limit orders that improve their quotes. Firms can't interposition, which means inserting an unnecessary third party between the customer and the best market."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0927"
+  },
+  {
+   "type": "narration",
+   "text": "Trade reporting creates transparency. Over-the-counter trades in exchange-listed stocks are reported to a FINRA trade reporting facility, and OTC equity trades in unlisted stocks go to FINRA's reporting systems too. Corporate and agency bond trades are reported to TRACE, the Trade Reporting and Compliance Engine. Municipal trades are reported to the MSRB's Real-time Transaction Reporting System, which publishes them on EMMA. These reports must be filed within short deadlines, and prices are made public so investors can judge fair value. The Consolidated Audit Trail tracks orders through their whole life across markets, so regulators can rebuild events."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0929"
+  },
+  {
+   "type": "narration",
+   "text": "OTC equity securities are quoted on interdealer systems like OTC Link. Before a dealer can start quoting a security there, SEC Rule fifteen c two dash eleven requires it to review current, publicly available information about the issuer. Market makers in OTC equities must honor their quotes, and locked or crossed markets must be avoided."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: agents earn commissions, and principals earn markups or markdowns, never both in one trade. The five percent policy is a guideline based on the prevailing market price. Best execution needs reasonable diligence. Under the Manning rule, customer limit orders come first. Equities report to a TRF, corporate bonds to TRACE, and munis to RTRS. Fifteen c two dash eleven requires information before quoting."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. TRACE: FINRA's system for reporting over-the-counter trades in corporate and agency bonds and certain other debt. RTRS: The MSRB's real-time transaction reporting system for municipal securities trades. EMMA: The MSRB website that publishes municipal trade prices and disclosure documents for free. Trade reporting facility: A FINRA facility for reporting off-exchange trades in exchange-listed stocks. Designated market maker: The NYSE member responsible for maintaining a fair and orderly market in assigned stocks. Market-wide circuit breaker: A trading halt across all markets triggered by large declines in the S and P five hundred, at levels of seven, thirteen and twenty percent. Principal transaction: A trade in which the firm buys from or sells to the customer from its own inventory, charging a markup or markdown. Agency transaction: A trade in which the firm acts as broker between buyer and seller, charging a commission."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "TRACE",
+   "definition": "FINRA's system for reporting over-the-counter trades in corporate and agency bonds and certain other debt"
+  },
+  {
+   "term": "RTRS",
+   "definition": "The MSRB's real-time transaction reporting system for municipal securities trades"
+  },
+  {
+   "term": "EMMA",
+   "definition": "The MSRB website that publishes municipal trade prices and disclosure documents for free"
+  },
+  {
+   "term": "Trade reporting facility",
+   "definition": "A FINRA facility for reporting off-exchange trades in exchange-listed stocks"
+  },
+  {
+   "term": "Designated market maker",
+   "definition": "The NYSE member responsible for maintaining a fair and orderly market in assigned stocks"
+  },
+  {
+   "term": "Market-wide circuit breaker",
+   "definition": "A trading halt across all markets triggered by large declines in the S and P 500, at levels of 7, 13 and 20 percent"
+  },
+  {
+   "term": "Principal transaction",
+   "definition": "A trade in which the firm buys from or sells to the customer from its own inventory, charging a markup or markdown"
+  },
+  {
+   "term": "Agency transaction",
+   "definition": "A trade in which the firm acts as broker between buyer and seller, charging a commission"
+  }
+ ],
+ "mnemonics": [
+  "Agent: commission. Principal: markup.",
+  "Five percent: guideline, not rule, from the prevailing market.",
+  "Bonds: TRACE. Munis: RTRS."
+ ],
+ "summary": "As agent, a firm charges a commission. As principal, a markup or markdown, never both in one trade. Riskless principal trades justify lower markups. FINRA's 5% policy is a guideline measured from the prevailing market price, and proceeds transactions are treated as one trade. Best execution (Rule 5310) requires reasonable diligence and regular review, and PFOF must be disclosed. The Manning rule (5320) protects customer limit orders. Front-running and interpositioning are prohibited. Reporting: OTC equities go to a TRF, corporate and agency bonds to TRACE, munis to RTRS/EMMA, and orders to CAT. Rule 15c2-11 requires current information before quoting."
+}

@@ -1,0 +1,134 @@
+{
+  "id": "sie-3-12",
+  "exam": "SIE",
+  "section": "SIE-3",
+  "section_title": "Understanding Trading, Customer Accounts and Prohibited Activities",
+  "title": "Other Prohibited Activities",
+  "order": 12,
+  "est_minutes": 6,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "We finish the section with a grab bag of prohibited and restricted activities that show up regularly on the SIE: IPO restrictions under Rules fifty-one thirty and fifty-one thirty-one, borrowing and lending with customers, guarantees and sharing in accounts, protecting senior and vulnerable customers, paying unregistered persons, and falsifying records."
+    },
+    {
+      "type": "narration",
+      "text": "Rule fifty-one thirty protects public access to new equity issues by restricting who can buy them. Restricted persons include broker-dealers and their employees, finders and fiduciaries involved in the offering, portfolio managers buying for their own accounts, ten percent owners of broker-dealers, and certain immediate family members of industry personnel. A family member is restricted if the two give or receive material support, and sharing a household counts as material support. A family member is also restricted if they'd buy through the industry person's own firm, or if the industry person can influence the allocation. An account can still buy if restricted persons together hold ten percent or less of it, which is the de minimis exemption. Firms must get a written representation of eligibility, generally within twelve months before the sale. Rule fifty-one thirty-one separately bans spinning, giving hot I P O shares to executives in exchange for investment banking business."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0093"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0590"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0591"
+    },
+    {
+      "type": "narration",
+      "text": "Borrowing and lending. Under FINRA Rule thirty-two forty, reps generally may not borrow from or lend to customers, unless the firm's written procedures allow it and the customer falls into a permitted category: an immediate family member, a financial institution in the business of lending, another registered person at the same firm, or someone with a personal or outside business relationship. Firm notification and approval may be required."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0592"
+    },
+    {
+      "type": "narration",
+      "text": "Guarantees and sharing. Under Rule twenty-one fifty, guaranteeing a customer against loss is prohibited, period. A rep may share in the profits and losses of a customer account only with prior written approval from the firm and the customer, and the share must be proportional to the rep's own financial contribution. That proportionality rule doesn't apply to accounts shared with immediate family. And never use customer funds or securities for yourself. That's conversion, one of the most serious violations."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0094"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0593"
+    },
+    {
+      "type": "narration",
+      "text": "Protecting senior and vulnerable investors. Under FINRA Rule forty-five twelve, firms must make a reasonable effort to obtain the name and contact information of a trusted contact person for non-institutional accounts. The account can be opened without one, and the trusted contact has no authority to trade. Under Rule twenty-one sixty-five, a specified adult is someone sixty-five or older, or eighteen or older with an impairment that keeps them from protecting their own interests. If a firm reasonably believes such a customer is being financially exploited, it may place a temporary hold on a disbursement or transaction, initially up to fifteen business days, extendable by up to ten more, and longer in limited circumstances such as a report to a state agency or court. The firm must notify the trusted contact and authorized parties, unless they're suspected."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0095"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0595"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0597"
+    },
+    {
+      "type": "narration",
+      "text": "Paying unregistered persons. Rule twenty forty generally prohibits paying transaction-based compensation, like referral fees per account or per trade, to anyone who isn't registered. A narrow exception allows continuing commissions to retired reps under certain conditions."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0598"
+    },
+    {
+      "type": "narration",
+      "text": "Falsifying records. Signing a customer's name, even with their verbal permission, is a signature of convenience and is prohibited. So are altering documents, backdating, and entering false information on account forms or order tickets. These violate FINRA's books and records rule and its standards of commercial honor, and they commonly lead to bars."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0599"
+    },
+    {
+      "type": "narration",
+      "text": "Why so many rules here? Each one targets a situation where a rep's personal interest could quietly overtake the customer's. Hot I P O shares are valuable, so the rules keep them flowing to the public instead of to insiders. Loans and shared accounts blur the line between the rep's money and the customer's. Guarantees hide risk and can lure customers into unsuitable products. Holds and trusted contacts give firms a way to pause when an older customer may be in danger. When an exam question describes an unusual arrangement between a rep and a customer, ask whether it's documented, approved by the firm, and fair to the customer."
+    },
+    {
+      "type": "narration",
+      "text": "A scenario. A rep's sister lives with him and works as a nurse. She wants to buy shares in a hot I P O through his firm. Because she's his immediate family member and lives in his household, she's a restricted person under Rule fifty-one thirty, so she can't buy the new issue. If she instead lent him money for a car, Rule thirty-two forty would permit it as an immediate family loan, as long as firm procedures allow."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Rule fifty-one thirty restricts industry insiders and their families from equity I P Os, with a ten percent de minimis exemption, and Rule fifty-one thirty-one bans spinning. Customer loans need a permitted relationship and firm procedures. Guarantees are banned, and sharing requires written approval and proportional shares. Get trusted contacts, and use temporary holds of fifteen plus ten business days for specified adults. Never pay unregistered persons or sign for customers."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Restricted person (Rule 5130)",
+      "definition": "BD personnel, certain fiduciaries, portfolio managers, 10% BD owners and their supported family."
+    },
+    {
+      "term": "De minimis exemption",
+      "definition": "Restricted persons hold 10% or less of an account."
+    },
+    {
+      "term": "Spinning (Rule 5131)",
+      "definition": "IPO allocations to executives in exchange for banking business."
+    },
+    {
+      "term": "Rule 3240",
+      "definition": "Borrowing and lending with customers only in permitted relationships."
+    },
+    {
+      "term": "Rule 2150",
+      "definition": "No guarantees; sharing requires written approval and proportional shares."
+    },
+    {
+      "term": "Specified adult",
+      "definition": "65 or older, or 18+ with an impairment."
+    },
+    {
+      "term": "Temporary hold (Rule 2165)",
+      "definition": "Up to 15 business days, plus 10 more, longer in limited cases."
+    },
+    {
+      "term": "Signature of convenience",
+      "definition": "Signing for a customer; prohibited."
+    }
+  ],
+  "mnemonics": [
+    "IPO rule: insiders out, public in.",
+    "Share by the Same proportion, Guarantee never."
+  ],
+  "summary": "Rule 5130 restricts industry insiders and their supported family members from equity IPOs, with a 10% de minimis exemption, and Rule 5131 bans spinning. Customer loans need a permitted relationship, guarantees are banned, and account sharing must be approved and proportional. Firms seek trusted contacts and may hold disbursements for specified adults. Paying unregistered persons and signatures of convenience are prohibited."
+}

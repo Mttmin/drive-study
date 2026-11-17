@@ -1,0 +1,126 @@
+{
+  "id": "sie-3-02",
+  "exam": "SIE",
+  "section": "SIE-3",
+  "section_title": "Understanding Trading, Customer Accounts and Prohibited Activities",
+  "title": "Investment Returns",
+  "order": 2,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "How do investors actually make money, and how is it measured and taxed? This lesson covers income from interest and dividends, the key dividend dates, realized and unrealized gains, yield and total return, basis points, cost basis, and benchmarks. Several of these come up as quick math on the exam, so we'll talk through the numbers."
+    },
+    {
+      "type": "narration",
+      "text": "Investors earn returns in two ways: income and price change. Income is interest from bonds and dividends from stocks. Price change is a capital gain or loss. A gain is unrealized, or a paper gain, while you still hold the security, and it isn't taxed. It becomes realized when you sell. Realized gains on securities held more than one year are long-term and taxed at lower capital gains rates. One year or less is short-term, taxed as ordinary income."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0460"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0461"
+    },
+    {
+      "type": "narration",
+      "text": "Losses help too. Capital losses first offset capital gains. If losses exceed gains, up to three thousand dollars a year can offset ordinary income, and the rest carries forward to future years. But watch the wash sale rule: if you sell at a loss and buy the same or a substantially identical security within thirty days before or after the sale, the loss is disallowed for now and added to the cost basis of the new shares."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0463"
+    },
+    {
+      "type": "narration",
+      "text": "Cost basis is what you paid, including commissions, and it's what you subtract from the sale price to find your gain. Two special cases. Inherited securities generally get a step-up in basis to their value on the date of death. Gifted securities that have gained value keep the donor's original basis, which is called carryover basis. So if Grandpa gives you stock he bought at twenty that's now worth fifty, your basis is twenty. If you inherit it instead, your basis is the value when he died."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0464"
+    },
+    {
+      "type": "narration",
+      "text": "Now dividends. Cash dividends are declared by the board. Qualified dividends from most U.S. companies are taxed at the lower long-term capital gains rates, while non-qualified dividends, like most REIT dividends, are taxed as ordinary income. Four dates matter. The declaration date is when the board announces the dividend. The record date is when you must be on the books as a shareholder. The ex-dividend date is the first day the stock trades without the dividend. And the payable date is when the money goes out. With T plus one settlement, you have to buy before the ex-date to get the dividend, and for regular cash dividends, the ex-date and record date are the same day. On the ex-date, the stock price typically drops by about the amount of the dividend."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0068"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0469"
+    },
+    {
+      "type": "narration",
+      "text": "Now yields and returns. Current yield for a stock is the annual dividend divided by the price. A stock at sixty-four paying forty-eight cents a quarter pays a dollar ninety-two a year, so its current yield is three percent. If the price rises and the dividend doesn't change, the yield falls. Total return adds income and price change, then divides by the starting price. Buy at fifty, collect two in dividends, and end at fifty-three: that's five dollars on fifty, a ten percent total return. Real return is the return after inflation, roughly the nominal return minus the inflation rate."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0069"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0459"
+    },
+    {
+      "type": "narration",
+      "text": "Basis points measure small changes in yields. One basis point is one hundredth of a percent, so one percent equals one hundred basis points. If a yield moves from four point two five to four point six zero, that's thirty-five basis points."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0070"
+    },
+    {
+      "type": "narration",
+      "text": "Finally, benchmarks. To judge performance, compare an investment to an index of similar securities. A large-cap U.S. stock fund should be compared to an index like the S and P five hundred, not to a bond index. Beating the right benchmark after fees is how investors decide whether a manager added value."
+    },
+    {
+      "type": "narration",
+      "text": "Here's a scenario that pulls it together. A customer bought a stock at forty dollars two years ago. It's now at fifty, and it paid a dollar in dividends last year. She asks what she's made. Her unrealized gain is ten dollars a share, not yet taxed. If she sells, it's a long-term gain because she held it more than a year. Last year's dividend was probably qualified and taxed at the lower rate. And if she sells another stock at a loss to offset the gain, she should wait more than thirty days before buying it back to avoid a wash sale."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Returns come from income and price change. Gains are unrealized until sold, and long-term means more than a year. Losses offset gains, then up to three thousand dollars of ordinary income. The wash sale window is thirty days on either side. Inheritances step up, and gifts carry over basis. Know the four dividend dates, and that with T plus one, ex-date equals record date. Total return equals income plus price change over the starting price. One basis point is a hundredth of a percent."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Realized gain",
+      "definition": "A gain locked in by selling; taxable."
+    },
+    {
+      "term": "Long-term capital gain",
+      "definition": "Held more than one year; lower tax rates."
+    },
+    {
+      "term": "Wash sale",
+      "definition": "Loss disallowed if the same security is bought within 30 days before or after."
+    },
+    {
+      "term": "Step-up in basis",
+      "definition": "Inherited assets take the value at date of death."
+    },
+    {
+      "term": "Carryover basis",
+      "definition": "Gifted appreciated assets keep the donor's basis."
+    },
+    {
+      "term": "Record date",
+      "definition": "Date you must be a holder of record to get the dividend."
+    },
+    {
+      "term": "Ex-dividend date",
+      "definition": "First day the stock trades without the dividend; equals record date under T+1."
+    },
+    {
+      "term": "Total return",
+      "definition": "Income plus price change, divided by the starting price."
+    }
+  ],
+  "mnemonics": [
+    "Dividend dates in order: Declare, Ex and Record together, then Pay: D-E-R-P.",
+    "Inherit steps up; gift carries over."
+  ],
+  "summary": "Returns come from income and price changes. Gains are taxed when realized, at lower rates after one year. Losses offset gains and up to $3,000 of income, subject to the 30-day wash sale rule. Know step-up versus carryover basis, the dividend dates under T+1, current yield, total return and basis points."
+}

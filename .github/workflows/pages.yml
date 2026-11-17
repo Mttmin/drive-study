@@ -41,7 +41,7 @@ jobs:
         run: |
           cargo test -p drive-study-core
           cargo run -p drive-study-core --bin validate-content
-          python3 content/validate.py
+          python3 content/validate.py --strict
 
       - name: Build the WASM app
         working-directory: app

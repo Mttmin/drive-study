@@ -1,0 +1,111 @@
+{
+ "id": "s7-3-11",
+ "exam": "S7",
+ "section": "S7-3",
+ "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+ "title": "Treasuries, agencies and ABS",
+ "order": 11,
+ "est_minutes": 8,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "U.S. government securities are the benchmark for safety, but safety from default isn't safety from price changes. This lesson covers Treasuries, agency securities, and the mortgage- and asset-backed securities that make up a big part of the bond market."
+  },
+  {
+   "type": "narration",
+   "text": "Treasury bills are short-term, with maturities up to fifty-two weeks. They're sold at a discount and mature at face value, and their yield is quoted on a discount basis. Treasury notes run from two to ten years, Treasury bonds run twenty or thirty years, and both pay interest every six months. Treasuries are sold at auction. Competitive bidders state a yield and may not be filled. Noncompetitive bidders accept the auction's yield and are guaranteed a fill up to a limit, which is how most individuals buy. Interest on Treasuries is subject to federal income tax but exempt from state and local income taxes."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0058"
+  },
+  {
+   "type": "narration",
+   "text": "Treasury Inflation-Protected Securities, called TIPS, adjust their principal with the consumer price index. The fixed coupon rate is applied to the adjusted principal, so interest payments rise with inflation. At maturity, the investor gets the greater of the adjusted principal or the original par. The catch: the yearly principal increase is taxable even though it isn't paid until maturity, so TIPS also fit well in tax-deferred accounts. Treasury STRIPS are zero coupon securities made by separating a Treasury's interest and principal payments. They suit investors who need a set amount on a set date, and they carry the phantom income issue."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0706"
+  },
+  {
+   "type": "narration",
+   "text": "Agency securities come from government agencies and government-sponsored enterprises. GNMA, Ginnie Mae, is a government agency, so its securities carry the full faith and credit of the United States. Fannie Mae and Freddie Mac are government-sponsored enterprises. They're publicly traded companies that have been in federal conservatorship since two thousand eight, and their securities aren't directly backed by the U.S. government. Agency yields are generally a little higher than Treasuries. Interest from most agency debt is fully taxable, though some, like Federal Home Loan Bank and Farm Credit debt, is exempt from state tax."
+  },
+  {
+   "type": "narration",
+   "text": "Mortgage pass-through certificates pass homeowners' monthly mortgage payments, both interest and principal, through to investors. The key risk is prepayment. When rates fall, homeowners refinance and investors get their principal back early, which they have to reinvest at lower rates. That's prepayment risk. When rates rise, prepayments slow and the investor's money is tied up longer at below-market rates. That's extension risk. Because of this, mortgage securities are quoted with an average life based on prepayment assumptions, not a fixed maturity."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0711"
+  },
+  {
+   "type": "narration",
+   "text": "Collateralized mortgage obligations, or CMOs, repackage mortgage cash flows into tranches with different maturities and priorities. A planned amortization class, or PAC, tranche has the most predictable payments because companion tranches absorb prepayment changes. A targeted amortization class, or TAC, protects against prepayment risk but not extension risk. Companion tranches carry the most risk and pay the highest yields. A Z tranche accrues interest and gets no cash until earlier tranches are retired, which makes it act like a zero coupon. CMOs pay monthly and are fully taxable, and as you learned earlier, they can't be compared to any other investment in communications."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0717"
+  },
+  {
+   "type": "narration",
+   "text": "Asset-backed securities work the same way using other loans: auto loans, credit card balances, student loans, or equipment leases. Their risks include prepayment, credit losses in the underlying loans, and complexity. Firms should make sure customers understand these products before recommending them."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: bills are discount securities out to fifty-two weeks, notes run two to ten years, and bonds run twenty to thirty. Treasury interest is exempt from state tax. TIPS adjust with inflation, and the adjustment is taxable. Ginnie Mae has full faith and credit, while Fannie and Freddie don't. Falling rates mean prepayment risk, and rising rates mean extension risk. A PAC is the most stable, a companion is the least, and a Z tranche accrues."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Treasury bill: A short-term Treasury security issued at a discount with maturities of one year or less. Treasury note: A Treasury security paying semiannual interest with maturities of two to ten years. Treasury bond: A Treasury security paying semiannual interest with maturities longer than ten years, up to thirty years. STRIPS: Zero-coupon securities created by separating the interest and principal payments of Treasury notes and bonds. TIPS: Treasury securities whose principal is adjusted for inflation by the CPI, with a fixed coupon rate applied to the adjusted principal. Ginnie Mae: The government agency whose mortgage-backed pass-through securities carry the full faith and credit of the U.S. government. Fannie Mae: A publicly traded government-sponsored enterprise that buys mortgages and issues pass-through securities without an explicit federal guarantee. Freddie Mac: A government-sponsored enterprise that buys conventional mortgages from lenders and issues participation certificates."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Treasury bill",
+   "definition": "A short-term Treasury security issued at a discount with maturities of one year or less"
+  },
+  {
+   "term": "Treasury note",
+   "definition": "A Treasury security paying semiannual interest with maturities of 2 to 10 years"
+  },
+  {
+   "term": "Treasury bond",
+   "definition": "A Treasury security paying semiannual interest with maturities longer than 10 years, up to 30 years"
+  },
+  {
+   "term": "STRIPS",
+   "definition": "Zero-coupon securities created by separating the interest and principal payments of Treasury notes and bonds"
+  },
+  {
+   "term": "TIPS",
+   "definition": "Treasury securities whose principal is adjusted for inflation by the CPI, with a fixed coupon rate applied to the adjusted principal"
+  },
+  {
+   "term": "Ginnie Mae",
+   "definition": "The government agency whose mortgage-backed pass-through securities carry the full faith and credit of the U.S. government"
+  },
+  {
+   "term": "Fannie Mae",
+   "definition": "A publicly traded government-sponsored enterprise that buys mortgages and issues pass-through securities without an explicit federal guarantee"
+  },
+  {
+   "term": "Freddie Mac",
+   "definition": "A government-sponsored enterprise that buys conventional mortgages from lenders and issues participation certificates"
+  },
+  {
+   "term": "Pass-through certificate",
+   "definition": "A mortgage-backed security that passes monthly interest and principal from a mortgage pool to investors"
+  },
+  {
+   "term": "Prepayment risk",
+   "definition": "The risk that falling interest rates lead homeowners to refinance, returning principal early"
+  }
+ ],
+ "mnemonics": [
+  "Ginnie is a government agency; Fannie and Freddie are GSEs.",
+  "Rates fall: prepay. Rates rise: extend.",
+  "PAC protects both ways; TAC protects one; companion takes the hit."
+ ],
+ "summary": "T-bills (up to 52 weeks) are sold at a discount. Notes run 2–10 years and bonds 20–30 years, paying semiannually. Treasuries are auctioned competitively and noncompetitively and are exempt from state and local tax. TIPS adjust principal with CPI, and the adjustment is taxable annually. STRIPS are zeros. GNMA carries full faith and credit, while FNMA and FHLMC are GSEs in conservatorship without a direct guarantee. Pass-throughs pay monthly and carry prepayment risk when rates fall and extension risk when rates rise. CMO tranches: a PAC has the most certainty, a TAC protects against prepayment only, companions carry the most risk and Z-tranches accrue. ABS is backed by autos, cards and student loans."
+}

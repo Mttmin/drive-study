@@ -1,0 +1,111 @@
+{
+ "id": "s7-3-18",
+ "exam": "S7",
+ "section": "S7-3",
+ "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+ "title": "Portfolio theory and market analysis",
+ "order": 18,
+ "est_minutes": 8,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "This lesson connects individual securities to the bigger picture: how portfolios are built, how risk and return are measured, and how analysts judge companies and markets."
+  },
+  {
+   "type": "narration",
+   "text": "Modern portfolio theory says investors should look at risk and return for the whole portfolio, not for each security on its own. Combining assets that don't move together reduces risk without giving up much return. Correlation measures how two assets move, from plus one, perfectly together, to minus one, perfectly opposite. The efficient frontier is the set of portfolios that offer the highest expected return for each level of risk. Diversification lowers unsystematic risk, the risk specific to one company or industry. It can't remove systematic risk, which is market risk."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0437"
+  },
+  {
+   "type": "narration",
+   "text": "Risk is measured several ways. Standard deviation measures how much returns vary around their average. Beta measures a security's volatility relative to the market. A beta of one moves with the market, a beta of one and a half moves about fifty percent more, and a beta below one moves less. Alpha is the return above what the beta would predict, which is often credited to the manager's skill. The Sharpe ratio is the return above the risk-free rate, divided by standard deviation. It shows return per unit of risk, so higher is better. The capital asset pricing model says the expected return equals the risk-free rate plus beta times the market's risk premium."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0841"
+  },
+  {
+   "type": "narration",
+   "text": "Asset allocation decides how much goes into stocks, bonds, and cash. Strategic allocation sets long-term targets based on the customer's profile and rebalances back to them periodically. Tactical allocation shifts the mix in the short term to take advantage of market conditions. Rebalancing sells some of what has grown and buys what has lagged, which keeps risk in line. Dollar-cost averaging invests a fixed dollar amount at regular intervals. Because you buy more shares when prices are low, your average cost per share is lower than the average price over the same period. It doesn't guarantee a profit or protect against losses. Passive strategies track an index at low cost, while active strategies try to beat it. Growth investors pay up for fast-growing earnings, and value investors look for low prices relative to earnings or book value."
+  },
+  {
+   "type": "narration",
+   "text": "Fundamental analysis studies a company's financial statements and its industry to estimate its value. On the balance sheet, assets equal liabilities plus shareholders' equity. Working capital is current assets minus current liabilities. The current ratio is current assets over current liabilities, and the quick ratio, or acid test, leaves out inventory. Book value per share is roughly equity, minus preferred, divided by common shares. From the income statement, earnings per share is net income minus preferred dividends, divided by common shares. The price-to-earnings ratio is the price divided by EPS. The dividend payout ratio is dividends per share divided by EPS, and the current yield on a stock is the annual dividend divided by the price."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0857"
+  },
+  {
+   "type": "narration",
+   "text": "Technical analysis studies price and volume patterns, not company fundamentals. Support is a price level where buyers tend to step in, and resistance is a level where sellers tend to appear. A breakout through either level signals a new trend. A head and shoulders top signals a reversal from up to down. An inverted head and shoulders signals the opposite. Moving averages smooth out price changes, and the advance-decline line measures how broad a market move is. Some indicators are contrarian. High short interest can be bullish, because short sellers will eventually have to buy, and the old odd-lot theory assumed small investors usually get the timing wrong."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-1054"
+  },
+  {
+   "type": "narration",
+   "text": "Economic analysis looks at the business cycle: expansion, peak, contraction, and trough. Gross domestic product measures output, and two quarters of falling GDP is the common shorthand for a recession. Leading indicators include building permits, stock prices, new manufacturing orders, and the average workweek. Coincident indicators include industrial production, personal income, and payrolls. Lagging indicators include the average duration of unemployment and the prime rate. The Federal Reserve sets monetary policy. Its main tool is open market operations, buying and selling Treasuries. It also uses the discount rate and interest on reserve balances. Fiscal policy, which is taxes and spending, belongs to Congress and the President. Defensive industries, like utilities and consumer staples, hold up in recessions, while cyclical industries, like autos and travel, swing with the economy."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: diversify to cut unsystematic risk, and remember that systematic risk remains. Beta of one equals the market, and alpha is excess return. The Sharpe ratio is return per unit of risk. Dollar-cost averaging lowers average cost. Fundamental analysts read financial statements, and technical analysts read charts. Leading indicators include permits, stock prices, and new orders. The Fed's main tool is open market operations."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Alpha: The return of a portfolio above or below what its beta would predict. Beta: A measure of a security's volatility relative to the overall market. Capital Asset Pricing Model: A model that sets expected return equal to the risk-free rate plus beta times the market risk premium. Strategic asset allocation: Setting long-term target percentages for asset classes and periodically rebalancing back to them. Tactical asset allocation: Short-term shifts away from target allocations to take advantage of market conditions. Support level: A price at which buying interest tends to stop a decline. Resistance level: A price at which selling pressure tends to stop an advance. Breakout: A price move through support or resistance, which technicians treat as the start of a new trend."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Alpha",
+   "definition": "The return of a portfolio above or below what its beta would predict"
+  },
+  {
+   "term": "Beta",
+   "definition": "A measure of a security's volatility relative to the overall market"
+  },
+  {
+   "term": "Capital Asset Pricing Model",
+   "definition": "A model that sets expected return equal to the risk-free rate plus beta times the market risk premium"
+  },
+  {
+   "term": "Strategic asset allocation",
+   "definition": "Setting long-term target percentages for asset classes and periodically rebalancing back to them"
+  },
+  {
+   "term": "Tactical asset allocation",
+   "definition": "Short-term shifts away from target allocations to take advantage of market conditions"
+  },
+  {
+   "term": "Support level",
+   "definition": "A price at which buying interest tends to stop a decline"
+  },
+  {
+   "term": "Resistance level",
+   "definition": "A price at which selling pressure tends to stop an advance"
+  },
+  {
+   "term": "Breakout",
+   "definition": "A price move through support or resistance, which technicians treat as the start of a new trend"
+  },
+  {
+   "term": "Moving average",
+   "definition": "The average price over a set number of days, recalculated daily to smooth out short-term swings"
+  },
+  {
+   "term": "Saucer pattern",
+   "definition": "A rounded bottom chart pattern signaling a bullish reversal"
+  }
+ ],
+ "mnemonics": [
+  "Beta: volatility relative to the market. Alpha: extra return.",
+  "Leading: permits, prices, orders. Lagging: unemployment duration, prime rate.",
+  "Quick ratio leaves out inventory."
+ ],
+ "summary": "MPT combines low-correlation assets, and the efficient frontier maximizes return per unit of risk. Diversification cuts unsystematic risk, not systematic risk. Standard deviation measures variability, beta measures market-relative volatility (1 = market) and alpha measures excess return. Sharpe = (return − risk-free) ÷ SD. CAPM = Rf + β(Rm − Rf). Strategic allocation means long-term targets with rebalancing, while tactical allocation means short-term shifts. Dollar-cost averaging lowers the average cost below the average price. Fundamental ratios: current, quick (excluding inventory), EPS, P/E, book value per share and payout ratio. Technical tools: support, resistance, head and shoulders, moving averages, A/D line and contrarian short interest. Leading, coincident and lagging indicators. The Fed's main tool is open market operations, and fiscal policy belongs to Congress."
+}

@@ -1,0 +1,103 @@
+{
+ "id": "s7-1-01",
+ "exam": "S7",
+ "section": "S7-1",
+ "section_title": "Seeks Business for the Broker-Dealer from Customers and Potential Customers",
+ "title": "Communications with the public",
+ "order": 1,
+ "est_minutes": 6,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Function one of the Series 7 is about seeking business: prospecting, advertising, and the rules that govern what you say to the public. It's only about seven percent of the exam, but the questions are very rule-driven, so they're easy points if you know the categories. This lesson covers FINRA Rule twenty-two ten, the master rule for communications, plus the gift rule."
+  },
+  {
+   "type": "narration",
+   "text": "Twenty-two ten sorts every written communication into one of three buckets based on the audience. A retail communication is anything written that is distributed or made available to more than twenty-five retail investors within any thirty-calendar-day period. Websites, mass emails, newsletters, and most social media posts fall here. Correspondence is any written communication sent to twenty-five or fewer retail investors within thirty calendar days. An institutional communication goes only to institutional investors, such as banks, insurance companies, registered investment companies, and persons with at least fifty million dollars in total assets, and it excludes the firm's internal communications."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0471"
+  },
+  {
+   "type": "narration",
+   "text": "Retail investor has a broad definition: anyone who isn't an institutional investor, whether or not the person has an account. So a mailing to five hundred prospects is a retail communication even if none of them are customers yet."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0475"
+  },
+  {
+   "type": "narration",
+   "text": "Approval rules follow the buckets. A retail communication generally needs approval by a qualified registered principal before use, or before filing with FINRA if filing is required. Correspondence and institutional communications don't need prior principal approval. Instead, they're covered by the firm's written supervisory procedures, which usually means review after the fact, by sampling or by keyword screening. A new member firm has an extra filing duty: during its first year, it must file retail communications with FINRA at least ten business days before first use."
+  },
+  {
+   "type": "narration",
+   "text": "Content standards apply to every bucket. Communications must be fair and balanced, give a sound basis for evaluating the facts, and cannot include false, exaggerated, or misleading claims. They can't promise specific results or project future performance, except in narrow cases like hypothetical illustrations of mathematical principles. Testimonials must say they may not represent other customers' experience and aren't a guarantee, and they must disclose if more than one hundred dollars was paid. Recommendations must have a reasonable basis and disclose material conflicts."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0479"
+  },
+  {
+   "type": "narration",
+   "text": "Public appearances are a separate category. These include seminars, webinars, forums, and radio or television interviews. Speaking unscripted in public isn't a written communication, so it doesn't need prior approval. The same fair and balanced standards still apply. Any slides, scripts, or handouts you prepare are communications in their own right, and a script read to a retail audience is treated as a retail communication."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0940"
+  },
+  {
+   "type": "narration",
+   "text": "Now the gift rule, FINRA Rule thirty-two twenty, which changed recently. Effective March thirtieth, twenty twenty-six, the limit on gifts to an employee of another firm, in relation to that employee's business, rose from one hundred dollars to three hundred dollars per person per year. The rule also now says plainly that it doesn't apply to gifts to individual retail customers. Business entertainment, where you attend with the client, is treated separately: it has to be reasonable and follow firm policy, but it isn't capped by the gift limit. If you hand over tickets and don't go yourself, those tickets are a gift. Older study materials still say one hundred dollars, so be careful."
+  },
+  {
+   "type": "narration",
+   "text": "To pull it together: count the retail investors and the days. More than twenty-five in thirty days is a retail communication, which needs principal approval first. Twenty-five or fewer is correspondence, which is supervised but not pre-approved. Institutional communications are supervised but not pre-approved either. Everything must be fair and balanced. And the gift limit is now three hundred dollars per person per year."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Retail communication: Any written communication distributed or made available to more than twenty-five retail investors within any thirty-calendar-day period. Correspondence: Any written communication distributed to twenty-five or fewer retail investors within any thirty-calendar-day period. Institutional communication: A written communication distributed only to institutional investors, which needs supervisory procedures but not prior principal approval. Retail investor: Under FINRA's communications rule, any person other than an institutional investor, whether or not the person has an account. Public appearance: Participation in a seminar, webinar, forum, interview or other public speaking activity, which is not itself a written communication. Testimonial: A statement by a customer or other person about their experience with a firm or representative, which must disclose if more than one hundred dollars was paid for it. New member filing requirement: A requirement that a new firm file retail communications with FINRA at least ten business days before first use during its first year. Independently prepared reprint: An article issued by an unaffiliated publisher that a firm redistributes, which is treated as a retail communication."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Retail communication",
+   "definition": "Any written communication distributed or made available to more than 25 retail investors within any 30-calendar-day period"
+  },
+  {
+   "term": "Correspondence",
+   "definition": "Any written communication distributed to 25 or fewer retail investors within any 30-calendar-day period"
+  },
+  {
+   "term": "Institutional communication",
+   "definition": "A written communication distributed only to institutional investors, which needs supervisory procedures but not prior principal approval"
+  },
+  {
+   "term": "Retail investor",
+   "definition": "Under FINRA's communications rule, any person other than an institutional investor, whether or not the person has an account"
+  },
+  {
+   "term": "Public appearance",
+   "definition": "Participation in a seminar, webinar, forum, interview or other public speaking activity, which is not itself a written communication"
+  },
+  {
+   "term": "Testimonial",
+   "definition": "A statement by a customer or other person about their experience with a firm or representative, which must disclose if more than 100 dollars was paid for it"
+  },
+  {
+   "term": "New member filing requirement",
+   "definition": "A requirement that a new firm file retail communications with FINRA at least 10 business days before first use during its first year"
+  },
+  {
+   "term": "Independently prepared reprint",
+   "definition": "An article issued by an unaffiliated publisher that a firm redistributes, which is treated as a retail communication"
+  }
+ ],
+ "mnemonics": [
+  "Twenty-five in thirty: correspondence. More: retail.",
+  "Retail gets pre-approved; correspondence and institutional get supervised.",
+  "Gift limit: three hundred a year, since March twenty twenty-six."
+ ],
+ "summary": "FINRA Rule 2210 has three categories. Retail communications go to more than 25 retail investors in 30 days and need prior principal approval. Correspondence goes to 25 or fewer. Institutional communications go only to institutional investors. Correspondence and institutional communications are supervised but not pre-approved. New firms file retail communications 10 business days before use during their first year. Content must be fair and balanced, with no promises or unwarranted projections. The Rule 3220 gift limit is $300 per person per year (effective March 30, 2026) and doesn't apply to gifts to individual retail customers."
+}

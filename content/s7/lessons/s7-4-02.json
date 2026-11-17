@@ -1,0 +1,111 @@
+{
+ "id": "s7-4-02",
+ "exam": "S7",
+ "section": "S7-4",
+ "section_title": "Obtains and Verifies Customers' Purchase and Sales Instructions and Agreements; Processes, Completes and Confirms Transactions",
+ "title": "Processing, settlement and good delivery",
+ "order": 2,
+ "est_minutes": 7,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Once an order executes, the trade has to clear and settle. This lesson covers settlement dates, payment rules for cash accounts, good delivery, and what happens when something goes wrong in the back office."
+  },
+  {
+   "type": "narration",
+   "text": "Regular-way settlement for stocks, corporate bonds, municipal bonds, and options trades is T plus one, one business day after the trade date. That has been true for stocks and bonds since May twenty-eighth, twenty twenty-four. Treasury securities generally also settle T plus one. Cash settlement means the trade settles the same day, often used near year-end for tax purposes. Seller's option settlement lets the seller deliver on a later date stated in the contract. When-issued trades happen before the security is actually issued and settle on a date set once it is. Because settlement is T plus one, the ex-dividend date and the record date are the same day."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0911"
+  },
+  {
+   "type": "narration",
+   "text": "Regulation T sets payment deadlines. For purchases in a cash account, the customer must pay promptly. Reg T allows up to two business days after regular settlement, which is the third business day after the trade. If the customer doesn't pay by then, the firm must sell the securities out and freeze the account for ninety days. During a freeze, the customer can only buy if cash is already in the account. Selling a security before paying for it is called freeriding, and it also leads to a ninety-day freeze. The firm can ask its regulator for an extension in unusual circumstances."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0914"
+  },
+  {
+   "type": "narration",
+   "text": "Good delivery means the securities are in a form the buyer's firm must accept. Today most delivery happens electronically through the Depository Trust Company, but the exam still tests physical rules. Stock certificates must be in units that add up to round lots of one hundred shares, such as one certificate for one hundred shares, or certificates for fifty, twenty-five, or twenty shares that combine to one hundred. Bonds are delivered in one-thousand or five-thousand-dollar denominations. Certificates must be properly endorsed by the registered owner, or come with a signed stock power, with a guaranteed signature. Securities registered to a deceased person, a corporation, or a fiduciary need extra paperwork. Mutilated certificates aren't good delivery without validation."
+  },
+  {
+   "type": "narration",
+   "text": "Institutional accounts often settle delivery versus payment, or DVP, also called receive versus payment, where cash and securities change hands at the same time through a custodian bank. The firm must confirm the trade details with the institution's custodian before settlement."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0917"
+  },
+  {
+   "type": "narration",
+   "text": "Back office problems have their own terms. A DK, or don't know notice, is sent when a firm doesn't recognize a trade it was reported as party to. A reclamation is the right to give back securities, or demand back money, after delivery turned out to be bad. A fail to deliver happens when the seller doesn't deliver on settlement date. The buying firm can eventually do a buy-in, buying the securities in the market and charging the cost to the seller. The Uniform Practice Code sets these procedures for trades between FINRA members, and FINRA's UPC committee resolves disputes."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0920"
+  },
+  {
+   "type": "narration",
+   "text": "Customer protection rules safeguard customer assets. Under SEC Rule fifteen c three dash three, the customer protection rule, firms must keep customers' fully paid securities in their possession or control, and must keep cash in a special reserve bank account for customers. SIPC protects customers if a broker-dealer fails, up to five hundred thousand dollars per separate capacity, with no more than two hundred fifty thousand for cash. SIPC doesn't cover market losses. Firms may also buy excess coverage from private insurers."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: regular way is T plus one. Reg T payment comes two business days after settlement, and nonpayment or freeriding means a sellout and a ninety-day freeze. Good delivery means round-lot units, endorsements, and signature guarantees. DVP accounts settle cash against securities. A DK means I don't recognize this trade. SIPC covers five hundred thousand, including two hundred fifty thousand cash, and never market losses."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Regular-way settlement: Standard settlement one business day after trade date for stocks, corporate and municipal bonds, and Treasuries. Cash settlement: Same-day settlement, with delivery due by two:thirty PM Eastern time if the trade is executed before then. When-issued trade: A trade in a security that has been approved for issue but not yet issued, settling on a date set after issuance. Due bill: A document a seller gives to a buyer to show the buyer is owed a dividend or distribution received by the seller. Stock power: A separate assignment form that transfers ownership of a stock certificate without signing the certificate itself. Good delivery: Delivery of securities in proper form, with correct denominations, signatures and endorsements, so the buyer must accept it. Direct Registration System: A book-entry system that lets investors hold shares in their own names on the issuer's records without a physical certificate. Don't know notice: A DK, sent when a firm does not recognize a trade a contra-party has reported."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Regular-way settlement",
+   "definition": "Standard settlement one business day after trade date for stocks, corporate and municipal bonds, and Treasuries"
+  },
+  {
+   "term": "Cash settlement",
+   "definition": "Same-day settlement, with delivery due by 2:30 PM Eastern time if the trade is executed before then"
+  },
+  {
+   "term": "When-issued trade",
+   "definition": "A trade in a security that has been approved for issue but not yet issued, settling on a date set after issuance"
+  },
+  {
+   "term": "Due bill",
+   "definition": "A document a seller gives to a buyer to show the buyer is owed a dividend or distribution received by the seller"
+  },
+  {
+   "term": "Stock power",
+   "definition": "A separate assignment form that transfers ownership of a stock certificate without signing the certificate itself"
+  },
+  {
+   "term": "Good delivery",
+   "definition": "Delivery of securities in proper form, with correct denominations, signatures and endorsements, so the buyer must accept it"
+  },
+  {
+   "term": "Direct Registration System",
+   "definition": "A book-entry system that lets investors hold shares in their own names on the issuer's records without a physical certificate"
+  },
+  {
+   "term": "Don't know notice",
+   "definition": "A DK, sent when a firm does not recognize a trade a contra-party has reported"
+  },
+  {
+   "term": "Reclamation",
+   "definition": "The right to return securities previously accepted when a delivery problem is later discovered"
+  },
+  {
+   "term": "Ex-dividend date",
+   "definition": "The first day a stock trades without the right to the upcoming dividend, which is the record date under T+1 settlement"
+  }
+ ],
+ "mnemonics": [
+  "Trade, settle T plus one, pay by T plus three.",
+  "Freeride: freeze ninety days.",
+  "SIPC: five hundred total, two fifty cash."
+ ],
+ "summary": "Regular-way settlement is T+1 for stocks, corporates, munis, options trades and Treasuries (since May 28, 2024). Cash settlement is same day. Ex-date equals record date. Reg T payment is due S+2 (T+3), and nonpayment or freeriding brings a sellout and a 90-day freeze, with extensions available from the regulator. Good delivery requires certificates adding to 100-share units, bonds in $1,000 or $5,000 denominations, proper endorsement or a stock power, and a signature guarantee. DVP or RVP for institutions. DK notices, reclamation, fails and buy-ins fall under the UPC. Rule 15c3-3 protects customer assets. SIPC covers $500,000 per capacity, including up to $250,000 cash, and doesn't cover market losses."
+}

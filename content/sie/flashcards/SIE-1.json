@@ -78,5 +78,309 @@
     "front": "Cooling-off period",
     "back": "At least 20 days after filing a registration statement. No sales. A red herring can be sent and indications of interest taken.",
     "spoken": "Cooling-off period. ... At least 20 days after filing a registration statement. No sales. A red herring can be sent and indications of interest taken."
+  },
+  {
+    "id": "sie-f-0061",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Section 23 of the 1933 Act",
+    "back": "It's unlawful to say the SEC approved a security or passed on its merits.",
+    "spoken": "Section 23 of the 1933 Act. ... It's unlawful to say the SEC approved a security or passed on its merits."
+  },
+  {
+    "id": "sie-f-0062",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "SEC enforcement powers",
+    "back": "Civil actions such as injunctions, fines, disgorgement and bars. Criminal cases are referred to the Department of Justice.",
+    "spoken": "SEC enforcement powers. ... Civil actions such as injunctions, fines, disgorgement and bars. Criminal cases are referred to the Department of Justice."
+  },
+  {
+    "id": "sie-f-0063",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Who sets initial margin?",
+    "back": "The Federal Reserve Board, under Regulation T: 50% for stock purchases. FINRA sets maintenance requirements.",
+    "spoken": "Who sets initial margin?. ... The Federal Reserve Board, under Regulation T: 50 percent for stock purchases. FINRA sets maintenance requirements."
+  },
+  {
+    "id": "sie-f-0064",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "FDIC vs. SIPC",
+    "back": "FDIC insures bank deposits up to $250,000. SIPC restores missing securities and cash when a broker-dealer fails. Neither covers market losses.",
+    "spoken": "FDIC vs. SIPC. ... FDIC insures bank deposits up to 250,000 dollars. SIPC restores missing securities and cash when a broker-dealer fails. Neither covers market losses."
+  },
+  {
+    "id": "sie-f-0065",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "SIPC separate capacity",
+    "back": "Coverage is per capacity, such as individual, joint, IRA or trust. Two individual accounts in the same name share one limit.",
+    "spoken": "SIPC separate capacity. ... Coverage is per capacity, such as individual, joint, IRA or trust. Two individual accounts in the same name share one limit."
+  },
+  {
+    "id": "sie-f-0066",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Institutional account (FINRA Rule 4512)",
+    "back": "Banks, insurers, registered investment companies, registered investment advisers, or any person with total assets of at least $50 million.",
+    "spoken": "Institutional account (FINRA Rule 4512). ... Banks, insurers, registered investment companies, registered investment advisers, or any person with total assets of at least 50 million dollars."
+  },
+  {
+    "id": "sie-f-0067",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Prime broker",
+    "back": "Provides custody, clearing, margin financing, securities lending and consolidated reporting to large clients such as hedge funds.",
+    "spoken": "Prime broker. ... Provides custody, clearing, margin financing, securities lending and consolidated reporting to large clients such as hedge funds."
+  },
+  {
+    "id": "sie-f-0068",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Investment adviser",
+    "back": "Paid to give advice about securities. Owes clients a fiduciary duty. Regulated by the Investment Advisers Act of 1940.",
+    "spoken": "Investment adviser. ... Paid to give advice about securities. Owes clients a fiduciary duty. Regulated by the Investment Advisers Act of 1940."
+  },
+  {
+    "id": "sie-f-0069",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Municipal advisor",
+    "back": "Advises municipal issuers on bond deals. Registers with the SEC and MSRB. Owes municipal entity clients a fiduciary duty.",
+    "spoken": "Municipal advisor. ... Advises municipal issuers on bond deals. Registers with the SEC and MSRB. Owes municipal entity clients a fiduciary duty."
+  },
+  {
+    "id": "sie-f-0070",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Transfer agent vs. registrar",
+    "back": "Transfer agent: keeps the shareholder list, issues and cancels certificates. Registrar: makes sure outstanding shares don't exceed authorized shares.",
+    "spoken": "Transfer agent vs. registrar. ... Transfer agent: keeps the shareholder list, issues and cancels certificates. Registrar: makes sure outstanding shares don't exceed authorized shares."
+  },
+  {
+    "id": "sie-f-0071",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "DTC",
+    "back": "Depository Trust Company, part of DTCC. Central depository that settles trades by book entry.",
+    "spoken": "DTC. ... Depository Trust Company, part of DTCC. Central depository that settles trades by book entry."
+  },
+  {
+    "id": "sie-f-0072",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Trust Indenture Act of 1939",
+    "back": "Publicly offered corporate debt needs an indenture and an independent trustee acting for bondholders.",
+    "spoken": "Trust Indenture Act of 1939. ... Publicly offered corporate debt needs an indenture and an independent trustee acting for bondholders."
+  },
+  {
+    "id": "sie-f-0073",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Primary vs. secondary market",
+    "back": "Primary: the issuer sells new securities and gets the proceeds. Secondary: investors trade with each other.",
+    "spoken": "Primary vs. secondary market. ... Primary: the issuer sells new securities and gets the proceeds. Secondary: investors trade with each other."
+  },
+  {
+    "id": "sie-f-0074",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Exchange vs. OTC",
+    "back": "Exchange: auction market. OTC: negotiated dealer market. Most bonds trade OTC.",
+    "spoken": "Exchange vs. OTC. ... Exchange: auction market. OTC: negotiated dealer market. Most bonds trade OTC."
+  },
+  {
+    "id": "sie-f-0075",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Dark pool",
+    "back": "An alternative trading system with no displayed pre-trade quotes. Used for large institutional blocks.",
+    "spoken": "Dark pool. ... An alternative trading system with no displayed pre-trade quotes. Used for large institutional blocks."
+  },
+  {
+    "id": "sie-f-0076",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Bid and ask",
+    "back": "Bid: the price a dealer pays, which is what a customer selling receives. Ask: the price a dealer sells at, which is what a customer buying pays. The difference is the spread.",
+    "spoken": "Bid and ask. ... Bid: the price a dealer pays, which is what a customer selling receives. Ask: the price a dealer sells at, which is what a customer buying pays. The difference is the spread."
+  },
+  {
+    "id": "sie-f-0077",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Designated market maker",
+    "back": "The NYSE firm responsible for a fair and orderly market in its assigned stocks. Formerly called the specialist.",
+    "spoken": "Designated market maker. ... The NYSE firm responsible for a fair and orderly market in its assigned stocks. Formerly called the specialist."
+  },
+  {
+    "id": "sie-f-0078",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Discount rate vs. fed funds rate",
+    "back": "Discount rate: what the Fed charges banks. Fed funds: what banks charge each other overnight.",
+    "spoken": "Discount rate vs. fed funds rate. ... Discount rate: what the Fed charges banks. Fed funds: what banks charge each other overnight."
+  },
+  {
+    "id": "sie-f-0079",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Broker call loan rate",
+    "back": "What banks charge broker-dealers to finance customer margin loans. It's the basis for margin interest.",
+    "spoken": "Broker call loan rate. ... What banks charge broker-dealers to finance customer margin loans. It's the basis for margin interest."
+  },
+  {
+    "id": "sie-f-0080",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Fed tightening",
+    "back": "Selling securities, raising rates or raising reserve requirements. Rates rise and bond prices fall.",
+    "spoken": "Fed tightening. ... Selling securities, raising rates or raising reserve requirements. Rates rise and bond prices fall."
+  },
+  {
+    "id": "sie-f-0081",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "FOMC",
+    "back": "The Federal Open Market Committee: the 7 Fed governors plus 5 Reserve Bank presidents. It directs open market operations.",
+    "spoken": "FOMC. ... The Federal Open Market Committee: the 7 Fed governors plus 5 Reserve Bank presidents. It directs open market operations."
+  },
+  {
+    "id": "sie-f-0082",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Inverted yield curve",
+    "back": "Short-term yields are above long-term yields. Often viewed as a recession warning.",
+    "spoken": "Inverted yield curve. ... Short-term yields are above long-term yields. Often viewed as a recession warning."
+  },
+  {
+    "id": "sie-f-0083",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Business cycle phases",
+    "back": "Expansion, peak, contraction, trough.",
+    "spoken": "Business cycle phases. ... Expansion, peak, contraction, trough."
+  },
+  {
+    "id": "sie-f-0084",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Recession rule of thumb",
+    "back": "Two consecutive quarters of declining real GDP. The NBER makes the official call using broader measures.",
+    "spoken": "Recession rule of thumb. ... Two consecutive quarters of declining real GDP. The NBER makes the official call using broader measures."
+  },
+  {
+    "id": "sie-f-0085",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Stagflation",
+    "back": "High inflation combined with high unemployment and slow growth.",
+    "spoken": "Stagflation. ... High inflation combined with high unemployment and slow growth."
+  },
+  {
+    "id": "sie-f-0086",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Working capital",
+    "back": "Current assets minus current liabilities. A measure of short-term liquidity.",
+    "spoken": "Working capital. ... Current assets minus current liabilities. A measure of short-term liquidity."
+  },
+  {
+    "id": "sie-f-0087",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Keynesian vs. monetarist",
+    "back": "Keynesian: use fiscal policy to manage demand. Monetarist: control the money supply.",
+    "spoken": "Keynesian vs. monetarist. ... Keynesian: use fiscal policy to manage demand. Monetarist: control the money supply."
+  },
+  {
+    "id": "sie-f-0088",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "GDP vs. GNP",
+    "back": "GDP: output within a country's borders. GNP: output by a country's residents and companies, wherever it's produced.",
+    "spoken": "GDP vs. GNP. ... GDP: output within a country's borders. GNP: output by a country's residents and companies, wherever it's produced."
+  },
+  {
+    "id": "sie-f-0089",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Current account",
+    "back": "Trade in goods and services, plus income and transfers. Part of the balance of payments.",
+    "spoken": "Current account. ... Trade in goods and services, plus income and transfers. Part of the balance of payments."
+  },
+  {
+    "id": "sie-f-0090",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Weak dollar effects",
+    "back": "Helps U.S. exporters and U.S. holders of foreign assets. Hurts importers and Americans traveling abroad.",
+    "spoken": "Weak dollar effects. ... Helps U.S. exporters and U.S. holders of foreign assets. Hurts importers and Americans traveling abroad."
+  },
+  {
+    "id": "sie-f-0091",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Underwriting spread components",
+    "back": "Manager's fee is the smallest. Underwriting fee is next. Selling concession is the largest.",
+    "spoken": "Underwriting spread components. ... Manager's fee is the smallest. Underwriting fee is next. Selling concession is the largest."
+  },
+  {
+    "id": "sie-f-0092",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Syndicate vs. selling group",
+    "back": "Syndicate members commit capital and share liability. Selling group members act as agents with no liability.",
+    "spoken": "Syndicate vs. selling group. ... Syndicate members commit capital and share liability. Selling group members act as agents with no liability."
+  },
+  {
+    "id": "sie-f-0093",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Stabilizing bid",
+    "back": "Allowed under Regulation M at or below the public offering price, and must be disclosed in the prospectus.",
+    "spoken": "Stabilizing bid. ... Allowed under Regulation M at or below the public offering price, and must be disclosed in the prospectus."
+  },
+  {
+    "id": "sie-f-0094",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Official statement",
+    "back": "Disclosure document for a municipal bond issue. Delivered by settlement under MSRB Rule G-32.",
+    "spoken": "Official statement. ... Disclosure document for a municipal bond issue. Delivered by settlement under MSRB Rule G-32."
+  },
+  {
+    "id": "sie-f-0095",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Rule 506(b) vs. 506(c)",
+    "back": "506(b): no general solicitation, up to 35 non-accredited investors. 506(c): general solicitation allowed, but all buyers must be verified accredited investors.",
+    "spoken": "Rule 506(b) vs. 506(c). ... 506(b): no general solicitation, up to 35 non-accredited investors. 506(c): general solicitation allowed, but all buyers must be verified accredited investors."
+  },
+  {
+    "id": "sie-f-0096",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Rule 144 holding period",
+    "back": "6 months for reporting issuers, 1 year for non-reporting issuers. File Form 144 if selling more than 5,000 shares or more than $50,000 in 90 days.",
+    "spoken": "Rule 144 holding period. ... 6 months for reporting issuers, 1 year for non-reporting issuers. File Form 144 if selling more than 5,000 shares or more than 50,000 dollars in 90 days."
+  },
+  {
+    "id": "sie-f-0097",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Rule 144A",
+    "back": "Resales of restricted securities to qualified institutional buyers, generally those with at least $100 million in securities.",
+    "spoken": "Rule 144A. ... Resales of restricted securities to qualified institutional buyers, generally those with at least 100 million dollars in securities."
+  },
+  {
+    "id": "sie-f-0098",
+    "exam": "SIE",
+    "section": "SIE-1",
+    "front": "Aftermarket prospectus delivery",
+    "back": "25 days for exchange-listed IPOs. 90 days for unlisted IPOs. 40 days for unlisted follow-on offerings.",
+    "spoken": "Aftermarket prospectus delivery. ... 25 days for exchange-listed IPOs. 90 days for unlisted IPOs. 40 days for unlisted follow-on offerings."
   }
 ]

@@ -1,0 +1,118 @@
+{
+  "id": "sie-2-03",
+  "exam": "SIE",
+  "section": "SIE-2",
+  "section_title": "Understanding Products and Their Risks",
+  "title": "Bond Fundamentals: Price, Yield and Features",
+  "order": 3,
+  "est_minutes": 6,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Bonds make up a big share of the products section, and almost every bond question rests on a few core ideas: par value, coupon, price quotes, the different yields, and features like calls, puts and conversion. Get these down and the rest of debt gets much easier."
+    },
+    {
+      "type": "narration",
+      "text": "A bond is a loan from the investor to the issuer. The issuer promises to pay interest, usually every six months, and to repay the principal, called par or face value, at maturity. Par is generally one thousand dollars. The coupon, also called the nominal yield, is the annual interest as a percentage of par, and it's fixed when the bond is issued. A six percent coupon on a thousand-dollar bond pays sixty dollars a year, in two payments of thirty. Interest is always figured on par, never on the market price."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0256"
+    },
+    {
+      "type": "narration",
+      "text": "Bond prices are quoted as a percentage of par. A quote of ninety-seven means ninety-seven percent of one thousand, which is nine hundred seventy dollars. Each point is ten dollars, and fractions follow along, so ninety-seven and a quarter is nine hundred seventy-two dollars and fifty cents. Below one hundred is a discount, and above one hundred is a premium. Changes in yield are measured in basis points, where one basis point is one hundredth of one percent, so one hundred basis points equals one percent."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0255"
+    },
+    {
+      "type": "narration",
+      "text": "Here's the law the exam never stops testing: bond prices and interest rates move in opposite directions. Picture a seesaw. If market rates rise, existing bonds with lower coupons become less attractive, so their prices fall until their yields match the market. If rates fall, older bonds with higher coupons become more valuable, and their prices rise. That's why a bond with a seven percent coupon might trade at one hundred eight when new bonds pay five and a half percent."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0026"
+    },
+    {
+      "type": "narration",
+      "text": "Now the yields. Nominal yield is the coupon. Current yield is the annual interest divided by the current market price. Yield to maturity is the total return if you hold to maturity, counting interest plus the gain or loss as the price moves to par. Yield to call is the same idea but measured to the call date. For a discount bond, the order from lowest to highest is nominal, current, yield to maturity, then yield to call, because the buyer gets a built-in gain as the price rises to par, and gets it sooner if the bond is called. For a premium bond, flip it: yield to call is lowest, then yield to maturity, then current yield, then nominal is highest. A quick check: for a premium bond, everything is lower than the coupon."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0027"
+    },
+    {
+      "type": "narration",
+      "text": "Let's do a current yield example. A thousand-dollar bond with an eight percent coupon pays eighty dollars a year. If it trades at twelve hundred fifty, divide eighty by twelve fifty and you get six point four percent. It costs more than par, so the current yield is below the coupon."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0258"
+    },
+    {
+      "type": "narration",
+      "text": "Next, features. A callable bond lets the issuer redeem early, usually at par or a small premium. Issuers call bonds when rates fall, so they can refinance cheaper, just like a homeowner refinancing a mortgage. That leaves investors with call risk and reinvestment risk, so callable bonds pay higher yields. Many have call protection, a period at the start when they can't be called. A puttable bond is the opposite: the investor can sell it back to the issuer, usually at par, which protects against rising rates, so puttable bonds yield less. A sinking fund means the issuer sets aside money to retire part of the issue over time, which lowers default risk."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0259"
+    },
+    {
+      "type": "narration",
+      "text": "A convertible bond can be exchanged for a set number of common shares. The conversion ratio is par divided by the conversion price. A bond convertible at forty dollars converts into twenty-five shares. Parity is the point where the bond and the shares it converts into are worth the same. Because of the conversion feature, convertibles pay lower coupons than comparable straight bonds."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0029"
+    },
+    {
+      "type": "narration",
+      "text": "Finally, risk and ratings. Credit ratings from agencies like Moody's and S and P measure default risk only. The lowest investment-grade ratings are triple B minus at S and P and B a a three at Moody's, and anything lower is high yield, or junk. Interest rate risk is a separate issue: longer maturities and lower coupons mean bigger price swings, so a long zero-coupon bond is the most rate-sensitive of all. Short-term bonds have less interest rate risk but more reinvestment risk, since you have to keep reinvesting the principal."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0263"
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Par is one thousand dollars, a point is ten dollars, and a basis point is a hundredth of a percent. Prices and rates move inversely. Discount bonds rank nominal, current, maturity, call from low to high, and premium bonds reverse it. Calls favor issuers and come with higher yields, while puts favor investors and come with lower yields. Ratings measure default risk, and maturity and coupon drive interest rate risk."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Par value",
+      "definition": "Face amount repaid at maturity, generally $1,000."
+    },
+    {
+      "term": "Nominal yield",
+      "definition": "The coupon rate, fixed at issue, based on par."
+    },
+    {
+      "term": "Current yield",
+      "definition": "Annual interest divided by market price."
+    },
+    {
+      "term": "Yield to maturity",
+      "definition": "Total return if held to maturity, including the move to par."
+    },
+    {
+      "term": "Basis point",
+      "definition": "One hundredth of one percent; 100 bp equals 1%."
+    },
+    {
+      "term": "Call protection",
+      "definition": "Period when a callable bond can't be called."
+    },
+    {
+      "term": "Conversion ratio",
+      "definition": "Par divided by conversion price; shares received per bond."
+    }
+  ],
+  "mnemonics": [
+    "Seesaw: rates up, prices down.",
+    "Discount bond yields climb the ladder: Nominal, Current, Maturity, Call. Premium bonds climb down it."
+  ],
+  "summary": "Bond prices move opposite to interest rates. Know par, points, basis points, the four yields and their order for discount and premium bonds, how call and put features shift yield, conversion math, and the difference between credit risk and interest rate risk."
+}

@@ -1,0 +1,111 @@
+{
+ "id": "s7-3-07",
+ "exam": "S7",
+ "section": "S7-3",
+ "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+ "title": "Common and preferred stock, rights, warrants, ADRs",
+ "order": 7,
+ "est_minutes": 8,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Equity securities are ownership. On the Series 7, you need to know what each type of equity gives the holder: votes, dividends, a claim in liquidation, or the right to buy more shares. Then you need to know which customer each type suits."
+  },
+  {
+   "type": "narration",
+   "text": "Common stockholders own the company. They get to vote on directors and major changes, receive dividends if the board declares them, inspect certain books, and have a residual claim in liquidation, which means they're paid last, after creditors and preferred holders. Voting is either statutory or cumulative. Under statutory voting, a holder can cast up to the number of shares owned for each seat. Under cumulative voting, the total votes equal shares times seats, and they can all go to one candidate. That helps minority holders elect someone. Someone owning one hundred shares with four seats up has four hundred votes. Shares the company has bought back are treasury stock. Treasury shares carry no votes or dividends, and they're issued but not outstanding."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0425"
+  },
+  {
+   "type": "narration",
+   "text": "Dividends follow four dates. The board sets the declaration date, the record date, and the payable date. The ex-dividend date is set by the exchange or FINRA. With T plus one settlement, the ex-date is the same day as the record date. A buyer must purchase before the ex-date to get the dividend. On the ex-date, the stock opens lower by about the amount of the dividend. Stock dividends and splits don't change the value of the holding. They just divide the same company into more pieces."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0648"
+  },
+  {
+   "type": "narration",
+   "text": "Preferred stock pays a fixed dividend, ranks ahead of common in dividends and liquidation, and usually has no vote. Its price moves opposite interest rates, the way a bond's does. Variations include cumulative preferred, where missed dividends build up as arrears and must be paid before common dividends. Participating preferred can receive extra dividends above the stated rate. Convertible preferred can be exchanged for common stock, and callable preferred can be redeemed by the issuer. Adjustable-rate preferred resets its dividend with a benchmark rate, so its price is more stable. Preferred suits income investors, but it carries interest rate risk and has no growth potential, unless it's convertible."
+  },
+  {
+   "type": "narration",
+   "text": "Rights let existing shareholders keep their proportionate ownership. Under a preemptive right, the company offers new shares to existing holders first, usually at a subscription price below the market, for a short period of weeks. Each share gets one right, and a set number of rights plus cash buys one new share. A right's theoretical value, before the stock goes ex-rights, is the market price minus the subscription price, divided by the number of rights needed plus one. After the stock goes ex-rights, you divide by the number of rights needed alone. A holder can exercise the rights, sell them, or let them lapse. Letting them lapse dilutes the holder's stake and wastes value."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0658"
+  },
+  {
+   "type": "narration",
+   "text": "Warrants also let holders buy stock, but they're long-term, often five years or more, and the exercise price is set above the market price when they're issued. They're usually attached to bonds or preferred as a sweetener that lets the issuer pay a lower rate. Warrants pay no dividends and have no vote. Unlike listed options, they're issued by the company itself, and exercising them creates new shares."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-1038"
+  },
+  {
+   "type": "narration",
+   "text": "American depositary receipts let U.S. investors own foreign companies. A U.S. bank holds the foreign shares and issues receipts that trade in dollars on U.S. markets. Holders get dividends converted to dollars, minus any foreign withholding, which may be claimable as a foreign tax credit. ADRs still carry currency risk: if the foreign currency falls against the dollar, the ADR loses value even if the stock is flat in its home market. Sponsored ADRs are set up with the company's cooperation and generally give voting rights. Unsponsored ADRs aren't."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: common stock means votes, a residual claim, and growth. Cumulative voting helps minorities. Ex-date equals record date, so buy before it. Preferred means fixed income, priority over common, and rate sensitivity. Rights are short-term and below market, while warrants are long-term and above market. ADRs trade in dollars but carry currency risk."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Authorized stock: The maximum number of shares a corporation may issue under its charter. Treasury stock: Previously issued shares the corporation has bought back, which carry no votes or dividends. Outstanding stock: Issued shares minus treasury stock, the shares held by the public and insiders. Preemptive right: A common stockholder's right to maintain proportionate ownership by buying new shares before they are offered to the public. Cumulative voting: A voting method that lets shareholders concentrate all their votes on one director, which benefits minority holders. Statutory voting: A voting method in which a shareholder casts one vote per share for each director seat. Residual claim: Common stockholders' right to corporate assets only after all creditors and preferred holders are paid. Participating preferred: Preferred stock that can receive dividends above its stated rate when common dividends exceed a set level."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Authorized stock",
+   "definition": "The maximum number of shares a corporation may issue under its charter"
+  },
+  {
+   "term": "Treasury stock",
+   "definition": "Previously issued shares the corporation has bought back, which carry no votes or dividends"
+  },
+  {
+   "term": "Outstanding stock",
+   "definition": "Issued shares minus treasury stock, the shares held by the public and insiders"
+  },
+  {
+   "term": "Preemptive right",
+   "definition": "A common stockholder's right to maintain proportionate ownership by buying new shares before they are offered to the public"
+  },
+  {
+   "term": "Cumulative voting",
+   "definition": "A voting method that lets shareholders concentrate all their votes on one director, which benefits minority holders"
+  },
+  {
+   "term": "Statutory voting",
+   "definition": "A voting method in which a shareholder casts one vote per share for each director seat"
+  },
+  {
+   "term": "Residual claim",
+   "definition": "Common stockholders' right to corporate assets only after all creditors and preferred holders are paid"
+  },
+  {
+   "term": "Participating preferred",
+   "definition": "Preferred stock that can receive dividends above its stated rate when common dividends exceed a set level"
+  },
+  {
+   "term": "Convertible preferred",
+   "definition": "Preferred stock that can be exchanged for a set number of common shares and usually pays a lower dividend"
+  },
+  {
+   "term": "Callable preferred",
+   "definition": "Preferred stock the issuer can redeem at a set price, which usually pays a higher dividend to compensate holders"
+  }
+ ],
+ "mnemonics": [
+  "Rights: short, cheap, existing holders. Warrants: long, pricey at issue, sweeteners.",
+  "Ex equals record under T plus one; buy before ex.",
+  "Liquidation: secured, unsecured, subordinated, preferred, then common."
+ ],
+ "summary": "Common stockholders vote (statutory or cumulative, where cumulative votes equal shares times seats), receive declared dividends and have a residual claim. Treasury stock has no votes or dividends. Under T+1, the ex-date equals the record date, so buy before the ex-date. Preferred stock has a fixed dividend, priority over common and interest rate sensitivity. Variants include cumulative, participating, convertible, callable and adjustable. Rights are short-term, below-market offers to existing holders: value is (M−S)/(N+1) cum-rights and (M−S)/N ex-rights. Warrants are long-term with an above-market exercise price at issue, often attached to bonds. ADRs are dollar-traded receipts for foreign shares and carry currency risk."
+}

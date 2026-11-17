@@ -89,6 +89,7 @@ pub struct PlayerModel {
     pub wrong: u32,
     pub guessing: bool,
     pub sample: bool,
+    pub yearly: bool,
     pub card_mode: bool,
     pub remaining: Option<u32>,
     pub paused: bool,
@@ -112,6 +113,7 @@ impl Default for PlayerModel {
             wrong: 0,
             guessing: false,
             sample: false,
+            yearly: false,
             card_mode: false,
             remaining: None,
             paused: false,
@@ -393,12 +395,12 @@ async fn present(
     control.guessing.store(false, Ordering::Relaxed);
     match item {
         SessionItem::Narration { title, text, .. } => {
-            set_model(model, plan, index, total, title, text, &[], None, "", false, false, control, correct, wrong);
+            set_model(model, plan, index, total, title, text, &[], None, "", false, false, false, control, correct, wrong);
             speak(text, settings, manifest, control, model).await;
             matches!(control.take(), Some(Act::Repeat))
         }
         SessionItem::Card(card) => {
-            set_model(model, plan, index, total, &format!("{} · {}", card.exam.as_str(), card.section), &card.front, &[], None, "", card.sample, true, control, correct, wrong);
+            set_model(model, plan, index, total, &format!("{} · {}", card.exam.as_str(), card.section), &card.front, &[], None, "", card.sample, false, true, control, correct, wrong);
             speak(&card.front, settings, manifest, control, model).await;
             if matches!(control.take(), Some(Act::Repeat)) {
                 return true;
@@ -448,6 +450,7 @@ async fn present(
                 None,
                 "",
                 question.sample,
+                question.tags.iter().any(|tag| tag == "changes-yearly"),
                 false,
                 control,
                 correct,
@@ -620,6 +623,7 @@ fn reveal(model: RwSignal<PlayerModel>, question: &drive_study_core::Question, s
     shown.answer_key = Some(question.answer.clone());
     shown.selected = selected.clone();
     shown.explanation = question.explanation.clone();
+    shown.yearly = question.tags.iter().any(|tag| tag == "changes-yearly");
     shown.guessing = control.guessing.load(Ordering::Relaxed);
     shown.status = if selected.as_deref() == Some(question.answer.as_str()) {
         if shown.guessing { "Marked as a guess. It will come back.".into() } else { "Correct.".into() }
@@ -683,6 +687,7 @@ fn set_model(
     answer: Option<String>,
     explanation: &str,
     sample: bool,
+    yearly: bool,
     card_mode: bool,
     control: &Control,
     correct: &u32,
@@ -704,6 +709,7 @@ fn set_model(
         wrong: *wrong,
         guessing: control.guessing.load(Ordering::Relaxed),
         sample,
+        yearly,
         card_mode,
         remaining: plan.limit_seconds,
         paused: control.paused.load(Ordering::Relaxed),

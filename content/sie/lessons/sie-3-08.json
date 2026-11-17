@@ -1,0 +1,130 @@
+{
+  "id": "sie-3-08",
+  "exam": "SIE",
+  "section": "SIE-3",
+  "section_title": "Understanding Trading, Customer Accounts and Prohibited Activities",
+  "title": "Books, Records, Privacy and Customer Protection",
+  "order": 8,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "This lesson covers the paperwork side of the business, which turns out to be how regulators protect customers: confirmations, statements, recordkeeping, holding mail, business continuity, the customer protection rule, and privacy under Regulation S P."
+    },
+    {
+      "type": "narration",
+      "text": "Start with confirmations. Under S E C Rule ten B ten, a firm must send a written confirmation at or before the completion of each transaction, which generally means by settlement. It shows the trade date, the security, quantity, price, and the firm's capacity, whether it acted as agent, for a commission, or as principal, from its own inventory. When acting as agent, the firm must show the commission."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0536"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0537"
+    },
+    {
+      "type": "narration",
+      "text": "Account statements are separate. Under FINRA Rule twenty-two thirty-one, customers must receive statements at least once each calendar quarter, showing activity, positions and balances. Many firms send monthly statements when there's activity. Statements must urge customers to report inaccuracies, and must include estimated values for certain illiquid investments, like D P Ps and unlisted REITs."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0086"
+    },
+    {
+      "type": "narration",
+      "text": "Now the records. S E C Rule seventeen A three says which records firms must create, including blotters of daily trades, ledgers, order tickets, and customer account records with information like name, address, date of birth, income, net worth and investment objectives. Customers get a copy of their account record to review. Rule seventeen A four says how long to keep them. Blotters, general ledgers and customer account records: six years, the first two easily accessible. Order tickets, confirmations and communications: three years. Organizational documents like articles of incorporation and minute books: the life of the firm. Customer complaints are kept at least four years under FINRA rules. Business communications must be captured by the firm, so using personal texting or email apps for business, called off-channel communications, has led to large fines."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0085"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0538"
+    },
+    {
+      "type": "narration",
+      "text": "Holding mail. Under FINRA Rule thirty-one fifty, a firm may hold a customer's mail, for example during travel, based on the customer's written instructions, for up to three consecutive months. Longer periods are allowed with a valid written reason. The firm must be able to reach the customer and periodically verify the reason."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0087"
+    },
+    {
+      "type": "narration",
+      "text": "Business continuity. FINRA Rule forty-three seventy requires a written business continuity plan for significant disruptions, covering things like data backup, alternate communications, and how customers can access their funds and securities. It must be reviewed and updated at least annually and approved by a member of senior management. Firms must also designate emergency contact persons and report them to FINRA."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0542"
+    },
+    {
+      "type": "narration",
+      "text": "Customer protection. S E C Rule fifteen C three three, the Customer Protection Rule, requires firms to keep customers' fully paid and excess margin securities in their possession or control, segregated from the firm's own, and to keep a special reserve bank account for the exclusive benefit of customers, based on a formula. If a firm fails anyway, S I P C protects customers up to five hundred thousand dollars, including two hundred fifty thousand in cash, per separate capacity. S I P C doesn't protect against market losses."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0541"
+    },
+    {
+      "type": "narration",
+      "text": "Privacy. Regulation S P requires firms to protect customers' nonpublic personal information. Firms must give a privacy notice when the relationship begins, and generally annually after that, unless an exception applies. Before sharing nonpublic personal information with nonaffiliated third parties, outside certain exceptions, firms must give customers the chance to opt out. Firms must also have written policies to safeguard customer records and respond to unauthorized access."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0088"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0543"
+    },
+    {
+      "type": "narration",
+      "text": "A scenario. A customer calls to say she'll be traveling for four months and wants her mail held. The firm can hold it for up to three months on her written instructions, and longer if she gives a valid reason in writing, like extended travel, but it must still be able to reach her. Meanwhile, her trade confirmations still have to be produced and kept on record, and she can check activity online."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Confirmations are due at or before completion of each trade and show the firm's capacity. Statements are at least quarterly. Blotters and account records are kept six years, communications and tickets three years, and organizational documents for life. Mail can be held up to three months on written instructions. B C P plans are reviewed annually. Rule fifteen C three three segregates customer assets, and S I P C covers five hundred thousand including two fifty in cash. Reg S P requires privacy notices and opt-outs."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Rule 10b-10",
+      "definition": "Confirmations at or before completion of the transaction."
+    },
+    {
+      "term": "Rule 2231",
+      "definition": "Account statements at least quarterly."
+    },
+    {
+      "term": "Rule 17a-3",
+      "definition": "Lists records firms must create."
+    },
+    {
+      "term": "Rule 17a-4",
+      "definition": "Retention: 6 years for blotters and account records, 3 years for communications."
+    },
+    {
+      "term": "Rule 3150",
+      "definition": "Hold mail up to 3 months on written instructions."
+    },
+    {
+      "term": "Rule 4370",
+      "definition": "Business continuity plan reviewed annually."
+    },
+    {
+      "term": "Rule 15c3-3",
+      "definition": "Customer Protection Rule; possession or control and reserve account."
+    },
+    {
+      "term": "Regulation S-P",
+      "definition": "Privacy notices, safeguards and opt-out rights."
+    }
+  ],
+  "mnemonics": [
+    "Six for the big books, three for the talk, forever for the birth certificate.",
+    "Confirm by settlement, state by the quarter."
+  ],
+  "summary": "Confirmations go out by settlement and show capacity; statements go out at least quarterly. Rule 17a-4 retention runs six years for blotters and account records, three for communications, and life for organizational documents. Mail holds can last up to three months. BCPs are reviewed annually, Rule 15c3-3 safeguards customer assets, SIPC covers $500,000 including $250,000 cash, and Reg S-P governs privacy."
+}

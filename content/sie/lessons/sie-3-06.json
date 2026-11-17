@@ -1,0 +1,118 @@
+{
+  "id": "sie-3-06",
+  "exam": "SIE",
+  "section": "SIE-3",
+  "section_title": "Understanding Trading, Customer Accounts and Prohibited Activities",
+  "title": "Retirement and Education Accounts",
+  "order": 6,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Retirement accounts offer tax advantages in exchange for rules about contributions and withdrawals. The SIE tests traditional and Roth I R As, employer plans, rollovers, required minimum distributions and early withdrawal penalties. Dollar limits change yearly, so we'll use the twenty twenty-six numbers and flag them."
+    },
+    {
+      "type": "narration",
+      "text": "Start with I R As. You need earned income, like wages or self-employment income, to contribute. Dividends, interest and Social Security don't count, though a non-working spouse can contribute through a spousal I R A based on the working spouse's income. For twenty twenty-six, the contribution limit is seven thousand five hundred dollars, plus an eleven hundred dollar catch-up for those fifty or older, for a total of eight thousand six hundred. Contributions for a year can be made until the tax filing deadline the following spring, not counting extensions. Excess contributions face a six percent excise tax each year they stay in the account."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0079"
+    },
+    {
+      "type": "narration",
+      "text": "Traditional versus Roth. Traditional I R A contributions may be tax-deductible, depending on income and whether you're covered by a workplace plan. The money grows tax-deferred, and withdrawals of pre-tax money and earnings are taxed as ordinary income. Roth contributions aren't deductible, but qualified distributions, including earnings, are completely tax-free. A qualified Roth distribution requires the account to be at least five years old, plus age fifty-nine and a half, death, disability, or a first-time home purchase up to ten thousand dollars. Roth contributions themselves can be withdrawn anytime without tax or penalty."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0513"
+    },
+    {
+      "type": "narration",
+      "text": "Early withdrawals from a traditional I R A before fifty-nine and a half are generally taxed as income and also hit with a ten percent additional tax, unless an exception applies, such as death, disability, or a series of substantially equal periodic payments. Required minimum distributions force money out of traditional I R As and most employer plans starting at age seventy-three for people born from nineteen fifty-one through nineteen fifty-nine, and seventy-five for those born in nineteen sixty or later. Roth I R A owners have no required distributions during their lifetime."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0080"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0514"
+    },
+    {
+      "type": "narration",
+      "text": "Employer plans. A four oh one k lets employees defer part of their pay. For twenty twenty-six, the deferral limit is twenty-four thousand five hundred dollars, with an eight thousand dollar catch-up at fifty or older, and a special higher catch-up of eleven thousand two hundred fifty for ages sixty through sixty-three. Four oh three b plans serve public school and certain nonprofit employees, and four fifty-seven plans serve state and local government employees. ERISA, the Employee Retirement Income Security Act, sets standards for private-sector employer plans, covering vesting, funding and fiduciary duties, but not government plans or individual I R As."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0512"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0520"
+    },
+    {
+      "type": "narration",
+      "text": "Moving money. A direct, trustee-to-trustee transfer moves money between accounts with no tax and no limit on frequency. An indirect rollover, where you receive the money, must be redeposited within sixty days, and you're limited to one I R A-to-I R A indirect rollover every twelve months. If an employer plan pays a distribution to you, the plan must withhold twenty percent for taxes, and you'd have to make up that twenty percent from other money to roll over the full amount. The easy fix is a direct rollover."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0516"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0517"
+    },
+    {
+      "type": "narration",
+      "text": "A few restrictions. I R As can't buy collectibles like art or antiques, can't hold life insurance, and can't use margin. On the education side, Coverdell education savings accounts allow up to two thousand dollars a year per beneficiary, and five twenty-nine plans, covered in the products section, are the main college savings tool."
+    },
+    {
+      "type": "narration",
+      "text": "A scenario. A fifty-two-year-old customer earns a salary, has a four oh one k at work, and asks how much she can save in twenty twenty-six. In the four oh one k, she can defer twenty-four thousand five hundred plus the eight thousand catch-up, thirty-two thousand five hundred in total. In an I R A, she can add up to eight thousand six hundred. Whether a traditional I R A contribution is deductible depends on her income, since she's covered at work. A Roth may be an option if her income is under the limits."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. I R As need earned income, and twenty twenty-six limits are seven thousand five hundred plus eleven hundred at fifty or older. Traditional means maybe deductible now and taxed later. Roth means after-tax now and tax-free later, with no lifetime R M Ds. Early withdrawals face a ten percent additional tax. R M Ds start at seventy-three or seventy-five depending on birth year. Four oh one k limits are twenty-four thousand five hundred plus catch-ups. Rollovers have a sixty-day window, and plan payouts carry twenty percent withholding."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Earned income",
+      "definition": "Wages or self-employment income; required for IRA contributions."
+    },
+    {
+      "term": "2026 IRA limit",
+      "definition": "$7,500, plus $1,100 catch-up at 50+."
+    },
+    {
+      "term": "Roth qualified distribution",
+      "definition": "5-year rule plus 59 1/2, death, disability, or first home."
+    },
+    {
+      "term": "RMD age",
+      "definition": "73 for those born 1951-1959; 75 for born 1960 or later."
+    },
+    {
+      "term": "2026 401(k) limit",
+      "definition": "$24,500, plus $8,000 catch-up; $11,250 for ages 60-63."
+    },
+    {
+      "term": "ERISA",
+      "definition": "Federal law for private-sector employer plans."
+    },
+    {
+      "term": "60-day rollover",
+      "definition": "Indirect rollovers must be completed within 60 days."
+    },
+    {
+      "term": "20% withholding",
+      "definition": "Required on plan distributions paid to the participant."
+    }
+  ],
+  "mnemonics": [
+    "Roth: pay tax at the Start, Relax at the end.",
+    "Rollover rule: sixty days, once a year, and twenty percent if the plan pays you."
+  ],
+  "summary": "IRAs require earned income; for 2026, the limit is $7,500 plus a $1,100 catch-up. Traditional accounts defer tax, Roth accounts give tax-free qualified withdrawals with no lifetime RMDs. Early withdrawals face a 10% additional tax, and RMDs begin at 73 or 75. The 2026 401(k) limit is $24,500 plus catch-ups. Indirect rollovers have a 60-day window, and plan payouts carry 20% withholding."
+}

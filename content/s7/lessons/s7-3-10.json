@@ -1,0 +1,107 @@
+{
+ "id": "s7-3-10",
+ "exam": "S7",
+ "section": "S7-3",
+ "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+ "title": "Corporate bonds and convertibles",
+ "order": 10,
+ "est_minutes": 7,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Corporate bonds range from very safe to highly speculative. To recommend them, you need to know what backs the bond, where it ranks if the company fails, what features it has, and, for convertibles, how it relates to the company's stock."
+  },
+  {
+   "type": "narration",
+   "text": "Secured bonds are backed by specific assets. Mortgage bonds are secured by real estate. Equipment trust certificates are secured by equipment like aircraft or railcars, which the trustee holds until the bonds are paid off. Collateral trust bonds are secured by securities the issuer owns, deposited with a trustee. Debentures are unsecured, backed only by the issuer's general credit. Subordinated debentures rank behind other unsecured debt. They pay more because they carry more risk."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0413"
+  },
+  {
+   "type": "narration",
+   "text": "In a liquidation, the order of payment is roughly this: secured creditors from their collateral, then unsecured creditors including debenture holders, then subordinated debt, then preferred stockholders, and finally common stockholders. Unpaid wages and taxes also have priority under bankruptcy law. Income bonds, also called adjustment bonds, pay interest only if the company earns enough. They're often issued in reorganizations and are among the riskiest bonds."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0417"
+  },
+  {
+   "type": "narration",
+   "text": "Bond features change how the bond behaves. A call feature lets the issuer redeem the bond early, usually when rates fall, so call risk is reinvestment risk for the investor. Callable bonds pay higher yields to compensate, and call protection is the period when the bond can't be called. A put feature lets the investor sell the bond back to the issuer, which helps the investor, so putable bonds pay lower yields. A sinking fund sets aside money to retire bonds over time, which lowers default risk. Corporate bonds are generally issued under an indenture overseen by a trustee, as required by the Trust Indenture Act of nineteen thirty-nine, which protects bondholders."
+  },
+  {
+   "type": "narration",
+   "text": "Convertible bonds can be exchanged for a set number of shares of the issuer's common stock. The conversion ratio is par divided by the conversion price. A one-thousand-dollar bond convertible at forty dollars converts into twenty-five shares. Parity is when the bond and the shares it converts into are worth the same. The parity price of the stock equals the bond's market price divided by the conversion ratio. If the bond trades at one thousand one hundred, parity for the stock is one thousand one hundred divided by twenty-five, or forty-four dollars. If the stock trades above parity, converting and selling the shares is worth more than selling the bond."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0421"
+  },
+  {
+   "type": "narration",
+   "text": "Why would anyone want a convertible? The investor gets bond income and a floor value, plus the chance to profit if the stock rises. In return, convertibles pay lower coupons than similar straight bonds. For the issuer, converting replaces debt with equity, which can dilute existing shareholders. Issuers sometimes force conversion by calling the bonds when the stock is well above the conversion price. Converting isn't a taxable event."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-1034"
+  },
+  {
+   "type": "narration",
+   "text": "Zero coupon bonds pay no interest. They're sold at a deep discount and mature at par. They have no reinvestment risk and are useful for funding a known future need, like tuition. Two drawbacks: they're very sensitive to interest rates, and holders of taxable zeros owe tax each year on the accreted interest even though they get no cash. That's called phantom income. Zeros fit best in tax-deferred accounts."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: secured bonds are backed by mortgages, equipment, or collateral, and debentures are unsecured. In liquidation, secured creditors come first and common stock comes last. Calls help the issuer, and puts help the investor. Conversion ratio equals par over the conversion price, and parity equals the bond price over the conversion ratio. Zeros carry phantom income, so hold them in retirement accounts."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Mortgage bond: A bond secured by a lien on real estate. Equipment trust certificate: A bond secured by equipment such as aircraft or railcars. Collateral trust bond: A bond secured by securities deposited with a trustee. Debenture: An unsecured bond backed only by the issuer's general credit. Income bond: A bond that pays interest only if the issuer earns enough; also called an adjustment bond. Conversion ratio: The number of shares received on conversion, equal to par divided by the conversion price. Parity: When a convertible and the shares it converts into have equal value. Sinking fund: Money set aside by the issuer to retire bonds over time."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Mortgage bond",
+   "definition": "A bond secured by a lien on real estate."
+  },
+  {
+   "term": "Equipment trust certificate",
+   "definition": "A bond secured by equipment such as aircraft or railcars."
+  },
+  {
+   "term": "Collateral trust bond",
+   "definition": "A bond secured by securities deposited with a trustee."
+  },
+  {
+   "term": "Debenture",
+   "definition": "An unsecured bond backed only by the issuer's general credit."
+  },
+  {
+   "term": "Income bond",
+   "definition": "A bond that pays interest only if the issuer earns enough; also called an adjustment bond."
+  },
+  {
+   "term": "Conversion ratio",
+   "definition": "The number of shares received on conversion, equal to par divided by the conversion price."
+  },
+  {
+   "term": "Parity",
+   "definition": "When a convertible and the shares it converts into have equal value."
+  },
+  {
+   "term": "Sinking fund",
+   "definition": "Money set aside by the issuer to retire bonds over time."
+  },
+  {
+   "term": "Phantom income",
+   "definition": "Annual taxable accretion on a zero coupon bond with no cash received."
+  }
+ ],
+ "mnemonics": [
+  "Ratio equals par over price; parity equals the bond over the ratio.",
+  "Calls help issuers, puts help investors.",
+  "Zeros: no coupon, phantom income, most rate risk."
+ ],
+ "summary": "Secured corporate bonds include mortgage bonds, equipment trust certificates and collateral trust bonds. Debentures are unsecured, and subordinated debentures rank lower. Liquidation order runs secured, unsecured, subordinated, preferred, then common. Income bonds pay only if earned. Calls create reinvestment risk and higher yields, while puts protect investors and lower yields. Sinking funds reduce default risk, and the Trust Indenture Act requires a trustee and indenture. Conversion ratio = par ÷ conversion price, and parity stock price = bond price ÷ ratio. Convertibles pay lower coupons, may dilute shareholders, and converting isn't taxable. Zero coupons create phantom income and have high rate sensitivity."
+}

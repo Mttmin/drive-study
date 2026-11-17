@@ -1,0 +1,111 @@
+{
+ "id": "s7-2-02",
+ "exam": "S7",
+ "section": "S7-2",
+ "section_title": "Opens Accounts After Obtaining and Evaluating Customers' Financial Profile and Investment Objectives",
+ "title": "Retirement and tax-advantaged accounts",
+ "order": 2,
+ "est_minutes": 8,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Retirement accounts are a favorite Series 7 topic because they mix suitability with tax rules. The core idea is simple. Traditional accounts give you a tax break now and tax the withdrawals. Roth accounts give no break now but make qualified withdrawals tax-free. The details, the contribution limits and the penalties, change, so we'll flag the yearly numbers."
+  },
+  {
+   "type": "narration",
+   "text": "For twenty twenty-six, the IRA contribution limit is seven thousand five hundred dollars, and savers age fifty and older can add a catch-up of one thousand one hundred dollars. That limit is shared between traditional and Roth IRAs combined. You need earned income to contribute, but a spouse with little or no income can use a spousal IRA based on the working spouse's income. Traditional IRA contributions may be deductible, depending on income and whether you're covered by a workplace plan. Roth IRA eligibility phases out at higher incomes. These are changes-yearly numbers, so check them every January."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0559"
+  },
+  {
+   "type": "narration",
+   "text": "Distributions follow a timeline. Withdrawals from a traditional IRA before age fifty-nine and a half generally trigger ordinary income tax plus a ten percent additional tax, with exceptions such as death, disability, a first-time home purchase up to a lifetime limit, qualified higher education expenses, and substantially equal periodic payments. Required minimum distributions now start at age seventy-three under SECURE two point oh. Roth IRAs have no required distributions for the original owner. A Roth distribution is qualified, and so completely tax-free, if the account has been open at least five years and the owner is fifty-nine and a half, disabled, deceased, or using the first-time home exception."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0565"
+  },
+  {
+   "type": "narration",
+   "text": "Moving money between accounts can be done two ways. A direct transfer, trustee to trustee, has no withholding and no limit on how often. An indirect rollover gives the money to the owner, who has sixty days to redeposit it. Indirect IRA-to-IRA rollovers are limited to one per twelve months. When an employer plan pays a distribution directly to the participant, the plan must withhold twenty percent for taxes. To roll over the full amount, the participant must make up that twenty percent from other funds."
+  },
+  {
+   "type": "narration",
+   "text": "Employer plans are where most retirement money sits. For twenty twenty-six, the four oh one k elective deferral limit is twenty-four thousand five hundred dollars. The age fifty-plus catch-up is eight thousand dollars, and a higher catch-up of eleven thousand two hundred fifty dollars applies at ages sixty through sixty-three. four oh three b plans serve public schools and certain nonprofits. SEP IRAs are funded by employer contributions and suit small businesses and the self-employed. SIMPLE IRAs serve small employers and include required employer contributions. Qualified corporate plans fall under ERISA, which requires fiduciaries to act prudently and solely in participants' interest, and to diversify. ERISA doesn't apply to government plans."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0571"
+  },
+  {
+   "type": "narration",
+   "text": "Education accounts come next. A five twenty-nine plan is a state-sponsored municipal fund security. Contributions are made after tax, but earnings grow tax-deferred and withdrawals for qualified education expenses are federally tax-free. The donor keeps control of the account. Contributions are gifts, so a donor can use the annual gift exclusion, which is nineteen thousand dollars for twenty twenty-six, and can elect to front-load five years of exclusions at once. Some states give residents a state tax deduction for contributing to their own state's plan, which is a key suitability point. A Coverdell education savings account allows two thousand dollars per beneficiary per year, with income limits for contributors. ABLE accounts help people with disabilities save without losing certain benefits."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0577"
+  },
+  {
+   "type": "narration",
+   "text": "Suitability links all of this together. Don't put tax-exempt municipal bonds in an IRA. The exemption is wasted, because every traditional IRA withdrawal is taxed as ordinary income. Annuities inside IRAs need a reason beyond tax deferral, such as a living benefit, since the IRA already defers tax. Margin and uncovered options are generally not permitted in retirement accounts."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: in twenty twenty-six, the IRA limit is seven thousand five hundred plus one thousand one hundred catch-up, and the four oh one k limit is twenty-four thousand five hundred plus eight thousand. Early withdrawals cost ten percent before fifty-nine and a half, and RMDs start at seventy-three. Roths have no RMDs and use five years plus fifty-nine and a half. Indirect rollovers allow sixty days, once per twelve months for IRAs, with twenty percent withheld from plan payouts."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Traditional IRA: An individual retirement account funded with earned income, whose contributions may be deductible and whose distributions are taxed as ordinary income. Roth IRA: An individual retirement account funded with after-tax money whose qualified distributions are tax-free, with no RMDs for the original owner. SEP-IRA: An employer plan funded only by employer contributions to employees' IRAs, popular with small businesses and the self-employed. SIMPLE IRA: An employer plan for small businesses that combines employee salary deferrals with required employer contributions. four oh one k plan: A corporate defined contribution plan that lets employees defer part of their salary, often with an employer match. four oh three b plan: A tax-sheltered annuity plan for employees of public schools and tax-exempt nonprofit organizations. four fifty-seven b plan: A deferred compensation plan for state and local government employees, whose distributions after separation are not subject to the ten percent early withdrawal penalty. Defined benefit plan: A pension plan that promises a specific retirement benefit, with the employer bearing the investment risk."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Traditional IRA",
+   "definition": "An individual retirement account funded with earned income, whose contributions may be deductible and whose distributions are taxed as ordinary income"
+  },
+  {
+   "term": "Roth IRA",
+   "definition": "An individual retirement account funded with after-tax money whose qualified distributions are tax-free, with no RMDs for the original owner"
+  },
+  {
+   "term": "SEP-IRA",
+   "definition": "An employer plan funded only by employer contributions to employees' IRAs, popular with small businesses and the self-employed"
+  },
+  {
+   "term": "SIMPLE IRA",
+   "definition": "An employer plan for small businesses that combines employee salary deferrals with required employer contributions"
+  },
+  {
+   "term": "401(k) plan",
+   "definition": "A corporate defined contribution plan that lets employees defer part of their salary, often with an employer match"
+  },
+  {
+   "term": "403(b) plan",
+   "definition": "A tax-sheltered annuity plan for employees of public schools and tax-exempt nonprofit organizations"
+  },
+  {
+   "term": "457(b) plan",
+   "definition": "A deferred compensation plan for state and local government employees, whose distributions after separation are not subject to the 10 percent early withdrawal penalty"
+  },
+  {
+   "term": "Defined benefit plan",
+   "definition": "A pension plan that promises a specific retirement benefit, with the employer bearing the investment risk"
+  },
+  {
+   "term": "Defined contribution plan",
+   "definition": "A plan in which contributions are set and the retirement benefit depends on investment performance"
+  },
+  {
+   "term": "Profit-sharing plan",
+   "definition": "A qualified plan in which employer contributions are discretionary and may vary with profits"
+  }
+ ],
+ "mnemonics": [
+  "Traditional: tax break now, tax later. Roth: tax now, free later.",
+  "Sixty days, once a year, twenty percent withheld from plans.",
+  "No munis in an IRA."
+ ],
+ "summary": "For 2026, the IRA limit is $7,500 (+$1,100 at 50+), and the 401(k) limit is $24,500 (+$8,000 catch-up; $11,250 at ages 60–63). These change yearly. Early distributions before 59½ get a 10% additional tax, with exceptions. RMDs begin at 73, and Roth owners have none. Qualified Roth withdrawals need five years plus 59½, death, disability or a first home. Indirect rollovers must be completed within 60 days, with one IRA-to-IRA rollover per 12 months, and plans withhold 20%. ERISA governs private plans. 529s grow tax-free for education, with a five-year gift election available. Coverdell allows $2,000 per beneficiary per year. Don't hold munis in IRAs."
+}

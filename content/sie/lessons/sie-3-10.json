@@ -1,0 +1,130 @@
+{
+  "id": "sie-3-10",
+  "exam": "SIE",
+  "section": "SIE-3",
+  "section_title": "Understanding Trading, Customer Accounts and Prohibited Activities",
+  "title": "Market Manipulation",
+  "order": 10,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Markets work only if prices reflect real supply and demand. Manipulation creates a false picture to profit at someone else's expense. The SIE expects you to recognize each scheme from a short description, so we'll go through them one by one with a clear example."
+    },
+    {
+      "type": "narration",
+      "text": "Start with fake activity. Wash trades are buying and selling the same security with no real change in ownership, and matched orders are coordinated trades between colluding parties. Both create the illusion of volume, which is called painting the tape. Spoofing means placing orders you intend to cancel, to trick others into moving the price. When several fake orders are stacked at different prices, it's called layering. All are illegal."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0563"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0568"
+    },
+    {
+      "type": "narration",
+      "text": "Next, price targeting. Marking the close means trading right before the close to push the closing price up or down, perhaps to inflate a portfolio's value at month-end. Marking the open does the same at the start of the day. Capping is pushing a stock's price down, or holding it down, for example to keep it below a call strike so the calls expire worthless. Pegging is propping a price up, for example above a put strike. Legitimate stabilization of a new offering by its underwriter, under S E C rules, is the narrow exception."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0562"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0572"
+    },
+    {
+      "type": "narration",
+      "text": "Rumors and promotions. Spreading false or misleading information to move a price, whether on the phone, in a chat room or on social media, is manipulation under S E C Rule ten B five and FINRA Rule twenty twenty. The classic scheme is the pump and dump: buy a thinly traded stock cheaply, hype it with false claims, then sell into the rally and leave other investors holding the bag."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0564"
+    },
+    {
+      "type": "narration",
+      "text": "Trading ahead of others. Front running, prohibited by FINRA Rule fifty-two seventy, means trading for yourself or the firm while aware of an imminent customer block order that's likely to move the price. Trading ahead of customer orders, under Rule fifty-three twenty, means a firm holding a customer's limit order trades for its own account at a price that would satisfy that order, without filling the customer first. Trading ahead of research means trading on advance knowledge of the firm's own upcoming research report."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0091"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0566"
+    },
+    {
+      "type": "narration",
+      "text": "Market maker violations. Market makers must honor their firm quotes. Refusing to trade at a posted firm quote is backing away. Meanwhile, legitimately posting continuous two-sided quotes to provide liquidity is the market maker's job, not manipulation."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0567"
+    },
+    {
+      "type": "narration",
+      "text": "Account abuses. Churning is excessive trading in a customer's account, mainly to generate commissions. It's most common in discretionary accounts, but can happen anywhere a rep effectively controls the trading. It violates Reg B I's care obligation and quantitative suitability. Late trading in mutual funds, letting orders placed after the four p m pricing time get that day's N A V, is illegal, because it lets traders profit from after-hours news at other shareholders' expense. Freeriding, buying and selling in a cash account without paying, results in a ninety-day freeze."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0569"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0570"
+    },
+    {
+      "type": "narration",
+      "text": "Why do regulators care so much? Because every one of these schemes takes money from someone who trusted the market's prices. The investor who bought because volume looked heavy, the customer whose limit order was skipped, the fund shareholder diluted by a late trader: each one paid for someone else's profit. Firms fight this with surveillance systems that flag unusual patterns, like heavy trading at the close, orders canceled within seconds, or a rep's personal trades just before customer blocks. When you see an exam question describing a pattern, ask yourself two things. First, is the activity real, or is it designed to create a false impression? Second, did someone put their own interest ahead of a customer's order or information? If either answer points to deception, it's almost certainly a violation."
+    },
+    {
+      "type": "narration",
+      "text": "A scenario. A trader notices a big customer sell order coming in, sells his own shares first, then posts online that the company is under investigation, hoping to buy back cheaper. That's two violations: front running the customer's order, and spreading a false rumor to manipulate the price. Each one alone can end a career and lead to fines, suspension, a bar, and possibly criminal charges."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Wash trades and matched orders paint the tape. Spoofing and layering use fake orders. Marking the close or open targets a price at the bell. Capping holds a price down and pegging holds it up. Rumors and pump and dumps spread false information. Front running trades ahead of block orders, trading ahead under fifty-three twenty skips customer limit orders, and trading ahead of research misuses advance knowledge. Backing away breaks firm quotes. Churning, late trading and freeriding abuse accounts."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Painting the tape",
+      "definition": "Creating false volume through wash trades or matched orders."
+    },
+    {
+      "term": "Spoofing",
+      "definition": "Placing orders intended to be canceled to move the price."
+    },
+    {
+      "term": "Marking the close",
+      "definition": "Trading near the close to influence the closing price."
+    },
+    {
+      "term": "Capping and pegging",
+      "definition": "Holding a price down or up, often near option strikes."
+    },
+    {
+      "term": "Front running",
+      "definition": "Trading ahead of a customer's block order (Rule 5270)."
+    },
+    {
+      "term": "Trading ahead",
+      "definition": "Firm trades ahead of a held customer limit order (Rule 5320)."
+    },
+    {
+      "term": "Backing away",
+      "definition": "Failing to honor a firm quote."
+    },
+    {
+      "term": "Late trading",
+      "definition": "Giving post-4 p.m. fund orders that day's NAV; illegal."
+    }
+  ],
+  "mnemonics": [
+    "Cap keeps it down, Peg holds it up.",
+    "Front run the Block; trade ahead of the Limit: both cut in line."
+  ],
+  "summary": "Manipulation fakes supply, demand or price: wash trades, matched orders, spoofing, marking the close, capping and pegging, and false rumors. Front running and trading ahead put the firm ahead of customers. Backing away breaks firm quotes. Churning, late trading and freeriding abuse accounts and funds."
+}

@@ -46,5 +46,173 @@
     "front": "Outside business activities and private securities transactions",
     "back": "Rule 3270: prior written notice for paid outside work. Rule 3280: selling away for pay needs the firm's written approval and supervision. Both are replaced by Rule 3290 on October 25, 2027.",
     "spoken": "Outside business activities and private securities transactions. ... Rule 3270: prior written notice for paid outside work. Rule 3280: selling away for pay needs the firm's written approval and supervision. Both are replaced by Rule 3290 on October 25, 2027."
+  },
+  {
+    "id": "sie-f-0099",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "SIE result validity",
+    "back": "4 years. To register, you also need a representative exam and association with a member firm.",
+    "spoken": "SIE result validity. ... 4 years. To register, you also need a representative exam and association with a member firm."
+  },
+  {
+    "id": "sie-f-0100",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "Qualification lapse",
+    "back": "2 years after leaving the industry, or up to 5 years with the Maintaining Qualifications Program and annual CE.",
+    "spoken": "Qualification lapse. ... 2 years after leaving the industry, or up to 5 years with the Maintaining Qualifications Program and annual CE."
+  },
+  {
+    "id": "sie-f-0101",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "CE inactive",
+    "back": "Missing the Regulatory Element deadline of December 31 means no registered activity or pay for it. Two years inactive means registration is terminated.",
+    "spoken": "CE inactive. ... Missing the Regulatory Element deadline of December 31 means no registered activity or pay for it. Two years inactive means registration is terminated."
+  },
+  {
+    "id": "sie-f-0102",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "Firm Element",
+    "back": "Annual training the firm builds from a needs analysis and written plan.",
+    "spoken": "Firm Element. ... Annual training the firm builds from a needs analysis and written plan."
+  },
+  {
+    "id": "sie-f-0103",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "SEC Rule 17f-2",
+    "back": "Fingerprinting of broker-dealer personnel, with prints sent to the FBI through FINRA.",
+    "spoken": "SEC Rule 17f-2. ... Fingerprinting of broker-dealer personnel, with prints sent to the FBI through FINRA."
+  },
+  {
+    "id": "sie-f-0104",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "Statutory disqualification",
+    "back": "Includes any felony within 10 years, securities- or fraud-related misdemeanors within 10 years, SRO expulsion, and certain injunctions and orders.",
+    "spoken": "Statutory disqualification. ... Includes any felony within 10 years, securities- or fraud-related misdemeanors within 10 years, SRO expulsion, and certain injunctions and orders."
+  },
+  {
+    "id": "sie-f-0105",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "Permissive registration",
+    "back": "A firm may register people who don't need it, such as compliance staff, to keep their qualifications active.",
+    "spoken": "Permissive registration. ... A firm may register people who don't need it, such as compliance staff, to keep their qualifications active."
+  },
+  {
+    "id": "sie-f-0106",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "Exam retake waits (November 2026)",
+    "back": "30 days after the 1st and 2nd failures, 180 days after the 3rd. Starting January 19, 2027: 15 and 60 days.",
+    "spoken": "Exam retake waits (November 2026). ... 30 days after the 1st and 2nd failures, 180 days after the 3rd. Starting January 19, 2027: 15 and 60 days."
+  },
+  {
+    "id": "sie-f-0107",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "Exam enrollment window",
+    "back": "Generally 120 days to schedule and sit for the exam after enrolling.",
+    "spoken": "Exam enrollment window. ... Generally 120 days to schedule and sit for the exam after enrolling."
+  },
+  {
+    "id": "sie-f-0108",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "Form U4 history",
+    "back": "10 years of employment history, 5 years of residential history, plus disclosure questions. Signed by the candidate and a principal.",
+    "spoken": "Form U4 history. ... 10 years of employment history, 5 years of residential history, plus disclosure questions. Signed by the candidate and a principal."
+  },
+  {
+    "id": "sie-f-0109",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "U4 criminal disclosure",
+    "back": "Felony charges and convictions, and investment- or fraud-related misdemeanor charges and convictions.",
+    "spoken": "U4 criminal disclosure. ... Felony charges and convictions, and investment- or fraud-related misdemeanor charges and convictions."
+  },
+  {
+    "id": "sie-f-0110",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "U4 financial disclosure",
+    "back": "Bankruptcy within 10 years, unsatisfied liens and judgments, and compromises with creditors.",
+    "spoken": "U4 financial disclosure. ... Bankruptcy within 10 years, unsatisfied liens and judgments, and compromises with creditors."
+  },
+  {
+    "id": "sie-f-0111",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "Written complaint records",
+    "back": "Rule 4513: kept 4 years at the office of supervisory jurisdiction.",
+    "spoken": "Written complaint records. ... Rule 4513: kept 4 years at the office of supervisory jurisdiction."
+  },
+  {
+    "id": "sie-f-0112",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "Rule 4530 reporting",
+    "back": "Specified events within 30 calendar days. Complaint statistics quarterly, by the 15th of the month after the quarter.",
+    "spoken": "Rule 4530 reporting. ... Specified events within 30 calendar days. Complaint statistics quarterly, by the 15th of the month after the quarter."
+  },
+  {
+    "id": "sie-f-0113",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "BrokerCheck",
+    "back": "Rule 8312. Firm websites must link to it, and Rule 2267 requires sending customers the hotline and website annually.",
+    "spoken": "BrokerCheck. ... Rule 8312. Firm websites must link to it, and Rule 2267 requires sending customers the hotline and website annually."
+  },
+  {
+    "id": "sie-f-0114",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "Arbitration basics",
+    "back": "Industry disputes must be arbitrated. Claims are ineligible after 6 years. Awards are generally final and binding.",
+    "spoken": "Arbitration basics. ... Industry disputes must be arbitrated. Claims are ineligible after 6 years. Awards are generally final and binding."
+  },
+  {
+    "id": "sie-f-0115",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "Rule 2263",
+    "back": "When asking someone to sign a U4, the firm must give them a written arbitration disclosure.",
+    "spoken": "Rule 2263. ... When asking someone to sign a U4, the firm must give them a written arbitration disclosure."
+  },
+  {
+    "id": "sie-f-0116",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "Business entertainment",
+    "back": "Not counted toward the $300 gift limit if the rep attends. Must not be so frequent or extensive as to raise questions of propriety.",
+    "spoken": "Business entertainment. ... Not counted toward the 300 dollars gift limit if the rep attends. Must not be so frequent or extensive as to raise questions of propriety."
+  },
+  {
+    "id": "sie-f-0117",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "Non-cash compensation for training meetings",
+    "back": "The firm must approve attendance, attendance can't be tied to sales, the location must be appropriate, and no guests may be paid for.",
+    "spoken": "Non-cash compensation for training meetings. ... The firm must approve attendance, attendance can't be tied to sales, the location must be appropriate, and no guests may be paid for."
+  },
+  {
+    "id": "sie-f-0118",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "Rule 3210",
+    "back": "Employees need prior written consent from their firm to open accounts at other broker-dealers, and must notify that other firm of their association.",
+    "spoken": "Rule 3210. ... Employees need prior written consent from their firm to open accounts at other broker-dealers, and must notify that other firm of their association."
+  },
+  {
+    "id": "sie-f-0119",
+    "exam": "SIE",
+    "section": "SIE-4",
+    "front": "Rule 2060",
+    "back": "Information obtained as a fiduciary, such as when acting as transfer agent, can't be used to solicit trades unless the issuer requests it.",
+    "spoken": "Rule 2060. ... Information obtained as a fiduciary, such as when acting as transfer agent, can't be used to solicit trades unless the issuer requests it."
   }
 ]

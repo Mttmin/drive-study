@@ -1,0 +1,111 @@
+{
+ "id": "s7-3-12",
+ "exam": "S7",
+ "section": "S7-3",
+ "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+ "title": "Municipal credit analysis",
+ "order": 12,
+ "est_minutes": 8,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Municipal bonds are a heavy Series 7 topic. Before you can talk about taxes or pricing, you need to know what backs a muni bond and how an analyst judges whether it will be repaid. The basic split is general obligation bonds versus revenue bonds."
+  },
+  {
+   "type": "narration",
+   "text": "General obligation bonds, or GOs, are backed by the full faith and credit and taxing power of the issuer. State GOs are backed mainly by income and sales taxes. Local GOs, like those from cities, counties, and school districts, are backed mainly by property taxes. GOs fund projects that don't produce revenue, like schools, parks, and police stations. Because they pledge taxpayers' money, they usually need voter approval and are subject to statutory debt limits."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0047"
+  },
+  {
+   "type": "narration",
+   "text": "Analyzing a GO means looking at the community's ability and willingness to pay. Analysts look at the economy and tax base, population trends, major employers, and income levels. Key ratios include debt per capita and debt as a percentage of the assessed value of property. Overlapping debt is debt from other issuers that share the same taxpayers, such as a city, its county, and its school district. Coterminous debt is debt of issuers with the same boundaries. Analysts also look at tax collection rates, budget practices, pension obligations, and reserves. Property taxes are figured as the assessed value times the tax rate in mills, where one mill is one tenth of a cent per dollar of value, or one dollar per thousand."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0751"
+  },
+  {
+   "type": "narration",
+   "text": "Revenue bonds are backed only by the income from the project they finance, such as toll roads, airports, water and sewer systems, hospitals, and stadiums. They don't need voter approval and aren't subject to debt limits. Before they're issued, a feasibility study looks at whether the project will generate enough revenue. A key ratio is debt service coverage: net revenues available for debt service divided by the annual principal and interest due. Higher coverage means more safety."
+  },
+  {
+   "type": "narration",
+   "text": "The bond resolution, or indenture, contains protective covenants. A rate covenant promises to set user fees high enough to cover expenses and debt service. A maintenance covenant promises to keep the facility in good repair, and an insurance covenant promises to insure it. The flow of funds sets the order in which revenue is used. In a net revenue pledge, which is most common, operations and maintenance are paid first, then debt service. In a gross revenue pledge, debt service is paid first. An open-end indenture allows more bonds with an equal claim on revenues if an additional bonds test is met. A closed-end indenture doesn't allow that."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0756"
+  },
+  {
+   "type": "narration",
+   "text": "Several hybrid types show up on the exam. Double-barreled bonds are backed by both project revenues and the issuer's taxing power, so they're analyzed as GOs. Special tax bonds are backed by a specific tax, like a gas or hotel tax, but not by property taxes. Special assessment bonds are paid by assessments on the properties that benefit, like sidewalks in one neighborhood. Moral obligation bonds carry a non-binding promise by the state legislature to cover shortfalls. Industrial development revenue bonds are issued by a municipality but backed by a corporation's lease payments, so the credit risk is the corporation's. Many are private activity bonds, whose interest may be subject to the alternative minimum tax. Lease rental bonds are backed by lease payments from another government agency. Bonds issued by public housing authorities are backed by the U.S. government."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-1075"
+  },
+  {
+   "type": "narration",
+   "text": "Other sources include the official statement and the issuer's continuing disclosure on EMMA, plus credit ratings and bond insurance. Insurance can improve a rating, but it's only as strong as the insurer."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: GOs are backed by taxes and need voters, so analyze debt per capita, overlapping debt, and the tax base. Revenue bonds are backed by fees, so analyze the feasibility study and debt service coverage. Covenants protect revenue bondholders, and net revenue pledges pay operations first. Double-barreled bonds are analyzed as GOs, IDRs carry corporate credit risk, and moral obligation bonds rely on a non-binding promise."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Net direct debt: A municipality's total direct debt minus self-supporting debt, used to measure the burden on taxpayers. Overlapping debt: Debt of other jurisdictions that share the same tax base, such as a county and a school district. Assessed valuation: The value placed on property for taxing purposes, which forms the base for property taxes. Feasibility study: An engineering and economic report done before a revenue bond issue to show the project can generate enough revenue. Rate covenant: An issuer's promise to set user charges high enough to cover operations and debt service. Additional bonds test: An indenture covenant that limits new parity debt unless coverage requirements are met. Closed-end indenture: A bond agreement that prohibits issuing more bonds with an equal claim on the same revenues. Debt service reserve fund: A fund holding money to cover debt service if revenues fall short."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Net direct debt",
+   "definition": "A municipality's total direct debt minus self-supporting debt, used to measure the burden on taxpayers"
+  },
+  {
+   "term": "Overlapping debt",
+   "definition": "Debt of other jurisdictions that share the same tax base, such as a county and a school district"
+  },
+  {
+   "term": "Assessed valuation",
+   "definition": "The value placed on property for taxing purposes, which forms the base for property taxes"
+  },
+  {
+   "term": "Feasibility study",
+   "definition": "An engineering and economic report done before a revenue bond issue to show the project can generate enough revenue"
+  },
+  {
+   "term": "Rate covenant",
+   "definition": "An issuer's promise to set user charges high enough to cover operations and debt service"
+  },
+  {
+   "term": "Additional bonds test",
+   "definition": "An indenture covenant that limits new parity debt unless coverage requirements are met"
+  },
+  {
+   "term": "Closed-end indenture",
+   "definition": "A bond agreement that prohibits issuing more bonds with an equal claim on the same revenues"
+  },
+  {
+   "term": "Debt service reserve fund",
+   "definition": "A fund holding money to cover debt service if revenues fall short"
+  },
+  {
+   "term": "Bond Buyer 20-Bond Index",
+   "definition": "An index of the yields of 20 general obligation bonds with 20-year maturities"
+  },
+  {
+   "term": "Bond Buyer 11-Bond Index",
+   "definition": "A higher-rated subset of the 20-Bond index, also made of general obligation bonds"
+  }
+ ],
+ "mnemonics": [
+  "GO: taxes, voters, limits. Revenue: fees, feasibility, coverage.",
+  "Double-barreled: analyze as a GO.",
+  "IDR: the corporation is the real credit."
+ ],
+ "summary": "GO bonds are backed by taxing power, generally need voter approval and are subject to debt limits. Analysis covers debt per capita, debt to assessed value, overlapping debt, tax collections and the economy. Property tax equals assessed value times the millage rate. Revenue bonds are backed by project revenue, need a feasibility study, and are analyzed by debt service coverage (net revenue ÷ debt service). Covenants include rate, maintenance and insurance covenants and the flow of funds (net vs gross pledge), plus open vs closed-end indentures. Hybrids: double-barreled bonds are analyzed as GOs, special tax and special assessment bonds rely on specific revenues, moral obligation bonds carry a non-binding legislative promise, IDRs carry corporate credit and may be AMT, lease rental bonds rely on agency leases, and PHAs are backed by the U.S. government."
+}

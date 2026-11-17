@@ -1,0 +1,111 @@
+{
+ "id": "s7-3-19",
+ "exam": "S7",
+ "section": "S7-3",
+ "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+ "title": "Risks, disclosures, costs and estate and gift taxes",
+ "order": 19,
+ "est_minutes": 8,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Recommending well means matching risks to the customer and explaining costs clearly. This lesson pulls together the types of investment risk, the cost disclosures customers are owed, and the estate and gift tax rules that come up in wealth planning."
+  },
+  {
+   "type": "narration",
+   "text": "Start with the risks. Market risk, or systematic risk, affects all securities and can't be diversified away. Business risk and credit risk are specific to an issuer. Interest rate risk hits bonds when rates rise, and it's worst for long maturities. Reinvestment risk is the chance that coupons or called principal must be reinvested at lower rates. Zero coupon bonds avoid it. Call risk and prepayment risk are forms of reinvestment risk. Inflation risk, or purchasing power risk, threatens fixed income investors over long periods, and TIPS and equities are common hedges. Liquidity risk is the inability to sell quickly at a fair price, a big issue for DPPs and non-traded REITs. Currency risk affects foreign investments and ADRs. Political or regulatory risk comes from government action, and concentration risk comes from putting too much into one holding."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0827"
+  },
+  {
+   "type": "narration",
+   "text": "Each customer profile points to certain risks. A retiree living on fixed income faces inflation risk and longevity risk, the risk of outliving their money. A young investor holding only cash faces purchasing power risk. Someone with most of their wealth in their employer's stock faces concentration risk. The exam likes questions that ask which risk is most relevant. Read for the customer's holdings and their goals."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0834"
+  },
+  {
+   "type": "narration",
+   "text": "Costs must be disclosed and should be reasonable. Commissions and markups are transaction costs. Mutual funds have sales loads, twelve b-one fees, and expense ratios. Annuities add mortality and expense charges, administrative fees, rider costs, and surrender charges. Wrap and advisory accounts charge an asset-based fee. Under Reg BI, costs are a required part of the care analysis. A higher-cost product needs a reason, such as features the customer actually needs. Reps should compare reasonably available alternatives."
+  },
+  {
+   "type": "narration",
+   "text": "Now estate and gift taxes. For twenty twenty-six, the federal annual gift tax exclusion is nineteen thousand dollars per recipient. A married couple can split gifts and give thirty-eight thousand dollars to each recipient without using any of their lifetime exemption. The lifetime estate and gift tax exemption is fifteen million dollars per person in twenty twenty-six. These numbers change, so treat them as changes-yearly. Gifts above the annual exclusion require a gift tax return, but tax is owed only after the lifetime exemption is used up. Gifts between spouses who are U.S. citizens are unlimited, and gifts to qualified charities aren't taxed. Paying tuition or medical bills directly to the school or provider doesn't count toward the annual exclusion."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0866"
+  },
+  {
+   "type": "narration",
+   "text": "Estate planning ties these together. At death, assets in the estate get a step-up in basis to fair market value, which erases unrealized gains for the heirs. Gifted assets keep the donor's basis. That means giving away highly appreciated stock while alive passes the built-in gain to the recipient, while holding it until death can erase the gain. Assets in a joint account with right of survivorship, a transfer on death account, or a named-beneficiary retirement account pass outside the will and avoid probate, although they may still count for estate tax. Trusts can manage assets for beneficiaries, and an irrevocable trust can remove assets from the taxable estate."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0873"
+  },
+  {
+   "type": "narration",
+   "text": "Finally, required disclosures. Form CRS, prospectuses, the Options Disclosure Document, margin disclosures, and the official statement for munis all exist so customers understand risks and costs before they invest. Reps must never say a product is guaranteed when only part of it is, or that FINRA or the SEC approved it."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: market risk can't be diversified away. Rising rates hurt long bonds, while falling rates create reinvestment and prepayment risk. Inflation threatens fixed income, and illiquidity marks alternatives. Costs are part of best interest. For twenty twenty-six, the annual gift exclusion is nineteen thousand dollars, or thirty-eight thousand split, and the lifetime exemption is fifteen million. Inherited assets step up, while gifted assets carry over basis."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Systematic risk: Market risk that affects all securities and cannot be diversified away. Unsystematic risk: Company- or industry-specific risk that can be reduced through diversification. Reinvestment risk: The risk that interest or principal must be reinvested at lower rates, which zero-coupon bonds avoid. Call risk: The risk that a bond is redeemed early when rates fall, forcing reinvestment at lower yields. Purchasing power risk: The risk that inflation erodes the real value of returns, greatest for fixed-income investments. Liquidity risk: The risk of not being able to sell an investment quickly at a fair price. Credit risk: The risk that an issuer will default on interest or principal payments. Currency risk: The risk that changes in exchange rates reduce the dollar value of a foreign investment."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Systematic risk",
+   "definition": "Market risk that affects all securities and cannot be diversified away"
+  },
+  {
+   "term": "Unsystematic risk",
+   "definition": "Company- or industry-specific risk that can be reduced through diversification"
+  },
+  {
+   "term": "Reinvestment risk",
+   "definition": "The risk that interest or principal must be reinvested at lower rates, which zero-coupon bonds avoid"
+  },
+  {
+   "term": "Call risk",
+   "definition": "The risk that a bond is redeemed early when rates fall, forcing reinvestment at lower yields"
+  },
+  {
+   "term": "Purchasing power risk",
+   "definition": "The risk that inflation erodes the real value of returns, greatest for fixed-income investments"
+  },
+  {
+   "term": "Liquidity risk",
+   "definition": "The risk of not being able to sell an investment quickly at a fair price"
+  },
+  {
+   "term": "Credit risk",
+   "definition": "The risk that an issuer will default on interest or principal payments"
+  },
+  {
+   "term": "Currency risk",
+   "definition": "The risk that changes in exchange rates reduce the dollar value of a foreign investment"
+  },
+  {
+   "term": "Political risk",
+   "definition": "The risk that government actions in a country, such as nationalization, hurt an investment"
+  },
+  {
+   "term": "Timing risk",
+   "definition": "The risk of buying or selling at an unfavorable time, which dollar cost averaging aims to reduce"
+  }
+ ],
+ "mnemonics": [
+  "Rates up: price risk. Rates down: reinvestment risk.",
+  "Gift nineteen, split thirty-eight, lifetime fifteen million in twenty twenty-six.",
+  "Death steps up; gifts carry over."
+ ],
+ "summary": "Risks: market (systematic), business and credit, interest rate, reinvestment (including call and prepayment), inflation, liquidity, currency, political and concentration risk. Match risks to the profile, such as longevity and inflation risk for retirees. Costs (commissions, markups, loads, 12b-1, expense ratios, M&E, surrender, wrap fees) are part of the Reg BI care obligation. For 2026, the gift exclusion is $19,000 per recipient ($38,000 split) and the lifetime exemption is $15M. Spousal and charitable gifts are unlimited, and direct tuition and medical payments are excluded. Assets step up at death, while gifts take carryover basis. JTWROS, TOD and beneficiary designations avoid probate."
+}

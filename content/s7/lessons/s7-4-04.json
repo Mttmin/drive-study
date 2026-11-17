@@ -1,0 +1,99 @@
+{
+ "id": "s7-4-04",
+ "exam": "S7",
+ "section": "S7-4",
+ "section_title": "Obtains and Verifies Customers' Purchase and Sales Instructions and Agreements; Processes, Completes and Confirms Transactions",
+ "title": "Errors, complaints and dispute resolution",
+ "order": 4,
+ "est_minutes": 7,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Things go wrong, and the Series 7 tests how firms handle it: trade errors, customer complaints, required reports, and how disputes are settled through FINRA's arbitration and disciplinary processes."
+  },
+  {
+   "type": "narration",
+   "text": "Trade errors should be fixed promptly and at the firm's expense, not the customer's. If a rep enters the wrong security or quantity, the firm moves the trade to an error account and gives the customer what they actually ordered. Reps can't cancel or re-bill trades to shift losses onto customers, and they can't move a profitable error trade to themselves. If a confirmation is wrong, the customer should get a corrected one. A customer who accepts a confirmation with an error isn't held to the mistake, and the firm must make it right."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0931"
+  },
+  {
+   "type": "narration",
+   "text": "FINRA defines a written complaint as any grievance from a customer, or someone acting for the customer, that alleges improper activity in connection with the solicitation or execution of a transaction or the handling of funds or securities. Emails and other electronic messages count. Under FINRA Rule forty-five thirteen, firms must keep a record of each written complaint at the office of supervisory jurisdiction for at least four years, including the action taken. Under FINRA Rule forty-five thirty, firms report statistics on customer complaints to FINRA every quarter, by the fifteenth day of the month after the quarter ends. Certain events, like major disciplinary actions or findings of violations, must be reported within thirty calendar days."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0933"
+  },
+  {
+   "type": "narration",
+   "text": "Forms U four and U five track representatives' records. The U four registration form must be updated within thirty days when information changes, such as a new address, a customer complaint that alleges sales practice violations involving damages above a set amount, a lien, a bankruptcy, or a criminal charge. When a rep leaves, the firm files a U five within thirty days, gives a copy to the rep, and states the reason for the termination. The information goes into the Central Registration Depository and shows up on BrokerCheck."
+  },
+  {
+   "type": "narration",
+   "text": "Disputes between customers and firms usually go to FINRA arbitration. If the customer signed a predispute arbitration agreement, which must be clearly highlighted, they generally must arbitrate rather than sue. A customer can also require a firm to arbitrate even without an agreement. Disputes between members, or between members and their associated persons, generally must be arbitrated. Claims must be filed within six years of the event. Arbitration decisions are final and binding, with very limited grounds for appeal, and awards generally must be paid within thirty days. Claims of fifty thousand dollars or less use simplified arbitration, where one arbitrator decides based on documents, unless the customer asks for a hearing. Class actions aren't arbitrated in FINRA's forum. Mediation is voluntary and non-binding, and it can run alongside arbitration."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0935"
+  },
+  {
+   "type": "narration",
+   "text": "FINRA's Code of Procedure handles rule violations. FINRA staff investigate and can file a complaint. The respondent has twenty-five days to answer. If they don't answer, the allegations can be deemed admitted. A case can end in a settlement called a letter of acceptance, waiver, and consent, where the respondent accepts findings and sanctions without admitting or denying them. Minor violations can be handled with a minor rule violation letter and a modest fine. Sanctions range from censure and fines to suspension and expulsion or a bar. Decisions can be appealed to FINRA's National Adjudicatory Council, then the SEC, then the federal courts."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0937"
+  },
+  {
+   "type": "narration",
+   "text": "Statutory disqualification can stop someone from working in the industry. Causes include certain felony convictions within ten years, any securities-related misdemeanor within ten years, and being expelled or barred by a regulator. A firm that wants to employ a disqualified person must apply to FINRA for approval."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: fix trade errors at the firm's expense. Written complaints include email, are kept four years, and are reported quarterly. U four updates and U five filings happen within thirty days. Arbitration claims must be filed within six years, awards are binding and paid within thirty days, and claims of fifty thousand or less use simplified arbitration. The Code of Procedure allows a twenty-five-day answer and offers AWCs, with appeals to the NAC, then the SEC, then the courts."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Written complaint: A written grievance by a customer about a representative or firm, which must be kept on record and reported to a principal. Arbitration: A binding dispute resolution process before a FINRA panel, with very limited grounds for appeal. Mediation: A voluntary, non-binding process in which a neutral mediator helps the parties settle. Form U4: The uniform registration form for representatives, which must be updated for events such as certain customer complaints, liens and criminal charges. Form U5: The termination notice a firm files when a representative leaves, due within thirty days. Cancel and rebill: Correcting an error by canceling a trade and rebooking it in the right account, which requires principal approval. Erroneous report: An incorrect trade report sent to a customer, which does not bind the firm to the wrong price."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Written complaint",
+   "definition": "A written grievance by a customer about a representative or firm, which must be kept on record and reported to a principal"
+  },
+  {
+   "term": "Arbitration",
+   "definition": "A binding dispute resolution process before a FINRA panel, with very limited grounds for appeal"
+  },
+  {
+   "term": "Mediation",
+   "definition": "A voluntary, non-binding process in which a neutral mediator helps the parties settle"
+  },
+  {
+   "term": "Form U4",
+   "definition": "The uniform registration form for representatives, which must be updated for events such as certain customer complaints, liens and criminal charges"
+  },
+  {
+   "term": "Form U5",
+   "definition": "The termination notice a firm files when a representative leaves, due within 30 days"
+  },
+  {
+   "term": "Cancel and rebill",
+   "definition": "Correcting an error by canceling a trade and rebooking it in the right account, which requires principal approval"
+  },
+  {
+   "term": "Erroneous report",
+   "definition": "An incorrect trade report sent to a customer, which does not bind the firm to the wrong price"
+  }
+ ],
+ "mnemonics": [
+  "Complaints: written, four years, quarterly stats.",
+  "U four and U five: thirty days.",
+  "Arbitration: six years to file, thirty days to pay, fifty K simplified."
+ ],
+ "summary": "Trade errors are corrected at the firm's expense through an error account. Written complaints include electronic messages, are kept for 4 years (Rule 4513) and are reported in quarterly statistics by the 15th (Rule 4530), with specified events reported within 30 days. U4 amendments and U5 filings are due within 30 days. FINRA arbitration: customers can compel firms to arbitrate, predispute agreements bind customers, member disputes must be arbitrated, eligibility is 6 years, awards are final and payable within 30 days, and claims of $50K or less use simplified arbitration. Mediation is voluntary. Code of Procedure: a 25-day answer, AWC, MRV, and sanctions up to expulsion or a bar, with appeals to the NAC, then the SEC, then the courts. Statutory disqualification requires FINRA approval."
+}

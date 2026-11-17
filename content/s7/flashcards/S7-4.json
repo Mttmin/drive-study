@@ -110,5 +110,325 @@
   "front": "Buy stop vs sell stop",
   "back": "Buy stop: above market, protects shorts. Sell stop: below market, protects longs.",
   "spoken": "Buy stops sit above the market and protect short sellers. Sell stops sit below and protect long positions."
+ },
+ {
+  "id": "s7-f-0430",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Market order",
+  "back": "An order to buy or sell immediately at the best available price, which guarantees execution but not price.",
+  "spoken": "Market order. An order to buy or sell immediately at the best available price, which guarantees execution but not price."
+ },
+ {
+  "id": "s7-f-0431",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Limit order",
+  "back": "An order to buy at or below, or sell at or above, a set price, which guarantees price but not execution.",
+  "spoken": "Limit order. An order to buy at or below, or sell at or above, a set price, which guarantees price but not execution."
+ },
+ {
+  "id": "s7-f-0432",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Stop order",
+  "back": "An order that becomes a market order once the stock trades at or through the stop price.",
+  "spoken": "Stop order. An order that becomes a market order once the stock trades at or through the stop price."
+ },
+ {
+  "id": "s7-f-0433",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Stop-limit order",
+  "back": "An order that becomes a limit order once the stop price is reached.",
+  "spoken": "Stop-limit order. An order that becomes a limit order once the stop price is reached."
+ },
+ {
+  "id": "s7-f-0434",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "All-or-none order",
+  "back": "An order that must be filled completely or not at all, though not necessarily immediately.",
+  "spoken": "All-or-none order. An order that must be filled completely or not at all, though not necessarily immediately."
+ },
+ {
+  "id": "s7-f-0435",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Fill-or-kill order",
+  "back": "An order that must be executed immediately and in full, or it is canceled.",
+  "spoken": "Fill-or-kill order. An order that must be executed immediately and in full, or it is canceled."
+ },
+ {
+  "id": "s7-f-0436",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Immediate-or-cancel order",
+  "back": "An order that must be executed immediately, with any unfilled part canceled.",
+  "spoken": "Immediate-or-cancel order. An order that must be executed immediately, with any unfilled part canceled."
+ },
+ {
+  "id": "s7-f-0437",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Not-held order",
+  "back": "An order giving the representative discretion over the time and price of execution.",
+  "spoken": "Not-held order. An order giving the representative discretion over the time and price of execution."
+ },
+ {
+  "id": "s7-f-0438",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Market-on-close order",
+  "back": "An order to be executed at or as near as possible to the closing price.",
+  "spoken": "Market-on-close order. An order to be executed at or as near as possible to the closing price."
+ },
+ {
+  "id": "s7-f-0439",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Good-till-canceled order",
+  "back": "An order that stays open until it is executed or canceled.",
+  "spoken": "Good-till-canceled order. An order that stays open until it is executed or canceled."
+ },
+ {
+  "id": "s7-f-0440",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Firm quote",
+  "back": "A quote at which the dealer is obligated to trade at least the stated size.",
+  "spoken": "Firm quote. A quote at which the dealer is obligated to trade at least the stated size."
+ },
+ {
+  "id": "s7-f-0441",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Subject quote",
+  "back": "A quote that needs reconfirmation before the dealer will trade on it.",
+  "spoken": "Subject quote. A quote that needs reconfirmation before the dealer will trade on it."
+ },
+ {
+  "id": "s7-f-0442",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Workout quote",
+  "back": "An approximate price range for a trade that needs special handling, such as a large block.",
+  "spoken": "Workout quote. An approximate price range for a trade that needs special handling, such as a large block."
+ },
+ {
+  "id": "s7-f-0443",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Locate requirement",
+  "back": "The Reg SHO rule that a firm must borrow or have reasonable grounds to believe it can borrow a security before accepting a short sale.",
+  "spoken": "Locate requirement. The Reg SHO rule that a firm must borrow or have reasonable grounds to believe it can borrow a security before accepting a short sale."
+ },
+ {
+  "id": "s7-f-0444",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Best execution",
+  "back": "A firm's duty to use reasonable diligence to get the most favorable terms reasonably available for customer orders.",
+  "spoken": "Best execution. A firm's duty to use reasonable diligence to get the most favorable terms reasonably available for customer orders."
+ },
+ {
+  "id": "s7-f-0445",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Regular-way settlement",
+  "back": "Standard settlement one business day after trade date for stocks, corporate and municipal bonds, and Treasuries.",
+  "spoken": "Regular-way settlement. Standard settlement one business day after trade date for stocks, corporate and municipal bonds, and Treasuries."
+ },
+ {
+  "id": "s7-f-0446",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Cash settlement",
+  "back": "Same-day settlement, with delivery due by 2:30 PM Eastern time if the trade is executed before then.",
+  "spoken": "Cash settlement. Same-day settlement, with delivery due by two:thirty PM Eastern time if the trade is executed before then."
+ },
+ {
+  "id": "s7-f-0447",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "When-issued trade",
+  "back": "A trade in a security that has been approved for issue but not yet issued, settling on a date set after issuance.",
+  "spoken": "When-issued trade. A trade in a security that has been approved for issue but not yet issued, settling on a date set after issuance."
+ },
+ {
+  "id": "s7-f-0448",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Due bill",
+  "back": "A document a seller gives to a buyer to show the buyer is owed a dividend or distribution received by the seller.",
+  "spoken": "Due bill. A document a seller gives to a buyer to show the buyer is owed a dividend or distribution received by the seller."
+ },
+ {
+  "id": "s7-f-0449",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Stock power",
+  "back": "A separate assignment form that transfers ownership of a stock certificate without signing the certificate itself.",
+  "spoken": "Stock power. A separate assignment form that transfers ownership of a stock certificate without signing the certificate itself."
+ },
+ {
+  "id": "s7-f-0450",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Good delivery",
+  "back": "Delivery of securities in proper form, with correct denominations, signatures and endorsements, so the buyer must accept it.",
+  "spoken": "Good delivery. Delivery of securities in proper form, with correct denominations, signatures and endorsements, so the buyer must accept it."
+ },
+ {
+  "id": "s7-f-0451",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Direct Registration System",
+  "back": "A book-entry system that lets investors hold shares in their own names on the issuer's records without a physical certificate.",
+  "spoken": "Direct Registration System. A book-entry system that lets investors hold shares in their own names on the issuer's records without a physical certificate."
+ },
+ {
+  "id": "s7-f-0452",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Don't know notice",
+  "back": "A DK, sent when a firm does not recognize a trade a contra-party has reported.",
+  "spoken": "Don't know notice. A DK, sent when a firm does not recognize a trade a contra-party has reported."
+ },
+ {
+  "id": "s7-f-0453",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Reclamation",
+  "back": "The right to return securities previously accepted when a delivery problem is later discovered.",
+  "spoken": "Reclamation. The right to return securities previously accepted when a delivery problem is later discovered."
+ },
+ {
+  "id": "s7-f-0454",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Ex-dividend date",
+  "back": "The first day a stock trades without the right to the upcoming dividend, which is the record date under T+1 settlement.",
+  "spoken": "Ex-dividend date. The first day a stock trades without the right to the upcoming dividend, which is the record date under T plus one settlement."
+ },
+ {
+  "id": "s7-f-0455",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "TRACE",
+  "back": "FINRA's system for reporting over-the-counter trades in corporate and agency bonds and certain other debt.",
+  "spoken": "TRACE. FINRA's system for reporting over-the-counter trades in corporate and agency bonds and certain other debt."
+ },
+ {
+  "id": "s7-f-0456",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "RTRS",
+  "back": "The MSRB's real-time transaction reporting system for municipal securities trades.",
+  "spoken": "RTRS. The MSRB's real-time transaction reporting system for municipal securities trades."
+ },
+ {
+  "id": "s7-f-0457",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "EMMA",
+  "back": "The MSRB website that publishes municipal trade prices and disclosure documents for free.",
+  "spoken": "EMMA. The MSRB website that publishes municipal trade prices and disclosure documents for free."
+ },
+ {
+  "id": "s7-f-0458",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Trade reporting facility",
+  "back": "A FINRA facility for reporting off-exchange trades in exchange-listed stocks.",
+  "spoken": "Trade reporting facility. A FINRA facility for reporting off-exchange trades in exchange-listed stocks."
+ },
+ {
+  "id": "s7-f-0459",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Designated market maker",
+  "back": "The NYSE member responsible for maintaining a fair and orderly market in assigned stocks.",
+  "spoken": "Designated market maker. The NYSE member responsible for maintaining a fair and orderly market in assigned stocks."
+ },
+ {
+  "id": "s7-f-0460",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Market-wide circuit breaker",
+  "back": "A trading halt across all markets triggered by large declines in the S and P 500, at levels of 7, 13 and 20 percent.",
+  "spoken": "Market-wide circuit breaker. A trading halt across all markets triggered by large declines in the S and P five hundred, at levels of seven, thirteen and twenty percent."
+ },
+ {
+  "id": "s7-f-0461",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Principal transaction",
+  "back": "A trade in which the firm buys from or sells to the customer from its own inventory, charging a markup or markdown.",
+  "spoken": "Principal transaction. A trade in which the firm buys from or sells to the customer from its own inventory, charging a markup or markdown."
+ },
+ {
+  "id": "s7-f-0462",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Agency transaction",
+  "back": "A trade in which the firm acts as broker between buyer and seller, charging a commission.",
+  "spoken": "Agency transaction. A trade in which the firm acts as broker between buyer and seller, charging a commission."
+ },
+ {
+  "id": "s7-f-0463",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Written complaint",
+  "back": "A written grievance by a customer about a representative or firm, which must be kept on record and reported to a principal.",
+  "spoken": "Written complaint. A written grievance by a customer about a representative or firm, which must be kept on record and reported to a principal."
+ },
+ {
+  "id": "s7-f-0464",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Arbitration",
+  "back": "A binding dispute resolution process before a FINRA panel, with very limited grounds for appeal.",
+  "spoken": "Arbitration. A binding dispute resolution process before a FINRA panel, with very limited grounds for appeal."
+ },
+ {
+  "id": "s7-f-0465",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Mediation",
+  "back": "A voluntary, non-binding process in which a neutral mediator helps the parties settle.",
+  "spoken": "Mediation. A voluntary, non-binding process in which a neutral mediator helps the parties settle."
+ },
+ {
+  "id": "s7-f-0466",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Form U4",
+  "back": "The uniform registration form for representatives, which must be updated for events such as certain customer complaints, liens and criminal charges.",
+  "spoken": "Form U4. The uniform registration form for representatives, which must be updated for events such as certain customer complaints, liens and criminal charges."
+ },
+ {
+  "id": "s7-f-0467",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Form U5",
+  "back": "The termination notice a firm files when a representative leaves, due within 30 days.",
+  "spoken": "Form U5. The termination notice a firm files when a representative leaves, due within thirty days."
+ },
+ {
+  "id": "s7-f-0468",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Cancel and rebill",
+  "back": "Correcting an error by canceling a trade and rebooking it in the right account, which requires principal approval.",
+  "spoken": "Cancel and rebill. Correcting an error by canceling a trade and rebooking it in the right account, which requires principal approval."
+ },
+ {
+  "id": "s7-f-0469",
+  "exam": "S7",
+  "section": "S7-4",
+  "front": "Erroneous report",
+  "back": "An incorrect trade report sent to a customer, which does not bind the firm to the wrong price.",
+  "spoken": "Erroneous report. An incorrect trade report sent to a customer, which does not bind the firm to the wrong price."
  }
 ]

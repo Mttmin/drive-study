@@ -1,0 +1,107 @@
+{
+ "id": "s7-3-03",
+ "exam": "S7",
+ "section": "S7-3",
+ "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+ "title": "Spreads",
+ "order": 3,
+ "est_minutes": 8,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "A spread means buying one option and selling another of the same type, both calls or both puts, on the same underlying stock. Spreads limit both risk and reward, which is why the Series 7 loves them: every one has a clean maximum gain, maximum loss, and breakeven you can figure out in your head."
+  },
+  {
+   "type": "narration",
+   "text": "Start by naming the spread. If the strike prices differ and the expirations match, it's a price spread, also called a vertical spread. If the expirations differ and the strikes match, it's a time spread, also called a calendar or horizontal spread. If both differ, it's a diagonal spread. The exam focuses mostly on vertical spreads."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0145"
+  },
+  {
+   "type": "narration",
+   "text": "Next, decide whether it's a debit spread or a credit spread. Compare the two premiums. If you paid more than you received, it's a debit spread, and you want the premiums to widen, meaning the spread between them gets bigger. If you received more than you paid, it's a credit spread, and you want the premiums to narrow, or ideally both options to expire worthless. A trick to remember: the side with the bigger premium is the one that controls the spread."
+  },
+  {
+   "type": "narration",
+   "text": "Now, bullish or bearish? For calls, buying the lower strike and selling the higher one is a bull call spread, which is a debit spread. Selling the lower strike and buying the higher one is a bear call spread, which is a credit spread. For puts, it flips: buying the higher strike and selling the lower one is a bear put spread, a debit. Selling the higher strike and buying the lower one is a bull put spread, a credit. A handy memory aid: for calls, buy low, sell high is bullish. For puts, buy high, sell low is bearish."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0211"
+  },
+  {
+   "type": "narration",
+   "text": "The math follows a pattern. For a debit spread, the maximum loss is the net debit, and the maximum gain is the difference between the strikes minus the net debit. For a credit spread, the maximum gain is the net credit, and the maximum loss is the difference between the strikes minus the net credit. Everything is per share, so multiply by one hundred for one contract."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0275"
+  },
+  {
+   "type": "narration",
+   "text": "Breakeven for a call spread is always the lower strike plus the net premium. For a put spread, it's the higher strike minus the net premium. This works whether it's a debit or a credit spread. Example: buy a fifty call for four and sell a fifty-five call for one. The net debit is three. The maximum loss is three hundred dollars, and the maximum gain is five minus three, which is two, or two hundred dollars. Breakeven is fifty plus three, or fifty-three. Now a credit example: sell a forty put for three and buy a thirty-five put for one. The net credit is two. The maximum gain is two hundred dollars, the maximum loss is five minus two, or three hundred dollars, and breakeven is forty minus two, or thirty-eight."
+  },
+  {
+   "type": "narration",
+   "text": "When are spreads appropriate? A bull call spread suits a customer who's moderately bullish and wants to lower the cost of buying a call, giving up gains above the higher strike. A bear put spread does the same for a moderately bearish view. Credit spreads suit customers who expect the price to stay on one side of a strike and want income with defined risk. Credit spreads need margin, generally the difference between the strikes minus the credit received, while debit spreads must be paid in full. A spread customer needs spread-level approval from the ROP."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0986"
+  },
+  {
+   "type": "narration",
+   "text": "Two more terms. If you close both legs before expiration, your profit or loss is simply the change in the net premium. And a spread can be exercised against you: if the short option is in the money, it may be assigned early, so make sure the customer understands that risk."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: name it, price or time. Debit or credit, compare the premiums. For calls, buy low is bullish. For puts, buy high is bearish. A debit spread risks the debit, and a credit spread earns the credit. Call spread breakeven is the lower strike plus the net, and put spread breakeven is the higher strike minus the net."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Price spread: Long and short options of the same type with different strike prices and the same expiration; also called vertical. Time spread: Long and short options of the same type with the same strike and different expirations; also called calendar or horizontal. Diagonal spread: Spread with different strikes and different expirations. Debit spread: Spread where the premium paid exceeds the premium received; profits if premiums widen. Credit spread: Spread where the premium received exceeds the premium paid; profits if premiums narrow or expire. Bull call spread: Buy the lower-strike call and sell the higher-strike call; a debit spread. Bear put spread: Buy the higher-strike put and sell the lower-strike put; a debit spread. Bull put spread: Sell the higher-strike put and buy the lower-strike put; a credit spread."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Price spread",
+   "definition": "Long and short options of the same type with different strike prices and the same expiration; also called vertical."
+  },
+  {
+   "term": "Time spread",
+   "definition": "Long and short options of the same type with the same strike and different expirations; also called calendar or horizontal."
+  },
+  {
+   "term": "Diagonal spread",
+   "definition": "Spread with different strikes and different expirations."
+  },
+  {
+   "term": "Debit spread",
+   "definition": "Spread where the premium paid exceeds the premium received; profits if premiums widen."
+  },
+  {
+   "term": "Credit spread",
+   "definition": "Spread where the premium received exceeds the premium paid; profits if premiums narrow or expire."
+  },
+  {
+   "term": "Bull call spread",
+   "definition": "Buy the lower-strike call and sell the higher-strike call; a debit spread."
+  },
+  {
+   "term": "Bear put spread",
+   "definition": "Buy the higher-strike put and sell the lower-strike put; a debit spread."
+  },
+  {
+   "term": "Bull put spread",
+   "definition": "Sell the higher-strike put and buy the lower-strike put; a credit spread."
+  }
+ ],
+ "mnemonics": [
+  "Debit: you want them to widen. Credit: you want them to narrow.",
+  "Calls up, puts down: call breakeven is low plus net, put breakeven is high minus net.",
+  "Buy low, sell high on calls is bullish. Buy high, sell low on puts is bearish."
+ ],
+ "summary": "Spreads pair a long and short option of the same type. Price, or vertical, spreads have different strikes, time spreads have different expirations, and diagonal spreads have both. Debit spreads profit when premiums widen, and credit spreads when they narrow or expire. Bull call and bear put spreads are debits, while bear call and bull put spreads are credits. In a debit spread, the max loss is the net debit and the max gain is the strike difference minus the debit. In a credit spread, the max gain is the net credit and the max loss is the strike difference minus the credit. Breakeven is the lower strike plus the net for calls and the higher strike minus the net for puts. Credit spreads require margin, and debit spreads are paid in full."
+}

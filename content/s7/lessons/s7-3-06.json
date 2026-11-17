@@ -1,0 +1,111 @@
+{
+ "id": "s7-3-06",
+ "exam": "S7",
+ "section": "S7-3",
+ "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+ "title": "Options mechanics, rules and taxes",
+ "order": 6,
+ "est_minutes": 8,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "This lesson covers the plumbing of options trading: who guarantees the contracts, how exercise and assignment work, the limits that apply, adjustments for corporate actions, and how options are taxed."
+  },
+  {
+   "type": "narration",
+   "text": "Listed options are issued and guaranteed by the Options Clearing Corporation, the O C C. It sits between every buyer and seller, so neither side faces the other's credit risk. The O C C also publishes the Options Disclosure Document. Standard equity options cover one hundred shares, and they're American style, which means they can be exercised any time before expiration. Equity options expire on the third Friday of the expiration month, and weekly options are also common. Long-term options, called LEAPS, can run for years."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0037"
+  },
+  {
+   "type": "narration",
+   "text": "Options trades settle on the next business day, which is T plus one. Exercising an equity option creates a stock trade that also settles T plus one. When a holder exercises, the O C C assigns the exercise to a member firm, and the firm assigns it to one of its customers who's short that option. The firm can do this by random selection, first in first out, or any other fair method. It must disclose the method to customers. A short option holder can be assigned at any time with American style options. That's why short calls on dividend-paying stocks are often assigned just before the ex-dividend date."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0330"
+  },
+  {
+   "type": "narration",
+   "text": "Position limits cap how many contracts on the same side of the market one customer, or a group acting together, can hold. Long calls and short puts are on the same side, the bullish side. Short calls and long puts are on the bearish side. Exercise limits cap how many contracts can be exercised within five consecutive business days. The limits vary by stock based on its trading volume and outstanding shares, so the exam usually tests the concept, not a number."
+  },
+  {
+   "type": "narration",
+   "text": "Corporate actions lead to contract adjustments. Ordinary cash dividends don't cause an adjustment. For an even split, like two for one, the number of contracts multiplies and the strike divides. One sixty call becomes two thirty calls, each covering one hundred shares. For an uneven split or a stock dividend, the number of contracts stays the same, the shares per contract increase, and the strike price drops. A twenty percent stock dividend on a sixty call becomes one contract for one hundred twenty shares at a strike of fifty. In both cases, the total value stays the same."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0627"
+  },
+  {
+   "type": "narration",
+   "text": "Taxes come next. An option bought and allowed to expire produces a capital loss equal to the premium. An option written that expires produces a capital gain equal to the premium, which is short-term for a writer no matter how long it was held. An option closed out in the market produces a gain or loss equal to the difference between the opening and closing premiums. When an option is exercised, the premium folds into the stock's cost or sale price. For a long call exercise, the cost basis is the strike plus the premium. For a short call assignment, the sale proceeds are the strike plus the premium. For a long put exercise, the proceeds are the strike minus the premium. For a short put assignment, the cost basis is the strike minus the premium. The stock's holding period starts on the day after the call is exercised, not when the call was bought."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0639"
+  },
+  {
+   "type": "narration",
+   "text": "One special rule: buying a put on stock you've held for a year or less, as a protective put, wipes out the stock's holding period, which restarts when the put is closed or expires. Writing a deep in-the-money call against stock you hold can also suspend the stock's holding period under the tax straddle rules. Married puts, meaning buying stock and the put the same day, are exempt from this rule."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: the O C C guarantees everything. Options settle T plus one, and exercises settle T plus one. Assignment is random or first in first out. Position limits count the same side of the market. Even splits mean more contracts, and uneven splits mean more shares per contract. Expired long options are losses, and expired written options are short-term gains. For calls, add the premium to the strike, and for puts, subtract it."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Options Clearing Corporation: The issuer and guarantor of all listed options, which assigns exercise notices to member firms at random. American-style option: An option that can be exercised at any time up to expiration. European-style option: An option that can be exercised only during a specified period just before expiration, though it can be traded anytime. LEAPS: Long-term equity anticipation securities, listed options with expirations that extend out as far as roughly three years. Open interest: The number of option contracts outstanding that have not been closed, exercised or expired. Opening purchase: A transaction that creates or increases a long option position. Opening sale: A transaction that creates or increases a short option position, also called writing. Closing purchase: A transaction that eliminates or reduces a short option position by buying it back."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Options Clearing Corporation",
+   "definition": "The issuer and guarantor of all listed options, which assigns exercise notices to member firms at random"
+  },
+  {
+   "term": "American-style option",
+   "definition": "An option that can be exercised at any time up to expiration"
+  },
+  {
+   "term": "European-style option",
+   "definition": "An option that can be exercised only during a specified period just before expiration, though it can be traded anytime"
+  },
+  {
+   "term": "LEAPS",
+   "definition": "Long-term equity anticipation securities, listed options with expirations that extend out as far as roughly three years"
+  },
+  {
+   "term": "Open interest",
+   "definition": "The number of option contracts outstanding that have not been closed, exercised or expired"
+  },
+  {
+   "term": "Opening purchase",
+   "definition": "A transaction that creates or increases a long option position"
+  },
+  {
+   "term": "Opening sale",
+   "definition": "A transaction that creates or increases a short option position, also called writing"
+  },
+  {
+   "term": "Closing purchase",
+   "definition": "A transaction that eliminates or reduces a short option position by buying it back"
+  },
+  {
+   "term": "Closing sale",
+   "definition": "A transaction that eliminates or reduces a long option position by selling it"
+  },
+  {
+   "term": "Position limit",
+   "definition": "The maximum number of option contracts on the same side of the market that one investor or group may hold in an underlying"
+  }
+ ],
+ "mnemonics": [
+  "Same side: long calls with short puts; short calls with long puts.",
+  "Even split: more contracts. Uneven split: more shares per contract.",
+  "Calls add the premium, puts subtract it."
+ ],
+ "summary": "The OCC issues and guarantees listed options. Equity options are American style and cover 100 shares. Options trades settle T+1, and exercised stock settles T+1. Assignment is random or FIFO, disclosed to customers. Position limits apply to one side of the market (long calls with short puts, short calls with long puts), and exercise limits apply over 5 business days. Even splits increase the number of contracts, while uneven splits and stock dividends increase the shares per contract, with the strike adjusted. Expired long options are capital losses. Expired short options are short-term gains. On exercise, the premium adjusts the stock's basis or proceeds. A protective put on stock held a year or less resets the holding period."
+}

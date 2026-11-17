@@ -1,0 +1,86 @@
+{
+  "id": "sie-1-08",
+  "exam": "SIE",
+  "section": "SIE-1",
+  "section_title": "Knowledge of Capital Markets",
+  "title": "Registration, Prospectuses and Exemptions",
+  "order": 8,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "The Securities Act of nineteen thirty-three rests on one idea: before the public buys a new security, it gets full and fair disclosure. This lesson walks through the registration process, the documents investors receive, and the most-tested exemptions, the ways issuers can legally sell without registering."
+    },
+    {
+      "type": "narration",
+      "text": "Registration starts when the issuer files a registration statement with the S E C under Section seven. It contains detailed information about the business, management, finances and the offering. Under Section eight, it generally becomes effective twenty days after filing, unless the S E C speeds that up or delays it, and every amendment restarts the clock. That period between filing and effectiveness is the cooling-off period. During it, no sales can be made and no money can be taken. Reps may send the preliminary prospectus, the red herring, which has no final price. They may take non-binding indications of interest, and answer questions about what's in the red herring. Once effective, the final prospectus goes out, under Section ten, and sales can be confirmed. Section twenty-three makes it illegal to say the S E C approved the security. It never does."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0009"
+    },
+    {
+      "type": "narration",
+      "text": "Other documents you should recognize: a summary prospectus under Rule four thirty-one contains key information from the full prospectus and is widely used for mutual funds. A free writing prospectus, under Rules one sixty-four and four thirty-three, is any other written offer, like a term sheet, used after filing by eligible issuers under certain conditions. After the offering, dealers must keep delivering a prospectus to aftermarket buyers for a period. It's twenty-five days for an I P O listed on an exchange, ninety days for an unlisted I P O, forty days for unlisted follow-on offerings, and none for issuers that are already reporting companies."
+    },
+    {
+      "type": "narration",
+      "text": "Now exemptions. Some securities are exempt by their nature: U S government and agency securities, municipal securities, bank securities, and commercial paper maturing in two hundred seventy days or less. Other offerings are exempt because of how they're sold, called transaction exemptions. The big one is Regulation D, for private placements. Under Rule five oh six b, an issuer can sell to unlimited accredited investors and up to thirty-five non-accredited but sophisticated investors, with no general solicitation. Under Rule five oh six c, general solicitation is allowed, but every buyer must be accredited, and the issuer must take reasonable steps to verify it. Accredited individuals have over a million dollars of net worth excluding their home, or income over two hundred thousand, or three hundred thousand jointly, in each of the last two years."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0173"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0008"
+    },
+    {
+      "type": "narration",
+      "text": "Securities bought in private placements are restricted: they can't be freely resold. Rule one forty-four provides the path. For a reporting company, the holding period is six months. For a non-reporting company, it's one year. Affiliates, meaning officers, directors and large holders, must also follow volume limits whenever they sell, even stock they bought in the open market, which is called control stock. The limit per ninety days is the greater of one percent of outstanding shares or the average weekly trading volume over the prior four weeks. An affiliate selling more than five thousand shares or more than fifty thousand dollars in ninety days files Form one forty-four. Rule one forty-four A allows restricted securities to be resold among qualified institutional buyers, generally institutions with at least one hundred million dollars in securities."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0175"
+    },
+    {
+      "type": "narration",
+      "text": "A few more. Rule one forty-seven is the intrastate exemption: the issuer does business in one state, sells only to residents of that state, and resales to non-residents wait six months. Rule one forty-five says that when shareholders vote on a merger or reclassification in which they'll receive new securities, that vote is an offer and sale, so the new securities generally must be registered. A shelf registration under Rule four fifteen lets an issuer register once and sell in pieces, generally over up to three years. Finally, remember the states. Blue-sky laws require state registration too, by coordination alongside the S E C filing, by qualification, or by notice filing. Securities listed on national exchanges are covered securities that states can't make register."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. File under Section seven, effective in twenty days under Section eight, and use the cooling-off period for the red herring and indications of interest, with no sales. The final prospectus follows under Section ten, and nobody may claim S E C approval. Exempt securities include governments, munis, bank securities, and commercial paper of two hundred seventy days or less. Reg D five oh six b allows unlimited accredited investors plus thirty-five non-accredited with no general solicitation, while five oh six c allows solicitation if all buyers are verified accredited. Rule one forty-four sets a six-month or one-year holding period plus affiliate volume limits. One forty-four A is for qualified institutional buyers, one forty-seven is intrastate, one forty-five covers mergers, and four fifteen is the shelf."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Cooling-off period",
+      "definition": "At least 20 days between filing and effectiveness. No sales are allowed, but a red herring and indications of interest are."
+    },
+    {
+      "term": "Red herring",
+      "definition": "The preliminary prospectus, with no final price."
+    },
+    {
+      "term": "Regulation D",
+      "definition": "The private placement exemption. Rule 506(b) and 506(c) are its main safe harbors."
+    },
+    {
+      "term": "Rule 144",
+      "definition": "Holding periods and affiliate volume limits for reselling restricted and control stock."
+    },
+    {
+      "term": "Rule 144A",
+      "definition": "Resales of restricted securities to qualified institutional buyers."
+    },
+    {
+      "term": "Rule 147",
+      "definition": "The intrastate offering exemption."
+    }
+  ],
+  "mnemonics": [
+    "7 files it, 8 makes it effective, 10 is the prospectus, 23 says no one can claim SEC approval.",
+    "144: hold 6 months (reporting) or 12 (non-reporting); sell the greater of 1% or the 4-week average."
+  ],
+  "summary": "Registration under the 1933 Act requires a filing under Section 7. It becomes effective in 20 days under Section 8, and the cooling-off period permits only red herrings and indications of interest. The final prospectus follows under Section 10, and the SEC never approves a security. Exempt securities include governments, munis, bank securities and short commercial paper. Transaction exemptions include Reg D 506(b) and 506(c), Rule 147 intrastate offerings, and Rule 144 and 144A resales. Rule 145 treats merger votes as sales, and Rule 415 allows shelf registration."
+}

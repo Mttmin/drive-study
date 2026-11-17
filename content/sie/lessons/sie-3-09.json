@@ -1,0 +1,122 @@
+{
+  "id": "sie-3-09",
+  "exam": "SIE",
+  "section": "SIE-3",
+  "section_title": "Understanding Trading, Customer Accounts and Prohibited Activities",
+  "title": "Communications, Telemarketing and Best Interest",
+  "order": 9,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "This lesson covers how firms talk to the public and how they make recommendations: FINRA Rule twenty-two ten on communications, the telemarketing rules, Regulation Best Interest and Form C R S, and the know-your-customer and suitability rules."
+    },
+    {
+      "type": "narration",
+      "text": "Rule twenty-two ten sorts communications into three categories. Retail communication is any written communication distributed or made available to more than twenty-five retail investors within thirty days, such as ads, websites and mass emails. Correspondence is written communication to twenty-five or fewer retail investors within thirty days. Institutional communication goes only to institutional investors, like banks, insurers and registered investment companies. If the firm has reason to believe an institutional piece will be forwarded to retail investors, it must be treated as retail."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0089"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0548"
+    },
+    {
+      "type": "narration",
+      "text": "Approvals and filing. A registered principal must generally approve retail communications before use or filing. Correspondence and institutional communications don't need pre-approval, but must be supervised under the firm's procedures. During its first year as a FINRA member, a firm must file retail communications published on websites or in other public media with FINRA at least ten business days before first use. Communications are kept for three years. All communications must be fair and balanced, give a sound basis for evaluating the facts, and avoid false, exaggerated or misleading claims."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0549"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0550"
+    },
+    {
+      "type": "narration",
+      "text": "Telemarketing, under FINRA Rule thirty-two thirty. Cold calls to a residence are allowed only between eight a m and nine p m in the called person's local time. Callers must promptly give their name, the firm's name, a phone number or address, and that the purpose is to solicit an investment, and the firm must transmit caller I D. Firms must check the national Do Not Call Registry and keep their own firm-specific do-not-call list, honoring requests within a reasonable time, not more than thirty days. Exceptions to the do-not-call rules include an established business relationship, generally a transaction within the past eighteen months or an inquiry within the past three months, prior written consent, and a personal relationship."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0090"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0553"
+    },
+    {
+      "type": "narration",
+      "text": "Now recommendations. Regulation Best Interest applies when a broker-dealer recommends a securities transaction, an investment strategy, or an account type to a retail customer, meaning a natural person who uses the recommendation primarily for personal, family or household purposes. The firm must act in the customer's best interest and can't put its own interest ahead of the customer's. That general obligation is met through four components: disclosure, care, conflict of interest, and compliance. The care obligation includes making sure that a series of trades isn't excessive, even if each one is fine on its own."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0556"
+    },
+    {
+      "type": "narration",
+      "text": "Form C R S, the customer relationship summary, is a short, plain-language disclosure of the firm's services, fees, conflicts, standard of conduct and disciplinary history. Broker-dealers deliver it to retail investors before or at the earliest of a recommendation, placing an order, or opening an account. It's limited to two pages, or four for firms that are both broker-dealers and investment advisers."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0557"
+    },
+    {
+      "type": "narration",
+      "text": "Two FINRA rules sit underneath. Rule twenty ninety, Know Your Customer, requires reasonable diligence to know the essential facts about every customer, at opening and throughout the relationship. Rule twenty-one eleven, suitability, has three parts: reasonable-basis, meaning the product suits at least some investors; customer-specific, meaning it suits this customer's investment profile; and quantitative, meaning the series of trades isn't excessive. Suitability still applies to recommendations not covered by Reg B I, such as those to institutional customers. The investment profile includes age, other investments, financial situation, tax status, objectives, experience, time horizon, liquidity needs and risk tolerance."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0559"
+    },
+    {
+      "type": "narration",
+      "text": "A scenario. A rep wants to email the same market update to forty retail customers this week. Because it goes to more than twenty-five retail investors within thirty days, it's a retail communication, so a principal must approve it before it goes out. If he called those customers instead, he'd need to follow the calling hours and check the do-not-call lists for anyone who isn't an existing customer."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Retail communication goes to more than twenty-five retail investors in thirty days and needs principal pre-approval. Correspondence goes to twenty-five or fewer. New firms pre-file for a year. Records are kept three years. Telemarketing runs eight to nine local time, with do-not-call requests honored within thirty days. Reg B I's four components are disclosure, care, conflicts and compliance. Form C R S comes at the earliest of a recommendation, order or account opening. Know your customer, and remember the three suitability tests."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Retail communication",
+      "definition": "To more than 25 retail investors in 30 days; principal pre-approval."
+    },
+    {
+      "term": "Correspondence",
+      "definition": "To 25 or fewer retail investors in 30 days."
+    },
+    {
+      "term": "Institutional communication",
+      "definition": "Only to institutional investors; treated as retail if likely forwarded."
+    },
+    {
+      "term": "Telemarketing hours",
+      "definition": "8 a.m. to 9 p.m., the called party's local time."
+    },
+    {
+      "term": "Established business relationship",
+      "definition": "Transaction within 18 months or inquiry within 3 months."
+    },
+    {
+      "term": "Reg BI components",
+      "definition": "Disclosure, care, conflict of interest, compliance."
+    },
+    {
+      "term": "Form CRS",
+      "definition": "Plain-language relationship summary; delivered at the earliest of recommendation, order or account opening."
+    },
+    {
+      "term": "Suitability tests",
+      "definition": "Reasonable-basis, customer-specific, quantitative."
+    }
+  ],
+  "mnemonics": [
+    "Twenty-five is the dividing line: more is Retail, fewer is Correspondence.",
+    "Reg BI is one D and three Cs: Disclosure, Care, Conflicts, Compliance."
+  ],
+  "summary": "Rule 2210 splits communications into retail, correspondence and institutional, with principal pre-approval for retail and a three-year retention period. Telemarketing calls run 8 a.m. to 9 p.m. local time, and do-not-call requests are honored within 30 days. Reg BI requires disclosure, care, conflict management and compliance; Form CRS comes early; and KYC and suitability apply throughout."
+}

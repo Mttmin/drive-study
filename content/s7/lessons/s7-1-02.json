@@ -1,0 +1,103 @@
+{
+ "id": "s7-1-02",
+ "exam": "S7",
+ "section": "S7-1",
+ "section_title": "Seeks Business for the Broker-Dealer from Customers and Potential Customers",
+ "title": "Product-specific communications and research",
+ "order": 2,
+ "est_minutes": 6,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Some products come with extra communications rules layered on top of Rule twenty-two ten. The Series 7 tests options, investment companies, variable products, CMOs, municipal securities, and research reports. In each case, the extra rule exists because the product is complex or easy to misrepresent."
+  },
+  {
+   "type": "narration",
+   "text": "Start with options. Under FINRA Rule twenty-two twenty, retail communications about options must be approved in advance by a registered options principal, the R O P. The Options Disclosure Document, called Characteristics and Risks of Standardized Options and published by the O C C, must be delivered to the customer at or before the time the account is approved for options trading. Options communications may not imply that options are suitable for everyone. If they include projected results, such as worksheets showing possible outcomes, they need full risk disclosure, and the customer must already have, or receive with them, the disclosure document."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0482"
+  },
+  {
+   "type": "narration",
+   "text": "Investment company communications are governed partly by SEC rules. SEC Rule four eighty-two allows fund advertisements that include information not found in the prospectus. If performance is shown, it must include standardized returns for one, five, and ten years, or since inception, and the ad must urge investors to read the prospectus. SEC Rule one fifty-six bars misleading sales literature. Rule four ninety-eight permits the summary prospectus, a short document with the key facts, with the full prospectus available online or on request. FINRA's rules also cover fund rankings, which must come from an independent ranking entity, and bond fund volatility ratings, which are allowed only under specific conditions. Variable annuity and variable life communications can't imply the product is a short-term or liquid investment, or that guarantees cover the separate account's performance."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0485"
+  },
+  {
+   "type": "narration",
+   "text": "CMOs have their own rule, twenty-two sixteen. Retail communications must call them collateralized mortgage obligations, warn that yield and average life change with prepayments, and must never compare a CMO to any other investment, especially CDs or Treasuries. The comparison ban exists because CMOs once got marketed as safe as a bank CD, and they aren't."
+  },
+  {
+   "type": "narration",
+   "text": "For municipal securities, MSRB Rule G twenty-one sets the advertising standards, including approval by a municipal principal. Ads for new issues must accurately state the terms, such as yields, call features, and ratings."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0487"
+  },
+  {
+   "type": "narration",
+   "text": "Research reports bring their own conflicts. FINRA's research rules require firms to separate analysts from investment banking. Bankers can't review research for anything but factual accuracy, and analysts can't be paid based on specific banking deals. There are quiet periods around offerings, during which the underwriters can't publish research or have analysts make public appearances about the issuer. A research report must disclose conflicts such as the firm's ownership of the stock or banking relationships. Third-party research a firm distributes must be reviewed for obvious misstatements and must disclose material conflicts."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0490"
+  },
+  {
+   "type": "narration",
+   "text": "Government securities and CDs also trip people up. Treasuries carry the full faith and credit of the U.S. government, but communications can't imply that guarantee protects you from market price changes. Brokered CDs may be F D I C insured up to the limits, but if you sell before maturity in the secondary market, you can get back less than you paid."
+  },
+  {
+   "type": "narration",
+   "text": "The pattern for the exam: identify the product, then add its special requirement on top of the general standards. Options mean R O P approval and the O D D. Funds mean Rule four eighty-two and standardized performance. CMOs mean no comparisons. Munis mean G twenty-one. Research means independence and quiet periods."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Options Disclosure Document: The OCC booklet called Characteristics and Risks of Standardized Options, delivered at or before options account approval. Summary prospectus: A short-form open-end fund prospectus with key facts, permitted under SEC Rule four ninety-eight, with the full prospectus available on request. Rule four eighty-two advertisement: An investment company ad that may contain information not in the prospectus, but must urge investors to read the prospectus and show standardized performance if performance appears. SEC Rule one hundred fifty-six: The SEC rule that bars investment company sales literature from being materially misleading. Quiet period: A period around an offering during which the underwriters' research reports and research analysts' public appearances are restricted. Bond fund volatility rating: A description of a bond fund's sensitivity to changing market conditions, permitted in communications only under specific FINRA conditions. CMO communication rule: The FINRA requirement that CMO communications use the term collateralized mortgage obligation and never compare CMOs to any other investment, such as CDs. Investment company ranking: A comparison of a fund's performance to peers that, in retail communications, must come from an independent ranking entity."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Options Disclosure Document",
+   "definition": "The OCC booklet called Characteristics and Risks of Standardized Options, delivered at or before options account approval"
+  },
+  {
+   "term": "Summary prospectus",
+   "definition": "A short-form open-end fund prospectus with key facts, permitted under SEC Rule 498, with the full prospectus available on request"
+  },
+  {
+   "term": "Rule 482 advertisement",
+   "definition": "An investment company ad that may contain information not in the prospectus, but must urge investors to read the prospectus and show standardized performance if performance appears"
+  },
+  {
+   "term": "SEC Rule 156",
+   "definition": "The SEC rule that bars investment company sales literature from being materially misleading"
+  },
+  {
+   "term": "Quiet period",
+   "definition": "A period around an offering during which the underwriters' research reports and research analysts' public appearances are restricted"
+  },
+  {
+   "term": "Bond fund volatility rating",
+   "definition": "A description of a bond fund's sensitivity to changing market conditions, permitted in communications only under specific FINRA conditions"
+  },
+  {
+   "term": "CMO communication rule",
+   "definition": "The FINRA requirement that CMO communications use the term collateralized mortgage obligation and never compare CMOs to any other investment, such as CDs"
+  },
+  {
+   "term": "Investment company ranking",
+   "definition": "A comparison of a fund's performance to peers that, in retail communications, must come from an independent ranking entity"
+  }
+ ],
+ "mnemonics": [
+  "Options: R O P plus O D D.",
+  "CMOs: compare to nothing.",
+  "Funds: four eighty-two ads, standardized returns, read the prospectus."
+ ],
+ "summary": "Options retail communications require ROP approval, and the ODD must be delivered at or before options account approval. SEC Rule 482 fund ads must show standardized returns if performance is shown and urge reading the prospectus. Rule 156 bars misleading fund literature. Rule 498 allows a summary prospectus. CMO communications (Rule 2216) can't compare CMOs to other investments. MSRB G-21 covers muni advertising. Research rules separate analysts from banking, impose quiet periods and require conflict disclosure. Insurance and guarantees never protect against market price risk."
+}

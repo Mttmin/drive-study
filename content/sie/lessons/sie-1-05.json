@@ -1,0 +1,94 @@
+{
+  "id": "sie-1-05",
+  "exam": "SIE",
+  "section": "SIE-1",
+  "section_title": "Knowledge of Capital Markets",
+  "title": "Business Economics: Cycles, Indicators and Financial Statements",
+  "order": 5,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Section one also expects basic business economics: where we are in the business cycle, which indicators tell us, how different stocks behave through the cycle, how to read the two main financial statements, and the major economic schools of thought. Let's go."
+    },
+    {
+      "type": "narration",
+      "text": "The business cycle has four phases. Expansion is rising output, employment, income and profits. The peak is the high point. Contraction is declining activity, and a significant, broad and lasting contraction is a recession. A common rule of thumb is two consecutive quarters of falling real G D P, though the official calls are made by the National Bureau of Economic Research using wider data. The trough is the low point, after which expansion begins again. A depression is a very severe and prolonged contraction."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0141"
+    },
+    {
+      "type": "narration",
+      "text": "Economists track the cycle with indicators, grouped by timing. Leading indicators change before the economy does. Examples are building permits, stock prices, new orders for goods, average weekly hours in manufacturing, and initial jobless claims. Coincident indicators move with the economy, such as industrial production, personal income, nonfarm payrolls and manufacturing and trade sales. Lagging indicators change after the economy has turned, such as the average duration of unemployment, the prime rate, outstanding commercial loans, and the ratio of inventories to sales. A tip for the exam: if it's about plans or expectations, like permits, orders or stock prices, it leads. If it's about how long something has lasted or what banks are charging, it lags."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0014"
+    },
+    {
+      "type": "narration",
+      "text": "Inflation is a general rise in prices, usually measured by the Consumer Price Index. Moderate inflation is normal in an expansion. Deflation is falling prices, often a sign of weak demand. Disinflation means inflation is slowing, but prices are still rising. And stagflation is the painful mix of high inflation with high unemployment and weak growth. Inflation hurts fixed-income investors most, through purchasing power risk."
+    },
+    {
+      "type": "narration",
+      "text": "Different stocks react differently to the cycle. Cyclical companies, like automakers, home builders, airlines and heavy equipment makers, boom in expansions and suffer in contractions. Defensive companies, like utilities, food, household products and health care, sell things people buy regardless, so their earnings hold up better in downturns. Growth companies reinvest earnings to grow faster than the economy, usually paying little or no dividend. And some stocks are interest-sensitive: utilities, which investors hold for dividends, tend to fall when rates rise."
+    },
+    {
+      "type": "narration",
+      "text": "Now financial statements. The balance sheet is a snapshot at one point in time, and it always balances: assets equal liabilities plus shareholders' equity. From it you can figure working capital, which is current assets minus current liabilities, a measure of short-term liquidity. Long-term debt doesn't enter that calculation. The income statement covers a period, like a quarter or year. Revenue, minus cost of goods sold and operating expenses, gives operating income. Subtract interest and taxes and you reach net income. Earnings per share is net income available to common shareholders divided by shares outstanding. The cash flow statement shows cash coming in and going out from operations, investing and financing."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0146"
+    },
+    {
+      "type": "narration",
+      "text": "Finally, economic theories. Keynesians believe aggregate demand drives the economy, so the government should use fiscal policy to fight recessions with spending and tax cuts. Monetarists, associated with Milton Friedman, believe the money supply is what matters most, and that steady control of it by the central bank is the key to stable prices and growth. Supply-side economists stress lower taxes and lighter regulation to encourage production and investment."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0147"
+    },
+    {
+      "type": "narration",
+      "text": "Let's apply this to an exam-style scenario. Building permits and new orders have been falling for several months, the stock market has dropped, but payrolls and industrial production are still holding steady. What's going on? The leading indicators are pointing down while the coincident ones haven't turned yet, which suggests the economy may be near a peak, with a contraction ahead. An investor worried about that might shift from cyclical stocks, like automakers and home builders, toward defensive ones, like utilities and consumer staples. Notice the lagging indicators, like the average duration of unemployment, would be the last to confirm the turn, often well after the contraction has begun."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. The cycle runs expansion, peak, contraction, trough. Leading indicators move first: permits, orders, stock prices and claims. Coincident indicators move with the economy: production, income and payrolls. Lagging indicators move after: duration of unemployment and the prime rate. Inflation is measured by the C P I, and stagflation is high inflation plus weak growth. Cyclical stocks swing with the economy, defensive stocks hold up, and utilities are interest-sensitive. The balance sheet is a snapshot where assets equal liabilities plus equity, and working capital is current assets minus current liabilities. The income statement covers a period. Keynesians favor fiscal policy, and monetarists focus on money supply."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Leading indicator",
+      "definition": "Changes before the economy does, such as building permits or stock prices."
+    },
+    {
+      "term": "Lagging indicator",
+      "definition": "Changes after the economy turns, such as duration of unemployment or the prime rate."
+    },
+    {
+      "term": "Stagflation",
+      "definition": "High inflation plus high unemployment and slow growth."
+    },
+    {
+      "term": "Working capital",
+      "definition": "Current assets minus current liabilities."
+    },
+    {
+      "term": "Balance sheet",
+      "definition": "A snapshot where assets equal liabilities plus equity."
+    },
+    {
+      "term": "Keynesian",
+      "definition": "Favors government fiscal policy to manage demand."
+    }
+  ],
+  "mnemonics": [
+    "Cycle order: Every Party Comes Through (Expansion, Peak, Contraction, Trough).",
+    "Leading equals plans, lagging equals how long."
+  ],
+  "summary": "The business cycle runs from expansion to peak to contraction to trough. Leading, coincident and lagging indicators track it. The CPI measures inflation, and stagflation pairs inflation with stagnation. Cyclical stocks swing with the cycle, defensive stocks hold steady, and utilities are rate-sensitive. The balance sheet is a point-in-time snapshot used for working capital, while the income statement covers a period. Keynesians favor fiscal policy, and monetarists favor managing the money supply."
+}

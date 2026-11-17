@@ -1,0 +1,107 @@
+{
+ "id": "s7-3-21",
+ "exam": "S7",
+ "section": "S7-3",
+ "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+ "title": "Penny stocks and manipulation",
+ "order": 21,
+ "est_minutes": 7,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "The last lesson in function three covers two areas where customers get hurt: penny stocks and market manipulation. These questions are mostly about knowing which practices are forbidden and which protections apply."
+  },
+  {
+   "type": "narration",
+   "text": "Under SEC rules, a penny stock is generally an equity security that trades below five dollars a share and isn't listed on a national exchange, with some exceptions such as issuers with substantial net tangible assets or revenues. Penny stocks are thinly traded, volatile, and popular with fraudsters, so the SEC adds protections for customers."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0885"
+  },
+  {
+   "type": "narration",
+   "text": "Before a firm effects a penny stock trade for a customer, it must deliver a risk disclosure document and get the customer's signed acknowledgment. Under SEC Rule fifteen g nine, the firm must also follow special sales practice rules unless the customer is an established customer. It must approve the customer's account for penny stock trading based on their financial situation, experience, and objectives, and give the customer a written statement of that suitability determination. It must also get the customer's written agreement to the specific transaction. The firm can't execute the trade until two business days after it sends that agreement. An established customer is someone who made a securities transaction or deposit in the account more than one year earlier, or has made three penny stock purchases on separate days in different issuers. Unsolicited trades are also exempt. The risk disclosure document, though, has no established customer exemption."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0887"
+  },
+  {
+   "type": "narration",
+   "text": "Penny stock disclosures continue after the sale. Before the trade, the customer must receive the current bid and offer quotes and the compensation of both the firm and the rep. A monthly statement must show the market value of each penny stock in the account. And before any broker-dealer can publish quotes for an OTC stock, SEC Rule fifteen c two dash eleven requires it to have current, publicly available information about the issuer, which helps keep shell companies out of the quote system."
+  },
+  {
+   "type": "narration",
+   "text": "Manipulation is any scheme to create a false impression of trading activity or price. A pump and dump hypes a stock with false or misleading claims, often online, so insiders can sell to the buyers who come in. Wash trades are buys and sells with no real change in ownership, done to fake volume. Matched orders are coordinated trades between parties to create the same false impression. Marking the close means trading near the end of the day to move the closing price, perhaps to inflate a portfolio's value. Spoofing and layering put in orders the trader plans to cancel, to trick others into moving the price. Painting the tape is creating artificial activity, often reported on public feeds."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0890"
+  },
+  {
+   "type": "narration",
+   "text": "Other prohibited practices involve customer orders and inside information. Front-running means trading ahead of a large customer order you know about, to profit from the price move it will cause. Trading ahead of your own firm's research report is also prohibited. Insider trading means trading on material, nonpublic information, or tipping others who trade on it. Both tippers and tippees are liable. The Insider Trading and Securities Fraud Enforcement Act of nineteen eighty-eight lets the SEC seek civil penalties of up to three times the profit made or loss avoided. Firms must keep written policies to prevent misuse of inside information, including information barriers between departments."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0892"
+  },
+  {
+   "type": "narration",
+   "text": "Other bans include guaranteeing a customer against loss, sharing in a customer's profits or losses without written consent and principal approval, with sharing in proportion to contributions, and making unauthorized trades. Churning is excessive trading to generate commissions. Selling away means selling securities outside the firm without its approval. Borrowing from or lending to customers is prohibited unless the firm's policies allow it and the arrangement fits approved categories."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: penny stocks are under five dollars and not listed, and they require a risk disclosure, quotes, compensation, monthly values, and, for non-established customers, a written suitability statement and a signed agreement. Fifteen c two dash eleven requires current information before quoting. Manipulation includes pump and dump, wash trades, matched orders, marking the close, and spoofing. Front-running and insider trading are banned, with treble civil penalties."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Penny stock: A low-priced equity security, generally under five dollars a share, that is not listed on a national exchange and does not meet other exemptions. Penny stock risk disclosure document: The SEC disclosure a firm must give a customer before a first penny stock transaction. Established customer: A customer exempt from penny stock suitability procedures, such as one who has held an account for a year or made prior penny stock trades. Front running: Trading ahead of a customer's large order to benefit from the price move it will cause. Painting the tape: Trading among related parties to create the false impression of activity in a security. Marking the close: Placing orders near the close to manipulate a security's closing price. Spoofing: Entering orders with no intention of executing them to mislead other traders about supply or demand. Insider trading: Trading on material, nonpublic information in breach of a duty, prohibited under the Exchange Act."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Penny stock",
+   "definition": "A low-priced equity security, generally under 5 dollars a share, that is not listed on a national exchange and does not meet other exemptions"
+  },
+  {
+   "term": "Penny stock risk disclosure document",
+   "definition": "The SEC disclosure a firm must give a customer before a first penny stock transaction"
+  },
+  {
+   "term": "Established customer",
+   "definition": "A customer exempt from penny stock suitability procedures, such as one who has held an account for a year or made prior penny stock trades"
+  },
+  {
+   "term": "Front running",
+   "definition": "Trading ahead of a customer's large order to benefit from the price move it will cause"
+  },
+  {
+   "term": "Painting the tape",
+   "definition": "Trading among related parties to create the false impression of activity in a security"
+  },
+  {
+   "term": "Marking the close",
+   "definition": "Placing orders near the close to manipulate a security's closing price"
+  },
+  {
+   "term": "Spoofing",
+   "definition": "Entering orders with no intention of executing them to mislead other traders about supply or demand"
+  },
+  {
+   "term": "Insider trading",
+   "definition": "Trading on material, nonpublic information in breach of a duty, prohibited under the Exchange Act"
+  },
+  {
+   "term": "Rule 15c2-11",
+   "definition": "The SEC rule that requires a broker-dealer to review current public information about an issuer before publishing quotes for an OTC security"
+  }
+ ],
+ "mnemonics": [
+  "Penny: under five, unlisted, paperwork before the trade.",
+  "Fake volume: wash trades and matched orders.",
+  "Insider penalties: up to three times."
+ ],
+ "summary": "Penny stocks are generally unlisted equities under $5. Before a trade, deliver the risk disclosure document plus quotes and compensation, and send monthly statements with market values. For customers who aren't established, the firm needs a written suitability statement, the customer's written agreement and a two-business-day wait. Established customers and unsolicited trades are exempt. Rule 15c2-11 requires current issuer information before quoting. Manipulation includes pump and dump, wash trades, matched orders, marking the close, spoofing and layering. Front-running and trading ahead of research are banned. Insider trading liability covers tippers and tippees, with civil penalties up to 3× under ITSFEA. No guarantees, unapproved profit-sharing, churning or selling away."
+}

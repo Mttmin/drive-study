@@ -1,0 +1,94 @@
+{
+  "id": "sie-1-03",
+  "exam": "SIE",
+  "section": "SIE-1",
+  "section_title": "Knowledge of Capital Markets",
+  "title": "Market Structure: Primary, Secondary, Third and Fourth Markets",
+  "order": 3,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Every security has two lives. First it's born, sold by its issuer to raise money. Then it lives on, traded among investors for years. The SIE calls these the primary and secondary markets, and it slices the secondary market further into the second, third and fourth markets. Let's build the map."
+    },
+    {
+      "type": "narration",
+      "text": "The primary market is where issuers sell newly created securities, and the issuer receives the proceeds. An initial public offering, the company's first sale to the public, is a primary market transaction. So is a follow-on offering, when an already public company sells additional new shares. Municipal bonds sold by a city to fund a school, and Treasury notes sold at auction, are also primary market sales. Be careful with the word secondary in offerings: in a secondary offering, existing holders such as founders sell their shares through an underwriter. The proceeds go to those holders, not the company, and no new shares are created."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0122"
+    },
+    {
+      "type": "narration",
+      "text": "The secondary market is everything after issuance: investors trading with other investors. When you sell a thousand shares on an exchange, the money comes from the buyer, and the issuer gets nothing. The secondary market matters to issuers anyway, because liquidity makes investors willing to buy in the primary market."
+    },
+    {
+      "type": "narration",
+      "text": "Secondary trading happens in two basic structures. Exchanges are auction markets. Buyers and sellers compete, the highest bid meets the lowest offer, and today most of that matching is electronic. The New York Stock Exchange still has a physical floor and a designated market maker for each stock, while Nasdaq is fully electronic. Trading of listed securities on the exchange itself is traditionally called the second market. The over-the-counter market, or O T C, is a decentralized network of dealers who negotiate prices, usually acting as principal. Most corporate and municipal bonds trade O T C, as do many smaller stocks that aren't exchange-listed. Bond trades are reported for transparency, corporate bonds through FINRA's TRACE system and munis through the M S R B's EMMA website."
+    },
+    {
+      "type": "narration",
+      "text": "Now the two odd ones. The third market is exchange-listed securities traded over the counter. Picture a broker-dealer that isn't an exchange member buying NYSE-listed shares from another dealer, off the exchange. Same stock, different venue. The fourth market is institutions trading directly with each other, without a broker-dealer in the middle, usually through electronic networks. Pension funds and mutual fund companies use it to move big blocks quietly and cheaply."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0125"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0011"
+    },
+    {
+      "type": "narration",
+      "text": "A few related terms. An electronic communication network, or E C N, automatically displays and matches orders for its subscribers. Alternative trading systems include dark pools, which don't display quotes before a trade, so institutions can work large orders without tipping off the market. Trades are still reported afterward. In every market you'll see quotes as a bid and an ask. The bid is what a dealer will pay, which is what a customer selling at the market receives. The ask, or offer, is what a dealer will sell for, which is what a customer buying at the market pays. The difference is the spread, the market maker's compensation for providing liquidity. Market makers must honor their firm quotes; failing to do so is backing away."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0128"
+    },
+    {
+      "type": "narration",
+      "text": "Let's tie it together with an exam habit. When a question describes a trade, ask two things. Who is selling? If it's the issuer, it's the primary market. If it's an investor, it's secondary. Then, where is it trading? Listed stock on the exchange is the second market. Listed stock over the counter between dealers is the third market. Institution to institution with no broker-dealer is the fourth market."
+    },
+    {
+      "type": "narration",
+      "text": "Let's run three quick scenarios the way the exam phrases them. One: a company that's been public for years sells five million new shares through underwriters. The issuer gets the money, so that's the primary market, a follow-on offering. Two: a mutual fund company sells a large block of a Nasdaq stock directly to a pension fund over an electronic network, with no dealer involved. Institution to institution with no broker-dealer is the fourth market. Three: a regional dealer buys NYSE-listed shares from another dealer away from the exchange. Listed stock traded over the counter is the third market. If you ask who's selling and where it trades, these questions answer themselves."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. The primary market is the issuer selling new securities for proceeds, through I P Os and follow-ons. The secondary market is investors trading with each other. Exchanges are auction markets, and O T C is a negotiated dealer market where most bonds trade. The third market is listed securities traded O T C. The fourth market is institutions trading directly, often on E C Ns or in dark pools. Sellers at market get the bid, buyers pay the ask, and the spread pays the market maker."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Primary market",
+      "definition": "The issuer sells new securities and receives the proceeds."
+    },
+    {
+      "term": "Secondary market",
+      "definition": "Investors trade existing securities with each other."
+    },
+    {
+      "term": "Third market",
+      "definition": "Exchange-listed securities traded over the counter."
+    },
+    {
+      "term": "Fourth market",
+      "definition": "Institutions trading directly with each other, without a broker-dealer."
+    },
+    {
+      "term": "ECN",
+      "definition": "An electronic network that displays and matches orders."
+    },
+    {
+      "term": "Spread",
+      "definition": "The difference between the bid and the ask."
+    }
+  ],
+  "mnemonics": [
+    "Primary means the issuer gets Paid. Third is listed stock OTC. Fourth is institutions without a Firm in the middle.",
+    "Sell at the Bid, Buy at the Ask."
+  ],
+  "summary": "Issuers sell new securities in the primary market. Investors trade them in the secondary market, either on auction exchanges or in the negotiated OTC dealer market, where most bonds trade. The third market is listed stock traded OTC, and the fourth market is institutions trading directly, often on ECNs or in dark pools. Customers sell at the bid, buy at the ask, and the spread compensates market makers."
+}

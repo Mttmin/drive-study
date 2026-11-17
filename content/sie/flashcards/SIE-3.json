@@ -93,7 +93,7 @@
     "section": "SIE-3",
     "front": "IRA limit (2026)",
     "back": "$7,500, plus a $1,100 catch-up at age 50 or older, for $8,600 total. The limits are indexed and change most years.",
-    "spoken": "IRA limit (2026). ... 7,500, dollars plus a 1,100 dollars catch-up at age 50 or older, for 8,600 dollars total. The limits are indexed and change most years."
+    "spoken": "IRA limit (2026). ... 7,500 dollars, plus a 1,100 dollars catch-up at age 50 or older, for 8,600 dollars total. The limits are indexed and change most years."
   },
   {
     "id": "sie-f-0049",
@@ -142,5 +142,605 @@
     "front": "Telemarketing hours",
     "back": "8 a.m. to 9 p.m., the called party's local time.",
     "spoken": "Telemarketing hours. ... 8 a.m. to 9 p.m., the called party's local time."
+  },
+  {
+    "id": "sie-f-0226",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Market order",
+    "back": "Executes immediately at the best available price; execution likely, price not guaranteed.",
+    "spoken": "Market order. ... Executes immediately at the best available price, execution likely, price not guaranteed."
+  },
+  {
+    "id": "sie-f-0227",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Limit order",
+    "back": "Price guaranteed (limit or better); execution not guaranteed.",
+    "spoken": "Limit order. ... Price guaranteed (limit or better), execution not guaranteed."
+  },
+  {
+    "id": "sie-f-0228",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Buy limit placement",
+    "back": "Below the current market price.",
+    "spoken": "Buy limit placement. ... Below the current market price."
+  },
+  {
+    "id": "sie-f-0229",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Sell stop placement and use",
+    "back": "Below the market; protects a long position or locks in gains.",
+    "spoken": "Sell stop placement and use. ... Below the market, protects a long position or locks in gains."
+  },
+  {
+    "id": "sie-f-0230",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Buy stop placement and use",
+    "back": "Above the market; protects a short position or enters on a breakout.",
+    "spoken": "Buy stop placement and use. ... Above the market, protects a short position or enters on a breakout."
+  },
+  {
+    "id": "sie-f-0231",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Stop limit order",
+    "back": "Becomes a limit order once the stop is triggered; may not execute.",
+    "spoken": "Stop limit order. ... Becomes a limit order once the stop is triggered, may not execute."
+  },
+  {
+    "id": "sie-f-0232",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Day vs. GTC order",
+    "back": "Day expires at the close; GTC stays open until filled or canceled.",
+    "spoken": "Day vs. GTC order. ... Day expires at the close, GTC stays open until filled or canceled."
+  },
+  {
+    "id": "sie-f-0233",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Fill-or-kill",
+    "back": "Fill the entire order immediately, or cancel it.",
+    "spoken": "Fill-or-kill. ... Fill the entire order immediately, or cancel it."
+  },
+  {
+    "id": "sie-f-0234",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Immediate-or-cancel",
+    "back": "Fill what you can immediately; cancel the rest.",
+    "spoken": "Immediate-or-cancel. ... Fill what you can immediately, cancel the rest."
+  },
+  {
+    "id": "sie-f-0235",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "All-or-none",
+    "back": "Fill the entire order or nothing, but not necessarily immediately.",
+    "spoken": "All-or-none. ... Fill the entire order or nothing, but not necessarily immediately."
+  },
+  {
+    "id": "sie-f-0236",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Time and price discretion",
+    "back": "Customer picks security, action and amount; generally good only for that day; no written authority needed.",
+    "spoken": "Time and price discretion. ... Customer picks security, action and amount, generally good only for that day, no written authority needed."
+  },
+  {
+    "id": "sie-f-0237",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Unsolicited order",
+    "back": "Customer's own idea; mark the ticket unsolicited.",
+    "spoken": "Unsolicited order. ... Customer's own idea, mark the ticket unsolicited."
+  },
+  {
+    "id": "sie-f-0238",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Agent vs. principal",
+    "back": "Agent: broker, earns a commission. Principal: dealer, earns a markup or markdown.",
+    "spoken": "Agent vs. principal. ... Agent: broker, earns a commission. Principal: dealer, earns a markup or markdown."
+  },
+  {
+    "id": "sie-f-0239",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Short sale",
+    "back": "Selling borrowed shares; bearish; requires a margin account; unlimited risk.",
+    "spoken": "Short sale. ... Selling borrowed shares, bearish, requires a margin account, unlimited risk."
+  },
+  {
+    "id": "sie-f-0240",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Unrealized vs. realized gain",
+    "back": "Unrealized: still held, not taxed. Realized: sold, taxable.",
+    "spoken": "Unrealized vs. realized gain. ... Unrealized: still held, not taxed. Realized: sold, taxable."
+  },
+  {
+    "id": "sie-f-0241",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Long-term capital gain",
+    "back": "Held more than one year; lower tax rates.",
+    "spoken": "Long-term capital gain. ... Held more than one year, lower tax rates."
+  },
+  {
+    "id": "sie-f-0242",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Capital loss deduction",
+    "back": "Losses offset gains, then up to $3,000 of ordinary income per year; the rest carries forward.",
+    "spoken": "Capital loss deduction. ... Losses offset gains, then up to 3,000 dollars of ordinary income per year, the rest carries forward."
+  },
+  {
+    "id": "sie-f-0243",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Wash sale rule",
+    "back": "Loss disallowed if the same security is bought within 30 days before or after the sale.",
+    "spoken": "Wash sale rule. ... Loss disallowed if the same security is bought within 30 days before or after the sale."
+  },
+  {
+    "id": "sie-f-0244",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Inherited securities basis",
+    "back": "Stepped up to fair market value at the date of death.",
+    "spoken": "Inherited securities basis. ... Stepped up to fair market value at the date of death."
+  },
+  {
+    "id": "sie-f-0245",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Gifted securities basis",
+    "back": "Donor's original cost carries over for appreciated gifts.",
+    "spoken": "Gifted securities basis. ... Donor's original cost carries over for appreciated gifts."
+  },
+  {
+    "id": "sie-f-0246",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Qualified dividends",
+    "back": "Taxed at long-term capital gains rates.",
+    "spoken": "Qualified dividends. ... Taxed at long-term capital gains rates."
+  },
+  {
+    "id": "sie-f-0247",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Dividend dates",
+    "back": "Declaration, ex-date, record, payable. Under T+1, ex-date equals record date.",
+    "spoken": "Dividend dates. ... Declaration, ex-date, record, payable. Under T plus 1, ex-date equals record date."
+  },
+  {
+    "id": "sie-f-0248",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Total return",
+    "back": "Income plus price change, divided by the starting price.",
+    "spoken": "Total return. ... Income plus price change, divided by the starting price."
+  },
+  {
+    "id": "sie-f-0249",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Real return",
+    "back": "Nominal return minus inflation, approximately.",
+    "spoken": "Real return. ... Nominal return minus inflation, approximately."
+  },
+  {
+    "id": "sie-f-0250",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Regular-way settlement",
+    "back": "T+1 for stocks, corporate and municipal bonds, and Treasuries.",
+    "spoken": "Regular-way settlement. ... T plus 1 for stocks, corporate and municipal bonds, and Treasuries."
+  },
+  {
+    "id": "sie-f-0251",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Cash settlement",
+    "back": "Same day as the trade.",
+    "spoken": "Cash settlement. ... Same day as the trade."
+  },
+  {
+    "id": "sie-f-0252",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Forward stock split",
+    "back": "More shares, lower price; total value and percentage ownership unchanged.",
+    "spoken": "Forward stock split. ... More shares, lower price, total value and percentage ownership unchanged."
+  },
+  {
+    "id": "sie-f-0253",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Reverse stock split",
+    "back": "Fewer shares, higher price; often to meet listing standards.",
+    "spoken": "Reverse stock split. ... Fewer shares, higher price, often to meet listing standards."
+  },
+  {
+    "id": "sie-f-0254",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Tender offer",
+    "back": "Offer to buy shares directly from shareholders, usually at a premium, for a limited time.",
+    "spoken": "Tender offer. ... Offer to buy shares directly from shareholders, usually at a premium, for a limited time."
+  },
+  {
+    "id": "sie-f-0255",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Exchange offer",
+    "back": "Offer to swap one security for another, such as bonds for stock.",
+    "spoken": "Exchange offer. ... Offer to swap one security for another, such as bonds for stock."
+  },
+  {
+    "id": "sie-f-0256",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Rule 2251",
+    "back": "Firms forward proxy materials to beneficial owners; the issuer reimburses costs.",
+    "spoken": "Rule 2251. ... Firms forward proxy materials to beneficial owners, the issuer reimburses costs."
+  },
+  {
+    "id": "sie-f-0257",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Freeriding",
+    "back": "Selling before paying in a cash account; 90-day freeze.",
+    "spoken": "Freeriding. ... Selling before paying in a cash account, 90-day freeze."
+  },
+  {
+    "id": "sie-f-0258",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Reg T initial margin",
+    "back": "50% of the purchase price for most stocks.",
+    "spoken": "Reg T initial margin. ... 50 percent of the purchase price for most stocks."
+  },
+  {
+    "id": "sie-f-0259",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "FINRA margin minimum equity",
+    "back": "$2,000, or the full purchase price if less.",
+    "spoken": "FINRA margin minimum equity. ... 2,000 dollars, or the full purchase price if less."
+  },
+  {
+    "id": "sie-f-0260",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "FINRA maintenance margin",
+    "back": "25% of market value for long positions; 30% for short stock.",
+    "spoken": "FINRA maintenance margin. ... 25 percent of market value for long positions, 30 percent for short stock."
+  },
+  {
+    "id": "sie-f-0261",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Margin agreement parts",
+    "back": "Credit agreement and hypothecation agreement required; loan consent optional.",
+    "spoken": "Margin agreement parts. ... Credit agreement and hypothecation agreement required, loan consent optional."
+  },
+  {
+    "id": "sie-f-0262",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Rule 2264 margin disclosure",
+    "back": "Delivered at or before account opening and annually.",
+    "spoken": "Rule 2264 margin disclosure. ... Delivered at or before account opening and annually."
+  },
+  {
+    "id": "sie-f-0263",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Discretionary account",
+    "back": "Requires prior written authorization and firm acceptance; principal reviews orders promptly.",
+    "spoken": "Discretionary account. ... Requires prior written authorization and firm acceptance, principal reviews orders promptly."
+  },
+  {
+    "id": "sie-f-0264",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Reverse churning",
+    "back": "Putting a low-activity customer in a fee-based account that costs more than commissions.",
+    "spoken": "Reverse churning. ... Putting a low-activity customer in a fee-based account that costs more than commissions."
+  },
+  {
+    "id": "sie-f-0265",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "JTWROS vs. tenants in common",
+    "back": "JTWROS: share passes to survivors. TIC: share passes to the deceased owner's estate.",
+    "spoken": "JTWROS vs. tenants in common. ... JTWROS: share passes to survivors. TIC: share passes to the deceased owner's estate."
+  },
+  {
+    "id": "sie-f-0266",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Joint account checks",
+    "back": "Payable to all owners.",
+    "spoken": "Joint account checks. ... Payable to all owners."
+  },
+  {
+    "id": "sie-f-0267",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Transfer on death",
+    "back": "Passes directly to beneficiaries, bypassing probate.",
+    "spoken": "Transfer on death. ... Passes directly to beneficiaries, bypassing probate."
+  },
+  {
+    "id": "sie-f-0268",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Corporate account documents",
+    "back": "Corporate resolution; for margin, also the charter or bylaws.",
+    "spoken": "Corporate account documents. ... Corporate resolution, for margin, also the charter or bylaws."
+  },
+  {
+    "id": "sie-f-0269",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "UTMA rules",
+    "back": "One custodian, one minor, minor's SSN, irrevocable gifts, no margin.",
+    "spoken": "UTMA rules. ... One custodian, one minor, minor's SSN, irrevocable gifts, no margin."
+  },
+  {
+    "id": "sie-f-0270",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Death of individual account owner",
+    "back": "Freeze the account, cancel open orders, await estate documents.",
+    "spoken": "Death of individual account owner. ... Freeze the account, cancel open orders, await estate documents."
+  },
+  {
+    "id": "sie-f-0271",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Letters testamentary",
+    "back": "Court document giving an executor authority.",
+    "spoken": "Letters testamentary. ... Court document giving an executor authority."
+  },
+  {
+    "id": "sie-f-0272",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Power of attorney",
+    "back": "Written authority for a third party; ends at the customer's death.",
+    "spoken": "Power of attorney. ... Written authority for a third party, ends at the customer's death."
+  },
+  {
+    "id": "sie-f-0273",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "IRA eligibility",
+    "back": "Requires earned income; a spousal IRA can use a working spouse's income.",
+    "spoken": "IRA eligibility. ... Requires earned income, a spousal IRA can use a working spouse's income."
+  },
+  {
+    "id": "sie-f-0274",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "2026 IRA limit",
+    "back": "$7,500, plus $1,100 catch-up at age 50 or older.",
+    "spoken": "2026 IRA limit. ... 7,500 dollars, plus 1,100 dollars catch-up at age 50 or older."
+  },
+  {
+    "id": "sie-f-0275",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "2026 401(k) deferral limit",
+    "back": "$24,500, plus $8,000 catch-up at 50+; $11,250 catch-up for ages 60 to 63.",
+    "spoken": "2026 401(k) deferral limit. ... 24,500 dollars, plus 8,000 dollars catch-up at 50+, 11,250 dollars catch-up for ages 60 to 63."
+  },
+  {
+    "id": "sie-f-0276",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Roth qualified distribution",
+    "back": "Five-year rule plus 59 1/2, death, disability, or first home up to $10,000.",
+    "spoken": "Roth qualified distribution. ... Five-year rule plus 59 and a half, death, disability, or first home up to 10,000 dollars."
+  },
+  {
+    "id": "sie-f-0277",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "RMD starting age",
+    "back": "73 for those born 1951 to 1959; 75 for those born 1960 or later. None for Roth IRA owners.",
+    "spoken": "RMD starting age. ... 73 for those born 1951 to 1959, 75 for those born 1960 or later. None for Roth IRA owners."
+  },
+  {
+    "id": "sie-f-0278",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Early IRA withdrawal",
+    "back": "Ordinary income tax plus a 10% additional tax, unless an exception applies.",
+    "spoken": "Early IRA withdrawal. ... Ordinary income tax plus a 10 percent additional tax, unless an exception applies."
+  },
+  {
+    "id": "sie-f-0279",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Indirect rollover",
+    "back": "Complete within 60 days; one IRA-to-IRA rollover per 12 months.",
+    "spoken": "Indirect rollover. ... Complete within 60 days, one IRA-to-IRA rollover per 12 months."
+  },
+  {
+    "id": "sie-f-0280",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Employer plan distribution withholding",
+    "back": "20% mandatory withholding if paid to the participant.",
+    "spoken": "Employer plan distribution withholding. ... 20 percent mandatory withholding if paid to the participant."
+  },
+  {
+    "id": "sie-f-0281",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "ERISA",
+    "back": "Covers private-sector employer plans, not government plans or IRAs.",
+    "spoken": "ERISA. ... Covers private-sector employer plans, not government plans or IRAs."
+  },
+  {
+    "id": "sie-f-0282",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Stages of money laundering",
+    "back": "Placement, layering, integration.",
+    "spoken": "Stages of money laundering. ... Placement, layering, integration."
+  },
+  {
+    "id": "sie-f-0283",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Structuring",
+    "back": "Splitting cash transactions to evade reporting; a federal crime.",
+    "spoken": "Structuring. ... Splitting cash transactions to evade reporting, a federal crime."
+  },
+  {
+    "id": "sie-f-0284",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "CTR threshold",
+    "back": "Cash over $10,000 in one business day, aggregated.",
+    "spoken": "CTR threshold. ... Cash over 10,000 dollars in one business day, aggregated."
+  },
+  {
+    "id": "sie-f-0285",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "SAR threshold and timing",
+    "back": "$5,000 or more; filed within 30 days of detection; never disclosed to the subject.",
+    "spoken": "SAR threshold and timing. ... 5,000 dollars or more, filed within 30 days of detection, never disclosed to the subject."
+  },
+  {
+    "id": "sie-f-0286",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "CIP minimum information",
+    "back": "Name, date of birth, address, identification number.",
+    "spoken": "CIP minimum information. ... Name, date of birth, address, identification number."
+  },
+  {
+    "id": "sie-f-0287",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "OFAC SDN match",
+    "back": "Block or reject and report to OFAC; no minimum amount.",
+    "spoken": "OFAC SDN match. ... Block or reject and report to OFAC, no minimum amount."
+  },
+  {
+    "id": "sie-f-0288",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "PATRIOT Act 314(a)",
+    "back": "FinCEN requests; search records and report matches, generally within 14 days.",
+    "spoken": "PATRIOT Act 314(a). ... FinCEN requests, search records and report matches, generally within 14 days."
+  },
+  {
+    "id": "sie-f-0289",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "AML record retention",
+    "back": "5 years for SARs, CTRs and supporting documents.",
+    "spoken": "AML record retention. ... 5 years for SARs, CTRs and supporting documents."
+  },
+  {
+    "id": "sie-f-0290",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Trade confirmation timing",
+    "back": "At or before completion of the transaction (Rule 10b-10).",
+    "spoken": "Trade confirmation timing. ... At or before completion of the transaction (Rule 10b-10)."
+  },
+  {
+    "id": "sie-f-0291",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Rule 17a-4 retention",
+    "back": "Blotters and account records 6 years; communications and tickets 3 years; organizational documents for life.",
+    "spoken": "Rule 17a-4 retention. ... Blotters and account records 6 years, communications and tickets 3 years, organizational documents for life."
+  },
+  {
+    "id": "sie-f-0292",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Rule 3150 holding mail",
+    "back": "Up to 3 months on written instructions; longer with a valid reason.",
+    "spoken": "Rule 3150 holding mail. ... Up to 3 months on written instructions, longer with a valid reason."
+  },
+  {
+    "id": "sie-f-0293",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Customer Protection Rule",
+    "back": "Rule 15c3-3: possession or control of customer securities and a reserve account.",
+    "spoken": "Customer Protection Rule. ... Rule 15c3-3: possession or control of customer securities and a reserve account."
+  },
+  {
+    "id": "sie-f-0294",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Rule 2210 categories",
+    "back": "Retail (more than 25 retail investors in 30 days), correspondence (25 or fewer), institutional.",
+    "spoken": "Rule 2210 categories. ... Retail (more than 25 retail investors in 30 days), correspondence (25 or fewer), institutional."
+  },
+  {
+    "id": "sie-f-0295",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Telemarketing calling hours",
+    "back": "8 a.m. to 9 p.m., the called party's local time.",
+    "spoken": "Telemarketing calling hours. ... 8 a.m. to 9 p.m., the called party's local time."
+  },
+  {
+    "id": "sie-f-0296",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Reg BI components",
+    "back": "Disclosure, care, conflict of interest, compliance.",
+    "spoken": "Reg BI components. ... Disclosure, care, conflict of interest, compliance."
+  },
+  {
+    "id": "sie-f-0297",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Front running vs. trading ahead",
+    "back": "Front running: ahead of a block order (5270). Trading ahead: ahead of a held customer limit order (5320).",
+    "spoken": "Front running vs. trading ahead. ... Front running: ahead of a block order (5270). Trading ahead: ahead of a held customer limit order (5320)."
+  },
+  {
+    "id": "sie-f-0298",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Rule 10b5-2 family duty",
+    "back": "Duty of trust presumed among spouses, parents, children and siblings.",
+    "spoken": "Rule 10b5-2 family duty. ... Duty of trust presumed among spouses, parents, children and siblings."
+  },
+  {
+    "id": "sie-f-0299",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Rule 5130 de minimis",
+    "back": "Restricted persons may own up to 10% of an account buying new issues.",
+    "spoken": "Rule 5130 de minimis. ... Restricted persons may own up to 10 percent of an account buying new issues."
+  },
+  {
+    "id": "sie-f-0300",
+    "exam": "SIE",
+    "section": "SIE-3",
+    "front": "Rule 2165 temporary hold",
+    "back": "Specified adults: up to 15 business days, extendable by 10.",
+    "spoken": "Rule 2165 temporary hold. ... Specified adults: up to 15 business days, extendable by 10."
   }
 ]

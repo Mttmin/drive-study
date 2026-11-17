@@ -1,0 +1,111 @@
+{
+ "id": "s7-1-03",
+ "exam": "S7",
+ "section": "S7-1",
+ "section_title": "Seeks Business for the Broker-Dealer from Customers and Potential Customers",
+ "title": "Bringing new issues to market",
+ "order": 3,
+ "est_minutes": 7,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "A new corporate issue follows a predictable path set by the Securities Act of nineteen thirty-three. Learn the phases in order, and many questions answer themselves: pre-filing, cooling-off, the effective date, and the aftermarket."
+  },
+  {
+   "type": "narration",
+   "text": "In the pre-filing period, the issuer picks a managing underwriter, negotiates the type of commitment, and prepares a registration statement. Before filing, the issuer and underwriters generally can't make offers, a restriction known as gun-jumping, although there are narrow exceptions. The underwriting can be a firm commitment, where the syndicate buys the whole issue and takes the risk of unsold shares, or a best efforts deal, where the underwriter acts as agent. Best efforts deals have variations: all or none, which cancels the whole deal if every share isn't sold, and mini-max, which needs a minimum before closing. Standby underwriting is used for rights offerings, where the underwriter agrees to buy any shares the existing holders don't take."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0493"
+  },
+  {
+   "type": "narration",
+   "text": "Filing the registration statement with the SEC starts the cooling-off period, which lasts at least twenty days. During this period, no sales can be made and no money can be taken. Representatives may hand out the preliminary prospectus, called the red herring because of its red legend saying the registration isn't yet effective. It lacks the final price. Reps may also take indications of interest, which aren't binding on either side, and the firm may publish a tombstone ad. Near the end, the underwriters hold a due diligence meeting to confirm the disclosures are accurate. Meanwhile, the issue must also be blue-skied, which means registered or qualified under the securities laws of each state where it will be sold."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0497"
+  },
+  {
+   "type": "narration",
+   "text": "The SEC doesn't approve an offering. It reviews the filing and declares the registration effective, but that doesn't mean it endorses the deal or vouches for its accuracy. Any statement suggesting SEC approval is a violation. On the effective date, the price is set and sales begin. Every buyer must receive the final prospectus no later than the confirmation. Under access equals delivery, filing the final prospectus with the SEC generally satisfies that delivery, and buyers are notified."
+  },
+  {
+   "type": "narration",
+   "text": "In the aftermarket, the managing underwriter may stabilize the price by bidding at or below the public offering price, never above it. Regulation M restricts underwriters and others in the distribution from buying or bidding for the security during the restricted period, with exceptions like stabilization. Dealers selling the stock in the aftermarket may also have to deliver the prospectus for a set period."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0502"
+  },
+  {
+   "type": "narration",
+   "text": "Initial public offerings carry their own restrictions. FINRA Rule fifty-one thirty bars firms from selling new equity issues to restricted persons, such as broker-dealer employees, portfolio managers, and certain family members. Fifty-one thirty-one prohibits spinning, which means giving hot IPO shares to executives of companies the firm wants banking business from. It also prohibits quid pro quo allocations in exchange for excess compensation."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0506"
+  },
+  {
+   "type": "narration",
+   "text": "The underwriters' compensation comes from the spread, the difference between the public offering price and what the issuer receives. It's split into the manager's fee, the underwriting fee, and the selling concession, which goes to whoever actually sells the shares. Selling group members aren't underwriters. They get only the concession and take no liability for unsold shares."
+  },
+  {
+   "type": "narration",
+   "text": "So for the exam: before filing, nothing can be offered. During cooling-off, there are no sales, but the red herring, indications of interest, and a tombstone are allowed. On the effective date, sales begin with the final prospectus. In the aftermarket, stabilization can't go above the offering price. And the SEC never approves anything."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Registration statement: The disclosure document an issuer files with the SEC under the Securities Act of one thousand nine hundred thirty-three before a public offering. Cooling-off period: The period of at least twenty days between filing a registration statement and its effective date, when no sales may be made. Red herring: The preliminary prospectus, which omits the final offering price and carries a legend that the registration is not yet effective. Final prospectus: The offering document that includes the public offering price and must be delivered no later than confirmation of the sale. Due diligence meeting: The meeting during the cooling-off period where underwriters review the issuer's disclosures to establish a reasonable basis for the offering. Blue-sky laws: State securities laws that require offerings to be registered or qualified in each state where they are sold. Firm commitment underwriting: An underwriting in which the syndicate buys the whole issue from the issuer and bears the risk of unsold shares. Best efforts underwriting: An underwriting in which the underwriter acts as agent and returns any unsold securities to the issuer."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Registration statement",
+   "definition": "The disclosure document an issuer files with the SEC under the Securities Act of 1933 before a public offering"
+  },
+  {
+   "term": "Cooling-off period",
+   "definition": "The period of at least 20 days between filing a registration statement and its effective date, when no sales may be made"
+  },
+  {
+   "term": "Red herring",
+   "definition": "The preliminary prospectus, which omits the final offering price and carries a legend that the registration is not yet effective"
+  },
+  {
+   "term": "Final prospectus",
+   "definition": "The offering document that includes the public offering price and must be delivered no later than confirmation of the sale"
+  },
+  {
+   "term": "Due diligence meeting",
+   "definition": "The meeting during the cooling-off period where underwriters review the issuer's disclosures to establish a reasonable basis for the offering"
+  },
+  {
+   "term": "Blue-sky laws",
+   "definition": "State securities laws that require offerings to be registered or qualified in each state where they are sold"
+  },
+  {
+   "term": "Firm commitment underwriting",
+   "definition": "An underwriting in which the syndicate buys the whole issue from the issuer and bears the risk of unsold shares"
+  },
+  {
+   "term": "Best efforts underwriting",
+   "definition": "An underwriting in which the underwriter acts as agent and returns any unsold securities to the issuer"
+  },
+  {
+   "term": "All-or-none underwriting",
+   "definition": "A best efforts underwriting that is canceled and funds returned if the entire issue is not sold"
+  },
+  {
+   "term": "Standby underwriting",
+   "definition": "An agreement to buy any shares left unsubscribed at the end of a rights offering"
+  }
+ ],
+ "mnemonics": [
+  "Cooling-off: talk, don't sell.",
+  "Stabilize at or below, never above.",
+  "The SEC clears, never approves."
+ ],
+ "summary": "The 1933 Act process runs from pre-filing to filing, a cooling-off period of at least 20 days, the effective date and the aftermarket. During cooling-off, no sales or money are allowed, but the red herring, non-binding indications of interest and tombstones are permitted. A due diligence meeting is held, and the issue must be blue-skied in each state. Firm commitment underwriters bear the risk of unsold shares, while best efforts underwriters act as agent (all-or-none, mini-max). Standby underwriting backs rights offerings. Stabilizing bids must be at or below the POP. Rules 5130 and 5131 restrict IPO allocations. The SEC never approves an offering."
+}

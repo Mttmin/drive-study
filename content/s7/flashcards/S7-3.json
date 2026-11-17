@@ -350,5 +350,1877 @@
   "front": "ACATS timing",
   "back": "Validate within 1 business day; complete within 3 business days after validation.",
   "spoken": "ACATS: validate in one business day, complete in three more."
+ },
+ {
+  "id": "s7-f-0196",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Options Clearing Corporation",
+  "back": "The issuer and guarantor of all listed options, which assigns exercise notices to member firms at random.",
+  "spoken": "Options Clearing Corporation. The issuer and guarantor of all listed options, which assigns exercise notices to member firms at random."
+ },
+ {
+  "id": "s7-f-0197",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "American-style option",
+  "back": "An option that can be exercised at any time up to expiration.",
+  "spoken": "American-style option. An option that can be exercised at any time up to expiration."
+ },
+ {
+  "id": "s7-f-0198",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "European-style option",
+  "back": "An option that can be exercised only during a specified period just before expiration, though it can be traded anytime.",
+  "spoken": "European-style option. An option that can be exercised only during a specified period just before expiration, though it can be traded anytime."
+ },
+ {
+  "id": "s7-f-0199",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "LEAPS",
+  "back": "Long-term equity anticipation securities, listed options with expirations that extend out as far as roughly three years.",
+  "spoken": "LEAPS. Long-term equity anticipation securities, listed options with expirations that extend out as far as roughly three years."
+ },
+ {
+  "id": "s7-f-0200",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Open interest",
+  "back": "The number of option contracts outstanding that have not been closed, exercised or expired.",
+  "spoken": "Open interest. The number of option contracts outstanding that have not been closed, exercised or expired."
+ },
+ {
+  "id": "s7-f-0201",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Opening purchase",
+  "back": "A transaction that creates or increases a long option position.",
+  "spoken": "Opening purchase. A transaction that creates or increases a long option position."
+ },
+ {
+  "id": "s7-f-0202",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Opening sale",
+  "back": "A transaction that creates or increases a short option position, also called writing.",
+  "spoken": "Opening sale. A transaction that creates or increases a short option position, also called writing."
+ },
+ {
+  "id": "s7-f-0203",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Closing purchase",
+  "back": "A transaction that eliminates or reduces a short option position by buying it back.",
+  "spoken": "Closing purchase. A transaction that eliminates or reduces a short option position by buying it back."
+ },
+ {
+  "id": "s7-f-0204",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Closing sale",
+  "back": "A transaction that eliminates or reduces a long option position by selling it.",
+  "spoken": "Closing sale. A transaction that eliminates or reduces a long option position by selling it."
+ },
+ {
+  "id": "s7-f-0205",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Position limit",
+  "back": "The maximum number of option contracts on the same side of the market that one investor or group may hold in an underlying.",
+  "spoken": "Position limit. The maximum number of option contracts on the same side of the market that one investor or group may hold in an underlying."
+ },
+ {
+  "id": "s7-f-0206",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Exercise limit",
+  "back": "The maximum number of option contracts on the same side of the market that can be exercised within five consecutive business days.",
+  "spoken": "Exercise limit. The maximum number of option contracts on the same side of the market that can be exercised within five consecutive business days."
+ },
+ {
+  "id": "s7-f-0207",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "At the money",
+  "back": "An option whose strike price equals the market price of the underlying.",
+  "spoken": "At the money. An option whose strike price equals the market price of the underlying."
+ },
+ {
+  "id": "s7-f-0208",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Covered call writer",
+  "back": "A call seller who owns the underlying stock or a security convertible into it.",
+  "spoken": "Covered call writer. A call seller who owns the underlying stock or a security convertible into it."
+ },
+ {
+  "id": "s7-f-0209",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Uncovered writer",
+  "back": "An option seller without an offsetting position in the underlying, which requires the highest level of options approval.",
+  "spoken": "Uncovered writer. An option seller without an offsetting position in the underlying, which requires the highest level of options approval."
+ },
+ {
+  "id": "s7-f-0210",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Assignment",
+  "back": "The notice to an option writer that the holder has exercised and the writer must perform.",
+  "spoken": "Assignment. The notice to an option writer that the holder has exercised and the writer must perform."
+ },
+ {
+  "id": "s7-f-0211",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Foreign currency option",
+  "back": "A listed option on a foreign currency's value in U.S. dollars, settled in cash.",
+  "spoken": "Foreign currency option. A listed option on a foreign currency's value in U.S. dollars, settled in cash."
+ },
+ {
+  "id": "s7-f-0212",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Yield-based option",
+  "back": "An option on Treasury yields with a multiplier, where calls profit when interest rates rise.",
+  "spoken": "Yield-based option. An option on Treasury yields with a multiplier, where calls profit when interest rates rise."
+ },
+ {
+  "id": "s7-f-0213",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Broad-based index option",
+  "back": "A cash-settled option on a market index, used to hedge systematic risk in a diversified portfolio.",
+  "spoken": "Broad-based index option. A cash-settled option on a market index, used to hedge systematic risk in a diversified portfolio."
+ },
+ {
+  "id": "s7-f-0214",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Authorized stock",
+  "back": "The maximum number of shares a corporation may issue under its charter.",
+  "spoken": "Authorized stock. The maximum number of shares a corporation may issue under its charter."
+ },
+ {
+  "id": "s7-f-0215",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Treasury stock",
+  "back": "Previously issued shares the corporation has bought back, which carry no votes or dividends.",
+  "spoken": "Treasury stock. Previously issued shares the corporation has bought back, which carry no votes or dividends."
+ },
+ {
+  "id": "s7-f-0216",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Outstanding stock",
+  "back": "Issued shares minus treasury stock, the shares held by the public and insiders.",
+  "spoken": "Outstanding stock. Issued shares minus treasury stock, the shares held by the public and insiders."
+ },
+ {
+  "id": "s7-f-0217",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Preemptive right",
+  "back": "A common stockholder's right to maintain proportionate ownership by buying new shares before they are offered to the public.",
+  "spoken": "Preemptive right. A common stockholder's right to maintain proportionate ownership by buying new shares before they are offered to the public."
+ },
+ {
+  "id": "s7-f-0218",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Cumulative voting",
+  "back": "A voting method that lets shareholders concentrate all their votes on one director, which benefits minority holders.",
+  "spoken": "Cumulative voting. A voting method that lets shareholders concentrate all their votes on one director, which benefits minority holders."
+ },
+ {
+  "id": "s7-f-0219",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Statutory voting",
+  "back": "A voting method in which a shareholder casts one vote per share for each director seat.",
+  "spoken": "Statutory voting. A voting method in which a shareholder casts one vote per share for each director seat."
+ },
+ {
+  "id": "s7-f-0220",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Residual claim",
+  "back": "Common stockholders' right to corporate assets only after all creditors and preferred holders are paid.",
+  "spoken": "Residual claim. Common stockholders' right to corporate assets only after all creditors and preferred holders are paid."
+ },
+ {
+  "id": "s7-f-0221",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Participating preferred",
+  "back": "Preferred stock that can receive dividends above its stated rate when common dividends exceed a set level.",
+  "spoken": "Participating preferred. Preferred stock that can receive dividends above its stated rate when common dividends exceed a set level."
+ },
+ {
+  "id": "s7-f-0222",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Convertible preferred",
+  "back": "Preferred stock that can be exchanged for a set number of common shares and usually pays a lower dividend.",
+  "spoken": "Convertible preferred. Preferred stock that can be exchanged for a set number of common shares and usually pays a lower dividend."
+ },
+ {
+  "id": "s7-f-0223",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Callable preferred",
+  "back": "Preferred stock the issuer can redeem at a set price, which usually pays a higher dividend to compensate holders.",
+  "spoken": "Callable preferred. Preferred stock the issuer can redeem at a set price, which usually pays a higher dividend to compensate holders."
+ },
+ {
+  "id": "s7-f-0224",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Adjustable-rate preferred",
+  "back": "Preferred stock whose dividend resets periodically with a benchmark rate, so its price stays relatively stable.",
+  "spoken": "Adjustable-rate preferred. Preferred stock whose dividend resets periodically with a benchmark rate, so its price stays relatively stable."
+ },
+ {
+  "id": "s7-f-0225",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Warrant",
+  "back": "A long-term instrument, often attached to bonds, giving the right to buy stock at a price set above the market at issuance.",
+  "spoken": "Warrant. A long-term instrument, often attached to bonds, giving the right to buy stock at a price set above the market at issuance."
+ },
+ {
+  "id": "s7-f-0226",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Stock right",
+  "back": "A short-term instrument giving existing shareholders the right to buy new shares below the market price.",
+  "spoken": "Stock right. A short-term instrument giving existing shareholders the right to buy new shares below the market price."
+ },
+ {
+  "id": "s7-f-0227",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "American Depositary Receipt",
+  "back": "A negotiable receipt issued by a U.S. bank representing foreign shares, which trades and pays dividends in U.S. dollars but carries currency risk.",
+  "spoken": "American Depositary Receipt. A negotiable receipt issued by a U.S. bank representing foreign shares, which trades and pays dividends in U.S. dollars but carries currency risk."
+ },
+ {
+  "id": "s7-f-0228",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Spinoff",
+  "back": "A distribution of shares of a subsidiary to the parent company's shareholders.",
+  "spoken": "Spinoff. A distribution of shares of a subsidiary to the parent company's shareholders."
+ },
+ {
+  "id": "s7-f-0229",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Dark pool",
+  "back": "An alternative trading system that does not display quotes publicly before execution, used for large institutional orders.",
+  "spoken": "Dark pool. An alternative trading system that does not display quotes publicly before execution, used for large institutional orders."
+ },
+ {
+  "id": "s7-f-0230",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Electronic communications network",
+  "back": "An alternative trading system that automatically matches displayed buy and sell orders.",
+  "spoken": "Electronic communications network. An alternative trading system that automatically matches displayed buy and sell orders."
+ },
+ {
+  "id": "s7-f-0231",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Qualified dividend",
+  "back": "A dividend from a domestic or qualified foreign corporation, held for the required period, that is taxed at long-term capital gains rates.",
+  "spoken": "Qualified dividend. A dividend from a domestic or qualified foreign corporation, held for the required period, that is taxed at long-term capital gains rates."
+ },
+ {
+  "id": "s7-f-0232",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Long-term capital gain",
+  "back": "A gain on a capital asset held for more than one year.",
+  "spoken": "Long-term capital gain. A gain on a capital asset held for more than one year."
+ },
+ {
+  "id": "s7-f-0233",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Wash sale",
+  "back": "A sale at a loss with a purchase of substantially identical securities within 30 days before or after, which disallows the loss.",
+  "spoken": "Wash sale. A sale at a loss with a purchase of substantially identical securities within thirty days before or after, which disallows the loss."
+ },
+ {
+  "id": "s7-f-0234",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Stepped-up basis",
+  "back": "The cost basis of inherited securities, reset to fair market value at the date of death.",
+  "spoken": "Stepped-up basis. The cost basis of inherited securities, reset to fair market value at the date of death."
+ },
+ {
+  "id": "s7-f-0235",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Specific identification",
+  "back": "A cost basis method in which the customer names which lots are being sold, often to manage the tax result.",
+  "spoken": "Specific identification. A cost basis method in which the customer names which lots are being sold, often to manage the tax result."
+ },
+ {
+  "id": "s7-f-0236",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "FIFO",
+  "back": "The default cost basis method for stocks when no lots are identified, which treats the earliest shares bought as sold first.",
+  "spoken": "FIFO. The default cost basis method for stocks when no lots are identified, which treats the earliest shares bought as sold first."
+ },
+ {
+  "id": "s7-f-0237",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Return of capital",
+  "back": "A distribution that is not taxed when received but reduces the investor's cost basis.",
+  "spoken": "Return of capital. A distribution that is not taxed when received but reduces the investor's cost basis."
+ },
+ {
+  "id": "s7-f-0238",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Capital loss carryforward",
+  "back": "Net capital losses beyond the 3,000 dollar annual offset against ordinary income, carried into future years without limit.",
+  "spoken": "Capital loss carryforward. Net capital losses beyond the three thousand dollar annual offset against ordinary income, carried into future years without limit."
+ },
+ {
+  "id": "s7-f-0239",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Debenture",
+  "back": "An unsecured corporate bond backed only by the issuer's general credit.",
+  "spoken": "Debenture. An unsecured corporate bond backed only by the issuer's general credit."
+ },
+ {
+  "id": "s7-f-0240",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Mortgage bond",
+  "back": "A corporate bond secured by a lien on real property.",
+  "spoken": "Mortgage bond. A corporate bond secured by a lien on real property."
+ },
+ {
+  "id": "s7-f-0241",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Equipment trust certificate",
+  "back": "A bond secured by equipment such as aircraft or railcars, typically issued by transportation companies.",
+  "spoken": "Equipment trust certificate. A bond secured by equipment such as aircraft or railcars, typically issued by transportation companies."
+ },
+ {
+  "id": "s7-f-0242",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Collateral trust bond",
+  "back": "A bond secured by securities that the issuer owns and deposits with a trustee.",
+  "spoken": "Collateral trust bond. A bond secured by securities that the issuer owns and deposits with a trustee."
+ },
+ {
+  "id": "s7-f-0243",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Income bond",
+  "back": "A bond that pays interest only if the issuer earns enough, often issued in reorganizations.",
+  "spoken": "Income bond. A bond that pays interest only if the issuer earns enough, often issued in reorganizations."
+ },
+ {
+  "id": "s7-f-0244",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Subordinated debenture",
+  "back": "An unsecured bond that ranks behind other unsecured debt in liquidation.",
+  "spoken": "Subordinated debenture. An unsecured bond that ranks behind other unsecured debt in liquidation."
+ },
+ {
+  "id": "s7-f-0245",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Zero-coupon bond",
+  "back": "A bond issued at a deep discount that pays no periodic interest and matures at par.",
+  "spoken": "Zero-coupon bond. A bond issued at a deep discount that pays no periodic interest and matures at par."
+ },
+ {
+  "id": "s7-f-0246",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Step-up bond",
+  "back": "A bond whose coupon rate increases on a set schedule.",
+  "spoken": "Step-up bond. A bond whose coupon rate increases on a set schedule."
+ },
+ {
+  "id": "s7-f-0247",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Eurodollar bond",
+  "back": "A U.S. dollar-denominated bond issued and traded outside the United States.",
+  "spoken": "Eurodollar bond. A U.S. dollar-denominated bond issued and traded outside the United States."
+ },
+ {
+  "id": "s7-f-0248",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Commercial paper",
+  "back": "Short-term unsecured corporate debt, typically maturing in 270 days or less to avoid SEC registration.",
+  "spoken": "Commercial paper. Short-term unsecured corporate debt, typically maturing in two hundred seventy days or less to avoid SEC registration."
+ },
+ {
+  "id": "s7-f-0249",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Banker's acceptance",
+  "back": "A short-term time draft guaranteed by a bank, used to finance imports and exports.",
+  "spoken": "Banker's acceptance. A short-term time draft guaranteed by a bank, used to finance imports and exports."
+ },
+ {
+  "id": "s7-f-0250",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Brokered CD",
+  "back": "A bank certificate of deposit sold through a broker-dealer, which may trade in a secondary market and can lose value if rates rise.",
+  "spoken": "Brokered CD. A bank certificate of deposit sold through a broker-dealer, which may trade in a secondary market and can lose value if rates rise."
+ },
+ {
+  "id": "s7-f-0251",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Exchange-traded note",
+  "back": "An unsecured debt note whose return tracks an index, exposing holders to the issuer's credit risk.",
+  "spoken": "Exchange-traded note. An unsecured debt note whose return tracks an index, exposing holders to the issuer's credit risk."
+ },
+ {
+  "id": "s7-f-0252",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Sinking fund",
+  "back": "Money set aside by an issuer to retire part of a bond issue before maturity.",
+  "spoken": "Sinking fund. Money set aside by an issuer to retire part of a bond issue before maturity."
+ },
+ {
+  "id": "s7-f-0253",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Call protection",
+  "back": "The period during which a callable bond cannot be called.",
+  "spoken": "Call protection. The period during which a callable bond cannot be called."
+ },
+ {
+  "id": "s7-f-0254",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Trust indenture",
+  "back": "The contract between a bond issuer and trustee stating the bond's terms and covenants, required for corporate issues under the Trust Indenture Act.",
+  "spoken": "Trust indenture. The contract between a bond issuer and trustee stating the bond's terms and covenants, required for corporate issues under the Trust Indenture Act."
+ },
+ {
+  "id": "s7-f-0255",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Yield to worst",
+  "back": "The lowest of a bond's yield to maturity and yields to its possible call dates.",
+  "spoken": "Yield to worst. The lowest of a bond's yield to maturity and yields to its possible call dates."
+ },
+ {
+  "id": "s7-f-0256",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Duration",
+  "back": "A measure of a bond's price sensitivity to interest-rate changes, longer for lower coupons and longer maturities.",
+  "spoken": "Duration. A measure of a bond's price sensitivity to interest-rate changes, longer for lower coupons and longer maturities."
+ },
+ {
+  "id": "s7-f-0257",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Basis point",
+  "back": "One one-hundredth of one percent of yield.",
+  "spoken": "Basis point. One one-hundredth of one percent of yield."
+ },
+ {
+  "id": "s7-f-0258",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Investment grade",
+  "back": "A bond rating of BBB or higher by S and P, or Baa or higher by Moody's.",
+  "spoken": "Investment grade. A bond rating of BBB or higher by S and P, or Baa or higher by Moody's."
+ },
+ {
+  "id": "s7-f-0259",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Make-whole call",
+  "back": "A call provision requiring the issuer to pay a lump sum based on the present value of remaining payments, which discourages early calls.",
+  "spoken": "Make-whole call. A call provision requiring the issuer to pay a lump sum based on the present value of remaining payments, which discourages early calls."
+ },
+ {
+  "id": "s7-f-0260",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Treasury bill",
+  "back": "A short-term Treasury security issued at a discount with maturities of one year or less.",
+  "spoken": "Treasury bill. A short-term Treasury security issued at a discount with maturities of one year or less."
+ },
+ {
+  "id": "s7-f-0261",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Treasury note",
+  "back": "A Treasury security paying semiannual interest with maturities of 2 to 10 years.",
+  "spoken": "Treasury note. A Treasury security paying semiannual interest with maturities of two to ten years."
+ },
+ {
+  "id": "s7-f-0262",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Treasury bond",
+  "back": "A Treasury security paying semiannual interest with maturities longer than 10 years, up to 30 years.",
+  "spoken": "Treasury bond. A Treasury security paying semiannual interest with maturities longer than ten years, up to thirty years."
+ },
+ {
+  "id": "s7-f-0263",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "STRIPS",
+  "back": "Zero-coupon securities created by separating the interest and principal payments of Treasury notes and bonds.",
+  "spoken": "STRIPS. Zero-coupon securities created by separating the interest and principal payments of Treasury notes and bonds."
+ },
+ {
+  "id": "s7-f-0264",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "TIPS",
+  "back": "Treasury securities whose principal is adjusted for inflation by the CPI, with a fixed coupon rate applied to the adjusted principal.",
+  "spoken": "TIPS. Treasury securities whose principal is adjusted for inflation by the CPI, with a fixed coupon rate applied to the adjusted principal."
+ },
+ {
+  "id": "s7-f-0265",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Ginnie Mae",
+  "back": "The government agency whose mortgage-backed pass-through securities carry the full faith and credit of the U.S. government.",
+  "spoken": "Ginnie Mae. The government agency whose mortgage-backed pass-through securities carry the full faith and credit of the U.S. government."
+ },
+ {
+  "id": "s7-f-0266",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Fannie Mae",
+  "back": "A publicly traded government-sponsored enterprise that buys mortgages and issues pass-through securities without an explicit federal guarantee.",
+  "spoken": "Fannie Mae. A publicly traded government-sponsored enterprise that buys mortgages and issues pass-through securities without an explicit federal guarantee."
+ },
+ {
+  "id": "s7-f-0267",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Freddie Mac",
+  "back": "A government-sponsored enterprise that buys conventional mortgages from lenders and issues participation certificates.",
+  "spoken": "Freddie Mac. A government-sponsored enterprise that buys conventional mortgages from lenders and issues participation certificates."
+ },
+ {
+  "id": "s7-f-0268",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Pass-through certificate",
+  "back": "A mortgage-backed security that passes monthly interest and principal from a mortgage pool to investors.",
+  "spoken": "Pass-through certificate. A mortgage-backed security that passes monthly interest and principal from a mortgage pool to investors."
+ },
+ {
+  "id": "s7-f-0269",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Prepayment risk",
+  "back": "The risk that falling interest rates lead homeowners to refinance, returning principal early.",
+  "spoken": "Prepayment risk. The risk that falling interest rates lead homeowners to refinance, returning principal early."
+ },
+ {
+  "id": "s7-f-0270",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Extension risk",
+  "back": "The risk that rising interest rates slow prepayments, lengthening a mortgage security's life.",
+  "spoken": "Extension risk. The risk that rising interest rates slow prepayments, lengthening a mortgage security's life."
+ },
+ {
+  "id": "s7-f-0271",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Planned amortization class",
+  "back": "A CMO tranche with a protected principal schedule against both prepayment and extension risk.",
+  "spoken": "Planned amortization class. A CMO tranche with a protected principal schedule against both prepayment and extension risk."
+ },
+ {
+  "id": "s7-f-0272",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Targeted amortization class",
+  "back": "A CMO tranche protected against prepayment risk but not extension risk.",
+  "spoken": "Targeted amortization class. A CMO tranche protected against prepayment risk but not extension risk."
+ },
+ {
+  "id": "s7-f-0273",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Companion tranche",
+  "back": "A CMO tranche that absorbs prepayment variability to protect the PACs, carrying the most risk and higher yields.",
+  "spoken": "Companion tranche. A CMO tranche that absorbs prepayment variability to protect the PACs, carrying the most risk and higher yields."
+ },
+ {
+  "id": "s7-f-0274",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Z-tranche",
+  "back": "An accrual CMO tranche that receives no payments until earlier tranches are retired.",
+  "spoken": "Z-tranche. An accrual CMO tranche that receives no payments until earlier tranches are retired."
+ },
+ {
+  "id": "s7-f-0275",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Principal-only tranche",
+  "back": "A CMO strip whose value rises when interest rates fall and prepayments speed up.",
+  "spoken": "Principal-only tranche. A CMO strip whose value rises when interest rates fall and prepayments speed up."
+ },
+ {
+  "id": "s7-f-0276",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Interest-only tranche",
+  "back": "A CMO strip whose value tends to rise when interest rates rise and prepayments slow.",
+  "spoken": "Interest-only tranche. A CMO strip whose value tends to rise when interest rates rise and prepayments slow."
+ },
+ {
+  "id": "s7-f-0277",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "General obligation bond",
+  "back": "A municipal bond backed by the full faith, credit and taxing power of the issuer, usually requiring voter approval.",
+  "spoken": "General obligation bond. A municipal bond backed by the full faith, credit and taxing power of the issuer, usually requiring voter approval."
+ },
+ {
+  "id": "s7-f-0278",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Revenue bond",
+  "back": "A municipal bond repaid only from the revenues of the facility it finances, such as a toll road or water system.",
+  "spoken": "Revenue bond. A municipal bond repaid only from the revenues of the facility it finances, such as a toll road or water system."
+ },
+ {
+  "id": "s7-f-0279",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Limited tax GO bond",
+  "back": "A general obligation bond backed by a tax that is capped in rate or amount.",
+  "spoken": "Limited tax GO bond. A general obligation bond backed by a tax that is capped in rate or amount."
+ },
+ {
+  "id": "s7-f-0280",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Special tax bond",
+  "back": "A bond repaid from a specific tax, such as a tax on gasoline, tobacco or hotel rooms, rather than the general tax base.",
+  "spoken": "Special tax bond. A bond repaid from a specific tax, such as a tax on gasoline, tobacco or hotel rooms, rather than the general tax base."
+ },
+ {
+  "id": "s7-f-0281",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Special assessment bond",
+  "back": "A bond repaid by a tax levied only on the properties that benefit from the project, such as sidewalks or sewers.",
+  "spoken": "Special assessment bond. A bond repaid by a tax levied only on the properties that benefit from the project, such as sidewalks or sewers."
+ },
+ {
+  "id": "s7-f-0282",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Moral obligation bond",
+  "back": "A revenue bond backed by a state legislature's non-binding promise to consider appropriating funds if revenues fall short.",
+  "spoken": "Moral obligation bond. A revenue bond backed by a state legislature's non-binding promise to consider appropriating funds if revenues fall short."
+ },
+ {
+  "id": "s7-f-0283",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Industrial development revenue bond",
+  "back": "A municipal bond backed by a corporate lease payment, carrying the credit risk of the corporation.",
+  "spoken": "Industrial development revenue bond. A municipal bond backed by a corporate lease payment, carrying the credit risk of the corporation."
+ },
+ {
+  "id": "s7-f-0284",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Lease rental bond",
+  "back": "A bond repaid from lease payments made by a government agency that uses the financed facility.",
+  "spoken": "Lease rental bond. A bond repaid from lease payments made by a government agency that uses the financed facility."
+ },
+ {
+  "id": "s7-f-0285",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Certificate of participation",
+  "back": "A municipal security representing a share of lease payments that depend on annual appropriations.",
+  "spoken": "Certificate of participation. A municipal security representing a share of lease payments that depend on annual appropriations."
+ },
+ {
+  "id": "s7-f-0286",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Private activity bond",
+  "back": "A municipal bond whose proceeds benefit a private party, and whose interest may be a tax preference item for the AMT.",
+  "spoken": "Private activity bond. A municipal bond whose proceeds benefit a private party, and whose interest may be a tax preference item for the AMT."
+ },
+ {
+  "id": "s7-f-0287",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Bank-qualified bond",
+  "back": "A small-issuer municipal bond that lets banks deduct most of the interest cost of carrying it.",
+  "spoken": "Bank-qualified bond. A small-issuer municipal bond that lets banks deduct most of the interest cost of carrying it."
+ },
+ {
+  "id": "s7-f-0288",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Build America Bond",
+  "back": "A taxable municipal bond issued in 2009 and 2010 with a federal subsidy to the issuer or a tax credit to the holder.",
+  "spoken": "Build America Bond. A taxable municipal bond issued in two thousand nine and two thousand ten with a federal subsidy to the issuer or a tax credit to the holder."
+ },
+ {
+  "id": "s7-f-0289",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Variable rate demand obligation",
+  "back": "A long-term municipal bond whose rate resets periodically and that holders can tender at par, often backed by a bank liquidity facility.",
+  "spoken": "Variable rate demand obligation. A long-term municipal bond whose rate resets periodically and that holders can tender at par, often backed by a bank liquidity facility."
+ },
+ {
+  "id": "s7-f-0290",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Auction rate security",
+  "back": "A long-term security whose rate resets through periodic Dutch auctions, which can become illiquid if auctions fail.",
+  "spoken": "Auction rate security. A long-term security whose rate resets through periodic Dutch auctions, which can become illiquid if auctions fail."
+ },
+ {
+  "id": "s7-f-0291",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "TRAN",
+  "back": "A short-term municipal note repaid from both anticipated taxes and other revenues.",
+  "spoken": "TRAN. A short-term municipal note repaid from both anticipated taxes and other revenues."
+ },
+ {
+  "id": "s7-f-0292",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Tax-exempt commercial paper",
+  "back": "Short-term unsecured municipal debt, typically with maturities of 270 days or less.",
+  "spoken": "Tax-exempt commercial paper. Short-term unsecured municipal debt, typically with maturities of two hundred seventy days or less."
+ },
+ {
+  "id": "s7-f-0293",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Capital appreciation bond",
+  "back": "A municipal zero-coupon bond issued at a discount that accretes to its full value at maturity.",
+  "spoken": "Capital appreciation bond. A municipal zero-coupon bond issued at a discount that accretes to its full value at maturity."
+ },
+ {
+  "id": "s7-f-0294",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Serial bonds",
+  "back": "An issue with bonds maturing in a series of years, commonly used for GO issues and quoted on a yield basis.",
+  "spoken": "Serial bonds. An issue with bonds maturing in a series of years, commonly used for GO issues and quoted on a yield basis."
+ },
+ {
+  "id": "s7-f-0295",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Term bonds",
+  "back": "An issue in which all bonds mature on one date, often quoted in dollar price and called dollar bonds.",
+  "spoken": "Term bonds. An issue in which all bonds mature on one date, often quoted in dollar price and called dollar bonds."
+ },
+ {
+  "id": "s7-f-0296",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Balloon maturity",
+  "back": "A serial issue in which a large share of the principal comes due on the final maturity date.",
+  "spoken": "Balloon maturity. A serial issue in which a large share of the principal comes due on the final maturity date."
+ },
+ {
+  "id": "s7-f-0297",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Extraordinary call",
+  "back": "A call triggered by an unusual event, such as destruction of the facility, often under a catastrophe clause.",
+  "spoken": "Extraordinary call. A call triggered by an unusual event, such as destruction of the facility, often under a catastrophe clause."
+ },
+ {
+  "id": "s7-f-0298",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Escrowed to maturity",
+  "back": "Refunded bonds whose escrow pays them off at their original maturity rather than at a call date.",
+  "spoken": "Escrowed to maturity. Refunded bonds whose escrow pays them off at their original maturity rather than at a call date."
+ },
+ {
+  "id": "s7-f-0299",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Crossover refunding",
+  "back": "A refunding in which the escrow pays the new bonds until the call date of the old bonds, when the escrow then retires the old bonds.",
+  "spoken": "Crossover refunding. A refunding in which the escrow pays the new bonds until the call date of the old bonds, when the escrow then retires the old bonds."
+ },
+ {
+  "id": "s7-f-0300",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Local government investment pool",
+  "back": "A municipal fund security used by state and local governments to invest cash, often run like a money market fund.",
+  "spoken": "Local government investment pool. A municipal fund security used by state and local governments to invest cash, often run like a money market fund."
+ },
+ {
+  "id": "s7-f-0301",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Put option bond",
+  "back": "A bond that lets the holder sell it back to the issuer at par on set dates, which lowers its yield.",
+  "spoken": "Put option bond. A bond that lets the holder sell it back to the issuer at par on set dates, which lowers its yield."
+ },
+ {
+  "id": "s7-f-0302",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Net direct debt",
+  "back": "A municipality's total direct debt minus self-supporting debt, used to measure the burden on taxpayers.",
+  "spoken": "Net direct debt. A municipality's total direct debt minus self-supporting debt, used to measure the burden on taxpayers."
+ },
+ {
+  "id": "s7-f-0303",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Overlapping debt",
+  "back": "Debt of other jurisdictions that share the same tax base, such as a county and a school district.",
+  "spoken": "Overlapping debt. Debt of other jurisdictions that share the same tax base, such as a county and a school district."
+ },
+ {
+  "id": "s7-f-0304",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Assessed valuation",
+  "back": "The value placed on property for taxing purposes, which forms the base for property taxes.",
+  "spoken": "Assessed valuation. The value placed on property for taxing purposes, which forms the base for property taxes."
+ },
+ {
+  "id": "s7-f-0305",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Feasibility study",
+  "back": "An engineering and economic report done before a revenue bond issue to show the project can generate enough revenue.",
+  "spoken": "Feasibility study. An engineering and economic report done before a revenue bond issue to show the project can generate enough revenue."
+ },
+ {
+  "id": "s7-f-0306",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Rate covenant",
+  "back": "An issuer's promise to set user charges high enough to cover operations and debt service.",
+  "spoken": "Rate covenant. An issuer's promise to set user charges high enough to cover operations and debt service."
+ },
+ {
+  "id": "s7-f-0307",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Additional bonds test",
+  "back": "An indenture covenant that limits new parity debt unless coverage requirements are met.",
+  "spoken": "Additional bonds test. An indenture covenant that limits new parity debt unless coverage requirements are met."
+ },
+ {
+  "id": "s7-f-0308",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Closed-end indenture",
+  "back": "A bond agreement that prohibits issuing more bonds with an equal claim on the same revenues.",
+  "spoken": "Closed-end indenture. A bond agreement that prohibits issuing more bonds with an equal claim on the same revenues."
+ },
+ {
+  "id": "s7-f-0309",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Debt service reserve fund",
+  "back": "A fund holding money to cover debt service if revenues fall short.",
+  "spoken": "Debt service reserve fund. A fund holding money to cover debt service if revenues fall short."
+ },
+ {
+  "id": "s7-f-0310",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Bond Buyer 20-Bond Index",
+  "back": "An index of the yields of 20 general obligation bonds with 20-year maturities.",
+  "spoken": "Bond Buyer twenty-Bond Index. An index of the yields of twenty general obligation bonds with twenty-year maturities."
+ },
+ {
+  "id": "s7-f-0311",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Bond Buyer 11-Bond Index",
+  "back": "A higher-rated subset of the 20-Bond index, also made of general obligation bonds.",
+  "spoken": "Bond Buyer eleven-Bond Index. A higher-rated subset of the twenty-Bond index, also made of general obligation bonds."
+ },
+ {
+  "id": "s7-f-0312",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Bond Buyer 40-Bond Index",
+  "back": "The Municipal Bond Index of prices of 40 actively traded general obligation and revenue bonds.",
+  "spoken": "Bond Buyer forty-Bond Index. The Municipal Bond Index of prices of forty actively traded general obligation and revenue bonds."
+ },
+ {
+  "id": "s7-f-0313",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Insured municipal bond",
+  "back": "A municipal bond whose principal and interest are guaranteed by a bond insurer, which can raise its rating.",
+  "spoken": "Insured municipal bond. A municipal bond whose principal and interest are guaranteed by a bond insurer, which can raise its rating."
+ },
+ {
+  "id": "s7-f-0314",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "529 savings plan",
+  "back": "A state-sponsored education savings plan, treated as a municipal fund security, whose earnings are tax-free when used for qualified education expenses.",
+  "spoken": "five hundred twenty-nine savings plan. A state-sponsored education savings plan, treated as a municipal fund security, whose earnings are tax-free when used for qualified education expenses."
+ },
+ {
+  "id": "s7-f-0315",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "529 prepaid tuition plan",
+  "back": "A state plan that locks in future tuition at today's prices at participating schools.",
+  "spoken": "five hundred twenty-nine prepaid tuition plan. A state plan that locks in future tuition at today's prices at participating schools."
+ },
+ {
+  "id": "s7-f-0316",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "529 beneficiary change",
+  "back": "A switch to another qualifying family member of the beneficiary without tax or penalty.",
+  "spoken": "five hundred twenty-nine beneficiary change. A switch to another qualifying family member of the beneficiary without tax or penalty."
+ },
+ {
+  "id": "s7-f-0317",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "529 owner",
+  "back": "The person, often a parent, who controls a 529 account, including withdrawals and changing the beneficiary.",
+  "spoken": "five hundred twenty-nine owner. The person, often a parent, who controls a five hundred twenty-nine account, including withdrawals and changing the beneficiary."
+ },
+ {
+  "id": "s7-f-0318",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Five-year election",
+  "back": "A 529 gifting option that lets a donor front-load five years of annual gift tax exclusions in one year.",
+  "spoken": "Five-year election. A five hundred twenty-nine gifting option that lets a donor front-load five years of annual gift tax exclusions in one year."
+ },
+ {
+  "id": "s7-f-0319",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Open-end fund",
+  "back": "An investment company that continuously issues new shares and redeems shares at NAV.",
+  "spoken": "Open-end fund. An investment company that continuously issues new shares and redeems shares at NAV."
+ },
+ {
+  "id": "s7-f-0320",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Closed-end fund",
+  "back": "An investment company with a fixed number of shares sold in an IPO, which then trade in the secondary market at a premium or discount to NAV.",
+  "spoken": "Closed-end fund. An investment company with a fixed number of shares sold in an IPO, which then trade in the secondary market at a premium or discount to NAV."
+ },
+ {
+  "id": "s7-f-0321",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Unit investment trust",
+  "back": "An investment company with a fixed, unmanaged portfolio that issues redeemable units and has no board of directors.",
+  "spoken": "Unit investment trust. An investment company with a fixed, unmanaged portfolio that issues redeemable units and has no board of directors."
+ },
+ {
+  "id": "s7-f-0322",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Exchange-traded fund",
+  "back": "A fund whose shares trade on an exchange throughout the day and can be bought on margin and sold short.",
+  "spoken": "Exchange-traded fund. A fund whose shares trade on an exchange throughout the day and can be bought on margin and sold short."
+ },
+ {
+  "id": "s7-f-0323",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Forward pricing",
+  "back": "The rule that open-end fund orders are filled at the next NAV calculated after the order is received.",
+  "spoken": "Forward pricing. The rule that open-end fund orders are filled at the next NAV calculated after the order is received."
+ },
+ {
+  "id": "s7-f-0324",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "12b-1 fee",
+  "back": "An annual fund fee for distribution and marketing costs, deducted from fund assets.",
+  "spoken": "12b-one fee. An annual fund fee for distribution and marketing costs, deducted from fund assets."
+ },
+ {
+  "id": "s7-f-0325",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Breakpoint",
+  "back": "A dollar level of purchase at which a fund's front-end sales charge is reduced.",
+  "spoken": "Breakpoint. A dollar level of purchase at which a fund's front-end sales charge is reduced."
+ },
+ {
+  "id": "s7-f-0326",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Breakpoint sale",
+  "back": "The prohibited practice of selling fund shares just below a breakpoint to earn a higher sales charge.",
+  "spoken": "Breakpoint sale. The prohibited practice of selling fund shares just below a breakpoint to earn a higher sales charge."
+ },
+ {
+  "id": "s7-f-0327",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Right of accumulation",
+  "back": "A feature that counts existing fund family holdings toward reaching a breakpoint on new purchases, with no time limit.",
+  "spoken": "Right of accumulation. A feature that counts existing fund family holdings toward reaching a breakpoint on new purchases, with no time limit."
+ },
+ {
+  "id": "s7-f-0328",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Contingent deferred sales charge",
+  "back": "A back-end load on Class B shares that declines the longer the shares are held.",
+  "spoken": "Contingent deferred sales charge. A back-end load on Class B shares that declines the longer the shares are held."
+ },
+ {
+  "id": "s7-f-0329",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Class A shares",
+  "back": "Fund shares with a front-end sales charge and lower ongoing expenses, usually best for large purchases and long holding periods.",
+  "spoken": "Class A shares. Fund shares with a front-end sales charge and lower ongoing expenses, usually best for large purchases and long holding periods."
+ },
+ {
+  "id": "s7-f-0330",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Class C shares",
+  "back": "Fund shares with a level load, usually a higher ongoing 12b-1 fee and a small short-term CDSC, best for shorter holding periods.",
+  "spoken": "Class C shares. Fund shares with a level load, usually a higher ongoing 12b-one fee and a small short-term CDSC, best for shorter holding periods."
+ },
+ {
+  "id": "s7-f-0331",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Exchange privilege",
+  "back": "The right to move money between funds in the same family at NAV without a new sales charge, though the exchange is taxable.",
+  "spoken": "Exchange privilege. The right to move money between funds in the same family at NAV without a new sales charge, though the exchange is taxable."
+ },
+ {
+  "id": "s7-f-0332",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Interval fund",
+  "back": "A closed-end fund that offers to repurchase a percentage of its shares from holders at set intervals.",
+  "spoken": "Interval fund. A closed-end fund that offers to repurchase a percentage of its shares from holders at set intervals."
+ },
+ {
+  "id": "s7-f-0333",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Money market fund",
+  "back": "A mutual fund investing in short-term high-quality debt that seeks a stable value and liquidity.",
+  "spoken": "Money market fund. A mutual fund investing in short-term high-quality debt that seeks a stable value and liquidity."
+ },
+ {
+  "id": "s7-f-0334",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Expense ratio",
+  "back": "A fund's annual operating expenses as a percentage of average net assets.",
+  "spoken": "Expense ratio. A fund's annual operating expenses as a percentage of average net assets."
+ },
+ {
+  "id": "s7-f-0335",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Investment Company Act of 1940",
+  "back": "The federal law that regulates investment companies, including board independence and limits on affiliated transactions.",
+  "spoken": "Investment Company Act of one thousand nine hundred forty. The federal law that regulates investment companies, including board independence and limits on affiliated transactions."
+ },
+ {
+  "id": "s7-f-0336",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Withdrawal plan",
+  "back": "A fund feature that pays shareholders a fixed dollar amount, fixed percentage or fixed shares on a regular schedule.",
+  "spoken": "Withdrawal plan. A fund feature that pays shareholders a fixed dollar amount, fixed percentage or fixed shares on a regular schedule."
+ },
+ {
+  "id": "s7-f-0337",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Dollar cost averaging",
+  "back": "Investing a fixed dollar amount at regular intervals, which lowers the average cost per share below the average price per share.",
+  "spoken": "Dollar cost averaging. Investing a fixed dollar amount at regular intervals, which lowers the average cost per share below the average price per share."
+ },
+ {
+  "id": "s7-f-0338",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Separate account",
+  "back": "The insurer's account that holds the investments of variable contracts apart from its general account, with the contract owner bearing the investment risk.",
+  "spoken": "Separate account. The insurer's account that holds the investments of variable contracts apart from its general account, with the contract owner bearing the investment risk."
+ },
+ {
+  "id": "s7-f-0339",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Accumulation unit",
+  "back": "The measure of ownership in a variable annuity's separate account during the accumulation phase.",
+  "spoken": "Accumulation unit. The measure of ownership in a variable annuity's separate account during the accumulation phase."
+ },
+ {
+  "id": "s7-f-0340",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Annuity unit",
+  "back": "The measure used to calculate each variable annuity payment once the contract is annuitized.",
+  "spoken": "Annuity unit. The measure used to calculate each variable annuity payment once the contract is annuitized."
+ },
+ {
+  "id": "s7-f-0341",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Assumed interest rate",
+  "back": "The benchmark return used to set the first variable annuity payment and to adjust later payments up or down.",
+  "spoken": "Assumed interest rate. The benchmark return used to set the first variable annuity payment and to adjust later payments up or down."
+ },
+ {
+  "id": "s7-f-0342",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Life only annuity",
+  "back": "A payout option that pays for the annuitant's lifetime only, giving the highest monthly payment and nothing to heirs.",
+  "spoken": "Life only annuity. A payout option that pays for the annuitant's lifetime only, giving the highest monthly payment and nothing to heirs."
+ },
+ {
+  "id": "s7-f-0343",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Life with period certain",
+  "back": "A payout option that pays for life but guarantees payments for a minimum number of years to a beneficiary.",
+  "spoken": "Life with period certain. A payout option that pays for life but guarantees payments for a minimum number of years to a beneficiary."
+ },
+ {
+  "id": "s7-f-0344",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Joint and last survivor",
+  "back": "A payout option that continues payments as long as either of two annuitants is alive.",
+  "spoken": "Joint and last survivor. A payout option that continues payments as long as either of two annuitants is alive."
+ },
+ {
+  "id": "s7-f-0345",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Unit refund option",
+  "back": "A payout option that returns any undistributed value to a beneficiary if the annuitant dies early.",
+  "spoken": "Unit refund option. A payout option that returns any undistributed value to a beneficiary if the annuitant dies early."
+ },
+ {
+  "id": "s7-f-0346",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Mortality and expense risk charge",
+  "back": "An annual variable annuity fee that pays for the insurer's guarantees, such as the death benefit.",
+  "spoken": "Mortality and expense risk charge. An annual variable annuity fee that pays for the insurer's guarantees, such as the death benefit."
+ },
+ {
+  "id": "s7-f-0347",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Surrender charge",
+  "back": "A declining fee on withdrawals above a free amount during the early years of a variable annuity.",
+  "spoken": "Surrender charge. A declining fee on withdrawals above a free amount during the early years of a variable annuity."
+ },
+ {
+  "id": "s7-f-0348",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "1035 exchange",
+  "back": "A tax-free exchange of one annuity or life insurance contract for another, which may restart surrender charges.",
+  "spoken": "one thousand thirty-five exchange. A tax-free exchange of one annuity or life insurance contract for another, which may restart surrender charges."
+ },
+ {
+  "id": "s7-f-0349",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Guaranteed minimum death benefit",
+  "back": "A variable annuity feature that pays beneficiaries at least the amount invested, less withdrawals.",
+  "spoken": "Guaranteed minimum death benefit. A variable annuity feature that pays beneficiaries at least the amount invested, less withdrawals."
+ },
+ {
+  "id": "s7-f-0350",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Variable life insurance",
+  "back": "A policy with a guaranteed minimum death benefit and a cash value that varies with separate account performance.",
+  "spoken": "Variable life insurance. A policy with a guaranteed minimum death benefit and a cash value that varies with separate account performance."
+ },
+ {
+  "id": "s7-f-0351",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Variable universal life",
+  "back": "A variable life policy that lets the owner adjust premiums and the death benefit.",
+  "spoken": "Variable universal life. A variable life policy that lets the owner adjust premiums and the death benefit."
+ },
+ {
+  "id": "s7-f-0352",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Free look period",
+  "back": "The period after delivery of an insurance contract during which the owner can cancel for a refund.",
+  "spoken": "Free look period. The period after delivery of an insurance contract during which the owner can cancel for a refund."
+ },
+ {
+  "id": "s7-f-0353",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Equity REIT",
+  "back": "A real estate investment trust that owns properties and earns rental income.",
+  "spoken": "Equity REIT. A real estate investment trust that owns properties and earns rental income."
+ },
+ {
+  "id": "s7-f-0354",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Mortgage REIT",
+  "back": "A real estate investment trust that lends on or buys mortgages and earns interest income.",
+  "spoken": "Mortgage REIT. A real estate investment trust that lends on or buys mortgages and earns interest income."
+ },
+ {
+  "id": "s7-f-0355",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Non-traded REIT",
+  "back": "A REIT that is registered but not listed on an exchange, with limited liquidity and high up-front costs.",
+  "spoken": "Non-traded REIT. A REIT that is registered but not listed on an exchange, with limited liquidity and high up-front costs."
+ },
+ {
+  "id": "s7-f-0356",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "REIT distribution requirement",
+  "back": "The tax rule that a REIT must distribute at least 90 percent of its taxable income to shareholders.",
+  "spoken": "REIT distribution requirement. The tax rule that a REIT must distribute at least ninety percent of its taxable income to shareholders."
+ },
+ {
+  "id": "s7-f-0357",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "General partner",
+  "back": "The partner in a limited partnership who manages the business and has unlimited liability.",
+  "spoken": "General partner. The partner in a limited partnership who manages the business and has unlimited liability."
+ },
+ {
+  "id": "s7-f-0358",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Limited partner",
+  "back": "A passive investor in a limited partnership whose liability is limited to the investment and who cannot manage the business.",
+  "spoken": "Limited partner. A passive investor in a limited partnership whose liability is limited to the investment and who cannot manage the business."
+ },
+ {
+  "id": "s7-f-0359",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Subscription agreement",
+  "back": "The document a limited partner signs to invest, which the general partner must accept.",
+  "spoken": "Subscription agreement. The document a limited partner signs to invest, which the general partner must accept."
+ },
+ {
+  "id": "s7-f-0360",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Passive income",
+  "back": "Income from a limited partnership or rental activity, the only income passive losses can generally offset.",
+  "spoken": "Passive income. Income from a limited partnership or rental activity, the only income passive losses can generally offset."
+ },
+ {
+  "id": "s7-f-0361",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Depletion",
+  "back": "A tax deduction that reflects the using up of a natural resource such as oil or gas.",
+  "spoken": "Depletion. A tax deduction that reflects the using up of a natural resource such as oil or gas."
+ },
+ {
+  "id": "s7-f-0362",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Intangible drilling costs",
+  "back": "Deductible oil and gas expenses for items like labor and fuel that have no salvage value.",
+  "spoken": "Intangible drilling costs. Deductible oil and gas expenses for items like labor and fuel that have no salvage value."
+ },
+ {
+  "id": "s7-f-0363",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Crossover point",
+  "back": "The point at which a DPP begins generating taxable income instead of tax losses.",
+  "spoken": "Crossover point. The point at which a DPP begins generating taxable income instead of tax losses."
+ },
+ {
+  "id": "s7-f-0364",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Business development company",
+  "back": "A closed-end investment company that invests in and provides managerial help to small private companies.",
+  "spoken": "Business development company. A closed-end investment company that invests in and provides managerial help to small private companies."
+ },
+ {
+  "id": "s7-f-0365",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Hedge fund",
+  "back": "A privately offered pooled fund that uses varied strategies, often with leverage, lock-ups and limited liquidity, generally for accredited investors.",
+  "spoken": "Hedge fund. A privately offered pooled fund that uses varied strategies, often with leverage, lock-ups and limited liquidity, generally for accredited investors."
+ },
+ {
+  "id": "s7-f-0366",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Fund of funds",
+  "back": "A fund that invests in other funds, adding a second layer of fees.",
+  "spoken": "Fund of funds. A fund that invests in other funds, adding a second layer of fees."
+ },
+ {
+  "id": "s7-f-0367",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Lock-up period",
+  "back": "A period during which hedge fund investors cannot redeem their shares.",
+  "spoken": "Lock-up period. A period during which hedge fund investors cannot redeem their shares."
+ },
+ {
+  "id": "s7-f-0368",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Economic soundness",
+  "back": "The primary consideration when evaluating a DPP, ahead of its tax benefits.",
+  "spoken": "Economic soundness. The primary consideration when evaluating a DPP, ahead of its tax benefits."
+ },
+ {
+  "id": "s7-f-0369",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Systematic risk",
+  "back": "Market risk that affects all securities and cannot be diversified away.",
+  "spoken": "Systematic risk. Market risk that affects all securities and cannot be diversified away."
+ },
+ {
+  "id": "s7-f-0370",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Unsystematic risk",
+  "back": "Company- or industry-specific risk that can be reduced through diversification.",
+  "spoken": "Unsystematic risk. Company- or industry-specific risk that can be reduced through diversification."
+ },
+ {
+  "id": "s7-f-0371",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Reinvestment risk",
+  "back": "The risk that interest or principal must be reinvested at lower rates, which zero-coupon bonds avoid.",
+  "spoken": "Reinvestment risk. The risk that interest or principal must be reinvested at lower rates, which zero-coupon bonds avoid."
+ },
+ {
+  "id": "s7-f-0372",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Call risk",
+  "back": "The risk that a bond is redeemed early when rates fall, forcing reinvestment at lower yields.",
+  "spoken": "Call risk. The risk that a bond is redeemed early when rates fall, forcing reinvestment at lower yields."
+ },
+ {
+  "id": "s7-f-0373",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Purchasing power risk",
+  "back": "The risk that inflation erodes the real value of returns, greatest for fixed-income investments.",
+  "spoken": "Purchasing power risk. The risk that inflation erodes the real value of returns, greatest for fixed-income investments."
+ },
+ {
+  "id": "s7-f-0374",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Liquidity risk",
+  "back": "The risk of not being able to sell an investment quickly at a fair price.",
+  "spoken": "Liquidity risk. The risk of not being able to sell an investment quickly at a fair price."
+ },
+ {
+  "id": "s7-f-0375",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Credit risk",
+  "back": "The risk that an issuer will default on interest or principal payments.",
+  "spoken": "Credit risk. The risk that an issuer will default on interest or principal payments."
+ },
+ {
+  "id": "s7-f-0376",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Currency risk",
+  "back": "The risk that changes in exchange rates reduce the dollar value of a foreign investment.",
+  "spoken": "Currency risk. The risk that changes in exchange rates reduce the dollar value of a foreign investment."
+ },
+ {
+  "id": "s7-f-0377",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Political risk",
+  "back": "The risk that government actions in a country, such as nationalization, hurt an investment.",
+  "spoken": "Political risk. The risk that government actions in a country, such as nationalization, hurt an investment."
+ },
+ {
+  "id": "s7-f-0378",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Timing risk",
+  "back": "The risk of buying or selling at an unfavorable time, which dollar cost averaging aims to reduce.",
+  "spoken": "Timing risk. The risk of buying or selling at an unfavorable time, which dollar cost averaging aims to reduce."
+ },
+ {
+  "id": "s7-f-0379",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Concentration risk",
+  "back": "The risk of holding too much of a portfolio in a single security, sector or region.",
+  "spoken": "Concentration risk. The risk of holding too much of a portfolio in a single security, sector or region."
+ },
+ {
+  "id": "s7-f-0380",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Alpha",
+  "back": "The return of a portfolio above or below what its beta would predict.",
+  "spoken": "Alpha. The return of a portfolio above or below what its beta would predict."
+ },
+ {
+  "id": "s7-f-0381",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Beta",
+  "back": "A measure of a security's volatility relative to the overall market.",
+  "spoken": "Beta. A measure of a security's volatility relative to the overall market."
+ },
+ {
+  "id": "s7-f-0382",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Capital Asset Pricing Model",
+  "back": "A model that sets expected return equal to the risk-free rate plus beta times the market risk premium.",
+  "spoken": "Capital Asset Pricing Model. A model that sets expected return equal to the risk-free rate plus beta times the market risk premium."
+ },
+ {
+  "id": "s7-f-0383",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Strategic asset allocation",
+  "back": "Setting long-term target percentages for asset classes and periodically rebalancing back to them.",
+  "spoken": "Strategic asset allocation. Setting long-term target percentages for asset classes and periodically rebalancing back to them."
+ },
+ {
+  "id": "s7-f-0384",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Tactical asset allocation",
+  "back": "Short-term shifts away from target allocations to take advantage of market conditions.",
+  "spoken": "Tactical asset allocation. Short-term shifts away from target allocations to take advantage of market conditions."
+ },
+ {
+  "id": "s7-f-0385",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Support level",
+  "back": "A price at which buying interest tends to stop a decline.",
+  "spoken": "Support level. A price at which buying interest tends to stop a decline."
+ },
+ {
+  "id": "s7-f-0386",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Resistance level",
+  "back": "A price at which selling pressure tends to stop an advance.",
+  "spoken": "Resistance level. A price at which selling pressure tends to stop an advance."
+ },
+ {
+  "id": "s7-f-0387",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Breakout",
+  "back": "A price move through support or resistance, which technicians treat as the start of a new trend.",
+  "spoken": "Breakout. A price move through support or resistance, which technicians treat as the start of a new trend."
+ },
+ {
+  "id": "s7-f-0388",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Moving average",
+  "back": "The average price over a set number of days, recalculated daily to smooth out short-term swings.",
+  "spoken": "Moving average. The average price over a set number of days, recalculated daily to smooth out short-term swings."
+ },
+ {
+  "id": "s7-f-0389",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Saucer pattern",
+  "back": "A rounded bottom chart pattern signaling a bullish reversal.",
+  "spoken": "Saucer pattern. A rounded bottom chart pattern signaling a bullish reversal."
+ },
+ {
+  "id": "s7-f-0390",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Consolidation",
+  "back": "A period when a stock trades in a narrow price range.",
+  "spoken": "Consolidation. A period when a stock trades in a narrow price range."
+ },
+ {
+  "id": "s7-f-0391",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Overbought",
+  "back": "A market condition after a sharp rise that technicians believe makes a pullback likely.",
+  "spoken": "Overbought. A market condition after a sharp rise that technicians believe makes a pullback likely."
+ },
+ {
+  "id": "s7-f-0392",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Short interest theory",
+  "back": "The view that high short interest is bullish, since short sellers must eventually buy shares to cover.",
+  "spoken": "Short interest theory. The view that high short interest is bullish, since short sellers must eventually buy shares to cover."
+ },
+ {
+  "id": "s7-f-0393",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Odd-lot theory",
+  "back": "A contrarian view that small investors tend to be wrong at market turning points.",
+  "spoken": "Odd-lot theory. A contrarian view that small investors tend to be wrong at market turning points."
+ },
+ {
+  "id": "s7-f-0394",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Advance-decline line",
+  "back": "A breadth measure comparing the number of rising stocks to falling stocks.",
+  "spoken": "Advance-decline line. A breadth measure comparing the number of rising stocks to falling stocks."
+ },
+ {
+  "id": "s7-f-0395",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Put-call ratio",
+  "back": "A sentiment measure comparing put volume to call volume, often read as a contrarian signal.",
+  "spoken": "Put-call ratio. A sentiment measure comparing put volume to call volume, often read as a contrarian signal."
+ },
+ {
+  "id": "s7-f-0396",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "EBITDA",
+  "back": "Earnings before interest, taxes, depreciation and amortization, a proxy for operating cash flow.",
+  "spoken": "EBITDA. Earnings before interest, taxes, depreciation and amortization, a proxy for operating cash flow."
+ },
+ {
+  "id": "s7-f-0397",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Goodwill",
+  "back": "An intangible asset recorded when a company buys another for more than the fair value of its net identifiable assets.",
+  "spoken": "Goodwill. An intangible asset recorded when a company buys another for more than the fair value of its net identifiable assets."
+ },
+ {
+  "id": "s7-f-0398",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Book value per share",
+  "back": "Common shareholders' equity, excluding intangibles, divided by the number of common shares outstanding.",
+  "spoken": "Book value per share. Common shareholders' equity, excluding intangibles, divided by the number of common shares outstanding."
+ },
+ {
+  "id": "s7-f-0399",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "LIFO in rising prices",
+  "back": "An inventory method that increases cost of goods sold and lowers reported earnings and taxes when prices are rising.",
+  "spoken": "LIFO in rising prices. An inventory method that increases cost of goods sold and lowers reported earnings and taxes when prices are rising."
+ },
+ {
+  "id": "s7-f-0400",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Bond interest coverage",
+  "back": "EBIT divided by annual bond interest, a measure of the safety of a company's interest payments.",
+  "spoken": "Bond interest coverage. EBIT divided by annual bond interest, a measure of the safety of a company's interest payments."
+ },
+ {
+  "id": "s7-f-0401",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Debt-to-equity ratio",
+  "back": "Total debt divided by shareholders' equity, a measure of leverage and bankruptcy risk.",
+  "spoken": "Debt-to-equity ratio. Total debt divided by shareholders' equity, a measure of leverage and bankruptcy risk."
+ },
+ {
+  "id": "s7-f-0402",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Return on common equity",
+  "back": "Net income minus preferred dividends, divided by common equity, a measure of profitability.",
+  "spoken": "Return on common equity. Net income minus preferred dividends, divided by common equity, a measure of profitability."
+ },
+ {
+  "id": "s7-f-0403",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Markup",
+  "back": "The difference between the prevailing market price and the price a dealer charges a customer in a principal trade.",
+  "spoken": "Markup. The difference between the prevailing market price and the price a dealer charges a customer in a principal trade."
+ },
+ {
+  "id": "s7-f-0404",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Commission",
+  "back": "The fee a broker charges for executing an agency trade.",
+  "spoken": "Commission. The fee a broker charges for executing an agency trade."
+ },
+ {
+  "id": "s7-f-0405",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Net transaction",
+  "back": "A principal trade between institutions in which the price includes the dealer's compensation with no separate markup shown.",
+  "spoken": "Net transaction. A principal trade between institutions in which the price includes the dealer's compensation with no separate markup shown."
+ },
+ {
+  "id": "s7-f-0406",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Soft dollars",
+  "back": "Research or services an adviser receives from a broker in exchange for directing client trades, protected under Section 28(e) only for eligible research and brokerage.",
+  "spoken": "Soft dollars. Research or services an adviser receives from a broker in exchange for directing client trades, protected under Section twenty-eight(e) only for eligible research and brokerage."
+ },
+ {
+  "id": "s7-f-0407",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "FINRA 5 percent policy",
+  "back": "A markup guideline under which the fairness of markups depends on factors such as the security, price, amount and services, not a fixed limit.",
+  "spoken": "FINRA five percent policy. A markup guideline under which the fairness of markups depends on factors such as the security, price, amount and services, not a fixed limit."
+ },
+ {
+  "id": "s7-f-0408",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Annual gift tax exclusion",
+  "back": "The amount a donor can give each recipient per year without filing a gift tax return, 19,000 dollars in 2026.",
+  "spoken": "Annual gift tax exclusion. The amount a donor can give each recipient per year without filing a gift tax return, nineteen thousand dollars in two thousand twenty-six."
+ },
+ {
+  "id": "s7-f-0409",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Lifetime gift and estate exemption",
+  "back": "The total amount a person can transfer during life and at death before federal gift or estate tax is owed, 15 million dollars in 2026.",
+  "spoken": "Lifetime gift and estate exemption. The total amount a person can transfer during life and at death before federal gift or estate tax is owed, fifteen million dollars in two thousand twenty-six."
+ },
+ {
+  "id": "s7-f-0410",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Unlimited marital deduction",
+  "back": "The rule that gifts and bequests between U.S. citizen spouses are not subject to gift or estate tax.",
+  "spoken": "Unlimited marital deduction. The rule that gifts and bequests between U.S. citizen spouses are not subject to gift or estate tax."
+ },
+ {
+  "id": "s7-f-0411",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Gift splitting",
+  "back": "An election that lets a married couple treat a gift as made half by each spouse, doubling the annual exclusion per recipient.",
+  "spoken": "Gift splitting. An election that lets a married couple treat a gift as made half by each spouse, doubling the annual exclusion per recipient."
+ },
+ {
+  "id": "s7-f-0412",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Specified adult",
+  "back": "Under FINRA's financial exploitation rule, a customer age 65 or older, or 18 or older with an impairment that limits protecting their own interests.",
+  "spoken": "Specified adult. Under FINRA's financial exploitation rule, a customer age sixty-five or older, or eighteen or older with an impairment that limits protecting their own interests."
+ },
+ {
+  "id": "s7-f-0413",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Trade confirmation",
+  "back": "A written notice sent at or before completion of a transaction showing the price, capacity, commission or markup and settlement date.",
+  "spoken": "Trade confirmation. A written notice sent at or before completion of a transaction showing the price, capacity, commission or markup and settlement date."
+ },
+ {
+  "id": "s7-f-0414",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Account statement",
+  "back": "A summary of holdings and activity that a firm must send customers at least once each calendar quarter.",
+  "spoken": "Account statement. A summary of holdings and activity that a firm must send customers at least once each calendar quarter."
+ },
+ {
+  "id": "s7-f-0415",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Unrealized gain",
+  "back": "An increase in the value of a security that is still held.",
+  "spoken": "Unrealized gain. An increase in the value of a security that is still held."
+ },
+ {
+  "id": "s7-f-0416",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Realized gain",
+  "back": "A profit locked in by selling a security for more than its cost basis.",
+  "spoken": "Realized gain. A profit locked in by selling a security for more than its cost basis."
+ },
+ {
+  "id": "s7-f-0417",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "ACATS",
+  "back": "The automated system that transfers customer accounts between broker-dealers.",
+  "spoken": "ACATS. The automated system that transfers customer accounts between broker-dealers."
+ },
+ {
+  "id": "s7-f-0418",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Transfer instruction form",
+  "back": "The form a customer signs at the new firm to start an ACATS account transfer.",
+  "spoken": "Transfer instruction form. The form a customer signs at the new firm to start an ACATS account transfer."
+ },
+ {
+  "id": "s7-f-0419",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Tender offer",
+  "back": "An offer to buy shares from shareholders, usually at a premium, for a limited time.",
+  "spoken": "Tender offer. An offer to buy shares from shareholders, usually at a premium, for a limited time."
+ },
+ {
+  "id": "s7-f-0420",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Duplicate confirmation",
+  "back": "A copy of a trade confirmation sent to a third party, such as an employer firm or adviser, at the customer's written request.",
+  "spoken": "Duplicate confirmation. A copy of a trade confirmation sent to a third party, such as an employer firm or adviser, at the customer's written request."
+ },
+ {
+  "id": "s7-f-0421",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Penny stock",
+  "back": "A low-priced equity security, generally under 5 dollars a share, that is not listed on a national exchange and does not meet other exemptions.",
+  "spoken": "Penny stock. A low-priced equity security, generally under five dollars a share, that is not listed on a national exchange and does not meet other exemptions."
+ },
+ {
+  "id": "s7-f-0422",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Penny stock risk disclosure document",
+  "back": "The SEC disclosure a firm must give a customer before a first penny stock transaction.",
+  "spoken": "Penny stock risk disclosure document. The SEC disclosure a firm must give a customer before a first penny stock transaction."
+ },
+ {
+  "id": "s7-f-0423",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Established customer",
+  "back": "A customer exempt from penny stock suitability procedures, such as one who has held an account for a year or made prior penny stock trades.",
+  "spoken": "Established customer. A customer exempt from penny stock suitability procedures, such as one who has held an account for a year or made prior penny stock trades."
+ },
+ {
+  "id": "s7-f-0424",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Front running",
+  "back": "Trading ahead of a customer's large order to benefit from the price move it will cause.",
+  "spoken": "Front running. Trading ahead of a customer's large order to benefit from the price move it will cause."
+ },
+ {
+  "id": "s7-f-0425",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Painting the tape",
+  "back": "Trading among related parties to create the false impression of activity in a security.",
+  "spoken": "Painting the tape. Trading among related parties to create the false impression of activity in a security."
+ },
+ {
+  "id": "s7-f-0426",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Marking the close",
+  "back": "Placing orders near the close to manipulate a security's closing price.",
+  "spoken": "Marking the close. Placing orders near the close to manipulate a security's closing price."
+ },
+ {
+  "id": "s7-f-0427",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Spoofing",
+  "back": "Entering orders with no intention of executing them to mislead other traders about supply or demand.",
+  "spoken": "Spoofing. Entering orders with no intention of executing them to mislead other traders about supply or demand."
+ },
+ {
+  "id": "s7-f-0428",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Insider trading",
+  "back": "Trading on material, nonpublic information in breach of a duty, prohibited under the Exchange Act.",
+  "spoken": "Insider trading. Trading on material, nonpublic information in breach of a duty, prohibited under the Exchange Act."
+ },
+ {
+  "id": "s7-f-0429",
+  "exam": "S7",
+  "section": "S7-3",
+  "front": "Rule 15c2-11",
+  "back": "The SEC rule that requires a broker-dealer to review current public information about an issuer before publishing quotes for an OTC security.",
+  "spoken": "Rule 15c2-eleven. The SEC rule that requires a broker-dealer to review current public information about an issuer before publishing quotes for an OTC security."
  }
 ]

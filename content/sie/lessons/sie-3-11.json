@@ -1,0 +1,130 @@
+{
+  "id": "sie-3-11",
+  "exam": "SIE",
+  "section": "SIE-3",
+  "section_title": "Understanding Trading, Customer Accounts and Prohibited Activities",
+  "title": "Insider Trading",
+  "order": 11,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Insider trading is one of the most heavily enforced violations in the securities industry. The SIE tests what counts as material nonpublic information, who can be liable, the key S E C rules, how firms prevent misuse of information, and the penalties."
+    },
+    {
+      "type": "narration",
+      "text": "Material nonpublic information has two parts. Material means a reasonable investor would consider it important in deciding whether to buy, sell or hold. Think unannounced earnings, mergers, major contracts, product failures, management changes or regulatory actions. Nonpublic means it hasn't been broadly released to the market, for example through a press release or an S E C filing. Insider trading means trading while aware of material nonpublic information in breach of a duty, or tipping someone else who trades."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0576"
+    },
+    {
+      "type": "narration",
+      "text": "Who can be liable? Insiders, like officers, directors and employees, but also temporary insiders, like lawyers, accountants and investment bankers working for the company. And it doesn't stop there. A tipper who passes inside information in breach of a duty can be liable even without trading. A tippee who trades on information they know, or should know, was improperly disclosed is liable too. Under the misappropriation theory, someone who steals confidential information from their own employer or client and trades on it is also liable, even if they owe no duty to the company whose stock they trade."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0577"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0588"
+    },
+    {
+      "type": "narration",
+      "text": "Several S E C rules frame these cases. Rule ten B five is the main antifraud rule used to prosecute insider trading. Rule ten B five one says trading on the basis of inside information means trading while aware of it. It also provides an affirmative defense for trading plans adopted in good faith when the insider wasn't aware of inside information, which lets executives sell stock on a preset schedule. Recent amendments added cooling-off periods before such plans can start trading. Rule ten B five two explains when family and personal relationships create a duty of trust or confidence: when someone agrees to keep information confidential, when people have a history of sharing confidences, and by presumption between spouses, parents and children, and siblings."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0578"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0579"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0580"
+    },
+    {
+      "type": "narration",
+      "text": "Not every edge is illegal. An analyst who pieces together public filings, industry data and non-material details to reach a conclusion is doing legitimate research, sometimes called the mosaic theory."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0587"
+    },
+    {
+      "type": "narration",
+      "text": "Firms must prevent misuse of inside information. The Exchange Act requires written policies and procedures to prevent misuse of material nonpublic information. Information barriers, sometimes called firewalls, separate departments such as investment banking from sales, trading and research. A watch list is a confidential list that compliance uses to monitor trading in securities where the firm might have inside information. A restricted list is shared within the firm and limits trading, solicitations or research in listed securities, often once a deal is announced."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0583"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0584"
+    },
+    {
+      "type": "narration",
+      "text": "Penalties are severe. The Insider Trading and Securities Fraud Enforcement Act of nineteen eighty-eight lets the S E C seek civil penalties of up to three times the profit gained or loss avoided. Controlling persons, like firms and supervisors, can face civil penalties if they knew or recklessly disregarded the likelihood of violations and failed to prevent them. Criminal penalties for individuals can reach twenty years in prison and five million dollars in fines, and twenty-five million for entities. Under Section twenty A, investors who traded at the same time on the other side can sue. And the S E C's whistleblower program pays awards of ten to thirty percent of sanctions over one million dollars for original information."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0092"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0582"
+    },
+    {
+      "type": "narration",
+      "text": "A scenario. A rep's wife is a vice president at a public company, and she mentions over dinner that a big acquisition will be announced next week. He buys shares the next morning. Under Rule ten B five two, the spousal relationship creates a presumed duty of confidence, so he's trading on misappropriated inside information. She could also face liability if she meant to tip him. His firm, if its procedures were weak and it ignored warning signs, could face controlling-person penalties."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Material means important to a reasonable investor, and nonpublic means not broadly released. Insiders, temporary insiders, tippers, tippees and misappropriators can all be liable. Rule ten B five is the core antifraud rule, ten B five one covers trading plans, and ten B five two covers family duties. Firms need information barriers, watch lists and restricted lists. Civil penalties reach three times the profit, criminal penalties reach twenty years and five million dollars, and whistleblowers can earn ten to thirty percent."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Material nonpublic information",
+      "definition": "Important to a reasonable investor and not broadly released."
+    },
+    {
+      "term": "Tipper and tippee",
+      "definition": "Both can be liable for trading on improperly disclosed inside information."
+    },
+    {
+      "term": "Rule 10b5-1 plan",
+      "definition": "Pre-set trading plan adopted without awareness of MNPI; affirmative defense."
+    },
+    {
+      "term": "Rule 10b5-2",
+      "definition": "Duty of trust presumed among spouses, parents, children, siblings."
+    },
+    {
+      "term": "Information barrier",
+      "definition": "Policies separating departments to prevent misuse of MNPI."
+    },
+    {
+      "term": "Watch list",
+      "definition": "Confidential monitoring list."
+    },
+    {
+      "term": "Restricted list",
+      "definition": "Internal list limiting trading and solicitation."
+    },
+    {
+      "term": "ITSFEA civil penalty",
+      "definition": "Up to 3 times the profit gained or loss avoided."
+    }
+  ],
+  "mnemonics": [
+    "Material plus Nonpublic plus Breach equals trouble.",
+    "Three times civil, twenty years criminal."
+  ],
+  "summary": "Insider trading is trading on material nonpublic information in breach of a duty, or tipping others who trade. Rule 10b-5 is the core rule; 10b5-1 covers trading plans and 10b5-2 family duties. Firms use information barriers and watch and restricted lists. Penalties include civil fines of up to three times the profit and criminal terms of up to 20 years."
+}

@@ -1,0 +1,111 @@
+{
+ "id": "s7-2-01",
+ "exam": "S7",
+ "section": "S7-2",
+ "section_title": "Opens Accounts After Obtaining and Evaluating Customers' Financial Profile and Investment Objectives",
+ "title": "Account types and registrations",
+ "order": 1,
+ "est_minutes": 7,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Function two is about opening accounts, roughly nine percent of the Series 7. It starts with a simple question: in whose name is the account registered, and who has authority over it? The answer decides who can trade, who gets the checks, and what happens when someone dies."
+  },
+  {
+   "type": "narration",
+   "text": "An individual account has one owner, and only that owner, or someone with written authority, can trade. Joint accounts have two or more owners, and they come in two main forms. In joint tenants with right of survivorship, when one owner dies, the account passes to the survivors, outside the will. In tenants in common, each owner has a fractional interest, which can be unequal. A deceased owner's share goes to that owner's estate, not to the other tenants. In any joint account, every owner signs the account agreement, any owner can enter orders, and checks are made payable to all owners. Some states recognize community property between spouses. A transfer on death registration names a beneficiary who receives the assets directly at death, which avoids probate."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0544"
+  },
+  {
+   "type": "narration",
+   "text": "When an individual account owner dies, the firm freezes the account. It cancels open orders and waits for the executor's paperwork: a certified copy of the death certificate, and usually letters testamentary showing who has authority. For a joint tenancy, the survivor typically supplies a death certificate to have the account re-registered."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0548"
+  },
+  {
+   "type": "narration",
+   "text": "Custodial accounts under the Uniform Gifts to Minors Act or the Uniform Transfers to Minors Act follow strict rules. There's one custodian and one minor per account. The account uses the minor's Social Security number, and the minor owns the assets, so gifts to the account are irrevocable. The custodian manages the account prudently. The custodian can't buy on margin, write uncovered options, or use the assets for personal benefit. When the minor reaches the age of majority set by state law, the assets pass to the now-adult owner."
+  },
+  {
+   "type": "narration",
+   "text": "Business accounts need proof of authority. A corporation provides a corporate resolution naming who can trade. To trade on margin, a corporation also needs its charter or bylaws to permit it. A partnership supplies a partnership agreement. A trust account needs the trust agreement, or a certification of trust, to confirm what the trustee can do. Fiduciary accounts follow the prudent investor standard, and a fiduciary can't use account assets for personal gain or margin without legal authority. Estate accounts are opened by the executor or administrator under court documents."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0552"
+  },
+  {
+   "type": "narration",
+   "text": "Third-party authority comes in two forms. A trading authorization, a limited power of attorney, lets someone else enter orders but not withdraw assets. A full power of attorney adds the power to withdraw. A durable power of attorney survives the owner's incapacity, but every power of attorney ends at death. Discretionary authority for a representative requires written authorization from the customer before the first discretionary order. A principal must approve the account and review discretionary trades frequently. Discretion means choosing the asset, the action, or the amount. If the customer specifies all three and leaves only the time or price to the rep, that's not discretion. That time and price latitude is generally limited to the day it's granted."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0556"
+  },
+  {
+   "type": "narration",
+   "text": "Some registrations depend on the customer's employer. Under FINRA Rule thirty-two ten, an associated person who opens an account at another member firm must get prior written consent from the employer firm. The executing firm must send duplicate statements or confirmations to the employer firm if asked. Under thirty-two ten, employees and officers of investment advisers and banks aren't restricted the same way, but firm policy may add rules."
+  },
+  {
+   "type": "narration",
+   "text": "Exam summary: survivorship means the account passes to the survivor, and tenancy in common means the share goes to the estate. A UTMA has one custodian, one minor, the minor's Social Security number, and irrevocable gifts. Corporations need a resolution, plus their charter for margin. Discretion needs written authorization and frequent principal review. Time and price alone isn't discretion."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Joint tenants with right of survivorship: A joint account in which a deceased owner's interest passes to the surviving owners. Tenants in common: A joint account in which each owner's fractional interest passes to that owner's estate at death. Community property: A registration in certain states where assets acquired during marriage are owned equally by both spouses. Transfer on death: An individual account registration that passes assets directly to a named beneficiary at death, avoiding probate. UTMA custodial account: An account managed by one custodian for one minor, with assets that belong to the minor and pass to the minor at the age of termination. Prime brokerage: An arrangement in which a customer executes trades through several broker-dealers but clears and holds assets at one prime broker. Delivery versus payment: An institutional settlement method in which securities are delivered only against simultaneous payment. Wrap account: A fee-based account that bundles advisory, execution and custody services for a single asset-based fee."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Joint tenants with right of survivorship",
+   "definition": "A joint account in which a deceased owner's interest passes to the surviving owners"
+  },
+  {
+   "term": "Tenants in common",
+   "definition": "A joint account in which each owner's fractional interest passes to that owner's estate at death"
+  },
+  {
+   "term": "Community property",
+   "definition": "A registration in certain states where assets acquired during marriage are owned equally by both spouses"
+  },
+  {
+   "term": "Transfer on death",
+   "definition": "An individual account registration that passes assets directly to a named beneficiary at death, avoiding probate"
+  },
+  {
+   "term": "UTMA custodial account",
+   "definition": "An account managed by one custodian for one minor, with assets that belong to the minor and pass to the minor at the age of termination"
+  },
+  {
+   "term": "Prime brokerage",
+   "definition": "An arrangement in which a customer executes trades through several broker-dealers but clears and holds assets at one prime broker"
+  },
+  {
+   "term": "Delivery versus payment",
+   "definition": "An institutional settlement method in which securities are delivered only against simultaneous payment"
+  },
+  {
+   "term": "Wrap account",
+   "definition": "A fee-based account that bundles advisory, execution and custody services for a single asset-based fee"
+  },
+  {
+   "term": "Corporate resolution",
+   "definition": "The document naming the officers authorized to trade a corporate account"
+  },
+  {
+   "term": "Partnership agreement",
+   "definition": "The document required to open a partnership account, which states who may trade for the partnership"
+  }
+ ],
+ "mnemonics": [
+  "JTWROS: survivor takes all. TIC: share to the estate.",
+  "UTMA: one, one, minor's number, no margin.",
+  "Discretion: asset, action, amount. Not time or price."
+ ],
+ "summary": "In JTWROS, the survivor inherits. In TIC, the deceased's share goes to the estate. All joint owners sign, any can trade, and checks go to all. A death freezes an individual account until a death certificate and letters testamentary arrive. UGMA/UTMA accounts have one custodian, one minor and the minor's SSN, gifts are irrevocable, and no margin is allowed. Corporations need a resolution, plus their charter or bylaws for margin. Trusts need the trust agreement. A limited POA allows trading only, and every POA ends at death. Discretion requires prior written authorization and principal review, and time and price alone isn't discretion. Rule 3210 requires the employer's prior written consent."
+}

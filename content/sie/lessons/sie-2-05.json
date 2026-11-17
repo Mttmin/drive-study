@@ -1,0 +1,110 @@
+{
+  "id": "sie-2-05",
+  "exam": "SIE",
+  "section": "SIE-2",
+  "section_title": "Understanding Products and Their Risks",
+  "title": "Corporate Debt and the Money Market",
+  "order": 5,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "In this lesson we cover how corporations borrow: secured and unsecured bonds, where bondholders stand if things go wrong, the short-term money market, and the two ways a bond deal gets underwritten. These are vocabulary-heavy questions, so the goal is to attach each term to a clear picture."
+    },
+    {
+      "type": "narration",
+      "text": "Corporate bonds come in two broad flavors: secured and unsecured. Secured bonds are backed by specific collateral. A mortgage bond is secured by real estate, like a factory or headquarters. An equipment trust certificate is secured by movable equipment, so airlines and railroads use them for jets and railcars, and a trustee holds title to the equipment until the debt is paid off. A collateral trust bond is secured by securities the issuer owns, such as stocks or bonds of a subsidiary, deposited with a trustee. If the issuer defaults, secured bondholders can claim that collateral."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0283"
+    },
+    {
+      "type": "narration",
+      "text": "Unsecured bonds are called debentures. They're backed only by the issuer's general credit and promise to pay. Subordinated debentures rank even lower, behind other unsecured debt, so they usually pay higher yields. Then there are income bonds, also called adjustment bonds, which pay interest only if the company earns enough. They typically come out of a bankruptcy reorganization and are very speculative."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0284"
+    },
+    {
+      "type": "narration",
+      "text": "That leads to liquidation priority, a favorite exam topic. When a corporation is liquidated, the line forms like this. First, secured creditors, from their collateral. Next, unsecured creditors, which includes debenture holders and general creditors. Then subordinated debt holders. Then preferred stockholders. And last of all, common stockholders, who get whatever is left, which is often nothing. A handy rule: creditors before owners, secured before unsecured, preferred before common."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0285"
+    },
+    {
+      "type": "narration",
+      "text": "Corporate bonds sold to the public above a set size must be issued under a trust indenture, a contract that names a trustee to protect bondholders. That's required by the Trust Indenture Act of nineteen thirty-nine. Municipal and Treasury bonds aren't covered by that Act. And a quick term: a bond that trades flat trades without accrued interest. Bonds in default, income bonds and zero-coupon bonds usually trade flat."
+    },
+    {
+      "type": "narration",
+      "text": "Now the money market. Money market instruments are debt securities maturing in one year or less. They're liquid, low-volatility, and the core holdings of money market funds. Treasury bills are the benchmark. Commercial paper is short-term unsecured corporate debt, usually sold at a discount, and it's exempt from S E C registration when its maturity doesn't exceed two hundred seventy days. A banker's acceptance is a time draft guaranteed by a bank, typically used to finance imports and exports. It trades at a discount, and the bank's guarantee is what makes it marketable. Negotiable certificates of deposit, also called jumbo C Ds, are large bank deposits, typically one hundred thousand dollars or more, that can be traded before maturity. F D I C insurance covers up to two hundred fifty thousand dollars per depositor, per bank, per ownership category. Repurchase agreements are short-term loans: a dealer sells securities and agrees to buy them back at a slightly higher price, often overnight. The other side of that trade is a reverse repo."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0035"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0036"
+    },
+    {
+      "type": "narration",
+      "text": "Last, underwriting methods. In a negotiated underwriting, the issuer picks an underwriter and negotiates terms directly. That's typical for corporate offerings and municipal revenue bonds. In a competitive underwriting, syndicates submit sealed bids, and the issuer awards the deal to the bid with the lowest borrowing cost. That's typical for municipal general obligation bonds, often because state law requires it. Underwriters can also commit differently. In a firm commitment, the underwriter buys the whole issue and bears the risk of unsold securities. In a best efforts deal, it acts as an agent and sells what it can."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0291"
+    },
+    {
+      "type": "narration",
+      "text": "Let's tie it together with a quick scenario. An airline needs new planes, so it issues equipment trust certificates. It also borrows for ninety days by selling commercial paper, which is exempt from registration because it matures within two hundred seventy days. Later the airline files for bankruptcy. The certificate holders have a claim on the planes. The commercial paper holders and debenture holders are general unsecured creditors. And the stockholders, preferred and then common, are at the back of the line."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Mortgage bonds are backed by real estate, equipment trust certificates by equipment, and collateral trust bonds by securities. Debentures are unsecured, and income bonds pay only if earnings allow. Liquidation priority runs secured, unsecured, subordinated, preferred, common. Money market instruments mature in a year or less, and commercial paper is exempt up to two hundred seventy days. Competitive bids are typical for G O munis, and negotiated deals for corporates and revenue bonds."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Mortgage bond",
+      "definition": "Secured by real estate."
+    },
+    {
+      "term": "Equipment trust certificate",
+      "definition": "Secured by movable equipment like aircraft or railcars."
+    },
+    {
+      "term": "Collateral trust bond",
+      "definition": "Secured by securities deposited with a trustee."
+    },
+    {
+      "term": "Debenture",
+      "definition": "Unsecured corporate bond backed by general credit."
+    },
+    {
+      "term": "Commercial paper",
+      "definition": "Unsecured short-term corporate debt; exempt if 270 days or less."
+    },
+    {
+      "term": "Banker's acceptance",
+      "definition": "Bank-guaranteed time draft used in trade finance."
+    },
+    {
+      "term": "Negotiable CD",
+      "definition": "Bank CD of $100,000 or more, tradable before maturity."
+    },
+    {
+      "term": "Competitive underwriting",
+      "definition": "Sealed bids; lowest borrowing cost wins."
+    }
+  ],
+  "mnemonics": [
+    "Liquidation line: Secured, Unsecured, Subordinated, Preferred, Common. Creditors first, owners last.",
+    "Commercial paper: 270 or less, no registration stress."
+  ],
+  "summary": "Secured bonds pledge real estate, equipment or securities, and debentures pledge only general credit. Creditors are paid before owners in liquidation. Money market instruments mature within a year, commercial paper is exempt at 270 days or less, and municipal GO bonds usually use competitive bidding."
+}

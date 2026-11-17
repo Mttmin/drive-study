@@ -38,5 +38,477 @@
   "front": "MSRB G-37 de minimis",
   "back": "$250 per election, only to officials the MFP can vote for.",
   "spoken": "G thirty-seven allows two hundred fifty dollars per election, only to officials you can vote for."
+ },
+ {
+  "id": "s7-f-0071",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Retail communication",
+  "back": "Any written communication distributed or made available to more than 25 retail investors within any 30-calendar-day period.",
+  "spoken": "Retail communication. Any written communication distributed or made available to more than twenty-five retail investors within any thirty-calendar-day period."
+ },
+ {
+  "id": "s7-f-0072",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Correspondence",
+  "back": "Any written communication distributed to 25 or fewer retail investors within any 30-calendar-day period.",
+  "spoken": "Correspondence. Any written communication distributed to twenty-five or fewer retail investors within any thirty-calendar-day period."
+ },
+ {
+  "id": "s7-f-0073",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Institutional communication",
+  "back": "A written communication distributed only to institutional investors, which needs supervisory procedures but not prior principal approval.",
+  "spoken": "Institutional communication. A written communication distributed only to institutional investors, which needs supervisory procedures but not prior principal approval."
+ },
+ {
+  "id": "s7-f-0074",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Retail investor",
+  "back": "Under FINRA's communications rule, any person other than an institutional investor, whether or not the person has an account.",
+  "spoken": "Retail investor. Under FINRA's communications rule, any person other than an institutional investor, whether or not the person has an account."
+ },
+ {
+  "id": "s7-f-0075",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Public appearance",
+  "back": "Participation in a seminar, webinar, forum, interview or other public speaking activity, which is not itself a written communication.",
+  "spoken": "Public appearance. Participation in a seminar, webinar, forum, interview or other public speaking activity, which is not itself a written communication."
+ },
+ {
+  "id": "s7-f-0076",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Testimonial",
+  "back": "A statement by a customer or other person about their experience with a firm or representative, which must disclose if more than 100 dollars was paid for it.",
+  "spoken": "Testimonial. A statement by a customer or other person about their experience with a firm or representative, which must disclose if more than one hundred dollars was paid for it."
+ },
+ {
+  "id": "s7-f-0077",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "New member filing requirement",
+  "back": "A requirement that a new firm file retail communications with FINRA at least 10 business days before first use during its first year.",
+  "spoken": "New member filing requirement. A requirement that a new firm file retail communications with FINRA at least ten business days before first use during its first year."
+ },
+ {
+  "id": "s7-f-0078",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Independently prepared reprint",
+  "back": "An article issued by an unaffiliated publisher that a firm redistributes, which is treated as a retail communication.",
+  "spoken": "Independently prepared reprint. An article issued by an unaffiliated publisher that a firm redistributes, which is treated as a retail communication."
+ },
+ {
+  "id": "s7-f-0079",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Options Disclosure Document",
+  "back": "The OCC booklet called Characteristics and Risks of Standardized Options, delivered at or before options account approval.",
+  "spoken": "Options Disclosure Document. The OCC booklet called Characteristics and Risks of Standardized Options, delivered at or before options account approval."
+ },
+ {
+  "id": "s7-f-0080",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Summary prospectus",
+  "back": "A short-form open-end fund prospectus with key facts, permitted under SEC Rule 498, with the full prospectus available on request.",
+  "spoken": "Summary prospectus. A short-form open-end fund prospectus with key facts, permitted under SEC Rule four hundred ninety-eight, with the full prospectus available on request."
+ },
+ {
+  "id": "s7-f-0081",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Rule 482 advertisement",
+  "back": "An investment company ad that may contain information not in the prospectus, but must urge investors to read the prospectus and show standardized performance if performance appears.",
+  "spoken": "Rule four hundred eighty-two advertisement. An investment company ad that may contain information not in the prospectus, but must urge investors to read the prospectus and show standardized performance if performance appears."
+ },
+ {
+  "id": "s7-f-0082",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "SEC Rule 156",
+  "back": "The SEC rule that bars investment company sales literature from being materially misleading.",
+  "spoken": "SEC Rule one hundred fifty-six. The SEC rule that bars investment company sales literature from being materially misleading."
+ },
+ {
+  "id": "s7-f-0083",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Quiet period",
+  "back": "A period around an offering during which the underwriters' research reports and research analysts' public appearances are restricted.",
+  "spoken": "Quiet period. A period around an offering during which the underwriters' research reports and research analysts' public appearances are restricted."
+ },
+ {
+  "id": "s7-f-0084",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Bond fund volatility rating",
+  "back": "A description of a bond fund's sensitivity to changing market conditions, permitted in communications only under specific FINRA conditions.",
+  "spoken": "Bond fund volatility rating. A description of a bond fund's sensitivity to changing market conditions, permitted in communications only under specific FINRA conditions."
+ },
+ {
+  "id": "s7-f-0085",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "CMO communication rule",
+  "back": "The FINRA requirement that CMO communications use the term collateralized mortgage obligation and never compare CMOs to any other investment, such as CDs.",
+  "spoken": "CMO communication rule. The FINRA requirement that CMO communications use the term collateralized mortgage obligation and never compare CMOs to any other investment, such as CDs."
+ },
+ {
+  "id": "s7-f-0086",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Investment company ranking",
+  "back": "A comparison of a fund's performance to peers that, in retail communications, must come from an independent ranking entity.",
+  "spoken": "Investment company ranking. A comparison of a fund's performance to peers that, in retail communications, must come from an independent ranking entity."
+ },
+ {
+  "id": "s7-f-0087",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Registration statement",
+  "back": "The disclosure document an issuer files with the SEC under the Securities Act of 1933 before a public offering.",
+  "spoken": "Registration statement. The disclosure document an issuer files with the SEC under the Securities Act of one thousand nine hundred thirty-three before a public offering."
+ },
+ {
+  "id": "s7-f-0088",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Cooling-off period",
+  "back": "The period of at least 20 days between filing a registration statement and its effective date, when no sales may be made.",
+  "spoken": "Cooling-off period. The period of at least twenty days between filing a registration statement and its effective date, when no sales may be made."
+ },
+ {
+  "id": "s7-f-0089",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Red herring",
+  "back": "The preliminary prospectus, which omits the final offering price and carries a legend that the registration is not yet effective.",
+  "spoken": "Red herring. The preliminary prospectus, which omits the final offering price and carries a legend that the registration is not yet effective."
+ },
+ {
+  "id": "s7-f-0090",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Final prospectus",
+  "back": "The offering document that includes the public offering price and must be delivered no later than confirmation of the sale.",
+  "spoken": "Final prospectus. The offering document that includes the public offering price and must be delivered no later than confirmation of the sale."
+ },
+ {
+  "id": "s7-f-0091",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Due diligence meeting",
+  "back": "The meeting during the cooling-off period where underwriters review the issuer's disclosures to establish a reasonable basis for the offering.",
+  "spoken": "Due diligence meeting. The meeting during the cooling-off period where underwriters review the issuer's disclosures to establish a reasonable basis for the offering."
+ },
+ {
+  "id": "s7-f-0092",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Blue-sky laws",
+  "back": "State securities laws that require offerings to be registered or qualified in each state where they are sold.",
+  "spoken": "Blue-sky laws. State securities laws that require offerings to be registered or qualified in each state where they are sold."
+ },
+ {
+  "id": "s7-f-0093",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Firm commitment underwriting",
+  "back": "An underwriting in which the syndicate buys the whole issue from the issuer and bears the risk of unsold shares.",
+  "spoken": "Firm commitment underwriting. An underwriting in which the syndicate buys the whole issue from the issuer and bears the risk of unsold shares."
+ },
+ {
+  "id": "s7-f-0094",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Best efforts underwriting",
+  "back": "An underwriting in which the underwriter acts as agent and returns any unsold securities to the issuer.",
+  "spoken": "Best efforts underwriting. An underwriting in which the underwriter acts as agent and returns any unsold securities to the issuer."
+ },
+ {
+  "id": "s7-f-0095",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "All-or-none underwriting",
+  "back": "A best efforts underwriting that is canceled and funds returned if the entire issue is not sold.",
+  "spoken": "All-or-none underwriting. A best efforts underwriting that is canceled and funds returned if the entire issue is not sold."
+ },
+ {
+  "id": "s7-f-0096",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Standby underwriting",
+  "back": "An agreement to buy any shares left unsubscribed at the end of a rights offering.",
+  "spoken": "Standby underwriting. An agreement to buy any shares left unsubscribed at the end of a rights offering."
+ },
+ {
+  "id": "s7-f-0097",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Stabilizing bid",
+  "back": "A bid entered by the managing underwriter at or below the public offering price to support an issue's price in the aftermarket.",
+  "spoken": "Stabilizing bid. A bid entered by the managing underwriter at or below the public offering price to support an issue's price in the aftermarket."
+ },
+ {
+  "id": "s7-f-0098",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Tombstone ad",
+  "back": "A simple announcement of an offering listing the issuer, the security, the price and where a prospectus can be obtained.",
+  "spoken": "Tombstone ad. A simple announcement of an offering listing the issuer, the security, the price and where a prospectus can be obtained."
+ },
+ {
+  "id": "s7-f-0099",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Regulation M",
+  "back": "The SEC rules that restrict underwriters and issuers from bidding for or buying the offered security during a distribution, with exceptions such as stabilization.",
+  "spoken": "Regulation M. The SEC rules that restrict underwriters and issuers from bidding for or buying the offered security during a distribution, with exceptions such as stabilization."
+ },
+ {
+  "id": "s7-f-0100",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Free writing prospectus",
+  "back": "A written offer that is not a statutory prospectus, permitted after the registration statement is filed under conditions in SEC rules.",
+  "spoken": "Free writing prospectus. A written offer that is not a statutory prospectus, permitted after the registration statement is filed under conditions in SEC rules."
+ },
+ {
+  "id": "s7-f-0101",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Rule 506(b)",
+  "back": "The Regulation D private placement exemption that bars general solicitation and allows up to 35 non-accredited but sophisticated purchasers.",
+  "spoken": "Rule five hundred six(b). The Regulation D private placement exemption that bars general solicitation and allows up to thirty-five non-accredited but sophisticated purchasers."
+ },
+ {
+  "id": "s7-f-0102",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Rule 506(c)",
+  "back": "The Regulation D exemption that permits general solicitation if every purchaser is accredited and the issuer takes reasonable steps to verify it.",
+  "spoken": "Rule five hundred six(c). The Regulation D exemption that permits general solicitation if every purchaser is accredited and the issuer takes reasonable steps to verify it."
+ },
+ {
+  "id": "s7-f-0103",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Regulation A",
+  "back": "A small-issue exemption that uses an offering circular and has two tiers, with Tier 2 allowing up to 75 million dollars in 12 months.",
+  "spoken": "Regulation A. A small-issue exemption that uses an offering circular and has two tiers, with Tier two allowing up to seventy-five million dollars in twelve months."
+ },
+ {
+  "id": "s7-f-0104",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Rule 147",
+  "back": "An intrastate offering exemption requiring the issuer and all purchasers to be in one state, with resales to nonresidents limited for six months.",
+  "spoken": "Rule one hundred forty-seven. An intrastate offering exemption requiring the issuer and all purchasers to be in one state, with resales to nonresidents limited for six months."
+ },
+ {
+  "id": "s7-f-0105",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Rule 144",
+  "back": "The SEC rule governing public resales of restricted and control securities, including holding periods and volume limits.",
+  "spoken": "Rule one hundred forty-four. The SEC rule governing public resales of restricted and control securities, including holding periods and volume limits."
+ },
+ {
+  "id": "s7-f-0106",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Rule 144A",
+  "back": "The exemption that allows resales of unregistered securities to qualified institutional buyers.",
+  "spoken": "Rule 144A. The exemption that allows resales of unregistered securities to qualified institutional buyers."
+ },
+ {
+  "id": "s7-f-0107",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Qualified institutional buyer",
+  "back": "An institution that owns and invests at least 100 million dollars in securities of unaffiliated issuers, eligible to buy under Rule 144A.",
+  "spoken": "Qualified institutional buyer. An institution that owns and invests at least one hundred million dollars in securities of unaffiliated issuers, eligible to buy under Rule 144A."
+ },
+ {
+  "id": "s7-f-0108",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Regulation S",
+  "back": "The exemption for offers and sales made outside the United States without SEC registration.",
+  "spoken": "Regulation S. The exemption for offers and sales made outside the United States without SEC registration."
+ },
+ {
+  "id": "s7-f-0109",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Control securities",
+  "back": "Securities held by an officer, director or 10 percent or more shareholder of the issuer, which must be sold under Rule 144 limits.",
+  "spoken": "Control securities. Securities held by an officer, director or ten percent or more shareholder of the issuer, which must be sold under Rule one hundred forty-four limits."
+ },
+ {
+  "id": "s7-f-0110",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Restricted securities",
+  "back": "Securities acquired in an unregistered private transaction that cannot be resold publicly until a holding period is met.",
+  "spoken": "Restricted securities. Securities acquired in an unregistered private transaction that cannot be resold publicly until a holding period is met."
+ },
+ {
+  "id": "s7-f-0111",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Exempt security",
+  "back": "A security that is not required to register with the SEC, such as a U.S. government or municipal bond.",
+  "spoken": "Exempt security. A security that is not required to register with the SEC, such as a U.S. government or municipal bond."
+ },
+ {
+  "id": "s7-f-0112",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Regulation Crowdfunding",
+  "back": "The exemption that lets small issuers raise limited amounts online through a registered funding portal or broker-dealer.",
+  "spoken": "Regulation Crowdfunding. The exemption that lets small issuers raise limited amounts online through a registered funding portal or broker-dealer."
+ },
+ {
+  "id": "s7-f-0113",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Notice of sale",
+  "back": "The issuer's published invitation for bids in a competitive municipal sale, stating the terms and the bid deadline.",
+  "spoken": "Notice of sale. The issuer's published invitation for bids in a competitive municipal sale, stating the terms and the bid deadline."
+ },
+ {
+  "id": "s7-f-0114",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Official statement",
+  "back": "The municipal offering document prepared by the issuer that discloses the terms and risks of a new issue.",
+  "spoken": "Official statement. The municipal offering document prepared by the issuer that discloses the terms and risks of a new issue."
+ },
+ {
+  "id": "s7-f-0115",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Preliminary official statement",
+  "back": "The draft municipal offering document used before final pricing to gauge interest.",
+  "spoken": "Preliminary official statement. The draft municipal offering document used before final pricing to gauge interest."
+ },
+ {
+  "id": "s7-f-0116",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Western account",
+  "back": "A syndicate account in which each member is liable only for its own allocation of bonds.",
+  "spoken": "Western account. A syndicate account in which each member is liable only for its own allocation of bonds."
+ },
+ {
+  "id": "s7-f-0117",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Eastern account",
+  "back": "A syndicate account in which each member is liable for its share of any bonds left unsold by the whole syndicate.",
+  "spoken": "Eastern account. A syndicate account in which each member is liable for its share of any bonds left unsold by the whole syndicate."
+ },
+ {
+  "id": "s7-f-0118",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Takedown",
+  "back": "The discount at which a syndicate member buys bonds from the syndicate, equal to the total spread minus the manager's fee.",
+  "spoken": "Takedown. The discount at which a syndicate member buys bonds from the syndicate, equal to the total spread minus the manager's fee."
+ },
+ {
+  "id": "s7-f-0119",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Concession",
+  "back": "The portion of the spread a selling group member earns on bonds it sells.",
+  "spoken": "Concession. The portion of the spread a selling group member earns on bonds it sells."
+ },
+ {
+  "id": "s7-f-0120",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Additional takedown",
+  "back": "The portion of the takedown kept by a syndicate member, over and above the concession.",
+  "spoken": "Additional takedown. The portion of the takedown kept by a syndicate member, over and above the concession."
+ },
+ {
+  "id": "s7-f-0121",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Manager's fee",
+  "back": "The portion of the underwriting spread paid to the managing underwriter for organizing the syndicate.",
+  "spoken": "Manager's fee. The portion of the underwriting spread paid to the managing underwriter for organizing the syndicate."
+ },
+ {
+  "id": "s7-f-0122",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Group net order",
+  "back": "A municipal order credited to all syndicate members according to their participation, typically given top priority.",
+  "spoken": "Group net order. A municipal order credited to all syndicate members according to their participation, typically given top priority."
+ },
+ {
+  "id": "s7-f-0123",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Designated order",
+  "back": "A municipal order, usually from an institution, that names which syndicate members receive credit for the sale.",
+  "spoken": "Designated order. A municipal order, usually from an institution, that names which syndicate members receive credit for the sale."
+ },
+ {
+  "id": "s7-f-0124",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Member order",
+  "back": "A syndicate member's own order at the takedown price, usually filled last.",
+  "spoken": "Member order. A syndicate member's own order at the takedown price, usually filled last."
+ },
+ {
+  "id": "s7-f-0125",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Good faith deposit",
+  "back": "A deposit submitted with a competitive bid to show the syndicate will honor its bid.",
+  "spoken": "Good faith deposit. A deposit submitted with a competitive bid to show the syndicate will honor its bid."
+ },
+ {
+  "id": "s7-f-0126",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Legal opinion",
+  "back": "Bond counsel's opinion on the legality of an issue and the tax status of its interest.",
+  "spoken": "Legal opinion. Bond counsel's opinion on the legality of an issue and the tax status of its interest."
+ },
+ {
+  "id": "s7-f-0127",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Unqualified opinion",
+  "back": "A legal opinion given without reservations.",
+  "spoken": "Unqualified opinion. A legal opinion given without reservations."
+ },
+ {
+  "id": "s7-f-0128",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "Continuing disclosure",
+  "back": "The issuer's ongoing filing of annual financial information and material event notices on EMMA, required through underwriter agreements under SEC Rule 15c2-12.",
+  "spoken": "Continuing disclosure. The issuer's ongoing filing of annual financial information and material event notices on EMMA, required through underwriter agreements under SEC Rule 15c2-twelve."
+ },
+ {
+  "id": "s7-f-0129",
+  "exam": "S7",
+  "section": "S7-1",
+  "front": "MSRB Rule G-37",
+  "back": "The pay-to-play rule that limits political contributions by municipal finance professionals and bars municipal business for two years after a covered contribution.",
+  "spoken": "MSRB Rule G-thirty-seven. The pay-to-play rule that limits political contributions by municipal finance professionals and bars municipal business for two years after a covered contribution."
  }
 ]

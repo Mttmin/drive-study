@@ -17,44 +17,44 @@ Question targets (600 total) by weight: SIE-1 ≈ 96, SIE-2 ≈ 264, SIE-3 ≈ 1
 
 | Lesson id | Title | Outline coverage | Status |
 |---|---|---|---|
-| sie-1-01 | Who regulates the markets: SEC, SROs, states, the Fed and SIPC | 1.1.1 SEC; 1.1.2 SROs (FINRA, CBOE, MSRB); 1.1.3 Treasury/IRS, NASAA, Fed, SIPC, FDIC | **done (wave 1)** |
-| sie-1-02 | Market participants | 1.1.4 investor types (accredited, institutional, retail), introducing/clearing/prime brokers, IAs, municipal advisors, issuers and underwriters, traders and market makers, custodians, transfer agents, DTCC, OCC | |
-| sie-1-03 | Market structure | 1.2.1 primary, secondary (exchange, OTC, electronic), third and fourth markets | |
-| sie-1-04 | The Fed and monetary vs. fiscal policy | 1.3.1 FOMC, open market ops, discount rate, fed funds, prime rate, money supply | |
-| sie-1-05 | Business economics | 1.3.2 financial statements, business cycle, leading, lagging and coincident indicators, inflation and deflation, cyclical, defensive and growth stocks, Keynesian vs. monetarist | |
-| sie-1-06 | International economics | 1.3.3 balance of payments, GDP vs. GNP, exchange rates | |
-| sie-1-07 | Underwriting and offerings | 1.4 investment bankers, syndicates, IPO, secondary and follow-on offerings, firm commitment and best efforts types, spread, Rules 2269 and 5250, G-11, G-32, G-34 | |
-| sie-1-08 | Registration, prospectus and exemptions | 1.4 '33 Act Sections 7, 8, 10 and 23, cooling-off, red herring, final and summary prospectus, free writing prospectus (164), shelf (415), Reg D and accredited investor (215), 144, 144A, 145, 147, blue-sky, official statement, program disclosure document | |
-| sie-2-01 | Common and preferred stock | 2.1.1 ownership, liquidation priority, voting, preferred types | **done (wave 1)** |
-| sie-2-02 | Rights, warrants, ADRs and restricted and control stock | 2.1.1 rights, warrants, ADRs, Rule 144, 3a11-1, 10b-18 buybacks | |
-| sie-2-03 | Bond fundamentals | 2.1.2 par, coupon, yields (nominal, CY, YTM, YTC), price and yield, ratings, call and convertible features, short- vs. long-term | |
-| sie-2-04 | Treasuries, agencies and MBS | 2.1.2 bills, notes, bonds, TIPS, STRIPS and receipts, auctions, GNMA, FNMA, FHLMC, CMOs and ABS | |
-| sie-2-05 | Corporate debt and money market instruments | 2.1.2 secured and unsecured, debentures, commercial paper, BAs, CDs, negotiated vs. competitive underwriting | |
-| sie-2-06 | Municipal securities | 2.1.2 GO, revenue, special types, taxable munis, short-term notes, tax-equivalent yield | |
-| sie-2-07 | Options basics | 2.1.3 calls and puts, equity vs. index, premium, strike, expiration, physical vs. cash settlement, American vs. European, breakeven, max gain and loss | |
-| sie-2-08 | Options in practice | 2.1.3 ITM, ATM and OTM, covered vs. uncovered, hedging vs. speculation, exercise and assignment, ODD, OCC, Rule 2360 | |
-| sie-2-09 | Investment companies | 2.1.4 1940 Act types, open-end, closed-end, UITs, NAV, Sections 3, 4 and 5 | |
-| sie-2-10 | Fund costs and sales charges | 2.1.4 loads, share classes, 12b-1, breakpoints, ROA, LOI, Rule 2342 | |
-| sie-2-11 | Variable annuities | 2.1.4 separate account, accumulation and annuity units, surrender charges, 1035 exchanges, taxation, Rule 2330 | |
-| sie-2-12 | Municipal fund securities | 2.1.5 529 prepaid and savings plans, ABLE, LGIPs, owner vs. beneficiary, tax advantages, direct vs. adviser-sold, D-12, G-45 | |
-| sie-2-13 | DPPs, REITs and hedge funds | 2.1.6 to 2.1.8 LPs, TICs, pass-through, illiquidity, REIT types and distribution rule, hedge fund structure and minimums | |
-| sie-2-14 | Exchange-traded products | 2.1.9 ETFs vs. ETNs, active vs. passive, fees, leveraged and inverse | |
-| sie-2-15 | Investment risks and mitigation | 2.2 capital, credit, currency, inflation, interest rate and reinvestment, liquidity, systematic and non-systematic, political, prepayment risk; diversification, rebalancing, hedging | |
-| sie-3-01 | Order types, trade capacity and sentiment | 3.1.1 market, limit, stop, GTC, discretionary, solicited, bid and ask, principal vs. agency, long and short, bullish and bearish | **done (wave 1)** |
-| sie-3-02 | Investment returns | 3.1.2 interest, dividends (cash and stock, key dates), realized and unrealized gains, yields, total return, basis points, cost basis, benchmarks | |
-| sie-3-03 | Settlement and corporate actions | 3.1.3 and 3.1.4 settlement cycles, book entry; splits and reverse splits, buybacks, tender and exchange offers, rights offerings, M&A, proxies (Rule 2251) | |
-| sie-3-04 | Account types | 3.2.1 cash, margin (Reg T, 4210, 2264), options, discretionary (3260), fee-based vs. commission, educational | |
-| sie-3-05 | Account registrations | 3.2.2 individual, joint, corporate, trust, custodial (UTMA), partnership | |
-| sie-3-06 | Retirement and education accounts | 3.2.2 IRAs, Roth, qualified plans, contributions, RMDs, Coverdell (changes-yearly figures) | |
-| sie-3-07 | Anti-money laundering | 3.2.3 stages, AML program (3310), CIP, SAR, CTR, FinCEN, OFAC SDN, PATRIOT Act 314, 326, 352 | |
-| sie-3-08 | Books, records, privacy and customer protection | 3.2.4 17a-3, 17a-4, confirmations (10b-10, 2232), statements (2231), hold mail (3150), BCP (4370), customer protection and custody, Reg S-P | |
-| sie-3-09 | Communications, telemarketing and best interest | 3.2.5 Rule 2210 classes, approvals, telemarketing (3230), do-not-call, Reg BI, Form CRS, KYC (2090), suitability (2111) | |
-| sie-3-10 | Market manipulation | 3.3.1 rumors, pump and dump, front running (5270), excessive trading, marking the close and open, backing away, freeriding, trading ahead (5320) | |
-| sie-3-11 | Insider trading | 3.3.2 MNPI, tippers and tippees, 10b-5, 10b5-1, 10b5-2, ITSFEA, Sections 20A and 21A penalties | |
-| sie-3-12 | Other prohibited activities | 3.3.3 Rule 5130 IPO restrictions, borrowing and lending (3240), sharing and guarantees (2150), seniors (2165, trusted contact), unregistered persons (2040), signatures of convenience, falsified records | |
-| sie-4-01 | Registration, qualification and CE | 4.1.1 registered vs. non-registered persons, ineligibility, statutory disqualification, fingerprinting (17f-2), background checks, blue-sky registration, CE Regulatory and Firm Element (1240), exam windows and retake waits | |
-| sie-4-02 | Forms U4 and U5, complaints and red flags | 4.2.1 U4 and U5 purpose and timing, misleading filings (1122), complaints (4513, 4530), red flags, BrokerCheck (8312), arbitration disclosure (2263) | |
-| sie-4-03 | Reportable events and outside activities | 4.2.2 OBAs (3270), PSTs (3280), Rule 3290 transition, political contributions (G-37), gifts (3220, G-20), non-cash compensation, entertainment, liens, bankruptcy | |
+| sie-1-01 | Who regulates the markets: SEC, SROs, states, the Fed and SIPC | 1.1.1 SEC; 1.1.2 SROs (FINRA, CBOE, MSRB); 1.1.3 Treasury/IRS, NASAA, Fed, SIPC, FDIC | **done** |
+| sie-1-02 | Market participants | 1.1.4 investor types (accredited, institutional, retail), introducing/clearing/prime brokers, IAs, municipal advisors, issuers and underwriters, traders and market makers, custodians, transfer agents, DTCC, OCC | **done** |
+| sie-1-03 | Market structure | 1.2.1 primary, secondary (exchange, OTC, electronic), third and fourth markets | **done** |
+| sie-1-04 | The Fed and monetary vs. fiscal policy | 1.3.1 FOMC, open market ops, discount rate, fed funds, prime rate, money supply | **done** |
+| sie-1-05 | Business economics | 1.3.2 financial statements, business cycle, leading, lagging and coincident indicators, inflation and deflation, cyclical, defensive and growth stocks, Keynesian vs. monetarist | **done** |
+| sie-1-06 | International economics | 1.3.3 balance of payments, GDP vs. GNP, exchange rates | **done** |
+| sie-1-07 | Underwriting and offerings | 1.4 investment bankers, syndicates, IPO, secondary and follow-on offerings, firm commitment and best efforts types, spread, Rules 2269 and 5250, G-11, G-32, G-34 | **done** |
+| sie-1-08 | Registration, prospectus and exemptions | 1.4 '33 Act Sections 7, 8, 10 and 23, cooling-off, red herring, final and summary prospectus, free writing prospectus (164), shelf (415), Reg D and accredited investor (215), 144, 144A, 145, 147, blue-sky, official statement, program disclosure document | **done** |
+| sie-2-01 | Common and preferred stock | 2.1.1 ownership, liquidation priority, voting, preferred types | **done** |
+| sie-2-02 | Rights, warrants, ADRs and restricted and control stock | 2.1.1 rights, warrants, ADRs, Rule 144, 3a11-1, 10b-18 buybacks | **done** |
+| sie-2-03 | Bond fundamentals | 2.1.2 par, coupon, yields (nominal, CY, YTM, YTC), price and yield, ratings, call and convertible features, short- vs. long-term | **done** |
+| sie-2-04 | Treasuries, agencies and MBS | 2.1.2 bills, notes, bonds, TIPS, STRIPS and receipts, auctions, GNMA, FNMA, FHLMC, CMOs and ABS | **done** |
+| sie-2-05 | Corporate debt and money market instruments | 2.1.2 secured and unsecured, debentures, commercial paper, BAs, CDs, negotiated vs. competitive underwriting | **done** |
+| sie-2-06 | Municipal securities | 2.1.2 GO, revenue, special types, taxable munis, short-term notes, tax-equivalent yield | **done** |
+| sie-2-07 | Options basics | 2.1.3 calls and puts, equity vs. index, premium, strike, expiration, physical vs. cash settlement, American vs. European, breakeven, max gain and loss | **done** |
+| sie-2-08 | Options in practice | 2.1.3 ITM, ATM and OTM, covered vs. uncovered, hedging vs. speculation, exercise and assignment, ODD, OCC, Rule 2360 | **done** |
+| sie-2-09 | Investment companies | 2.1.4 1940 Act types, open-end, closed-end, UITs, NAV, Sections 3, 4 and 5 | **done** |
+| sie-2-10 | Fund costs and sales charges | 2.1.4 loads, share classes, 12b-1, breakpoints, ROA, LOI, Rule 2342 | **done** |
+| sie-2-11 | Variable annuities | 2.1.4 separate account, accumulation and annuity units, surrender charges, 1035 exchanges, taxation, Rule 2330 | **done** |
+| sie-2-12 | Municipal fund securities | 2.1.5 529 prepaid and savings plans, ABLE, LGIPs, owner vs. beneficiary, tax advantages, direct vs. adviser-sold, D-12, G-45 | **done** |
+| sie-2-13 | DPPs, REITs and hedge funds | 2.1.6 to 2.1.8 LPs, TICs, pass-through, illiquidity, REIT types and distribution rule, hedge fund structure and minimums | **done** |
+| sie-2-14 | Exchange-traded products | 2.1.9 ETFs vs. ETNs, active vs. passive, fees, leveraged and inverse | **done** |
+| sie-2-15 | Investment risks and mitigation | 2.2 capital, credit, currency, inflation, interest rate and reinvestment, liquidity, systematic and non-systematic, political, prepayment risk; diversification, rebalancing, hedging | **done** |
+| sie-3-01 | Order types, trade capacity and sentiment | 3.1.1 market, limit, stop, GTC, discretionary, solicited, bid and ask, principal vs. agency, long and short, bullish and bearish | **done** |
+| sie-3-02 | Investment returns | 3.1.2 interest, dividends (cash and stock, key dates), realized and unrealized gains, yields, total return, basis points, cost basis, benchmarks | **done** |
+| sie-3-03 | Settlement and corporate actions | 3.1.3 and 3.1.4 settlement cycles, book entry; splits and reverse splits, buybacks, tender and exchange offers, rights offerings, M&A, proxies (Rule 2251) | **done** |
+| sie-3-04 | Account types | 3.2.1 cash, margin (Reg T, 4210, 2264), options, discretionary (3260), fee-based vs. commission, educational | **done** |
+| sie-3-05 | Account registrations | 3.2.2 individual, joint, corporate, trust, custodial (UTMA), partnership | **done** |
+| sie-3-06 | Retirement and education accounts | 3.2.2 IRAs, Roth, qualified plans, contributions, RMDs, Coverdell (changes-yearly figures) | **done** |
+| sie-3-07 | Anti-money laundering | 3.2.3 stages, AML program (3310), CIP, SAR, CTR, FinCEN, OFAC SDN, PATRIOT Act 314, 326, 352 | **done** |
+| sie-3-08 | Books, records, privacy and customer protection | 3.2.4 17a-3, 17a-4, confirmations (10b-10, 2232), statements (2231), hold mail (3150), BCP (4370), customer protection and custody, Reg S-P | **done** |
+| sie-3-09 | Communications, telemarketing and best interest | 3.2.5 Rule 2210 classes, approvals, telemarketing (3230), do-not-call, Reg BI, Form CRS, KYC (2090), suitability (2111) | **done** |
+| sie-3-10 | Market manipulation | 3.3.1 rumors, pump and dump, front running (5270), excessive trading, marking the close and open, backing away, freeriding, trading ahead (5320) | **done** |
+| sie-3-11 | Insider trading | 3.3.2 MNPI, tippers and tippees, 10b-5, 10b5-1, 10b5-2, ITSFEA, Sections 20A and 21A penalties | **done** |
+| sie-3-12 | Other prohibited activities | 3.3.3 Rule 5130 IPO restrictions, borrowing and lending (3240), sharing and guarantees (2150), seniors (2165, trusted contact), unregistered persons (2040), signatures of convenience, falsified records | **done** |
+| sie-4-01 | Registration, qualification and CE | 4.1.1 registered vs. non-registered persons, ineligibility, statutory disqualification, fingerprinting (17f-2), background checks, blue-sky registration, CE Regulatory and Firm Element (1240), exam windows and retake waits | **done** |
+| sie-4-02 | Forms U4 and U5, complaints and red flags | 4.2.1 U4 and U5 purpose and timing, misleading filings (1122), complaints (4513, 4530), red flags, BrokerCheck (8312), arbitration disclosure (2263) | **done** |
+| sie-4-03 | Reportable events and outside activities | 4.2.2 OBAs (3270), PSTs (3280), Rule 3290 transition, political contributions (G-37), gifts (3220, G-20), non-cash compensation, entertainment, liens, bankruptcy | **done** |
 
 ## Facts that change: re-verify every wave
 
@@ -66,4 +66,5 @@ Question targets (600 total) by weight: SIE-1 ≈ 96, SIE-2 ≈ 264, SIE-3 ≈ 1
 - Rule 3290, Outside Activities, replaces Rules 3270 and 3280 effective October 25, 2027. It was approved September 2026 (Regulatory Notice 26-20).
 - Exam retake waits are 30 days after the 1st and 2nd failures and 180 days after the 3rd. These drop to 15 and 60 days on January 19, 2027 (Regulatory Notice 26-18).
 - Settlement has been T+1 since May 28, 2024, so the ex-dividend date equals the record date.
+- Fannie Mae and Freddie Mac are still in FHFA conservatorship, as they have been since September 2008 (checked fhfa.gov and November 2026 news). Re-verify, because exiting conservatorship has been discussed for 2027-28. Used in sie-2-04 and the FNMA question.
 - AVOID until verified: the 529 K-12 tuition cap (changed by the 2025 tax law), ABLE onset-age changes, and Coverdell details beyond the $2,000 limit.

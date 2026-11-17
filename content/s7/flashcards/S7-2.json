@@ -54,5 +54,533 @@
   "front": "Trusted contact person (Rule 4512)",
   "back": "Firm must make a reasonable effort to obtain; account may be opened if customer declines.",
   "spoken": "Firms must try to get a trusted contact, but the customer can decline and still open the account."
+ },
+ {
+  "id": "s7-f-0130",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Joint tenants with right of survivorship",
+  "back": "A joint account in which a deceased owner's interest passes to the surviving owners.",
+  "spoken": "Joint tenants with right of survivorship. A joint account in which a deceased owner's interest passes to the surviving owners."
+ },
+ {
+  "id": "s7-f-0131",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Tenants in common",
+  "back": "A joint account in which each owner's fractional interest passes to that owner's estate at death.",
+  "spoken": "Tenants in common. A joint account in which each owner's fractional interest passes to that owner's estate at death."
+ },
+ {
+  "id": "s7-f-0132",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Community property",
+  "back": "A registration in certain states where assets acquired during marriage are owned equally by both spouses.",
+  "spoken": "Community property. A registration in certain states where assets acquired during marriage are owned equally by both spouses."
+ },
+ {
+  "id": "s7-f-0133",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Transfer on death",
+  "back": "An individual account registration that passes assets directly to a named beneficiary at death, avoiding probate.",
+  "spoken": "Transfer on death. An individual account registration that passes assets directly to a named beneficiary at death, avoiding probate."
+ },
+ {
+  "id": "s7-f-0134",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "UTMA custodial account",
+  "back": "An account managed by one custodian for one minor, with assets that belong to the minor and pass to the minor at the age of termination.",
+  "spoken": "UTMA custodial account. An account managed by one custodian for one minor, with assets that belong to the minor and pass to the minor at the age of termination."
+ },
+ {
+  "id": "s7-f-0135",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Prime brokerage",
+  "back": "An arrangement in which a customer executes trades through several broker-dealers but clears and holds assets at one prime broker.",
+  "spoken": "Prime brokerage. An arrangement in which a customer executes trades through several broker-dealers but clears and holds assets at one prime broker."
+ },
+ {
+  "id": "s7-f-0136",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Delivery versus payment",
+  "back": "An institutional settlement method in which securities are delivered only against simultaneous payment.",
+  "spoken": "Delivery versus payment. An institutional settlement method in which securities are delivered only against simultaneous payment."
+ },
+ {
+  "id": "s7-f-0137",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Wrap account",
+  "back": "A fee-based account that bundles advisory, execution and custody services for a single asset-based fee.",
+  "spoken": "Wrap account. A fee-based account that bundles advisory, execution and custody services for a single asset-based fee."
+ },
+ {
+  "id": "s7-f-0138",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Corporate resolution",
+  "back": "The document naming the officers authorized to trade a corporate account.",
+  "spoken": "Corporate resolution. The document naming the officers authorized to trade a corporate account."
+ },
+ {
+  "id": "s7-f-0139",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Partnership agreement",
+  "back": "The document required to open a partnership account, which states who may trade for the partnership.",
+  "spoken": "Partnership agreement. The document required to open a partnership account, which states who may trade for the partnership."
+ },
+ {
+  "id": "s7-f-0140",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Trust agreement",
+  "back": "The document required for a trust account, which names the trustee and defines what the trustee may do.",
+  "spoken": "Trust agreement. The document required for a trust account, which names the trustee and defines what the trustee may do."
+ },
+ {
+  "id": "s7-f-0141",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Estate account",
+  "back": "An account opened by an executor, which requires the death certificate and letters testamentary.",
+  "spoken": "Estate account. An account opened by an executor, which requires the death certificate and letters testamentary."
+ },
+ {
+  "id": "s7-f-0142",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Unincorporated association",
+  "back": "A group such as a club or investment club that opens an account under its governing documents rather than a corporate charter.",
+  "spoken": "Unincorporated association. A group such as a club or investment club that opens an account under its governing documents rather than a corporate charter."
+ },
+ {
+  "id": "s7-f-0143",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Traditional IRA",
+  "back": "An individual retirement account funded with earned income, whose contributions may be deductible and whose distributions are taxed as ordinary income.",
+  "spoken": "Traditional IRA. An individual retirement account funded with earned income, whose contributions may be deductible and whose distributions are taxed as ordinary income."
+ },
+ {
+  "id": "s7-f-0144",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Roth IRA",
+  "back": "An individual retirement account funded with after-tax money whose qualified distributions are tax-free, with no RMDs for the original owner.",
+  "spoken": "Roth IRA. An individual retirement account funded with after-tax money whose qualified distributions are tax-free, with no RMDs for the original owner."
+ },
+ {
+  "id": "s7-f-0145",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "SEP-IRA",
+  "back": "An employer plan funded only by employer contributions to employees' IRAs, popular with small businesses and the self-employed.",
+  "spoken": "SEP-IRA. An employer plan funded only by employer contributions to employees' IRAs, popular with small businesses and the self-employed."
+ },
+ {
+  "id": "s7-f-0146",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "SIMPLE IRA",
+  "back": "An employer plan for small businesses that combines employee salary deferrals with required employer contributions.",
+  "spoken": "SIMPLE IRA. An employer plan for small businesses that combines employee salary deferrals with required employer contributions."
+ },
+ {
+  "id": "s7-f-0147",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "401(k) plan",
+  "back": "A corporate defined contribution plan that lets employees defer part of their salary, often with an employer match.",
+  "spoken": "four hundred one(k) plan. A corporate defined contribution plan that lets employees defer part of their salary, often with an employer match."
+ },
+ {
+  "id": "s7-f-0148",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "403(b) plan",
+  "back": "A tax-sheltered annuity plan for employees of public schools and tax-exempt nonprofit organizations.",
+  "spoken": "four hundred three(b) plan. A tax-sheltered annuity plan for employees of public schools and tax-exempt nonprofit organizations."
+ },
+ {
+  "id": "s7-f-0149",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "457(b) plan",
+  "back": "A deferred compensation plan for state and local government employees, whose distributions after separation are not subject to the 10 percent early withdrawal penalty.",
+  "spoken": "four hundred fifty-seven(b) plan. A deferred compensation plan for state and local government employees, whose distributions after separation are not subject to the ten percent early withdrawal penalty."
+ },
+ {
+  "id": "s7-f-0150",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Defined benefit plan",
+  "back": "A pension plan that promises a specific retirement benefit, with the employer bearing the investment risk.",
+  "spoken": "Defined benefit plan. A pension plan that promises a specific retirement benefit, with the employer bearing the investment risk."
+ },
+ {
+  "id": "s7-f-0151",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Defined contribution plan",
+  "back": "A plan in which contributions are set and the retirement benefit depends on investment performance.",
+  "spoken": "Defined contribution plan. A plan in which contributions are set and the retirement benefit depends on investment performance."
+ },
+ {
+  "id": "s7-f-0152",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Profit-sharing plan",
+  "back": "A qualified plan in which employer contributions are discretionary and may vary with profits.",
+  "spoken": "Profit-sharing plan. A qualified plan in which employer contributions are discretionary and may vary with profits."
+ },
+ {
+  "id": "s7-f-0153",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Nonqualified deferred compensation",
+  "back": "An arrangement that defers an executive's pay without ERISA protection, leaving the employee as a general creditor of the employer.",
+  "spoken": "Nonqualified deferred compensation. An arrangement that defers an executive's pay without ERISA protection, leaving the employee as a general creditor of the employer."
+ },
+ {
+  "id": "s7-f-0154",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "ERISA",
+  "back": "The federal law that sets fiduciary and participation standards for private-sector retirement plans, not government plans.",
+  "spoken": "ERISA. The federal law that sets fiduciary and participation standards for private-sector retirement plans, not government plans."
+ },
+ {
+  "id": "s7-f-0155",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Coverdell ESA",
+  "back": "An education savings account limited to 2,000 dollars of contributions per beneficiary per year.",
+  "spoken": "Coverdell ESA. An education savings account limited to two thousand dollars of contributions per beneficiary per year."
+ },
+ {
+  "id": "s7-f-0156",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Direct rollover",
+  "back": "A trustee-to-trustee movement of plan assets to an IRA with no withholding.",
+  "spoken": "Direct rollover. A trustee-to-trustee movement of plan assets to an IRA with no withholding."
+ },
+ {
+  "id": "s7-f-0157",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Indirect rollover",
+  "back": "A distribution paid to the participant that must be redeposited within 60 days to avoid tax.",
+  "spoken": "Indirect rollover. A distribution paid to the participant that must be redeposited within sixty days to avoid tax."
+ },
+ {
+  "id": "s7-f-0158",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Required minimum distribution",
+  "back": "The minimum amount that must be withdrawn each year from a traditional IRA or qualified plan once the owner reaches the required beginning age, currently 73.",
+  "spoken": "Required minimum distribution. The minimum amount that must be withdrawn each year from a traditional IRA or qualified plan once the owner reaches the required beginning age, currently seventy-three."
+ },
+ {
+  "id": "s7-f-0159",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Rule 72(t) distributions",
+  "back": "Substantially equal periodic payments from an IRA that avoid the 10 percent early withdrawal penalty.",
+  "spoken": "Rule seventy-two(t) distributions. Substantially equal periodic payments from an IRA that avoid the ten percent early withdrawal penalty."
+ },
+ {
+  "id": "s7-f-0160",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "ABLE account",
+  "back": "A tax-advantaged account for people who became disabled before a specified age, with tax-free withdrawals for qualified disability expenses.",
+  "spoken": "ABLE account. A tax-advantaged account for people who became disabled before a specified age, with tax-free withdrawals for qualified disability expenses."
+ },
+ {
+  "id": "s7-f-0161",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Customer identification program",
+  "back": "The USA PATRIOT Act requirement to verify a new customer's identity using name, date of birth, address and an ID number.",
+  "spoken": "Customer identification program. The USA PATRIOT Act requirement to verify a new customer's identity using name, date of birth, address and an ID number."
+ },
+ {
+  "id": "s7-f-0162",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Currency transaction report",
+  "back": "A report filed with FinCEN for cash transactions over 10,000 dollars in a single business day.",
+  "spoken": "Currency transaction report. A report filed with FinCEN for cash transactions over ten thousand dollars in a single business day."
+ },
+ {
+  "id": "s7-f-0163",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Suspicious activity report",
+  "back": "A FinCEN filing a broker-dealer must make for suspicious transactions of 5,000 dollars or more, without telling the customer.",
+  "spoken": "Suspicious activity report. A FinCEN filing a broker-dealer must make for suspicious transactions of five thousand dollars or more, without telling the customer."
+ },
+ {
+  "id": "s7-f-0164",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Structuring",
+  "back": "Breaking cash deposits into smaller amounts to avoid currency reporting thresholds.",
+  "spoken": "Structuring. Breaking cash deposits into smaller amounts to avoid currency reporting thresholds."
+ },
+ {
+  "id": "s7-f-0165",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Placement",
+  "back": "The money-laundering stage in which illicit cash first enters the financial system.",
+  "spoken": "Placement. The money-laundering stage in which illicit cash first enters the financial system."
+ },
+ {
+  "id": "s7-f-0166",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Layering",
+  "back": "The money-laundering stage in which funds are moved through many transactions to hide their origin.",
+  "spoken": "Layering. The money-laundering stage in which funds are moved through many transactions to hide their origin."
+ },
+ {
+  "id": "s7-f-0167",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Integration",
+  "back": "The money-laundering stage in which laundered funds re-enter the economy looking legitimate.",
+  "spoken": "Integration. The money-laundering stage in which laundered funds re-enter the economy looking legitimate."
+ },
+ {
+  "id": "s7-f-0168",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "OFAC SDN list",
+  "back": "The Treasury list of specially designated nationals and blocked persons that firms must screen against.",
+  "spoken": "OFAC SDN list. The Treasury list of specially designated nationals and blocked persons that firms must screen against."
+ },
+ {
+  "id": "s7-f-0169",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Regulation S-P",
+  "back": "The SEC privacy rule requiring an initial privacy notice, an opt-out right for sharing with nonaffiliated third parties, and safeguards for customer information.",
+  "spoken": "Regulation S-P. The SEC privacy rule requiring an initial privacy notice, an opt-out right for sharing with nonaffiliated third parties, and safeguards for customer information."
+ },
+ {
+  "id": "s7-f-0170",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Beneficial owner",
+  "back": "Under the customer due diligence rule, each person owning 25 percent or more of a legal entity customer, plus one person with significant control.",
+  "spoken": "Beneficial owner. Under the customer due diligence rule, each person owning twenty-five percent or more of a legal entity customer, plus one person with significant control."
+ },
+ {
+  "id": "s7-f-0171",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Limited power of attorney",
+  "back": "An authorization allowing another person to make trades in an account but not to withdraw assets.",
+  "spoken": "Limited power of attorney. An authorization allowing another person to make trades in an account but not to withdraw assets."
+ },
+ {
+  "id": "s7-f-0172",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Full power of attorney",
+  "back": "An authorization allowing another person to trade and to withdraw cash and securities from an account.",
+  "spoken": "Full power of attorney. An authorization allowing another person to trade and to withdraw cash and securities from an account."
+ },
+ {
+  "id": "s7-f-0173",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Durable power of attorney",
+  "back": "A power of attorney that remains in effect if the account owner becomes incapacitated, ending at death.",
+  "spoken": "Durable power of attorney. A power of attorney that remains in effect if the account owner becomes incapacitated, ending at death."
+ },
+ {
+  "id": "s7-f-0174",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Trusted contact person",
+  "back": "A person the firm may contact about possible financial exploitation or to confirm a customer's health status or whereabouts, with no trading authority.",
+  "spoken": "Trusted contact person. A person the firm may contact about possible financial exploitation or to confirm a customer's health status or whereabouts, with no trading authority."
+ },
+ {
+  "id": "s7-f-0175",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Reasonable-basis obligation",
+  "back": "The duty to understand a recommended security or strategy well enough to believe it is suitable for at least some investors.",
+  "spoken": "Reasonable-basis obligation. The duty to understand a recommended security or strategy well enough to believe it is suitable for at least some investors."
+ },
+ {
+  "id": "s7-f-0176",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Customer-specific obligation",
+  "back": "The duty to have a reasonable basis that a recommendation fits a particular customer's investment profile.",
+  "spoken": "Customer-specific obligation. The duty to have a reasonable basis that a recommendation fits a particular customer's investment profile."
+ },
+ {
+  "id": "s7-f-0177",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Quantitative obligation",
+  "back": "The duty to ensure a series of recommended transactions is not excessive when viewed together.",
+  "spoken": "Quantitative obligation. The duty to ensure a series of recommended transactions is not excessive when viewed together."
+ },
+ {
+  "id": "s7-f-0178",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Preservation of capital",
+  "back": "An investment objective focused on protecting principal, best served by short-term, high-quality debt.",
+  "spoken": "Preservation of capital. An investment objective focused on protecting principal, best served by short-term, high-quality debt."
+ },
+ {
+  "id": "s7-f-0179",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Speculation",
+  "back": "An investment objective that accepts high risk of loss in pursuit of large gains.",
+  "spoken": "Speculation. An investment objective that accepts high risk of loss in pursuit of large gains."
+ },
+ {
+  "id": "s7-f-0180",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Liquidity needs",
+  "back": "How much of a customer's money must be convertible to cash quickly without significant loss.",
+  "spoken": "Liquidity needs. How much of a customer's money must be convertible to cash quickly without significant loss."
+ },
+ {
+  "id": "s7-f-0181",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Time horizon",
+  "back": "The expected length of time before a customer needs the invested money.",
+  "spoken": "Time horizon. The expected length of time before a customer needs the invested money."
+ },
+ {
+  "id": "s7-f-0182",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Risk tolerance",
+  "back": "A customer's willingness and ability to accept declines in the value of investments.",
+  "spoken": "Risk tolerance. A customer's willingness and ability to accept declines in the value of investments."
+ },
+ {
+  "id": "s7-f-0183",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Form CRS",
+  "back": "The relationship summary that broker-dealers and advisers must give retail investors, describing services, fees, conflicts and disciplinary history.",
+  "spoken": "Form CRS. The relationship summary that broker-dealers and advisers must give retail investors, describing services, fees, conflicts and disciplinary history."
+ },
+ {
+  "id": "s7-f-0184",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Regulation Best Interest",
+  "back": "The SEC rule requiring broker-dealers to act in a retail customer's best interest when making recommendations, without putting the firm's interest ahead.",
+  "spoken": "Regulation Best Interest. The SEC rule requiring broker-dealers to act in a retail customer's best interest when making recommendations, without putting the firm's interest ahead."
+ },
+ {
+  "id": "s7-f-0185",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Churning",
+  "back": "Excessive trading in an account to generate commissions, judged by turnover and cost-to-equity ratios.",
+  "spoken": "Churning. Excessive trading in an account to generate commissions, judged by turnover and cost-to-equity ratios."
+ },
+ {
+  "id": "s7-f-0186",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Recommendation to hold",
+  "back": "An explicit recommendation to keep a security, which is covered by Reg BI and the suitability rule.",
+  "spoken": "Recommendation to hold. An explicit recommendation to keep a security, which is covered by Reg BI and the suitability rule."
+ },
+ {
+  "id": "s7-f-0187",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Credit agreement",
+  "back": "The part of a margin agreement that discloses how interest on the debit balance is calculated.",
+  "spoken": "Credit agreement. The part of a margin agreement that discloses how interest on the debit balance is calculated."
+ },
+ {
+  "id": "s7-f-0188",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Hypothecation agreement",
+  "back": "The part of a margin agreement that lets the firm pledge the customer's securities as collateral for the margin loan.",
+  "spoken": "Hypothecation agreement. The part of a margin agreement that lets the firm pledge the customer's securities as collateral for the margin loan."
+ },
+ {
+  "id": "s7-f-0189",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Loan consent",
+  "back": "The optional part of a margin agreement that permits the firm to lend the customer's margin securities to other customers or firms.",
+  "spoken": "Loan consent. The optional part of a margin agreement that permits the firm to lend the customer's margin securities to other customers or firms."
+ },
+ {
+  "id": "s7-f-0190",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Margin disclosure statement",
+  "back": "The document a firm must provide before opening a margin account, explaining risks such as forced liquidation without notice.",
+  "spoken": "Margin disclosure statement. The document a firm must provide before opening a margin account, explaining risks such as forced liquidation without notice."
+ },
+ {
+  "id": "s7-f-0191",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Registered options principal",
+  "back": "The principal who approves options accounts and options communications.",
+  "spoken": "Registered options principal. The principal who approves options accounts and options communications."
+ },
+ {
+  "id": "s7-f-0192",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "New account form",
+  "back": "The record of a customer's essential facts, approved by a principal, that must be updated and confirmed periodically.",
+  "spoken": "New account form. The record of a customer's essential facts, approved by a principal, that must be updated and confirmed periodically."
+ },
+ {
+  "id": "s7-f-0193",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Hold mail instruction",
+  "back": "A written customer request that a firm hold mail for a period, permitted under FINRA rules with conditions.",
+  "spoken": "Hold mail instruction. A written customer request that a firm hold mail for a period, permitted under FINRA rules with conditions."
+ },
+ {
+  "id": "s7-f-0194",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Freeriding",
+  "back": "Selling a security in a cash account before paying for it, which results in a 90-day freeze.",
+  "spoken": "Freeriding. Selling a security in a cash account before paying for it, which results in a ninety-day freeze."
+ },
+ {
+  "id": "s7-f-0195",
+  "exam": "S7",
+  "section": "S7-2",
+  "front": "Frozen account",
+  "back": "A cash account restriction for 90 days during which the customer must have cash in the account before any purchase.",
+  "spoken": "Frozen account. A cash account restriction for ninety days during which the customer must have cash in the account before any purchase."
  }
 ]

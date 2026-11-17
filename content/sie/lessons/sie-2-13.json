@@ -1,0 +1,122 @@
+{
+  "id": "sie-2-13",
+  "exam": "SIE",
+  "section": "SIE-2",
+  "section_title": "Understanding Products and Their Risks",
+  "title": "DPPs, REITs and Hedge Funds",
+  "order": 13,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "This lesson covers three alternative investments that show up on the SIE: direct participation programs, real estate investment trusts and hedge funds. They're often less liquid, more complex, and riskier than stocks, bonds and mutual funds, so the exam focuses on their structure, taxes and who they're suitable for."
+    },
+    {
+      "type": "narration",
+      "text": "A direct participation program, or D P P, is a business, usually a limited partnership or L L C, that passes income, gains, losses and deductions directly through to its investors. The entity itself isn't taxed. Investors report their share on their own returns, using a Schedule K one. That's the flow-through feature, and it's the main reason D P Ps exist."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0401"
+    },
+    {
+      "type": "narration",
+      "text": "Limited partnerships have two kinds of partners. The general partner runs the business, makes the decisions, owes the limited partners a fiduciary duty, and has unlimited liability for the partnership's debts. Limited partners put up money, are passive, and have liability limited to their investment. If a limited partner starts making management decisions, they risk losing that limited liability. Limited partners do have rights, though: they can inspect the books, vote on major matters like selling the partnership's assets, and sue the general partner."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0058"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0403"
+    },
+    {
+      "type": "narration",
+      "text": "Three documents come up. The certificate of limited partnership is filed with the state to legally form the partnership. The partnership agreement spells out the rights and duties of the partners. And the subscription agreement is what each investor signs to join, and it's accepted by the general partner."
+    },
+    {
+      "type": "narration",
+      "text": "Taxes and risks. Under the passive activity rules, losses from a limited partnership can generally offset only passive income, not wages or portfolio income like dividends. The big risk is liquidity: there's usually no active secondary market, and investors may be locked in for years. Common types include real estate programs, equipment leasing, and oil and gas programs. Among oil and gas programs, exploratory, or wildcat, drilling is the riskiest, developmental drilling near proven reserves is moderate, and income programs that buy producing wells are the most conservative."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0405"
+    },
+    {
+      "type": "narration",
+      "text": "Now, real estate investment trusts. A REIT is a company that owns real estate or real estate loans and gets special tax treatment. It must invest mostly in real estate assets, and must distribute at least ninety percent of its taxable income to shareholders, which lets it avoid corporate tax on what it distributes. Equity REITs own properties and collect rent. Mortgage REITs hold loans and earn interest, so they're sensitive to interest rates. Hybrid REITs do both. Unlike D P Ps, REITs can't pass losses through to shareholders. Most REIT dividends are taxed as ordinary income, not at the lower qualified-dividend rates."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0059"
+    },
+    {
+      "type": "narration",
+      "text": "REITs come in exchange-traded and non-traded forms. Listed REITs trade like stock, with daily prices and liquidity. Non-traded REITs aren't listed, so investors may only be able to sell through limited redemption programs. They've historically carried high up-front fees, and their per-share values are estimates, not market prices. Both are suitable only after a hard look at liquidity needs."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0410"
+    },
+    {
+      "type": "narration",
+      "text": "Finally, hedge funds. A hedge fund is a private investment pool, usually sold through private placements under Regulation D to accredited investors and other qualified purchasers, with high minimums. Hedge funds face lighter regulation than mutual funds, and they can use leverage, short selling, derivatives and concentrated bets. Investors usually face lock-up periods when they can't withdraw, and fees often combine a management fee with a performance fee. A fund of hedge funds invests in several hedge funds for diversification, but adds a second layer of fees. Despite the name, a hedge fund doesn't promise to hedge risk."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0064"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0413"
+    },
+    {
+      "type": "narration",
+      "text": "Quick scenario. A customer earns a high salary and hopes a limited partnership's tax losses will cut the tax on his wages. Explain that passive losses generally offset only passive income, not wages. Then talk about how long his money could be tied up, and whether he can handle the partnership failing. If he wants real estate exposure with liquidity, a listed REIT might fit better, though its dividends are mostly ordinary income."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. D P Ps flow income and losses through to investors. General partners manage and have unlimited liability, and limited partners are passive with limited liability. Passive losses offset passive income, and illiquidity is the main risk. REITs must distribute at least ninety percent of taxable income, can't pass through losses, and pay mostly ordinary-income dividends. Hedge funds are private, for accredited investors, use aggressive strategies, and impose lock-ups and performance fees."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Direct participation program",
+      "definition": "Flow-through entity, usually a limited partnership."
+    },
+    {
+      "term": "General partner",
+      "definition": "Manages the partnership; unlimited liability; fiduciary duty."
+    },
+    {
+      "term": "Limited partner",
+      "definition": "Passive investor with limited liability."
+    },
+    {
+      "term": "Certificate of limited partnership",
+      "definition": "Filed with the state to form the LP."
+    },
+    {
+      "term": "Passive loss rule",
+      "definition": "Passive losses generally offset only passive income."
+    },
+    {
+      "term": "REIT",
+      "definition": "Real estate company that must distribute at least 90% of taxable income."
+    },
+    {
+      "term": "Non-traded REIT",
+      "definition": "Unlisted REIT with limited liquidity and estimated values."
+    },
+    {
+      "term": "Hedge fund",
+      "definition": "Private pool for accredited investors; leverage, lock-ups, performance fees."
+    }
+  ],
+  "mnemonics": [
+    "GP: General Power and General Problems (unlimited liability). LP: Limited Power, Limited Problems.",
+    "REIT rule: ninety percent goes out."
+  ],
+  "summary": "DPPs pass income and losses through to partners; general partners manage with unlimited liability, and limited partners stay passive. Passive losses offset passive income, and illiquidity is the main risk. REITs distribute at least 90% of taxable income and can't pass through losses. Hedge funds are private, for accredited investors, with lock-ups and performance fees."
+}

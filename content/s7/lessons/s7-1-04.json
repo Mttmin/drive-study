@@ -1,0 +1,111 @@
+{
+ "id": "s7-1-04",
+ "exam": "S7",
+ "section": "S7-1",
+ "section_title": "Seeks Business for the Broker-Dealer from Customers and Potential Customers",
+ "title": "Exempt securities and private offerings",
+ "order": 4,
+ "est_minutes": 7,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Not every security has to register with the SEC, and not every sale needs a prospectus. The Series 7 separates exempt securities from exempt transactions. An exempt security is excused because of who issued it. An exempt transaction is excused because of how and to whom it's sold."
+  },
+  {
+   "type": "narration",
+   "text": "Exempt securities include U.S. government and agency securities, municipal securities, bank securities, commercial paper and banker's acceptances maturing in two hundred seventy days or less, insurance policies and fixed annuities, and securities of nonprofit organizations. Variable annuities aren't exempt, because the customer bears the investment risk. Remember that exempt from registration doesn't mean exempt from antifraud rules. Fraud is always prohibited."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0510"
+  },
+  {
+   "type": "narration",
+   "text": "Regulation D covers private placements. Rule five-oh-six b lets an issuer raise an unlimited amount from unlimited accredited investors plus up to thirty-five non-accredited purchasers, who must be sophisticated, alone or with a representative. No general solicitation or advertising is allowed. Rule five-oh-six c allows general solicitation, but every purchaser must be accredited, and the issuer must take reasonable steps to verify it. An accredited individual has income over two hundred thousand dollars, or three hundred thousand jointly, in each of the last two years with the same expected this year, or a net worth over one million dollars not counting the primary residence. Certain professional license holders also qualify. Securities bought in a private placement are restricted securities, and investors usually sign an investment letter saying they're buying for investment, not resale."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0514"
+  },
+  {
+   "type": "narration",
+   "text": "Regulation A is the small-issue exemption. Instead of a full prospectus, the issuer files an offering circular. Tier one allows up to twenty million dollars in twelve months. Tier two allows up to seventy-five million dollars and preempts state registration, but it comes with ongoing reporting. Regulation Crowdfunding lets small issuers raise limited amounts online through a funding portal or a broker-dealer."
+  },
+  {
+   "type": "narration",
+   "text": "Rule one forty-seven is the intrastate exemption. The issuer must be organized or doing business in one state, and every purchaser must reside in that state. For six months, resales may only be made to residents of that state. Regulation S covers offers and sales made outside the United States, which don't need SEC registration."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0518"
+  },
+  {
+   "type": "narration",
+   "text": "Rule one forty-four governs public resales of restricted and control securities. Control persons are officers, directors, and holders of ten percent or more. For a reporting company, restricted stock generally must be held six months before resale. Affiliates must also follow volume limits: in any ninety-day period, they can sell the greater of one percent of the outstanding shares or the average weekly trading volume over the prior four weeks. Above certain thresholds, they must file Form one forty-four. Rule one forty-four A lets restricted securities be resold to qualified institutional buyers, which are institutions that own and invest at least one hundred million dollars in securities. This creates a large institutional market for unregistered debt and foreign securities."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0522"
+  },
+  {
+   "type": "narration",
+   "text": "Foreign securities raise one more issue. Unregistered foreign securities can be sold to qualified institutions under exemptions like one forty-four A, but generally can't be sold to U.S. retail investors. That's why most retail investors buy foreign companies through registered ADRs."
+  },
+  {
+   "type": "narration",
+   "text": "For the exam, ask two questions. First, who issued the security? If it's a government, a municipality, or a bank, it's an exempt security. Second, how is it sold? Private placement, intrastate, offshore, or small issue each have their own rule."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Rule five hundred six(b): The Regulation D private placement exemption that bars general solicitation and allows up to thirty-five non-accredited but sophisticated purchasers. Rule five hundred six(c): The Regulation D exemption that permits general solicitation if every purchaser is accredited and the issuer takes reasonable steps to verify it. Regulation A: A small-issue exemption that uses an offering circular and has two tiers, with Tier two allowing up to seventy-five million dollars in twelve months. Rule one hundred forty-seven: An intrastate offering exemption requiring the issuer and all purchasers to be in one state, with resales to nonresidents limited for six months. Rule one hundred forty-four: The SEC rule governing public resales of restricted and control securities, including holding periods and volume limits. Rule 144A: The exemption that allows resales of unregistered securities to qualified institutional buyers. Qualified institutional buyer: An institution that owns and invests at least one hundred million dollars in securities of unaffiliated issuers, eligible to buy under Rule 144A. Regulation S: The exemption for offers and sales made outside the United States without SEC registration."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Rule 506(b)",
+   "definition": "The Regulation D private placement exemption that bars general solicitation and allows up to 35 non-accredited but sophisticated purchasers"
+  },
+  {
+   "term": "Rule 506(c)",
+   "definition": "The Regulation D exemption that permits general solicitation if every purchaser is accredited and the issuer takes reasonable steps to verify it"
+  },
+  {
+   "term": "Regulation A",
+   "definition": "A small-issue exemption that uses an offering circular and has two tiers, with Tier 2 allowing up to 75 million dollars in 12 months"
+  },
+  {
+   "term": "Rule 147",
+   "definition": "An intrastate offering exemption requiring the issuer and all purchasers to be in one state, with resales to nonresidents limited for six months"
+  },
+  {
+   "term": "Rule 144",
+   "definition": "The SEC rule governing public resales of restricted and control securities, including holding periods and volume limits"
+  },
+  {
+   "term": "Rule 144A",
+   "definition": "The exemption that allows resales of unregistered securities to qualified institutional buyers"
+  },
+  {
+   "term": "Qualified institutional buyer",
+   "definition": "An institution that owns and invests at least 100 million dollars in securities of unaffiliated issuers, eligible to buy under Rule 144A"
+  },
+  {
+   "term": "Regulation S",
+   "definition": "The exemption for offers and sales made outside the United States without SEC registration"
+  },
+  {
+   "term": "Control securities",
+   "definition": "Securities held by an officer, director or 10 percent or more shareholder of the issuer, which must be sold under Rule 144 limits"
+  },
+  {
+   "term": "Restricted securities",
+   "definition": "Securities acquired in an unregistered private transaction that cannot be resold publicly until a holding period is met"
+  }
+ ],
+ "mnemonics": [
+  "Five-oh-six b: thirty-five non-accredited, no ads. Five-oh-six c: all accredited, ads allowed.",
+  "One forty-seven: one state, six months.",
+  "One forty-four A: QIBs only."
+ ],
+ "summary": "Exempt securities (governments, munis, banks, short commercial paper, fixed insurance) don't register, but antifraud rules still apply. Reg D 506(b) allows up to 35 non-accredited sophisticated buyers with no general solicitation. 506(c) allows advertising if all buyers are verified accredited. Accredited individuals have income over $200K ($300K joint) for two years or net worth over $1M excluding the home. Reg A Tier 1 caps at $20M and Tier 2 at $75M. Rule 147 is intrastate, with in-state resales for six months. Reg S covers offshore sales. Rule 144 governs restricted and control stock (six-month hold for reporting issuers, volume limits). Rule 144A permits resales to QIBs ($100M+)."
+}

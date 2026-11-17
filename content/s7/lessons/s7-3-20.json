@@ -1,0 +1,103 @@
+{
+ "id": "s7-3-20",
+ "exam": "S7",
+ "section": "S7-3",
+ "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+ "title": "Statements, confirmations, transfers and records",
+ "order": 20,
+ "est_minutes": 7,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "After the sale comes the paperwork, and the Series 7 tests it. This lesson covers trade confirmations, account statements, transfers between firms, and the records firms have to keep."
+  },
+  {
+   "type": "narration",
+   "text": "A confirmation must be sent at or before the completion of the transaction, which is settlement. Under SEC Rule ten b ten, it shows the trade date, the security, the quantity, the price, whether the firm acted as agent or principal, and the commission if the firm acted as agent. For many principal trades in debt securities, a retail customer's confirmation must show the markup or markdown when the firm traded the same security on the same day as principal. Bond confirmations show the yield, and for callable bonds, the yield to worst. If the firm acted as agent for both sides, or got payment for order flow, the confirmation discloses that. A customer can ask for the time of execution, and the firm must give it."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0874"
+  },
+  {
+   "type": "narration",
+   "text": "Account statements must be sent at least once a quarter for accounts with activity or a balance, under FINRA rules. Many firms send them monthly. Statements show positions, balances, and activity, plus an estimated value for certain securities, such as DPPs and non-traded REITs. Statements for options and margin accounts are similar. Investment company and annuity holders also receive reports. Mutual funds send shareholder reports at least twice a year. Customers should compare their statements with their own records and report discrepancies, and firms should make it easy to do so."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0877"
+  },
+  {
+   "type": "narration",
+   "text": "Account transfers between firms usually go through ACATS, the Automated Customer Account Transfer Service, under FINRA Rule eleven eight seventy. The customer signs a transfer form with the receiving firm. The firm that holds the account must validate the request, or note an exception, within one business day, and then complete the transfer within three business days after validation. The carrying firm can't hold the account hostage over a disagreement, but it can deal with open orders and can't transfer assets it has no authority to move, like proprietary funds the new firm can't hold. Fees for closing an account are disclosed in advance."
+  },
+  {
+   "type": "narration",
+   "text": "Records retention is the job of SEC Rules seventeen a three and seventeen a four. Firms must keep blotters, ledgers, order tickets, and confirmations. In general, blotters, general ledgers, and customer account records are kept for six years. Order tickets, trade confirmations, communications, and many other records are kept for three years. The first two years in an easily accessible place. Customer account records must be kept for six years after the account is closed. FINRA's complaint records must be kept for at least four years. Records can be kept electronically if they meet SEC rules for storage, protection, and retrieval."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0879"
+  },
+  {
+   "type": "narration",
+   "text": "Order tickets record the customer's name or account number, the security, the quantity, the price limits, whether the order is solicited or unsolicited, whether discretion was used, and the time it was received and executed. The representative fills it out, and a principal reviews it. Any change to the account name or number on an order ticket after it's entered must be approved by a principal and documented, to stop reps from moving profitable trades between accounts."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0882"
+  },
+  {
+   "type": "narration",
+   "text": "Holding customer mail, changing addresses, and sending duplicate statements to third parties also have rules. Firms may hold mail only on the customer's written instructions for a set period. They may send duplicates to a third party only with the customer's written authorization. A change of address must be confirmed with the customer at both the old and new addresses. These rules exist because many frauds start with taking control of a customer's mail."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: confirmations go out by settlement and show capacity, price, and the commission or markup disclosure. Statements go out at least quarterly. ACATS validates in one business day and completes within three business days after that. Records are kept three or six years, with account records kept six years after closing and complaints four years. Order ticket account changes need principal approval."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Trade confirmation: A written notice sent at or before completion of a transaction showing the price, capacity, commission or markup and settlement date. Account statement: A summary of holdings and activity that a firm must send customers at least once each calendar quarter. Unrealized gain: An increase in the value of a security that is still held. Realized gain: A profit locked in by selling a security for more than its cost basis. ACATS: The automated system that transfers customer accounts between broker-dealers. Transfer instruction form: The form a customer signs at the new firm to start an ACATS account transfer. Tender offer: An offer to buy shares from shareholders, usually at a premium, for a limited time. Duplicate confirmation: A copy of a trade confirmation sent to a third party, such as an employer firm or adviser, at the customer's written request."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Trade confirmation",
+   "definition": "A written notice sent at or before completion of a transaction showing the price, capacity, commission or markup and settlement date"
+  },
+  {
+   "term": "Account statement",
+   "definition": "A summary of holdings and activity that a firm must send customers at least once each calendar quarter"
+  },
+  {
+   "term": "Unrealized gain",
+   "definition": "An increase in the value of a security that is still held"
+  },
+  {
+   "term": "Realized gain",
+   "definition": "A profit locked in by selling a security for more than its cost basis"
+  },
+  {
+   "term": "ACATS",
+   "definition": "The automated system that transfers customer accounts between broker-dealers"
+  },
+  {
+   "term": "Transfer instruction form",
+   "definition": "The form a customer signs at the new firm to start an ACATS account transfer"
+  },
+  {
+   "term": "Tender offer",
+   "definition": "An offer to buy shares from shareholders, usually at a premium, for a limited time"
+  },
+  {
+   "term": "Duplicate confirmation",
+   "definition": "A copy of a trade confirmation sent to a third party, such as an employer firm or adviser, at the customer's written request"
+  }
+ ],
+ "mnemonics": [
+  "Confirm by settlement; statements at least quarterly.",
+  "ACATS: one day to validate, three to complete.",
+  "Three-year and six-year records; complaints, four."
+ ],
+ "summary": "Confirmations are due by settlement (Rule 10b-10) and show capacity, price, commission (if agent) and markup disclosure for same-day retail principal debt trades. Statements are at least quarterly, with estimated values for DPPs and REITs. ACATS (Rule 11870): validate within 1 business day and complete within 3 business days after validation. Records (17a-3/17a-4): blotters and ledgers 6 years, tickets and confirms 3 years (2 years easily accessible), account records 6 years after closing, complaints 4 years. Order ticket account changes need principal approval. Mail holds and duplicate statements need written customer instructions."
+}

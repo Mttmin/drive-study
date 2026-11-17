@@ -1,0 +1,99 @@
+{
+ "id": "s7-4-06",
+ "exam": "S7",
+ "section": "S7-4",
+ "section_title": "Obtains and Verifies Customers' Purchase and Sales Instructions and Agreements; Processes, Completes and Confirms Transactions",
+ "title": "Margin II: short and combined accounts",
+ "order": 6,
+ "est_minutes": 8,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "In Margin one, you learned long margin accounts. Now we flip to short accounts, where the customer borrows stock and sells it, and to combined accounts that hold both long and short positions. The math is different, so slow down and set up the account each time."
+  },
+  {
+   "type": "narration",
+   "text": "A short margin account is built around a credit balance. When a customer sells short, the sale proceeds are held in the account, and the customer must also deposit the Reg T requirement, fifty percent of the short market value. The credit balance equals the sale proceeds plus the deposit. Example: a customer shorts twenty thousand dollars of stock and deposits ten thousand. The credit balance is thirty thousand dollars, which is one hundred fifty percent of the short market value. The minimum to open a short account is two thousand dollars, even if the fifty percent requirement is smaller."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0083"
+  },
+  {
+   "type": "narration",
+   "text": "Equity in a short account is the credit balance minus the current short market value. If the stock falls, the short market value drops and equity rises, which is good for the short seller. In the example, if the stock falls to sixteen thousand, equity becomes thirty thousand minus sixteen thousand, or fourteen thousand dollars. If the stock rises to twenty-four thousand, equity falls to six thousand. The credit balance doesn't change with market moves. It changes only with deposits, withdrawals, or the customer closing positions."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0367"
+  },
+  {
+   "type": "narration",
+   "text": "Maintenance requirements for shorts are higher than for longs. FINRA's minimum is thirty percent of the short market value for most stocks. Low-priced stocks have per-share minimums, so the requirement can be higher than thirty percent. To find how high the short market value can rise before a maintenance call, divide the credit balance by one point three. In the example, thirty thousand divided by one point three is about twenty-three thousand seventy-seven dollars. Above that, equity falls below thirty percent and the customer gets a call."
+  },
+  {
+   "type": "narration",
+   "text": "Excess equity in a short account works like a long account. Reg T equity required is fifty percent of the current short market value. If equity is above that, the excess goes to SMA. If the stock falls to sixteen thousand, the Reg T requirement is eight thousand, equity is fourteen thousand, so excess equity is six thousand dollars. The account is restricted when equity falls below fifty percent but stays above the maintenance level."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0371"
+  },
+  {
+   "type": "narration",
+   "text": "A combined account holds both long and short positions. Combined equity equals the long market value minus the debit balance, plus the credit balance minus the short market value. In other words, add the long side's equity and the short side's equity. The maintenance requirement is twenty-five percent of the long market value plus thirty percent of the short market value. Example: long market value of forty thousand, a debit of eighteen thousand, a credit of thirty thousand, and short market value of twenty thousand. Equity is forty thousand minus eighteen thousand, plus thirty thousand minus twenty thousand, or thirty-two thousand dollars. The maintenance requirement is ten thousand plus six thousand, or sixteen thousand, so the account is well above the minimum."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0379"
+  },
+  {
+   "type": "narration",
+   "text": "Short positions also have costs and risks. The short seller owes any dividends paid on the borrowed shares, and those payments come out of the account. If the lender recalls the shares and the firm can't find more, the short may be bought in. Rising prices increase both the loss and the margin requirement at the same time, which is why short positions can generate maintenance calls quickly."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: short credit equals proceeds plus fifty percent, or one hundred fifty percent of the short value. Short equity is credit minus short market value. Maintenance is thirty percent, and the call price is the credit divided by one point three. Combined equity is the long equity plus the short equity. Combined maintenance is twenty-five percent long plus thirty percent short."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Credit balance: In a short account, the sale proceeds plus the customer's deposit; it doesn't change with market prices. Short market value: The current market value of the shares sold short. Short account equity: The credit balance minus the current short market value. Short maintenance: FINRA's minimum equity of thirty percent of short market value for most stocks. Combined equity: Long market value minus debit plus credit minus short market value. Combined maintenance: Twenty-five percent of long market value plus thirty percent of short market value. Buy-in: Forced purchase to close a short when borrowed shares are recalled or not delivered."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Credit balance",
+   "definition": "In a short account, the sale proceeds plus the customer's deposit; it doesn't change with market prices."
+  },
+  {
+   "term": "Short market value",
+   "definition": "The current market value of the shares sold short."
+  },
+  {
+   "term": "Short account equity",
+   "definition": "The credit balance minus the current short market value."
+  },
+  {
+   "term": "Short maintenance",
+   "definition": "FINRA's minimum equity of thirty percent of short market value for most stocks."
+  },
+  {
+   "term": "Combined equity",
+   "definition": "Long market value minus debit plus credit minus short market value."
+  },
+  {
+   "term": "Combined maintenance",
+   "definition": "Twenty-five percent of long market value plus thirty percent of short market value."
+  },
+  {
+   "term": "Buy-in",
+   "definition": "Forced purchase to close a short when borrowed shares are recalled or not delivered."
+  }
+ ],
+ "mnemonics": [
+  "Short credit: one hundred fifty percent of the sale.",
+  "Short call point: credit divided by one point three.",
+  "Combined maintenance: twenty-five long plus thirty short."
+ ],
+ "summary": "In a short account, credit = proceeds + 50% Reg T deposit (150% of SMV), with a $2,000 minimum. Equity = credit − SMV, and the credit stays fixed with market moves. FINRA maintenance is 30% of SMV, higher for low-priced stocks. The maximum SMV before a call = credit ÷ 1.3. Excess equity above 50% of SMV creates SMA. Combined equity = (LMV − Dr) + (Cr − SMV). Combined maintenance = 25% LMV + 30% SMV. Short sellers owe dividends and face buy-ins on recalls."
+}

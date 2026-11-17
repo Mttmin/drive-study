@@ -1,0 +1,122 @@
+{
+  "id": "sie-3-07",
+  "exam": "SIE",
+  "section": "SIE-3",
+  "section_title": "Understanding Trading, Customer Accounts and Prohibited Activities",
+  "title": "Anti-Money Laundering",
+  "order": 7,
+  "est_minutes": 5,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Broker-dealers are on the front line against money laundering and terrorist financing. The SIE tests the three stages of laundering, the firm's A M L program, customer identification, the main reports, O F A C, and key sections of the U S A PATRIOT Act. Thresholds and deadlines are fair game, so let's lock them in."
+    },
+    {
+      "type": "narration",
+      "text": "Money laundering disguises illegal money as legitimate in three stages. Placement gets dirty cash into the financial system, for example by depositing it, often in smaller amounts. Layering moves the money through a series of transactions, like wires, account transfers and trades, to hide where it came from. Integration brings the money back into the economy so it looks legitimate, for example by buying real estate or a business. Deliberately breaking cash into smaller amounts to dodge reporting thresholds is structuring, and it's a federal crime on its own, even if the money is legal."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0081"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0526"
+    },
+    {
+      "type": "narration",
+      "text": "Under FINRA Rule thirty-three ten, every firm needs a written A M L program. It must include policies and procedures reasonably designed to detect and report suspicious activity, a designated A M L compliance person, ongoing employee training, independent testing, generally every year, and risk-based customer due diligence, including identifying the beneficial owners of legal entity customers. Senior management must approve the program in writing."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0530"
+    },
+    {
+      "type": "narration",
+      "text": "The Customer Identification Program comes from Section three twenty-six of the PATRIOT Act. Before opening an account, the firm must collect at least the customer's name, date of birth for individuals, a street address, and an identification number, like a Social Security number for U.S. persons. The firm must verify the customer's identity within a reasonable time, and check the customer against government lists of known or suspected terrorists."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0528"
+    },
+    {
+      "type": "narration",
+      "text": "Now the reports. A Currency Transaction Report, or C T R, must be filed for cash transactions over ten thousand dollars in one business day. Multiple cash transactions by or for the same person on the same day must be added together. So six thousand in the morning and five thousand in the afternoon means a C T R. A Suspicious Activity Report, or S A R, must be filed for suspicious transactions of at least five thousand dollars, generally within thirty days of detection. Suspicious means things like no apparent business purpose, attempts to evade reporting, or possible illegal funds. S A Rs are confidential, and you can never tell the customer one was filed. S A Rs, C T Rs and supporting records are kept for five years."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0082"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0525"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0083"
+    },
+    {
+      "type": "narration",
+      "text": "O F A C, the Treasury's Office of Foreign Assets Control, maintains the Specially Designated Nationals list of sanctioned individuals, companies and countries. Firms must check customers and transactions against it. If there's a match, the firm must block or reject the transaction and report it to O F A C, generally within ten business days. There's no minimum dollar amount."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0084"
+    },
+    {
+      "type": "narration",
+      "text": "Two more PATRIOT Act sections. Under Section three fourteen a, FinCEN can send firms a list of subjects suspected of terrorism or money laundering. The firm must search its records and report matches, generally within fourteen days, and keep the request confidential. Section three fourteen b allows financial institutions to voluntarily share information with each other about possible laundering or terrorism, after notifying FinCEN. And Section three fifty-two is the provision that requires A M L programs in the first place."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0532"
+    },
+    {
+      "type": "narration",
+      "text": "Red flags to watch for: a customer who's reluctant to give identification, who's unusually curious about reporting thresholds, who deposits funds and quickly wires them out with little trading, whose activity doesn't match their stated income or business, or who uses multiple accounts with no clear reason. Any of these warrants a closer look and possibly a S A R."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. The stages are placement, layering and integration, and structuring is a crime. A M L programs need procedures, a compliance officer, training, independent testing and customer due diligence. C I P collects name, birth date, address and I D number. C T Rs cover cash over ten thousand dollars in a day, aggregated. S A Rs cover suspicious activity of five thousand or more, are filed within thirty days, and are never disclosed to the subject. O F A C matches are blocked or rejected and reported. Records are kept five years."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Placement",
+      "definition": "Getting illicit cash into the financial system."
+    },
+    {
+      "term": "Layering",
+      "definition": "Moving funds through transactions to obscure their source."
+    },
+    {
+      "term": "Integration",
+      "definition": "Returning laundered funds to the economy as apparently legitimate."
+    },
+    {
+      "term": "Structuring",
+      "definition": "Splitting cash transactions to evade reporting; a crime."
+    },
+    {
+      "term": "CTR",
+      "definition": "Report for cash over $10,000 in one business day, aggregated."
+    },
+    {
+      "term": "SAR",
+      "definition": "Report of suspicious activity of $5,000 or more; filed within 30 days; confidential."
+    },
+    {
+      "term": "CIP",
+      "definition": "Name, date of birth, address, ID number; verified within a reasonable time."
+    },
+    {
+      "term": "OFAC SDN list",
+      "definition": "Sanctions list; block or reject and report matches."
+    }
+  ],
+  "mnemonics": [
+    "Launder like laundry: Place it in, Layer the soap, Integrate the clean clothes.",
+    "CTR is Cash over Ten; SAR is Suspicious at Five."
+  ],
+  "summary": "Money laundering moves through placement, layering and integration, and structuring is itself a crime. Rule 3310 programs need procedures, an AML officer, training, testing and customer due diligence. CIP collects identity basics. CTRs cover cash over $10,000 a day, SARs cover suspicious activity of $5,000 or more and stay confidential, OFAC matches are blocked and reported, and records are kept five years."
+}

@@ -1,0 +1,103 @@
+{
+ "id": "s7-3-05",
+ "exam": "S7",
+ "section": "S7-3",
+ "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+ "title": "Index, currency and yield-based options",
+ "order": 5,
+ "est_minutes": 7,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Not every option is on a single stock. The Series 7 tests options on indexes, currencies, and interest rates. These have three things in common: they usually settle in cash, they use a multiplier, and they let investors hedge risks a single stock can't."
+  },
+  {
+   "type": "narration",
+   "text": "Index options are the most important. A broad-based index, like the S and P five hundred, tracks the overall market. A narrow-based index tracks one sector, like technology or banking. Index options settle in cash, not shares. If an index call is exercised, the writer pays the holder the in-the-money amount times the multiplier, which is usually one hundred. Example: a customer is long one index call with a strike of four thousand nine hundred, and the index settles at four thousand nine hundred fifty. The intrinsic value is fifty points, so the holder receives fifty times one hundred, or five thousand dollars, in cash."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0312"
+  },
+  {
+   "type": "narration",
+   "text": "Settlement timing matters. Most standard index options are European style, exercisable only at expiration, though some are American. Many expire with A M settlement, based on opening prices on the settlement day. Others use P M settlement, based on closing prices. Exercise settles the next business day in cash. The big risk for a writer is timing: an American style index option can be assigned at the end of one day, and the cash amount is set by that day's close. A writer who has hedged with a different instrument can be exposed overnight."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0314"
+  },
+  {
+   "type": "narration",
+   "text": "How do index options help with suitability? A customer with a diversified portfolio that tracks the market faces systematic risk, which diversification can't remove. Buying broad-based index puts hedges that market risk in one position. A portfolio heavy in one sector would use puts on a matching narrow-based index. To figure out how many contracts are needed, divide the portfolio value by the index level times the multiplier, adjusted for the portfolio's beta. Index calls let a bullish investor profit from a market rise without buying every stock. Writing index calls against a diversified portfolio brings in income, but since the portfolio doesn't exactly match the index, the calls aren't truly covered."
+  },
+  {
+   "type": "narration",
+   "text": "Foreign currency options let investors and businesses manage exchange rate risk. The key exam reasoning: if you'll receive foreign currency in the future, you fear the foreign currency falling, so you buy puts on that currency. If you'll have to pay foreign currency in the future, you fear it rising, so you buy calls. For example, a U.S. importer who must pay euros in three months buys euro calls. A U.S. exporter that will be paid in yen buys yen puts. Currency options are quoted against the U.S. dollar and are often settled in cash."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0316"
+  },
+  {
+   "type": "narration",
+   "text": "Interest rate and yield-based options are about bonds. Here's the twist: yield-based options rise and fall with yields, not prices. They settle in cash. A customer who fears rising interest rates and falling bond prices can buy yield-based calls, since the calls gain as yields rise. A customer expecting falling rates would buy yield-based puts, or calls on bond prices. Read the question carefully to see whether the option is on price or on yield."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0318"
+  },
+  {
+   "type": "narration",
+   "text": "Volatility products like options on volatility indexes also exist. These measure expected market volatility and often move opposite the stock market. They're complex and sensitive to time, so they get strong suitability scrutiny."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: index options settle in cash, using the in-the-money amount times the multiplier. Broad-based index puts hedge systematic risk. Receiving foreign currency means buying puts, and paying foreign currency means buying calls. Yield-based options move with rates, so calls protect against rising rates. When in doubt, ask what the customer fears and buy the option that profits from it."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Broad-based index: An index that reflects the overall market, such as the S&P five hundred. Narrow-based index: An index tracking a single sector or industry. Cash settlement: Exercise is settled by paying the in-the-money amount times the multiplier rather than delivering shares. Multiplier: The factor, usually one hundred, that converts index points into dollars. European style: An option that can be exercised only at expiration. Systematic risk: Market-wide risk that diversification cannot eliminate. Yield-based option: A cash-settled option whose value moves with interest rates rather than bond prices. Foreign currency option: An option on an exchange rate, used to hedge receivables or payables in foreign currency."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Broad-based index",
+   "definition": "An index that reflects the overall market, such as the S&P 500."
+  },
+  {
+   "term": "Narrow-based index",
+   "definition": "An index tracking a single sector or industry."
+  },
+  {
+   "term": "Cash settlement",
+   "definition": "Exercise is settled by paying the in-the-money amount times the multiplier rather than delivering shares."
+  },
+  {
+   "term": "Multiplier",
+   "definition": "The factor, usually 100, that converts index points into dollars."
+  },
+  {
+   "term": "European style",
+   "definition": "An option that can be exercised only at expiration."
+  },
+  {
+   "term": "Systematic risk",
+   "definition": "Market-wide risk that diversification cannot eliminate."
+  },
+  {
+   "term": "Yield-based option",
+   "definition": "A cash-settled option whose value moves with interest rates rather than bond prices."
+  },
+  {
+   "term": "Foreign currency option",
+   "definition": "An option on an exchange rate, used to hedge receivables or payables in foreign currency."
+  }
+ ],
+ "mnemonics": [
+  "Receive foreign currency, buy puts. Pay foreign currency, buy calls.",
+  "Yield calls win when rates rise.",
+  "Index exercise equals cash times one hundred."
+ ],
+ "summary": "Index options settle in cash, with the in-the-money amount times the multiplier (usually 100) paid the next business day. Many are European style with AM settlement. Broad-based index puts hedge systematic risk, and narrow-based options match a sector. Writing index calls against a portfolio isn't truly covered. For currency options, receivers of foreign currency buy puts and payers buy calls. Yield-based options move with interest rates, so calls profit when yields rise and hedge falling bond prices."
+}

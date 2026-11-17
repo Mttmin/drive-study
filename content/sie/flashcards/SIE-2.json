@@ -206,5 +206,853 @@
     "front": "Limited vs. general partner",
     "back": "Limited partner: passive, liability limited to the investment. General partner: manages, unlimited liability.",
     "spoken": "Limited vs. general partner. ... Limited partner: passive, liability limited to the investment. General partner: manages, unlimited liability."
+  },
+  {
+    "id": "sie-f-0120",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Value of a right (cum-rights)",
+    "back": "Market price minus subscription price, divided by rights needed plus one.",
+    "spoken": "Value of a right (cum-rights). ... Market price minus subscription price, divided by rights needed plus one."
+  },
+  {
+    "id": "sie-f-0121",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Rights vs. warrants",
+    "back": "Rights: short-term, below market, existing holders. Warrants: long-term, above market at issue, sweeteners.",
+    "spoken": "Rights vs. warrants. ... Rights: short-term, below market, existing holders. Warrants: long-term, above market at issue, sweeteners."
+  },
+  {
+    "id": "sie-f-0122",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "ADR currency risk",
+    "back": "If the dollar strengthens against the foreign currency, the ADR's dollar value and dividends fall.",
+    "spoken": "ADR currency risk. ... If the dollar strengthens against the foreign currency, the ADR's dollar value and dividends fall."
+  },
+  {
+    "id": "sie-f-0123",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Rule 144 holding period",
+    "back": "Six months for restricted stock of a reporting company.",
+    "spoken": "Rule 144 holding period. ... Six months for restricted stock of a reporting company."
+  },
+  {
+    "id": "sie-f-0124",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Rule 144 volume limit",
+    "back": "Per 90 days, the greater of 1% of outstanding shares or the 4-week average weekly volume.",
+    "spoken": "Rule 144 volume limit. ... Per 90 days, the greater of 1 percent of outstanding shares or the 4-week average weekly volume."
+  },
+  {
+    "id": "sie-f-0125",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Form 144 filing trigger",
+    "back": "Sales over 5,000 shares or $50,000 in any 90 days.",
+    "spoken": "Form 144 filing trigger. ... Sales over 5,000 shares or 50,000 dollars in any 90 days."
+  },
+  {
+    "id": "sie-f-0126",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Bond point",
+    "back": "One point equals 1% of par, or $10 on a $1,000 bond.",
+    "spoken": "Bond point. ... One point equals 1 percent of par, or 10 dollars on a 1,000 dollars bond."
+  },
+  {
+    "id": "sie-f-0127",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Basis point",
+    "back": "One hundredth of one percent. 100 basis points equals 1%.",
+    "spoken": "Basis point. ... One hundredth of one percent. 100 basis points equals 1 percent."
+  },
+  {
+    "id": "sie-f-0128",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Current yield",
+    "back": "Annual interest divided by current market price.",
+    "spoken": "Current yield. ... Annual interest divided by current market price."
+  },
+  {
+    "id": "sie-f-0129",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Discount bond yield order",
+    "back": "Nominal, then current, then yield to maturity, then yield to call, from low to high.",
+    "spoken": "Discount bond yield order. ... Nominal, then current, then yield to maturity, then yield to call, from low to high."
+  },
+  {
+    "id": "sie-f-0130",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Premium bond yield order",
+    "back": "Yield to call is lowest, then YTM, then current, then nominal is highest.",
+    "spoken": "Premium bond yield order. ... Yield to call is lowest, then YTM, then current, then nominal is highest."
+  },
+  {
+    "id": "sie-f-0131",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Conversion ratio",
+    "back": "Par divided by conversion price.",
+    "spoken": "Conversion ratio. ... Par divided by conversion price."
+  },
+  {
+    "id": "sie-f-0132",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "When issuers call bonds",
+    "back": "When interest rates fall, so they can refinance cheaper.",
+    "spoken": "When issuers call bonds. ... When interest rates fall, so they can refinance cheaper."
+  },
+  {
+    "id": "sie-f-0133",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Puttable bond",
+    "back": "Investor can sell back to the issuer; lower yield than a comparable non-puttable bond.",
+    "spoken": "Puttable bond. ... Investor can sell back to the issuer, lower yield than a comparable non-puttable bond."
+  },
+  {
+    "id": "sie-f-0134",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Most rate-sensitive bond",
+    "back": "Long maturity, low or zero coupon. A long-term zero is the most volatile.",
+    "spoken": "Most rate-sensitive bond. ... Long maturity, low or zero coupon. A long-term zero is the most volatile."
+  },
+  {
+    "id": "sie-f-0135",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Lowest investment-grade ratings",
+    "back": "BBB minus at S&P, Baa3 at Moody's.",
+    "spoken": "Lowest investment-grade ratings. ... BBB minus at S and P, Baa3 at Moody's."
+  },
+  {
+    "id": "sie-f-0136",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Treasury bill maturities",
+    "back": "One year or less, sold at a discount.",
+    "spoken": "Treasury bill maturities. ... One year or less, sold at a discount."
+  },
+  {
+    "id": "sie-f-0137",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Treasury notes vs. bonds",
+    "back": "Notes: 2 to 10 years. Bonds: 20 or 30 years. Both pay semiannual interest.",
+    "spoken": "Treasury notes vs. bonds. ... Notes: 2 to 10 years. Bonds: 20 or 30 years. Both pay semiannual interest."
+  },
+  {
+    "id": "sie-f-0138",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Treasury taxation",
+    "back": "Federally taxable, exempt from state and local income tax.",
+    "spoken": "Treasury taxation. ... Federally taxable, exempt from state and local income tax."
+  },
+  {
+    "id": "sie-f-0139",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Noncompetitive Treasury bid",
+    "back": "Accepts the auction yield; generally filled up to $10 million per auction.",
+    "spoken": "Noncompetitive Treasury bid. ... Accepts the auction yield, generally filled up to 10 million dollars per auction."
+  },
+  {
+    "id": "sie-f-0140",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "TIPS phantom income",
+    "back": "The annual inflation adjustment to principal is taxed in the year it occurs.",
+    "spoken": "TIPS phantom income. ... The annual inflation adjustment to principal is taxed in the year it occurs."
+  },
+  {
+    "id": "sie-f-0141",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "STRIPS",
+    "back": "Zero-coupon Treasury pieces. No reinvestment risk if held to maturity.",
+    "spoken": "STRIPS. ... Zero-coupon Treasury pieces. No reinvestment risk if held to maturity."
+  },
+  {
+    "id": "sie-f-0142",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "GNMA vs. FNMA and FHLMC",
+    "back": "Ginnie Mae has full faith and credit. Fannie and Freddie are GSEs without that explicit guarantee.",
+    "spoken": "GNMA vs. FNMA and FHLMC. ... Ginnie Mae has full faith and credit. Fannie and Freddie are GSEs without that explicit guarantee."
+  },
+  {
+    "id": "sie-f-0143",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Mortgage-backed interest taxation",
+    "back": "GNMA, FNMA and FHLMC interest is taxable at all levels.",
+    "spoken": "Mortgage-backed interest taxation. ... GNMA, FNMA and FHLMC interest is taxable at all levels."
+  },
+  {
+    "id": "sie-f-0144",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Prepayment vs. extension risk",
+    "back": "Rates fall: principal returns early. Rates rise: payments slow and the life extends.",
+    "spoken": "Prepayment vs. extension risk. ... Rates fall: principal returns early. Rates rise: payments slow and the life extends."
+  },
+  {
+    "id": "sie-f-0145",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "PAC tranche",
+    "back": "The CMO tranche with the most predictable cash flows; companion tranches absorb prepayment changes.",
+    "spoken": "PAC tranche. ... The CMO tranche with the most predictable cash flows, companion tranches absorb prepayment changes."
+  },
+  {
+    "id": "sie-f-0146",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Mortgage bond",
+    "back": "Corporate bond secured by real estate.",
+    "spoken": "Mortgage bond. ... Corporate bond secured by real estate."
+  },
+  {
+    "id": "sie-f-0147",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Equipment trust certificate",
+    "back": "Secured by equipment like aircraft or railcars; used by transportation companies.",
+    "spoken": "Equipment trust certificate. ... Secured by equipment like aircraft or railcars, used by transportation companies."
+  },
+  {
+    "id": "sie-f-0148",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Debenture",
+    "back": "Unsecured bond backed only by the issuer's general credit.",
+    "spoken": "Debenture. ... Unsecured bond backed only by the issuer's general credit."
+  },
+  {
+    "id": "sie-f-0149",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Liquidation priority",
+    "back": "Secured creditors, unsecured creditors, subordinated debt, preferred stock, common stock.",
+    "spoken": "Liquidation priority. ... Secured creditors, unsecured creditors, subordinated debt, preferred stock, common stock."
+  },
+  {
+    "id": "sie-f-0150",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Commercial paper exemption",
+    "back": "Exempt from SEC registration if maturity is 270 days or less.",
+    "spoken": "Commercial paper exemption. ... Exempt from SEC registration if maturity is 270 days or less."
+  },
+  {
+    "id": "sie-f-0151",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Banker's acceptance",
+    "back": "Bank-guaranteed time draft used to finance imports and exports.",
+    "spoken": "Banker's acceptance. ... Bank-guaranteed time draft used to finance imports and exports."
+  },
+  {
+    "id": "sie-f-0152",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Negotiable CD",
+    "back": "Bank CD of $100,000 or more that can trade before maturity.",
+    "spoken": "Negotiable CD. ... Bank CD of 100,000 dollars or more that can trade before maturity."
+  },
+  {
+    "id": "sie-f-0153",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Repurchase agreement",
+    "back": "Dealer sells securities and agrees to buy them back at a higher price; a short-term secured loan.",
+    "spoken": "Repurchase agreement. ... Dealer sells securities and agrees to buy them back at a higher price, a short-term secured loan."
+  },
+  {
+    "id": "sie-f-0154",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Competitive vs. negotiated underwriting",
+    "back": "Competitive: sealed bids, typical for GO munis. Negotiated: chosen underwriter, typical for corporates and revenue bonds.",
+    "spoken": "Competitive vs. negotiated underwriting. ... Competitive: sealed bids, typical for GO munis. Negotiated: chosen underwriter, typical for corporates and revenue bonds."
+  },
+  {
+    "id": "sie-f-0155",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "GO vs. revenue bond",
+    "back": "GO: taxing power, voter approval. Revenue: facility revenue, feasibility study.",
+    "spoken": "GO vs. revenue bond. ... GO: taxing power, voter approval. Revenue: facility revenue, feasibility study."
+  },
+  {
+    "id": "sie-f-0156",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Double-barreled bond",
+    "back": "Revenue bond backed by taxing power as well; rated like a GO.",
+    "spoken": "Double-barreled bond. ... Revenue bond backed by taxing power as well, rated like a GO."
+  },
+  {
+    "id": "sie-f-0157",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Moral obligation bond",
+    "back": "Legislature may, but isn't required to, cover a shortfall.",
+    "spoken": "Moral obligation bond. ... Legislature may, but isn't required to, cover a shortfall."
+  },
+  {
+    "id": "sie-f-0158",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Municipal notes",
+    "back": "TAN: taxes. RAN: revenues. BAN: future bond sale. GAN: grants.",
+    "spoken": "Municipal notes. ... TAN: taxes. RAN: revenues. BAN: future bond sale. GAN: grants."
+  },
+  {
+    "id": "sie-f-0159",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Tax-equivalent yield",
+    "back": "Muni yield divided by 1 minus the tax rate.",
+    "spoken": "Tax-equivalent yield. ... Muni yield divided by 1 minus the tax rate."
+  },
+  {
+    "id": "sie-f-0160",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Muni equivalent of a taxable yield",
+    "back": "Taxable yield times 1 minus the tax rate.",
+    "spoken": "Muni equivalent of a taxable yield. ... Taxable yield times 1 minus the tax rate."
+  },
+  {
+    "id": "sie-f-0161",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Territory bonds",
+    "back": "Puerto Rico, Guam and USVI bond interest is tax-exempt in every state.",
+    "spoken": "Territory bonds. ... Puerto Rico, Guam and USVI bond interest is tax-exempt in every state."
+  },
+  {
+    "id": "sie-f-0162",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Muni official statement",
+    "back": "Disclosure document for a new muni issue, submitted to EMMA.",
+    "spoken": "Muni official statement. ... Disclosure document for a new muni issue, submitted to EMMA."
+  },
+  {
+    "id": "sie-f-0163",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Option buyer vs. writer",
+    "back": "Buyers have rights and pay premium. Writers have obligations and receive premium.",
+    "spoken": "Option buyer vs. writer. ... Buyers have rights and pay premium. Writers have obligations and receive premium."
+  },
+  {
+    "id": "sie-f-0164",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Call and put breakevens",
+    "back": "Call: strike plus premium. Put: strike minus premium. Call Up, Put Down.",
+    "spoken": "Call and put breakevens. ... Call: strike plus premium. Put: strike minus premium. Call Up, Put Down."
+  },
+  {
+    "id": "sie-f-0165",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Bullish and bearish options",
+    "back": "Bullish: long call, short put. Bearish: long put, short call.",
+    "spoken": "Bullish and bearish options. ... Bullish: long call, short put. Bearish: long put, short call."
+  },
+  {
+    "id": "sie-f-0166",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Maximum loss for an option buyer",
+    "back": "The premium paid.",
+    "spoken": "Maximum loss for an option buyer. ... The premium paid."
+  },
+  {
+    "id": "sie-f-0167",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Uncovered call writer risk",
+    "back": "Unlimited.",
+    "spoken": "Uncovered call writer risk. ... Unlimited."
+  },
+  {
+    "id": "sie-f-0168",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Intrinsic and time value",
+    "back": "Intrinsic: in-the-money amount. Time value: premium minus intrinsic.",
+    "spoken": "Intrinsic and time value. ... Intrinsic: in-the-money amount. Time value: premium minus intrinsic."
+  },
+  {
+    "id": "sie-f-0169",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "American vs. European style",
+    "back": "American: exercise anytime. European: only at expiration.",
+    "spoken": "American vs. European style. ... American: exercise anytime. European: only at expiration."
+  },
+  {
+    "id": "sie-f-0170",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Options Clearing Corporation",
+    "back": "Issues and guarantees listed options; publishes the ODD; assigns exercises.",
+    "spoken": "Options Clearing Corporation. ... Issues and guarantees listed options, publishes the ODD, assigns exercises."
+  },
+  {
+    "id": "sie-f-0171",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Rule 2360 account opening",
+    "back": "ODD at or before approval; principal approval; signed agreement within 15 days.",
+    "spoken": "Rule 2360 account opening. ... ODD at or before approval, principal approval, signed agreement within 15 days."
+  },
+  {
+    "id": "sie-f-0172",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Hedging with options",
+    "back": "Long stock: buy puts. Short stock: buy calls.",
+    "spoken": "Hedging with options. ... Long stock: buy puts. Short stock: buy calls."
+  },
+  {
+    "id": "sie-f-0173",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Three types of investment companies",
+    "back": "Face-amount certificate companies, unit investment trusts, and management companies.",
+    "spoken": "Three types of investment companies. ... Face-amount certificate companies, unit investment trusts, and management companies."
+  },
+  {
+    "id": "sie-f-0174",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Open-end vs. closed-end fund",
+    "back": "Open-end: continuous issue and redemption at NAV. Closed-end: fixed shares, trades on an exchange at a premium or discount.",
+    "spoken": "Open-end vs. closed-end fund. ... Open-end: continuous issue and redemption at NAV. Closed-end: fixed shares, trades on an exchange at a premium or discount."
+  },
+  {
+    "id": "sie-f-0175",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Forward pricing",
+    "back": "Mutual fund orders are filled at the next NAV calculated after receipt.",
+    "spoken": "Forward pricing. ... Mutual fund orders are filled at the next NAV calculated after receipt."
+  },
+  {
+    "id": "sie-f-0176",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Mutual fund redemption deadline",
+    "back": "Proceeds generally paid within 7 days.",
+    "spoken": "Mutual fund redemption deadline. ... Proceeds generally paid within 7 days."
+  },
+  {
+    "id": "sie-f-0177",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "NAV per share",
+    "back": "Assets minus liabilities, divided by shares outstanding.",
+    "spoken": "NAV per share. ... Assets minus liabilities, divided by shares outstanding."
+  },
+  {
+    "id": "sie-f-0178",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Diversified fund test",
+    "back": "75-5-10: for 75% of assets, max 5% in one issuer and max 10% of an issuer's voting stock.",
+    "spoken": "Diversified fund test. ... 75-5-10: for 75 percent of assets, max 5 percent in one issuer and max 10 percent of an issuer's voting stock."
+  },
+  {
+    "id": "sie-f-0179",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Mutual fund custodian",
+    "back": "Holds the fund's cash and securities.",
+    "spoken": "Mutual fund custodian. ... Holds the fund's cash and securities."
+  },
+  {
+    "id": "sie-f-0180",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Mutual fund transfer agent",
+    "back": "Keeps shareholder records, issues and redeems shares, sends distributions.",
+    "spoken": "Mutual fund transfer agent. ... Keeps shareholder records, issues and redeems shares, sends distributions."
+  },
+  {
+    "id": "sie-f-0181",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Changing a fund's objective",
+    "back": "Requires a majority vote of outstanding shares.",
+    "spoken": "Changing a fund's objective. ... Requires a majority vote of outstanding shares."
+  },
+  {
+    "id": "sie-f-0182",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Unit investment trust",
+    "back": "Fixed portfolio, no board, no adviser, redeemable units.",
+    "spoken": "Unit investment trust. ... Fixed portfolio, no board, no adviser, redeemable units."
+  },
+  {
+    "id": "sie-f-0183",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Reinvested fund distributions",
+    "back": "Taxable in the year paid; they add to cost basis.",
+    "spoken": "Reinvested fund distributions. ... Taxable in the year paid, they add to cost basis."
+  },
+  {
+    "id": "sie-f-0184",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Maximum mutual fund sales charge",
+    "back": "8.5% of the public offering price.",
+    "spoken": "Maximum mutual fund sales charge. ... 8.5 percent of the public offering price."
+  },
+  {
+    "id": "sie-f-0185",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Sales charge percentage formula",
+    "back": "POP minus NAV, divided by POP.",
+    "spoken": "Sales charge percentage formula. ... POP minus NAV, divided by POP."
+  },
+  {
+    "id": "sie-f-0186",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "12b-1 fee caps",
+    "back": "0.75% distribution plus 0.25% service, 1% total per year.",
+    "spoken": "12b-1 fee caps. ... 0.75 percent distribution plus 0.25 percent service, 1 percent total per year."
+  },
+  {
+    "id": "sie-f-0187",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "No-load label",
+    "back": "No sales charges and 12b-1 fees of 0.25% or less.",
+    "spoken": "No-load label. ... No sales charges and 12b-1 fees of 0.25 percent or less."
+  },
+  {
+    "id": "sie-f-0188",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Class A shares",
+    "back": "Front-end load, breakpoints, lower ongoing fees.",
+    "spoken": "Class A shares. ... Front-end load, breakpoints, lower ongoing fees."
+  },
+  {
+    "id": "sie-f-0189",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Class B shares",
+    "back": "Deferred sales charge that declines; higher 12b-1; converts to A.",
+    "spoken": "Class B shares. ... Deferred sales charge that declines, higher 12b-1, converts to A."
+  },
+  {
+    "id": "sie-f-0190",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Class C shares",
+    "back": "Level load: higher ongoing 12b-1 fees, small short-term deferred charge.",
+    "spoken": "Class C shares. ... Level load: higher ongoing 12b-1 fees, small short-term deferred charge."
+  },
+  {
+    "id": "sie-f-0191",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Letter of intent",
+    "back": "13 months, backdate up to 90 days, not binding.",
+    "spoken": "Letter of intent. ... 13 months, backdate up to 90 days, not binding."
+  },
+  {
+    "id": "sie-f-0192",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Rights of accumulation",
+    "back": "Existing holdings count toward the next breakpoint.",
+    "spoken": "Rights of accumulation. ... Existing holdings count toward the next breakpoint."
+  },
+  {
+    "id": "sie-f-0193",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Breakpoint sale",
+    "back": "Selling just below a breakpoint so the customer pays more. Prohibited.",
+    "spoken": "Breakpoint sale. ... Selling just below a breakpoint so the customer pays more. Prohibited."
+  },
+  {
+    "id": "sie-f-0194",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Fund exchange within a family",
+    "back": "Usually at NAV with no new load, but still a taxable sale.",
+    "spoken": "Fund exchange within a family. ... Usually at NAV with no new load, but still a taxable sale."
+  },
+  {
+    "id": "sie-f-0195",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Fixed vs. variable annuity",
+    "back": "Fixed: insurer bears investment risk; not a security. Variable: owner bears risk; separate account; a security.",
+    "spoken": "Fixed vs. variable annuity. ... Fixed: insurer bears investment risk, not a security. Variable: owner bears risk, separate account, a security."
+  },
+  {
+    "id": "sie-f-0196",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Accumulation vs. annuity units",
+    "back": "Accumulation units before annuitizing; a fixed number of annuity units after.",
+    "spoken": "Accumulation vs. annuity units. ... Accumulation units before annuitizing, a fixed number of annuity units after."
+  },
+  {
+    "id": "sie-f-0197",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Assumed interest rate (AIR)",
+    "back": "Beat it: payment rises. Match it: same. Miss it: payment falls.",
+    "spoken": "Assumed interest rate (AIR). ... Beat it: payment rises. Match it: same. Miss it: payment falls."
+  },
+  {
+    "id": "sie-f-0198",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Highest annuity payout option",
+    "back": "Life only, or straight life.",
+    "spoken": "Highest annuity payout option. ... Life only, or straight life."
+  },
+  {
+    "id": "sie-f-0199",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Annuity withdrawal taxation",
+    "back": "Earnings first, taxed as ordinary income; 10% additional tax before 59 1/2.",
+    "spoken": "Annuity withdrawal taxation. ... Earnings first, taxed as ordinary income, 10 percent additional tax before 59 and a half."
+  },
+  {
+    "id": "sie-f-0200",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Section 1035 exchange",
+    "back": "Tax-free swap of one annuity for another.",
+    "spoken": "Section 1035 exchange. ... Tax-free swap of one annuity for another."
+  },
+  {
+    "id": "sie-f-0201",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "FINRA Rule 2330 principal review",
+    "back": "Approve or reject within 7 business days after the OSJ receives a complete application.",
+    "spoken": "FINRA Rule 2330 principal review. ... Approve or reject within 7 business days after the OSJ receives a complete application."
+  },
+  {
+    "id": "sie-f-0202",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Annuity death benefit tax",
+    "back": "Beneficiary pays ordinary income tax on earnings; no step-up in basis.",
+    "spoken": "Annuity death benefit tax. ... Beneficiary pays ordinary income tax on earnings, no step-up in basis."
+  },
+  {
+    "id": "sie-f-0203",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Municipal fund securities",
+    "back": "529 plans, ABLE accounts and LGIPs (MSRB Rule D-12).",
+    "spoken": "Municipal fund securities. ... 529 plans, ABLE accounts and LGIPs (MSRB Rule D-12)."
+  },
+  {
+    "id": "sie-f-0204",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "529 federal tax treatment",
+    "back": "After-tax contributions, tax-deferred growth, tax-free qualified withdrawals.",
+    "spoken": "529 federal tax treatment. ... After-tax contributions, tax-deferred growth, tax-free qualified withdrawals."
+  },
+  {
+    "id": "sie-f-0205",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "529 non-qualified withdrawal",
+    "back": "Earnings taxed as ordinary income plus a 10% additional tax.",
+    "spoken": "529 non-qualified withdrawal. ... Earnings taxed as ordinary income plus a 10 percent additional tax."
+  },
+  {
+    "id": "sie-f-0206",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "529 owner vs. beneficiary",
+    "back": "Owner controls the account and can change the beneficiary; beneficiary is the student.",
+    "spoken": "529 owner vs. beneficiary. ... Owner controls the account and can change the beneficiary, beneficiary is the student."
+  },
+  {
+    "id": "sie-f-0207",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "529 superfunding (2026)",
+    "back": "Five-year election: up to $95,000 from one donor, based on the $19,000 exclusion.",
+    "spoken": "529 superfunding (2026). ... Five-year election: up to 95,000 dollars from one donor, based on the 19,000 dollars exclusion."
+  },
+  {
+    "id": "sie-f-0208",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "ABLE account",
+    "back": "Tax-advantaged savings for people with disabilities; 2026 annual contribution limit tied to the $19,000 gift exclusion.",
+    "spoken": "ABLE account. ... Tax-advantaged savings for people with disabilities, 2026 annual contribution limit tied to the 19,000 dollars gift exclusion."
+  },
+  {
+    "id": "sie-f-0209",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "LGIP",
+    "back": "State-run pool for local governments' short-term cash; not 1940 Act registered.",
+    "spoken": "LGIP. ... State-run pool for local governments' short-term cash, not 1940 Act registered."
+  },
+  {
+    "id": "sie-f-0210",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "MSRB Rule G-45",
+    "back": "529 and ABLE underwriters report plan data to the MSRB.",
+    "spoken": "MSRB Rule G-45. ... 529 and ABLE underwriters report plan data to the MSRB."
+  },
+  {
+    "id": "sie-f-0211",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "DPP key feature",
+    "back": "Flow-through of income, gains, losses and deductions.",
+    "spoken": "DPP key feature. ... Flow-through of income, gains, losses and deductions."
+  },
+  {
+    "id": "sie-f-0212",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "General vs. limited partner",
+    "back": "GP manages with unlimited liability. LP is passive with limited liability.",
+    "spoken": "General vs. limited partner. ... GP manages with unlimited liability. LP is passive with limited liability."
+  },
+  {
+    "id": "sie-f-0213",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Certificate of limited partnership",
+    "back": "Filed with the state to form the LP.",
+    "spoken": "Certificate of limited partnership. ... Filed with the state to form the LP."
+  },
+  {
+    "id": "sie-f-0214",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Passive loss rule",
+    "back": "Passive losses generally offset only passive income.",
+    "spoken": "Passive loss rule. ... Passive losses generally offset only passive income."
+  },
+  {
+    "id": "sie-f-0215",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Riskiest oil and gas program",
+    "back": "Exploratory, or wildcat, drilling.",
+    "spoken": "Riskiest oil and gas program. ... Exploratory, or wildcat, drilling."
+  },
+  {
+    "id": "sie-f-0216",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "REIT distribution requirement",
+    "back": "At least 90% of taxable income.",
+    "spoken": "REIT distribution requirement. ... At least 90 percent of taxable income."
+  },
+  {
+    "id": "sie-f-0217",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "REIT vs. DPP",
+    "back": "REITs can't pass through losses; DPPs can.",
+    "spoken": "REIT vs. DPP. ... REITs can't pass through losses, DPPs can."
+  },
+  {
+    "id": "sie-f-0218",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Hedge fund investors",
+    "back": "Generally accredited investors through private placements; lock-ups and performance fees.",
+    "spoken": "Hedge fund investors. ... Generally accredited investors through private placements, lock-ups and performance fees."
+  },
+  {
+    "id": "sie-f-0219",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "ETF vs. mutual fund trading",
+    "back": "ETFs trade intraday, allow limit orders, margin and short sales.",
+    "spoken": "ETF vs. mutual fund trading. ... ETFs trade intraday, allow limit orders, margin and short sales."
+  },
+  {
+    "id": "sie-f-0220",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Authorized participant",
+    "back": "Creates and redeems ETF shares, keeping price near NAV.",
+    "spoken": "Authorized participant. ... Creates and redeems ETF shares, keeping price near NAV."
+  },
+  {
+    "id": "sie-f-0221",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "ETN",
+    "back": "Unsecured issuer debt linked to an index; issuer credit risk.",
+    "spoken": "ETN. ... Unsecured issuer debt linked to an index, issuer credit risk."
+  },
+  {
+    "id": "sie-f-0222",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Leveraged and inverse ETFs",
+    "back": "Reset daily; typically unsuitable for buy-and-hold retail investors.",
+    "spoken": "Leveraged and inverse ETFs. ... Reset daily, typically unsuitable for buy-and-hold retail investors."
+  },
+  {
+    "id": "sie-f-0223",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Systematic vs. non-systematic risk",
+    "back": "Systematic: market-wide, can't diversify. Non-systematic: company-specific, can diversify.",
+    "spoken": "Systematic vs. non-systematic risk. ... Systematic: market-wide, can't diversify. Non-systematic: company-specific, can diversify."
+  },
+  {
+    "id": "sie-f-0224",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Beta",
+    "back": "Volatility relative to the market. A beta of 1.5 moves about 1.5 times the market.",
+    "spoken": "Beta. ... Volatility relative to the market. A beta of 1.5 moves about 1.5 times the market."
+  },
+  {
+    "id": "sie-f-0225",
+    "exam": "SIE",
+    "section": "SIE-2",
+    "front": "Dollar-cost averaging",
+    "back": "Fixed amounts at regular intervals; average cost falls below average price.",
+    "spoken": "Dollar-cost averaging. ... Fixed amounts at regular intervals, average cost falls below average price."
   }
 ]

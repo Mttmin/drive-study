@@ -1,0 +1,110 @@
+{
+  "id": "sie-2-02",
+  "exam": "SIE",
+  "section": "SIE-2",
+  "section_title": "Understanding Products and Their Risks",
+  "title": "Rights, Warrants, ADRs and Restricted Stock",
+  "order": 2,
+  "est_minutes": 7,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Last time we covered common and preferred stock. Now we'll look at the equity relatives that show up all over the SIE: subscription rights, warrants, American depositary receipts, and the rules for selling restricted and control stock under Rule one forty-four. Each one has a signature feature the exam keys on, so we'll anchor each to that feature."
+    },
+    {
+      "type": "narration",
+      "text": "Start with rights. When a company with preemptive rights sells new shares, it first offers them to existing shareholders so they can keep their percentage ownership. Each shareholder gets one right per share owned. The offering states how many rights plus how much cash buys one new share, and that cash price, the subscription price, is set below the current market price. That discount is what gives a right its value. Rights are short-term, usually lasting a few weeks, and they're issued directly to shareholders for free. A shareholder who doesn't want more stock has three options: exercise the rights, sell them in the market, or let them expire. Letting them expire is the one bad choice, because the shareholder gets diluted and gets nothing for it."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0242"
+    },
+    {
+      "type": "narration",
+      "text": "Some rights offerings use a standby underwriter. That firm agrees to buy any shares that shareholders don't subscribe for, and then resells them to the public. It guarantees the issuer raises all the money it wants. On the exam, standby means the leftover shares get picked up."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0243"
+    },
+    {
+      "type": "narration",
+      "text": "Now the math. Before the stock goes ex-rights, it trades cum-rights, meaning with the rights attached. The formula for the value of one right is the market price minus the subscription price, divided by the number of rights needed plus one. Say the stock is at forty dollars, and four rights plus thirty-four dollars buys a new share. Forty minus thirty-four is six. Divide by four plus one, which is five. Each right is worth a dollar twenty. The plus one is there because, while the stock trades cum-rights, the market price still includes a right. After the ex-date, you drop the plus one and divide by the number of rights alone, using the ex-rights price."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0241"
+    },
+    {
+      "type": "narration",
+      "text": "Warrants look similar, but flip every feature. A warrant also gives the right to buy stock at a set price, but that price is set above the market price at issue, not below. Warrants are long-term, typically years, and some are perpetual. Companies usually attach them to bonds or preferred stock as a sweetener, which lets the issuer pay a lower interest rate or dividend. Warrants are often detachable and trade on their own. When warrants are exercised, the company issues new shares, which dilutes existing holders. So here's the contrast in one breath: rights are short-term, priced below market and go to existing holders. Warrants are long-term, priced above market at issue, and are used as sweeteners."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0023"
+    },
+    {
+      "type": "narration",
+      "text": "Next, American depositary receipts. An A D R is a receipt issued by a U.S. bank that represents shares of a foreign company held in custody overseas. It lets Americans buy foreign stocks in U.S. dollars on U.S. markets, with U.S. settlement. Dividends are declared in the foreign currency and converted to dollars by the depositary bank, so A D R holders carry currency risk. If the dollar strengthens against the foreign currency, the dollar value of the stock and the dividends falls even if the stock is flat at home. A D R holders may also face foreign withholding taxes and political risk. Sponsored A D Rs are set up with the foreign company's cooperation, and they usually provide shareholder reports and pass through voting rights. Unsponsored ones are created by a bank without the company's involvement."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0024"
+    },
+    {
+      "type": "narration",
+      "text": "Now restricted and control stock. Restricted stock is stock acquired in an unregistered, private transaction, like a Regulation D private placement. Control stock is stock owned by an affiliate, meaning an officer, director, or large holder, generally ten percent or more, regardless of how they got it. A director who buys shares in the open market still holds control stock, because what makes it control stock is who owns it, not how it was bought. Rule one forty-four is the safe harbor for selling both kinds without registering. For restricted stock of a reporting company, there's a six-month holding period before resale. Affiliates face ongoing volume limits on every sale. In any ninety-day period, an affiliate can sell the greater of one percent of the outstanding shares or the average weekly trading volume over the previous four weeks. And an affiliate must file Form one forty-four with the SEC if a sale in any ninety-day period exceeds five thousand shares or fifty thousand dollars."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0025"
+    },
+    {
+      "type": "narration",
+      "text": "Let's run that volume math once. A company has four million shares outstanding. One percent is forty thousand. If the average weekly volume for the past four weeks is thirty-five thousand, the affiliate takes the greater number, forty thousand shares, as the ninety-day limit. If weekly volume were fifty thousand, the limit would be fifty thousand. Always compare the two and take the larger."
+    },
+    {
+      "type": "narration",
+      "text": "Finally, a quick word on stock buybacks. When a company repurchases its own shares in the open market, it could look like price manipulation. SEC Rule ten B eighteen provides a safe harbor if the company follows conditions on manner, timing, price and volume, such as using only one broker per day and limiting daily purchases to a share of average volume. Repurchased shares become treasury stock, which doesn't vote or receive dividends."
+    },
+    {
+      "type": "narration",
+      "text": "Summary. Rights: short-term, below market, one per share, for existing holders, worth market minus subscription over rights plus one before ex-date. Warrants: long-term, above market at issue, sweeteners, dilutive when exercised. A D Rs: foreign stock in U.S. dollars, with currency risk. Rule one forty-four: six-month hold for restricted stock of reporting companies, and affiliates are capped at the greater of one percent or four weeks' average volume, with a Form one forty-four above five thousand shares or fifty thousand dollars."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Subscription right",
+      "definition": "Short-term right for existing holders to buy new shares below market; one right per share."
+    },
+    {
+      "term": "Warrant",
+      "definition": "Long-term right to buy stock at a price set above market at issue; often a sweetener."
+    },
+    {
+      "term": "Standby underwriter",
+      "definition": "Buys shares not taken in a rights offering, then resells them."
+    },
+    {
+      "term": "ADR",
+      "definition": "U.S. bank receipt for foreign shares; trades in dollars and carries currency risk."
+    },
+    {
+      "term": "Restricted stock",
+      "definition": "Acquired in an unregistered transaction; six-month hold for reporting issuers under Rule 144."
+    },
+    {
+      "term": "Control stock",
+      "definition": "Stock held by an affiliate (officer, director, 10%+ holder), however acquired."
+    },
+    {
+      "term": "Rule 144 volume limit",
+      "definition": "Greater of 1% of outstanding shares or 4-week average weekly volume, per 90 days."
+    }
+  ],
+  "mnemonics": [
+    "Rights are Short, Below, for Owners. Warrants are Long, Above, and Sweet.",
+    "Form 144 at 5 and 50: five thousand shares or fifty thousand dollars."
+  ],
+  "summary": "Rights let existing shareholders buy new shares below market for a few weeks, while warrants are long-term sweeteners priced above market at issue. ADRs carry currency risk. Rule 144 sets a six-month hold for restricted stock and volume limits for affiliates."
+}

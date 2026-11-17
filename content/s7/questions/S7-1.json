@@ -267,5 +267,2671 @@
    "principal-approval"
   ],
   "outline_ref": "1.1 Standards and required approvals of public communications"
+ },
+ {
+  "id": "s7-q-0471",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: Any written communication distributed or made available to more than 25 retail investors within any 30-calendar-day period?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "New member filing requirement"
+   },
+   {
+    "key": "B",
+    "text": "Public appearance"
+   },
+   {
+    "key": "C",
+    "text": "Correspondence"
+   },
+   {
+    "key": "D",
+    "text": "Retail communication"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: any written communication distributed or made available to more than twenty-five retail investors within any thirty-calendar-day period?",
+  "explanation": "Retail communication is any written communication distributed or made available to more than 25 retail investors within any 30-calendar-day period. New member filing requirement: is a requirement that a new firm file retail communications with FINRA at least 10 business days before first use during its first year. Correspondence: is any written communication distributed to 25 or fewer retail investors within any 30-calendar-day period. Public appearance: is participation in a seminar, webinar, forum, interview or other public speaking activity, which is not itself a written communication.",
+  "spoken_explanation": "The answer is Retail communication: any written communication distributed or made available to more than twenty-five retail investors within any thirty-calendar-day period. Don't confuse it with New member filing requirement, which is a requirement that a new firm file retail communications with FINRA at least ten business days before first use during its first year.",
+  "tags": [
+   "concept",
+   "communications"
+  ],
+  "outline_ref": "1.1 Types of communications; standards and approvals (FINRA 2210)"
+ },
+ {
+  "id": "s7-q-0472",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-01",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Retail communication is a written communication distributed only to institutional investors, which needs supervisory procedures but not prior principal approval.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. Retail communication is a written communication distributed only to institutional investors, which needs supervisory procedures but not prior principal approval.",
+  "explanation": "False. That describes Institutional communication. Retail communication is any written communication distributed or made available to more than 25 retail investors within any 30-calendar-day period.",
+  "spoken_explanation": "False. That describes Institutional communication. Retail communication is actually any written communication distributed or made available to more than twenty-five retail investors within any thirty-calendar-day period. Know the three categories by audience and size: retail communication, correspondence, institutional communication. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "communications"
+  ],
+  "outline_ref": "1.1 Types of communications; standards and approvals (FINRA 2210)"
+ },
+ {
+  "id": "s7-q-0473",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: Any written communication distributed to 25 or fewer retail investors within any 30-calendar-day period?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Correspondence"
+   },
+   {
+    "key": "B",
+    "text": "Public appearance"
+   },
+   {
+    "key": "C",
+    "text": "New member filing requirement"
+   },
+   {
+    "key": "D",
+    "text": "Institutional communication"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: any written communication distributed to twenty-five or fewer retail investors within any thirty-calendar-day period?",
+  "explanation": "Correspondence is any written communication distributed to 25 or fewer retail investors within any 30-calendar-day period. Public appearance: is participation in a seminar, webinar, forum, interview or other public speaking activity, which is not itself a written communication. New member filing requirement: is a requirement that a new firm file retail communications with FINRA at least 10 business days before first use during its first year. Institutional communication: is a written communication distributed only to institutional investors, which needs supervisory procedures but not prior principal approval.",
+  "spoken_explanation": "The answer is Correspondence: any written communication distributed to twenty-five or fewer retail investors within any thirty-calendar-day period. Don't confuse it with Public appearance, which is participation in a seminar, webinar, forum, interview or other public speaking activity, which is not itself a written communication. Know the three categories by audience and size: retail communication, correspondence, institutional communication.",
+  "tags": [
+   "concept",
+   "communications"
+  ],
+  "outline_ref": "1.1 Types of communications; standards and approvals (FINRA 2210)"
+ },
+ {
+  "id": "s7-q-0474",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-01",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Correspondence is participation in a seminar, webinar, forum, interview or other public speaking activity, which is not itself a written communication.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. Correspondence is participation in a seminar, webinar, forum, interview or other public speaking activity, which is not itself a written communication.",
+  "explanation": "False. That describes Public appearance. Correspondence is any written communication distributed to 25 or fewer retail investors within any 30-calendar-day period.",
+  "spoken_explanation": "False. That describes Public appearance. Correspondence is actually any written communication distributed to twenty-five or fewer retail investors within any thirty-calendar-day period. Know the three categories by audience and size: retail communication, correspondence, institutional communication. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "communications"
+  ],
+  "outline_ref": "1.1 Types of communications; standards and approvals (FINRA 2210)"
+ },
+ {
+  "id": "s7-q-0475",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A written communication distributed only to institutional investors, which needs supervisory procedures but not prior principal approval?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Retail investor"
+   },
+   {
+    "key": "B",
+    "text": "New member filing requirement"
+   },
+   {
+    "key": "C",
+    "text": "Independently prepared reprint"
+   },
+   {
+    "key": "D",
+    "text": "Institutional communication"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: a written communication distributed only to institutional investors, which needs supervisory procedures but not prior principal approval?",
+  "explanation": "Institutional communication is a written communication distributed only to institutional investors, which needs supervisory procedures but not prior principal approval. Independently prepared reprint: is an article issued by an unaffiliated publisher that a firm redistributes, which is treated as a retail communication. New member filing requirement: is a requirement that a new firm file retail communications with FINRA at least 10 business days before first use during its first year. Retail investor: is under FINRA's communications rule, any person other than an institutional investor, whether or not the person has an account.",
+  "spoken_explanation": "The answer is Institutional communication: a written communication distributed only to institutional investors, which needs supervisory procedures but not prior principal approval. Don't confuse it with Independently prepared reprint, which is an article issued by an unaffiliated publisher that a firm redistributes, which is treated as a retail communication.",
+  "tags": [
+   "concept",
+   "communications"
+  ],
+  "outline_ref": "1.1 Types of communications; standards and approvals (FINRA 2210)"
+ },
+ {
+  "id": "s7-q-0476",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: Under FINRA's communications rule, any person other than an institutional investor, whether or not the person has an account?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Testimonial"
+   },
+   {
+    "key": "B",
+    "text": "Retail investor"
+   },
+   {
+    "key": "C",
+    "text": "Independently prepared reprint"
+   },
+   {
+    "key": "D",
+    "text": "New member filing requirement"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: under FINRA's communications rule, any person other than an institutional investor, whether or not the person has an account?",
+  "explanation": "Retail investor is under FINRA's communications rule, any person other than an institutional investor, whether or not the person has an account. New member filing requirement: is a requirement that a new firm file retail communications with FINRA at least 10 business days before first use during its first year. Independently prepared reprint: is an article issued by an unaffiliated publisher that a firm redistributes, which is treated as a retail communication. Testimonial: is a statement by a customer or other person about their experience with a firm or representative, which must disclose if more than 100 dollars was paid for it.",
+  "spoken_explanation": "The answer is Retail investor: under FINRA's communications rule, any person other than an institutional investor, whether or not the person has an account. Don't confuse it with New member filing requirement, which is a requirement that a new firm file retail communications with FINRA at least ten business days before first use during its first year.",
+  "tags": [
+   "concept",
+   "communications"
+  ],
+  "outline_ref": "1.1 Types of communications; standards and approvals (FINRA 2210)"
+ },
+ {
+  "id": "s7-q-0477",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: Participation in a seminar, webinar, forum, interview or other public speaking activity, which is not itself a written communication?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Independently prepared reprint"
+   },
+   {
+    "key": "B",
+    "text": "Institutional communication"
+   },
+   {
+    "key": "C",
+    "text": "Public appearance"
+   },
+   {
+    "key": "D",
+    "text": "Correspondence"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: participation in a seminar, webinar, forum, interview or other public speaking activity, which is not itself a written communication?",
+  "explanation": "Public appearance is participation in a seminar, webinar, forum, interview or other public speaking activity, which is not itself a written communication. Institutional communication: is a written communication distributed only to institutional investors, which needs supervisory procedures but not prior principal approval. Correspondence: is any written communication distributed to 25 or fewer retail investors within any 30-calendar-day period. Independently prepared reprint: is an article issued by an unaffiliated publisher that a firm redistributes, which is treated as a retail communication.",
+  "spoken_explanation": "The answer is Public appearance: participation in a seminar, webinar, forum, interview or other public speaking activity, which is not itself a written communication. Don't confuse it with Institutional communication, which is a written communication distributed only to institutional investors, which needs supervisory procedures but not prior principal approval.",
+  "tags": [
+   "concept",
+   "communications"
+  ],
+  "outline_ref": "1.1 Types of communications; standards and approvals (FINRA 2210)"
+ },
+ {
+  "id": "s7-q-0478",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A statement by a customer or other person about their experience with a firm or representative, which must disclose if more than 100 dollars was paid for it?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "New member filing requirement"
+   },
+   {
+    "key": "B",
+    "text": "Testimonial"
+   },
+   {
+    "key": "C",
+    "text": "Retail investor"
+   },
+   {
+    "key": "D",
+    "text": "Correspondence"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: a statement by a customer or other person about their experience with a firm or representative, which must disclose if more than one hundred dollars was paid for it?",
+  "explanation": "Testimonial is a statement by a customer or other person about their experience with a firm or representative, which must disclose if more than 100 dollars was paid for it. Retail investor: is under FINRA's communications rule, any person other than an institutional investor, whether or not the person has an account. Correspondence: is any written communication distributed to 25 or fewer retail investors within any 30-calendar-day period. New member filing requirement: is a requirement that a new firm file retail communications with FINRA at least 10 business days before first use during its first year.",
+  "spoken_explanation": "The answer is Testimonial: a statement by a customer or other person about their experience with a firm or representative, which must disclose if more than one hundred dollars was paid for it. Don't confuse it with Retail investor, which is under FINRA's communications rule, any person other than an institutional investor, whether or not the person has an account.",
+  "tags": [
+   "concept",
+   "communications"
+  ],
+  "outline_ref": "1.1 Types of communications; standards and approvals (FINRA 2210)"
+ },
+ {
+  "id": "s7-q-0479",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A requirement that a new firm file retail communications with FINRA at least 10 business days before first use during its first year?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Retail investor"
+   },
+   {
+    "key": "B",
+    "text": "Retail communication"
+   },
+   {
+    "key": "C",
+    "text": "New member filing requirement"
+   },
+   {
+    "key": "D",
+    "text": "Testimonial"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: a requirement that a new firm file retail communications with FINRA at least ten business days before first use during its first year?",
+  "explanation": "New member filing requirement is a requirement that a new firm file retail communications with FINRA at least 10 business days before first use during its first year. Testimonial: is a statement by a customer or other person about their experience with a firm or representative, which must disclose if more than 100 dollars was paid for it. Retail communication: is any written communication distributed or made available to more than 25 retail investors within any 30-calendar-day period. Retail investor: is under FINRA's communications rule, any person other than an institutional investor, whether or not the person has an account.",
+  "spoken_explanation": "The answer is New member filing requirement: a requirement that a new firm file retail communications with FINRA at least ten business days before first use during its first year. Don't confuse it with Testimonial, which is a statement by a customer or other person about their experience with a firm or representative, which must disclose if more than one hundred dollars was paid for it.",
+  "tags": [
+   "concept",
+   "communications"
+  ],
+  "outline_ref": "1.1 Types of communications; standards and approvals (FINRA 2210)"
+ },
+ {
+  "id": "s7-q-0480",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-01",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: New member filing requirement is a requirement that a new firm file retail communications with FINRA at least 10 business days before first use during its first year.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "True or false. New member filing requirement is a requirement that a new firm file retail communications with FINRA at least ten business days before first use during its first year.",
+  "explanation": "True. New member filing requirement is a requirement that a new firm file retail communications with FINRA at least 10 business days before first use during its first year.",
+  "spoken_explanation": "True. New member filing requirement is a requirement that a new firm file retail communications with FINRA at least ten business days before first use during its first year. Know the three categories by audience and size: retail communication, correspondence, institutional communication. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "communications"
+  ],
+  "outline_ref": "1.1 Types of communications; standards and approvals (FINRA 2210)"
+ },
+ {
+  "id": "s7-q-0481",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An article issued by an unaffiliated publisher that a firm redistributes, which is treated as a retail communication?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "New member filing requirement"
+   },
+   {
+    "key": "B",
+    "text": "Retail investor"
+   },
+   {
+    "key": "C",
+    "text": "Retail communication"
+   },
+   {
+    "key": "D",
+    "text": "Independently prepared reprint"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: an article issued by an unaffiliated publisher that a firm redistributes, which is treated as a retail communication?",
+  "explanation": "Independently prepared reprint is an article issued by an unaffiliated publisher that a firm redistributes, which is treated as a retail communication. Retail investor: is under FINRA's communications rule, any person other than an institutional investor, whether or not the person has an account. New member filing requirement: is a requirement that a new firm file retail communications with FINRA at least 10 business days before first use during its first year. Retail communication: is any written communication distributed or made available to more than 25 retail investors within any 30-calendar-day period.",
+  "spoken_explanation": "The answer is Independently prepared reprint: an article issued by an unaffiliated publisher that a firm redistributes, which is treated as a retail communication. Don't confuse it with Retail investor, which is under FINRA's communications rule, any person other than an institutional investor, whether or not the person has an account.",
+  "tags": [
+   "concept",
+   "communications"
+  ],
+  "outline_ref": "1.1 Types of communications; standards and approvals (FINRA 2210)"
+ },
+ {
+  "id": "s7-q-0482",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The OCC booklet called Characteristics and Risks of Standardized Options, delivered at or before options account approval?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Rule 482 advertisement"
+   },
+   {
+    "key": "B",
+    "text": "Options Disclosure Document"
+   },
+   {
+    "key": "C",
+    "text": "Investment company ranking"
+   },
+   {
+    "key": "D",
+    "text": "SEC Rule 156"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: the OCC booklet called Characteristics and Risks of Standardized Options, delivered at or before options account approval?",
+  "explanation": "Options Disclosure Document is the OCC booklet called Characteristics and Risks of Standardized Options, delivered at or before options account approval. SEC Rule 156: is the SEC rule that bars investment company sales literature from being materially misleading. Investment company ranking: is a comparison of a fund's performance to peers that, in retail communications, must come from an independent ranking entity. Rule 482 advertisement: is an investment company ad that may contain information not in the prospectus, but must urge investors to read the prospectus and show standardized performance if performance appears.",
+  "spoken_explanation": "The answer is Options Disclosure Document: the OCC booklet called Characteristics and Risks of Standardized Options, delivered at or before options account approval. Don't confuse it with SEC Rule one hundred fifty-six, which is the SEC rule that bars investment company sales literature from being materially misleading.",
+  "tags": [
+   "concept",
+   "communications"
+  ],
+  "outline_ref": "1.1 Product-specific advertisements and disclosures"
+ },
+ {
+  "id": "s7-q-0483",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-02",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Options Disclosure Document is the OCC booklet called Characteristics and Risks of Standardized Options, delivered at or before options account approval.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "True or false. Options Disclosure Document is the OCC booklet called Characteristics and Risks of Standardized Options, delivered at or before options account approval.",
+  "explanation": "True. Options Disclosure Document is the OCC booklet called Characteristics and Risks of Standardized Options, delivered at or before options account approval.",
+  "spoken_explanation": "True. Options Disclosure Document is the OCC booklet called Characteristics and Risks of Standardized Options, delivered at or before options account approval. Product rules add extra disclosures on top of the general communications standards. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "communications"
+  ],
+  "outline_ref": "1.1 Product-specific advertisements and disclosures"
+ },
+ {
+  "id": "s7-q-0484",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A short-form open-end fund prospectus with key facts, permitted under SEC Rule 498, with the full prospectus available on request?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Rule 482 advertisement"
+   },
+   {
+    "key": "B",
+    "text": "SEC Rule 156"
+   },
+   {
+    "key": "C",
+    "text": "Summary prospectus"
+   },
+   {
+    "key": "D",
+    "text": "CMO communication rule"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: a short-form open-end fund prospectus with key facts, permitted under SEC Rule four hundred ninety-eight, with the full prospectus available on request?",
+  "explanation": "Summary prospectus is a short-form open-end fund prospectus with key facts, permitted under SEC Rule 498, with the full prospectus available on request. Rule 482 advertisement: is an investment company ad that may contain information not in the prospectus, but must urge investors to read the prospectus and show standardized performance if performance appears. SEC Rule 156: is the SEC rule that bars investment company sales literature from being materially misleading. CMO communication rule: is the FINRA requirement that CMO communications use the term collateralized mortgage obligation and never compare CMOs to any other investment, such as CDs.",
+  "spoken_explanation": "The answer is Summary prospectus: a short-form open-end fund prospectus with key facts, permitted under SEC Rule four hundred ninety-eight, with the full prospectus available on request. Don't confuse it with Rule four hundred eighty-two advertisement, which is an investment company ad that may contain information not in the prospectus, but must urge investors to read the prospectus and show standardized performance if performance appears.",
+  "tags": [
+   "concept",
+   "communications"
+  ],
+  "outline_ref": "1.1 Product-specific advertisements and disclosures"
+ },
+ {
+  "id": "s7-q-0485",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An investment company ad that may contain information not in the prospectus, but must urge investors to read the prospectus and show standardized performance if performance appears?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Options Disclosure Document"
+   },
+   {
+    "key": "B",
+    "text": "Quiet period"
+   },
+   {
+    "key": "C",
+    "text": "Rule 482 advertisement"
+   },
+   {
+    "key": "D",
+    "text": "CMO communication rule"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: an investment company ad that may contain information not in the prospectus, but must urge investors to read the prospectus and show standardized performance if performance appears?",
+  "explanation": "Rule 482 advertisement is an investment company ad that may contain information not in the prospectus, but must urge investors to read the prospectus and show standardized performance if performance appears. CMO communication rule: is the FINRA requirement that CMO communications use the term collateralized mortgage obligation and never compare CMOs to any other investment, such as CDs. Options Disclosure Document: is the OCC booklet called Characteristics and Risks of Standardized Options, delivered at or before options account approval. Quiet period: is a period around an offering during which the underwriters' research reports and research analysts' public appearances are restricted.",
+  "spoken_explanation": "The answer is Rule four hundred eighty-two advertisement: an investment company ad that may contain information not in the prospectus, but must urge investors to read the prospectus and show standardized performance if performance appears. Don't confuse it with CMO communication rule, which is the FINRA requirement that CMO communications use the term collateralized mortgage obligation and never compare CMOs to any other investment, such as CDs.",
+  "tags": [
+   "concept",
+   "communications"
+  ],
+  "outline_ref": "1.1 Product-specific advertisements and disclosures"
+ },
+ {
+  "id": "s7-q-0486",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The SEC rule that bars investment company sales literature from being materially misleading?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Quiet period"
+   },
+   {
+    "key": "B",
+    "text": "SEC Rule 156"
+   },
+   {
+    "key": "C",
+    "text": "Summary prospectus"
+   },
+   {
+    "key": "D",
+    "text": "Rule 482 advertisement"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: the SEC rule that bars investment company sales literature from being materially misleading?",
+  "explanation": "SEC Rule 156 is the SEC rule that bars investment company sales literature from being materially misleading. Rule 482 advertisement: is an investment company ad that may contain information not in the prospectus, but must urge investors to read the prospectus and show standardized performance if performance appears. Summary prospectus: is a short-form open-end fund prospectus with key facts, permitted under SEC Rule 498, with the full prospectus available on request. Quiet period: is a period around an offering during which the underwriters' research reports and research analysts' public appearances are restricted.",
+  "spoken_explanation": "The answer is SEC Rule one hundred fifty-six: the SEC rule that bars investment company sales literature from being materially misleading. Don't confuse it with Rule four hundred eighty-two advertisement, which is an investment company ad that may contain information not in the prospectus, but must urge investors to read the prospectus and show standardized performance if performance appears.",
+  "tags": [
+   "concept",
+   "communications"
+  ],
+  "outline_ref": "1.1 Product-specific advertisements and disclosures"
+ },
+ {
+  "id": "s7-q-0487",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A period around an offering during which the underwriters' research reports and research analysts' public appearances are restricted?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Quiet period"
+   },
+   {
+    "key": "B",
+    "text": "Bond fund volatility rating"
+   },
+   {
+    "key": "C",
+    "text": "Rule 482 advertisement"
+   },
+   {
+    "key": "D",
+    "text": "CMO communication rule"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: a period around an offering during which the underwriters' research reports and research analysts' public appearances are restricted?",
+  "explanation": "Quiet period is a period around an offering during which the underwriters' research reports and research analysts' public appearances are restricted. Rule 482 advertisement: is an investment company ad that may contain information not in the prospectus, but must urge investors to read the prospectus and show standardized performance if performance appears. Bond fund volatility rating: is a description of a bond fund's sensitivity to changing market conditions, permitted in communications only under specific FINRA conditions. CMO communication rule: is the FINRA requirement that CMO communications use the term collateralized mortgage obligation and never compare CMOs to any other investment, such as CDs.",
+  "spoken_explanation": "The answer is Quiet period: a period around an offering during which the underwriters' research reports and research analysts' public appearances are restricted. Don't confuse it with Rule four hundred eighty-two advertisement, which is an investment company ad that may contain information not in the prospectus, but must urge investors to read the prospectus and show standardized performance if performance appears.",
+  "tags": [
+   "concept",
+   "communications"
+  ],
+  "outline_ref": "1.1 Product-specific advertisements and disclosures"
+ },
+ {
+  "id": "s7-q-0488",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A description of a bond fund's sensitivity to changing market conditions, permitted in communications only under specific FINRA conditions?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Bond fund volatility rating"
+   },
+   {
+    "key": "B",
+    "text": "Summary prospectus"
+   },
+   {
+    "key": "C",
+    "text": "CMO communication rule"
+   },
+   {
+    "key": "D",
+    "text": "Investment company ranking"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: a description of a bond fund's sensitivity to changing market conditions, permitted in communications only under specific FINRA conditions?",
+  "explanation": "Bond fund volatility rating is a description of a bond fund's sensitivity to changing market conditions, permitted in communications only under specific FINRA conditions. CMO communication rule: is the FINRA requirement that CMO communications use the term collateralized mortgage obligation and never compare CMOs to any other investment, such as CDs. Investment company ranking: is a comparison of a fund's performance to peers that, in retail communications, must come from an independent ranking entity. Summary prospectus: is a short-form open-end fund prospectus with key facts, permitted under SEC Rule 498, with the full prospectus available on request.",
+  "spoken_explanation": "The answer is Bond fund volatility rating: a description of a bond fund's sensitivity to changing market conditions, permitted in communications only under specific FINRA conditions. Don't confuse it with CMO communication rule, which is the FINRA requirement that CMO communications use the term collateralized mortgage obligation and never compare CMOs to any other investment, such as CDs.",
+  "tags": [
+   "concept",
+   "communications"
+  ],
+  "outline_ref": "1.1 Product-specific advertisements and disclosures"
+ },
+ {
+  "id": "s7-q-0489",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The FINRA requirement that CMO communications use the term collateralized mortgage obligation and never compare CMOs to any other investment, such as CDs?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Summary prospectus"
+   },
+   {
+    "key": "B",
+    "text": "CMO communication rule"
+   },
+   {
+    "key": "C",
+    "text": "Investment company ranking"
+   },
+   {
+    "key": "D",
+    "text": "Rule 482 advertisement"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: the FINRA requirement that CMO communications use the term collateralized mortgage obligation and never compare CMOs to any other investment, such as CDs?",
+  "explanation": "CMO communication rule is the FINRA requirement that CMO communications use the term collateralized mortgage obligation and never compare CMOs to any other investment, such as CDs. Summary prospectus: is a short-form open-end fund prospectus with key facts, permitted under SEC Rule 498, with the full prospectus available on request. Rule 482 advertisement: is an investment company ad that may contain information not in the prospectus, but must urge investors to read the prospectus and show standardized performance if performance appears. Investment company ranking: is a comparison of a fund's performance to peers that, in retail communications, must come from an independent ranking entity.",
+  "spoken_explanation": "The answer is CMO communication rule: the FINRA requirement that CMO communications use the term collateralized mortgage obligation and never compare CMOs to any other investment, such as CDs. Don't confuse it with Summary prospectus, which is a short-form open-end fund prospectus with key facts, permitted under SEC Rule four hundred ninety-eight, with the full prospectus available on request.",
+  "tags": [
+   "concept",
+   "communications"
+  ],
+  "outline_ref": "1.1 Product-specific advertisements and disclosures"
+ },
+ {
+  "id": "s7-q-0490",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-02",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: CMO communication rule is a short-form open-end fund prospectus with key facts, permitted under SEC Rule 498, with the full prospectus available on request.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. CMO communication rule is a short-form open-end fund prospectus with key facts, permitted under SEC Rule four hundred ninety-eight, with the full prospectus available on request.",
+  "explanation": "False. That describes Summary prospectus. CMO communication rule is the FINRA requirement that CMO communications use the term collateralized mortgage obligation and never compare CMOs to any other investment, such as CDs.",
+  "spoken_explanation": "False. That describes Summary prospectus. CMO communication rule is actually the FINRA requirement that CMO communications use the term collateralized mortgage obligation and never compare CMOs to any other investment, such as CDs. Product rules add extra disclosures on top of the general communications standards. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "communications"
+  ],
+  "outline_ref": "1.1 Product-specific advertisements and disclosures"
+ },
+ {
+  "id": "s7-q-0491",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "communications",
+  "lesson_id": "s7-1-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A comparison of a fund's performance to peers that, in retail communications, must come from an independent ranking entity?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "CMO communication rule"
+   },
+   {
+    "key": "B",
+    "text": "Summary prospectus"
+   },
+   {
+    "key": "C",
+    "text": "Investment company ranking"
+   },
+   {
+    "key": "D",
+    "text": "Rule 482 advertisement"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: a comparison of a fund's performance to peers that, in retail communications, must come from an independent ranking entity?",
+  "explanation": "Investment company ranking is a comparison of a fund's performance to peers that, in retail communications, must come from an independent ranking entity. Summary prospectus: is a short-form open-end fund prospectus with key facts, permitted under SEC Rule 498, with the full prospectus available on request. Rule 482 advertisement: is an investment company ad that may contain information not in the prospectus, but must urge investors to read the prospectus and show standardized performance if performance appears. CMO communication rule: is the FINRA requirement that CMO communications use the term collateralized mortgage obligation and never compare CMOs to any other investment, such as CDs.",
+  "spoken_explanation": "The answer is Investment company ranking: a comparison of a fund's performance to peers that, in retail communications, must come from an independent ranking entity. Don't confuse it with Summary prospectus, which is a short-form open-end fund prospectus with key facts, permitted under SEC Rule four hundred ninety-eight, with the full prospectus available on request.",
+  "tags": [
+   "concept",
+   "communications"
+  ],
+  "outline_ref": "1.1 Product-specific advertisements and disclosures"
+ },
+ {
+  "id": "s7-q-0492",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "new-issues",
+  "lesson_id": "s7-1-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The disclosure document an issuer files with the SEC under the Securities Act of 1933 before a public offering?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Cooling-off period"
+   },
+   {
+    "key": "B",
+    "text": "Firm commitment underwriting"
+   },
+   {
+    "key": "C",
+    "text": "Registration statement"
+   },
+   {
+    "key": "D",
+    "text": "Final prospectus"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: the disclosure document an issuer files with the SEC under the Securities Act of one thousand nine hundred thirty-three before a public offering?",
+  "explanation": "Registration statement is the disclosure document an issuer files with the SEC under the Securities Act of 1933 before a public offering. Final prospectus: is the offering document that includes the public offering price and must be delivered no later than confirmation of the sale. Cooling-off period: is the period of at least 20 days between filing a registration statement and its effective date, when no sales may be made. Firm commitment underwriting: is an underwriting in which the syndicate buys the whole issue from the issuer and bears the risk of unsold shares.",
+  "spoken_explanation": "The answer is Registration statement: the disclosure document an issuer files with the SEC under the Securities Act of one thousand nine hundred thirty-three before a public offering. Don't confuse it with Final prospectus, which is the offering document that includes the public offering price and must be delivered no later than confirmation of the sale.",
+  "tags": [
+   "concept",
+   "new-issues"
+  ],
+  "outline_ref": "1.2 Process for bringing new issues to market; prospectus requirements"
+ },
+ {
+  "id": "s7-q-0493",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "new-issues",
+  "lesson_id": "s7-1-03",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Registration statement is the disclosure document an issuer files with the SEC under the Securities Act of 1933 before a public offering.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "True or false. Registration statement is the disclosure document an issuer files with the SEC under the Securities Act of one thousand nine hundred thirty-three before a public offering.",
+  "explanation": "True. Registration statement is the disclosure document an issuer files with the SEC under the Securities Act of 1933 before a public offering.",
+  "spoken_explanation": "True. Registration statement is the disclosure document an issuer files with the SEC under the Securities Act of one thousand nine hundred thirty-three before a public offering. Walk the timeline: pre-filing, filing, cooling-off, effective date, then the aftermarket. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "new-issues"
+  ],
+  "outline_ref": "1.2 Process for bringing new issues to market; prospectus requirements"
+ },
+ {
+  "id": "s7-q-0494",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "new-issues",
+  "lesson_id": "s7-1-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The period of at least 20 days between filing a registration statement and its effective date, when no sales may be made?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Firm commitment underwriting"
+   },
+   {
+    "key": "B",
+    "text": "Stabilizing bid"
+   },
+   {
+    "key": "C",
+    "text": "Final prospectus"
+   },
+   {
+    "key": "D",
+    "text": "Cooling-off period"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: the period of at least twenty days between filing a registration statement and its effective date, when no sales may be made?",
+  "explanation": "Cooling-off period is the period of at least 20 days between filing a registration statement and its effective date, when no sales may be made. Stabilizing bid: is a bid entered by the managing underwriter at or below the public offering price to support an issue's price in the aftermarket. Firm commitment underwriting: is an underwriting in which the syndicate buys the whole issue from the issuer and bears the risk of unsold shares. Final prospectus: is the offering document that includes the public offering price and must be delivered no later than confirmation of the sale.",
+  "spoken_explanation": "The answer is Cooling-off period: the period of at least twenty days between filing a registration statement and its effective date, when no sales may be made. Don't confuse it with Stabilizing bid, which is a bid entered by the managing underwriter at or below the public offering price to support an issue's price in the aftermarket.",
+  "tags": [
+   "concept",
+   "new-issues"
+  ],
+  "outline_ref": "1.2 Process for bringing new issues to market; prospectus requirements"
+ },
+ {
+  "id": "s7-q-0495",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "new-issues",
+  "lesson_id": "s7-1-03",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Cooling-off period is the period of at least 20 days between filing a registration statement and its effective date, when no sales may be made.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "True or false. Cooling-off period is the period of at least twenty days between filing a registration statement and its effective date, when no sales may be made.",
+  "explanation": "True. Cooling-off period is the period of at least 20 days between filing a registration statement and its effective date, when no sales may be made.",
+  "spoken_explanation": "True. Cooling-off period is the period of at least twenty days between filing a registration statement and its effective date, when no sales may be made. Walk the timeline: pre-filing, filing, cooling-off, effective date, then the aftermarket. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "new-issues"
+  ],
+  "outline_ref": "1.2 Process for bringing new issues to market; prospectus requirements"
+ },
+ {
+  "id": "s7-q-0496",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "new-issues",
+  "lesson_id": "s7-1-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The preliminary prospectus, which omits the final offering price and carries a legend that the registration is not yet effective?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Standby underwriting"
+   },
+   {
+    "key": "B",
+    "text": "Red herring"
+   },
+   {
+    "key": "C",
+    "text": "Free writing prospectus"
+   },
+   {
+    "key": "D",
+    "text": "Firm commitment underwriting"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: the preliminary prospectus, which omits the final offering price and carries a legend that the registration is not yet effective?",
+  "explanation": "Red herring is the preliminary prospectus, which omits the final offering price and carries a legend that the registration is not yet effective. Firm commitment underwriting: is an underwriting in which the syndicate buys the whole issue from the issuer and bears the risk of unsold shares. Free writing prospectus: is a written offer that is not a statutory prospectus, permitted after the registration statement is filed under conditions in SEC rules. Standby underwriting: is an agreement to buy any shares left unsubscribed at the end of a rights offering.",
+  "spoken_explanation": "The answer is Red herring: the preliminary prospectus, which omits the final offering price and carries a legend that the registration is not yet effective. Don't confuse it with Firm commitment underwriting, which is an underwriting in which the syndicate buys the whole issue from the issuer and bears the risk of unsold shares.",
+  "tags": [
+   "concept",
+   "new-issues"
+  ],
+  "outline_ref": "1.2 Process for bringing new issues to market; prospectus requirements"
+ },
+ {
+  "id": "s7-q-0497",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "new-issues",
+  "lesson_id": "s7-1-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The offering document that includes the public offering price and must be delivered no later than confirmation of the sale?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Best efforts underwriting"
+   },
+   {
+    "key": "B",
+    "text": "Blue-sky laws"
+   },
+   {
+    "key": "C",
+    "text": "Stabilizing bid"
+   },
+   {
+    "key": "D",
+    "text": "Final prospectus"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: the offering document that includes the public offering price and must be delivered no later than confirmation of the sale?",
+  "explanation": "Final prospectus is the offering document that includes the public offering price and must be delivered no later than confirmation of the sale. Blue-sky laws: is state securities laws that require offerings to be registered or qualified in each state where they are sold. Best efforts underwriting: is an underwriting in which the underwriter acts as agent and returns any unsold securities to the issuer. Stabilizing bid: is a bid entered by the managing underwriter at or below the public offering price to support an issue's price in the aftermarket.",
+  "spoken_explanation": "The answer is Final prospectus: the offering document that includes the public offering price and must be delivered no later than confirmation of the sale. Don't confuse it with Blue-sky laws, which is state securities laws that require offerings to be registered or qualified in each state where they are sold.",
+  "tags": [
+   "concept",
+   "new-issues"
+  ],
+  "outline_ref": "1.2 Process for bringing new issues to market; prospectus requirements"
+ },
+ {
+  "id": "s7-q-0498",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "new-issues",
+  "lesson_id": "s7-1-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The meeting during the cooling-off period where underwriters review the issuer's disclosures to establish a reasonable basis for the offering?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Regulation M"
+   },
+   {
+    "key": "B",
+    "text": "Free writing prospectus"
+   },
+   {
+    "key": "C",
+    "text": "Due diligence meeting"
+   },
+   {
+    "key": "D",
+    "text": "Tombstone ad"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: the meeting during the cooling-off period where underwriters review the issuer's disclosures to establish a reasonable basis for the offering?",
+  "explanation": "Due diligence meeting is the meeting during the cooling-off period where underwriters review the issuer's disclosures to establish a reasonable basis for the offering. Tombstone ad: is a simple announcement of an offering listing the issuer, the security, the price and where a prospectus can be obtained. Free writing prospectus: is a written offer that is not a statutory prospectus, permitted after the registration statement is filed under conditions in SEC rules. Regulation M: is the SEC rules that restrict underwriters and issuers from bidding for or buying the offered security during a distribution, with exceptions such as stabilization.",
+  "spoken_explanation": "The answer is Due diligence meeting: the meeting during the cooling-off period where underwriters review the issuer's disclosures to establish a reasonable basis for the offering. Don't confuse it with Tombstone ad, which is a simple announcement of an offering listing the issuer, the security, the price and where a prospectus can be obtained.",
+  "tags": [
+   "concept",
+   "new-issues"
+  ],
+  "outline_ref": "1.2 Process for bringing new issues to market; prospectus requirements"
+ },
+ {
+  "id": "s7-q-0499",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "new-issues",
+  "lesson_id": "s7-1-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: State securities laws that require offerings to be registered or qualified in each state where they are sold?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Free writing prospectus"
+   },
+   {
+    "key": "B",
+    "text": "Regulation M"
+   },
+   {
+    "key": "C",
+    "text": "All-or-none underwriting"
+   },
+   {
+    "key": "D",
+    "text": "Blue-sky laws"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: state securities laws that require offerings to be registered or qualified in each state where they are sold?",
+  "explanation": "Blue-sky laws is state securities laws that require offerings to be registered or qualified in each state where they are sold. Regulation M: is the SEC rules that restrict underwriters and issuers from bidding for or buying the offered security during a distribution, with exceptions such as stabilization. All-or-none underwriting: is a best efforts underwriting that is canceled and funds returned if the entire issue is not sold. Free writing prospectus: is a written offer that is not a statutory prospectus, permitted after the registration statement is filed under conditions in SEC rules.",
+  "spoken_explanation": "The answer is Blue-sky laws: state securities laws that require offerings to be registered or qualified in each state where they are sold. Don't confuse it with Regulation M, which is the SEC rules that restrict underwriters and issuers from bidding for or buying the offered security during a distribution, with exceptions such as stabilization.",
+  "tags": [
+   "concept",
+   "new-issues"
+  ],
+  "outline_ref": "1.2 Process for bringing new issues to market; prospectus requirements"
+ },
+ {
+  "id": "s7-q-0500",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "new-issues",
+  "lesson_id": "s7-1-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An underwriting in which the syndicate buys the whole issue from the issuer and bears the risk of unsold shares?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Due diligence meeting"
+   },
+   {
+    "key": "B",
+    "text": "Best efforts underwriting"
+   },
+   {
+    "key": "C",
+    "text": "Firm commitment underwriting"
+   },
+   {
+    "key": "D",
+    "text": "Stabilizing bid"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: an underwriting in which the syndicate buys the whole issue from the issuer and bears the risk of unsold shares?",
+  "explanation": "Firm commitment underwriting is an underwriting in which the syndicate buys the whole issue from the issuer and bears the risk of unsold shares. Stabilizing bid: is a bid entered by the managing underwriter at or below the public offering price to support an issue's price in the aftermarket. Due diligence meeting: is the meeting during the cooling-off period where underwriters review the issuer's disclosures to establish a reasonable basis for the offering. Best efforts underwriting: is an underwriting in which the underwriter acts as agent and returns any unsold securities to the issuer.",
+  "spoken_explanation": "The answer is Firm commitment underwriting: an underwriting in which the syndicate buys the whole issue from the issuer and bears the risk of unsold shares. Don't confuse it with Stabilizing bid, which is a bid entered by the managing underwriter at or below the public offering price to support an issue's price in the aftermarket.",
+  "tags": [
+   "concept",
+   "new-issues"
+  ],
+  "outline_ref": "1.2 Process for bringing new issues to market; prospectus requirements"
+ },
+ {
+  "id": "s7-q-0501",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "new-issues",
+  "lesson_id": "s7-1-03",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Firm commitment underwriting is an underwriting in which the syndicate buys the whole issue from the issuer and bears the risk of unsold shares.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "True or false. Firm commitment underwriting is an underwriting in which the syndicate buys the whole issue from the issuer and bears the risk of unsold shares.",
+  "explanation": "True. Firm commitment underwriting is an underwriting in which the syndicate buys the whole issue from the issuer and bears the risk of unsold shares.",
+  "spoken_explanation": "True. Firm commitment underwriting is an underwriting in which the syndicate buys the whole issue from the issuer and bears the risk of unsold shares. Walk the timeline: pre-filing, filing, cooling-off, effective date, then the aftermarket. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "new-issues"
+  ],
+  "outline_ref": "1.2 Process for bringing new issues to market; prospectus requirements"
+ },
+ {
+  "id": "s7-q-0502",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "new-issues",
+  "lesson_id": "s7-1-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An underwriting in which the underwriter acts as agent and returns any unsold securities to the issuer?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Regulation M"
+   },
+   {
+    "key": "B",
+    "text": "Best efforts underwriting"
+   },
+   {
+    "key": "C",
+    "text": "Tombstone ad"
+   },
+   {
+    "key": "D",
+    "text": "Cooling-off period"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: an underwriting in which the underwriter acts as agent and returns any unsold securities to the issuer?",
+  "explanation": "Best efforts underwriting is an underwriting in which the underwriter acts as agent and returns any unsold securities to the issuer. Regulation M: is the SEC rules that restrict underwriters and issuers from bidding for or buying the offered security during a distribution, with exceptions such as stabilization. Tombstone ad: is a simple announcement of an offering listing the issuer, the security, the price and where a prospectus can be obtained. Cooling-off period: is the period of at least 20 days between filing a registration statement and its effective date, when no sales may be made.",
+  "spoken_explanation": "The answer is Best efforts underwriting: an underwriting in which the underwriter acts as agent and returns any unsold securities to the issuer. Don't confuse it with Regulation M, which is the SEC rules that restrict underwriters and issuers from bidding for or buying the offered security during a distribution, with exceptions such as stabilization.",
+  "tags": [
+   "concept",
+   "new-issues"
+  ],
+  "outline_ref": "1.2 Process for bringing new issues to market; prospectus requirements"
+ },
+ {
+  "id": "s7-q-0503",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "new-issues",
+  "lesson_id": "s7-1-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A best efforts underwriting that is canceled and funds returned if the entire issue is not sold?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Regulation M"
+   },
+   {
+    "key": "B",
+    "text": "All-or-none underwriting"
+   },
+   {
+    "key": "C",
+    "text": "Red herring"
+   },
+   {
+    "key": "D",
+    "text": "Firm commitment underwriting"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: a best efforts underwriting that is canceled and funds returned if the entire issue is not sold?",
+  "explanation": "All-or-none underwriting is a best efforts underwriting that is canceled and funds returned if the entire issue is not sold. Firm commitment underwriting: is an underwriting in which the syndicate buys the whole issue from the issuer and bears the risk of unsold shares. Regulation M: is the SEC rules that restrict underwriters and issuers from bidding for or buying the offered security during a distribution, with exceptions such as stabilization. Red herring: is the preliminary prospectus, which omits the final offering price and carries a legend that the registration is not yet effective.",
+  "spoken_explanation": "The answer is All-or-none underwriting: a best efforts underwriting that is canceled and funds returned if the entire issue is not sold. Don't confuse it with Firm commitment underwriting, which is an underwriting in which the syndicate buys the whole issue from the issuer and bears the risk of unsold shares.",
+  "tags": [
+   "concept",
+   "new-issues"
+  ],
+  "outline_ref": "1.2 Process for bringing new issues to market; prospectus requirements"
+ },
+ {
+  "id": "s7-q-0504",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "new-issues",
+  "lesson_id": "s7-1-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An agreement to buy any shares left unsubscribed at the end of a rights offering?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Standby underwriting"
+   },
+   {
+    "key": "B",
+    "text": "Final prospectus"
+   },
+   {
+    "key": "C",
+    "text": "Firm commitment underwriting"
+   },
+   {
+    "key": "D",
+    "text": "All-or-none underwriting"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: an agreement to buy any shares left unsubscribed at the end of a rights offering?",
+  "explanation": "Standby underwriting is an agreement to buy any shares left unsubscribed at the end of a rights offering. Firm commitment underwriting: is an underwriting in which the syndicate buys the whole issue from the issuer and bears the risk of unsold shares. All-or-none underwriting: is a best efforts underwriting that is canceled and funds returned if the entire issue is not sold. Final prospectus: is the offering document that includes the public offering price and must be delivered no later than confirmation of the sale.",
+  "spoken_explanation": "The answer is Standby underwriting: an agreement to buy any shares left unsubscribed at the end of a rights offering. Don't confuse it with Firm commitment underwriting, which is an underwriting in which the syndicate buys the whole issue from the issuer and bears the risk of unsold shares.",
+  "tags": [
+   "concept",
+   "new-issues"
+  ],
+  "outline_ref": "1.2 Process for bringing new issues to market; prospectus requirements"
+ },
+ {
+  "id": "s7-q-0505",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "new-issues",
+  "lesson_id": "s7-1-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A bid entered by the managing underwriter at or below the public offering price to support an issue's price in the aftermarket?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Stabilizing bid"
+   },
+   {
+    "key": "B",
+    "text": "All-or-none underwriting"
+   },
+   {
+    "key": "C",
+    "text": "Registration statement"
+   },
+   {
+    "key": "D",
+    "text": "Red herring"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: a bid entered by the managing underwriter at or below the public offering price to support an issue's price in the aftermarket?",
+  "explanation": "Stabilizing bid is a bid entered by the managing underwriter at or below the public offering price to support an issue's price in the aftermarket. Red herring: is the preliminary prospectus, which omits the final offering price and carries a legend that the registration is not yet effective. All-or-none underwriting: is a best efforts underwriting that is canceled and funds returned if the entire issue is not sold. Registration statement: is the disclosure document an issuer files with the SEC under the Securities Act of 1933 before a public offering.",
+  "spoken_explanation": "The answer is Stabilizing bid: a bid entered by the managing underwriter at or below the public offering price to support an issue's price in the aftermarket. Don't confuse it with Red herring, which is the preliminary prospectus, which omits the final offering price and carries a legend that the registration is not yet effective.",
+  "tags": [
+   "concept",
+   "new-issues"
+  ],
+  "outline_ref": "1.2 Process for bringing new issues to market; prospectus requirements"
+ },
+ {
+  "id": "s7-q-0506",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "new-issues",
+  "lesson_id": "s7-1-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A simple announcement of an offering listing the issuer, the security, the price and where a prospectus can be obtained?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "All-or-none underwriting"
+   },
+   {
+    "key": "B",
+    "text": "Free writing prospectus"
+   },
+   {
+    "key": "C",
+    "text": "Stabilizing bid"
+   },
+   {
+    "key": "D",
+    "text": "Tombstone ad"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: a simple announcement of an offering listing the issuer, the security, the price and where a prospectus can be obtained?",
+  "explanation": "Tombstone ad is a simple announcement of an offering listing the issuer, the security, the price and where a prospectus can be obtained. Free writing prospectus: is a written offer that is not a statutory prospectus, permitted after the registration statement is filed under conditions in SEC rules. Stabilizing bid: is a bid entered by the managing underwriter at or below the public offering price to support an issue's price in the aftermarket. All-or-none underwriting: is a best efforts underwriting that is canceled and funds returned if the entire issue is not sold.",
+  "spoken_explanation": "The answer is Tombstone ad: a simple announcement of an offering listing the issuer, the security, the price and where a prospectus can be obtained. Don't confuse it with Free writing prospectus, which is a written offer that is not a statutory prospectus, permitted after the registration statement is filed under conditions in SEC rules.",
+  "tags": [
+   "concept",
+   "new-issues"
+  ],
+  "outline_ref": "1.2 Process for bringing new issues to market; prospectus requirements"
+ },
+ {
+  "id": "s7-q-0507",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "new-issues",
+  "lesson_id": "s7-1-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The SEC rules that restrict underwriters and issuers from bidding for or buying the offered security during a distribution, with exceptions such as stabilization?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Registration statement"
+   },
+   {
+    "key": "B",
+    "text": "Due diligence meeting"
+   },
+   {
+    "key": "C",
+    "text": "Stabilizing bid"
+   },
+   {
+    "key": "D",
+    "text": "Regulation M"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: the SEC rules that restrict underwriters and issuers from bidding for or buying the offered security during a distribution, with exceptions such as stabilization?",
+  "explanation": "Regulation M is the SEC rules that restrict underwriters and issuers from bidding for or buying the offered security during a distribution, with exceptions such as stabilization. Registration statement: is the disclosure document an issuer files with the SEC under the Securities Act of 1933 before a public offering. Due diligence meeting: is the meeting during the cooling-off period where underwriters review the issuer's disclosures to establish a reasonable basis for the offering. Stabilizing bid: is a bid entered by the managing underwriter at or below the public offering price to support an issue's price in the aftermarket.",
+  "spoken_explanation": "The answer is Regulation M: the SEC rules that restrict underwriters and issuers from bidding for or buying the offered security during a distribution, with exceptions such as stabilization. Don't confuse it with Registration statement, which is the disclosure document an issuer files with the SEC under the Securities Act of one thousand nine hundred thirty-three before a public offering.",
+  "tags": [
+   "concept",
+   "new-issues"
+  ],
+  "outline_ref": "1.2 Process for bringing new issues to market; prospectus requirements"
+ },
+ {
+  "id": "s7-q-0508",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "new-issues",
+  "lesson_id": "s7-1-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A written offer that is not a statutory prospectus, permitted after the registration statement is filed under conditions in SEC rules?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Regulation M"
+   },
+   {
+    "key": "B",
+    "text": "Tombstone ad"
+   },
+   {
+    "key": "C",
+    "text": "Free writing prospectus"
+   },
+   {
+    "key": "D",
+    "text": "Firm commitment underwriting"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: a written offer that is not a statutory prospectus, permitted after the registration statement is filed under conditions in SEC rules?",
+  "explanation": "Free writing prospectus is a written offer that is not a statutory prospectus, permitted after the registration statement is filed under conditions in SEC rules. Regulation M: is the SEC rules that restrict underwriters and issuers from bidding for or buying the offered security during a distribution, with exceptions such as stabilization. Tombstone ad: is a simple announcement of an offering listing the issuer, the security, the price and where a prospectus can be obtained. Firm commitment underwriting: is an underwriting in which the syndicate buys the whole issue from the issuer and bears the risk of unsold shares.",
+  "spoken_explanation": "The answer is Free writing prospectus: a written offer that is not a statutory prospectus, permitted after the registration statement is filed under conditions in SEC rules. Don't confuse it with Regulation M, which is the SEC rules that restrict underwriters and issuers from bidding for or buying the offered security during a distribution, with exceptions such as stabilization.",
+  "tags": [
+   "concept",
+   "new-issues"
+  ],
+  "outline_ref": "1.2 Process for bringing new issues to market; prospectus requirements"
+ },
+ {
+  "id": "s7-q-0509",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "exempt-offerings",
+  "lesson_id": "s7-1-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The Regulation D private placement exemption that bars general solicitation and allows up to 35 non-accredited but sophisticated purchasers?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Rule 144"
+   },
+   {
+    "key": "B",
+    "text": "Rule 506(b)"
+   },
+   {
+    "key": "C",
+    "text": "Exempt security"
+   },
+   {
+    "key": "D",
+    "text": "Regulation Crowdfunding"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: the Regulation D private placement exemption that bars general solicitation and allows up to thirty-five non-accredited but sophisticated purchasers?",
+  "explanation": "Rule 506(b) is the Regulation D private placement exemption that bars general solicitation and allows up to 35 non-accredited but sophisticated purchasers. Rule 144: is the SEC rule governing public resales of restricted and control securities, including holding periods and volume limits. Exempt security: is a security that is not required to register with the SEC, such as a U.S. government or municipal bond. Regulation Crowdfunding: is the exemption that lets small issuers raise limited amounts online through a registered funding portal or broker-dealer.",
+  "spoken_explanation": "The answer is Rule five hundred six(b): the Regulation D private placement exemption that bars general solicitation and allows up to thirty-five non-accredited but sophisticated purchasers. Don't confuse it with Rule one hundred forty-four, which is the SEC rule governing public resales of restricted and control securities, including holding periods and volume limits.",
+  "tags": [
+   "concept",
+   "exempt-offerings"
+  ],
+  "outline_ref": "1.2 Exempt securities and transactions; Regulation A, D, S; Rule 144A"
+ },
+ {
+  "id": "s7-q-0510",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "exempt-offerings",
+  "lesson_id": "s7-1-04",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Rule 506(b) is the Regulation D private placement exemption that bars general solicitation and allows up to 35 non-accredited but sophisticated purchasers.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "True or false. Rule five hundred six(b) is the Regulation D private placement exemption that bars general solicitation and allows up to thirty-five non-accredited but sophisticated purchasers.",
+  "explanation": "True. Rule 506(b) is the Regulation D private placement exemption that bars general solicitation and allows up to 35 non-accredited but sophisticated purchasers.",
+  "spoken_explanation": "True. Rule five hundred six(b) is the Regulation D private placement exemption that bars general solicitation and allows up to thirty-five non-accredited but sophisticated purchasers. Separate exempt securities, like munis and Treasuries, from exempt transactions, like private placements. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "exempt-offerings"
+  ],
+  "outline_ref": "1.2 Exempt securities and transactions; Regulation A, D, S; Rule 144A"
+ },
+ {
+  "id": "s7-q-0511",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "exempt-offerings",
+  "lesson_id": "s7-1-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The Regulation D exemption that permits general solicitation if every purchaser is accredited and the issuer takes reasonable steps to verify it?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Rule 144A"
+   },
+   {
+    "key": "B",
+    "text": "Rule 506(c)"
+   },
+   {
+    "key": "C",
+    "text": "Restricted securities"
+   },
+   {
+    "key": "D",
+    "text": "Rule 147"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: the Regulation D exemption that permits general solicitation if every purchaser is accredited and the issuer takes reasonable steps to verify it?",
+  "explanation": "Rule 506(c) is the Regulation D exemption that permits general solicitation if every purchaser is accredited and the issuer takes reasonable steps to verify it. Restricted securities: is securities acquired in an unregistered private transaction that cannot be resold publicly until a holding period is met. Rule 144A: is the exemption that allows resales of unregistered securities to qualified institutional buyers. Rule 147: is an intrastate offering exemption requiring the issuer and all purchasers to be in one state, with resales to nonresidents limited for six months.",
+  "spoken_explanation": "The answer is Rule five hundred six(c): the Regulation D exemption that permits general solicitation if every purchaser is accredited and the issuer takes reasonable steps to verify it. Don't confuse it with Restricted securities, which is securities acquired in an unregistered private transaction that cannot be resold publicly until a holding period is met.",
+  "tags": [
+   "concept",
+   "exempt-offerings"
+  ],
+  "outline_ref": "1.2 Exempt securities and transactions; Regulation A, D, S; Rule 144A"
+ },
+ {
+  "id": "s7-q-0512",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "exempt-offerings",
+  "lesson_id": "s7-1-04",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Rule 506(c) is the Regulation D exemption that permits general solicitation if every purchaser is accredited and the issuer takes reasonable steps to verify it.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "True or false. Rule five hundred six(c) is the Regulation D exemption that permits general solicitation if every purchaser is accredited and the issuer takes reasonable steps to verify it.",
+  "explanation": "True. Rule 506(c) is the Regulation D exemption that permits general solicitation if every purchaser is accredited and the issuer takes reasonable steps to verify it.",
+  "spoken_explanation": "True. Rule five hundred six(c) is the Regulation D exemption that permits general solicitation if every purchaser is accredited and the issuer takes reasonable steps to verify it. Separate exempt securities, like munis and Treasuries, from exempt transactions, like private placements. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "exempt-offerings"
+  ],
+  "outline_ref": "1.2 Exempt securities and transactions; Regulation A, D, S; Rule 144A"
+ },
+ {
+  "id": "s7-q-0513",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "exempt-offerings",
+  "lesson_id": "s7-1-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A small-issue exemption that uses an offering circular and has two tiers, with Tier 2 allowing up to 75 million dollars in 12 months?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Regulation A"
+   },
+   {
+    "key": "B",
+    "text": "Rule 506(c)"
+   },
+   {
+    "key": "C",
+    "text": "Rule 147"
+   },
+   {
+    "key": "D",
+    "text": "Restricted securities"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: a small-issue exemption that uses an offering circular and has two tiers, with Tier two allowing up to seventy-five million dollars in twelve months?",
+  "explanation": "Regulation A is a small-issue exemption that uses an offering circular and has two tiers, with Tier 2 allowing up to 75 million dollars in 12 months. Rule 147: is an intrastate offering exemption requiring the issuer and all purchasers to be in one state, with resales to nonresidents limited for six months. Rule 506(c): is the Regulation D exemption that permits general solicitation if every purchaser is accredited and the issuer takes reasonable steps to verify it. Restricted securities: is securities acquired in an unregistered private transaction that cannot be resold publicly until a holding period is met.",
+  "spoken_explanation": "The answer is Regulation A: a small-issue exemption that uses an offering circular and has two tiers, with Tier two allowing up to seventy-five million dollars in twelve months. Don't confuse it with Rule one hundred forty-seven, which is an intrastate offering exemption requiring the issuer and all purchasers to be in one state, with resales to nonresidents limited for six months.",
+  "tags": [
+   "concept",
+   "exempt-offerings"
+  ],
+  "outline_ref": "1.2 Exempt securities and transactions; Regulation A, D, S; Rule 144A"
+ },
+ {
+  "id": "s7-q-0514",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "exempt-offerings",
+  "lesson_id": "s7-1-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An intrastate offering exemption requiring the issuer and all purchasers to be in one state, with resales to nonresidents limited for six months?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Restricted securities"
+   },
+   {
+    "key": "B",
+    "text": "Control securities"
+   },
+   {
+    "key": "C",
+    "text": "Rule 144A"
+   },
+   {
+    "key": "D",
+    "text": "Rule 147"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: an intrastate offering exemption requiring the issuer and all purchasers to be in one state, with resales to nonresidents limited for six months?",
+  "explanation": "Rule 147 is an intrastate offering exemption requiring the issuer and all purchasers to be in one state, with resales to nonresidents limited for six months. Control securities: is securities held by an officer, director or 10 percent or more shareholder of the issuer, which must be sold under Rule 144 limits. Rule 144A: is the exemption that allows resales of unregistered securities to qualified institutional buyers. Restricted securities: is securities acquired in an unregistered private transaction that cannot be resold publicly until a holding period is met.",
+  "spoken_explanation": "The answer is Rule one hundred forty-seven: an intrastate offering exemption requiring the issuer and all purchasers to be in one state, with resales to nonresidents limited for six months. Don't confuse it with Control securities, which is securities held by an officer, director or ten percent or more shareholder of the issuer, which must be sold under Rule one hundred forty-four limits.",
+  "tags": [
+   "concept",
+   "exempt-offerings"
+  ],
+  "outline_ref": "1.2 Exempt securities and transactions; Regulation A, D, S; Rule 144A"
+ },
+ {
+  "id": "s7-q-0515",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "exempt-offerings",
+  "lesson_id": "s7-1-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The SEC rule governing public resales of restricted and control securities, including holding periods and volume limits?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Rule 144"
+   },
+   {
+    "key": "B",
+    "text": "Rule 147"
+   },
+   {
+    "key": "C",
+    "text": "Rule 506(b)"
+   },
+   {
+    "key": "D",
+    "text": "Regulation Crowdfunding"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: the SEC rule governing public resales of restricted and control securities, including holding periods and volume limits?",
+  "explanation": "Rule 144 is the SEC rule governing public resales of restricted and control securities, including holding periods and volume limits. Rule 506(b): is the Regulation D private placement exemption that bars general solicitation and allows up to 35 non-accredited but sophisticated purchasers. Rule 147: is an intrastate offering exemption requiring the issuer and all purchasers to be in one state, with resales to nonresidents limited for six months. Regulation Crowdfunding: is the exemption that lets small issuers raise limited amounts online through a registered funding portal or broker-dealer.",
+  "spoken_explanation": "The answer is Rule one hundred forty-four: the SEC rule governing public resales of restricted and control securities, including holding periods and volume limits. Don't confuse it with Rule five hundred six(b), which is the Regulation D private placement exemption that bars general solicitation and allows up to thirty-five non-accredited but sophisticated purchasers.",
+  "tags": [
+   "concept",
+   "exempt-offerings"
+  ],
+  "outline_ref": "1.2 Exempt securities and transactions; Regulation A, D, S; Rule 144A"
+ },
+ {
+  "id": "s7-q-0516",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "exempt-offerings",
+  "lesson_id": "s7-1-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The exemption that allows resales of unregistered securities to qualified institutional buyers?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Rule 144A"
+   },
+   {
+    "key": "B",
+    "text": "Regulation A"
+   },
+   {
+    "key": "C",
+    "text": "Regulation S"
+   },
+   {
+    "key": "D",
+    "text": "Rule 506(c)"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: the exemption that allows resales of unregistered securities to qualified institutional buyers?",
+  "explanation": "Rule 144A is the exemption that allows resales of unregistered securities to qualified institutional buyers. Regulation S: is the exemption for offers and sales made outside the United States without SEC registration. Rule 506(c): is the Regulation D exemption that permits general solicitation if every purchaser is accredited and the issuer takes reasonable steps to verify it. Regulation A: is a small-issue exemption that uses an offering circular and has two tiers, with Tier 2 allowing up to 75 million dollars in 12 months.",
+  "spoken_explanation": "The answer is Rule 144A: the exemption that allows resales of unregistered securities to qualified institutional buyers. Don't confuse it with Regulation S, which is the exemption for offers and sales made outside the United States without SEC registration. Separate exempt securities, like munis and Treasuries, from exempt transactions, like private placements.",
+  "tags": [
+   "concept",
+   "exempt-offerings"
+  ],
+  "outline_ref": "1.2 Exempt securities and transactions; Regulation A, D, S; Rule 144A"
+ },
+ {
+  "id": "s7-q-0517",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "exempt-offerings",
+  "lesson_id": "s7-1-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An institution that owns and invests at least 100 million dollars in securities of unaffiliated issuers, eligible to buy under Rule 144A?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Regulation Crowdfunding"
+   },
+   {
+    "key": "B",
+    "text": "Restricted securities"
+   },
+   {
+    "key": "C",
+    "text": "Rule 506(c)"
+   },
+   {
+    "key": "D",
+    "text": "Qualified institutional buyer"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: an institution that owns and invests at least one hundred million dollars in securities of unaffiliated issuers, eligible to buy under Rule 144A?",
+  "explanation": "Qualified institutional buyer is an institution that owns and invests at least 100 million dollars in securities of unaffiliated issuers, eligible to buy under Rule 144A. Regulation Crowdfunding: is the exemption that lets small issuers raise limited amounts online through a registered funding portal or broker-dealer. Restricted securities: is securities acquired in an unregistered private transaction that cannot be resold publicly until a holding period is met. Rule 506(c): is the Regulation D exemption that permits general solicitation if every purchaser is accredited and the issuer takes reasonable steps to verify it.",
+  "spoken_explanation": "The answer is Qualified institutional buyer: an institution that owns and invests at least one hundred million dollars in securities of unaffiliated issuers, eligible to buy under Rule 144A. Don't confuse it with Regulation Crowdfunding, which is the exemption that lets small issuers raise limited amounts online through a registered funding portal or broker-dealer.",
+  "tags": [
+   "concept",
+   "exempt-offerings"
+  ],
+  "outline_ref": "1.2 Exempt securities and transactions; Regulation A, D, S; Rule 144A"
+ },
+ {
+  "id": "s7-q-0518",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "exempt-offerings",
+  "lesson_id": "s7-1-04",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Qualified institutional buyer is an institution that owns and invests at least 100 million dollars in securities of unaffiliated issuers, eligible to buy under Rule 144A.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "True or false. Qualified institutional buyer is an institution that owns and invests at least one hundred million dollars in securities of unaffiliated issuers, eligible to buy under Rule 144A.",
+  "explanation": "True. Qualified institutional buyer is an institution that owns and invests at least 100 million dollars in securities of unaffiliated issuers, eligible to buy under Rule 144A.",
+  "spoken_explanation": "True. Qualified institutional buyer is an institution that owns and invests at least one hundred million dollars in securities of unaffiliated issuers, eligible to buy under Rule 144A. Separate exempt securities, like munis and Treasuries, from exempt transactions, like private placements. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "exempt-offerings"
+  ],
+  "outline_ref": "1.2 Exempt securities and transactions; Regulation A, D, S; Rule 144A"
+ },
+ {
+  "id": "s7-q-0519",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "exempt-offerings",
+  "lesson_id": "s7-1-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The exemption for offers and sales made outside the United States without SEC registration?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Rule 147"
+   },
+   {
+    "key": "B",
+    "text": "Regulation Crowdfunding"
+   },
+   {
+    "key": "C",
+    "text": "Control securities"
+   },
+   {
+    "key": "D",
+    "text": "Regulation S"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: the exemption for offers and sales made outside the United States without SEC registration?",
+  "explanation": "Regulation S is the exemption for offers and sales made outside the United States without SEC registration. Control securities: is securities held by an officer, director or 10 percent or more shareholder of the issuer, which must be sold under Rule 144 limits. Rule 147: is an intrastate offering exemption requiring the issuer and all purchasers to be in one state, with resales to nonresidents limited for six months. Regulation Crowdfunding: is the exemption that lets small issuers raise limited amounts online through a registered funding portal or broker-dealer.",
+  "spoken_explanation": "The answer is Regulation S: the exemption for offers and sales made outside the United States without SEC registration. Don't confuse it with Control securities, which is securities held by an officer, director or ten percent or more shareholder of the issuer, which must be sold under Rule one hundred forty-four limits.",
+  "tags": [
+   "concept",
+   "exempt-offerings"
+  ],
+  "outline_ref": "1.2 Exempt securities and transactions; Regulation A, D, S; Rule 144A"
+ },
+ {
+  "id": "s7-q-0520",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "exempt-offerings",
+  "lesson_id": "s7-1-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: Securities held by an officer, director or 10 percent or more shareholder of the issuer, which must be sold under Rule 144 limits?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Rule 144"
+   },
+   {
+    "key": "B",
+    "text": "Regulation Crowdfunding"
+   },
+   {
+    "key": "C",
+    "text": "Control securities"
+   },
+   {
+    "key": "D",
+    "text": "Rule 506(b)"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: securities held by an officer, director or ten percent or more shareholder of the issuer, which must be sold under Rule one hundred forty-four limits?",
+  "explanation": "Control securities is securities held by an officer, director or 10 percent or more shareholder of the issuer, which must be sold under Rule 144 limits. Rule 144: is the SEC rule governing public resales of restricted and control securities, including holding periods and volume limits. Regulation Crowdfunding: is the exemption that lets small issuers raise limited amounts online through a registered funding portal or broker-dealer. Rule 506(b): is the Regulation D private placement exemption that bars general solicitation and allows up to 35 non-accredited but sophisticated purchasers.",
+  "spoken_explanation": "The answer is Control securities: securities held by an officer, director or ten percent or more shareholder of the issuer, which must be sold under Rule one hundred forty-four limits. Don't confuse it with Rule one hundred forty-four, which is the SEC rule governing public resales of restricted and control securities, including holding periods and volume limits.",
+  "tags": [
+   "concept",
+   "exempt-offerings"
+  ],
+  "outline_ref": "1.2 Exempt securities and transactions; Regulation A, D, S; Rule 144A"
+ },
+ {
+  "id": "s7-q-0521",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "exempt-offerings",
+  "lesson_id": "s7-1-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: Securities acquired in an unregistered private transaction that cannot be resold publicly until a holding period is met?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Rule 144A"
+   },
+   {
+    "key": "B",
+    "text": "Regulation A"
+   },
+   {
+    "key": "C",
+    "text": "Restricted securities"
+   },
+   {
+    "key": "D",
+    "text": "Control securities"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: securities acquired in an unregistered private transaction that cannot be resold publicly until a holding period is met?",
+  "explanation": "Restricted securities is securities acquired in an unregistered private transaction that cannot be resold publicly until a holding period is met. Control securities: is securities held by an officer, director or 10 percent or more shareholder of the issuer, which must be sold under Rule 144 limits. Regulation A: is a small-issue exemption that uses an offering circular and has two tiers, with Tier 2 allowing up to 75 million dollars in 12 months. Rule 144A: is the exemption that allows resales of unregistered securities to qualified institutional buyers.",
+  "spoken_explanation": "The answer is Restricted securities: securities acquired in an unregistered private transaction that cannot be resold publicly until a holding period is met. Don't confuse it with Control securities, which is securities held by an officer, director or ten percent or more shareholder of the issuer, which must be sold under Rule one hundred forty-four limits.",
+  "tags": [
+   "concept",
+   "exempt-offerings"
+  ],
+  "outline_ref": "1.2 Exempt securities and transactions; Regulation A, D, S; Rule 144A"
+ },
+ {
+  "id": "s7-q-0522",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "exempt-offerings",
+  "lesson_id": "s7-1-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A security that is not required to register with the SEC, such as a U.S. government or municipal bond?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Rule 147"
+   },
+   {
+    "key": "B",
+    "text": "Regulation S"
+   },
+   {
+    "key": "C",
+    "text": "Exempt security"
+   },
+   {
+    "key": "D",
+    "text": "Rule 506(b)"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: a security that is not required to register with the SEC, such as a U.S. government or municipal bond?",
+  "explanation": "Exempt security is a security that is not required to register with the SEC, such as a U.S. government or municipal bond. Rule 506(b): is the Regulation D private placement exemption that bars general solicitation and allows up to 35 non-accredited but sophisticated purchasers. Rule 147: is an intrastate offering exemption requiring the issuer and all purchasers to be in one state, with resales to nonresidents limited for six months. Regulation S: is the exemption for offers and sales made outside the United States without SEC registration.",
+  "spoken_explanation": "The answer is Exempt security: a security that is not required to register with the SEC, such as a U.S. government or municipal bond. Don't confuse it with Rule five hundred six(b), which is the Regulation D private placement exemption that bars general solicitation and allows up to thirty-five non-accredited but sophisticated purchasers.",
+  "tags": [
+   "concept",
+   "exempt-offerings"
+  ],
+  "outline_ref": "1.2 Exempt securities and transactions; Regulation A, D, S; Rule 144A"
+ },
+ {
+  "id": "s7-q-0523",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "exempt-offerings",
+  "lesson_id": "s7-1-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The exemption that lets small issuers raise limited amounts online through a registered funding portal or broker-dealer?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Control securities"
+   },
+   {
+    "key": "B",
+    "text": "Regulation Crowdfunding"
+   },
+   {
+    "key": "C",
+    "text": "Restricted securities"
+   },
+   {
+    "key": "D",
+    "text": "Rule 147"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: the exemption that lets small issuers raise limited amounts online through a registered funding portal or broker-dealer?",
+  "explanation": "Regulation Crowdfunding is the exemption that lets small issuers raise limited amounts online through a registered funding portal or broker-dealer. Rule 147: is an intrastate offering exemption requiring the issuer and all purchasers to be in one state, with resales to nonresidents limited for six months. Restricted securities: is securities acquired in an unregistered private transaction that cannot be resold publicly until a holding period is met. Control securities: is securities held by an officer, director or 10 percent or more shareholder of the issuer, which must be sold under Rule 144 limits.",
+  "spoken_explanation": "The answer is Regulation Crowdfunding: the exemption that lets small issuers raise limited amounts online through a registered funding portal or broker-dealer. Don't confuse it with Rule one hundred forty-seven, which is an intrastate offering exemption requiring the issuer and all purchasers to be in one state, with resales to nonresidents limited for six months.",
+  "tags": [
+   "concept",
+   "exempt-offerings"
+  ],
+  "outline_ref": "1.2 Exempt securities and transactions; Regulation A, D, S; Rule 144A"
+ },
+ {
+  "id": "s7-q-0524",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "municipal-underwriting",
+  "lesson_id": "s7-1-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The issuer's published invitation for bids in a competitive municipal sale, stating the terms and the bid deadline?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "MSRB Rule G-37"
+   },
+   {
+    "key": "B",
+    "text": "Manager's fee"
+   },
+   {
+    "key": "C",
+    "text": "Notice of sale"
+   },
+   {
+    "key": "D",
+    "text": "Legal opinion"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: the issuer's published invitation for bids in a competitive municipal sale, stating the terms and the bid deadline?",
+  "explanation": "Notice of sale is the issuer's published invitation for bids in a competitive municipal sale, stating the terms and the bid deadline. Manager's fee: is the portion of the underwriting spread paid to the managing underwriter for organizing the syndicate. Legal opinion: is bond counsel's opinion on the legality of an issue and the tax status of its interest. MSRB Rule G-37: is the pay-to-play rule that limits political contributions by municipal finance professionals and bars municipal business for two years after a covered contribution.",
+  "spoken_explanation": "The answer is Notice of sale: the issuer's published invitation for bids in a competitive municipal sale, stating the terms and the bid deadline. Don't confuse it with Manager's fee, which is the portion of the underwriting spread paid to the managing underwriter for organizing the syndicate.",
+  "tags": [
+   "concept",
+   "municipal-underwriting"
+  ],
+  "outline_ref": "1.2 Primary financing for municipal securities; syndicate formation; underwriter compensation"
+ },
+ {
+  "id": "s7-q-0525",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "municipal-underwriting",
+  "lesson_id": "s7-1-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The municipal offering document prepared by the issuer that discloses the terms and risks of a new issue?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Official statement"
+   },
+   {
+    "key": "B",
+    "text": "Notice of sale"
+   },
+   {
+    "key": "C",
+    "text": "Continuing disclosure"
+   },
+   {
+    "key": "D",
+    "text": "Good faith deposit"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: the municipal offering document prepared by the issuer that discloses the terms and risks of a new issue?",
+  "explanation": "Official statement is the municipal offering document prepared by the issuer that discloses the terms and risks of a new issue. Continuing disclosure: is the issuer's ongoing filing of annual financial information and material event notices on EMMA, required through underwriter agreements under SEC Rule 15c2-12. Notice of sale: is the issuer's published invitation for bids in a competitive municipal sale, stating the terms and the bid deadline. Good faith deposit: is a deposit submitted with a competitive bid to show the syndicate will honor its bid.",
+  "spoken_explanation": "The answer is Official statement: the municipal offering document prepared by the issuer that discloses the terms and risks of a new issue. Don't confuse it with Continuing disclosure, which is the issuer's ongoing filing of annual financial information and material event notices on EMMA, required through underwriter agreements under SEC Rule 15c2-twelve.",
+  "tags": [
+   "concept",
+   "municipal-underwriting"
+  ],
+  "outline_ref": "1.2 Primary financing for municipal securities; syndicate formation; underwriter compensation"
+ },
+ {
+  "id": "s7-q-0526",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "municipal-underwriting",
+  "lesson_id": "s7-1-05",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Official statement is a deposit submitted with a competitive bid to show the syndicate will honor its bid.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. Official statement is a deposit submitted with a competitive bid to show the syndicate will honor its bid.",
+  "explanation": "False. That describes Good faith deposit. Official statement is the municipal offering document prepared by the issuer that discloses the terms and risks of a new issue.",
+  "spoken_explanation": "False. That describes Good faith deposit. Official statement is actually the municipal offering document prepared by the issuer that discloses the terms and risks of a new issue. Follow the money in a muni syndicate: spread, takedown, concession, and the order period. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "municipal-underwriting"
+  ],
+  "outline_ref": "1.2 Primary financing for municipal securities; syndicate formation; underwriter compensation"
+ },
+ {
+  "id": "s7-q-0527",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "municipal-underwriting",
+  "lesson_id": "s7-1-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The draft municipal offering document used before final pricing to gauge interest?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Preliminary official statement"
+   },
+   {
+    "key": "B",
+    "text": "Unqualified opinion"
+   },
+   {
+    "key": "C",
+    "text": "Additional takedown"
+   },
+   {
+    "key": "D",
+    "text": "MSRB Rule G-37"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: the draft municipal offering document used before final pricing to gauge interest?",
+  "explanation": "Preliminary official statement is the draft municipal offering document used before final pricing to gauge interest. Additional takedown: is the portion of the takedown kept by a syndicate member, over and above the concession. Unqualified opinion: is a legal opinion given without reservations. MSRB Rule G-37: is the pay-to-play rule that limits political contributions by municipal finance professionals and bars municipal business for two years after a covered contribution.",
+  "spoken_explanation": "The answer is Preliminary official statement: the draft municipal offering document used before final pricing to gauge interest. Don't confuse it with Additional takedown, which is the portion of the takedown kept by a syndicate member, over and above the concession. Follow the money in a muni syndicate: spread, takedown, concession, and the order period.",
+  "tags": [
+   "concept",
+   "municipal-underwriting"
+  ],
+  "outline_ref": "1.2 Primary financing for municipal securities; syndicate formation; underwriter compensation"
+ },
+ {
+  "id": "s7-q-0528",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "municipal-underwriting",
+  "lesson_id": "s7-1-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A syndicate account in which each member is liable only for its own allocation of bonds?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Member order"
+   },
+   {
+    "key": "B",
+    "text": "Eastern account"
+   },
+   {
+    "key": "C",
+    "text": "Western account"
+   },
+   {
+    "key": "D",
+    "text": "Concession"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: a syndicate account in which each member is liable only for its own allocation of bonds?",
+  "explanation": "Western account is a syndicate account in which each member is liable only for its own allocation of bonds. Eastern account: is a syndicate account in which each member is liable for its share of any bonds left unsold by the whole syndicate. Member order: is a syndicate member's own order at the takedown price, usually filled last. Concession: is the portion of the spread a selling group member earns on bonds it sells.",
+  "spoken_explanation": "The answer is Western account: a syndicate account in which each member is liable only for its own allocation of bonds. Don't confuse it with Eastern account, which is a syndicate account in which each member is liable for its share of any bonds left unsold by the whole syndicate.",
+  "tags": [
+   "concept",
+   "municipal-underwriting"
+  ],
+  "outline_ref": "1.2 Primary financing for municipal securities; syndicate formation; underwriter compensation"
+ },
+ {
+  "id": "s7-q-0529",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "municipal-underwriting",
+  "lesson_id": "s7-1-05",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Western account is the municipal offering document prepared by the issuer that discloses the terms and risks of a new issue.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. Western account is the municipal offering document prepared by the issuer that discloses the terms and risks of a new issue.",
+  "explanation": "False. That describes Official statement. Western account is a syndicate account in which each member is liable only for its own allocation of bonds.",
+  "spoken_explanation": "False. That describes Official statement. Western account is actually a syndicate account in which each member is liable only for its own allocation of bonds. Follow the money in a muni syndicate: spread, takedown, concession, and the order period. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "municipal-underwriting"
+  ],
+  "outline_ref": "1.2 Primary financing for municipal securities; syndicate formation; underwriter compensation"
+ },
+ {
+  "id": "s7-q-0530",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "municipal-underwriting",
+  "lesson_id": "s7-1-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A syndicate account in which each member is liable for its share of any bonds left unsold by the whole syndicate?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Continuing disclosure"
+   },
+   {
+    "key": "B",
+    "text": "Western account"
+   },
+   {
+    "key": "C",
+    "text": "Legal opinion"
+   },
+   {
+    "key": "D",
+    "text": "Eastern account"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: a syndicate account in which each member is liable for its share of any bonds left unsold by the whole syndicate?",
+  "explanation": "Eastern account is a syndicate account in which each member is liable for its share of any bonds left unsold by the whole syndicate. Legal opinion: is bond counsel's opinion on the legality of an issue and the tax status of its interest. Western account: is a syndicate account in which each member is liable only for its own allocation of bonds. Continuing disclosure: is the issuer's ongoing filing of annual financial information and material event notices on EMMA, required through underwriter agreements under SEC Rule 15c2-12.",
+  "spoken_explanation": "The answer is Eastern account: a syndicate account in which each member is liable for its share of any bonds left unsold by the whole syndicate. Don't confuse it with Legal opinion, which is bond counsel's opinion on the legality of an issue and the tax status of its interest.",
+  "tags": [
+   "concept",
+   "municipal-underwriting"
+  ],
+  "outline_ref": "1.2 Primary financing for municipal securities; syndicate formation; underwriter compensation"
+ },
+ {
+  "id": "s7-q-0531",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "municipal-underwriting",
+  "lesson_id": "s7-1-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The discount at which a syndicate member buys bonds from the syndicate, equal to the total spread minus the manager's fee?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "MSRB Rule G-37"
+   },
+   {
+    "key": "B",
+    "text": "Manager's fee"
+   },
+   {
+    "key": "C",
+    "text": "Concession"
+   },
+   {
+    "key": "D",
+    "text": "Takedown"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: the discount at which a syndicate member buys bonds from the syndicate, equal to the total spread minus the manager's fee?",
+  "explanation": "Takedown is the discount at which a syndicate member buys bonds from the syndicate, equal to the total spread minus the manager's fee. Manager's fee: is the portion of the underwriting spread paid to the managing underwriter for organizing the syndicate. Concession: is the portion of the spread a selling group member earns on bonds it sells. MSRB Rule G-37: is the pay-to-play rule that limits political contributions by municipal finance professionals and bars municipal business for two years after a covered contribution.",
+  "spoken_explanation": "The answer is Takedown: the discount at which a syndicate member buys bonds from the syndicate, equal to the total spread minus the manager's fee. Don't confuse it with Manager's fee, which is the portion of the underwriting spread paid to the managing underwriter for organizing the syndicate.",
+  "tags": [
+   "concept",
+   "municipal-underwriting"
+  ],
+  "outline_ref": "1.2 Primary financing for municipal securities; syndicate formation; underwriter compensation"
+ },
+ {
+  "id": "s7-q-0532",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "municipal-underwriting",
+  "lesson_id": "s7-1-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The portion of the spread a selling group member earns on bonds it sells?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Takedown"
+   },
+   {
+    "key": "B",
+    "text": "Western account"
+   },
+   {
+    "key": "C",
+    "text": "Eastern account"
+   },
+   {
+    "key": "D",
+    "text": "Concession"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: the portion of the spread a selling group member earns on bonds it sells?",
+  "explanation": "Concession is the portion of the spread a selling group member earns on bonds it sells. Takedown: is the discount at which a syndicate member buys bonds from the syndicate, equal to the total spread minus the manager's fee. Eastern account: is a syndicate account in which each member is liable for its share of any bonds left unsold by the whole syndicate. Western account: is a syndicate account in which each member is liable only for its own allocation of bonds.",
+  "spoken_explanation": "The answer is Concession: the portion of the spread a selling group member earns on bonds it sells. Don't confuse it with Takedown, which is the discount at which a syndicate member buys bonds from the syndicate, equal to the total spread minus the manager's fee.",
+  "tags": [
+   "concept",
+   "municipal-underwriting"
+  ],
+  "outline_ref": "1.2 Primary financing for municipal securities; syndicate formation; underwriter compensation"
+ },
+ {
+  "id": "s7-q-0533",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "municipal-underwriting",
+  "lesson_id": "s7-1-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The portion of the takedown kept by a syndicate member, over and above the concession?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Additional takedown"
+   },
+   {
+    "key": "B",
+    "text": "MSRB Rule G-37"
+   },
+   {
+    "key": "C",
+    "text": "Western account"
+   },
+   {
+    "key": "D",
+    "text": "Takedown"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: the portion of the takedown kept by a syndicate member, over and above the concession?",
+  "explanation": "Additional takedown is the portion of the takedown kept by a syndicate member, over and above the concession. MSRB Rule G-37: is the pay-to-play rule that limits political contributions by municipal finance professionals and bars municipal business for two years after a covered contribution. Takedown: is the discount at which a syndicate member buys bonds from the syndicate, equal to the total spread minus the manager's fee. Western account: is a syndicate account in which each member is liable only for its own allocation of bonds.",
+  "spoken_explanation": "The answer is Additional takedown: the portion of the takedown kept by a syndicate member, over and above the concession. Don't confuse it with MSRB Rule G-thirty-seven, which is the pay-to-play rule that limits political contributions by municipal finance professionals and bars municipal business for two years after a covered contribution.",
+  "tags": [
+   "concept",
+   "municipal-underwriting"
+  ],
+  "outline_ref": "1.2 Primary financing for municipal securities; syndicate formation; underwriter compensation"
+ },
+ {
+  "id": "s7-q-0534",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "municipal-underwriting",
+  "lesson_id": "s7-1-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The portion of the underwriting spread paid to the managing underwriter for organizing the syndicate?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Eastern account"
+   },
+   {
+    "key": "B",
+    "text": "Manager's fee"
+   },
+   {
+    "key": "C",
+    "text": "Designated order"
+   },
+   {
+    "key": "D",
+    "text": "Unqualified opinion"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: the portion of the underwriting spread paid to the managing underwriter for organizing the syndicate?",
+  "explanation": "Manager's fee is the portion of the underwriting spread paid to the managing underwriter for organizing the syndicate. Eastern account: is a syndicate account in which each member is liable for its share of any bonds left unsold by the whole syndicate. Designated order: is a municipal order, usually from an institution, that names which syndicate members receive credit for the sale. Unqualified opinion: is a legal opinion given without reservations.",
+  "spoken_explanation": "The answer is Manager's fee: the portion of the underwriting spread paid to the managing underwriter for organizing the syndicate. Don't confuse it with Eastern account, which is a syndicate account in which each member is liable for its share of any bonds left unsold by the whole syndicate.",
+  "tags": [
+   "concept",
+   "municipal-underwriting"
+  ],
+  "outline_ref": "1.2 Primary financing for municipal securities; syndicate formation; underwriter compensation"
+ },
+ {
+  "id": "s7-q-0535",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "municipal-underwriting",
+  "lesson_id": "s7-1-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A municipal order credited to all syndicate members according to their participation, typically given top priority?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Group net order"
+   },
+   {
+    "key": "B",
+    "text": "Eastern account"
+   },
+   {
+    "key": "C",
+    "text": "Concession"
+   },
+   {
+    "key": "D",
+    "text": "Member order"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: a municipal order credited to all syndicate members according to their participation, typically given top priority?",
+  "explanation": "Group net order is a municipal order credited to all syndicate members according to their participation, typically given top priority. Eastern account: is a syndicate account in which each member is liable for its share of any bonds left unsold by the whole syndicate. Member order: is a syndicate member's own order at the takedown price, usually filled last. Concession: is the portion of the spread a selling group member earns on bonds it sells.",
+  "spoken_explanation": "The answer is Group net order: a municipal order credited to all syndicate members according to their participation, typically given top priority. Don't confuse it with Eastern account, which is a syndicate account in which each member is liable for its share of any bonds left unsold by the whole syndicate.",
+  "tags": [
+   "concept",
+   "municipal-underwriting"
+  ],
+  "outline_ref": "1.2 Primary financing for municipal securities; syndicate formation; underwriter compensation"
+ },
+ {
+  "id": "s7-q-0536",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "municipal-underwriting",
+  "lesson_id": "s7-1-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A municipal order, usually from an institution, that names which syndicate members receive credit for the sale?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Group net order"
+   },
+   {
+    "key": "B",
+    "text": "Continuing disclosure"
+   },
+   {
+    "key": "C",
+    "text": "Designated order"
+   },
+   {
+    "key": "D",
+    "text": "Notice of sale"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: a municipal order, usually from an institution, that names which syndicate members receive credit for the sale?",
+  "explanation": "Designated order is a municipal order, usually from an institution, that names which syndicate members receive credit for the sale. Continuing disclosure: is the issuer's ongoing filing of annual financial information and material event notices on EMMA, required through underwriter agreements under SEC Rule 15c2-12. Notice of sale: is the issuer's published invitation for bids in a competitive municipal sale, stating the terms and the bid deadline. Group net order: is a municipal order credited to all syndicate members according to their participation, typically given top priority.",
+  "spoken_explanation": "The answer is Designated order: a municipal order, usually from an institution, that names which syndicate members receive credit for the sale. Don't confuse it with Continuing disclosure, which is the issuer's ongoing filing of annual financial information and material event notices on EMMA, required through underwriter agreements under SEC Rule 15c2-twelve.",
+  "tags": [
+   "concept",
+   "municipal-underwriting"
+  ],
+  "outline_ref": "1.2 Primary financing for municipal securities; syndicate formation; underwriter compensation"
+ },
+ {
+  "id": "s7-q-0537",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "municipal-underwriting",
+  "lesson_id": "s7-1-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A syndicate member's own order at the takedown price, usually filled last?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Unqualified opinion"
+   },
+   {
+    "key": "B",
+    "text": "Member order"
+   },
+   {
+    "key": "C",
+    "text": "Official statement"
+   },
+   {
+    "key": "D",
+    "text": "Concession"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: a syndicate member's own order at the takedown price, usually filled last?",
+  "explanation": "Member order is a syndicate member's own order at the takedown price, usually filled last. Official statement: is the municipal offering document prepared by the issuer that discloses the terms and risks of a new issue. Concession: is the portion of the spread a selling group member earns on bonds it sells. Unqualified opinion: is a legal opinion given without reservations.",
+  "spoken_explanation": "The answer is Member order: a syndicate member's own order at the takedown price, usually filled last. Don't confuse it with Official statement, which is the municipal offering document prepared by the issuer that discloses the terms and risks of a new issue. Follow the money in a muni syndicate: spread, takedown, concession, and the order period.",
+  "tags": [
+   "concept",
+   "municipal-underwriting"
+  ],
+  "outline_ref": "1.2 Primary financing for municipal securities; syndicate formation; underwriter compensation"
+ },
+ {
+  "id": "s7-q-0538",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "municipal-underwriting",
+  "lesson_id": "s7-1-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A deposit submitted with a competitive bid to show the syndicate will honor its bid?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Preliminary official statement"
+   },
+   {
+    "key": "B",
+    "text": "Good faith deposit"
+   },
+   {
+    "key": "C",
+    "text": "MSRB Rule G-37"
+   },
+   {
+    "key": "D",
+    "text": "Official statement"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: a deposit submitted with a competitive bid to show the syndicate will honor its bid?",
+  "explanation": "Good faith deposit is a deposit submitted with a competitive bid to show the syndicate will honor its bid. MSRB Rule G-37: is the pay-to-play rule that limits political contributions by municipal finance professionals and bars municipal business for two years after a covered contribution. Preliminary official statement: is the draft municipal offering document used before final pricing to gauge interest. Official statement: is the municipal offering document prepared by the issuer that discloses the terms and risks of a new issue.",
+  "spoken_explanation": "The answer is Good faith deposit: a deposit submitted with a competitive bid to show the syndicate will honor its bid. Don't confuse it with MSRB Rule G-thirty-seven, which is the pay-to-play rule that limits political contributions by municipal finance professionals and bars municipal business for two years after a covered contribution.",
+  "tags": [
+   "concept",
+   "municipal-underwriting"
+  ],
+  "outline_ref": "1.2 Primary financing for municipal securities; syndicate formation; underwriter compensation"
+ },
+ {
+  "id": "s7-q-0539",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "municipal-underwriting",
+  "lesson_id": "s7-1-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: Bond counsel's opinion on the legality of an issue and the tax status of its interest?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Legal opinion"
+   },
+   {
+    "key": "B",
+    "text": "Unqualified opinion"
+   },
+   {
+    "key": "C",
+    "text": "Good faith deposit"
+   },
+   {
+    "key": "D",
+    "text": "MSRB Rule G-37"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: bond counsel's opinion on the legality of an issue and the tax status of its interest?",
+  "explanation": "Legal opinion is bond counsel's opinion on the legality of an issue and the tax status of its interest. MSRB Rule G-37: is the pay-to-play rule that limits political contributions by municipal finance professionals and bars municipal business for two years after a covered contribution. Unqualified opinion: is a legal opinion given without reservations. Good faith deposit: is a deposit submitted with a competitive bid to show the syndicate will honor its bid.",
+  "spoken_explanation": "The answer is Legal opinion: bond counsel's opinion on the legality of an issue and the tax status of its interest. Don't confuse it with MSRB Rule G-thirty-seven, which is the pay-to-play rule that limits political contributions by municipal finance professionals and bars municipal business for two years after a covered contribution.",
+  "tags": [
+   "concept",
+   "municipal-underwriting"
+  ],
+  "outline_ref": "1.2 Primary financing for municipal securities; syndicate formation; underwriter compensation"
+ },
+ {
+  "id": "s7-q-0540",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "municipal-underwriting",
+  "lesson_id": "s7-1-05",
+  "difficulty": 1,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A legal opinion given without reservations?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Western account"
+   },
+   {
+    "key": "B",
+    "text": "Unqualified opinion"
+   },
+   {
+    "key": "C",
+    "text": "Good faith deposit"
+   },
+   {
+    "key": "D",
+    "text": "Group net order"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: a legal opinion given without reservations?",
+  "explanation": "Unqualified opinion is a legal opinion given without reservations. Good faith deposit: is a deposit submitted with a competitive bid to show the syndicate will honor its bid. Group net order: is a municipal order credited to all syndicate members according to their participation, typically given top priority. Western account: is a syndicate account in which each member is liable only for its own allocation of bonds.",
+  "spoken_explanation": "The answer is Unqualified opinion: a legal opinion given without reservations. Don't confuse it with Good faith deposit, which is a deposit submitted with a competitive bid to show the syndicate will honor its bid. Follow the money in a muni syndicate: spread, takedown, concession, and the order period.",
+  "tags": [
+   "concept",
+   "municipal-underwriting"
+  ],
+  "outline_ref": "1.2 Primary financing for municipal securities; syndicate formation; underwriter compensation"
+ },
+ {
+  "id": "s7-q-0541",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "municipal-underwriting",
+  "lesson_id": "s7-1-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The issuer's ongoing filing of annual financial information and material event notices on EMMA, required through underwriter agreements under SEC Rule 15c2-12?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Notice of sale"
+   },
+   {
+    "key": "B",
+    "text": "Additional takedown"
+   },
+   {
+    "key": "C",
+    "text": "Continuing disclosure"
+   },
+   {
+    "key": "D",
+    "text": "MSRB Rule G-37"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: the issuer's ongoing filing of annual financial information and material event notices on EMMA, required through underwriter agreements under SEC Rule 15c2-twelve?",
+  "explanation": "Continuing disclosure is the issuer's ongoing filing of annual financial information and material event notices on EMMA, required through underwriter agreements under SEC Rule 15c2-12. Additional takedown: is the portion of the takedown kept by a syndicate member, over and above the concession. MSRB Rule G-37: is the pay-to-play rule that limits political contributions by municipal finance professionals and bars municipal business for two years after a covered contribution. Notice of sale: is the issuer's published invitation for bids in a competitive municipal sale, stating the terms and the bid deadline.",
+  "spoken_explanation": "The answer is Continuing disclosure: the issuer's ongoing filing of annual financial information and material event notices on EMMA, required through underwriter agreements under SEC Rule 15c2-twelve. Don't confuse it with Additional takedown, which is the portion of the takedown kept by a syndicate member, over and above the concession.",
+  "tags": [
+   "concept",
+   "municipal-underwriting"
+  ],
+  "outline_ref": "1.2 Primary financing for municipal securities; syndicate formation; underwriter compensation"
+ },
+ {
+  "id": "s7-q-0542",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "municipal-underwriting",
+  "lesson_id": "s7-1-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The pay-to-play rule that limits political contributions by municipal finance professionals and bars municipal business for two years after a covered contribution?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Notice of sale"
+   },
+   {
+    "key": "B",
+    "text": "Concession"
+   },
+   {
+    "key": "C",
+    "text": "MSRB Rule G-37"
+   },
+   {
+    "key": "D",
+    "text": "Manager's fee"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: the pay-to-play rule that limits political contributions by municipal finance professionals and bars municipal business for two years after a covered contribution?",
+  "explanation": "MSRB Rule G-37 is the pay-to-play rule that limits political contributions by municipal finance professionals and bars municipal business for two years after a covered contribution. Manager's fee: is the portion of the underwriting spread paid to the managing underwriter for organizing the syndicate. Notice of sale: is the issuer's published invitation for bids in a competitive municipal sale, stating the terms and the bid deadline. Concession: is the portion of the spread a selling group member earns on bonds it sells.",
+  "spoken_explanation": "The answer is MSRB Rule G-thirty-seven: the pay-to-play rule that limits political contributions by municipal finance professionals and bars municipal business for two years after a covered contribution. Don't confuse it with Manager's fee, which is the portion of the underwriting spread paid to the managing underwriter for organizing the syndicate.",
+  "tags": [
+   "concept",
+   "municipal-underwriting"
+  ],
+  "outline_ref": "1.2 Primary financing for municipal securities; syndicate formation; underwriter compensation"
+ },
+ {
+  "id": "s7-q-0939",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "business-conduct",
+  "lesson_id": "s7-1-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Under FINRA Rule 3220 as amended effective March 30, 2026, what is the maximum value of gifts a representative may give to an employee of another firm per year, in relation to that employee's business?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "$250"
+   },
+   {
+    "key": "B",
+    "text": "$500"
+   },
+   {
+    "key": "C",
+    "text": "$300"
+   },
+   {
+    "key": "D",
+    "text": "$100"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Under FINRA Rule thirty-two twenty, as amended in March twenty twenty-six, what's the most a rep can give per year in gifts to an employee of another firm?",
+  "explanation": "FINRA raised the Rule 3220 gift limit from $100 to $300 per person per year, effective March 30, 2026 (Regulatory Notice 26-05). Conforming changes raised the limit in Rules 2310, 2320, 2341 and 5110. $100: was the limit before the March 30, 2026 amendment; older study materials still show it. $250: is the MSRB G-37 political contribution de minimis amount, not the gift limit. $500: is not the limit.",
+  "spoken_explanation": "Three hundred dollars per person per year, since FINRA amended the gift rule on March thirtieth, twenty twenty-six. It had been one hundred dollars since nineteen ninety-two, so older study guides still say one hundred. Two hundred fifty is the muni political contribution limit, a different rule.",
+  "tags": [
+   "gifts",
+   "rule-3220",
+   "changes-yearly"
+  ],
+  "outline_ref": "1.1 Contacts current and potential customers (FINRA Rule 3220, gifts and gratuities)"
+ },
+ {
+  "id": "s7-q-0940",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "business-conduct",
+  "lesson_id": "s7-1-01",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Under FINRA Rule 3220 as amended in 2026, the $300 annual gift limit applies to gifts a representative gives to an individual retail customer.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. Under the amended gift rule, the three hundred dollar annual limit applies to gifts a rep gives an individual retail customer.",
+  "explanation": "False. The 2026 amendments clarified that the FINRA gift rule does not apply to gifts to individual retail customers. It covers gifts to employees of other persons when related to the recipient's employer's business. Other rules and firm policies may still apply.",
+  "spoken_explanation": "False. The twenty twenty-six amendments made clear that the gift rule doesn't cover gifts to individual retail customers. It targets gifts to employees of other businesses, where the gift could influence how that employee handles their employer's business. Read the scenario for the customer's age, objective and time horizon before you look at the choices.",
+  "tags": [
+   "gifts",
+   "rule-3220",
+   "changes-yearly"
+  ],
+  "outline_ref": "1.1 Contacts current and potential customers (FINRA Rule 3220, gifts and gratuities)"
+ },
+ {
+  "id": "s7-q-0941",
+  "exam": "S7",
+  "section": "S7-1",
+  "topic": "business-conduct",
+  "lesson_id": "s7-1-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "A representative takes a client's purchasing agent to a ballgame and attends with him, and the tickets cost $450 each. Which is TRUE under FINRA Rule 3220?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Any entertainment over $100 is prohibited"
+   },
+   {
+    "key": "B",
+    "text": "Business entertainment the representative attends is generally not subject to the $300 gift limit"
+   },
+   {
+    "key": "C",
+    "text": "The rep must get FINRA's prior approval"
+   },
+   {
+    "key": "D",
+    "text": "The entertainment violates the $300 gift limit"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "A rep takes a client's purchasing agent to a ballgame, attends with him, and the tickets cost four hundred fifty dollars each. Which is TRUE under the gift rule?",
+  "explanation": "Gifts are subject to the $300 annual limit. Business entertainment where the representative is present is generally treated separately: it must not be so frequent or extensive as to raise questions of propriety and is governed by the firm's supervisory policies. If the rep simply handed over tickets and did not attend, the tickets would be a gift subject to the $300 limit. The entertainment violates the $300 gift limit: confuses business entertainment, where the rep attends, with a gift; entertainment must still be reasonable and is governed by firm policy. Any entertainment over $100 is prohibited: uses the old gift amount and confuses entertainment with gifts. The rep must get FINRA's prior approval: is not required.",
+  "spoken_explanation": "Entertainment is different from a gift when the rep goes along. That's business entertainment, which must be reasonable and follow firm policy, but it isn't capped by the three hundred dollar gift limit. If the rep just handed over the tickets and stayed home, they'd count as a gift.",
+  "tags": [
+   "gifts",
+   "rule-3220",
+   "entertainment"
+  ],
+  "outline_ref": "1.1 Contacts current and potential customers (FINRA Rule 3220, gifts and gratuities)"
  }
 ]

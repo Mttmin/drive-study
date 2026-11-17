@@ -1,0 +1,103 @@
+{
+ "id": "s7-3-13",
+ "exam": "S7",
+ "section": "S7-3",
+ "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+ "title": "Municipal pricing and taxation",
+ "order": 13,
+ "est_minutes": 8,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "The main reason anyone buys municipal bonds is the tax treatment. This lesson covers how muni interest is taxed, how to compare a muni yield with a taxable yield, the tax quirks of discounts and premiums, and how muni trades are priced, quoted, and confirmed."
+  },
+  {
+   "type": "narration",
+   "text": "Interest on most municipal bonds is exempt from federal income tax. It's usually also exempt from state income tax for residents of the issuing state. Bonds from U.S. territories, like Puerto Rico, Guam, and the U.S. Virgin Islands, are generally exempt from federal, state, and local income taxes everywhere in the country, which is why they're called triple tax-free. Capital gains on munis are not tax-exempt. If you buy a muni at nine hundred fifty and sell it at one thousand, that gain is taxable. Interest on certain private activity bonds can be subject to the alternative minimum tax, and muni interest is counted when figuring how much of a person's Social Security benefits is taxable."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0043"
+  },
+  {
+   "type": "narration",
+   "text": "The tax-equivalent yield tells you what a taxable bond would have to pay to match a muni. Divide the muni yield by one minus the investor's tax rate. A four percent muni for someone in the thirty-two percent bracket is equal to four divided by sixty-eight hundredths, which is about five point eight eight percent taxable. To go the other way, multiply the taxable yield by one minus the tax rate. The higher the bracket, the more valuable the muni, which is why munis suit high-bracket investors in taxable accounts and almost never belong in IRAs."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0393"
+  },
+  {
+   "type": "narration",
+   "text": "Discounts and premiums have their own tax rules. If a muni is issued at an original issue discount, the discount accretes over time and is treated as tax-exempt interest, with the accretion raising the cost basis. If a muni was issued at par and later bought at a discount in the secondary market, that market discount is taxed as ordinary income when the bond matures or is sold. If you buy a muni at a premium, you must amortize the premium over the bond's life, which lowers your basis each year. That amortization isn't deductible. Example: buy at one thousand one hundred with ten years left. The basis drops ten dollars a year, so if you hold to maturity, there's no gain or loss. Interest paid on money borrowed to buy munis isn't deductible either."
+  },
+  {
+   "type": "narration",
+   "text": "Muni pricing works a little differently. Serial bonds, which mature in stages over many years, are usually quoted on a yield basis. Term bonds, which mature all at once, are often quoted as a percentage of par and are called dollar bonds. Dealers quote bids and offers. A firm quote is one you can trade on in at least the stated amount. A nominal quote, which is only an indication, must be clearly labeled as such. MSRB Rule G thirteen requires quotations to be bona fide. Broker's brokers trade munis between dealers anonymously."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0408"
+  },
+  {
+   "type": "narration",
+   "text": "Fair pricing is central. Under MSRB Rule G thirty, prices must be fair and reasonable, considering market value, the dealer's costs, the bond's rating and maturity, and the size of the trade. G seventeen requires fair dealing with everyone. G eighteen requires best execution for retail customer trades. On a confirmation to a non-institutional customer, a dealer that buys and sells the same bond on the same trading day, in the opposite direction, must disclose its markup or markdown, as a dollar amount and a percent of the prevailing market price. Confirmations show the yield, and for a callable bond priced to the call, they show the lower of yield to call or yield to maturity."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-1017"
+  },
+  {
+   "type": "narration",
+   "text": "Data sources round it out. EMMA, the MSRB's website, shows trade prices, official statements, and continuing disclosures. The Bond Buyer publishes indexes, like the twenty-bond and eleven-bond GO indexes and the revenue bond index, and reports the visible supply, the dollar value of new issues expected over the next thirty days. Regular-way muni trades settle T plus one, and accrued interest uses a thirty-day month and three-hundred-sixty-day year."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: muni interest is federally tax-free, state tax-free in-state, and territories are triple tax-free. Capital gains are taxable. Tax-equivalent yield equals the muni yield over one minus the rate. OID accretion is tax-free, market discount is ordinary income, and premium amortization reduces basis without a deduction. Prices must be fair and reasonable, and same-day riskless trades disclose markups. The visible supply covers thirty days."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Tax-equivalent yield: Muni yield divided by one minus the tax rate; the taxable yield needed to match a muni. Triple tax-free: Bonds of U.S. territories such as Puerto Rico, exempt from federal, state and local income tax. Original issue discount: A discount at issuance that accretes as tax-exempt interest and raises basis. Market discount: A discount from buying in the secondary market, taxed as ordinary income at sale or maturity. Premium amortization: Required yearly reduction of a muni's basis when bought above par; not deductible. Dollar bond: A term muni quoted as a percent of par rather than on a yield basis. Nominal quote: An informational quote that is not firm and must be labeled as such. Visible supply: The Bond Buyer's total of new muni issues expected over the next thirty days."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Tax-equivalent yield",
+   "definition": "Muni yield divided by one minus the tax rate; the taxable yield needed to match a muni."
+  },
+  {
+   "term": "Triple tax-free",
+   "definition": "Bonds of U.S. territories such as Puerto Rico, exempt from federal, state and local income tax."
+  },
+  {
+   "term": "Original issue discount",
+   "definition": "A discount at issuance that accretes as tax-exempt interest and raises basis."
+  },
+  {
+   "term": "Market discount",
+   "definition": "A discount from buying in the secondary market, taxed as ordinary income at sale or maturity."
+  },
+  {
+   "term": "Premium amortization",
+   "definition": "Required yearly reduction of a muni's basis when bought above par; not deductible."
+  },
+  {
+   "term": "Dollar bond",
+   "definition": "A term muni quoted as a percent of par rather than on a yield basis."
+  },
+  {
+   "term": "Nominal quote",
+   "definition": "An informational quote that is not firm and must be labeled as such."
+  },
+  {
+   "term": "Visible supply",
+   "definition": "The Bond Buyer's total of new muni issues expected over the next thirty days."
+  }
+ ],
+ "mnemonics": [
+  "TEY: divide by one minus the rate.",
+  "OID free, market discount taxed, premium amortized.",
+  "Puerto Rico, Guam, Virgin Islands: triple tax-free."
+ ],
+ "summary": "Muni interest is federally exempt, generally exempt in-state, and territory bonds are triple tax-free. Capital gains are taxable, and private activity bond interest may be subject to AMT. Muni interest counts in Social Security benefit taxation. TEY = muni yield ÷ (1 − rate). OID accretion is tax-exempt and raises basis. Market discount is ordinary income. Premiums must be amortized with no deduction. Serial bonds are quoted on yield, and term bonds are dollar bonds. G-13 requires bona fide quotes, and nominal quotes must be labeled. G-30 requires fair pricing, G-17 fair dealing and G-18 best execution. Same-day offsetting retail trades disclose the markup. The Bond Buyer publishes indexes and the 30-day visible supply. Settlement is T+1, with 30/360 accrual."
+}

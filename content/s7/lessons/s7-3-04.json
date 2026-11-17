@@ -1,0 +1,99 @@
+{
+ "id": "s7-3-04",
+ "exam": "S7",
+ "section": "S7-3",
+ "section_title": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+ "title": "Straddles and combinations",
+ "order": 4,
+ "est_minutes": 7,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Spreads combine options of the same type. Straddles and combinations put a call and a put together. They're bets on volatility, not direction. A long straddle wants a big move either way, and a short straddle wants the stock to sit still."
+  },
+  {
+   "type": "narration",
+   "text": "A straddle is a call and a put on the same stock, with the same strike price and the same expiration. In a long straddle, you buy both, so you pay two premiums. The customer expects a major move but doesn't know which way, typically ahead of an earnings report, a court decision, or a takeover rumor. The maximum loss is the total of both premiums, which happens if the stock closes exactly at the strike. The maximum gain is unlimited on the upside, and on the downside it's the strike minus the total premiums."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0164"
+  },
+  {
+   "type": "narration",
+   "text": "A long straddle has two breakevens: the strike plus the total premium, and the strike minus the total premium. Example: buy a sixty call for three and a sixty put for two. The total premium is five. The breakevens are sixty-five and fifty-five. If the stock closes at seventy, the call is worth ten, minus five paid, for a profit of five points, or five hundred dollars. If it closes at sixty, both expire worthless, and the loss is five hundred dollars."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0228"
+  },
+  {
+   "type": "narration",
+   "text": "A short straddle reverses everything. You sell the call and the put, collect both premiums, and hope the stock barely moves. Your maximum gain is the total premium. Your maximum loss is unlimited on the upside, since the call is naked, and substantial on the downside. The breakevens are the same two points, the strike plus and minus the total premium. A short straddle is one of the riskiest positions, so it needs uncovered writing approval and a lot of margin."
+  },
+  {
+   "type": "narration",
+   "text": "A combination, sometimes called a strangle, is a call and a put with different strike prices, different expirations, or both. The common exam version is a long strangle: buy an out-of-the-money call and an out-of-the-money put. It's cheaper than a straddle, but the stock has to move further to profit. The breakevens are the call strike plus the total premium and the put strike minus the total premium. A short combination collects both premiums and profits if the stock stays between the strikes."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0291"
+  },
+  {
+   "type": "narration",
+   "text": "Here's how to tell straddles and spreads apart, which the exam likes to test. If both options are calls, or both are puts, and one is long and one is short, it's a spread. If one is a call and one is a put, and both are long or both are short, it's a straddle or combination. A long call paired with a short put, or a short call with a long put, is neither. Those are synthetic stock positions, which act like owning or shorting the stock. For example, buying a call and selling a put at the same strike acts like a long stock position."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-1002"
+  },
+  {
+   "type": "narration",
+   "text": "A few more ideas. A long straddle loses value from time decay and gains from rising volatility, so it suffers if implied volatility collapses after the expected news. A short straddle is the opposite. Combining stock with options also creates named strategies. A collar is long stock plus a long put plus a short call, which caps both losses and gains. A ratio write sells more calls than the shares owned, so some of the calls are naked."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: straddle means same strike, call plus put. Long straddle means volatility, short straddle means stability. Both breakevens come from the strike plus and minus the total premium. A combination uses different strikes and is cheaper, but it needs a bigger move. A spread uses one type, long and short. A straddle uses both types, same side."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Long straddle: Buy a call and a put with the same strike and expiration; profits from a large move either way. Short straddle: Sell a call and a put with the same strike and expiration; profits if the stock stays near the strike. Combination: A call and a put with different strikes or expirations, both long or both short; also called a strangle. Total premium: The sum of both premiums, which sets the maximum loss of a long straddle and the maximum gain of a short one. Synthetic long stock: Long call plus short put at the same strike, which behaves like owning the stock. Collar: Long stock with a long put and a short call, limiting both losses and gains. Ratio write: Writing more calls than the shares owned, leaving some calls uncovered."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Long straddle",
+   "definition": "Buy a call and a put with the same strike and expiration; profits from a large move either way."
+  },
+  {
+   "term": "Short straddle",
+   "definition": "Sell a call and a put with the same strike and expiration; profits if the stock stays near the strike."
+  },
+  {
+   "term": "Combination",
+   "definition": "A call and a put with different strikes or expirations, both long or both short; also called a strangle."
+  },
+  {
+   "term": "Total premium",
+   "definition": "The sum of both premiums, which sets the maximum loss of a long straddle and the maximum gain of a short one."
+  },
+  {
+   "term": "Synthetic long stock",
+   "definition": "Long call plus short put at the same strike, which behaves like owning the stock."
+  },
+  {
+   "term": "Collar",
+   "definition": "Long stock with a long put and a short call, limiting both losses and gains."
+  },
+  {
+   "term": "Ratio write",
+   "definition": "Writing more calls than the shares owned, leaving some calls uncovered."
+  }
+ ],
+ "mnemonics": [
+  "Straddle: call and put, same strike, same side.",
+  "Long straddle: big move. Short straddle: no move.",
+  "Two breakevens: strike plus and minus the total premium."
+ ],
+ "summary": "A straddle is a call and a put with the same strike and expiration. A long straddle is a volatility bet, with max loss equal to the total premium and breakevens at the strike plus and minus the total premium. A short straddle collects premium, has unlimited upside risk and needs uncovered approval. A combination or strangle uses different strikes or expirations, so it costs less but needs a bigger move. Spreads are the same type with one long and one short. Straddles are both types on the same side. Long call plus short put is synthetic long stock. A collar is long stock, long put and short call."
+}

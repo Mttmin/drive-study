@@ -402,5 +402,2853 @@
    "employee-accounts"
   ],
   "outline_ref": "2.2 Customer screening: employees of broker-dealers or SROs"
+ },
+ {
+  "id": "s7-q-0543",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-types",
+  "lesson_id": "s7-2-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A joint account in which a deceased owner's interest passes to the surviving owners?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Tenants in common"
+   },
+   {
+    "key": "B",
+    "text": "Estate account"
+   },
+   {
+    "key": "C",
+    "text": "Trust agreement"
+   },
+   {
+    "key": "D",
+    "text": "Joint tenants with right of survivorship"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: a joint account in which a deceased owner's interest passes to the surviving owners?",
+  "explanation": "Joint tenants with right of survivorship is a joint account in which a deceased owner's interest passes to the surviving owners. Trust agreement: is the document required for a trust account, which names the trustee and defines what the trustee may do. Estate account: is an account opened by an executor, which requires the death certificate and letters testamentary. Tenants in common: is a joint account in which each owner's fractional interest passes to that owner's estate at death.",
+  "spoken_explanation": "The answer is Joint tenants with right of survivorship: a joint account in which a deceased owner's interest passes to the surviving owners. Don't confuse it with Trust agreement, which is the document required for a trust account, which names the trustee and defines what the trustee may do.",
+  "tags": [
+   "concept",
+   "account-types"
+  ],
+  "outline_ref": "2.1 Account registration types; account types"
+ },
+ {
+  "id": "s7-q-0544",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-types",
+  "lesson_id": "s7-2-01",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Joint tenants with right of survivorship is an account managed by one custodian for one minor, with assets that belong to the minor and pass to the minor at the age of termination.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. Joint tenants with right of survivorship is an account managed by one custodian for one minor, with assets that belong to the minor and pass to the minor at the age of termination.",
+  "explanation": "False. That describes UTMA custodial account. Joint tenants with right of survivorship is a joint account in which a deceased owner's interest passes to the surviving owners.",
+  "spoken_explanation": "False. That describes UTMA custodial account. Joint tenants with right of survivorship is actually a joint account in which a deceased owner's interest passes to the surviving owners. Ownership type decides who signs, who can trade, and what happens at death. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "account-types"
+  ],
+  "outline_ref": "2.1 Account registration types; account types"
+ },
+ {
+  "id": "s7-q-0545",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-types",
+  "lesson_id": "s7-2-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A joint account in which each owner's fractional interest passes to that owner's estate at death?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Corporate resolution"
+   },
+   {
+    "key": "B",
+    "text": "Tenants in common"
+   },
+   {
+    "key": "C",
+    "text": "Delivery versus payment"
+   },
+   {
+    "key": "D",
+    "text": "UTMA custodial account"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: a joint account in which each owner's fractional interest passes to that owner's estate at death?",
+  "explanation": "Tenants in common is a joint account in which each owner's fractional interest passes to that owner's estate at death. Delivery versus payment: is an institutional settlement method in which securities are delivered only against simultaneous payment. UTMA custodial account: is an account managed by one custodian for one minor, with assets that belong to the minor and pass to the minor at the age of termination. Corporate resolution: is the document naming the officers authorized to trade a corporate account.",
+  "spoken_explanation": "The answer is Tenants in common: a joint account in which each owner's fractional interest passes to that owner's estate at death. Don't confuse it with Delivery versus payment, which is an institutional settlement method in which securities are delivered only against simultaneous payment. Ownership type decides who signs, who can trade, and what happens at death.",
+  "tags": [
+   "concept",
+   "account-types"
+  ],
+  "outline_ref": "2.1 Account registration types; account types"
+ },
+ {
+  "id": "s7-q-0546",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-types",
+  "lesson_id": "s7-2-01",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Tenants in common is a joint account in which each owner's fractional interest passes to that owner's estate at death.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "True or false. Tenants in common is a joint account in which each owner's fractional interest passes to that owner's estate at death.",
+  "explanation": "True. Tenants in common is a joint account in which each owner's fractional interest passes to that owner's estate at death.",
+  "spoken_explanation": "True. Tenants in common is a joint account in which each owner's fractional interest passes to that owner's estate at death. Ownership type decides who signs, who can trade, and what happens at death. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "account-types"
+  ],
+  "outline_ref": "2.1 Account registration types; account types"
+ },
+ {
+  "id": "s7-q-0547",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-types",
+  "lesson_id": "s7-2-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A registration in certain states where assets acquired during marriage are owned equally by both spouses?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Joint tenants with right of survivorship"
+   },
+   {
+    "key": "B",
+    "text": "Tenants in common"
+   },
+   {
+    "key": "C",
+    "text": "Corporate resolution"
+   },
+   {
+    "key": "D",
+    "text": "Community property"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: a registration in certain states where assets acquired during marriage are owned equally by both spouses?",
+  "explanation": "Community property is a registration in certain states where assets acquired during marriage are owned equally by both spouses. Joint tenants with right of survivorship: is a joint account in which a deceased owner's interest passes to the surviving owners. Tenants in common: is a joint account in which each owner's fractional interest passes to that owner's estate at death. Corporate resolution: is the document naming the officers authorized to trade a corporate account.",
+  "spoken_explanation": "The answer is Community property: a registration in certain states where assets acquired during marriage are owned equally by both spouses. Don't confuse it with Joint tenants with right of survivorship, which is a joint account in which a deceased owner's interest passes to the surviving owners.",
+  "tags": [
+   "concept",
+   "account-types"
+  ],
+  "outline_ref": "2.1 Account registration types; account types"
+ },
+ {
+  "id": "s7-q-0548",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-types",
+  "lesson_id": "s7-2-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An individual account registration that passes assets directly to a named beneficiary at death, avoiding probate?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Wrap account"
+   },
+   {
+    "key": "B",
+    "text": "Partnership agreement"
+   },
+   {
+    "key": "C",
+    "text": "Trust agreement"
+   },
+   {
+    "key": "D",
+    "text": "Transfer on death"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: an individual account registration that passes assets directly to a named beneficiary at death, avoiding probate?",
+  "explanation": "Transfer on death is an individual account registration that passes assets directly to a named beneficiary at death, avoiding probate. Partnership agreement: is the document required to open a partnership account, which states who may trade for the partnership. Wrap account: is a fee-based account that bundles advisory, execution and custody services for a single asset-based fee. Trust agreement: is the document required for a trust account, which names the trustee and defines what the trustee may do.",
+  "spoken_explanation": "The answer is Transfer on death: an individual account registration that passes assets directly to a named beneficiary at death, avoiding probate. Don't confuse it with Partnership agreement, which is the document required to open a partnership account, which states who may trade for the partnership.",
+  "tags": [
+   "concept",
+   "account-types"
+  ],
+  "outline_ref": "2.1 Account registration types; account types"
+ },
+ {
+  "id": "s7-q-0549",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-types",
+  "lesson_id": "s7-2-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An account managed by one custodian for one minor, with assets that belong to the minor and pass to the minor at the age of termination?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Trust agreement"
+   },
+   {
+    "key": "B",
+    "text": "Community property"
+   },
+   {
+    "key": "C",
+    "text": "UTMA custodial account"
+   },
+   {
+    "key": "D",
+    "text": "Delivery versus payment"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: an account managed by one custodian for one minor, with assets that belong to the minor and pass to the minor at the age of termination?",
+  "explanation": "UTMA custodial account is an account managed by one custodian for one minor, with assets that belong to the minor and pass to the minor at the age of termination. Trust agreement: is the document required for a trust account, which names the trustee and defines what the trustee may do. Delivery versus payment: is an institutional settlement method in which securities are delivered only against simultaneous payment. Community property: is a registration in certain states where assets acquired during marriage are owned equally by both spouses.",
+  "spoken_explanation": "The answer is UTMA custodial account: an account managed by one custodian for one minor, with assets that belong to the minor and pass to the minor at the age of termination. Don't confuse it with Trust agreement, which is the document required for a trust account, which names the trustee and defines what the trustee may do.",
+  "tags": [
+   "concept",
+   "account-types"
+  ],
+  "outline_ref": "2.1 Account registration types; account types"
+ },
+ {
+  "id": "s7-q-0550",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-types",
+  "lesson_id": "s7-2-01",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: UTMA custodial account is the document naming the officers authorized to trade a corporate account.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. UTMA custodial account is the document naming the officers authorized to trade a corporate account.",
+  "explanation": "False. That describes Corporate resolution. UTMA custodial account is an account managed by one custodian for one minor, with assets that belong to the minor and pass to the minor at the age of termination.",
+  "spoken_explanation": "False. That describes Corporate resolution. UTMA custodial account is actually an account managed by one custodian for one minor, with assets that belong to the minor and pass to the minor at the age of termination. Ownership type decides who signs, who can trade, and what happens at death.",
+  "tags": [
+   "concept",
+   "account-types"
+  ],
+  "outline_ref": "2.1 Account registration types; account types"
+ },
+ {
+  "id": "s7-q-0551",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-types",
+  "lesson_id": "s7-2-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An arrangement in which a customer executes trades through several broker-dealers but clears and holds assets at one prime broker?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Trust agreement"
+   },
+   {
+    "key": "B",
+    "text": "Prime brokerage"
+   },
+   {
+    "key": "C",
+    "text": "Partnership agreement"
+   },
+   {
+    "key": "D",
+    "text": "Wrap account"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: an arrangement in which a customer executes trades through several broker-dealers but clears and holds assets at one prime broker?",
+  "explanation": "Prime brokerage is an arrangement in which a customer executes trades through several broker-dealers but clears and holds assets at one prime broker. Trust agreement: is the document required for a trust account, which names the trustee and defines what the trustee may do. Wrap account: is a fee-based account that bundles advisory, execution and custody services for a single asset-based fee. Partnership agreement: is the document required to open a partnership account, which states who may trade for the partnership.",
+  "spoken_explanation": "The answer is Prime brokerage: an arrangement in which a customer executes trades through several broker-dealers but clears and holds assets at one prime broker. Don't confuse it with Trust agreement, which is the document required for a trust account, which names the trustee and defines what the trustee may do.",
+  "tags": [
+   "concept",
+   "account-types"
+  ],
+  "outline_ref": "2.1 Account registration types; account types"
+ },
+ {
+  "id": "s7-q-0552",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-types",
+  "lesson_id": "s7-2-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An institutional settlement method in which securities are delivered only against simultaneous payment?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Delivery versus payment"
+   },
+   {
+    "key": "B",
+    "text": "Joint tenants with right of survivorship"
+   },
+   {
+    "key": "C",
+    "text": "Estate account"
+   },
+   {
+    "key": "D",
+    "text": "Tenants in common"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: an institutional settlement method in which securities are delivered only against simultaneous payment?",
+  "explanation": "Delivery versus payment is an institutional settlement method in which securities are delivered only against simultaneous payment. Estate account: is an account opened by an executor, which requires the death certificate and letters testamentary. Tenants in common: is a joint account in which each owner's fractional interest passes to that owner's estate at death. Joint tenants with right of survivorship: is a joint account in which a deceased owner's interest passes to the surviving owners.",
+  "spoken_explanation": "The answer is Delivery versus payment: an institutional settlement method in which securities are delivered only against simultaneous payment. Don't confuse it with Estate account, which is an account opened by an executor, which requires the death certificate and letters testamentary. Ownership type decides who signs, who can trade, and what happens at death.",
+  "tags": [
+   "concept",
+   "account-types"
+  ],
+  "outline_ref": "2.1 Account registration types; account types"
+ },
+ {
+  "id": "s7-q-0553",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-types",
+  "lesson_id": "s7-2-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A fee-based account that bundles advisory, execution and custody services for a single asset-based fee?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Partnership agreement"
+   },
+   {
+    "key": "B",
+    "text": "Tenants in common"
+   },
+   {
+    "key": "C",
+    "text": "Community property"
+   },
+   {
+    "key": "D",
+    "text": "Wrap account"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: a fee-based account that bundles advisory, execution and custody services for a single asset-based fee?",
+  "explanation": "Wrap account is a fee-based account that bundles advisory, execution and custody services for a single asset-based fee. Community property: is a registration in certain states where assets acquired during marriage are owned equally by both spouses. Tenants in common: is a joint account in which each owner's fractional interest passes to that owner's estate at death. Partnership agreement: is the document required to open a partnership account, which states who may trade for the partnership.",
+  "spoken_explanation": "The answer is Wrap account: a fee-based account that bundles advisory, execution and custody services for a single asset-based fee. Don't confuse it with Community property, which is a registration in certain states where assets acquired during marriage are owned equally by both spouses. Ownership type decides who signs, who can trade, and what happens at death.",
+  "tags": [
+   "concept",
+   "account-types"
+  ],
+  "outline_ref": "2.1 Account registration types; account types"
+ },
+ {
+  "id": "s7-q-0554",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-types",
+  "lesson_id": "s7-2-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The document naming the officers authorized to trade a corporate account?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Transfer on death"
+   },
+   {
+    "key": "B",
+    "text": "Delivery versus payment"
+   },
+   {
+    "key": "C",
+    "text": "Community property"
+   },
+   {
+    "key": "D",
+    "text": "Corporate resolution"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: the document naming the officers authorized to trade a corporate account?",
+  "explanation": "Corporate resolution is the document naming the officers authorized to trade a corporate account. Delivery versus payment: is an institutional settlement method in which securities are delivered only against simultaneous payment. Community property: is a registration in certain states where assets acquired during marriage are owned equally by both spouses. Transfer on death: is an individual account registration that passes assets directly to a named beneficiary at death, avoiding probate.",
+  "spoken_explanation": "The answer is Corporate resolution: the document naming the officers authorized to trade a corporate account. Don't confuse it with Delivery versus payment, which is an institutional settlement method in which securities are delivered only against simultaneous payment. Ownership type decides who signs, who can trade, and what happens at death.",
+  "tags": [
+   "concept",
+   "account-types"
+  ],
+  "outline_ref": "2.1 Account registration types; account types"
+ },
+ {
+  "id": "s7-q-0555",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-types",
+  "lesson_id": "s7-2-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The document required to open a partnership account, which states who may trade for the partnership?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Unincorporated association"
+   },
+   {
+    "key": "B",
+    "text": "Community property"
+   },
+   {
+    "key": "C",
+    "text": "Prime brokerage"
+   },
+   {
+    "key": "D",
+    "text": "Partnership agreement"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: the document required to open a partnership account, which states who may trade for the partnership?",
+  "explanation": "Partnership agreement is the document required to open a partnership account, which states who may trade for the partnership. Community property: is a registration in certain states where assets acquired during marriage are owned equally by both spouses. Prime brokerage: is an arrangement in which a customer executes trades through several broker-dealers but clears and holds assets at one prime broker. Unincorporated association: is a group such as a club or investment club that opens an account under its governing documents rather than a corporate charter.",
+  "spoken_explanation": "The answer is Partnership agreement: the document required to open a partnership account, which states who may trade for the partnership. Don't confuse it with Community property, which is a registration in certain states where assets acquired during marriage are owned equally by both spouses. Ownership type decides who signs, who can trade, and what happens at death.",
+  "tags": [
+   "concept",
+   "account-types"
+  ],
+  "outline_ref": "2.1 Account registration types; account types"
+ },
+ {
+  "id": "s7-q-0556",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-types",
+  "lesson_id": "s7-2-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The document required for a trust account, which names the trustee and defines what the trustee may do?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Transfer on death"
+   },
+   {
+    "key": "B",
+    "text": "Trust agreement"
+   },
+   {
+    "key": "C",
+    "text": "Tenants in common"
+   },
+   {
+    "key": "D",
+    "text": "Wrap account"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: the document required for a trust account, which names the trustee and defines what the trustee may do?",
+  "explanation": "Trust agreement is the document required for a trust account, which names the trustee and defines what the trustee may do. Tenants in common: is a joint account in which each owner's fractional interest passes to that owner's estate at death. Wrap account: is a fee-based account that bundles advisory, execution and custody services for a single asset-based fee. Transfer on death: is an individual account registration that passes assets directly to a named beneficiary at death, avoiding probate.",
+  "spoken_explanation": "The answer is Trust agreement: the document required for a trust account, which names the trustee and defines what the trustee may do. Don't confuse it with Tenants in common, which is a joint account in which each owner's fractional interest passes to that owner's estate at death.",
+  "tags": [
+   "concept",
+   "account-types"
+  ],
+  "outline_ref": "2.1 Account registration types; account types"
+ },
+ {
+  "id": "s7-q-0557",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-types",
+  "lesson_id": "s7-2-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An account opened by an executor, which requires the death certificate and letters testamentary?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Partnership agreement"
+   },
+   {
+    "key": "B",
+    "text": "Unincorporated association"
+   },
+   {
+    "key": "C",
+    "text": "Estate account"
+   },
+   {
+    "key": "D",
+    "text": "Community property"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: an account opened by an executor, which requires the death certificate and letters testamentary?",
+  "explanation": "Estate account is an account opened by an executor, which requires the death certificate and letters testamentary. Partnership agreement: is the document required to open a partnership account, which states who may trade for the partnership. Community property: is a registration in certain states where assets acquired during marriage are owned equally by both spouses. Unincorporated association: is a group such as a club or investment club that opens an account under its governing documents rather than a corporate charter.",
+  "spoken_explanation": "The answer is Estate account: an account opened by an executor, which requires the death certificate and letters testamentary. Don't confuse it with Partnership agreement, which is the document required to open a partnership account, which states who may trade for the partnership. Ownership type decides who signs, who can trade, and what happens at death.",
+  "tags": [
+   "concept",
+   "account-types"
+  ],
+  "outline_ref": "2.1 Account registration types; account types"
+ },
+ {
+  "id": "s7-q-0558",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-types",
+  "lesson_id": "s7-2-01",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A group such as a club or investment club that opens an account under its governing documents rather than a corporate charter?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Prime brokerage"
+   },
+   {
+    "key": "B",
+    "text": "UTMA custodial account"
+   },
+   {
+    "key": "C",
+    "text": "Unincorporated association"
+   },
+   {
+    "key": "D",
+    "text": "Delivery versus payment"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: a group such as a club or investment club that opens an account under its governing documents rather than a corporate charter?",
+  "explanation": "Unincorporated association is a group such as a club or investment club that opens an account under its governing documents rather than a corporate charter. UTMA custodial account: is an account managed by one custodian for one minor, with assets that belong to the minor and pass to the minor at the age of termination. Prime brokerage: is an arrangement in which a customer executes trades through several broker-dealers but clears and holds assets at one prime broker. Delivery versus payment: is an institutional settlement method in which securities are delivered only against simultaneous payment.",
+  "spoken_explanation": "The answer is Unincorporated association: a group such as a club or investment club that opens an account under its governing documents rather than a corporate charter. Don't confuse it with UTMA custodial account, which is an account managed by one custodian for one minor, with assets that belong to the minor and pass to the minor at the age of termination.",
+  "tags": [
+   "concept",
+   "account-types"
+  ],
+  "outline_ref": "2.1 Account registration types; account types"
+ },
+ {
+  "id": "s7-q-0559",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An individual retirement account funded with earned income, whose contributions may be deductible and whose distributions are taxed as ordinary income?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "401(k) plan"
+   },
+   {
+    "key": "B",
+    "text": "Profit-sharing plan"
+   },
+   {
+    "key": "C",
+    "text": "Indirect rollover"
+   },
+   {
+    "key": "D",
+    "text": "Traditional IRA"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: an individual retirement account funded with earned income, whose contributions may be deductible and whose distributions are taxed as ordinary income?",
+  "explanation": "Traditional IRA is an individual retirement account funded with earned income, whose contributions may be deductible and whose distributions are taxed as ordinary income. Profit-sharing plan: is a qualified plan in which employer contributions are discretionary and may vary with profits. Indirect rollover: is a distribution paid to the participant that must be redeposited within 60 days to avoid tax. 401(k) plan: is a corporate defined contribution plan that lets employees defer part of their salary, often with an employer match.",
+  "spoken_explanation": "The answer is Traditional IRA: an individual retirement account funded with earned income, whose contributions may be deductible and whose distributions are taxed as ordinary income. Don't confuse it with Profit-sharing plan, which is a qualified plan in which employer contributions are discretionary and may vary with profits.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0560",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An individual retirement account funded with after-tax money whose qualified distributions are tax-free, with no RMDs for the original owner?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Roth IRA"
+   },
+   {
+    "key": "B",
+    "text": "Required minimum distribution"
+   },
+   {
+    "key": "C",
+    "text": "Defined benefit plan"
+   },
+   {
+    "key": "D",
+    "text": "SEP-IRA"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: an individual retirement account funded with after-tax money whose qualified distributions are tax-free, with no RMDs for the original owner?",
+  "explanation": "Roth IRA is an individual retirement account funded with after-tax money whose qualified distributions are tax-free, with no RMDs for the original owner. SEP-IRA: is an employer plan funded only by employer contributions to employees' IRAs, popular with small businesses and the self-employed. Defined benefit plan: is a pension plan that promises a specific retirement benefit, with the employer bearing the investment risk. Required minimum distribution: is the minimum amount that must be withdrawn each year from a traditional IRA or qualified plan once the owner reaches the required beginning age, currently 73.",
+  "spoken_explanation": "The answer is Roth IRA: an individual retirement account funded with after-tax money whose qualified distributions are tax-free, with no RMDs for the original owner. Don't confuse it with SEP-IRA, which is an employer plan funded only by employer contributions to employees' IRAs, popular with small businesses and the self-employed.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0561",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Roth IRA is the minimum amount that must be withdrawn each year from a traditional IRA or qualified plan once the owner reaches the required beginning age, currently 73.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. Roth IRA is the minimum amount that must be withdrawn each year from a traditional IRA or qualified plan once the owner reaches the required beginning age, currently seventy-three.",
+  "explanation": "False. That describes Required minimum distribution. Roth IRA is an individual retirement account funded with after-tax money whose qualified distributions are tax-free, with no RMDs for the original owner.",
+  "spoken_explanation": "False. That describes Required minimum distribution. Roth IRA is actually an individual retirement account funded with after-tax money whose qualified distributions are tax-free, with no RMDs for the original owner. Sort each plan by who sponsors it, who contributes, and how the money is taxed coming out.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0562",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An employer plan funded only by employer contributions to employees' IRAs, popular with small businesses and the self-employed?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Indirect rollover"
+   },
+   {
+    "key": "B",
+    "text": "ERISA"
+   },
+   {
+    "key": "C",
+    "text": "403(b) plan"
+   },
+   {
+    "key": "D",
+    "text": "SEP-IRA"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: an employer plan funded only by employer contributions to employees' IRAs, popular with small businesses and the self-employed?",
+  "explanation": "SEP-IRA is an employer plan funded only by employer contributions to employees' IRAs, popular with small businesses and the self-employed. Indirect rollover: is a distribution paid to the participant that must be redeposited within 60 days to avoid tax. ERISA: is the federal law that sets fiduciary and participation standards for private-sector retirement plans, not government plans. 403(b) plan: is a tax-sheltered annuity plan for employees of public schools and tax-exempt nonprofit organizations.",
+  "spoken_explanation": "The answer is SEP-IRA: an employer plan funded only by employer contributions to employees' IRAs, popular with small businesses and the self-employed. Don't confuse it with Indirect rollover, which is a distribution paid to the participant that must be redeposited within sixty days to avoid tax.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0563",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An employer plan for small businesses that combines employee salary deferrals with required employer contributions?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Nonqualified deferred compensation"
+   },
+   {
+    "key": "B",
+    "text": "Indirect rollover"
+   },
+   {
+    "key": "C",
+    "text": "Required minimum distribution"
+   },
+   {
+    "key": "D",
+    "text": "SIMPLE IRA"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: an employer plan for small businesses that combines employee salary deferrals with required employer contributions?",
+  "explanation": "SIMPLE IRA is an employer plan for small businesses that combines employee salary deferrals with required employer contributions. Required minimum distribution: is the minimum amount that must be withdrawn each year from a traditional IRA or qualified plan once the owner reaches the required beginning age, currently 73. Indirect rollover: is a distribution paid to the participant that must be redeposited within 60 days to avoid tax. Nonqualified deferred compensation: is an arrangement that defers an executive's pay without ERISA protection, leaving the employee as a general creditor of the employer.",
+  "spoken_explanation": "The answer is SIMPLE IRA: an employer plan for small businesses that combines employee salary deferrals with required employer contributions. Don't confuse it with Required minimum distribution, which is the minimum amount that must be withdrawn each year from a traditional IRA or qualified plan once the owner reaches the required beginning age, currently seventy-three.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0564",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A corporate defined contribution plan that lets employees defer part of their salary, often with an employer match?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Profit-sharing plan"
+   },
+   {
+    "key": "B",
+    "text": "401(k) plan"
+   },
+   {
+    "key": "C",
+    "text": "Indirect rollover"
+   },
+   {
+    "key": "D",
+    "text": "Traditional IRA"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: a corporate defined contribution plan that lets employees defer part of their salary, often with an employer match?",
+  "explanation": "401(k) plan is a corporate defined contribution plan that lets employees defer part of their salary, often with an employer match. Indirect rollover: is a distribution paid to the participant that must be redeposited within 60 days to avoid tax. Traditional IRA: is an individual retirement account funded with earned income, whose contributions may be deductible and whose distributions are taxed as ordinary income. Profit-sharing plan: is a qualified plan in which employer contributions are discretionary and may vary with profits.",
+  "spoken_explanation": "The answer is four hundred one(k) plan: a corporate defined contribution plan that lets employees defer part of their salary, often with an employer match. Don't confuse it with Indirect rollover, which is a distribution paid to the participant that must be redeposited within sixty days to avoid tax.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0565",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A tax-sheltered annuity plan for employees of public schools and tax-exempt nonprofit organizations?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Defined contribution plan"
+   },
+   {
+    "key": "B",
+    "text": "403(b) plan"
+   },
+   {
+    "key": "C",
+    "text": "Roth IRA"
+   },
+   {
+    "key": "D",
+    "text": "457(b) plan"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: a tax-sheltered annuity plan for employees of public schools and tax-exempt nonprofit organizations?",
+  "explanation": "403(b) plan is a tax-sheltered annuity plan for employees of public schools and tax-exempt nonprofit organizations. Roth IRA: is an individual retirement account funded with after-tax money whose qualified distributions are tax-free, with no RMDs for the original owner. 457(b) plan: is a deferred compensation plan for state and local government employees, whose distributions after separation are not subject to the 10 percent early withdrawal penalty. Defined contribution plan: is a plan in which contributions are set and the retirement benefit depends on investment performance.",
+  "spoken_explanation": "The answer is four hundred three(b) plan: a tax-sheltered annuity plan for employees of public schools and tax-exempt nonprofit organizations. Don't confuse it with Roth IRA, which is an individual retirement account funded with after-tax money whose qualified distributions are tax-free, with no RMDs for the original owner.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0566",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: 403(b) plan is a trustee-to-trustee movement of plan assets to an IRA with no withholding.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. four hundred three(b) plan is a trustee-to-trustee movement of plan assets to an IRA with no withholding.",
+  "explanation": "False. That describes Direct rollover. 403(b) plan is a tax-sheltered annuity plan for employees of public schools and tax-exempt nonprofit organizations.",
+  "spoken_explanation": "False. That describes Direct rollover. four hundred three(b) plan is actually a tax-sheltered annuity plan for employees of public schools and tax-exempt nonprofit organizations. Sort each plan by who sponsors it, who contributes, and how the money is taxed coming out. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0567",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A deferred compensation plan for state and local government employees, whose distributions after separation are not subject to the 10 percent early withdrawal penalty?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "457(b) plan"
+   },
+   {
+    "key": "B",
+    "text": "Traditional IRA"
+   },
+   {
+    "key": "C",
+    "text": "Defined contribution plan"
+   },
+   {
+    "key": "D",
+    "text": "ERISA"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: a deferred compensation plan for state and local government employees, whose distributions after separation are not subject to the ten percent early withdrawal penalty?",
+  "explanation": "457(b) plan is a deferred compensation plan for state and local government employees, whose distributions after separation are not subject to the 10 percent early withdrawal penalty. ERISA: is the federal law that sets fiduciary and participation standards for private-sector retirement plans, not government plans. Traditional IRA: is an individual retirement account funded with earned income, whose contributions may be deductible and whose distributions are taxed as ordinary income. Defined contribution plan: is a plan in which contributions are set and the retirement benefit depends on investment performance.",
+  "spoken_explanation": "The answer is four hundred fifty-seven(b) plan: a deferred compensation plan for state and local government employees, whose distributions after separation are not subject to the ten percent early withdrawal penalty. Don't confuse it with ERISA, which is the federal law that sets fiduciary and participation standards for private-sector retirement plans, not government plans.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0568",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: 457(b) plan is a tax-advantaged account for people who became disabled before a specified age, with tax-free withdrawals for qualified disability expenses.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. four hundred fifty-seven(b) plan is a tax-advantaged account for people who became disabled before a specified age, with tax-free withdrawals for qualified disability expenses.",
+  "explanation": "False. That describes ABLE account. 457(b) plan is a deferred compensation plan for state and local government employees, whose distributions after separation are not subject to the 10 percent early withdrawal penalty.",
+  "spoken_explanation": "False. That describes ABLE account. four hundred fifty-seven(b) plan is actually a deferred compensation plan for state and local government employees, whose distributions after separation are not subject to the ten percent early withdrawal penalty. Sort each plan by who sponsors it, who contributes, and how the money is taxed coming out.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0569",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A pension plan that promises a specific retirement benefit, with the employer bearing the investment risk?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "ABLE account"
+   },
+   {
+    "key": "B",
+    "text": "403(b) plan"
+   },
+   {
+    "key": "C",
+    "text": "Defined benefit plan"
+   },
+   {
+    "key": "D",
+    "text": "457(b) plan"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: a pension plan that promises a specific retirement benefit, with the employer bearing the investment risk?",
+  "explanation": "Defined benefit plan is a pension plan that promises a specific retirement benefit, with the employer bearing the investment risk. ABLE account: is a tax-advantaged account for people who became disabled before a specified age, with tax-free withdrawals for qualified disability expenses. 457(b) plan: is a deferred compensation plan for state and local government employees, whose distributions after separation are not subject to the 10 percent early withdrawal penalty. 403(b) plan: is a tax-sheltered annuity plan for employees of public schools and tax-exempt nonprofit organizations.",
+  "spoken_explanation": "The answer is Defined benefit plan: a pension plan that promises a specific retirement benefit, with the employer bearing the investment risk. Don't confuse it with ABLE account, which is a tax-advantaged account for people who became disabled before a specified age, with tax-free withdrawals for qualified disability expenses.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0570",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A plan in which contributions are set and the retirement benefit depends on investment performance?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "457(b) plan"
+   },
+   {
+    "key": "B",
+    "text": "Rule 72(t) distributions"
+   },
+   {
+    "key": "C",
+    "text": "Defined contribution plan"
+   },
+   {
+    "key": "D",
+    "text": "Defined benefit plan"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: a plan in which contributions are set and the retirement benefit depends on investment performance?",
+  "explanation": "Defined contribution plan is a plan in which contributions are set and the retirement benefit depends on investment performance. Defined benefit plan: is a pension plan that promises a specific retirement benefit, with the employer bearing the investment risk. 457(b) plan: is a deferred compensation plan for state and local government employees, whose distributions after separation are not subject to the 10 percent early withdrawal penalty. Rule 72(t) distributions: is substantially equal periodic payments from an IRA that avoid the 10 percent early withdrawal penalty.",
+  "spoken_explanation": "The answer is Defined contribution plan: a plan in which contributions are set and the retirement benefit depends on investment performance. Don't confuse it with Defined benefit plan, which is a pension plan that promises a specific retirement benefit, with the employer bearing the investment risk.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0571",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A qualified plan in which employer contributions are discretionary and may vary with profits?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Direct rollover"
+   },
+   {
+    "key": "B",
+    "text": "Profit-sharing plan"
+   },
+   {
+    "key": "C",
+    "text": "457(b) plan"
+   },
+   {
+    "key": "D",
+    "text": "403(b) plan"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: a qualified plan in which employer contributions are discretionary and may vary with profits?",
+  "explanation": "Profit-sharing plan is a qualified plan in which employer contributions are discretionary and may vary with profits. 403(b) plan: is a tax-sheltered annuity plan for employees of public schools and tax-exempt nonprofit organizations. 457(b) plan: is a deferred compensation plan for state and local government employees, whose distributions after separation are not subject to the 10 percent early withdrawal penalty. Direct rollover: is a trustee-to-trustee movement of plan assets to an IRA with no withholding.",
+  "spoken_explanation": "The answer is Profit-sharing plan: a qualified plan in which employer contributions are discretionary and may vary with profits. Don't confuse it with four hundred three(b) plan, which is a tax-sheltered annuity plan for employees of public schools and tax-exempt nonprofit organizations. Sort each plan by who sponsors it, who contributes, and how the money is taxed coming out.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0572",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An arrangement that defers an executive's pay without ERISA protection, leaving the employee as a general creditor of the employer?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Indirect rollover"
+   },
+   {
+    "key": "B",
+    "text": "Rule 72(t) distributions"
+   },
+   {
+    "key": "C",
+    "text": "Nonqualified deferred compensation"
+   },
+   {
+    "key": "D",
+    "text": "401(k) plan"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: an arrangement that defers an executive's pay without ERISA protection, leaving the employee as a general creditor of the employer?",
+  "explanation": "Nonqualified deferred compensation is an arrangement that defers an executive's pay without ERISA protection, leaving the employee as a general creditor of the employer. Rule 72(t) distributions: is substantially equal periodic payments from an IRA that avoid the 10 percent early withdrawal penalty. Indirect rollover: is a distribution paid to the participant that must be redeposited within 60 days to avoid tax. 401(k) plan: is a corporate defined contribution plan that lets employees defer part of their salary, often with an employer match.",
+  "spoken_explanation": "The answer is Nonqualified deferred compensation: an arrangement that defers an executive's pay without ERISA protection, leaving the employee as a general creditor of the employer. Don't confuse it with Rule seventy-two(t) distributions, which is substantially equal periodic payments from an IRA that avoid the ten percent early withdrawal penalty.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0573",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The federal law that sets fiduciary and participation standards for private-sector retirement plans, not government plans?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Direct rollover"
+   },
+   {
+    "key": "B",
+    "text": "ERISA"
+   },
+   {
+    "key": "C",
+    "text": "ABLE account"
+   },
+   {
+    "key": "D",
+    "text": "Required minimum distribution"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: the federal law that sets fiduciary and participation standards for private-sector retirement plans, not government plans?",
+  "explanation": "ERISA is the federal law that sets fiduciary and participation standards for private-sector retirement plans, not government plans. Required minimum distribution: is the minimum amount that must be withdrawn each year from a traditional IRA or qualified plan once the owner reaches the required beginning age, currently 73. Direct rollover: is a trustee-to-trustee movement of plan assets to an IRA with no withholding. ABLE account: is a tax-advantaged account for people who became disabled before a specified age, with tax-free withdrawals for qualified disability expenses.",
+  "spoken_explanation": "The answer is ERISA: the federal law that sets fiduciary and participation standards for private-sector retirement plans, not government plans. Don't confuse it with Required minimum distribution, which is the minimum amount that must be withdrawn each year from a traditional IRA or qualified plan once the owner reaches the required beginning age, currently seventy-three.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0574",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: ERISA is the federal law that sets fiduciary and participation standards for private-sector retirement plans, not government plans.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "True or false. ERISA is the federal law that sets fiduciary and participation standards for private-sector retirement plans, not government plans.",
+  "explanation": "True. ERISA is the federal law that sets fiduciary and participation standards for private-sector retirement plans, not government plans.",
+  "spoken_explanation": "True. ERISA is the federal law that sets fiduciary and participation standards for private-sector retirement plans, not government plans. Sort each plan by who sponsors it, who contributes, and how the money is taxed coming out. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0575",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An education savings account limited to 2,000 dollars of contributions per beneficiary per year?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "SEP-IRA"
+   },
+   {
+    "key": "B",
+    "text": "Defined benefit plan"
+   },
+   {
+    "key": "C",
+    "text": "Rule 72(t) distributions"
+   },
+   {
+    "key": "D",
+    "text": "Coverdell ESA"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: an education savings account limited to two thousand dollars of contributions per beneficiary per year?",
+  "explanation": "Coverdell ESA is an education savings account limited to 2,000 dollars of contributions per beneficiary per year. Defined benefit plan: is a pension plan that promises a specific retirement benefit, with the employer bearing the investment risk. SEP-IRA: is an employer plan funded only by employer contributions to employees' IRAs, popular with small businesses and the self-employed. Rule 72(t) distributions: is substantially equal periodic payments from an IRA that avoid the 10 percent early withdrawal penalty.",
+  "spoken_explanation": "The answer is Coverdell ESA: an education savings account limited to two thousand dollars of contributions per beneficiary per year. Don't confuse it with Defined benefit plan, which is a pension plan that promises a specific retirement benefit, with the employer bearing the investment risk. Sort each plan by who sponsors it, who contributes, and how the money is taxed coming out.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0576",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A trustee-to-trustee movement of plan assets to an IRA with no withholding?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Traditional IRA"
+   },
+   {
+    "key": "B",
+    "text": "Direct rollover"
+   },
+   {
+    "key": "C",
+    "text": "Coverdell ESA"
+   },
+   {
+    "key": "D",
+    "text": "Rule 72(t) distributions"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: a trustee-to-trustee movement of plan assets to an IRA with no withholding?",
+  "explanation": "Direct rollover is a trustee-to-trustee movement of plan assets to an IRA with no withholding. Rule 72(t) distributions: is substantially equal periodic payments from an IRA that avoid the 10 percent early withdrawal penalty. Coverdell ESA: is an education savings account limited to 2,000 dollars of contributions per beneficiary per year. Traditional IRA: is an individual retirement account funded with earned income, whose contributions may be deductible and whose distributions are taxed as ordinary income.",
+  "spoken_explanation": "The answer is Direct rollover: a trustee-to-trustee movement of plan assets to an IRA with no withholding. Don't confuse it with Rule seventy-two(t) distributions, which is substantially equal periodic payments from an IRA that avoid the ten percent early withdrawal penalty. Sort each plan by who sponsors it, who contributes, and how the money is taxed coming out.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0577",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A distribution paid to the participant that must be redeposited within 60 days to avoid tax?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Profit-sharing plan"
+   },
+   {
+    "key": "B",
+    "text": "SIMPLE IRA"
+   },
+   {
+    "key": "C",
+    "text": "Roth IRA"
+   },
+   {
+    "key": "D",
+    "text": "Indirect rollover"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: a distribution paid to the participant that must be redeposited within sixty days to avoid tax?",
+  "explanation": "Indirect rollover is a distribution paid to the participant that must be redeposited within 60 days to avoid tax. SIMPLE IRA: is an employer plan for small businesses that combines employee salary deferrals with required employer contributions. Profit-sharing plan: is a qualified plan in which employer contributions are discretionary and may vary with profits. Roth IRA: is an individual retirement account funded with after-tax money whose qualified distributions are tax-free, with no RMDs for the original owner.",
+  "spoken_explanation": "The answer is Indirect rollover: a distribution paid to the participant that must be redeposited within sixty days to avoid tax. Don't confuse it with SIMPLE IRA, which is an employer plan for small businesses that combines employee salary deferrals with required employer contributions. Sort each plan by who sponsors it, who contributes, and how the money is taxed coming out.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0578",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The minimum amount that must be withdrawn each year from a traditional IRA or qualified plan once the owner reaches the required beginning age, currently 73?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "457(b) plan"
+   },
+   {
+    "key": "B",
+    "text": "Defined contribution plan"
+   },
+   {
+    "key": "C",
+    "text": "Required minimum distribution"
+   },
+   {
+    "key": "D",
+    "text": "Profit-sharing plan"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: the minimum amount that must be withdrawn each year from a traditional IRA or qualified plan once the owner reaches the required beginning age, currently seventy-three?",
+  "explanation": "Required minimum distribution is the minimum amount that must be withdrawn each year from a traditional IRA or qualified plan once the owner reaches the required beginning age, currently 73. Profit-sharing plan: is a qualified plan in which employer contributions are discretionary and may vary with profits. Defined contribution plan: is a plan in which contributions are set and the retirement benefit depends on investment performance. 457(b) plan: is a deferred compensation plan for state and local government employees, whose distributions after separation are not subject to the 10 percent early withdrawal penalty.",
+  "spoken_explanation": "The answer is Required minimum distribution: the minimum amount that must be withdrawn each year from a traditional IRA or qualified plan once the owner reaches the required beginning age, currently seventy-three. Don't confuse it with Profit-sharing plan, which is a qualified plan in which employer contributions are discretionary and may vary with profits.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0579",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: Substantially equal periodic payments from an IRA that avoid the 10 percent early withdrawal penalty?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Rule 72(t) distributions"
+   },
+   {
+    "key": "B",
+    "text": "Roth IRA"
+   },
+   {
+    "key": "C",
+    "text": "Required minimum distribution"
+   },
+   {
+    "key": "D",
+    "text": "Coverdell ESA"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: substantially equal periodic payments from an IRA that avoid the ten percent early withdrawal penalty?",
+  "explanation": "Rule 72(t) distributions is substantially equal periodic payments from an IRA that avoid the 10 percent early withdrawal penalty. Roth IRA: is an individual retirement account funded with after-tax money whose qualified distributions are tax-free, with no RMDs for the original owner. Coverdell ESA: is an education savings account limited to 2,000 dollars of contributions per beneficiary per year. Required minimum distribution: is the minimum amount that must be withdrawn each year from a traditional IRA or qualified plan once the owner reaches the required beginning age, currently 73.",
+  "spoken_explanation": "The answer is Rule seventy-two(t) distributions: substantially equal periodic payments from an IRA that avoid the ten percent early withdrawal penalty. Don't confuse it with Roth IRA, which is an individual retirement account funded with after-tax money whose qualified distributions are tax-free, with no RMDs for the original owner.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0580",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "retirement",
+  "lesson_id": "s7-2-02",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A tax-advantaged account for people who became disabled before a specified age, with tax-free withdrawals for qualified disability expenses?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "ABLE account"
+   },
+   {
+    "key": "B",
+    "text": "Nonqualified deferred compensation"
+   },
+   {
+    "key": "C",
+    "text": "457(b) plan"
+   },
+   {
+    "key": "D",
+    "text": "Profit-sharing plan"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: a tax-advantaged account for people who became disabled before a specified age, with tax-free withdrawals for qualified disability expenses?",
+  "explanation": "ABLE account is a tax-advantaged account for people who became disabled before a specified age, with tax-free withdrawals for qualified disability expenses. Profit-sharing plan: is a qualified plan in which employer contributions are discretionary and may vary with profits. Nonqualified deferred compensation: is an arrangement that defers an executive's pay without ERISA protection, leaving the employee as a general creditor of the employer. 457(b) plan: is a deferred compensation plan for state and local government employees, whose distributions after separation are not subject to the 10 percent early withdrawal penalty.",
+  "spoken_explanation": "The answer is ABLE account: a tax-advantaged account for people who became disabled before a specified age, with tax-free withdrawals for qualified disability expenses. Don't confuse it with Profit-sharing plan, which is a qualified plan in which employer contributions are discretionary and may vary with profits.",
+  "tags": [
+   "concept",
+   "retirement"
+  ],
+  "outline_ref": "2.1 Retirement plans and other tax-advantaged accounts; ERISA"
+ },
+ {
+  "id": "s7-q-0581",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "customer-information",
+  "lesson_id": "s7-2-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The USA PATRIOT Act requirement to verify a new customer's identity using name, date of birth, address and an ID number?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Limited power of attorney"
+   },
+   {
+    "key": "B",
+    "text": "Layering"
+   },
+   {
+    "key": "C",
+    "text": "Customer identification program"
+   },
+   {
+    "key": "D",
+    "text": "Currency transaction report"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: the USA PATRIOT Act requirement to verify a new customer's identity using name, date of birth, address and an ID number?",
+  "explanation": "Customer identification program is the USA PATRIOT Act requirement to verify a new customer's identity using name, date of birth, address and an ID number. Currency transaction report: is a report filed with FinCEN for cash transactions over 10,000 dollars in a single business day. Limited power of attorney: is an authorization allowing another person to make trades in an account but not to withdraw assets. Layering: is the money-laundering stage in which funds are moved through many transactions to hide their origin.",
+  "spoken_explanation": "The answer is Customer identification program: the USA PATRIOT Act requirement to verify a new customer's identity using name, date of birth, address and an ID number. Don't confuse it with Currency transaction report, which is a report filed with FinCEN for cash transactions over ten thousand dollars in a single business day.",
+  "tags": [
+   "concept",
+   "customer-information"
+  ],
+  "outline_ref": "2.2 Customer screening; information security and privacy; account authorizations"
+ },
+ {
+  "id": "s7-q-0582",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "customer-information",
+  "lesson_id": "s7-2-03",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Customer identification program is under the customer due diligence rule, each person owning 25 percent or more of a legal entity customer, plus one person with significant control.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. Customer identification program is under the customer due diligence rule, each person owning twenty-five percent or more of a legal entity customer, plus one person with significant control.",
+  "explanation": "False. That describes Beneficial owner. Customer identification program is the USA PATRIOT Act requirement to verify a new customer's identity using name, date of birth, address and an ID number.",
+  "spoken_explanation": "False. That describes Beneficial owner. Customer identification program is actually the USA PATRIOT Act requirement to verify a new customer's identity using name, date of birth, address and an ID number. AML runs in three stages: placement, layering, integration. Know the reports that catch each. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "customer-information"
+  ],
+  "outline_ref": "2.2 Customer screening; information security and privacy; account authorizations"
+ },
+ {
+  "id": "s7-q-0583",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "customer-information",
+  "lesson_id": "s7-2-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A report filed with FinCEN for cash transactions over 10,000 dollars in a single business day?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Currency transaction report"
+   },
+   {
+    "key": "B",
+    "text": "Trusted contact person"
+   },
+   {
+    "key": "C",
+    "text": "Regulation S-P"
+   },
+   {
+    "key": "D",
+    "text": "Suspicious activity report"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: a report filed with FinCEN for cash transactions over ten thousand dollars in a single business day?",
+  "explanation": "Currency transaction report is a report filed with FinCEN for cash transactions over 10,000 dollars in a single business day. Suspicious activity report: is a FinCEN filing a broker-dealer must make for suspicious transactions of 5,000 dollars or more, without telling the customer. Trusted contact person: is a person the firm may contact about possible financial exploitation or to confirm a customer's health status or whereabouts, with no trading authority. Regulation S-P: is the SEC privacy rule requiring an initial privacy notice, an opt-out right for sharing with nonaffiliated third parties, and safeguards for customer information.",
+  "spoken_explanation": "The answer is Currency transaction report: a report filed with FinCEN for cash transactions over ten thousand dollars in a single business day. Don't confuse it with Suspicious activity report, which is a FinCEN filing a broker-dealer must make for suspicious transactions of five thousand dollars or more, without telling the customer.",
+  "tags": [
+   "concept",
+   "customer-information"
+  ],
+  "outline_ref": "2.2 Customer screening; information security and privacy; account authorizations"
+ },
+ {
+  "id": "s7-q-0584",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "customer-information",
+  "lesson_id": "s7-2-03",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Currency transaction report is an authorization allowing another person to make trades in an account but not to withdraw assets.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. Currency transaction report is an authorization allowing another person to make trades in an account but not to withdraw assets.",
+  "explanation": "False. That describes Limited power of attorney. Currency transaction report is a report filed with FinCEN for cash transactions over 10,000 dollars in a single business day.",
+  "spoken_explanation": "False. That describes Limited power of attorney. Currency transaction report is actually a report filed with FinCEN for cash transactions over ten thousand dollars in a single business day. AML runs in three stages: placement, layering, integration. Know the reports that catch each. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "customer-information"
+  ],
+  "outline_ref": "2.2 Customer screening; information security and privacy; account authorizations"
+ },
+ {
+  "id": "s7-q-0585",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "customer-information",
+  "lesson_id": "s7-2-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A FinCEN filing a broker-dealer must make for suspicious transactions of 5,000 dollars or more, without telling the customer?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Layering"
+   },
+   {
+    "key": "B",
+    "text": "Customer identification program"
+   },
+   {
+    "key": "C",
+    "text": "Suspicious activity report"
+   },
+   {
+    "key": "D",
+    "text": "Currency transaction report"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: a FinCEN filing a broker-dealer must make for suspicious transactions of five thousand dollars or more, without telling the customer?",
+  "explanation": "Suspicious activity report is a FinCEN filing a broker-dealer must make for suspicious transactions of 5,000 dollars or more, without telling the customer. Layering: is the money-laundering stage in which funds are moved through many transactions to hide their origin. Customer identification program: is the USA PATRIOT Act requirement to verify a new customer's identity using name, date of birth, address and an ID number. Currency transaction report: is a report filed with FinCEN for cash transactions over 10,000 dollars in a single business day.",
+  "spoken_explanation": "The answer is Suspicious activity report: a FinCEN filing a broker-dealer must make for suspicious transactions of five thousand dollars or more, without telling the customer. Don't confuse it with Layering, which is the money-laundering stage in which funds are moved through many transactions to hide their origin.",
+  "tags": [
+   "concept",
+   "customer-information"
+  ],
+  "outline_ref": "2.2 Customer screening; information security and privacy; account authorizations"
+ },
+ {
+  "id": "s7-q-0586",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "customer-information",
+  "lesson_id": "s7-2-03",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Suspicious activity report is a FinCEN filing a broker-dealer must make for suspicious transactions of 5,000 dollars or more, without telling the customer.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "True or false. Suspicious activity report is a FinCEN filing a broker-dealer must make for suspicious transactions of five thousand dollars or more, without telling the customer.",
+  "explanation": "True. Suspicious activity report is a FinCEN filing a broker-dealer must make for suspicious transactions of 5,000 dollars or more, without telling the customer.",
+  "spoken_explanation": "True. Suspicious activity report is a FinCEN filing a broker-dealer must make for suspicious transactions of five thousand dollars or more, without telling the customer. AML runs in three stages: placement, layering, integration. Know the reports that catch each. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "customer-information"
+  ],
+  "outline_ref": "2.2 Customer screening; information security and privacy; account authorizations"
+ },
+ {
+  "id": "s7-q-0587",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "customer-information",
+  "lesson_id": "s7-2-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: Breaking cash deposits into smaller amounts to avoid currency reporting thresholds?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Trusted contact person"
+   },
+   {
+    "key": "B",
+    "text": "Placement"
+   },
+   {
+    "key": "C",
+    "text": "Structuring"
+   },
+   {
+    "key": "D",
+    "text": "Durable power of attorney"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: breaking cash deposits into smaller amounts to avoid currency reporting thresholds?",
+  "explanation": "Structuring is breaking cash deposits into smaller amounts to avoid currency reporting thresholds. Trusted contact person: is a person the firm may contact about possible financial exploitation or to confirm a customer's health status or whereabouts, with no trading authority. Durable power of attorney: is a power of attorney that remains in effect if the account owner becomes incapacitated, ending at death. Placement: is the money-laundering stage in which illicit cash first enters the financial system.",
+  "spoken_explanation": "The answer is Structuring: breaking cash deposits into smaller amounts to avoid currency reporting thresholds. Don't confuse it with Trusted contact person, which is a person the firm may contact about possible financial exploitation or to confirm a customer's health status or whereabouts, with no trading authority.",
+  "tags": [
+   "concept",
+   "customer-information"
+  ],
+  "outline_ref": "2.2 Customer screening; information security and privacy; account authorizations"
+ },
+ {
+  "id": "s7-q-0588",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "customer-information",
+  "lesson_id": "s7-2-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The money-laundering stage in which illicit cash first enters the financial system?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Beneficial owner"
+   },
+   {
+    "key": "B",
+    "text": "Regulation S-P"
+   },
+   {
+    "key": "C",
+    "text": "Durable power of attorney"
+   },
+   {
+    "key": "D",
+    "text": "Placement"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: the money-laundering stage in which illicit cash first enters the financial system?",
+  "explanation": "Placement is the money-laundering stage in which illicit cash first enters the financial system. Regulation S-P: is the SEC privacy rule requiring an initial privacy notice, an opt-out right for sharing with nonaffiliated third parties, and safeguards for customer information. Durable power of attorney: is a power of attorney that remains in effect if the account owner becomes incapacitated, ending at death. Beneficial owner: is under the customer due diligence rule, each person owning 25 percent or more of a legal entity customer, plus one person with significant control.",
+  "spoken_explanation": "The answer is Placement: the money-laundering stage in which illicit cash first enters the financial system. Don't confuse it with Regulation S-P, which is the SEC privacy rule requiring an initial privacy notice, an opt-out right for sharing with nonaffiliated third parties, and safeguards for customer information.",
+  "tags": [
+   "concept",
+   "customer-information"
+  ],
+  "outline_ref": "2.2 Customer screening; information security and privacy; account authorizations"
+ },
+ {
+  "id": "s7-q-0589",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "customer-information",
+  "lesson_id": "s7-2-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The money-laundering stage in which funds are moved through many transactions to hide their origin?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Durable power of attorney"
+   },
+   {
+    "key": "B",
+    "text": "Layering"
+   },
+   {
+    "key": "C",
+    "text": "Customer identification program"
+   },
+   {
+    "key": "D",
+    "text": "Regulation S-P"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: the money-laundering stage in which funds are moved through many transactions to hide their origin?",
+  "explanation": "Layering is the money-laundering stage in which funds are moved through many transactions to hide their origin. Customer identification program: is the USA PATRIOT Act requirement to verify a new customer's identity using name, date of birth, address and an ID number. Durable power of attorney: is a power of attorney that remains in effect if the account owner becomes incapacitated, ending at death. Regulation S-P: is the SEC privacy rule requiring an initial privacy notice, an opt-out right for sharing with nonaffiliated third parties, and safeguards for customer information.",
+  "spoken_explanation": "The answer is Layering: the money-laundering stage in which funds are moved through many transactions to hide their origin. Don't confuse it with Customer identification program, which is the USA PATRIOT Act requirement to verify a new customer's identity using name, date of birth, address and an ID number.",
+  "tags": [
+   "concept",
+   "customer-information"
+  ],
+  "outline_ref": "2.2 Customer screening; information security and privacy; account authorizations"
+ },
+ {
+  "id": "s7-q-0590",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "customer-information",
+  "lesson_id": "s7-2-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The money-laundering stage in which laundered funds re-enter the economy looking legitimate?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Integration"
+   },
+   {
+    "key": "B",
+    "text": "Placement"
+   },
+   {
+    "key": "C",
+    "text": "Beneficial owner"
+   },
+   {
+    "key": "D",
+    "text": "Full power of attorney"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: the money-laundering stage in which laundered funds re-enter the economy looking legitimate?",
+  "explanation": "Integration is the money-laundering stage in which laundered funds re-enter the economy looking legitimate. Full power of attorney: is an authorization allowing another person to trade and to withdraw cash and securities from an account. Placement: is the money-laundering stage in which illicit cash first enters the financial system. Beneficial owner: is under the customer due diligence rule, each person owning 25 percent or more of a legal entity customer, plus one person with significant control.",
+  "spoken_explanation": "The answer is Integration: the money-laundering stage in which laundered funds re-enter the economy looking legitimate. Don't confuse it with Full power of attorney, which is an authorization allowing another person to trade and to withdraw cash and securities from an account. AML runs in three stages: placement, layering, integration. Know the reports that catch each.",
+  "tags": [
+   "concept",
+   "customer-information"
+  ],
+  "outline_ref": "2.2 Customer screening; information security and privacy; account authorizations"
+ },
+ {
+  "id": "s7-q-0591",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "customer-information",
+  "lesson_id": "s7-2-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The Treasury list of specially designated nationals and blocked persons that firms must screen against?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Placement"
+   },
+   {
+    "key": "B",
+    "text": "Suspicious activity report"
+   },
+   {
+    "key": "C",
+    "text": "OFAC SDN list"
+   },
+   {
+    "key": "D",
+    "text": "Integration"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: the Treasury list of specially designated nationals and blocked persons that firms must screen against?",
+  "explanation": "OFAC SDN list is the Treasury list of specially designated nationals and blocked persons that firms must screen against. Suspicious activity report: is a FinCEN filing a broker-dealer must make for suspicious transactions of 5,000 dollars or more, without telling the customer. Integration: is the money-laundering stage in which laundered funds re-enter the economy looking legitimate. Placement: is the money-laundering stage in which illicit cash first enters the financial system.",
+  "spoken_explanation": "The answer is OFAC SDN list: the Treasury list of specially designated nationals and blocked persons that firms must screen against. Don't confuse it with Suspicious activity report, which is a FinCEN filing a broker-dealer must make for suspicious transactions of five thousand dollars or more, without telling the customer.",
+  "tags": [
+   "concept",
+   "customer-information"
+  ],
+  "outline_ref": "2.2 Customer screening; information security and privacy; account authorizations"
+ },
+ {
+  "id": "s7-q-0592",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "customer-information",
+  "lesson_id": "s7-2-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The SEC privacy rule requiring an initial privacy notice, an opt-out right for sharing with nonaffiliated third parties, and safeguards for customer information?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Regulation S-P"
+   },
+   {
+    "key": "B",
+    "text": "Durable power of attorney"
+   },
+   {
+    "key": "C",
+    "text": "Beneficial owner"
+   },
+   {
+    "key": "D",
+    "text": "Full power of attorney"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: the SEC privacy rule requiring an initial privacy notice, an opt-out right for sharing with nonaffiliated third parties, and safeguards for customer information?",
+  "explanation": "Regulation S-P is the SEC privacy rule requiring an initial privacy notice, an opt-out right for sharing with nonaffiliated third parties, and safeguards for customer information. Durable power of attorney: is a power of attorney that remains in effect if the account owner becomes incapacitated, ending at death. Beneficial owner: is under the customer due diligence rule, each person owning 25 percent or more of a legal entity customer, plus one person with significant control. Full power of attorney: is an authorization allowing another person to trade and to withdraw cash and securities from an account.",
+  "spoken_explanation": "The answer is Regulation S-P: the SEC privacy rule requiring an initial privacy notice, an opt-out right for sharing with nonaffiliated third parties, and safeguards for customer information. Don't confuse it with Durable power of attorney, which is a power of attorney that remains in effect if the account owner becomes incapacitated, ending at death.",
+  "tags": [
+   "concept",
+   "customer-information"
+  ],
+  "outline_ref": "2.2 Customer screening; information security and privacy; account authorizations"
+ },
+ {
+  "id": "s7-q-0593",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "customer-information",
+  "lesson_id": "s7-2-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: Under the customer due diligence rule, each person owning 25 percent or more of a legal entity customer, plus one person with significant control?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Placement"
+   },
+   {
+    "key": "B",
+    "text": "Limited power of attorney"
+   },
+   {
+    "key": "C",
+    "text": "Beneficial owner"
+   },
+   {
+    "key": "D",
+    "text": "Durable power of attorney"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: under the customer due diligence rule, each person owning twenty-five percent or more of a legal entity customer, plus one person with significant control?",
+  "explanation": "Beneficial owner is under the customer due diligence rule, each person owning 25 percent or more of a legal entity customer, plus one person with significant control. Durable power of attorney: is a power of attorney that remains in effect if the account owner becomes incapacitated, ending at death. Placement: is the money-laundering stage in which illicit cash first enters the financial system. Limited power of attorney: is an authorization allowing another person to make trades in an account but not to withdraw assets.",
+  "spoken_explanation": "The answer is Beneficial owner: under the customer due diligence rule, each person owning twenty-five percent or more of a legal entity customer, plus one person with significant control. Don't confuse it with Durable power of attorney, which is a power of attorney that remains in effect if the account owner becomes incapacitated, ending at death.",
+  "tags": [
+   "concept",
+   "customer-information"
+  ],
+  "outline_ref": "2.2 Customer screening; information security and privacy; account authorizations"
+ },
+ {
+  "id": "s7-q-0594",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "customer-information",
+  "lesson_id": "s7-2-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An authorization allowing another person to make trades in an account but not to withdraw assets?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Structuring"
+   },
+   {
+    "key": "B",
+    "text": "Placement"
+   },
+   {
+    "key": "C",
+    "text": "Durable power of attorney"
+   },
+   {
+    "key": "D",
+    "text": "Limited power of attorney"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: an authorization allowing another person to make trades in an account but not to withdraw assets?",
+  "explanation": "Limited power of attorney is an authorization allowing another person to make trades in an account but not to withdraw assets. Placement: is the money-laundering stage in which illicit cash first enters the financial system. Durable power of attorney: is a power of attorney that remains in effect if the account owner becomes incapacitated, ending at death. Structuring: is breaking cash deposits into smaller amounts to avoid currency reporting thresholds.",
+  "spoken_explanation": "The answer is Limited power of attorney: an authorization allowing another person to make trades in an account but not to withdraw assets. Don't confuse it with Placement, which is the money-laundering stage in which illicit cash first enters the financial system. AML runs in three stages: placement, layering, integration. Know the reports that catch each.",
+  "tags": [
+   "concept",
+   "customer-information"
+  ],
+  "outline_ref": "2.2 Customer screening; information security and privacy; account authorizations"
+ },
+ {
+  "id": "s7-q-0595",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "customer-information",
+  "lesson_id": "s7-2-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An authorization allowing another person to trade and to withdraw cash and securities from an account?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Regulation S-P"
+   },
+   {
+    "key": "B",
+    "text": "Currency transaction report"
+   },
+   {
+    "key": "C",
+    "text": "Integration"
+   },
+   {
+    "key": "D",
+    "text": "Full power of attorney"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: an authorization allowing another person to trade and to withdraw cash and securities from an account?",
+  "explanation": "Full power of attorney is an authorization allowing another person to trade and to withdraw cash and securities from an account. Currency transaction report: is a report filed with FinCEN for cash transactions over 10,000 dollars in a single business day. Regulation S-P: is the SEC privacy rule requiring an initial privacy notice, an opt-out right for sharing with nonaffiliated third parties, and safeguards for customer information. Integration: is the money-laundering stage in which laundered funds re-enter the economy looking legitimate.",
+  "spoken_explanation": "The answer is Full power of attorney: an authorization allowing another person to trade and to withdraw cash and securities from an account. Don't confuse it with Currency transaction report, which is a report filed with FinCEN for cash transactions over ten thousand dollars in a single business day.",
+  "tags": [
+   "concept",
+   "customer-information"
+  ],
+  "outline_ref": "2.2 Customer screening; information security and privacy; account authorizations"
+ },
+ {
+  "id": "s7-q-0596",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "customer-information",
+  "lesson_id": "s7-2-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A power of attorney that remains in effect if the account owner becomes incapacitated, ending at death?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Currency transaction report"
+   },
+   {
+    "key": "B",
+    "text": "Durable power of attorney"
+   },
+   {
+    "key": "C",
+    "text": "Integration"
+   },
+   {
+    "key": "D",
+    "text": "Full power of attorney"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: a power of attorney that remains in effect if the account owner becomes incapacitated, ending at death?",
+  "explanation": "Durable power of attorney is a power of attorney that remains in effect if the account owner becomes incapacitated, ending at death. Full power of attorney: is an authorization allowing another person to trade and to withdraw cash and securities from an account. Currency transaction report: is a report filed with FinCEN for cash transactions over 10,000 dollars in a single business day. Integration: is the money-laundering stage in which laundered funds re-enter the economy looking legitimate.",
+  "spoken_explanation": "The answer is Durable power of attorney: a power of attorney that remains in effect if the account owner becomes incapacitated, ending at death. Don't confuse it with Full power of attorney, which is an authorization allowing another person to trade and to withdraw cash and securities from an account.",
+  "tags": [
+   "concept",
+   "customer-information"
+  ],
+  "outline_ref": "2.2 Customer screening; information security and privacy; account authorizations"
+ },
+ {
+  "id": "s7-q-0597",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "customer-information",
+  "lesson_id": "s7-2-03",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A person the firm may contact about possible financial exploitation or to confirm a customer's health status or whereabouts, with no trading authority?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Trusted contact person"
+   },
+   {
+    "key": "B",
+    "text": "Full power of attorney"
+   },
+   {
+    "key": "C",
+    "text": "Regulation S-P"
+   },
+   {
+    "key": "D",
+    "text": "Customer identification program"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: a person the firm may contact about possible financial exploitation or to confirm a customer's health status or whereabouts, with no trading authority?",
+  "explanation": "Trusted contact person is a person the firm may contact about possible financial exploitation or to confirm a customer's health status or whereabouts, with no trading authority. Regulation S-P: is the SEC privacy rule requiring an initial privacy notice, an opt-out right for sharing with nonaffiliated third parties, and safeguards for customer information. Full power of attorney: is an authorization allowing another person to trade and to withdraw cash and securities from an account. Customer identification program: is the USA PATRIOT Act requirement to verify a new customer's identity using name, date of birth, address and an ID number.",
+  "spoken_explanation": "The answer is Trusted contact person: a person the firm may contact about possible financial exploitation or to confirm a customer's health status or whereabouts, with no trading authority. Don't confuse it with Regulation S-P, which is the SEC privacy rule requiring an initial privacy notice, an opt-out right for sharing with nonaffiliated third parties, and safeguards for customer information.",
+  "tags": [
+   "concept",
+   "customer-information"
+  ],
+  "outline_ref": "2.2 Customer screening; information security and privacy; account authorizations"
+ },
+ {
+  "id": "s7-q-0598",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "suitability",
+  "lesson_id": "s7-2-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The duty to understand a recommended security or strategy well enough to believe it is suitable for at least some investors?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Customer-specific obligation"
+   },
+   {
+    "key": "B",
+    "text": "Risk tolerance"
+   },
+   {
+    "key": "C",
+    "text": "Liquidity needs"
+   },
+   {
+    "key": "D",
+    "text": "Reasonable-basis obligation"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: the duty to understand a recommended security or strategy well enough to believe it is suitable for at least some investors?",
+  "explanation": "Reasonable-basis obligation is the duty to understand a recommended security or strategy well enough to believe it is suitable for at least some investors. Liquidity needs: is how much of a customer's money must be convertible to cash quickly without significant loss. Risk tolerance: is a customer's willingness and ability to accept declines in the value of investments. Customer-specific obligation: is the duty to have a reasonable basis that a recommendation fits a particular customer's investment profile.",
+  "spoken_explanation": "The answer is Reasonable-basis obligation: the duty to understand a recommended security or strategy well enough to believe it is suitable for at least some investors. Don't confuse it with Liquidity needs, which is how much of a customer's money must be convertible to cash quickly without significant loss.",
+  "tags": [
+   "concept",
+   "suitability"
+  ],
+  "outline_ref": "2.3 Investment profile, objectives, care obligations"
+ },
+ {
+  "id": "s7-q-0599",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "suitability",
+  "lesson_id": "s7-2-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The duty to have a reasonable basis that a recommendation fits a particular customer's investment profile?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Preservation of capital"
+   },
+   {
+    "key": "B",
+    "text": "Time horizon"
+   },
+   {
+    "key": "C",
+    "text": "Customer-specific obligation"
+   },
+   {
+    "key": "D",
+    "text": "Speculation"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: the duty to have a reasonable basis that a recommendation fits a particular customer's investment profile?",
+  "explanation": "Customer-specific obligation is the duty to have a reasonable basis that a recommendation fits a particular customer's investment profile. Speculation: is an investment objective that accepts high risk of loss in pursuit of large gains. Preservation of capital: is an investment objective focused on protecting principal, best served by short-term, high-quality debt. Time horizon: is the expected length of time before a customer needs the invested money.",
+  "spoken_explanation": "The answer is Customer-specific obligation: the duty to have a reasonable basis that a recommendation fits a particular customer's investment profile. Don't confuse it with Speculation, which is an investment objective that accepts high risk of loss in pursuit of large gains. Profile first, product second: objectives, risk tolerance, time horizon and liquidity drive every recommendation.",
+  "tags": [
+   "concept",
+   "suitability"
+  ],
+  "outline_ref": "2.3 Investment profile, objectives, care obligations"
+ },
+ {
+  "id": "s7-q-0600",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "suitability",
+  "lesson_id": "s7-2-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The duty to ensure a series of recommended transactions is not excessive when viewed together?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Quantitative obligation"
+   },
+   {
+    "key": "B",
+    "text": "Preservation of capital"
+   },
+   {
+    "key": "C",
+    "text": "Speculation"
+   },
+   {
+    "key": "D",
+    "text": "Recommendation to hold"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: the duty to ensure a series of recommended transactions is not excessive when viewed together?",
+  "explanation": "Quantitative obligation is the duty to ensure a series of recommended transactions is not excessive when viewed together. Preservation of capital: is an investment objective focused on protecting principal, best served by short-term, high-quality debt. Speculation: is an investment objective that accepts high risk of loss in pursuit of large gains. Recommendation to hold: is an explicit recommendation to keep a security, which is covered by Reg BI and the suitability rule.",
+  "spoken_explanation": "The answer is Quantitative obligation: the duty to ensure a series of recommended transactions is not excessive when viewed together. Don't confuse it with Preservation of capital, which is an investment objective focused on protecting principal, best served by short-term, high-quality debt. Profile first, product second: objectives, risk tolerance, time horizon and liquidity drive every recommendation.",
+  "tags": [
+   "concept",
+   "suitability"
+  ],
+  "outline_ref": "2.3 Investment profile, objectives, care obligations"
+ },
+ {
+  "id": "s7-q-0601",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "suitability",
+  "lesson_id": "s7-2-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An investment objective focused on protecting principal, best served by short-term, high-quality debt?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Regulation Best Interest"
+   },
+   {
+    "key": "B",
+    "text": "Preservation of capital"
+   },
+   {
+    "key": "C",
+    "text": "Quantitative obligation"
+   },
+   {
+    "key": "D",
+    "text": "Customer-specific obligation"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: an investment objective focused on protecting principal, best served by short-term, high-quality debt?",
+  "explanation": "Preservation of capital is an investment objective focused on protecting principal, best served by short-term, high-quality debt. Regulation Best Interest: is the SEC rule requiring broker-dealers to act in a retail customer's best interest when making recommendations, without putting the firm's interest ahead. Quantitative obligation: is the duty to ensure a series of recommended transactions is not excessive when viewed together. Customer-specific obligation: is the duty to have a reasonable basis that a recommendation fits a particular customer's investment profile.",
+  "spoken_explanation": "The answer is Preservation of capital: an investment objective focused on protecting principal, best served by short-term, high-quality debt. Don't confuse it with Regulation Best Interest, which is the SEC rule requiring broker-dealers to act in a retail customer's best interest when making recommendations, without putting the firm's interest ahead.",
+  "tags": [
+   "concept",
+   "suitability"
+  ],
+  "outline_ref": "2.3 Investment profile, objectives, care obligations"
+ },
+ {
+  "id": "s7-q-0602",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "suitability",
+  "lesson_id": "s7-2-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An investment objective that accepts high risk of loss in pursuit of large gains?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Regulation Best Interest"
+   },
+   {
+    "key": "B",
+    "text": "Preservation of capital"
+   },
+   {
+    "key": "C",
+    "text": "Speculation"
+   },
+   {
+    "key": "D",
+    "text": "Liquidity needs"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: an investment objective that accepts high risk of loss in pursuit of large gains?",
+  "explanation": "Speculation is an investment objective that accepts high risk of loss in pursuit of large gains. Regulation Best Interest: is the SEC rule requiring broker-dealers to act in a retail customer's best interest when making recommendations, without putting the firm's interest ahead. Liquidity needs: is how much of a customer's money must be convertible to cash quickly without significant loss. Preservation of capital: is an investment objective focused on protecting principal, best served by short-term, high-quality debt.",
+  "spoken_explanation": "The answer is Speculation: an investment objective that accepts high risk of loss in pursuit of large gains. Don't confuse it with Regulation Best Interest, which is the SEC rule requiring broker-dealers to act in a retail customer's best interest when making recommendations, without putting the firm's interest ahead.",
+  "tags": [
+   "concept",
+   "suitability"
+  ],
+  "outline_ref": "2.3 Investment profile, objectives, care obligations"
+ },
+ {
+  "id": "s7-q-0603",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "suitability",
+  "lesson_id": "s7-2-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: How much of a customer's money must be convertible to cash quickly without significant loss?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Churning"
+   },
+   {
+    "key": "B",
+    "text": "Customer-specific obligation"
+   },
+   {
+    "key": "C",
+    "text": "Liquidity needs"
+   },
+   {
+    "key": "D",
+    "text": "Time horizon"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: how much of a customer's money must be convertible to cash quickly without significant loss?",
+  "explanation": "Liquidity needs is how much of a customer's money must be convertible to cash quickly without significant loss. Time horizon: is the expected length of time before a customer needs the invested money. Churning: is excessive trading in an account to generate commissions, judged by turnover and cost-to-equity ratios. Customer-specific obligation: is the duty to have a reasonable basis that a recommendation fits a particular customer's investment profile.",
+  "spoken_explanation": "The answer is Liquidity needs: how much of a customer's money must be convertible to cash quickly without significant loss. Don't confuse it with Time horizon, which is the expected length of time before a customer needs the invested money. Profile first, product second: objectives, risk tolerance, time horizon and liquidity drive every recommendation.",
+  "tags": [
+   "concept",
+   "suitability"
+  ],
+  "outline_ref": "2.3 Investment profile, objectives, care obligations"
+ },
+ {
+  "id": "s7-q-0604",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "suitability",
+  "lesson_id": "s7-2-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The expected length of time before a customer needs the invested money?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Time horizon"
+   },
+   {
+    "key": "B",
+    "text": "Churning"
+   },
+   {
+    "key": "C",
+    "text": "Regulation Best Interest"
+   },
+   {
+    "key": "D",
+    "text": "Recommendation to hold"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: the expected length of time before a customer needs the invested money?",
+  "explanation": "Time horizon is the expected length of time before a customer needs the invested money. Regulation Best Interest: is the SEC rule requiring broker-dealers to act in a retail customer's best interest when making recommendations, without putting the firm's interest ahead. Churning: is excessive trading in an account to generate commissions, judged by turnover and cost-to-equity ratios. Recommendation to hold: is an explicit recommendation to keep a security, which is covered by Reg BI and the suitability rule.",
+  "spoken_explanation": "The answer is Time horizon: the expected length of time before a customer needs the invested money. Don't confuse it with Regulation Best Interest, which is the SEC rule requiring broker-dealers to act in a retail customer's best interest when making recommendations, without putting the firm's interest ahead.",
+  "tags": [
+   "concept",
+   "suitability"
+  ],
+  "outline_ref": "2.3 Investment profile, objectives, care obligations"
+ },
+ {
+  "id": "s7-q-0605",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "suitability",
+  "lesson_id": "s7-2-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A customer's willingness and ability to accept declines in the value of investments?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Reasonable-basis obligation"
+   },
+   {
+    "key": "B",
+    "text": "Risk tolerance"
+   },
+   {
+    "key": "C",
+    "text": "Customer-specific obligation"
+   },
+   {
+    "key": "D",
+    "text": "Recommendation to hold"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: a customer's willingness and ability to accept declines in the value of investments?",
+  "explanation": "Risk tolerance is a customer's willingness and ability to accept declines in the value of investments. Reasonable-basis obligation: is the duty to understand a recommended security or strategy well enough to believe it is suitable for at least some investors. Recommendation to hold: is an explicit recommendation to keep a security, which is covered by Reg BI and the suitability rule. Customer-specific obligation: is the duty to have a reasonable basis that a recommendation fits a particular customer's investment profile.",
+  "spoken_explanation": "The answer is Risk tolerance: a customer's willingness and ability to accept declines in the value of investments. Don't confuse it with Reasonable-basis obligation, which is the duty to understand a recommended security or strategy well enough to believe it is suitable for at least some investors.",
+  "tags": [
+   "concept",
+   "suitability"
+  ],
+  "outline_ref": "2.3 Investment profile, objectives, care obligations"
+ },
+ {
+  "id": "s7-q-0606",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "suitability",
+  "lesson_id": "s7-2-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The relationship summary that broker-dealers and advisers must give retail investors, describing services, fees, conflicts and disciplinary history?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Churning"
+   },
+   {
+    "key": "B",
+    "text": "Form CRS"
+   },
+   {
+    "key": "C",
+    "text": "Speculation"
+   },
+   {
+    "key": "D",
+    "text": "Time horizon"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: the relationship summary that broker-dealers and advisers must give retail investors, describing services, fees, conflicts and disciplinary history?",
+  "explanation": "Form CRS is the relationship summary that broker-dealers and advisers must give retail investors, describing services, fees, conflicts and disciplinary history. Time horizon: is the expected length of time before a customer needs the invested money. Churning: is excessive trading in an account to generate commissions, judged by turnover and cost-to-equity ratios. Speculation: is an investment objective that accepts high risk of loss in pursuit of large gains.",
+  "spoken_explanation": "The answer is Form CRS: the relationship summary that broker-dealers and advisers must give retail investors, describing services, fees, conflicts and disciplinary history. Don't confuse it with Time horizon, which is the expected length of time before a customer needs the invested money. Profile first, product second: objectives, risk tolerance, time horizon and liquidity drive every recommendation.",
+  "tags": [
+   "concept",
+   "suitability"
+  ],
+  "outline_ref": "2.3 Investment profile, objectives, care obligations"
+ },
+ {
+  "id": "s7-q-0607",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "suitability",
+  "lesson_id": "s7-2-04",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Form CRS is the relationship summary that broker-dealers and advisers must give retail investors, describing services, fees, conflicts and disciplinary history.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "True or false. Form CRS is the relationship summary that broker-dealers and advisers must give retail investors, describing services, fees, conflicts and disciplinary history.",
+  "explanation": "True. Form CRS is the relationship summary that broker-dealers and advisers must give retail investors, describing services, fees, conflicts and disciplinary history.",
+  "spoken_explanation": "True. Form CRS is the relationship summary that broker-dealers and advisers must give retail investors, describing services, fees, conflicts and disciplinary history. Profile first, product second: objectives, risk tolerance, time horizon and liquidity drive every recommendation. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "suitability"
+  ],
+  "outline_ref": "2.3 Investment profile, objectives, care obligations"
+ },
+ {
+  "id": "s7-q-0608",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "suitability",
+  "lesson_id": "s7-2-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The SEC rule requiring broker-dealers to act in a retail customer's best interest when making recommendations, without putting the firm's interest ahead?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Churning"
+   },
+   {
+    "key": "B",
+    "text": "Liquidity needs"
+   },
+   {
+    "key": "C",
+    "text": "Regulation Best Interest"
+   },
+   {
+    "key": "D",
+    "text": "Form CRS"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: the SEC rule requiring broker-dealers to act in a retail customer's best interest when making recommendations, without putting the firm's interest ahead?",
+  "explanation": "Regulation Best Interest is the SEC rule requiring broker-dealers to act in a retail customer's best interest when making recommendations, without putting the firm's interest ahead. Liquidity needs: is how much of a customer's money must be convertible to cash quickly without significant loss. Form CRS: is the relationship summary that broker-dealers and advisers must give retail investors, describing services, fees, conflicts and disciplinary history. Churning: is excessive trading in an account to generate commissions, judged by turnover and cost-to-equity ratios.",
+  "spoken_explanation": "The answer is Regulation Best Interest: the SEC rule requiring broker-dealers to act in a retail customer's best interest when making recommendations, without putting the firm's interest ahead. Don't confuse it with Liquidity needs, which is how much of a customer's money must be convertible to cash quickly without significant loss.",
+  "tags": [
+   "concept",
+   "suitability"
+  ],
+  "outline_ref": "2.3 Investment profile, objectives, care obligations"
+ },
+ {
+  "id": "s7-q-0609",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "suitability",
+  "lesson_id": "s7-2-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: Excessive trading in an account to generate commissions, judged by turnover and cost-to-equity ratios?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Speculation"
+   },
+   {
+    "key": "B",
+    "text": "Recommendation to hold"
+   },
+   {
+    "key": "C",
+    "text": "Reasonable-basis obligation"
+   },
+   {
+    "key": "D",
+    "text": "Churning"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: excessive trading in an account to generate commissions, judged by turnover and cost-to-equity ratios?",
+  "explanation": "Churning is excessive trading in an account to generate commissions, judged by turnover and cost-to-equity ratios. Speculation: is an investment objective that accepts high risk of loss in pursuit of large gains. Reasonable-basis obligation: is the duty to understand a recommended security or strategy well enough to believe it is suitable for at least some investors. Recommendation to hold: is an explicit recommendation to keep a security, which is covered by Reg BI and the suitability rule.",
+  "spoken_explanation": "The answer is Churning: excessive trading in an account to generate commissions, judged by turnover and cost-to-equity ratios. Don't confuse it with Speculation, which is an investment objective that accepts high risk of loss in pursuit of large gains. Profile first, product second: objectives, risk tolerance, time horizon and liquidity drive every recommendation.",
+  "tags": [
+   "concept",
+   "suitability"
+  ],
+  "outline_ref": "2.3 Investment profile, objectives, care obligations"
+ },
+ {
+  "id": "s7-q-0610",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "suitability",
+  "lesson_id": "s7-2-04",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: An explicit recommendation to keep a security, which is covered by Reg BI and the suitability rule?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Time horizon"
+   },
+   {
+    "key": "B",
+    "text": "Customer-specific obligation"
+   },
+   {
+    "key": "C",
+    "text": "Recommendation to hold"
+   },
+   {
+    "key": "D",
+    "text": "Preservation of capital"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: an explicit recommendation to keep a security, which is covered by Reg BI and the suitability rule?",
+  "explanation": "Recommendation to hold is an explicit recommendation to keep a security, which is covered by Reg BI and the suitability rule. Time horizon: is the expected length of time before a customer needs the invested money. Preservation of capital: is an investment objective focused on protecting principal, best served by short-term, high-quality debt. Customer-specific obligation: is the duty to have a reasonable basis that a recommendation fits a particular customer's investment profile.",
+  "spoken_explanation": "The answer is Recommendation to hold: an explicit recommendation to keep a security, which is covered by Reg BI and the suitability rule. Don't confuse it with Time horizon, which is the expected length of time before a customer needs the invested money. Profile first, product second: objectives, risk tolerance, time horizon and liquidity drive every recommendation.",
+  "tags": [
+   "concept",
+   "suitability"
+  ],
+  "outline_ref": "2.3 Investment profile, objectives, care obligations"
+ },
+ {
+  "id": "s7-q-0611",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-opening",
+  "lesson_id": "s7-2-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The part of a margin agreement that discloses how interest on the debit balance is calculated?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Credit agreement"
+   },
+   {
+    "key": "B",
+    "text": "New account form"
+   },
+   {
+    "key": "C",
+    "text": "Hold mail instruction"
+   },
+   {
+    "key": "D",
+    "text": "Frozen account"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "Which term best describes this: the part of a margin agreement that discloses how interest on the debit balance is calculated?",
+  "explanation": "Credit agreement is the part of a margin agreement that discloses how interest on the debit balance is calculated. Hold mail instruction: is a written customer request that a firm hold mail for a period, permitted under FINRA rules with conditions. Frozen account: is a cash account restriction for 90 days during which the customer must have cash in the account before any purchase. New account form: is the record of a customer's essential facts, approved by a principal, that must be updated and confirmed periodically.",
+  "spoken_explanation": "The answer is Credit agreement: the part of a margin agreement that discloses how interest on the debit balance is calculated. Don't confuse it with Hold mail instruction, which is a written customer request that a firm hold mail for a period, permitted under FINRA rules with conditions.",
+  "tags": [
+   "concept",
+   "account-opening"
+  ],
+  "outline_ref": "2.4 Supervisory approvals to open accounts; account documents"
+ },
+ {
+  "id": "s7-q-0612",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-opening",
+  "lesson_id": "s7-2-05",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Credit agreement is a written customer request that a firm hold mail for a period, permitted under FINRA rules with conditions.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "True or false. Credit agreement is a written customer request that a firm hold mail for a period, permitted under FINRA rules with conditions.",
+  "explanation": "False. That describes Hold mail instruction. Credit agreement is the part of a margin agreement that discloses how interest on the debit balance is calculated.",
+  "spoken_explanation": "False. That describes Hold mail instruction. Credit agreement is actually the part of a margin agreement that discloses how interest on the debit balance is calculated. Who signs off, and when: principals approve accounts, customers sign the agreements. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "account-opening"
+  ],
+  "outline_ref": "2.4 Supervisory approvals to open accounts; account documents"
+ },
+ {
+  "id": "s7-q-0613",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-opening",
+  "lesson_id": "s7-2-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The part of a margin agreement that lets the firm pledge the customer's securities as collateral for the margin loan?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Hold mail instruction"
+   },
+   {
+    "key": "B",
+    "text": "Credit agreement"
+   },
+   {
+    "key": "C",
+    "text": "Hypothecation agreement"
+   },
+   {
+    "key": "D",
+    "text": "Loan consent"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: the part of a margin agreement that lets the firm pledge the customer's securities as collateral for the margin loan?",
+  "explanation": "Hypothecation agreement is the part of a margin agreement that lets the firm pledge the customer's securities as collateral for the margin loan. Hold mail instruction: is a written customer request that a firm hold mail for a period, permitted under FINRA rules with conditions. Credit agreement: is the part of a margin agreement that discloses how interest on the debit balance is calculated. Loan consent: is the optional part of a margin agreement that permits the firm to lend the customer's margin securities to other customers or firms.",
+  "spoken_explanation": "The answer is Hypothecation agreement: the part of a margin agreement that lets the firm pledge the customer's securities as collateral for the margin loan. Don't confuse it with Hold mail instruction, which is a written customer request that a firm hold mail for a period, permitted under FINRA rules with conditions.",
+  "tags": [
+   "concept",
+   "account-opening"
+  ],
+  "outline_ref": "2.4 Supervisory approvals to open accounts; account documents"
+ },
+ {
+  "id": "s7-q-0614",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-opening",
+  "lesson_id": "s7-2-05",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Hypothecation agreement is the part of a margin agreement that lets the firm pledge the customer's securities as collateral for the margin loan.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "True or false. Hypothecation agreement is the part of a margin agreement that lets the firm pledge the customer's securities as collateral for the margin loan.",
+  "explanation": "True. Hypothecation agreement is the part of a margin agreement that lets the firm pledge the customer's securities as collateral for the margin loan.",
+  "spoken_explanation": "True. Hypothecation agreement is the part of a margin agreement that lets the firm pledge the customer's securities as collateral for the margin loan. Who signs off, and when: principals approve accounts, customers sign the agreements. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "account-opening"
+  ],
+  "outline_ref": "2.4 Supervisory approvals to open accounts; account documents"
+ },
+ {
+  "id": "s7-q-0615",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-opening",
+  "lesson_id": "s7-2-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The optional part of a margin agreement that permits the firm to lend the customer's margin securities to other customers or firms?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Margin disclosure statement"
+   },
+   {
+    "key": "B",
+    "text": "Credit agreement"
+   },
+   {
+    "key": "C",
+    "text": "Hypothecation agreement"
+   },
+   {
+    "key": "D",
+    "text": "Loan consent"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: the optional part of a margin agreement that permits the firm to lend the customer's margin securities to other customers or firms?",
+  "explanation": "Loan consent is the optional part of a margin agreement that permits the firm to lend the customer's margin securities to other customers or firms. Credit agreement: is the part of a margin agreement that discloses how interest on the debit balance is calculated. Hypothecation agreement: is the part of a margin agreement that lets the firm pledge the customer's securities as collateral for the margin loan. Margin disclosure statement: is the document a firm must provide before opening a margin account, explaining risks such as forced liquidation without notice.",
+  "spoken_explanation": "The answer is Loan consent: the optional part of a margin agreement that permits the firm to lend the customer's margin securities to other customers or firms. Don't confuse it with Credit agreement, which is the part of a margin agreement that discloses how interest on the debit balance is calculated.",
+  "tags": [
+   "concept",
+   "account-opening"
+  ],
+  "outline_ref": "2.4 Supervisory approvals to open accounts; account documents"
+ },
+ {
+  "id": "s7-q-0616",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-opening",
+  "lesson_id": "s7-2-05",
+  "difficulty": 2,
+  "type": "tf",
+  "stem": "True or false: Loan consent is the optional part of a margin agreement that permits the firm to lend the customer's margin securities to other customers or firms.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "True"
+   },
+   {
+    "key": "B",
+    "text": "False"
+   }
+  ],
+  "answer": "A",
+  "spoken_stem": "True or false. Loan consent is the optional part of a margin agreement that permits the firm to lend the customer's margin securities to other customers or firms.",
+  "explanation": "True. Loan consent is the optional part of a margin agreement that permits the firm to lend the customer's margin securities to other customers or firms.",
+  "spoken_explanation": "True. Loan consent is the optional part of a margin agreement that permits the firm to lend the customer's margin securities to other customers or firms. Who signs off, and when: principals approve accounts, customers sign the agreements. Picture where this shows up on the exam, and say the definition back in your own words.",
+  "tags": [
+   "concept",
+   "account-opening"
+  ],
+  "outline_ref": "2.4 Supervisory approvals to open accounts; account documents"
+ },
+ {
+  "id": "s7-q-0617",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-opening",
+  "lesson_id": "s7-2-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The document a firm must provide before opening a margin account, explaining risks such as forced liquidation without notice?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "New account form"
+   },
+   {
+    "key": "B",
+    "text": "Margin disclosure statement"
+   },
+   {
+    "key": "C",
+    "text": "Hold mail instruction"
+   },
+   {
+    "key": "D",
+    "text": "Freeriding"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: the document a firm must provide before opening a margin account, explaining risks such as forced liquidation without notice?",
+  "explanation": "Margin disclosure statement is the document a firm must provide before opening a margin account, explaining risks such as forced liquidation without notice. Hold mail instruction: is a written customer request that a firm hold mail for a period, permitted under FINRA rules with conditions. Freeriding: is selling a security in a cash account before paying for it, which results in a 90-day freeze. New account form: is the record of a customer's essential facts, approved by a principal, that must be updated and confirmed periodically.",
+  "spoken_explanation": "The answer is Margin disclosure statement: the document a firm must provide before opening a margin account, explaining risks such as forced liquidation without notice. Don't confuse it with Hold mail instruction, which is a written customer request that a firm hold mail for a period, permitted under FINRA rules with conditions.",
+  "tags": [
+   "concept",
+   "account-opening"
+  ],
+  "outline_ref": "2.4 Supervisory approvals to open accounts; account documents"
+ },
+ {
+  "id": "s7-q-0618",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-opening",
+  "lesson_id": "s7-2-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The principal who approves options accounts and options communications?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Hold mail instruction"
+   },
+   {
+    "key": "B",
+    "text": "Registered options principal"
+   },
+   {
+    "key": "C",
+    "text": "Hypothecation agreement"
+   },
+   {
+    "key": "D",
+    "text": "Credit agreement"
+   }
+  ],
+  "answer": "B",
+  "spoken_stem": "Which term best describes this: the principal who approves options accounts and options communications?",
+  "explanation": "Registered options principal is the principal who approves options accounts and options communications. Hypothecation agreement: is the part of a margin agreement that lets the firm pledge the customer's securities as collateral for the margin loan. Credit agreement: is the part of a margin agreement that discloses how interest on the debit balance is calculated. Hold mail instruction: is a written customer request that a firm hold mail for a period, permitted under FINRA rules with conditions.",
+  "spoken_explanation": "The answer is Registered options principal: the principal who approves options accounts and options communications. Don't confuse it with Hypothecation agreement, which is the part of a margin agreement that lets the firm pledge the customer's securities as collateral for the margin loan. Who signs off, and when: principals approve accounts, customers sign the agreements.",
+  "tags": [
+   "concept",
+   "account-opening"
+  ],
+  "outline_ref": "2.4 Supervisory approvals to open accounts; account documents"
+ },
+ {
+  "id": "s7-q-0619",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-opening",
+  "lesson_id": "s7-2-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: The record of a customer's essential facts, approved by a principal, that must be updated and confirmed periodically?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Loan consent"
+   },
+   {
+    "key": "B",
+    "text": "Freeriding"
+   },
+   {
+    "key": "C",
+    "text": "Credit agreement"
+   },
+   {
+    "key": "D",
+    "text": "New account form"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: the record of a customer's essential facts, approved by a principal, that must be updated and confirmed periodically?",
+  "explanation": "New account form is the record of a customer's essential facts, approved by a principal, that must be updated and confirmed periodically. Freeriding: is selling a security in a cash account before paying for it, which results in a 90-day freeze. Loan consent: is the optional part of a margin agreement that permits the firm to lend the customer's margin securities to other customers or firms. Credit agreement: is the part of a margin agreement that discloses how interest on the debit balance is calculated.",
+  "spoken_explanation": "The answer is New account form: the record of a customer's essential facts, approved by a principal, that must be updated and confirmed periodically. Don't confuse it with Freeriding, which is selling a security in a cash account before paying for it, which results in a ninety-day freeze.",
+  "tags": [
+   "concept",
+   "account-opening"
+  ],
+  "outline_ref": "2.4 Supervisory approvals to open accounts; account documents"
+ },
+ {
+  "id": "s7-q-0620",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-opening",
+  "lesson_id": "s7-2-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A written customer request that a firm hold mail for a period, permitted under FINRA rules with conditions?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Hypothecation agreement"
+   },
+   {
+    "key": "B",
+    "text": "Registered options principal"
+   },
+   {
+    "key": "C",
+    "text": "New account form"
+   },
+   {
+    "key": "D",
+    "text": "Hold mail instruction"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: a written customer request that a firm hold mail for a period, permitted under FINRA rules with conditions?",
+  "explanation": "Hold mail instruction is a written customer request that a firm hold mail for a period, permitted under FINRA rules with conditions. Registered options principal: is the principal who approves options accounts and options communications. Hypothecation agreement: is the part of a margin agreement that lets the firm pledge the customer's securities as collateral for the margin loan. New account form: is the record of a customer's essential facts, approved by a principal, that must be updated and confirmed periodically.",
+  "spoken_explanation": "The answer is Hold mail instruction: a written customer request that a firm hold mail for a period, permitted under FINRA rules with conditions. Don't confuse it with Registered options principal, which is the principal who approves options accounts and options communications. Who signs off, and when: principals approve accounts, customers sign the agreements.",
+  "tags": [
+   "concept",
+   "account-opening"
+  ],
+  "outline_ref": "2.4 Supervisory approvals to open accounts; account documents"
+ },
+ {
+  "id": "s7-q-0621",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-opening",
+  "lesson_id": "s7-2-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: Selling a security in a cash account before paying for it, which results in a 90-day freeze?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Registered options principal"
+   },
+   {
+    "key": "B",
+    "text": "Hold mail instruction"
+   },
+   {
+    "key": "C",
+    "text": "Freeriding"
+   },
+   {
+    "key": "D",
+    "text": "Loan consent"
+   }
+  ],
+  "answer": "C",
+  "spoken_stem": "Which term best describes this: selling a security in a cash account before paying for it, which results in a ninety-day freeze?",
+  "explanation": "Freeriding is selling a security in a cash account before paying for it, which results in a 90-day freeze. Hold mail instruction: is a written customer request that a firm hold mail for a period, permitted under FINRA rules with conditions. Loan consent: is the optional part of a margin agreement that permits the firm to lend the customer's margin securities to other customers or firms. Registered options principal: is the principal who approves options accounts and options communications.",
+  "spoken_explanation": "The answer is Freeriding: selling a security in a cash account before paying for it, which results in a ninety-day freeze. Don't confuse it with Hold mail instruction, which is a written customer request that a firm hold mail for a period, permitted under FINRA rules with conditions.",
+  "tags": [
+   "concept",
+   "account-opening"
+  ],
+  "outline_ref": "2.4 Supervisory approvals to open accounts; account documents"
+ },
+ {
+  "id": "s7-q-0622",
+  "exam": "S7",
+  "section": "S7-2",
+  "topic": "account-opening",
+  "lesson_id": "s7-2-05",
+  "difficulty": 2,
+  "type": "mc",
+  "stem": "Which term BEST describes the following: A cash account restriction for 90 days during which the customer must have cash in the account before any purchase?",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Freeriding"
+   },
+   {
+    "key": "B",
+    "text": "Hypothecation agreement"
+   },
+   {
+    "key": "C",
+    "text": "Registered options principal"
+   },
+   {
+    "key": "D",
+    "text": "Frozen account"
+   }
+  ],
+  "answer": "D",
+  "spoken_stem": "Which term best describes this: a cash account restriction for ninety days during which the customer must have cash in the account before any purchase?",
+  "explanation": "Frozen account is a cash account restriction for 90 days during which the customer must have cash in the account before any purchase. Hypothecation agreement: is the part of a margin agreement that lets the firm pledge the customer's securities as collateral for the margin loan. Freeriding: is selling a security in a cash account before paying for it, which results in a 90-day freeze. Registered options principal: is the principal who approves options accounts and options communications.",
+  "spoken_explanation": "The answer is Frozen account: a cash account restriction for ninety days during which the customer must have cash in the account before any purchase. Don't confuse it with Hypothecation agreement, which is the part of a margin agreement that lets the firm pledge the customer's securities as collateral for the margin loan.",
+  "tags": [
+   "concept",
+   "account-opening"
+  ],
+  "outline_ref": "2.4 Supervisory approvals to open accounts; account documents"
  }
 ]

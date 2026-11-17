@@ -1,0 +1,111 @@
+{
+ "id": "s7-2-04",
+ "exam": "S7",
+ "section": "S7-2",
+ "section_title": "Opens Accounts After Obtaining and Evaluating Customers' Financial Profile and Investment Objectives",
+ "title": "Investment profile and best interest",
+ "order": 4,
+ "est_minutes": 7,
+ "segments": [
+  {
+   "type": "narration",
+   "text": "Every recommendation starts with knowing the customer. The Series 7 tests both FINRA's suitability rule, twenty-one eleven, and the SEC's Regulation Best Interest, which governs recommendations to retail customers. Think of Reg BI as raising the bar for retail clients, while suitability still covers institutional and other non-retail recommendations."
+  },
+  {
+   "type": "narration",
+   "text": "A customer's investment profile includes age, other investments, financial situation and needs, tax status, investment objectives, investment experience, time horizon, liquidity needs, and risk tolerance. Objectives usually fall into a few buckets: preservation of capital, current income, growth, growth and income, and speculation. You collect financial information, like income, net worth, and liquid net worth, and nonfinancial information, like attitudes, family situation, and experience. If a customer won't provide information, you can only recommend what's reasonable based on what you know."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0102"
+  },
+  {
+   "type": "narration",
+   "text": "FINRA's suitability rule has three obligations. Reasonable basis suitability means understanding the product well enough to believe it's suitable for at least some investors. Customer-specific suitability means it fits this customer's profile. Quantitative suitability means a series of recommended transactions isn't excessive when viewed together, even if each trade looks fine on its own. Signs of excessive trading include a high turnover rate and a high cost-to-equity ratio, the return the account needs just to cover costs. FINRA removed the old control requirement from quantitative suitability in twenty twenty, so it now applies to any series of recommended trades. Reg BI's care obligation includes the same test for retail customers."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0601"
+  },
+  {
+   "type": "narration",
+   "text": "Regulation Best Interest has four components. The disclosure obligation requires telling the customer, in writing, about the capacity you're acting in, fees, the type and scope of services, and material conflicts. The care obligation requires reasonable diligence, care, and skill to believe the recommendation is in the customer's best interest, including considering costs and reasonably available alternatives. The conflict of interest obligation requires written policies to identify and disclose conflicts, mitigate conflicts that give reps an incentive to favor the firm, and eliminate sales contests based on specific securities within a limited time. The compliance obligation requires policies reasonably designed to achieve compliance. Reg BI also covers recommendations of account types, such as rolling a four oh one k into an IRA."
+  },
+  {
+   "type": "narration",
+   "text": "Form CRS, the customer relationship summary, is a short plain-English document. It describes the firm's services, fees, conflicts, standard of conduct, and disciplinary history. It must be delivered to a retail investor before or at the earliest of a recommendation, opening an account, or placing an order. An updated version must be delivered when an account changes materially, such as moving from brokerage to advisory."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0605"
+  },
+  {
+   "type": "narration",
+   "text": "The exam asks you to apply this. A retiree who needs income and safety should get high-quality bonds or income funds, not speculative options or illiquid partnerships. A young investor with a long horizon can generally take more equity risk. A customer who needs the money soon needs liquidity. Tax status matters, since munis suit high-bracket investors, and tax-deferred products can be wasted inside tax-deferred accounts. Concentration risk is a red flag. Recommending that a customer put most of their net worth into one stock or one illiquid product is rarely in their best interest."
+  },
+  {
+   "type": "check",
+   "question_id": "s7-q-0609"
+  },
+  {
+   "type": "narration",
+   "text": "Unsolicited orders are a common twist. If a customer places a trade you didn't recommend, Reg BI and suitability don't apply to it, but you should mark the ticket unsolicited. If the order seems clearly unsuitable, you may caution the customer. Also remember that a recommendation to hold, or a recommendation of a strategy, can be a recommendation too."
+  },
+  {
+   "type": "narration",
+   "text": "Recap: build the full profile. Suitability has three parts, reasonable basis, customer-specific, and quantitative. Reg BI has four obligations, disclosure, care, conflict of interest, and compliance. Form CRS goes out at the earliest of a recommendation, an account opening, or an order. When in doubt, match the product to the objective, the horizon, the liquidity need, and the tax bracket."
+  },
+  {
+   "type": "narration",
+   "text": "Before you go, a quick review of key terms. Reasonable-basis obligation: The duty to understand a recommended security or strategy well enough to believe it is suitable for at least some investors. Customer-specific obligation: The duty to have a reasonable basis that a recommendation fits a particular customer's investment profile. Quantitative obligation: The duty to ensure a series of recommended transactions is not excessive when viewed together. Preservation of capital: An investment objective focused on protecting principal, best served by short-term, high-quality debt. Speculation: An investment objective that accepts high risk of loss in pursuit of large gains. Liquidity needs: How much of a customer's money must be convertible to cash quickly without significant loss. Time horizon: The expected length of time before a customer needs the invested money. Risk tolerance: A customer's willingness and ability to accept declines in the value of investments."
+  }
+ ],
+ "key_terms": [
+  {
+   "term": "Reasonable-basis obligation",
+   "definition": "The duty to understand a recommended security or strategy well enough to believe it is suitable for at least some investors"
+  },
+  {
+   "term": "Customer-specific obligation",
+   "definition": "The duty to have a reasonable basis that a recommendation fits a particular customer's investment profile"
+  },
+  {
+   "term": "Quantitative obligation",
+   "definition": "The duty to ensure a series of recommended transactions is not excessive when viewed together"
+  },
+  {
+   "term": "Preservation of capital",
+   "definition": "An investment objective focused on protecting principal, best served by short-term, high-quality debt"
+  },
+  {
+   "term": "Speculation",
+   "definition": "An investment objective that accepts high risk of loss in pursuit of large gains"
+  },
+  {
+   "term": "Liquidity needs",
+   "definition": "How much of a customer's money must be convertible to cash quickly without significant loss"
+  },
+  {
+   "term": "Time horizon",
+   "definition": "The expected length of time before a customer needs the invested money"
+  },
+  {
+   "term": "Risk tolerance",
+   "definition": "A customer's willingness and ability to accept declines in the value of investments"
+  },
+  {
+   "term": "Form CRS",
+   "definition": "The relationship summary that broker-dealers and advisers must give retail investors, describing services, fees, conflicts and disciplinary history"
+  },
+  {
+   "term": "Regulation Best Interest",
+   "definition": "The SEC rule requiring broker-dealers to act in a retail customer's best interest when making recommendations, without putting the firm's interest ahead"
+  }
+ ],
+ "mnemonics": [
+  "Reg BI: Disclose, Care, Conflicts, Comply.",
+  "Suitability: reasonable basis, customer-specific, quantitative.",
+  "CRS: earliest of recommendation, account, or order."
+ ],
+ "summary": "The investment profile covers age, other investments, financial situation, tax status, objectives, experience, time horizon, liquidity needs and risk tolerance. Rule 2111 suitability has three parts: reasonable basis, customer-specific and quantitative (turnover, cost-to-equity). Reg BI has four obligations for retail recommendations: disclosure, care, conflict of interest and compliance. It covers account-type recommendations and bans product-specific short-term sales contests. Form CRS is delivered at the earliest of a recommendation, account opening or order. Unsolicited orders should be marked as such. Watch for concentration, liquidity and tax mismatches."
+}

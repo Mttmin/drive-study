@@ -1,6 +1,6 @@
 mod engine;
 
-use std::collections::HashSet;
+use std::collections::{HashMap, HashSet};
 
 use drive_study_core::{
     build_drive, build_lesson, build_mistakes, build_mock, build_quiz, build_rapid, clip_key, readiness, streak_from_dates, weak_topics, AudioManifest, ExamId, Flashcard, Lesson, Meta, PlanId, Question, ReadinessAttempt, SectionBlueprint, VOICE_ID,
@@ -18,9 +18,27 @@ fn main() {
 #[derive(Clone)]
 struct Shelf {
     meta: Meta,
+    index: ContentIndex,
     lessons: Vec<Lesson>,
     questions: Vec<Question>,
     cards: Vec<Flashcard>,
+    loaded: HashSet<String>,
+}
+
+#[derive(Clone, serde::Deserialize)]
+struct ContentIndex {
+    lessons: Vec<String>,
+    questions: Vec<String>,
+    flashcards: Vec<String>,
+    #[serde(default)]
+    counts: HashMap<String, SectionCounts>,
+}
+
+#[derive(Clone, Default, serde::Deserialize)]
+struct SectionCounts {
+    questions: usize,
+    flashcards: usize,
+    lessons: usize,
 }
 
 #[component]
@@ -40,6 +58,8 @@ fn App() -> impl IntoView {
     let plan = RwSignal::new(None::<drive_study_core::SessionPlan>);
     let summary = RwSignal::new(None::<Summary>);
     let error = RwSignal::new(String::new());
+    let loading = RwSignal::new(String::new());
+    LOADING.with(|slot| slot.set(Some(loading)));
 
     register_service_worker();
     if let Some(window) = web_sys::window() {
@@ -117,6 +137,7 @@ fn App() -> impl IntoView {
             <Show when=move || route.get() == "/summary">
                 <SummaryView summary=summary />
             </Show>
+            {move || (!loading.get().is_empty()).then(|| view! { <p class="muted">{loading.get()}</p> })}
             {move || (!error.get().is_empty() && shelf.get().is_some()).then(|| view! { <p class="bad">{error.get()}</p> })}
             <Show when=move || route.get() != "/play" && shelf.get().is_some()>
                 <p class="footer">{move || shelf.get().map(|item| item.meta.disclaimer).unwrap_or_default()}</p>
@@ -139,24 +160,26 @@ fn Home(shelf: RwSignal<Option<Shelf>>, settings: RwSignal<Settings>, cards: RwS
                 <button type="button" aria-pressed=move || settings.get().plan == "BOTH" on:click=move |_| set_plan(settings, "BOTH")>"Both"</button>
             </div>
             <button class="big" type="button" data-testid="drive-start" on:click=move |_| {
-                arm_audio();
-                if let Some(shelf) = shelf.get() {
-                    let prefs = settings.get();
-                    let due_ids: HashSet<String> = cards.get().into_iter().filter(is_due_card).map(|card| card.id).collect();
-                    let weak = weak_section_ids(&attempts.get());
-                    plan.set(Some(build_drive(parse_plan(&prefs.plan), &shelf.questions, &shelf.cards, &shelf.lessons, &due_ids, &weak, &prefs.completed_lessons, prefs.answer_mode == "listen", &mut js_random)));
+                let Some(loaded) = shelf.get_untracked() else { return };
+                let prefs = settings.get_untracked();
+                let sections = section_ids(&loaded, parse_plan(&prefs.plan));
+                let due_ids: HashSet<String> = cards.get_untracked().into_iter().filter(is_due_card).map(|card| card.id).collect();
+                let weak = weak_section_ids(&attempts.get_untracked());
+                begin_session(shelf, sections, &["questions", "flashcards", "lessons"], "Loading the bank…", move |loaded| {
+                    let prefs = settings.get_untracked();
+                    plan.set(Some(build_drive(parse_plan(&prefs.plan), &loaded.questions, &loaded.cards, &loaded.lessons, &due_ids, &weak, &prefs.completed_lessons, prefs.answer_mode == "listen", &mut js_random)));
                     go("/play");
-                }
+                });
             }>"Drive, 20 minutes"</button>
             <div class="grid">
-                <Mode name="Lessons" detail=Signal::derive(move || shelf.get().map(|item| format!("{} sample lessons", item.lessons.len())).unwrap_or_default()) hash="/lessons" testid="mode-lessons" />
+                <Mode name="Lessons" detail=Signal::derive(move || shelf.get().map(|item| format!("{} lessons", count_field(&item, |row| row.lessons))).unwrap_or_default()) hash="/lessons" testid="mode-lessons" />
                 <Mode name="Quiz" detail=Signal::derive(|| "10, 20, or 30".into()) hash="/quiz" testid="mode-quiz" />
                 <Mode name="Rapid fire" detail=Signal::derive(|| "Terms, short".into()) hash="/rapid" testid="mode-rapid" />
                 <Mode name="Mock exam" detail=Signal::derive(|| "Weighted, timed or car".into()) hash="/mock" testid="mode-mock" />
                 <Mode name="Mistakes" detail=Signal::derive(move || format!("{} due", due.get())) hash="/mistakes" testid="mode-mistakes" />
                 <Mode name="Stats" detail=Signal::derive(|| "Readiness".into()) hash="/stats" testid="mode-stats" />
             </div>
-            <div class="banner"><strong>"Sample pack. "</strong>"These questions are originals for trying the app. Saying answers needs a network connection on an iPhone. The buttons always work."</div>
+            <div class="banner">"Practice questions, not official FINRA items. Saying answers needs a network connection on an iPhone. The buttons always work."</div>
         </section>
     }
 }
@@ -190,6 +213,14 @@ fn Mode(name: &'static str, detail: Signal<String>, hash: &'static str, testid: 
 
 #[component]
 fn Lessons(shelf: RwSignal<Option<Shelf>>, settings: RwSignal<Settings>) -> impl IntoView {
+    Effect::new(move |_| {
+        let Some(loaded) = shelf.get() else { return };
+        let sections = section_ids(&loaded, PlanId::Both);
+        if sections.iter().all(|id| loaded.loaded.contains(&format!("{id}:lessons"))) {
+            return;
+        }
+        load_then(shelf, sections, &["lessons"], "Loading lessons…", |_| {});
+    });
     view! {
         <section>
             <h1>"Lessons"</h1>
@@ -212,12 +243,25 @@ fn Lessons(shelf: RwSignal<Option<Shelf>>, settings: RwSignal<Settings>) -> impl
 
 #[component]
 fn LessonPage(shelf: RwSignal<Option<Shelf>>, settings: RwSignal<Settings>, plan: RwSignal<Option<drive_study_core::SessionPlan>>, route: RwSignal<String>) -> impl IntoView {
+    Effect::new(move |_| {
+        let Some(loaded) = shelf.get() else { return };
+        let sections = section_ids(&loaded, PlanId::Both);
+        if sections.iter().all(|id| loaded.loaded.contains(&format!("{id}:lessons"))) {
+            return;
+        }
+        load_then(shelf, sections, &["lessons"], "Loading lessons…", |_| {});
+    });
     view! {
         {move || {
             let id = route.get().trim_start_matches("/lesson/").to_string();
             let Some(loaded) = shelf.get() else { return view! { <p>"Loading."</p> }.into_any() };
             let Some(lesson) = loaded.lessons.iter().find(|lesson| lesson.id == id).cloned() else {
-                return view! { <p>"That lesson is not in the library."</p> }.into_any();
+                let ready = section_ids(&loaded, PlanId::Both).iter().all(|section| loaded.loaded.contains(&format!("{section}:lessons")));
+                return if ready {
+                    view! { <p>"That lesson is not in the library."</p> }.into_any()
+                } else {
+                    view! { <p>"Loading the lesson."</p> }.into_any()
+                };
             };
             let title = lesson.title.clone();
             let summary = lesson.summary.clone();
@@ -233,11 +277,12 @@ fn LessonPage(shelf: RwSignal<Option<Shelf>>, settings: RwSignal<Settings>, plan
                         {terms.into_iter().map(|term| view! { <div class="card"><b>{term.term}</b><p>{term.definition}</p></div> }).collect::<Vec<_>>()}
                     </div>
                     <button class="big" type="button" on:click=move |_| {
-                        arm_audio();
-                        if let Some(shelf) = shelf.get() {
-                            plan.set(Some(build_lesson(&start, &shelf.questions, settings.get().answer_mode == "listen")));
+                        let section = start.section.clone();
+                        let lesson = start.clone();
+                        begin_session(shelf, vec![section], &["questions"], "Loading the checks…", move |loaded| {
+                            plan.set(Some(build_lesson(&lesson, &loaded.questions, settings.get_untracked().answer_mode == "listen")));
                             go("/play");
-                        }
+                        });
                     }>"Play lesson"</button>
                 </section>
             }.into_any()
@@ -268,15 +313,17 @@ fn Quiz(shelf: RwSignal<Option<Shelf>>, settings: RwSignal<Settings>, plan: RwSi
             </Show>
             <CountPick count=count options=vec![10, 20, 30] />
             <button class="big" type="button" data-testid="start-quiz" on:click=move |_| {
-                arm_audio();
-                if let Some(shelf) = shelf.get() {
-                    let chosen = parse_plan(&exam.get());
-                    let sections = sections_for(&shelf, chosen);
-                    let section_id = section.get();
+                let Some(loaded) = shelf.get_untracked() else { return };
+                let chosen = parse_plan(&exam.get_untracked());
+                let section_id = section.get_untracked();
+                let needed = if section_id.is_empty() { section_ids(&loaded, chosen) } else { vec![section_id.clone()] };
+                let total = count.get_untracked();
+                begin_session(shelf, needed, &["questions"], "Loading questions…", move |loaded| {
+                    let sections = sections_for(loaded, chosen);
                     let section_ref = if section_id.is_empty() { None } else { Some(section_id.as_str()) };
-                    plan.set(Some(build_quiz(chosen, section_ref, count.get(), &shelf.questions, &sections, settings.get().answer_mode == "listen", &mut js_random)));
+                    plan.set(Some(build_quiz(chosen, section_ref, total, &loaded.questions, &sections, settings.get_untracked().answer_mode == "listen", &mut js_random)));
                     go("/play");
-                }
+                });
             }>"Start quiz"</button>
         </section>
     }
@@ -289,7 +336,7 @@ fn Rapid(shelf: RwSignal<Option<Shelf>>, settings: RwSignal<Settings>, plan: RwS
     view! {
         <section>
             <h1>"Rapid fire"</h1>
-            <p class="lede">"The term, a pause, then the definition. Tap Know it or Don't know."</p>
+            <p class="lede">{move || shelf.get().map(|item| format!("{} terms. The term, a pause, then the definition.", count_field(&item, |row| row.flashcards))).unwrap_or_else(|| "The term, a pause, then the definition.".into())}</p>
             <div class="seg">
                 <button type="button" on:click=move |_| exam.set("SIE".into())>"SIE"</button>
                 <button type="button" on:click=move |_| exam.set("S7".into())>"Series 7"</button>
@@ -297,11 +344,14 @@ fn Rapid(shelf: RwSignal<Option<Shelf>>, settings: RwSignal<Settings>, plan: RwS
             </div>
             <CountPick count=count options=vec![10, 20] />
             <button class="big" type="button" on:click=move |_| {
-                arm_audio();
-                if let Some(shelf) = shelf.get() {
-                    plan.set(Some(build_rapid(parse_plan(&exam.get()), None, count.get(), &shelf.cards, settings.get().answer_mode == "listen", &mut js_random)));
+                let Some(loaded) = shelf.get_untracked() else { return };
+                let chosen = parse_plan(&exam.get_untracked());
+                let needed = section_ids(&loaded, chosen);
+                let total = count.get_untracked();
+                begin_session(shelf, needed, &["flashcards"], "Loading terms…", move |loaded| {
+                    plan.set(Some(build_rapid(chosen, None, total, &loaded.cards, settings.get_untracked().answer_mode == "listen", &mut js_random)));
                     go("/play");
-                }
+                });
             }>"Start rapid fire"</button>
         </section>
     }
@@ -327,12 +377,14 @@ fn Mock(shelf: RwSignal<Option<Shelf>>, settings: RwSignal<Settings>, plan: RwSi
 }
 
 fn start_mock(shelf: RwSignal<Option<Shelf>>, settings: RwSignal<Settings>, plan: RwSignal<Option<drive_study_core::SessionPlan>>, exam: &str, timed: bool) {
-    arm_audio();
-    let Some(shelf) = shelf.get() else { return };
+    let Some(loaded) = shelf.get_untracked() else { return };
     let exam_id = if exam == "S7" { ExamId::S7 } else { ExamId::Sie };
-    let Some(blueprint) = shelf.meta.exams.get(exam_id.as_str()).cloned() else { return };
-    plan.set(Some(build_mock(exam_id, timed, &shelf.questions, &blueprint, settings.get().answer_mode == "listen", &mut js_random)));
-    go("/play");
+    let needed = section_ids(&loaded, if exam_id == ExamId::S7 { PlanId::S7 } else { PlanId::Sie });
+    begin_session(shelf, needed, &["questions"], "Loading the mock…", move |loaded| {
+        let Some(blueprint) = loaded.meta.exams.get(exam_id.as_str()).cloned() else { return };
+        plan.set(Some(build_mock(exam_id, timed, &loaded.questions, &blueprint, settings.get_untracked().answer_mode == "listen", &mut js_random)));
+        go("/play");
+    });
 }
 
 #[component]
@@ -349,12 +401,15 @@ fn Mistakes(shelf: RwSignal<Option<Shelf>>, settings: RwSignal<Settings>, cards:
                 } else {
                     let count = due.len();
                     view! { <button class="big" type="button" on:click=move |_| {
-                        arm_audio();
-                        if let Some(shelf) = shelf.get() {
-                            let ids: HashSet<String> = cards.get().into_iter().filter(is_due_card).map(|card| card.id).collect();
-                            plan.set(Some(build_mistakes(parse_plan(&settings.get().plan), &shelf.questions, &shelf.cards, &ids, settings.get().answer_mode == "listen")));
+                        let due: Vec<_> = cards.get_untracked().into_iter().filter(is_due_card).collect();
+                        let mut needed: Vec<String> = due.iter().map(|card| card.section.clone()).collect();
+                        needed.sort();
+                        needed.dedup();
+                        let ids: HashSet<String> = due.into_iter().map(|card| card.id).collect();
+                        begin_session(shelf, needed, &["questions", "flashcards"], "Loading mistakes…", move |loaded| {
+                            plan.set(Some(build_mistakes(parse_plan(&settings.get_untracked().plan), &loaded.questions, &loaded.cards, &ids, settings.get_untracked().answer_mode == "listen")));
                             go("/play");
-                        }
+                        });
                     }>{format!("Start mistakes drive ({count})")}</button> }.into_any()
                 }
             }}
@@ -385,7 +440,7 @@ fn stats_cards(shelf: &Option<Shelf>, attempts: &[engine::AttemptRecord]) -> Vec
             correct: attempt.correct,
         }).collect();
         let seen = rows.len();
-        let pool = shelf.questions.iter().filter(|question| question.exam == exam_id).count();
+        let pool = count_exam(shelf, exam, |row| row.questions);
         let ready = readiness(&weights, &rows, seen, pool, 3);
         let topics = weak_topics(&rows, 2);
         let title = if exam == "S7" { "Series 7" } else { "SIE" };
@@ -478,7 +533,7 @@ fn SettingsScreen(
             </label>
             <h2>"Downloads"</h2>
             <p class="muted">{move || format!("{} Published clips: {}.", storage.get(), manifest.get().clips.len())}</p>
-            {move || download_rows(&shelf.get(), &manifest.get())}
+            {move || download_rows(shelf, manifest)}
             <h2>"Progress"</h2>
             <div class="row">
                 <button type="button" on:click=move |_| {
@@ -526,24 +581,29 @@ fn SettingsScreen(
     }
 }
 
-fn download_rows(shelf: &Option<Shelf>, manifest: &AudioManifest) -> Vec<impl IntoView> {
-    let Some(shelf) = shelf else { return Vec::new() };
+fn download_rows(shelf: RwSignal<Option<Shelf>>, manifest: RwSignal<AudioManifest>) -> Vec<impl IntoView> {
+    let Some(loaded) = shelf.get() else { return Vec::new() };
     let mut sections = Vec::new();
-    if let Some(exam) = shelf.meta.exams.get("SIE") { sections.extend(exam.sections.clone()); }
-    if let Some(exam) = shelf.meta.exams.get("S7") { sections.extend(exam.sections.clone()); }
+    if let Some(exam) = loaded.meta.exams.get("SIE") { sections.extend(exam.sections.clone()); }
+    if let Some(exam) = loaded.meta.exams.get("S7") { sections.extend(exam.sections.clone()); }
     sections.into_iter().map(|section| {
-        let urls = clip_urls(shelf, manifest, &section.id);
+        let ready = ["questions", "flashcards", "lessons"].iter().all(|part| loaded.loaded.contains(&format!("{}:{part}", section.id)));
+        let urls = if ready { clip_urls(&loaded, &manifest.get_untracked(), &section.id) } else { Vec::new() };
         let count = urls.len();
         let title = section.title.clone();
-        let urls_for_download = urls.clone();
+        let label = if ready { format!("{count} clips") } else { "Tap download to load".into() };
+        let section_id = section.id.clone();
         let urls_for_delete = urls;
         view! {
             <div class="card">
-                <div class="spread"><b>{title}</b><span>{format!("{count} clips")}</span></div>
+                <div class="spread"><b>{title}</b><span>{label}</span></div>
                 <div class="row">
-                    <button type="button" disabled=count == 0 on:click=move |_| {
-                        let urls = urls_for_download.clone();
-                        leptos::task::spawn_local(async move { let _ = download_urls(&urls).await; });
+                    <button type="button" disabled=ready && count == 0 on:click=move |_| {
+                        let section_id = section_id.clone();
+                        begin_session(shelf, vec![section_id.clone()], &["questions", "flashcards", "lessons"], "Loading this section…", move |loaded| {
+                            let urls = clip_urls(loaded, &manifest.get_untracked(), &section_id);
+                            leptos::task::spawn_local(async move { let _ = download_urls(&urls).await; });
+                        });
                     }>"Download"</button>
                     <button type="button" on:click=move |_| {
                         let urls = urls_for_delete.clone();
@@ -644,7 +704,13 @@ fn Play(
             </div>
             {move || model.get().answer_key.as_ref().map(|_| {
                 let shown = model.get();
-                view! { <div class="card" data-testid="explanation"><p class="kicker">{format!("Answer {}", shown.answer_key.unwrap_or_default())}</p><p>{shown.explanation}</p></div> }
+                view! {
+                    <div class="card" data-testid="explanation">
+                        <p class="kicker">{format!("Answer {}", shown.answer_key.unwrap_or_default())}</p>
+                        <p>{shown.explanation}</p>
+                        {shown.yearly.then(|| view! { <p class="muted" data-testid="yearly-note">"Verify the current year. This figure changes."</p> })}
+                    </div>
+                }
             })}
             <div class="commands">
                 <button type="button" on:click=move |_| repeat.interrupt(Act::Repeat)>"Repeat"</button>
@@ -706,7 +772,7 @@ fn sections_for(shelf: &Shelf, plan: PlanId) -> Vec<SectionBlueprint> {
 fn mock_blurb(shelf: &Option<Shelf>, exam: &str) -> String {
     let Some(shelf) = shelf else { return String::new() };
     let Some(blueprint) = shelf.meta.exams.get(exam) else { return String::new() };
-    let have = shelf.questions.iter().filter(|question| question.exam.as_str() == exam).count();
+    let have = count_exam(shelf, exam, |row| row.questions);
     format!(
         "{}: {} scored questions plus {} pretest, {} minutes, {}% to pass. The library has {have}.",
         blueprint.name, blueprint.scored_questions, blueprint.unscored_questions, blueprint.time_limit_minutes, blueprint.passing_score
@@ -791,36 +857,124 @@ fn download_json(file: &ProgressFile) {
     }
 }
 
-#[derive(serde::Deserialize)]
-struct ContentIndex {
-    lessons: Vec<String>,
-    questions: Vec<String>,
-    flashcards: Vec<String>,
-}
-
 async fn load_library() -> Result<(Shelf, AudioManifest), String> {
     let meta: Meta = serde_json::from_str(&fetch_text("content/meta.json").await?).map_err(|err| err.to_string())?;
     let index: ContentIndex = serde_json::from_str(&fetch_text("content/index.json").await?).map_err(|err| err.to_string())?;
-    let mut lessons = Vec::new();
-    for path in &index.lessons {
-        lessons.push(serde_json::from_str(&fetch_text(&format!("content/{path}")).await?).map_err(|err| err.to_string())?);
-    }
-    lessons.sort_by(|a: &Lesson, b| (a.exam != ExamId::Sie).cmp(&(b.exam != ExamId::Sie)).then(a.order.cmp(&b.order)));
-    let mut questions = Vec::new();
-    for path in &index.questions {
-        let rows: Vec<Question> = serde_json::from_str(&fetch_text(&format!("content/{path}")).await?).map_err(|err| err.to_string())?;
-        questions.extend(rows);
-    }
-    let mut cards = Vec::new();
-    for path in &index.flashcards {
-        let rows: Vec<Flashcard> = serde_json::from_str(&fetch_text(&format!("content/{path}")).await?).map_err(|err| err.to_string())?;
-        cards.extend(rows);
-    }
     let manifest = match fetch_text("audio/manifest.json").await {
         Ok(text) => serde_json::from_str(&text).unwrap_or(AudioManifest { version: 1, algorithm: String::new(), voice_id: VOICE_ID.into(), clips: Default::default() }),
         Err(_) => AudioManifest { version: 1, algorithm: String::new(), voice_id: VOICE_ID.into(), clips: Default::default() },
     };
-    Ok((Shelf { meta, lessons, questions, cards }, manifest))
+    Ok((
+        Shelf { meta, index, lessons: Vec::new(), questions: Vec::new(), cards: Vec::new(), loaded: HashSet::new() },
+        manifest,
+    ))
+}
+
+fn count_field(shelf: &Shelf, pick: fn(&SectionCounts) -> usize) -> usize {
+    shelf.index.counts.values().map(pick).sum()
+}
+
+fn count_exam(shelf: &Shelf, exam: &str, pick: fn(&SectionCounts) -> usize) -> usize {
+    shelf.index.counts.iter().filter(|(id, _)| id.starts_with(exam)).map(|(_, row)| pick(row)).sum()
+}
+
+fn section_ids(shelf: &Shelf, plan: PlanId) -> Vec<String> {
+    let exams: &[&str] = match plan {
+        PlanId::Sie => &["SIE"],
+        PlanId::S7 => &["S7"],
+        PlanId::Both => &["SIE", "S7"],
+    };
+    exams.iter().filter_map(|exam| shelf.meta.exams.get(*exam)).flat_map(|exam| exam.sections.iter().map(|section| section.id.clone())).collect()
+}
+
+fn section_of(path: &str) -> Option<String> {
+    let name = path.rsplit('/').next()?.trim_end_matches(".json").to_ascii_lowercase();
+    let mut parts = name.split('-');
+    let exam = parts.next()?;
+    let number = parts.next()?;
+    if (exam != "sie" && exam != "s7") || !number.chars().all(|ch| ch.is_ascii_digit()) {
+        return None;
+    }
+    Some(format!("{}-{number}", exam.to_ascii_uppercase()))
+}
+
+thread_local! {
+    static LOADING: std::cell::Cell<Option<RwSignal<String>>> = const { std::cell::Cell::new(None) };
+    static BUSY: std::cell::Cell<bool> = const { std::cell::Cell::new(false) };
+}
+
+fn begin_session(shelf: RwSignal<Option<Shelf>>, sections: Vec<String>, parts: &'static [&'static str], label: &'static str, build: impl FnOnce(&Shelf) + 'static) {
+    arm_audio();
+    load_then(shelf, sections, parts, label, build);
+}
+
+fn load_then(shelf: RwSignal<Option<Shelf>>, sections: Vec<String>, parts: &'static [&'static str], label: &'static str, build: impl FnOnce(&Shelf) + 'static) {
+    let loading = LOADING.with(|slot| slot.get()).unwrap_or_else(|| RwSignal::new(String::new()));
+    loading.set(label.into());
+    leptos::task::spawn_local(async move {
+        match ensure(shelf, &sections, parts).await {
+            Ok(()) => {
+                loading.set(String::new());
+                if let Some(loaded) = shelf.get_untracked() {
+                    build(&loaded);
+                }
+            }
+            Err(message) => loading.set(message),
+        }
+    });
+}
+
+async fn ensure(shelf: RwSignal<Option<Shelf>>, sections: &[String], parts: &[&str]) -> Result<(), String> {
+    while BUSY.with(|slot| slot.get()) {
+        gloo_timers::future::TimeoutFuture::new(40).await;
+    }
+    BUSY.with(|slot| slot.set(true));
+    let result = ensure_now(shelf, sections, parts).await;
+    BUSY.with(|slot| slot.set(false));
+    result
+}
+
+async fn ensure_now(shelf: RwSignal<Option<Shelf>>, sections: &[String], parts: &[&str]) -> Result<(), String> {
+    let Some(current) = shelf.get_untracked() else { return Err("The library is still loading.".into()) };
+    let mut jobs: Vec<(String, String, Vec<String>)> = Vec::new();
+    for section in sections {
+        for part in parts {
+            let key = format!("{section}:{part}");
+            if current.loaded.contains(&key) {
+                continue;
+            }
+            let paths = match *part {
+                "questions" => &current.index.questions,
+                "flashcards" => &current.index.flashcards,
+                "lessons" => &current.index.lessons,
+                _ => continue,
+            };
+            let matched: Vec<String> = paths.iter().filter(|path| section_of(path).as_deref() == Some(section.as_str())).cloned().collect();
+            jobs.push((key, (*part).to_string(), matched));
+        }
+    }
+    if jobs.is_empty() {
+        return Ok(());
+    }
+    let mut lessons = current.lessons;
+    let mut questions = current.questions;
+    let mut cards = current.cards;
+    let mut loaded = current.loaded;
+    for (key, part, paths) in jobs {
+        for path in paths {
+            let text = fetch_text(&format!("content/{path}")).await?;
+            match part.as_str() {
+                "questions" => questions.extend(serde_json::from_str::<Vec<Question>>(&text).map_err(|err| err.to_string())?),
+                "flashcards" => cards.extend(serde_json::from_str::<Vec<Flashcard>>(&text).map_err(|err| err.to_string())?),
+                "lessons" => lessons.push(serde_json::from_str::<Lesson>(&text).map_err(|err| err.to_string())?),
+                _ => {}
+            }
+        }
+        loaded.insert(key);
+    }
+    lessons.sort_by(|left, right| (left.exam != ExamId::Sie).cmp(&(right.exam != ExamId::Sie)).then(left.order.cmp(&right.order)));
+    shelf.set(Some(Shelf { meta: current.meta, index: current.index, lessons, questions, cards, loaded }));
+    Ok(())
 }
 
 async fn fetch_text(path: &str) -> Result<String, String> {

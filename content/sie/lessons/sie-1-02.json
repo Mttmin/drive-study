@@ -1,0 +1,90 @@
+{
+  "id": "sie-1-02",
+  "exam": "SIE",
+  "section": "SIE-1",
+  "section_title": "Knowledge of Capital Markets",
+  "title": "Market Participants: Who Does What",
+  "order": 2,
+  "est_minutes": 6,
+  "segments": [
+    {
+      "type": "narration",
+      "text": "In the last lesson we met the regulators. Now let's meet the players they regulate. The SIE expects you to know who each market participant is and what job they do, because test questions often describe a job and ask you to name the role. We'll go through investors, broker-dealers, advisers, municipal advisors, issuers and underwriters, traders and market makers, and the back-office firms that hold and move securities."
+    },
+    {
+      "type": "narration",
+      "text": "Start with investors. Retail investors are individuals investing their own money, and they get the most regulatory protection. Rules like Regulation Best Interest and the strict standards for retail communications exist mainly for them. Institutional investors include banks, insurance companies, registered investment companies, registered investment advisers, and under FINRA's account rule, any person with total assets of at least fifty million dollars. Institutions are presumed sophisticated, so some customer protection obligations are lighter for them. Then there's the accredited investor, a Regulation D concept for private placements. For an individual, that means over one million dollars of net worth not counting the primary residence, or income over two hundred thousand dollars, or three hundred thousand jointly, in each of the last two years. Holders of the Series seven, sixty-five or eighty-two also qualify. Don't mix these up: accredited is about who can buy private offerings, and institutional is about how FINRA treats an account."
+    },
+    {
+      "type": "narration",
+      "text": "Next, broker-dealers. A broker acts as agent, finding the other side of a trade for a commission. A dealer acts as principal, buying from or selling to customers from its own inventory for a markup or markdown. Most firms do both, just not on the same trade. Firms also split by function. An introducing broker deals with customers and takes orders, but doesn't hold customer money or securities. It sends everything to a clearing firm, also called a carrying firm, which holds the assets, settles trades, and usually sends confirmations and statements. A prime broker serves big, active clients like hedge funds with a bundle of services: custody and clearing, margin financing, securities lending for short sales, and consolidated reporting, while the client may execute trades through several other brokers."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0006"
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0113"
+    },
+    {
+      "type": "narration",
+      "text": "Investment advisers are different from brokers. An adviser is in the business of giving advice about securities for pay, under the Investment Advisers Act of nineteen forty. Advisers owe their clients a fiduciary duty, meaning loyalty and care, at all times. Larger advisers generally register with the S E C and smaller ones with the states. Municipal advisors are a newer category. They advise cities, states and other municipal entities on bond issues and related products. They must register with both the S E C and the M S R B, and they owe a fiduciary duty to their municipal clients. A firm advising a county on how to structure its bonds, but not underwriting them, is acting as a municipal advisor."
+    },
+    {
+      "type": "narration",
+      "text": "Issuers are the entities that raise money by selling securities: corporations, governments, municipalities and investment companies. Underwriters are the investment banks that help them. They advise on structure, price and timing, help prepare documents, and distribute the securities, either buying the deal as principal or selling it as agent. We'll go deeper on underwriting in lesson seven."
+    },
+    {
+      "type": "narration",
+      "text": "Now traders and market makers. A market maker continuously quotes a firm bid and a firm ask in a security and stands ready to trade at those prices for its own account, so it's acting as principal. It earns the spread and provides liquidity. If a market maker refuses to honor its own firm quote, that's called backing away, and it's prohibited. On the New York Stock Exchange, each listed stock has a designated market maker, once called the specialist, responsible for keeping a fair and orderly market. Traders more broadly buy and sell either for customers or for the firm's own account."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0116"
+    },
+    {
+      "type": "narration",
+      "text": "Finally, the plumbing. A custodian holds assets for safekeeping, typically a bank or trust company, and every mutual fund must have one. A trustee acts for a group of beneficiaries. For example, under the Trust Indenture Act of nineteen thirty-nine, publicly offered corporate bonds need an independent trustee to enforce the indenture on behalf of bondholders. A transfer agent keeps the issuer's official list of shareholders, issues and cancels certificates, and often handles dividend payments. A registrar audits the transfer agent and makes sure the number of outstanding shares never exceeds what the corporate charter authorizes. The Depository Trust and Clearing Corporation, or D T C C, runs the core settlement infrastructure. Its Depository Trust Company holds securities in book-entry form, so ownership changes electronically. And the Options Clearing Corporation issues and guarantees every listed option."
+    },
+    {
+      "type": "check",
+      "question_id": "sie-q-0117"
+    },
+    {
+      "type": "narration",
+      "text": "To summarize. Retail investors get the most protection, institutions the least. Accredited investor is a private placement concept: one million of net worth excluding the home, or two hundred thousand of income, three hundred thousand joint. Brokers are agents earning commissions, and dealers are principals earning markups. Introducing firms take orders, clearing firms hold assets and settle, and prime brokers serve hedge funds. Advisers and municipal advisors owe fiduciary duties. Market makers quote firm two-sided prices as principal. Custodians hold assets, trustees protect bondholders, transfer agents track owners, registrars police the share count, D T C settles by book entry, and the O C C guarantees options."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Introducing broker",
+      "definition": "Takes customer orders but sends them to a clearing firm, which holds customer assets and settles trades."
+    },
+    {
+      "term": "Clearing (carrying) firm",
+      "definition": "Holds customer assets, settles trades, and usually sends confirmations and statements."
+    },
+    {
+      "term": "Prime broker",
+      "definition": "A bundle of custody, financing, securities lending and reporting services for large, active clients."
+    },
+    {
+      "term": "Market maker",
+      "definition": "A dealer that posts firm bid and ask quotes and trades as principal."
+    },
+    {
+      "term": "Transfer agent",
+      "definition": "Keeps the shareholder list and issues and cancels certificates."
+    },
+    {
+      "term": "Registrar",
+      "definition": "Makes sure outstanding shares don't exceed authorized shares."
+    }
+  ],
+  "mnemonics": [
+    "Transfer agent tracks owners; Registrar Restricts the count.",
+    "Broker is an Agent paid a Commission; Dealer is a Principal paid a Markup."
+  ],
+  "summary": "Investors range from retail, which gets the most protection, to institutional, meaning $50 million or more in assets. Accredited status is a private placement test. Brokers act as agents and dealers as principals. Introducing firms rely on clearing firms, and prime brokers serve hedge funds. Investment advisers and municipal advisors owe fiduciary duties. Market makers quote firm two-sided markets. Custodians, trustees, transfer agents, registrars, DTC and the OCC handle safekeeping, recordkeeping and settlement."
+}
