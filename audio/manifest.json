@@ -2,5 +2,1276 @@
   "version": 1,
   "algorithm": "sha1-voice-newline-text-nfc-collapsed-ws",
   "voice_id": "natural-en-us-v1",
-  "clips": {}
+  "clips": {
+    "001ca73f5f1b16be330c9371a12f0753634af644": {
+      "path": "audio/clips/00/001ca73f5f1b16be330c9371a12f0753634af644.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 99836,
+      "duration_ms": 19920,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "sie-q-0009",
+      "section": "SIE-2"
+    },
+    "03827498fe8dbfefab51ea1d444689a8ed12e06d": {
+      "path": "audio/clips/03/03827498fe8dbfefab51ea1d444689a8ed12e06d.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 272276,
+      "duration_ms": 54410,
+      "content_type": "audio/mpeg",
+      "kind": "narration",
+      "ref": "sie-2-01#1",
+      "section": "SIE-2"
+    },
+    "051533077ed12719c7ebb6bf9d994366fdd20608": {
+      "path": "audio/clips/05/051533077ed12719c7ebb6bf9d994366fdd20608.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 35516,
+      "duration_ms": 7060,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "sie-q-0016",
+      "section": "SIE-4"
+    },
+    "056498dab9be6a5a777db6fb458a23492413b2e1": {
+      "path": "audio/clips/05/056498dab9be6a5a777db6fb458a23492413b2e1.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 24956,
+      "duration_ms": 4940,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "s7-q-0014",
+      "section": "S7-4"
+    },
+    "059dad2e6fe1aae73233235c9a8a35cedb9a2578": {
+      "path": "audio/clips/05/059dad2e6fe1aae73233235c9a8a35cedb9a2578.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 23636,
+      "duration_ms": 4680,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "sie-f-0001",
+      "section": "SIE-1"
+    },
+    "0922e17cf5a856a223e3d03b695d34e53839eeb9": {
+      "path": "audio/clips/09/0922e17cf5a856a223e3d03b695d34e53839eeb9.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 114356,
+      "duration_ms": 22820,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "sie-q-0010",
+      "section": "SIE-2"
+    },
+    "0c33f956c2692425a9b4aad5b8fb9b737f876a64": {
+      "path": "audio/clips/0c/0c33f956c2692425a9b4aad5b8fb9b737f876a64.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 26876,
+      "duration_ms": 5330,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "s7-q-0009",
+      "section": "S7-3"
+    },
+    "111791db986746b4604ffc6413a97abc46f73815": {
+      "path": "audio/clips/11/111791db986746b4604ffc6413a97abc46f73815.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 28316,
+      "duration_ms": 5620,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "sie-q-0008",
+      "section": "SIE-2"
+    },
+    "140682b203810d7039fbf4017be0a72555bca51e": {
+      "path": "audio/clips/14/140682b203810d7039fbf4017be0a72555bca51e.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 41036,
+      "duration_ms": 8160,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "s7-q-0007",
+      "section": "S7-3"
+    },
+    "14b8f6e77a2ff8d932097ddcd5969929845bd866": {
+      "path": "audio/clips/14/14b8f6e77a2ff8d932097ddcd5969929845bd866.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 74756,
+      "duration_ms": 14900,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "s7-q-0003",
+      "section": "S7-2"
+    },
+    "1b7c183b77e30d49f64a86befe445810c92f5cd6": {
+      "path": "audio/clips/1b/1b7c183b77e30d49f64a86befe445810c92f5cd6.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 132956,
+      "duration_ms": 26540,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "sie-q-0012",
+      "section": "SIE-3"
+    },
+    "1fccc96f2d83448a04d087c180c750b1a3017300": {
+      "path": "audio/clips/1f/1fccc96f2d83448a04d087c180c750b1a3017300.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 37076,
+      "duration_ms": 7370,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "sie-q-0006",
+      "section": "SIE-2"
+    },
+    "1fd02a5339683b4db3639f5192933a715cb2b17c": {
+      "path": "audio/clips/1f/1fd02a5339683b4db3639f5192933a715cb2b17c.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 30236,
+      "duration_ms": 6000,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "s7-f-0011",
+      "section": "S7-4"
+    },
+    "203f993f05704c0ee76d9bb4b6787dbfe544b2db": {
+      "path": "audio/clips/20/203f993f05704c0ee76d9bb4b6787dbfe544b2db.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 36836,
+      "duration_ms": 7320,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "sie-q-0007",
+      "section": "SIE-2"
+    },
+    "269feeb918ece7e4b9d907a53d0377643a881c0f": {
+      "path": "audio/clips/26/269feeb918ece7e4b9d907a53d0377643a881c0f.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 40436,
+      "duration_ms": 8040,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "s7-q-0008",
+      "section": "S7-3"
+    },
+    "27e90d7436c81f428693b04fb622af00b343bc69": {
+      "path": "audio/clips/27/27e90d7436c81f428693b04fb622af00b343bc69.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 105596,
+      "duration_ms": 21070,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "s7-q-0006",
+      "section": "S7-3"
+    },
+    "2881aa498f64f70c9a3c10cf2d96b580e095c99d": {
+      "path": "audio/clips/28/2881aa498f64f70c9a3c10cf2d96b580e095c99d.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 5876,
+      "duration_ms": 1130,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "sie-q-0003",
+      "section": "SIE-1"
+    },
+    "2a7a85c90436551d018c858749367b002cc8d2f4": {
+      "path": "audio/clips/2a/2a7a85c90436551d018c858749367b002cc8d2f4.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 37316,
+      "duration_ms": 7420,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "sie-q-0012",
+      "section": "SIE-3"
+    },
+    "2b2ac61c643350603f4e57ea4ca5f31b42893684": {
+      "path": "audio/clips/2b/2b2ac61c643350603f4e57ea4ca5f31b42893684.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 33836,
+      "duration_ms": 6720,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "s7-q-0006",
+      "section": "S7-3"
+    },
+    "2cabdc578dc6e6d610775e51930fc04b9189fa1f": {
+      "path": "audio/clips/2c/2cabdc578dc6e6d610775e51930fc04b9189fa1f.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 23396,
+      "duration_ms": 4630,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "sie-f-0011",
+      "section": "SIE-4"
+    },
+    "2cf043d43223ac234fdd551993dcf38c0e608faa": {
+      "path": "audio/clips/2c/2cf043d43223ac234fdd551993dcf38c0e608faa.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 45596,
+      "duration_ms": 9070,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "s7-f-0005",
+      "section": "S7-2"
+    },
+    "2cfb21e2caa67431cc61d9844bc6a2e915d2d320": {
+      "path": "audio/clips/2c/2cfb21e2caa67431cc61d9844bc6a2e915d2d320.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 26876,
+      "duration_ms": 5330,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "s7-f-0012",
+      "section": "S7-4"
+    },
+    "2d9c19b55b2b51176d961684c845d19afe4d45a8": {
+      "path": "audio/clips/2d/2d9c19b55b2b51176d961684c845d19afe4d45a8.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 64436,
+      "duration_ms": 12840,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "sie-q-0005",
+      "section": "SIE-2"
+    },
+    "2e3e364efde07e74b3f01b51a393b14883bc51a0": {
+      "path": "audio/clips/2e/2e3e364efde07e74b3f01b51a393b14883bc51a0.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 16796,
+      "duration_ms": 3310,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "sie-q-0001",
+      "section": "SIE-1"
+    },
+    "2f285b8389b18f8b8ef5f0dffdd744e7aa5b369b": {
+      "path": "audio/clips/2f/2f285b8389b18f8b8ef5f0dffdd744e7aa5b369b.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 54116,
+      "duration_ms": 10780,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "s7-q-0016",
+      "section": "S7-4"
+    },
+    "30a17f9ba668698262df1b4d3b02b4a0e79e1e44": {
+      "path": "audio/clips/30/30a17f9ba668698262df1b4d3b02b4a0e79e1e44.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 102356,
+      "duration_ms": 20420,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "sie-q-0002",
+      "section": "SIE-1"
+    },
+    "3205890534bb57f16b74bf4732fd0e64262f7f20": {
+      "path": "audio/clips/32/3205890534bb57f16b74bf4732fd0e64262f7f20.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 33116,
+      "duration_ms": 6580,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "sie-f-0009",
+      "section": "SIE-3"
+    },
+    "327cb7c54451b554bc02b6bd2d4503013a43084f": {
+      "path": "audio/clips/32/327cb7c54451b554bc02b6bd2d4503013a43084f.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 42476,
+      "duration_ms": 8450,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "s7-q-0002",
+      "section": "S7-1"
+    },
+    "34cf42eab8cfff2a6f1bde4925a196e70f15e020": {
+      "path": "audio/clips/34/34cf42eab8cfff2a6f1bde4925a196e70f15e020.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 29156,
+      "duration_ms": 5780,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "sie-f-0012",
+      "section": "SIE-4"
+    },
+    "3551c912a42e8801ea72de4146a93045b8b21645": {
+      "path": "audio/clips/35/3551c912a42e8801ea72de4146a93045b8b21645.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 57116,
+      "duration_ms": 11380,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "sie-q-0013",
+      "section": "SIE-3"
+    },
+    "40b40d8455e3b4c897138764860e9f450f988da2": {
+      "path": "audio/clips/40/40b40d8455e3b4c897138764860e9f450f988da2.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 105716,
+      "duration_ms": 21100,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "s7-q-0015",
+      "section": "S7-4"
+    },
+    "42855f2d83a95a32f7289b80d4cc3234f2ee4d45": {
+      "path": "audio/clips/42/42855f2d83a95a32f7289b80d4cc3234f2ee4d45.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 193316,
+      "duration_ms": 38620,
+      "content_type": "audio/mpeg",
+      "kind": "narration",
+      "ref": "s7-3-01#0",
+      "section": "S7-3"
+    },
+    "434d9b2eb8175b5e57a329475834af54413a840e": {
+      "path": "audio/clips/43/434d9b2eb8175b5e57a329475834af54413a840e.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 51596,
+      "duration_ms": 10270,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "s7-q-0014",
+      "section": "S7-4"
+    },
+    "464ea52cbcfd73643effd8c759a5e3b76ef62b23": {
+      "path": "audio/clips/46/464ea52cbcfd73643effd8c759a5e3b76ef62b23.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 115556,
+      "duration_ms": 23060,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "s7-q-0016",
+      "section": "S7-4"
+    },
+    "46e80f5cba618ecb8060ad8c725ca7694afe220f": {
+      "path": "audio/clips/46/46e80f5cba618ecb8060ad8c725ca7694afe220f.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 105236,
+      "duration_ms": 21000,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "sie-q-0011",
+      "section": "SIE-3"
+    },
+    "49d2b8bb6a465859abcf397d8cbf6c5b593f7061": {
+      "path": "audio/clips/49/49d2b8bb6a465859abcf397d8cbf6c5b593f7061.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 136316,
+      "duration_ms": 27220,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "s7-q-0011",
+      "section": "S7-3"
+    },
+    "502e5e1d1b5263b624908f0ce74dc2dd6b57a4f9": {
+      "path": "audio/clips/50/502e5e1d1b5263b624908f0ce74dc2dd6b57a4f9.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 58196,
+      "duration_ms": 11590,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "sie-q-0012",
+      "section": "SIE-3"
+    },
+    "5071999fc850fe44e9790a492dc9ec5332dfed7f": {
+      "path": "audio/clips/50/5071999fc850fe44e9790a492dc9ec5332dfed7f.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 67436,
+      "duration_ms": 13440,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "sie-q-0010",
+      "section": "SIE-2"
+    },
+    "56e9a8cd58ae88b9c1e1a2db2882ccf7252fb5d9": {
+      "path": "audio/clips/56/56e9a8cd58ae88b9c1e1a2db2882ccf7252fb5d9.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 28916,
+      "duration_ms": 5740,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "sie-f-0006",
+      "section": "SIE-2"
+    },
+    "5717c37d253e05374a3bcb98a4a96b18a91e8c11": {
+      "path": "audio/clips/57/5717c37d253e05374a3bcb98a4a96b18a91e8c11.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 50156,
+      "duration_ms": 9980,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "s7-q-0012",
+      "section": "S7-3"
+    },
+    "5934cc21ebe7e4728f29370260a6dde596e9de57": {
+      "path": "audio/clips/59/5934cc21ebe7e4728f29370260a6dde596e9de57.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 117716,
+      "duration_ms": 23500,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "s7-q-0013",
+      "section": "S7-3"
+    },
+    "5a8d36493d1cc41e9ae9b4e3b3adfb612cb7cc8b": {
+      "path": "audio/clips/5a/5a8d36493d1cc41e9ae9b4e3b3adfb612cb7cc8b.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 233276,
+      "duration_ms": 46610,
+      "content_type": "audio/mpeg",
+      "kind": "narration",
+      "ref": "s7-2-01#0",
+      "section": "S7-2"
+    },
+    "5d933492e0b12c22fa4e466612838f8eb0d6bad1": {
+      "path": "audio/clips/5d/5d933492e0b12c22fa4e466612838f8eb0d6bad1.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 98396,
+      "duration_ms": 19630,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "sie-q-0006",
+      "section": "SIE-2"
+    },
+    "5f61facba56adcc73f00ee0da1026d3f814852ee": {
+      "path": "audio/clips/5f/5f61facba56adcc73f00ee0da1026d3f814852ee.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 25676,
+      "duration_ms": 5090,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "s7-f-0003",
+      "section": "S7-2"
+    },
+    "5f85df5234c19c0c0a24bc36d8ca81898c6da5a5": {
+      "path": "audio/clips/5f/5f85df5234c19c0c0a24bc36d8ca81898c6da5a5.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 20036,
+      "duration_ms": 3960,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "s7-q-0006",
+      "section": "S7-3"
+    },
+    "5fdce170643ddd0294a90f5051960e8e3b1e9bc4": {
+      "path": "audio/clips/5f/5fdce170643ddd0294a90f5051960e8e3b1e9bc4.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 32156,
+      "duration_ms": 6380,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "s7-f-0002",
+      "section": "S7-1"
+    },
+    "6359e55407c7fda2dcd0432e5feb5ac803e61601": {
+      "path": "audio/clips/63/6359e55407c7fda2dcd0432e5feb5ac803e61601.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 61916,
+      "duration_ms": 12340,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "sie-q-0004",
+      "section": "SIE-1"
+    },
+    "639fae78d514e03815abcee314ed4c34f44ccaf4": {
+      "path": "audio/clips/63/639fae78d514e03815abcee314ed4c34f44ccaf4.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 23516,
+      "duration_ms": 4660,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "sie-q-0002",
+      "section": "SIE-1"
+    },
+    "64673e893c0aa690f83602516cca6cbb93580c97": {
+      "path": "audio/clips/64/64673e893c0aa690f83602516cca6cbb93580c97.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 51236,
+      "duration_ms": 10200,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "s7-f-0010",
+      "section": "S7-3"
+    },
+    "663f71c378e31e950a1ff3d38bbdebaa63068cdc": {
+      "path": "audio/clips/66/663f71c378e31e950a1ff3d38bbdebaa63068cdc.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 81116,
+      "duration_ms": 16180,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "s7-q-0001",
+      "section": "S7-1"
+    },
+    "666ed4cd8b6b6e976759b364eebba4acd1a9bbad": {
+      "path": "audio/clips/66/666ed4cd8b6b6e976759b364eebba4acd1a9bbad.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 22196,
+      "duration_ms": 4390,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "sie-f-0002",
+      "section": "SIE-1"
+    },
+    "6699bc15d2e1411a5125532e8fdabf789e5d93f3": {
+      "path": "audio/clips/66/6699bc15d2e1411a5125532e8fdabf789e5d93f3.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 57836,
+      "duration_ms": 11520,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "s7-q-0012",
+      "section": "S7-3"
+    },
+    "66d710b210d9352262c0c44e6d43d4520045e99d": {
+      "path": "audio/clips/66/66d710b210d9352262c0c44e6d43d4520045e99d.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 332876,
+      "duration_ms": 66530,
+      "content_type": "audio/mpeg",
+      "kind": "narration",
+      "ref": "sie-1-01#0",
+      "section": "SIE-1"
+    },
+    "689aa8962bfde32c1190519b6df03e75a8d7bf7b": {
+      "path": "audio/clips/68/689aa8962bfde32c1190519b6df03e75a8d7bf7b.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 29036,
+      "duration_ms": 5760,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "sie-f-0010",
+      "section": "SIE-3"
+    },
+    "6a0058134d7dcdd5844c1b6cee6738779b24398e": {
+      "path": "audio/clips/6a/6a0058134d7dcdd5844c1b6cee6738779b24398e.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 37916,
+      "duration_ms": 7540,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "s7-q-0008",
+      "section": "S7-3"
+    },
+    "6ab2e3d9b663339e6abb19a0be9695205b6a952c": {
+      "path": "audio/clips/6a/6ab2e3d9b663339e6abb19a0be9695205b6a952c.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 270716,
+      "duration_ms": 54100,
+      "content_type": "audio/mpeg",
+      "kind": "narration",
+      "ref": "sie-1-01#1",
+      "section": "SIE-1"
+    },
+    "6d30adc4e962e86f165f2726eb893c8a7ded4e2b": {
+      "path": "audio/clips/6d/6d30adc4e962e86f165f2726eb893c8a7ded4e2b.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 208796,
+      "duration_ms": 41710,
+      "content_type": "audio/mpeg",
+      "kind": "narration",
+      "ref": "sie-2-01#0",
+      "section": "SIE-2"
+    },
+    "6dccee9c45b3193dfb60f0db78383c13b9f1ccf5": {
+      "path": "audio/clips/6d/6dccee9c45b3193dfb60f0db78383c13b9f1ccf5.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 21956,
+      "duration_ms": 4340,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "sie-q-0004",
+      "section": "SIE-1"
+    },
+    "6fc0c9df31e5b8a437123fb633e6ab6476a949b2": {
+      "path": "audio/clips/6f/6fc0c9df31e5b8a437123fb633e6ab6476a949b2.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 119396,
+      "duration_ms": 23830,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "s7-q-0003",
+      "section": "S7-2"
+    },
+    "7a56cd7debb54045fe354226f9a5795a51a819b6": {
+      "path": "audio/clips/7a/7a56cd7debb54045fe354226f9a5795a51a819b6.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 30956,
+      "duration_ms": 6140,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "sie-q-0013",
+      "section": "SIE-3"
+    },
+    "7aa82794fdcac1a95dd442b07549aafa512482ef": {
+      "path": "audio/clips/7a/7aa82794fdcac1a95dd442b07549aafa512482ef.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 112316,
+      "duration_ms": 22420,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "sie-q-0013",
+      "section": "SIE-3"
+    },
+    "85d6f16ca4b87823b64aef4a2c8d9720ffaef48e": {
+      "path": "audio/clips/85/85d6f16ca4b87823b64aef4a2c8d9720ffaef48e.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 129956,
+      "duration_ms": 25940,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "s7-q-0007",
+      "section": "S7-3"
+    },
+    "8672814e813e90cf1dced651c03304462101bf97": {
+      "path": "audio/clips/86/8672814e813e90cf1dced651c03304462101bf97.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 53156,
+      "duration_ms": 10580,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "sie-q-0008",
+      "section": "SIE-2"
+    },
+    "89309bdef1bcd6c7585abd56aa7ef0da73e68a46": {
+      "path": "audio/clips/89/89309bdef1bcd6c7585abd56aa7ef0da73e68a46.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 17636,
+      "duration_ms": 3480,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "sie-f-0007",
+      "section": "SIE-2"
+    },
+    "8a9dfd6c36fbf7b5b47ff040fded387886e774c3": {
+      "path": "audio/clips/8a/8a9dfd6c36fbf7b5b47ff040fded387886e774c3.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 29876,
+      "duration_ms": 5930,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "s7-q-0007",
+      "section": "S7-3"
+    },
+    "8b4b196415c003bff3534d217831ac8ef8a66f8d": {
+      "path": "audio/clips/8b/8b4b196415c003bff3534d217831ac8ef8a66f8d.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 88796,
+      "duration_ms": 17710,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "sie-q-0016",
+      "section": "SIE-4"
+    },
+    "900e343a17c21169a2bd8f06ce5b235bb4aa29ac": {
+      "path": "audio/clips/90/900e343a17c21169a2bd8f06ce5b235bb4aa29ac.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 23636,
+      "duration_ms": 4680,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "s7-q-0013",
+      "section": "S7-3"
+    },
+    "9049bc471743b87c48cb2c2ce9b581e0b4dcb0fd": {
+      "path": "audio/clips/90/9049bc471743b87c48cb2c2ce9b581e0b4dcb0fd.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 56396,
+      "duration_ms": 11230,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "sie-f-0004",
+      "section": "SIE-1"
+    },
+    "915049d45070cff09c28cae2480005a641fee5fa": {
+      "path": "audio/clips/91/915049d45070cff09c28cae2480005a641fee5fa.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 8036,
+      "duration_ms": 1560,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "sie-q-0015",
+      "section": "SIE-4"
+    },
+    "92efb5f4c21bf0c9ca767ac07dbff7a05836d0c1": {
+      "path": "audio/clips/92/92efb5f4c21bf0c9ca767ac07dbff7a05836d0c1.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 12956,
+      "duration_ms": 2540,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "sie-q-0005",
+      "section": "SIE-2"
+    },
+    "9934fe97e9490b117369081ab38c0e0202447296": {
+      "path": "audio/clips/99/9934fe97e9490b117369081ab38c0e0202447296.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 24956,
+      "duration_ms": 4940,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "s7-q-0010",
+      "section": "S7-3"
+    },
+    "9bc7aaba8c6cd3eaa2970c8d1315e7966bd94cf8": {
+      "path": "audio/clips/9b/9bc7aaba8c6cd3eaa2970c8d1315e7966bd94cf8.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 18716,
+      "duration_ms": 3700,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "sie-f-0003",
+      "section": "SIE-1"
+    },
+    "9f608475dfea0ed6551f3fe26505dfc591e299b8": {
+      "path": "audio/clips/9f/9f608475dfea0ed6551f3fe26505dfc591e299b8.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 31076,
+      "duration_ms": 6170,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "s7-q-0003",
+      "section": "S7-2"
+    },
+    "9f6f00782154f4028898fbbfa44df890d2939c87": {
+      "path": "audio/clips/9f/9f6f00782154f4028898fbbfa44df890d2939c87.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 100796,
+      "duration_ms": 20110,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "sie-q-0005",
+      "section": "SIE-2"
+    },
+    "a1317ab54e9f2328e0cda7b801ec8e9d62c66e0b": {
+      "path": "audio/clips/a1/a1317ab54e9f2328e0cda7b801ec8e9d62c66e0b.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 122876,
+      "duration_ms": 24530,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "sie-q-0001",
+      "section": "SIE-1"
+    },
+    "a2c033c13487457864e1e3c486ad8e221c481872": {
+      "path": "audio/clips/a2/a2c033c13487457864e1e3c486ad8e221c481872.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 50276,
+      "duration_ms": 10010,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "s7-f-0009",
+      "section": "S7-3"
+    },
+    "a768b4fd333b13de5e0a86638a15e75230a8aaad": {
+      "path": "audio/clips/a7/a768b4fd333b13de5e0a86638a15e75230a8aaad.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 115556,
+      "duration_ms": 23060,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "s7-q-0001",
+      "section": "S7-1"
+    },
+    "a8bbd576f5ef17ffe10004a0ead8fc3469af4abe": {
+      "path": "audio/clips/a8/a8bbd576f5ef17ffe10004a0ead8fc3469af4abe.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 30836,
+      "duration_ms": 6120,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "sie-q-0002",
+      "section": "SIE-1"
+    },
+    "aa4cf0799132becf92f41ee0444b92d756db4ed1": {
+      "path": "audio/clips/aa/aa4cf0799132becf92f41ee0444b92d756db4ed1.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 135956,
+      "duration_ms": 27140,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "sie-q-0016",
+      "section": "SIE-4"
+    },
+    "aa8f6abbd2aae192b362a675195f2021cb8ba4c6": {
+      "path": "audio/clips/aa/aa8f6abbd2aae192b362a675195f2021cb8ba4c6.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 108596,
+      "duration_ms": 21670,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "s7-q-0010",
+      "section": "S7-3"
+    },
+    "afa0928fafd8d922ac56d491af0abed02ea55de1": {
+      "path": "audio/clips/af/afa0928fafd8d922ac56d491af0abed02ea55de1.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 25196,
+      "duration_ms": 4990,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "s7-f-0001",
+      "section": "S7-1"
+    },
+    "b137b520afd90fd729f2d524e238f8751f70ddc7": {
+      "path": "audio/clips/b1/b137b520afd90fd729f2d524e238f8751f70ddc7.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 52556,
+      "duration_ms": 10460,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "sie-q-0006",
+      "section": "SIE-2"
+    },
+    "b1f4e499e218a59f1cf7302144a652d5e567df78": {
+      "path": "audio/clips/b1/b1f4e499e218a59f1cf7302144a652d5e567df78.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 61556,
+      "duration_ms": 12260,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "s7-q-0011",
+      "section": "S7-3"
+    },
+    "b442916ba1c54fd8c6ff4673670008f931917040": {
+      "path": "audio/clips/b4/b442916ba1c54fd8c6ff4673670008f931917040.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 110756,
+      "duration_ms": 22100,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "sie-q-0004",
+      "section": "SIE-1"
+    },
+    "b478052be76bf72a5cf43bd376d70d6573525c7a": {
+      "path": "audio/clips/b4/b478052be76bf72a5cf43bd376d70d6573525c7a.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 60716,
+      "duration_ms": 12100,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "sie-q-0009",
+      "section": "SIE-2"
+    },
+    "b6e4304c04719b55289f2e3ece7a03090a32e61b": {
+      "path": "audio/clips/b6/b6e4304c04719b55289f2e3ece7a03090a32e61b.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 27716,
+      "duration_ms": 5500,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "sie-q-0011",
+      "section": "SIE-3"
+    },
+    "b92e6be1f56ec16c11e3ff54cd434aa7c9557acc": {
+      "path": "audio/clips/b9/b92e6be1f56ec16c11e3ff54cd434aa7c9557acc.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 25916,
+      "duration_ms": 5140,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "sie-q-0011",
+      "section": "SIE-3"
+    },
+    "be1e209157c1044a2c4554f66ead665cf1595963": {
+      "path": "audio/clips/be/be1e209157c1044a2c4554f66ead665cf1595963.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 49676,
+      "duration_ms": 9890,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "s7-q-0005",
+      "section": "S7-2"
+    },
+    "bee3b8711518ded85195cb94d1df3cf6d5a82952": {
+      "path": "audio/clips/be/bee3b8711518ded85195cb94d1df3cf6d5a82952.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 41636,
+      "duration_ms": 8280,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "s7-q-0011",
+      "section": "S7-3"
+    },
+    "bf2e8ebf0f9ce5bd60be53eb5caed32393d6c08d": {
+      "path": "audio/clips/bf/bf2e8ebf0f9ce5bd60be53eb5caed32393d6c08d.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 136796,
+      "duration_ms": 27310,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "s7-q-0009",
+      "section": "S7-3"
+    },
+    "c34eb7b9b02354a373b525f454a4cca13c80f51c": {
+      "path": "audio/clips/c3/c34eb7b9b02354a373b525f454a4cca13c80f51c.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 103556,
+      "duration_ms": 20660,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "sie-q-0014",
+      "section": "SIE-3"
+    },
+    "c691ff9ce51c4dbdc13b9885022b48936aac35b6": {
+      "path": "audio/clips/c6/c691ff9ce51c4dbdc13b9885022b48936aac35b6.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 53996,
+      "duration_ms": 10750,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "sie-q-0015",
+      "section": "SIE-4"
+    },
+    "c73add9b058bdebb924c4440c02a029eba888429": {
+      "path": "audio/clips/c7/c73add9b058bdebb924c4440c02a029eba888429.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 22556,
+      "duration_ms": 4460,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "s7-f-0004",
+      "section": "S7-2"
+    },
+    "c761489305f4edc1af142786bfd70ef8701b4ee7": {
+      "path": "audio/clips/c7/c761489305f4edc1af142786bfd70ef8701b4ee7.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 135956,
+      "duration_ms": 27140,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "s7-q-0012",
+      "section": "S7-3"
+    },
+    "c8efa18e2ef6e9db98098dc9d48220028e860350": {
+      "path": "audio/clips/c8/c8efa18e2ef6e9db98098dc9d48220028e860350.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 22436,
+      "duration_ms": 4440,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "sie-q-0014",
+      "section": "SIE-3"
+    },
+    "c8f16f8da2801a4972d803def3d8e06a8bab4edb": {
+      "path": "audio/clips/c8/c8f16f8da2801a4972d803def3d8e06a8bab4edb.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 113636,
+      "duration_ms": 22680,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "s7-q-0002",
+      "section": "S7-1"
+    },
+    "c9328fc4d64a17e26fb86e33ac46d233e2bea3f3": {
+      "path": "audio/clips/c9/c9328fc4d64a17e26fb86e33ac46d233e2bea3f3.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 26156,
+      "duration_ms": 5180,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "s7-q-0015",
+      "section": "S7-4"
+    },
+    "cc803304d62c96154f6968a714c0649e7c785288": {
+      "path": "audio/clips/cc/cc803304d62c96154f6968a714c0649e7c785288.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 300596,
+      "duration_ms": 60070,
+      "content_type": "audio/mpeg",
+      "kind": "narration",
+      "ref": "s7-3-01#1",
+      "section": "S7-3"
+    },
+    "cc8326b9b37378e2c456c2d3647e846ac6466cae": {
+      "path": "audio/clips/cc/cc8326b9b37378e2c456c2d3647e846ac6466cae.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 254636,
+      "duration_ms": 50880,
+      "content_type": "audio/mpeg",
+      "kind": "narration",
+      "ref": "s7-2-01#1",
+      "section": "S7-2"
+    },
+    "cec61b87bd15447fd7746e73c88e27843809b542": {
+      "path": "audio/clips/ce/cec61b87bd15447fd7746e73c88e27843809b542.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 39116,
+      "duration_ms": 7780,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "sie-f-0008",
+      "section": "SIE-2"
+    },
+    "d32487c62757a7ccfb69570fcafc6313324d5cc5": {
+      "path": "audio/clips/d3/d32487c62757a7ccfb69570fcafc6313324d5cc5.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 36596,
+      "duration_ms": 7270,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "s7-f-0008",
+      "section": "S7-3"
+    },
+    "d6520c11a53feda14b35c24af00f411e57ffb3bb": {
+      "path": "audio/clips/d6/d6520c11a53feda14b35c24af00f411e57ffb3bb.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 22796,
+      "duration_ms": 4510,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "s7-q-0016",
+      "section": "S7-4"
+    },
+    "d6a0bd13053fb6c67d027b7db4f57ca44d513b6e": {
+      "path": "audio/clips/d6/d6a0bd13053fb6c67d027b7db4f57ca44d513b6e.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 25076,
+      "duration_ms": 4970,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "s7-q-0004",
+      "section": "S7-2"
+    },
+    "d7de0fe84d9d43552d90d96911ba8d32ab47474c": {
+      "path": "audio/clips/d7/d7de0fe84d9d43552d90d96911ba8d32ab47474c.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 15476,
+      "duration_ms": 3050,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "sie-q-0009",
+      "section": "SIE-2"
+    },
+    "d804b0380ac6fbf0b66d83c40e73c3924643eea2": {
+      "path": "audio/clips/d8/d804b0380ac6fbf0b66d83c40e73c3924643eea2.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 77876,
+      "duration_ms": 15530,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "s7-q-0004",
+      "section": "S7-2"
+    },
+    "d99340a3a4966bfeac9f214196cc91947f59eb1b": {
+      "path": "audio/clips/d9/d99340a3a4966bfeac9f214196cc91947f59eb1b.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 36836,
+      "duration_ms": 7320,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "sie-q-0007",
+      "section": "SIE-2"
+    },
+    "da8dc2b70166a7233cb01994b53cb6f91c8692e6": {
+      "path": "audio/clips/da/da8dc2b70166a7233cb01994b53cb6f91c8692e6.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 35636,
+      "duration_ms": 7080,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "sie-q-0003",
+      "section": "SIE-1"
+    },
+    "daf3e2819ec0ab285c1df47aa82f467f0bc5957e": {
+      "path": "audio/clips/da/daf3e2819ec0ab285c1df47aa82f467f0bc5957e.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 63236,
+      "duration_ms": 12600,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "sie-q-0014",
+      "section": "SIE-3"
+    },
+    "dbcca3cedc5632b04176dadd027c7a3d0c6977cc": {
+      "path": "audio/clips/db/dbcca3cedc5632b04176dadd027c7a3d0c6977cc.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 100796,
+      "duration_ms": 20110,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "s7-q-0014",
+      "section": "S7-4"
+    },
+    "dc0ae61d13fc73668dc7cc27515dc6f68193cc3d": {
+      "path": "audio/clips/dc/dc0ae61d13fc73668dc7cc27515dc6f68193cc3d.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 68276,
+      "duration_ms": 13610,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "sie-q-0001",
+      "section": "SIE-1"
+    },
+    "de67c5bf48b578b285700cc5db8005e1850a6ea4": {
+      "path": "audio/clips/de/de67c5bf48b578b285700cc5db8005e1850a6ea4.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 101036,
+      "duration_ms": 20160,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "sie-q-0007",
+      "section": "SIE-2"
+    },
+    "e41c56e7b4e1050178096e9490620e3a0f9a2f76": {
+      "path": "audio/clips/e4/e41c56e7b4e1050178096e9490620e3a0f9a2f76.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 24116,
+      "duration_ms": 4780,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "sie-q-0010",
+      "section": "SIE-2"
+    },
+    "e6f590d7966aff738fd7b0fa05350f732d6813c6": {
+      "path": "audio/clips/e6/e6f590d7966aff738fd7b0fa05350f732d6813c6.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 15476,
+      "duration_ms": 3050,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "s7-f-0006",
+      "section": "S7-3"
+    },
+    "e9053850ca31ceb77d427b64f42cc18e3e4449cf": {
+      "path": "audio/clips/e9/e9053850ca31ceb77d427b64f42cc18e3e4449cf.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 91436,
+      "duration_ms": 18240,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "s7-q-0005",
+      "section": "S7-2"
+    },
+    "e951c171d1320cd2734dc2a2881aefa4151198de": {
+      "path": "audio/clips/e9/e951c171d1320cd2734dc2a2881aefa4151198de.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 122996,
+      "duration_ms": 24550,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "s7-q-0008",
+      "section": "S7-3"
+    },
+    "e9d102689476e9b49062fa61dc59715f5e12fad8": {
+      "path": "audio/clips/e9/e9d102689476e9b49062fa61dc59715f5e12fad8.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 26996,
+      "duration_ms": 5350,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "sie-f-0005",
+      "section": "SIE-2"
+    },
+    "eabfc2e39643989a7bbfa83dd3115097bfbc3276": {
+      "path": "audio/clips/ea/eabfc2e39643989a7bbfa83dd3115097bfbc3276.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 129476,
+      "duration_ms": 25850,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "s7-q-0004",
+      "section": "S7-2"
+    },
+    "eecf9c82544ee372eb3cb1b17bae7c07a2e0a4be": {
+      "path": "audio/clips/ee/eecf9c82544ee372eb3cb1b17bae7c07a2e0a4be.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 118316,
+      "duration_ms": 23620,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "sie-q-0003",
+      "section": "SIE-1"
+    },
+    "ef02ef601dd1d2d6f99d3caecbcecce5578e466e": {
+      "path": "audio/clips/ef/ef02ef601dd1d2d6f99d3caecbcecce5578e466e.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 33476,
+      "duration_ms": 6650,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "s7-q-0009",
+      "section": "S7-3"
+    },
+    "f1aa1b2a6ce515bacc36d3bc2a6489955f560142": {
+      "path": "audio/clips/f1/f1aa1b2a6ce515bacc36d3bc2a6489955f560142.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 18596,
+      "duration_ms": 3670,
+      "content_type": "audio/mpeg",
+      "kind": "flashcard",
+      "ref": "s7-f-0007",
+      "section": "S7-3"
+    },
+    "f2223837656e49b6e4f9177ce25b63e07788b31d": {
+      "path": "audio/clips/f2/f2223837656e49b6e4f9177ce25b63e07788b31d.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 59036,
+      "duration_ms": 11760,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "s7-q-0013",
+      "section": "S7-3"
+    },
+    "f3d1e8bf02d31a8f9cf70ee28694f821fae1fa28": {
+      "path": "audio/clips/f3/f3d1e8bf02d31a8f9cf70ee28694f821fae1fa28.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 105716,
+      "duration_ms": 21100,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "sie-q-0015",
+      "section": "SIE-4"
+    },
+    "f76e66f1028e0155544ad0a37ad9d7d49ca8860d": {
+      "path": "audio/clips/f7/f76e66f1028e0155544ad0a37ad9d7d49ca8860d.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 47276,
+      "duration_ms": 9410,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "s7-q-0010",
+      "section": "S7-3"
+    },
+    "f7be9be84f8a69800b56c87baeeb148180682457": {
+      "path": "audio/clips/f7/f7be9be84f8a69800b56c87baeeb148180682457.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 66236,
+      "duration_ms": 13200,
+      "content_type": "audio/mpeg",
+      "kind": "choices",
+      "ref": "s7-q-0002",
+      "section": "S7-1"
+    },
+    "fe5d1e724bc5e1875f8b22016f42a22138c2d78f": {
+      "path": "audio/clips/fe/fe5d1e724bc5e1875f8b22016f42a22138c2d78f.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 128636,
+      "duration_ms": 25680,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "s7-q-0005",
+      "section": "S7-2"
+    },
+    "ff88b3b21f8f67d8bc1047654ff0e806f84fb726": {
+      "path": "audio/clips/ff/ff88b3b21f8f67d8bc1047654ff0e806f84fb726.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 36356,
+      "duration_ms": 7220,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_stem",
+      "ref": "s7-q-0001",
+      "section": "S7-1"
+    },
+    "ffc4f30c328d557c57514517f33bb822a44431ce": {
+      "path": "audio/clips/ff/ffc4f30c328d557c57514517f33bb822a44431ce.mp3",
+      "voice": "natural-en-us-v1",
+      "bytes": 124316,
+      "duration_ms": 24820,
+      "content_type": "audio/mpeg",
+      "kind": "spoken_explanation",
+      "ref": "sie-q-0008",
+      "section": "SIE-2"
+    }
+  }
 }

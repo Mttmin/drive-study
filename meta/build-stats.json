@@ -1,0 +1,16 @@
+{
+  "elapsed_sec": 33.54,
+  "device": "cuda",
+  "kokoro_voice": "af_heart",
+  "voice_id": "natural-en-us-v1",
+  "bitrate": "40k",
+  "questions": 32,
+  "utterances": 128,
+  "clips": 127,
+  "clips_synthesized": 159,
+  "clips_reused": 129,
+  "question_synth_seconds": 5.33,
+  "per_100_questions_sec": 16.8,
+  "audio_bytes": 19972666,
+  "errors": []
+}

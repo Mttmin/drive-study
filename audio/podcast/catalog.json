@@ -1,0 +1,136 @@
+{
+  "episodes": [
+    {
+      "file": "lesson-s7-2-01.mp3",
+      "guid": "drive-study-lesson-s7-2-01",
+      "title": "Series 7 lesson. Sample: Whose account is this, and does the idea fit?",
+      "description": "Opens Accounts After Obtaining and Evaluating Customers' Financial Profile and Investment Objectives. Narrated lesson.",
+      "seconds": 116.57,
+      "bytes": 583204,
+      "group": "lesson",
+      "content_sha1": "ac7955bba35d16ad924b00dff46a22e9c6c82c1a",
+      "pubDate": "Tue, 17 Nov 2026 01:59:27 +0000"
+    },
+    {
+      "file": "lesson-s7-3-01.mp3",
+      "guid": "drive-study-lesson-s7-3-01",
+      "title": "Series 7 lesson. Sample: Option breakevens you can do by ear",
+      "description": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records. Narrated lesson.",
+      "seconds": 119.16,
+      "bytes": 596154,
+      "group": "lesson",
+      "content_sha1": "33599c247e7373c47d0df61525e5352586acfb17",
+      "pubDate": "Tue, 17 Nov 2026 01:59:27 +0000"
+    },
+    {
+      "file": "lesson-sie-1-01.mp3",
+      "guid": "drive-study-lesson-sie-1-01",
+      "title": "SIE lesson. Sample: How the capital markets fit together",
+      "description": "Knowledge of Capital Markets. Narrated lesson.",
+      "seconds": 133.49,
+      "bytes": 667790,
+      "group": "lesson",
+      "content_sha1": "5dcc08adbfea3a165e6440b1f54950721e2ac685",
+      "pubDate": "Tue, 17 Nov 2026 01:59:27 +0000"
+    },
+    {
+      "file": "lesson-sie-2-01.mp3",
+      "guid": "drive-study-lesson-sie-2-01",
+      "title": "SIE lesson. Sample: Stock, bonds, and a fund sales charge",
+      "description": "Understanding Products and Their Risks. Narrated lesson.",
+      "seconds": 110.4,
+      "bytes": 552351,
+      "group": "lesson",
+      "content_sha1": "3db9c92259ef2a17abca861394e32e98a6229510",
+      "pubDate": "Tue, 17 Nov 2026 01:59:27 +0000"
+    },
+    {
+      "file": "quiz-S7-1.mp3",
+      "guid": "drive-study-quiz-S7-1",
+      "title": "Series 7 quiz. Seeks Business for the Broker-Dealer",
+      "description": "2 questions on Seeks Business for the Broker-Dealer. Each item is the question, six seconds of silence, then the answer.",
+      "seconds": 124.03,
+      "bytes": 620505,
+      "group": "quiz",
+      "content_sha1": "495c462f67660f5d49d3aa569f99bb948f95c706",
+      "pubDate": "Tue, 17 Nov 2026 01:59:27 +0000"
+    },
+    {
+      "file": "quiz-S7-2.mp3",
+      "guid": "drive-study-quiz-S7-2",
+      "title": "Series 7 quiz. Opens Accounts and Evaluates the Customer",
+      "description": "3 questions on Opens Accounts and Evaluates the Customer. Each item is the question, six seconds of silence, then the answer.",
+      "seconds": 187.32,
+      "bytes": 936950,
+      "group": "quiz",
+      "content_sha1": "8200974ec0271fe4bc36d9c14d5db9a0b1de6dd2",
+      "pubDate": "Tue, 17 Nov 2026 01:59:27 +0000"
+    },
+    {
+      "file": "quiz-S7-3.mp3",
+      "guid": "drive-study-quiz-S7-3",
+      "title": "Series 7 quiz. Provides Information and Makes Recommendations",
+      "description": "8 questions on Provides Information and Makes Recommendations. Each item is the question, six seconds of silence, then the answer.",
+      "seconds": 404.14,
+      "bytes": 2021035,
+      "group": "quiz",
+      "content_sha1": "2debea54c1d487df9fc05db9cc8ca463b036857f",
+      "pubDate": "Tue, 17 Nov 2026 01:59:27 +0000"
+    },
+    {
+      "file": "quiz-S7-4.mp3",
+      "guid": "drive-study-quiz-S7-4",
+      "title": "Series 7 quiz. Processes Transactions",
+      "description": "3 questions on Processes Transactions. Each item is the question, six seconds of silence, then the answer.",
+      "seconds": 141.38,
+      "bytes": 707251,
+      "group": "quiz",
+      "content_sha1": "0fec52554a830dd4a1cde476b2e2894e41501a83",
+      "pubDate": "Tue, 17 Nov 2026 01:59:27 +0000"
+    },
+    {
+      "file": "quiz-SIE-1.mp3",
+      "guid": "drive-study-quiz-SIE-1",
+      "title": "SIE quiz. Knowledge of Capital Markets",
+      "description": "4 questions on Knowledge of Capital Markets. Each item is the question, six seconds of silence, then the answer.",
+      "seconds": 190.99,
+      "bytes": 955292,
+      "group": "quiz",
+      "content_sha1": "c40b93b892ab7117e9cbff75a55a3ccb2302f697",
+      "pubDate": "Tue, 17 Nov 2026 01:59:27 +0000"
+    },
+    {
+      "file": "quiz-SIE-2.mp3",
+      "guid": "drive-study-quiz-SIE-2",
+      "title": "SIE quiz. Understanding Products and Their Risks",
+      "description": "6 questions on Understanding Products and Their Risks. Each item is the question, six seconds of silence, then the answer.",
+      "seconds": 289.01,
+      "bytes": 1445382,
+      "group": "quiz",
+      "content_sha1": "bf5342a8f2ae2f034a932df0ce85db80f09bacac",
+      "pubDate": "Tue, 17 Nov 2026 01:59:27 +0000"
+    },
+    {
+      "file": "quiz-SIE-3.mp3",
+      "guid": "drive-study-quiz-SIE-3",
+      "title": "SIE quiz. Understanding Trading, Customer Accounts and Prohibited Activities",
+      "description": "4 questions on Understanding Trading, Customer Accounts and Prohibited Activities. Each item is the question, six seconds of silence, then the answer.",
+      "seconds": 207.41,
+      "bytes": 1037410,
+      "group": "quiz",
+      "content_sha1": "243be9b78e0872aa6e2e3077ef96240a9cde086b",
+      "pubDate": "Tue, 17 Nov 2026 01:59:27 +0000"
+    },
+    {
+      "file": "quiz-SIE-4.mp3",
+      "guid": "drive-study-quiz-SIE-4",
+      "title": "SIE quiz. Overview of the Regulatory Framework",
+      "description": "2 questions on Overview of the Regulatory Framework. Each item is the question, six seconds of silence, then the answer.",
+      "seconds": 118.9,
+      "bytes": 594820,
+      "group": "quiz",
+      "content_sha1": "452f2c05dda895a6273d1ce1f4576e7d6cd2d769",
+      "pubDate": "Tue, 17 Nov 2026 01:59:27 +0000"
+    }
+  ]
+}

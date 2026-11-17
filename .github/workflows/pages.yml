@@ -1,0 +1,86 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [main, audio]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout app
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Validate content and unit tests
+        if: github.ref == 'refs/heads/main'
+        run: |
+          npm run validate
+          npm test
+
+      - name: Mobile WebKit smoke test
+        if: github.ref == 'refs/heads/main'
+        run: |
+          npx playwright install --with-deps webkit
+          npm run test:e2e
+
+      - name: Build app
+        run: npm run build
+
+      # drive-study-audio-overlay-start
+      - name: Overlay the audio branch
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          if git ls-remote --exit-code --heads origin audio >/dev/null 2>&1; then
+            git fetch --depth=1 origin audio
+            rm -rf dist/audio
+            git archive origin/audio audio | tar -C dist -x
+          fi
+          if [ ! -f dist/audio/manifest.json ]; then
+            mkdir -p dist/audio
+            cp audio/manifest.json dist/audio/manifest.json
+            echo "Published the stub manifest."
+          fi
+      # drive-study-audio-overlay-end
+
+      - name: Build podcast feed
+        run: node scripts/build-podcast-feed.mjs dist
+
+      - name: Refresh the service worker after audio lands
+        run: node scripts/generate-sw.mjs
+
+      - name: Report artifact size
+        run: du -sh dist dist/audio || true
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
