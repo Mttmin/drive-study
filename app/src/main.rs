@@ -69,6 +69,11 @@ fn App() -> impl IntoView {
         closure.forget();
     }
     leptos::task::spawn_local(async move {
+        let (saved_settings, saved_cards, saved_attempts, saved_days) = load_state().await;
+        settings.set(saved_settings);
+        cards.set(saved_cards);
+        attempts.set(saved_attempts);
+        days.set(saved_days);
         match load_library().await {
             Ok((loaded, audio)) => {
                 shelf.set(Some(loaded));
@@ -76,11 +81,6 @@ fn App() -> impl IntoView {
             }
             Err(message) => error.set(message),
         }
-        let (saved_settings, saved_cards, saved_attempts, saved_days) = load_state().await;
-        settings.set(saved_settings);
-        cards.set(saved_cards);
-        attempts.set(saved_attempts);
-        days.set(saved_days);
     });
 
     let listen_only = Signal::derive(move || settings.get().answer_mode == "listen");
@@ -93,7 +93,7 @@ fn App() -> impl IntoView {
                         <b>"DRIVE"</b>
                         <span>"Study"</span>
                     </button>
-                    <button class="icon-btn" type="button" on:click=move |_| go("/settings")>"Set"</button>
+                    <button class="icon-btn" type="button" data-testid="open-settings" on:pointerup=move |_| tap(true, || go("/settings")) on:click=move |_| tap(false, || go("/settings"))>"Set"</button>
                 </header>
             </Show>
             <Show when=move || shelf.get().is_none() && error.get().is_empty()>
@@ -132,7 +132,7 @@ fn App() -> impl IntoView {
                 <SettingsScreen shelf=shelf manifest=manifest settings=settings cards=cards attempts=attempts days=days />
             </Show>
             <Show when=move || route.get() == "/play">
-                <Play plan=plan settings=settings cards=cards manifest=manifest summary=summary listen_only=listen_only />
+                <Play plan=plan settings=settings cards=cards attempts=attempts days=days manifest=manifest summary=summary listen_only=listen_only />
             </Show>
             <Show when=move || route.get() == "/summary">
                 <SummaryView summary=summary />
@@ -395,22 +395,34 @@ fn Mistakes(shelf: RwSignal<Option<Shelf>>, settings: RwSignal<Settings>, cards:
             <p class="lede">"Wrong answers and guesses land here. An item graduates after you get it right on three different days."</p>
             {move || {
                 let due: Vec<_> = cards.get().into_iter().filter(is_due_card).collect();
+                let waiting: Vec<_> = cards.get().into_iter().filter(|card| !card.graduated && !is_due_card(card)).collect();
                 let graduated = cards.get().iter().filter(|card| card.graduated).count();
+                let waiting_note = if waiting.is_empty() {
+                    String::new()
+                } else {
+                    let soon = waiting.iter().map(|card| card.due).min().unwrap_or(0);
+                    let minutes = ((soon - js_sys::Date::now() as i64).max(0) / 60_000).max(1);
+                    format!("{} more will be due later. The next one is in about {minutes} min.", waiting.len())
+                };
                 if due.is_empty() {
-                    view! { <p>{format!("{graduated} graduated. Nothing is due right now.")}</p> }.into_any()
+                    view! { <p data-testid="mistakes-empty">{format!("{graduated} graduated. Nothing is due right now. {waiting_note}")}</p> }.into_any()
                 } else {
                     let count = due.len();
-                    view! { <button class="big" type="button" on:click=move |_| {
-                        let due: Vec<_> = cards.get_untracked().into_iter().filter(is_due_card).collect();
-                        let mut needed: Vec<String> = due.iter().map(|card| card.section.clone()).collect();
-                        needed.sort();
-                        needed.dedup();
-                        let ids: HashSet<String> = due.into_iter().map(|card| card.id).collect();
-                        begin_session(shelf, needed, &["questions", "flashcards"], "Loading mistakes…", move |loaded| {
-                            plan.set(Some(build_mistakes(parse_plan(&settings.get_untracked().plan), &loaded.questions, &loaded.cards, &ids, settings.get_untracked().answer_mode == "listen")));
-                            go("/play");
-                        });
-                    }>{format!("Start mistakes drive ({count})")}</button> }.into_any()
+                    let note = waiting_note.clone();
+                    view! { <div>
+                        <button class="big" type="button" data-testid="mistakes-start" on:click=move |_| {
+                            let due: Vec<_> = cards.get_untracked().into_iter().filter(is_due_card).collect();
+                            let mut needed: Vec<String> = due.iter().map(|card| card.section.clone()).collect();
+                            needed.sort();
+                            needed.dedup();
+                            let ids: HashSet<String> = due.into_iter().map(|card| card.id).collect();
+                            begin_session(shelf, needed, &["questions", "flashcards"], "Loading mistakes…", move |loaded| {
+                                plan.set(Some(build_mistakes(parse_plan(&settings.get_untracked().plan), &loaded.questions, &loaded.cards, &ids, settings.get_untracked().answer_mode == "listen")));
+                                go("/play");
+                            });
+                        }>{format!("Start mistakes drive ({count})")}</button>
+                        <p>{note}</p>
+                    </div> }.into_any()
                 }
             }}
         </section>
@@ -422,7 +434,7 @@ fn Stats(shelf: RwSignal<Option<Shelf>>, attempts: RwSignal<Vec<engine::AttemptR
     view! {
         <section>
             <h1>"Stats"</h1>
-            <p class="lede">{move || format!("{} day streak. {} answers saved on this phone.", streak_from_dates(&days.get(), &today_key()), attempts.get().len())}</p>
+            <p class="lede" data-testid="stats-count">{move || format!("{} day streak. {} answers saved on this phone.", streak_from_dates(&days.get(), &today_key()), attempts.get().len())}</p>
             {move || stats_cards(&shelf.get(), &attempts.get())}
         </section>
     }
@@ -491,39 +503,49 @@ fn SettingsScreen(
             <h1>"Settings"</h1>
             <h2>"Answer mode"</h2>
             <div class="seg">
-                <button type="button" aria-pressed=move || settings.get().answer_mode == "spoken" on:click=move |_| update_settings(settings, |item| item.answer_mode = "spoken".into())>"Spoken answers"</button>
-                <button type="button" aria-pressed=move || settings.get().answer_mode == "listen" on:click=move |_| update_settings(settings, |item| item.answer_mode = "listen".into())>"Listen only"</button>
+                <button type="button" data-testid="answer-spoken" aria-pressed=move || if settings.get().answer_mode == "spoken" { "true" } else { "false" } on:pointerup=move |_| tap(true, || update_settings(settings, |item| item.answer_mode = "spoken".into())) on:click=move |_| tap(false, || update_settings(settings, |item| item.answer_mode = "spoken".into()))>"Spoken answers"</button>
+                <button type="button" data-testid="answer-listen" aria-pressed=move || if settings.get().answer_mode == "listen" { "true" } else { "false" } on:pointerup=move |_| tap(true, || update_settings(settings, |item| item.answer_mode = "listen".into())) on:click=move |_| tap(false, || update_settings(settings, |item| item.answer_mode = "listen".into()))>"Listen only"</button>
             </div>
-            <p class="muted">"Listen only reads the question, waits, then reads the answer. Spoken mode listens for A, B, C, D, alpha, bravo, charlie, delta, true, false, repeat, skip, explain, I don't know, pause, and stop."</p>
+            <p class="muted">"Listen only reads the question, waits, then reads the answer. Spoken mode listens for A, B, C, D, alpha, bravo, charlie, delta, true, false, repeat, skip, next, wait, explain, I don't know, pause, and stop."</p>
+            <h2>"Explain correct answers"</h2>
+            <div class="seg">
+                <button type="button" data-testid="explain-always" aria-pressed=move || if settings.get().explain_correct == "always" { "true" } else { "false" } on:pointerup=move |_| tap(true, || update_settings(settings, |item| item.explain_correct = "always".into())) on:click=move |_| tap(false, || update_settings(settings, |item| item.explain_correct = "always".into()))>"Always"</button>
+                <button type="button" data-testid="explain-short" aria-pressed=move || if settings.get().explain_correct == "short" { "true" } else { "false" } on:pointerup=move |_| tap(true, || update_settings(settings, |item| item.explain_correct = "short".into())) on:click=move |_| tap(false, || update_settings(settings, |item| item.explain_correct = "short".into()))>"Short"</button>
+                <button type="button" data-testid="explain-never" aria-pressed=move || if settings.get().explain_correct == "never" { "true" } else { "false" } on:pointerup=move |_| tap(true, || update_settings(settings, |item| item.explain_correct = "never".into())) on:click=move |_| tap(false, || update_settings(settings, |item| item.explain_correct = "never".into()))>"Never"</button>
+            </div>
+            <p class="muted">"Short is one line, and it is the default. Wrong answers still get the full explanation. Say next or skip, tap Next, or press the car's next-track button to cut an explanation off."</p>
             <h2>"Voice"</h2>
             <div class="stack">
-                <button class="text-btn" type="button" aria-pressed=move || settings.get().voice_source == "downloaded" on:click=move |_| update_settings(settings, |item| item.voice_source = "downloaded".into())>
+                <button class="text-btn" type="button" data-testid="voice-downloaded" aria-pressed=move || if settings.get().voice_source == "downloaded" { "true" } else { "false" } on:pointerup=move |_| tap(true, || update_settings(settings, |item| item.voice_source = "downloaded".into())) on:click=move |_| tap(false, || update_settings(settings, |item| item.voice_source = "downloaded".into()))>
+                    {move || (settings.get().voice_source == "downloaded").then(|| view! { <span class="pill">"Selected"</span> })}
                     <b>"Downloaded natural audio"</b>
                     <small>"Saved on the phone. If a clip is missing, the app streams it, then uses the phone voice."</small>
                 </button>
-                <button class="text-btn" type="button" aria-pressed=move || settings.get().voice_source == "streamed" on:click=move |_| update_settings(settings, |item| item.voice_source = "streamed".into())>
+                <button class="text-btn" type="button" data-testid="voice-streamed" aria-pressed=move || if settings.get().voice_source == "streamed" { "true" } else { "false" } on:pointerup=move |_| tap(true, || update_settings(settings, |item| item.voice_source = "streamed".into())) on:click=move |_| tap(false, || update_settings(settings, |item| item.voice_source = "streamed".into()))>
+                    {move || (settings.get().voice_source == "streamed").then(|| view! { <span class="pill">"Selected"</span> })}
                     <b>"Streamed natural audio"</b>
                     <small>"Plays from the site while you are online and is not kept unless you download it."</small>
                 </button>
-                <button class="text-btn" type="button" aria-pressed=move || settings.get().voice_source == "phone" on:click=move |_| update_settings(settings, |item| item.voice_source = "phone".into())>
+                <button class="text-btn" type="button" data-testid="voice-phone" aria-pressed=move || if settings.get().voice_source == "phone" { "true" } else { "false" } on:pointerup=move |_| tap(true, || update_settings(settings, |item| item.voice_source = "phone".into())) on:click=move |_| tap(false, || update_settings(settings, |item| item.voice_source = "phone".into()))>
+                    {move || (settings.get().voice_source == "phone").then(|| view! { <span class="pill">"Selected"</span> })}
                     <b>"Phone voice"</b>
                     <small>"The iPhone voice. Works offline. It often stops when the screen locks."</small>
                 </button>
             </div>
-            <label class="field">{move || format!("Speed {:.1}x, for every voice", settings.get().rate)}
-                <input type="range" min="0.8" max="2" step="0.1" prop:value=move || settings.get().rate on:input=move |event| {
+            <label class="field" data-testid="rate-label">{move || format!("Speed {:.1}x, for every voice", settings.get().rate)}
+                <input type="range" data-testid="rate" min="0.8" max="2" step="0.1" prop:value=move || settings.get().rate on:input=move |event| {
                     let value = event_target_value(&event).parse().unwrap_or(1.0);
                     update_settings(settings, |item| item.rate = value);
                 } />
             </label>
-            <label class="field">{move || format!("Pause before the answer, {} seconds", settings.get().pause_seconds)}
-                <input type="range" min="3" max="12" step="1" prop:value=move || settings.get().pause_seconds on:input=move |event| {
-                    let value = event_target_value(&event).parse().unwrap_or(6);
-                    update_settings(settings, |item| item.pause_seconds = value);
+            <label class="field" data-testid="answer-seconds-label">{move || format!("Seconds to answer: {}. Spoken mode adds 2.", settings.get().answer_seconds)}
+                <input type="range" data-testid="answer-seconds" min="6" max="20" step="1" prop:value=move || settings.get().answer_seconds on:input=move |event| {
+                    let value = event_target_value(&event).parse().unwrap_or(10);
+                    update_settings(settings, |item| item.answer_seconds = value);
                 } />
             </label>
             <label class="field">"Phone voice"
-                <select on:change=move |event| {
+                <select data-testid="voice-select" on:change=move |event| {
                     let value = event_target_value(&event);
                     update_settings(settings, |item| item.voice_uri = if value.is_empty() { None } else { Some(value) });
                 }>
@@ -575,6 +597,7 @@ fn SettingsScreen(
             </div>
             <h2>"On an iPhone"</h2>
             <p>"Install from Safari: Share, then Add to Home Screen. Speech recognition needs a network connection and the microphone. The phone voice usually stops when the screen locks. Downloaded or streamed audio keeps going more often. Wake lock only applies while this page is on screen."</p>
+            <p class="muted">"To pick up an update, force-quit the app and open it again while you are online. If it still looks old, remove the home-screen icon, reload the site in Safari, and add it again."</p>
             <p><a class="big" href="podcast://mttmin.github.io/drive-study/podcast/feed.xml">"Subscribe in Apple Podcasts"</a></p>
             <p class="muted">"That one tap downloads lessons and quizzes for the locked screen. The feed is also at "<a href="podcast/feed.xml">"podcast/feed.xml"</a>"."</p>
         </section>
@@ -648,6 +671,8 @@ fn Play(
     plan: RwSignal<Option<drive_study_core::SessionPlan>>,
     settings: RwSignal<Settings>,
     cards: RwSignal<Vec<drive_study_core::SrsCard>>,
+    attempts: RwSignal<Vec<engine::AttemptRecord>>,
+    days: RwSignal<Vec<String>>,
     manifest: RwSignal<AudioManifest>,
     summary: RwSignal<Option<Summary>>,
     listen_only: Signal<bool>,
@@ -659,19 +684,22 @@ fn Play(
     if let Some(session) = plan.get_untracked() {
         let control = control.clone();
         leptos::task::spawn_local(async move {
-            run_session(session, model, control, settings, cards, manifest.get_untracked(), summary).await;
+            run_session(session, model, control, settings, cards, attempts, days, manifest.get_untracked(), summary).await;
         });
     }
     let _ = listen_only;
     let repeat = control.clone();
     let skip = control.clone();
     let explain = control.clone();
-    let dont = control.clone();
+    let dont_up = control.clone();
+    let dont_click = control.clone();
     let guess = control.clone();
     let know = control.clone();
     let pause = control.clone();
     let stop = control.clone();
     let choices = control.clone();
+    let window_control = choices.clone();
+    let dismiss = skip.clone();
     view! {
         <section>
             <div class="player-top">
@@ -685,9 +713,21 @@ fn Play(
                     model.update(|item| item.paused = !item.paused);
                 }>{move || if model.get().paused { "Play" } else { "Pause" }}</button>
             </div>
-            <p class="kicker">{move || format!("{} {} · {}", model.get().kicker, if model.get().sample { "· Sample" } else { "" }, model.get().source)}</p>
+            <p class="kicker" data-testid="source">{move || format!("{} {} · {}", model.get().kicker, if model.get().sample { "· Sample" } else { "" }, model.get().source)}</p>
             <h1 class="prompt">{move || model.get().prompt}</h1>
-            <p class="status" aria-live="polite">{move || format!("{} {} right, {} missed.", model.get().status, model.get().correct, model.get().wrong)}</p>
+            <p class="status" data-testid="status" aria-live="polite">{move || format!("{} {} right, {} missed.", model.get().status, model.get().correct, model.get().wrong)}</p>
+            {move || {
+                let extend = window_control.clone();
+                model.get().window_left.map(move |seconds| {
+                    let extend = extend.clone();
+                    let extend_click = extend.clone();
+                    view! {
+                        <button class="big secondary" type="button" data-testid="answer-window" on:pointerup=move |_| tap(true, || extend.interrupt(Act::MoreTime)) on:click=move |_| tap(false, || extend_click.interrupt(Act::MoreTime))>
+                            {format!("{seconds}s to answer. Tap or say wait for more time.")}
+                        </button>
+                    }
+                })
+            }}
             <div class="choices">
                 {move || model.get().choices.into_iter().map(|(key, text)| {
                     let control = choices.clone();
@@ -702,21 +742,27 @@ fn Play(
                     }
                 }).collect::<Vec<_>>()}
             </div>
-            {move || model.get().answer_key.as_ref().map(|_| {
-                let shown = model.get();
-                view! {
-                    <div class="card" data-testid="explanation">
-                        <p class="kicker">{format!("Answer {}", shown.answer_key.unwrap_or_default())}</p>
-                        <p>{shown.explanation}</p>
-                        {shown.yearly.then(|| view! { <p class="muted" data-testid="yearly-note">"Verify the current year. This figure changes."</p> })}
-                    </div>
-                }
-            })}
+            {move || {
+                let dismiss = dismiss.clone();
+                model.get().answer_key.as_ref().map(|_| {
+                    let shown = model.get();
+                    let dismiss_up = dismiss.clone();
+                    let dismiss_click = dismiss.clone();
+                    view! {
+                        <div class="card" data-testid="explanation" data-explain=shown.explain_style.clone()>
+                            <p class="kicker">{format!("Answer {}", shown.answer_key.unwrap_or_default())}</p>
+                            <p>{shown.explanation}</p>
+                            {shown.yearly.then(|| view! { <p class="muted" data-testid="yearly-note">"Verify the current year. This figure changes."</p> })}
+                            <button class="big" type="button" data-testid="next" on:pointerup=move |_| tap(true, || dismiss_up.interrupt(Act::Skip)) on:click=move |_| tap(false, || dismiss_click.interrupt(Act::Skip))>"Next"</button>
+                        </div>
+                    }
+                })
+            }}
             <div class="commands">
                 <button type="button" on:click=move |_| repeat.interrupt(Act::Repeat)>"Repeat"</button>
                 <button type="button" on:click=move |_| skip.interrupt(Act::Skip)>"Skip"</button>
                 <button type="button" on:click=move |_| explain.interrupt(Act::Explain)>"Explain"</button>
-                <button type="button" on:click=move |_| dont.interrupt(Act::DontKnow)>"Don't know"</button>
+                <button type="button" data-testid="dont-know" on:pointerup=move |_| tap(true, || dont_up.interrupt(Act::DontKnow)) on:click=move |_| tap(false, || dont_click.interrupt(Act::DontKnow))>"Don't know"</button>
                 <button type="button" on:click=move |_| know.interrupt(Act::Know)>"Know it"</button>
                 <button type="button" aria-pressed=move || model.get().guessing on:click=move |_| {
                     let next = !model.get_untracked().guessing;
@@ -782,6 +828,26 @@ fn mock_blurb(shelf: &Option<Shelf>, exam: &str) -> String {
 fn set_plan(settings: RwSignal<Settings>, plan: &str) {
     let plan = plan.to_string();
     update_settings(settings, move |item| item.plan = plan);
+}
+
+thread_local! {
+    static LAST_TAP: std::cell::Cell<f64> = const { std::cell::Cell::new(0.0) };
+}
+
+fn tap(from_pointer: bool, action: impl FnOnce()) {
+    let now = js_sys::Date::now();
+    let skip = LAST_TAP.with(|slot| {
+        let recent = now - slot.get() < 700.0;
+        if from_pointer {
+            slot.set(now);
+            false
+        } else {
+            recent
+        }
+    });
+    if !skip {
+        action();
+    }
 }
 
 fn update_settings(settings: RwSignal<Settings>, change: impl FnOnce(&mut Settings)) {

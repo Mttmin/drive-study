@@ -35,10 +35,11 @@ fn main() -> ExitCode {
         .collect::<Vec<_>>()
         .join(",");
     let source = format!(
-        r#"const CACHE="drive-study-shell-{stamp}";
+        r#"const CACHE="drive-study-shell-v3-{stamp}";
 const PRECACHE=[{list}];
 self.addEventListener("install",(event)=>{{event.waitUntil(caches.open(CACHE).then((cache)=>cache.addAll(PRECACHE)));self.skipWaiting();}});
 self.addEventListener("activate",(event)=>{{event.waitUntil(caches.keys().then((keys)=>Promise.all(keys.filter((key)=>key.startsWith("drive-study-shell-")&&key!==CACHE).map((key)=>caches.delete(key)))));self.clients.claim();}});
+self.addEventListener("message",(event)=>{{if(event.data==="skip-waiting") self.skipWaiting();}});
 self.addEventListener("fetch",(event)=>{{
   const url=new URL(event.request.url);
   if(url.origin!==location.origin) return;

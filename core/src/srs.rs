@@ -3,7 +3,6 @@ use serde::{Deserialize, Serialize};
 use crate::content::ExamId;
 
 const DAY_MS: i64 = 24 * 60 * 60 * 1000;
-const TEN_MIN_MS: i64 = 10 * 60 * 1000;
 const EF_MIN: f64 = 1.3;
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
@@ -77,7 +76,7 @@ pub fn review_card(prev: Option<&SrsCard>, meta: &SrsMeta, outcome: ReviewOutcom
         if outcome == ReviewOutcome::Wrong {
             card.lapses += 1;
             card.ef = next_ef(card.ef, 2);
-            card.due = now_ms + TEN_MIN_MS;
+            card.due = now_ms;
         } else {
             card.ef = next_ef(card.ef, 3);
             card.due = now_ms + DAY_MS;
@@ -187,7 +186,7 @@ mod tests {
         assert!(card.correct_dates.is_empty());
         assert_eq!(card.lapses, 1);
         assert_eq!(card.reps, 0);
-        assert_eq!(card.due - now, 10 * 60 * 1000);
+        assert_eq!(card.due, now);
         assert!(is_due(&card, now + 11 * 60 * 1000));
     }
 

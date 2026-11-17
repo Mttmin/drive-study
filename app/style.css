@@ -25,7 +25,14 @@ body {
     var(--bg);
 }
 button, input, select { font: inherit; color: inherit; }
-button { cursor: pointer; touch-action: manipulation; }
+button, summary, label.field, label.text-btn { cursor: pointer; touch-action: manipulation; }
+button, .seg button, .text-btn, .icon-btn, .big, select, input[type="range"], input[type="file"], label.text-btn {
+  min-height: 44px;
+  min-width: 44px;
+}
+input[type="range"] { touch-action: none; }
+label.text-btn { position: relative; display: inline-flex; align-items: center; }
+label.text-btn input[type="file"] { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; }
 :focus-visible { outline: 3px solid var(--amber); outline-offset: 3px; }
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; transition: none !important; }
@@ -141,8 +148,9 @@ h1 { font-family: Georgia, "Iowan Old Style", serif; font-size: 2rem; line-heigh
 .bad { color: var(--bad); }
 .footer { color: var(--muted); font-size: 0.85rem; line-height: 1.4; margin-top: 18px; }
 label.field { display: grid; gap: 6px; margin: 10px 0; }
-input[type="range"] { width: 100%; accent-color: var(--amber); height: 36px; }
-select, input[type="file"] { min-height: 52px; background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 8px; }
+input[type="range"] { width: 100%; accent-color: var(--amber); height: 44px; }
+select, input[type="file"] { min-height: 44px; background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 8px; }
+[data-testid="answer-window"] { margin: 8px 0 12px; }
 .list-btn { width: 100%; text-align: left; }
 hr { border: 0; border-top: 1px solid var(--line); margin: 16px 0; }
 @media (max-width: 640px) {

@@ -21,9 +21,21 @@ pub struct Settings {
     pub voice_source: String,
     pub rate: f64,
     pub pause_seconds: u32,
+    #[serde(default = "default_answer_seconds")]
+    pub answer_seconds: u32,
+    #[serde(default = "default_explain_correct")]
+    pub explain_correct: String,
     pub voice_uri: Option<String>,
     pub seen_intro: bool,
     pub completed_lessons: Vec<String>,
+}
+
+fn default_answer_seconds() -> u32 {
+    10
+}
+
+fn default_explain_correct() -> String {
+    "short".into()
 }
 
 impl Default for Settings {
@@ -34,6 +46,8 @@ impl Default for Settings {
             voice_source: "downloaded".into(),
             rate: 1.0,
             pause_seconds: 6,
+            answer_seconds: default_answer_seconds(),
+            explain_correct: default_explain_correct(),
             voice_uri: None,
             seen_intro: false,
             completed_lessons: Vec::new(),
@@ -88,6 +102,8 @@ pub struct PlayerModel {
     pub correct: u32,
     pub wrong: u32,
     pub guessing: bool,
+    pub window_left: Option<u32>,
+    pub explain_style: String,
     pub sample: bool,
     pub yearly: bool,
     pub card_mode: bool,
@@ -112,6 +128,8 @@ impl Default for PlayerModel {
             correct: 0,
             wrong: 0,
             guessing: false,
+            window_left: None,
+            explain_style: String::new(),
             sample: false,
             yearly: false,
             card_mode: false,
@@ -132,6 +150,7 @@ pub enum Act {
     Stop,
     Know,
     Guess,
+    MoreTime,
 }
 
 #[derive(Clone)]
@@ -155,6 +174,13 @@ impl Control {
     }
 
     pub fn interrupt(&self, act: Act) {
+        if matches!(act, Act::MoreTime) {
+            let mut slot = self.pending.lock().expect("pending");
+            if slot.is_none() {
+                *slot = Some(Act::MoreTime);
+            }
+            return;
+        }
         if matches!(act, Act::Pause) {
             self.paused.store(true, Ordering::Relaxed);
             pause_audio();
@@ -175,6 +201,10 @@ impl Control {
 
     pub fn set_guessing(&self, value: bool) {
         self.guessing.store(value, Ordering::Relaxed);
+    }
+
+    fn has_pending(&self) -> bool {
+        self.pending.lock().expect("pending").is_some()
     }
 
     pub fn halt(&self) {
@@ -283,6 +313,8 @@ pub async fn run_session(
     control: Control,
     settings: RwSignal<Settings>,
     cards: RwSignal<Vec<SrsCard>>,
+    attempts: RwSignal<Vec<AttemptRecord>>,
+    days: RwSignal<Vec<String>>,
     manifest: drive_study_core::AudioManifest,
     summary: RwSignal<Option<Summary>>,
 ) {
@@ -313,6 +345,8 @@ pub async fn run_session(
             &control,
             settings,
             cards,
+            attempts,
+            days,
             &manifest,
             model,
         )
@@ -364,7 +398,12 @@ pub async fn run_session(
         percent,
         passed,
     }));
-    let _ = web_sys::window().unwrap().location().set_hash("#/summary");
+    if let Some(window) = web_sys::window() {
+        let hash = window.location().hash().unwrap_or_default();
+        if hash.contains("/play") {
+            let _ = window.location().set_hash("#/summary");
+        }
+    }
 }
 
 #[derive(Clone)]
@@ -388,6 +427,8 @@ async fn present(
     control: &Control,
     settings: RwSignal<Settings>,
     cards: RwSignal<Vec<SrsCard>>,
+    attempts: RwSignal<Vec<AttemptRecord>>,
+    days: RwSignal<Vec<String>>,
     manifest: &drive_study_core::AudioManifest,
     model: RwSignal<PlayerModel>,
 ) -> bool {
@@ -402,25 +443,28 @@ async fn present(
         SessionItem::Card(card) => {
             set_model(model, plan, index, total, &format!("{} · {}", card.exam.as_str(), card.section), &card.front, &[], None, "", card.sample, false, true, control, correct, wrong);
             speak(&card.front, settings, manifest, control, model).await;
-            if matches!(control.take(), Some(Act::Repeat)) {
+            let early = control.take();
+            if matches!(early, Some(Act::Repeat)) {
                 return true;
             }
-            let pause = settings.get_untracked().pause_seconds * 1000;
-            let arrived = wait_for(control, if plan.listen_only { Some(pause) } else { None }).await;
-            let act = control.take().or(arrived);
+            let act = if early.is_some() {
+                early
+            } else {
+                answer_window(control, window_ms(&settings.get_untracked(), plan.listen_only), model, None).await
+            };
             match act {
                 Some(Act::Repeat) => return true,
                 Some(Act::Stop) => {
                     control.stop.store(true, Ordering::Relaxed);
                     return false;
                 }
-                Some(Act::Skip) | None if plan.listen_only && act.is_none() => {}
+                None if plan.listen_only => {}
                 Some(Act::Know) => {
-                    grade(cards, &card.id, ItemKind::Flashcard, card.exam, &card.section, None, ReviewOutcome::Correct, false, plan);
+                    grade(cards, attempts, days, &card.id, ItemKind::Flashcard, card.exam, &card.section, None, ReviewOutcome::Correct, false, plan);
                     *correct += 1;
                 }
                 Some(Act::DontKnow) => {
-                    grade(cards, &card.id, ItemKind::Flashcard, card.exam, &card.section, None, ReviewOutcome::Wrong, false, plan);
+                    grade(cards, attempts, days, &card.id, ItemKind::Flashcard, card.exam, &card.section, None, ReviewOutcome::Wrong, false, plan);
                     *wrong += 1;
                 }
                 Some(Act::Skip) => {
@@ -457,20 +501,15 @@ async fn present(
                 wrong,
             );
             speak(&question.spoken_stem, settings, manifest, control, model).await;
-            if handle_early(control, question, plan, cards, correct, wrong, skipped, responses, model).await {
+            if handle_early(control, question, plan, cards, attempts, days, correct, wrong, skipped, responses, model).await {
                 return finish_early(question, settings, manifest, control, model).await;
             }
             let readout = choices_readout(&question.kind, &choices);
             speak(&readout, settings, manifest, control, model).await;
-            if handle_early(control, question, plan, cards, correct, wrong, skipped, responses, model).await {
+            if handle_early(control, question, plan, cards, attempts, days, correct, wrong, skipped, responses, model).await {
                 return finish_early(question, settings, manifest, control, model).await;
             }
-            let pause = settings.get_untracked().pause_seconds * 1000;
-            let limit = if plan.listen_only { Some(pause) } else { None };
-            start_listen(question, control.clone());
-            let _ = wait_for(control, limit).await;
-            stop_listen();
-            let act = control.take();
+            let act = answer_window(control, window_ms(&settings.get_untracked(), plan.listen_only), model, Some(question)).await;
             match act {
                 Some(Act::Repeat) => true,
                 Some(Act::Stop) => {
@@ -487,23 +526,21 @@ async fn present(
                 }
                 None if plan.listen_only => {
                     reveal(model, question, None, control);
-                    speak(&question.spoken_explanation, settings, manifest, control, model).await;
-                    hold_explanation(control).await;
+                    explain_after(question, false, settings, manifest, control, model).await;
                     false
                 }
                 Some(Act::Explain) | Some(Act::DontKnow) | None => {
-                    grade(cards, &question.id, ItemKind::Question, question.exam, &question.section, Some(question.topic.clone()), ReviewOutcome::Wrong, false, plan);
+                    grade(cards, attempts, days, &question.id, ItemKind::Question, question.exam, &question.section, Some(question.topic.clone()), ReviewOutcome::Wrong, false, plan);
                     *wrong += 1;
                     responses.push((question.section.clone(), false));
                     reveal(model, question, None, control);
-                    speak(&question.spoken_explanation, settings, manifest, control, model).await;
-                    hold_explanation(control).await;
+                    explain_after(question, false, settings, manifest, control, model).await;
                     false
                 }
                 Some(Act::Answer(key)) => {
-                    score_answer(question, &key, control, cards, plan, correct, wrong, responses, model);
-                    speak(&question.spoken_explanation, settings, manifest, control, model).await;
-                    hold_explanation(control).await;
+                    let right = key == question.answer;
+                    score_answer(question, &key, control, cards, attempts, days, plan, correct, wrong, responses, model);
+                    explain_after(question, right, settings, manifest, control, model).await;
                     false
                 }
                 _ => false,
@@ -529,18 +566,77 @@ async fn finish_early(
         return true;
     }
     if model.get_untracked().answer_key.is_some() {
-        speak(&question.spoken_explanation, settings, manifest, control, model).await;
-        hold_explanation(control).await;
+        let right = model.get_untracked().selected.as_deref() == Some(question.answer.as_str());
+        explain_after(question, right, settings, manifest, control, model).await;
     }
     false
 }
 
-async fn hold_explanation(control: &Control) {
-    for _ in 0..8 {
-        if control.stop.load(Ordering::Relaxed) || control.pending.lock().expect("pending").is_some() {
+async fn explain_after(
+    question: &drive_study_core::Question,
+    correct: bool,
+    settings: RwSignal<Settings>,
+    manifest: &drive_study_core::AudioManifest,
+    control: &Control,
+    model: RwSignal<PlayerModel>,
+) {
+    let mode = settings.get_untracked().explain_correct;
+    let full = !correct || mode == "always";
+    if correct && mode == "never" {
+        let mut shown = model.get_untracked();
+        shown.explanation.clear();
+        shown.explain_style = "never".into();
+        model.set(shown);
+        settle(control, 900).await;
+        return;
+    }
+    if correct && mode == "short" {
+        let line = first_sentence(&question.explanation);
+        let mut shown = model.get_untracked();
+        shown.explanation = line.clone();
+        shown.explain_style = "short".into();
+        model.set(shown);
+        speak(&line, settings, manifest, control, model).await;
+    } else if full {
+        let mut shown = model.get_untracked();
+        shown.explanation = question.explanation.clone();
+        shown.explain_style = "full".into();
+        model.set(shown);
+        speak(&question.spoken_explanation, settings, manifest, control, model).await;
+    }
+    if control.has_pending() {
+        let _ = control.take();
+        return;
+    }
+    settle(control, 1200).await;
+}
+
+fn first_sentence(text: &str) -> String {
+    let trimmed = text.trim();
+    if let Some(index) = trimmed.find(". ") {
+        return trimmed[..=index].trim().to_string();
+    }
+    if let Some(index) = trimmed.find('.') {
+        return trimmed[..=index].trim().to_string();
+    }
+    trimmed.chars().take(140).collect()
+}
+
+fn window_ms(settings: &Settings, listen_only: bool) -> u32 {
+    let base = settings.answer_seconds.clamp(6, 30) * 1000;
+    if listen_only { base } else { base + 2_000 }
+}
+
+async fn settle(control: &Control, ms: u32) {
+    let mut left = ms;
+    while left > 0 {
+        if control.stop.load(Ordering::Relaxed) || control.has_pending() {
+            let _ = control.take();
             return;
         }
-        TimeoutFuture::new(100).await;
+        let step = 100.min(left);
+        TimeoutFuture::new(step).await;
+        left = left.saturating_sub(step);
     }
 }
 
@@ -549,6 +645,8 @@ async fn handle_early(
     question: &drive_study_core::Question,
     plan: &SessionPlan,
     cards: RwSignal<Vec<SrsCard>>,
+    attempts: RwSignal<Vec<AttemptRecord>>,
+    days: RwSignal<Vec<String>>,
     correct: &mut u32,
     wrong: &mut u32,
     skipped: &mut u32,
@@ -574,15 +672,19 @@ async fn handle_early(
             true
         }
         Act::Explain | Act::DontKnow => {
-            grade(cards, &question.id, ItemKind::Question, question.exam, &question.section, Some(question.topic.clone()), ReviewOutcome::Wrong, false, plan);
+            grade(cards, attempts, days, &question.id, ItemKind::Question, question.exam, &question.section, Some(question.topic.clone()), ReviewOutcome::Wrong, false, plan);
             *wrong += 1;
             responses.push((question.section.clone(), false));
             reveal(model, question, None, control);
             true
         }
         Act::Answer(key) => {
-            score_answer(question, &key, control, cards, plan, correct, wrong, responses, model);
+            score_answer(question, &key, control, cards, attempts, days, plan, correct, wrong, responses, model);
             true
+        }
+        Act::MoreTime => {
+            control.interrupt(Act::MoreTime);
+            false
         }
         _ => false,
     }
@@ -593,6 +695,8 @@ fn score_answer(
     key: &str,
     control: &Control,
     cards: RwSignal<Vec<SrsCard>>,
+    attempts: RwSignal<Vec<AttemptRecord>>,
+    days: RwSignal<Vec<String>>,
     plan: &SessionPlan,
     correct: &mut u32,
     wrong: &mut u32,
@@ -608,7 +712,7 @@ fn score_answer(
     } else {
         ReviewOutcome::Wrong
     };
-    grade(cards, &question.id, ItemKind::Question, question.exam, &question.section, Some(question.topic.clone()), outcome, guessed && right, plan);
+    grade(cards, attempts, days, &question.id, ItemKind::Question, question.exam, &question.section, Some(question.topic.clone()), outcome, guessed && right, plan);
     if right {
         *correct += 1;
     } else {
@@ -637,6 +741,8 @@ fn reveal(model: RwSignal<PlayerModel>, question: &drive_study_core::Question, s
 
 fn grade(
     cards: RwSignal<Vec<SrsCard>>,
+    attempts: RwSignal<Vec<AttemptRecord>>,
+    days: RwSignal<Vec<String>>,
     id: &str,
     kind: ItemKind,
     exam: ExamId,
@@ -669,6 +775,13 @@ fn grade(
         mode: format!("{:?}", plan.mode),
         at: now,
     };
+    attempts.update(|list| list.push(attempt.clone()));
+    let today_for_list = today.clone();
+    days.update(|list| {
+        if !list.iter().any(|day| day == &today_for_list) {
+            list.push(today_for_list);
+        }
+    });
     leptos::task::spawn_local(async move {
         let _ = save_card(&next).await;
         let _ = save_attempt(&attempt).await;
@@ -703,11 +816,13 @@ fn set_model(
         answer_key: answer,
         selected: None,
         explanation: explanation.into(),
-        status: if plan.listen_only { "Answers after the pause. You can tap sooner.".into() } else { "Listening, or tap an answer.".into() },
+        status: "Reading the question.".into(),
         source: model.get_untracked().source,
         correct: *correct,
         wrong: *wrong,
         guessing: control.guessing.load(Ordering::Relaxed),
+        window_left: None,
+        explain_style: String::new(),
         sample,
         yearly,
         card_mode,
@@ -716,22 +831,115 @@ fn set_model(
     });
 }
 
-async fn wait_for(control: &Control, ms: Option<u32>) -> Option<Act> {
-    let mut left = ms.unwrap_or(u32::MAX);
-    let endless = ms.is_none();
-    while endless || left > 0 {
-        if control.stop.load(Ordering::Relaxed) || control.pending.lock().expect("pending").is_some() {
-            return None;
+async fn answer_window(control: &Control, ms: u32, model: RwSignal<PlayerModel>, question: Option<&drive_study_core::Question>) -> Option<Act> {
+    chime();
+    let mut left = ms;
+    let mut listening = false;
+    let opened = js_sys::Date::now();
+    while left > 0 {
+        let seconds = left.div_ceil(1000);
+        model.update(|item| item.window_left = Some(seconds));
+        if !listening && js_sys::Date::now() - opened >= 650.0 {
+            if let Some(question) = question {
+                start_listen(question, control.clone());
+            }
+            listening = true;
         }
-        if !control.paused.load(Ordering::Relaxed) && !endless {
-            let step = 80.min(left);
-            TimeoutFuture::new(step).await;
+        if let Some(act) = control.take() {
+            match act {
+                Act::MoreTime => {
+                    left = left.saturating_add(10_000);
+                    chime();
+                    continue;
+                }
+                other => {
+                    model.update(|item| item.window_left = None);
+                    stop_listen();
+                    return Some(other);
+                }
+            }
+        }
+        if control.stop.load(Ordering::Relaxed) {
+            model.update(|item| item.window_left = None);
+            stop_listen();
+            return Some(Act::Stop);
+        }
+        let step = 200.min(left);
+        TimeoutFuture::new(step).await;
+        if !control.paused.load(Ordering::Relaxed) {
             left = left.saturating_sub(step);
-        } else {
-            TimeoutFuture::new(80).await;
         }
     }
+    model.update(|item| item.window_left = None);
+    stop_listen();
     None
+}
+
+fn chime() {
+    let Some(url) = beep_url() else { return };
+    let Ok(audio) = web_sys::HtmlAudioElement::new_with_src(&url) else { return };
+    audio.set_volume(0.45);
+    let _ = audio.play();
+}
+
+fn beep_url() -> Option<String> {
+    thread_local! {
+        static URL: std::cell::RefCell<Option<String>> = const { std::cell::RefCell::new(None) };
+    }
+    let cached = URL.with(|slot| slot.borrow().clone());
+    if cached.is_some() {
+        return cached;
+    }
+    let url = format!("data:audio/wav;base64,{}", base64(&tone_wav()));
+    URL.with(|slot| *slot.borrow_mut() = Some(url.clone()));
+    Some(url)
+}
+
+fn tone_wav() -> Vec<u8> {
+    let sample_rate = 22_050u32;
+    let samples = (sample_rate as f32 * 0.14) as usize;
+    let mut pcm = Vec::with_capacity(samples * 2);
+    for index in 0..samples {
+        let time = index as f32 / sample_rate as f32;
+        let env = (1.0 - time / 0.14).max(0.0);
+        let wave = (time * 880.0 * std::f32::consts::TAU).sin();
+        let value = (wave * env * 0.45 * i16::MAX as f32) as i16;
+        pcm.extend_from_slice(&value.to_le_bytes());
+    }
+    let mut out = Vec::with_capacity(44 + pcm.len());
+    out.extend_from_slice(b"RIFF");
+    out.extend_from_slice(&(36 + pcm.len() as u32).to_le_bytes());
+    out.extend_from_slice(b"WAVEfmt ");
+    out.extend_from_slice(&16u32.to_le_bytes());
+    out.extend_from_slice(&1u16.to_le_bytes());
+    out.extend_from_slice(&1u16.to_le_bytes());
+    out.extend_from_slice(&sample_rate.to_le_bytes());
+    out.extend_from_slice(&(sample_rate * 2).to_le_bytes());
+    out.extend_from_slice(&2u16.to_le_bytes());
+    out.extend_from_slice(&16u16.to_le_bytes());
+    out.extend_from_slice(b"data");
+    out.extend_from_slice(&(pcm.len() as u32).to_le_bytes());
+    out.extend(pcm);
+    out
+}
+
+fn base64(bytes: &[u8]) -> String {
+    const TABLE: &[u8] = b"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+    let mut out = String::new();
+    for chunk in bytes.chunks(3) {
+        let mut value = (chunk[0] as u32) << 16;
+        if chunk.len() > 1 {
+            value |= (chunk[1] as u32) << 8;
+        }
+        if chunk.len() > 2 {
+            value |= chunk[2] as u32;
+        }
+        out.push(TABLE[((value >> 18) & 63) as usize] as char);
+        out.push(TABLE[((value >> 12) & 63) as usize] as char);
+        out.push(if chunk.len() > 1 { TABLE[((value >> 6) & 63) as usize] as char } else { '=' });
+        out.push(if chunk.len() > 2 { TABLE[(value & 63) as usize] as char } else { '=' });
+    }
+    out
 }
 
 async fn speak(text: &str, settings: RwSignal<Settings>, manifest: &drive_study_core::AudioManifest, control: &Control, model: RwSignal<PlayerModel>) {
@@ -747,14 +955,21 @@ async fn speak(text: &str, settings: RwSignal<Settings>, manifest: &drive_study_
                     model.set(shown);
                     return;
                 }
+                if control.has_pending() || !control.live(generation) {
+                    return;
+                }
             }
         }
     }
-    if !control.live(generation) {
+    if !control.live(generation) || control.has_pending() {
         return;
     }
     let mut shown = model.get_untracked();
-    shown.source = "Phone voice".into();
+    shown.source = match prefs.voice_source.as_str() {
+        "phone" => "Phone voice".into(),
+        "downloaded" => "Phone voice. No downloaded clip for this line yet.".into(),
+        _ => "Phone voice. No streamed clip for this line yet.".into(),
+    };
     model.set(shown);
     speak_phone(text, prefs.rate, prefs.voice_uri.as_deref(), control, generation).await;
 }
@@ -808,7 +1023,7 @@ async fn play_url(url: &str, rate: f64, control: &Control, generation: u32) -> b
     }
     let started = js_sys::Date::now();
     while !audio.ended() && js_sys::Date::now() - started < 120_000.0 {
-        if !control.live(generation) {
+        if !control.live(generation) || control.has_pending() {
             let _ = audio.pause();
             return false;
         }
@@ -850,9 +1065,32 @@ async fn speak_phone(text: &str, rate: f64, voice_uri: Option<&str>, control: &C
     synth.cancel();
     synth.speak(&utterance);
     let started = js_sys::Date::now();
+    let voices = synth.get_voices().length();
+    let words = text.split_whitespace().count().max(1) as f64;
+    let budget = (words / (2.2 * rate.max(0.8)) * 1000.0 + 900.0).min(90_000.0);
+    let mut heard = false;
+    let mut quiet = 0u32;
+    let mut nudged = 0.0;
     while !done.load(Ordering::Relaxed) && js_sys::Date::now() - started < 90_000.0 {
-        if !control.live(generation) {
+        if !control.live(generation) || control.has_pending() {
             synth.cancel();
+            break;
+        }
+        let elapsed = js_sys::Date::now() - started;
+        if synth.speaking() || synth.pending() {
+            heard = true;
+            quiet = 0;
+            if elapsed - nudged > 10_000.0 {
+                let _ = synth.pause();
+                let _ = synth.resume();
+                nudged = elapsed;
+            }
+        } else if heard {
+            quiet += 1;
+            if quiet > 8 {
+                break;
+            }
+        } else if (voices == 0 && elapsed > 400.0) || elapsed > budget {
             break;
         }
         TimeoutFuture::new(40).await;
@@ -882,7 +1120,7 @@ fn start_listen(question: &drive_study_core::Question, control: Control) {
     let Some(ctor) = ctor.and_then(|value| value.dyn_into::<js_sys::Function>().ok()) else { return };
     let Ok(rec) = js_sys::Reflect::construct(&ctor, &js_sys::Array::new()) else { return };
     let _ = js_sys::Reflect::set(&rec, &"lang".into(), &"en-US".into());
-    let _ = js_sys::Reflect::set(&rec, &"interimResults".into(), &JsValue::TRUE);
+    let _ = js_sys::Reflect::set(&rec, &"interimResults".into(), &JsValue::FALSE);
     let _ = js_sys::Reflect::set(&rec, &"maxAlternatives".into(), &JsValue::from(5));
     let options = ParseOptions {
         choice_keys: question.choices.iter().map(|choice| choice.key.clone()).collect(),
@@ -900,6 +1138,7 @@ fn start_listen(question: &drive_study_core::Question, control: Control) {
             let Some(transcript) = transcript.as_string() else { continue };
             match parse_voice(&transcript, &options) {
                 VoiceCommand::Answer(key) => control.interrupt(Act::Answer(key)),
+                VoiceCommand::MoreTime => control.interrupt(Act::MoreTime),
                 VoiceCommand::Repeat => control.interrupt(Act::Repeat),
                 VoiceCommand::Skip => control.interrupt(Act::Skip),
                 VoiceCommand::Explain => control.interrupt(Act::Explain),
@@ -1073,7 +1312,23 @@ pub async fn delete_urls(urls: &[String]) {
 pub fn register_service_worker() {
     let Some(window) = web_sys::window() else { return };
     let container = window.navigator().service_worker();
+    let had_controller = js_sys::Reflect::get(&container, &JsValue::from_str("controller")).ok().is_some_and(|value| !value.is_null() && !value.is_undefined());
     let _ = container.register("sw.js");
+    if !had_controller {
+        return;
+    }
+    let closure = Closure::wrap(Box::new(move || {
+        let Some(window) = web_sys::window() else { return };
+        if let Some(storage) = window.session_storage().ok().flatten() {
+            if storage.get_item("ds-sw-reload").ok().flatten().is_some() {
+                return;
+            }
+            let _ = storage.set_item("ds-sw-reload", "1");
+        }
+        let _ = window.location().reload();
+    }) as Box<dyn FnMut()>);
+    let _ = container.add_event_listener_with_callback("controllerchange", closure.as_ref().unchecked_ref());
+    closure.forget();
 }
 
 pub fn is_due_card(card: &SrsCard) -> bool {

@@ -12,6 +12,7 @@ pub enum VoiceCommand {
     Pause,
     Stop,
     Know,
+    MoreTime,
     Unrecognized,
 }
 
@@ -56,6 +57,8 @@ pub fn answer_grammar(choice_keys: &[String]) -> String {
         "next",
         "explain",
         "pause",
+        "wait",
+        "more time",
         "stop",
         "i don't know",
         "i dont know",
@@ -154,6 +157,7 @@ fn answer_from_patterns(words: &[String], allowed: &HashSet<&str>, options: &Par
 fn commands() -> Vec<(VoiceCommand, Vec<Vec<&'static str>>)> {
     vec![
         (VoiceCommand::Stop, vec![vec!["stop"], vec!["end", "session"], vec!["quit"]]),
+        (VoiceCommand::MoreTime, vec![vec!["wait"], vec!["more", "time"], vec!["give", "me", "a", "second"], vec!["a", "second"]]),
         (VoiceCommand::Pause, vec![vec!["pause"], vec!["hold", "on"]]),
         (
             VoiceCommand::Repeat,
@@ -296,6 +300,9 @@ mod tests {
         assert_eq!(parse_voice("true", &tf()), VoiceCommand::Answer("T".into()));
         assert_eq!(parse_voice("false", &tf()), VoiceCommand::Answer("F".into()));
         assert_eq!(parse_voice("true", &mc()), VoiceCommand::Unrecognized);
+        assert_eq!(parse_voice("wait", &mc()), VoiceCommand::MoreTime);
+        assert_eq!(parse_voice("more time", &mc()), VoiceCommand::MoreTime);
+        assert_eq!(parse_voice("next", &mc()), VoiceCommand::Skip);
         let ab = ParseOptions {
             choice_keys: vec!["A".into(), "B".into()],
             true_key: Some("A".into()),

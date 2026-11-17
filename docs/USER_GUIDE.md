@@ -17,7 +17,9 @@ The first open downloads the app and the question files. After that, the screens
 1. Open the app before you roll, while you can still look at the phone.
 2. Tap Drive, 20 minutes.
 3. It reads a short lesson piece, then mixes questions you have missed with new ones. SIE comes first if you are studying both exams.
-4. In spoken mode, say A, B, C, or D. You can also say alpha, bravo, charlie, or delta. For a true or false item, say true or false.
+4. After the question, a short tone marks the answer window. You get about 10 seconds in listen-only mode and about 12 if you are answering out loud. Say "wait" or "more time", or tap the countdown, to add 10 seconds.
+5. In spoken mode, say A, B, C, or D. You can also say alpha, bravo, charlie, or delta. For a true or false item, say true or false.
+6. A correct answer gets one line, not the whole explanation. Wrong answers still get the full one. Say "next" or "skip", tap Next, or press the car's next-track button to cut an explanation off.
 5. You can say repeat, skip, explain, I don't know, pause, or stop.
 6. The big buttons do the same thing. Use them when the car is noisy.
 7. Turn on I guessed if you were not sure. A guess comes back later even if you were right.
