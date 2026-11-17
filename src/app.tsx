@@ -704,8 +704,11 @@ function SettingsScreen(props: {
         Wake lock only applies while this page is on screen.
       </p>
       <p>
-        Podcast feed: <a href={`${import.meta.env.BASE_URL}podcast/feed.xml`}>podcast/feed.xml</a>.
-        Episodes show up when the audio branch publishes lesson and quiz mp3s.
+        <a className="big" href="podcast://mttmin.github.io/drive-study/podcast/feed.xml">Subscribe in Apple Podcasts</a>
+      </p>
+      <p className="muted">
+        That one tap downloads lessons and quizzes for the locked screen.
+        The feed is also at <a href={`${import.meta.env.BASE_URL}podcast/feed.xml`}>podcast/feed.xml</a>.
       </p>
     </section>
   );
