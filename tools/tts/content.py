@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 import subprocess
+import sys
 from collections import defaultdict
 from pathlib import Path
 
@@ -150,19 +151,35 @@ def load_utterances(root: Path, bank: dict) -> list[dict]:
         proc = subprocess.run(
             ["node", str(script)],
             cwd=root,
-            check=True,
+            check=False,
             capture_output=True,
             text=True,
         )
-        data = json.loads(proc.stdout)
+        data = None
+        if proc.returncode == 0 and proc.stdout.strip():
+            raw = proc.stdout
+            start, end = raw.find("["), raw.rfind("]")
+            if start != -1 and end > start:
+                try:
+                    data = json.loads(raw[start : end + 1])
+                except json.JSONDecodeError:
+                    data = None
         if not isinstance(data, list):
-            raise SystemExit("list-utterances.mjs did not print a JSON array")
+            print(
+                "list-utterances.mjs did not return a JSON array. Using the Python utterance list.",
+                file=sys.stderr,
+            )
+            if proc.stderr.strip():
+                print(proc.stderr.strip()[:500], file=sys.stderr)
+            return utterances_from_bank(bank)
         cleaned = []
         for item in data:
             text = normalize_spoken(item.get("text"))
             if not text:
                 continue
-            key = item.get("key") or clip_key(VOICE_ID, text)
+            key = clip_key(VOICE_ID, text)
+            if item.get("key") and item["key"] != key:
+                print(f"hash mismatch for {item.get('ref')}; using audioKey.js", file=sys.stderr)
             cleaned.append(
                 {
                     "kind": item.get("kind"),
