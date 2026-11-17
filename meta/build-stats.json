@@ -1,5 +1,5 @@
 {
-  "elapsed_sec": 1410.31,
+  "elapsed_sec": 134.03,
   "device": "cuda",
   "kokoro_voice": "af_heart",
   "voice_id": "natural-en-us-v1",
@@ -7,10 +7,10 @@
   "questions": 1680,
   "utterances": 6510,
   "clips": 6358,
-  "clips_synthesized": 6633,
-  "clips_reused": 7626,
-  "question_synth_seconds": 248.14,
-  "per_100_questions_sec": 15.2,
-  "audio_bytes": 823778185,
+  "clips_synthesized": 298,
+  "clips_reused": 14017,
+  "question_synth_seconds": 0.0,
+  "per_100_questions_sec": null,
+  "audio_bytes": 826859432,
   "errors": []
 }

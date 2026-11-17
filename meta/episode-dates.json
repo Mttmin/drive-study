@@ -1,7 +1,7 @@
 {
   "drive-study-lesson-s7-1-01": {
-    "content_sha1": "f6d59cd0e8d5ea9b538df7210962d1bdea113f76",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "4cc75efb6ec529956e10272365b1a4fe8cd82fab",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-lesson-s7-1-02": {
     "content_sha1": "f10e361e7cbf7740c4163a7135d1b3ad250803f9",
@@ -136,8 +136,8 @@
     "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
   },
   "drive-study-lesson-s7-4-04": {
-    "content_sha1": "daf478c5ed6235d3f48edfc216e2d25f1fdd2850",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "cb226e66294c4a0e52b9e44d660c60545c4ca532",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-lesson-s7-4-05": {
     "content_sha1": "00f60c8bcc6d658a24a2e3cdbec9abfe078faeba",
@@ -168,8 +168,8 @@
     "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
   },
   "drive-study-lesson-sie-1-05": {
-    "content_sha1": "1115b19b97ff7f06365c31f173447c34240e421d",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "4a0cf7ca4506e4ff088f985b9139777d778144fa",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-lesson-sie-1-06": {
     "content_sha1": "78c07f90d73057fd6008476a3c4c68ebeba1659b",
@@ -192,12 +192,12 @@
     "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
   },
   "drive-study-lesson-sie-2-03": {
-    "content_sha1": "16fe1628d050f0ed44997cca760b64a0b879f3b2",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "3fe251f24a977bec3164e7e12ef972ad77e43c2e",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-lesson-sie-2-04": {
-    "content_sha1": "22c551cb84c5030be78abe6f080a0781de278789",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "80f475ac11a255eae142db0505dd810494e3fae1",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-lesson-sie-2-05": {
     "content_sha1": "77fd6d9301fde4bfd50bb702519c37c7c2d00f9f",
@@ -260,8 +260,8 @@
     "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
   },
   "drive-study-lesson-sie-3-05": {
-    "content_sha1": "b81efef8f942f9f52e5b0f748c7b91b3cdc6b0bf",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "6e274a01a8d70750a81a4d5f62e1cbf8f947d691",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-lesson-sie-3-06": {
     "content_sha1": "d86ea8c617b6f231d032aba29add12e3b68326b8",
@@ -284,8 +284,8 @@
     "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
   },
   "drive-study-lesson-sie-3-11": {
-    "content_sha1": "727005d3d60fe811b565daa00579442a4db92d3e",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "2db8dc9be6621e891407f2bb76caaa4e7aa031ae",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-lesson-sie-3-12": {
     "content_sha1": "1dede3018f48a2d2cf42b5fcbb22e90e405f0b21",
@@ -308,384 +308,496 @@
     "pubDate": "Tue, 17 Nov 2026 01:59:27 +0000"
   },
   "drive-study-quiz-S7-1-part-01": {
-    "content_sha1": "b9c7f42f8d07b8eb40a13b57b0719f227c0eb462",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "b7f231e4ac1eeed6778627f2551036e2bd9e6b71",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-1-part-02": {
-    "content_sha1": "ac4dafa2f379356f469fe38664e6580380a86469",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "5cb556bb5ae5ce8635a4b4f0b32c57567be72208",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-1-part-03": {
-    "content_sha1": "8a0f3fb5a9ff0ffd25c7c298f3cc14d324621d7e",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "804cf14ebba4ce8b2e8694f9e0c3ec15b3efbb8c",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-1-part-04": {
-    "content_sha1": "2705a895f0f040f6dd8cc3131da5cb9d2aade250",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "fa0df37501b69698441323267d3f32b274657d6c",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-1-part-05": {
-    "content_sha1": "7f7d735c208eb43edb647f52a9b06d30a61d951d",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "eba00fb6bd4f248f4ec32c99fb329f96b74d4066",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-S7-1-part-06": {
+    "content_sha1": "8e2e5b272fcb08277608f931d8bd699f38f8d381",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-2": {
     "content_sha1": "8200974ec0271fe4bc36d9c14d5db9a0b1de6dd2",
     "pubDate": "Tue, 17 Nov 2026 01:59:27 +0000"
   },
   "drive-study-quiz-S7-2-part-01": {
-    "content_sha1": "c5e1611a74727937505f178cd9bc196ebf920727",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "08d36c60f657ac99744a9b7a518ba742b22ae3eb",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-2-part-02": {
-    "content_sha1": "222bafa41e616a558735f4f8cdccbcd0bb62c78d",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "5e77d76c91b5f863ba7b3cc72fae3d9b4947902e",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-2-part-03": {
-    "content_sha1": "21cd1b26db807411386d4d5cf8cc436dccee6272",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "5cbea1a7313c4b4bbe4b36eeebb50cc0ce99efad",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-2-part-04": {
-    "content_sha1": "2f6ed1c38fb046ba5cb40f4a2167b77b87410fe0",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "640929db74ff3034ca6daec3297c62ecfa3491db",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-2-part-05": {
-    "content_sha1": "7ef5cb9bd39788970fad2a5e6d2256179cf8f911",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "3528eec806d7ac9c42a322209fc4e787963340f7",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-S7-2-part-06": {
+    "content_sha1": "6bf389273c8a1575ebd336141e885038373fc954",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-S7-2-part-07": {
+    "content_sha1": "f4b959020b1bd04cd6d50efe21c0a811db627b3f",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3": {
     "content_sha1": "2debea54c1d487df9fc05db9cc8ca463b036857f",
     "pubDate": "Tue, 17 Nov 2026 01:59:27 +0000"
   },
   "drive-study-quiz-S7-3-part-01": {
-    "content_sha1": "895dc6d18c6fe974f54eaed3f59392fadcd00adb",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "eff94233a2be3915401b003ba3abbe9c49022d6b",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-02": {
-    "content_sha1": "c2439cfad5afbc2eb3d533786bb356b6c4d15983",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "bb8f1c11de29e7bbe23f4c31778c4871b615adc1",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-03": {
-    "content_sha1": "0b0abd6e49059441b0ae252ee957f1ba0e03c8dc",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "688587369ebe57088b31a34e014a9c4a85e3cc37",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-04": {
-    "content_sha1": "ed250a1e9f50d708f60afa5cf67d3606ce95e5ad",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "fe63dece68ff7692971b14dbc758b987718e0b51",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-05": {
-    "content_sha1": "4c5c16b87c423d723d7aff45d0d5bf4a18859324",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "1018bec23f51eef08400b9c2f392304d854065ae",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-06": {
-    "content_sha1": "6bcdde93a969f6d6b342ef57194491b7565f5f2c",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "191f32caba9ee11bd54e8c38415aa75e619610b7",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-07": {
-    "content_sha1": "26f9587146d3aa2c5515573dd5317f7ec96e0e19",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "7dee9bc5156cd10681f474872ed9a52737711618",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-08": {
-    "content_sha1": "81dc24aaa728f5587f9879eed10ef447be11d10b",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "020b258c6ab9fd3d009a9d4bf8fed533924fab03",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-09": {
-    "content_sha1": "d68062d9be369f7a56f1676699538aa903f01dba",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "9340ecee3cb6487e475d14d1b8541080e5b10bb3",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-10": {
-    "content_sha1": "aa0216418801ed8e623d2eaab4cb50f074a2d6d3",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "73189868b47d45c0663fe69f37ac947635b5b6f5",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-11": {
-    "content_sha1": "a6baf5127a13fa9abfe180d8a4400dd3e6873a8f",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "c07a36391009c7c4f33e751345d5b770965cfe01",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-12": {
-    "content_sha1": "1ac256b27e2ed109cc2b693c46114e841bfffd4d",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "95435dc869f94e8e182304314ae497cd9e9515b8",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-13": {
-    "content_sha1": "4f86d69f3d105bf7d7959b7d2c96bb13871eff8e",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "1b86f0a4ff1eb1c6c3a6b7cce4eba04b3dcd9cec",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-14": {
-    "content_sha1": "cfe41b82efe61bfa31258b05bb256d318f8882d0",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "8c96d38431ad94d55069b64850ec760018562cd8",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-15": {
-    "content_sha1": "8ab8010ac613a083adb4d1770e5e154d00ac9a1d",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "59ed140efdc750357640ade8d8aa2d702ae861ce",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-16": {
-    "content_sha1": "8f5e2d55113b2e842fecd2b63b0fc3901a034bd3",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "c6e249fb6371fdbe69da9003eaf104969f652adc",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-17": {
-    "content_sha1": "6832276ea7d63fa041d6c757dc435c3c8434d953",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "e9080cec4c14fb94d4bdab7fa73dda0620b351d2",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-18": {
-    "content_sha1": "57d7b9797f083b0fc467e8724c24b20716785e2d",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "ae5c9f69fa5870b8fba30df59f7fa7da4774e9ce",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-19": {
-    "content_sha1": "e4d204e95ded4db5c19dd08e33985e272753df56",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "894e09f8e6be2ed36e94a688568fd273605c00b9",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-20": {
-    "content_sha1": "ca8a78620f42027281cd851134f99ac5380296bb",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "53531eb0d83fdf29ee6a16e85d2dc8079319fe62",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-21": {
-    "content_sha1": "fff66775ca1eff82f631af728ef388a11b706c47",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "6035b84312e784b1318d3f53fb3dd27c59b33445",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-22": {
-    "content_sha1": "74f2cc1d1a220fe851de0dab8a018490d22cb88e",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "0e326a708be186f71808965dbb6c4ae4009d4b52",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-23": {
-    "content_sha1": "ed6d32a4eeb5344cb06b35f130a11f336950f4b5",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "3edde9060b83f99097aff402ca46bb5b5b34335a",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-24": {
-    "content_sha1": "e727c42b29840802316649309f21e5f76c8e792f",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "090e86e58b02c8f3cd112d7a5784b203c7c6c4d3",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-25": {
-    "content_sha1": "ee54fa32bd7d4b702cfcf6e44da8735950050d36",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "a7aaf948e9a2ec2d769a6fdd25a7d4d22033eaaa",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-26": {
-    "content_sha1": "0cccff73cf0f692e0fae3411d52665553cdb348f",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "e0668eefa47e39015d60d43617cb830c7712464a",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-27": {
-    "content_sha1": "f4733879b27c0a862f19e5c8fb748d42c27035e1",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "dd85bd5eab6d8447472c58105798cb8ef24089d2",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-28": {
-    "content_sha1": "39451e3d36627f826d3bbddf9171483b0efa5d89",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "2acea0ee6d98efe47ad8b65a0871b44c4bf48380",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-29": {
-    "content_sha1": "93aede5d1af74b797db79e0ac5b3e4eefcec3c10",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "9bb5f90a361732575a13c2578fb76d2cabe529e3",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-30": {
-    "content_sha1": "fe6a073eb109734cfd24a8b1a0b5d68d43dbe7a8",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "0d3d58a1bdb5cdbc6ab06f3acf36f016e1de8eb5",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-31": {
-    "content_sha1": "4f46b1634feaac864482b04ca4be025e9123779e",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "720d9d3be84139a46d4062ee7fc63822479269aa",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-32": {
-    "content_sha1": "596b2b455deb3cec499506fd3ef4aa61ae38598f",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "0f2b499b4ce09893385cc950adb82da1de6a22a9",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-33": {
-    "content_sha1": "86c713217145ac952e7d66384902b8559325504f",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "4e108d77c66d883960cea71d18843113e1ddebba",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-34": {
-    "content_sha1": "39c02bd6b7a34392254045658dd76529694b1823",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "40641a6a2bc6004913cec0ec2ed0ffe1829bb184",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-35": {
-    "content_sha1": "37581d6be3359dcc98600f8d195b741b2b6cfa57",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "5ec458f3f432da32e18b92be61ac13bede8915c0",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-36": {
-    "content_sha1": "2db5d353c26dd79455d93ac57bd6ae893a72deaa",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "058d93e59f408e97c9a41ba1654ae5bcab241d4a",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-37": {
-    "content_sha1": "77a296e1a26e39f352d208ccb34afdf4300b1a86",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "353dd65777145d6fcef6a748ec3ae53222649133",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-38": {
-    "content_sha1": "424de11d9c66ac6c6e1cb2254aca641d9191bd6c",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "d728df6f05517f437819b2be25faf0bd4cdc001a",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-39": {
-    "content_sha1": "315b8ff63edf741944d000b6e0a103b9ae1bbeec",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "0ceefb2e79e57cf3204260a83a6c4a7ee5c5fc02",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-3-part-40": {
-    "content_sha1": "b96e2b26e33b194aaae901bd35100faae9086de2",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "01183a47e2fa52893b048a74cfa7ed6163ecc99b",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-S7-3-part-41": {
+    "content_sha1": "9d5dfa073d0d7d293d1813d9ab05873f39bf947f",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-S7-3-part-42": {
+    "content_sha1": "5b3ff08bd1bc9b786a41e62a625da160ed3a012c",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-S7-3-part-43": {
+    "content_sha1": "27c9a0860a4ab70865a3be4d061f87a2745e9029",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-S7-3-part-44": {
+    "content_sha1": "b0dcd43641cc71beafcc195876bad10e428d248b",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-S7-3-part-45": {
+    "content_sha1": "e705e38fa1cf0e219f2a17698ebe27181d5ce000",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-S7-3-part-46": {
+    "content_sha1": "804795abac7b67849a1b15b4f0f83fdeca38aa61",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-S7-3-part-47": {
+    "content_sha1": "5f6fefefa2f82b33b5fc2867a399c655f1d2de9d",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-S7-3-part-48": {
+    "content_sha1": "399442514de5ef143f6068f8baddb971e8a562dd",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-S7-3-part-49": {
+    "content_sha1": "d06db10b711444e2e12b71efed6d7fb8f0acadd9",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-S7-3-part-50": {
+    "content_sha1": "2848f42cd2c0dec453ef5cf59000c03301a970c0",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-S7-3-part-51": {
+    "content_sha1": "c52ab0836b1cc6c53ac031c91fca3cfd888681ed",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-S7-3-part-52": {
+    "content_sha1": "893e11edbedd20ca7c229000b392940da7deae75",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-S7-3-part-53": {
+    "content_sha1": "64ca68214ebe2552b6c1fdc8d4c609259c4c333d",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-4": {
     "content_sha1": "0fec52554a830dd4a1cde476b2e2894e41501a83",
     "pubDate": "Tue, 17 Nov 2026 01:59:27 +0000"
   },
   "drive-study-quiz-S7-4-part-01": {
-    "content_sha1": "7320be014599083bd58a618eff8c1f83b3f3c613",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "142b8b02d9f4e24c824d8c283fd55ca813b832b0",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-4-part-02": {
-    "content_sha1": "fdb9f5c8c580398bc67cc182560ae29846c059e5",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "a90b1d09a6660d03956eebf690d5976bd95b2bdb",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-4-part-03": {
-    "content_sha1": "480e0524eaf264bccf00109601810bc9dd3cfd99",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "0e00960ef13f900d07f35bf809ba54bd8c7db5e4",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-4-part-04": {
-    "content_sha1": "8c271b727819dea1f0493aa177b7c343331c5cc5",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "73fddc6bb16cdb7ce9466e809e56a76369a5de19",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-4-part-05": {
-    "content_sha1": "bc1b0b86c0c8883adda5dd726cfbc3cad62d55be",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "218ddb9d39482ce91aba2596a3cddbba9943b276",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-S7-4-part-06": {
-    "content_sha1": "9305d5c0b7042103d831fa4658ada983ca47d440",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "a3c9a570dca8338953aba02d42ebde2d689b8fcd",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-S7-4-part-07": {
+    "content_sha1": "23b961051dc32fc971cdf9739785e58e0a1a14a6",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-S7-4-part-08": {
+    "content_sha1": "e059edfee72416abb19f79f51d61cde8b7670ad9",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-1": {
     "content_sha1": "c40b93b892ab7117e9cbff75a55a3ccb2302f697",
     "pubDate": "Tue, 17 Nov 2026 01:59:27 +0000"
   },
   "drive-study-quiz-SIE-1-part-01": {
-    "content_sha1": "fb7c761434a54c09a43b3cc3d9667a32ceb2d92a",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "5d5349a627ed2109d7f80363ddb0700fc7169305",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-1-part-02": {
-    "content_sha1": "82bdbebdf75e3da00f3a91b7955bf2d109c80308",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "88eeba4fbb6330101632c78c8684918db24b08a7",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-1-part-03": {
-    "content_sha1": "38c2aa34c5ab53c6784ac06e8ba1e9098029cfd8",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "5756212264a82ace017e893dc2034dd80ec5c68b",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-1-part-04": {
-    "content_sha1": "c5c88613e339e3ebce863ced10f13e04752d51ae",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "5a92b07eaa7917d962ee48709badd465d155cd32",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-1-part-05": {
-    "content_sha1": "14421dc05eccd550fa1778ff8de21952499707a4",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "6f9df006ece2249dfd8aed69b08219f3c064a2b8",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-SIE-1-part-06": {
+    "content_sha1": "11a97b20c2398fcf3eefb4ad1e87e40a21a855f3",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-SIE-1-part-07": {
+    "content_sha1": "915caaba3521f5531d087fa99aaba8faf195860c",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-2": {
     "content_sha1": "bf5342a8f2ae2f034a932df0ce85db80f09bacac",
     "pubDate": "Tue, 17 Nov 2026 01:59:27 +0000"
   },
   "drive-study-quiz-SIE-2-part-01": {
-    "content_sha1": "c0492933affbf89b45638974d8e207cbf2b97372",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "fecab9a77ccc6ad6ed1ff6a5cdc330abcf76cce2",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-2-part-02": {
-    "content_sha1": "cfdc45bee980354f6953f63e632b06229f350003",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "c1a34bd8cd2008875a1efb46ad4efe455bfbd4c6",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-2-part-03": {
-    "content_sha1": "4b2afc991535ba11343fb8dfe443449abd576a6c",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "d4e0b2595ad88475bf24fc6f92efc9e3bfab438a",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-2-part-04": {
-    "content_sha1": "5f0695542146eb01d95f2e1565845bd231564fa7",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "3a74f102267b57d4e17472b176e7f093e0c69bce",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-2-part-05": {
-    "content_sha1": "6d2f0c352b1a54144d6c350dd80a381aaa7b217d",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "2c176f4ecf56eeda7cdfccf0948f000aaf6ad13f",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-2-part-06": {
-    "content_sha1": "423807e8959a2a218c40867f069ec42da967df90",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "99175ab5cc15f731adf4d5d83eef234cbbb99f30",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-2-part-07": {
-    "content_sha1": "9eb6bebbd9a130225316948c440583ce1dca0082",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "63d53efeedc05affe32d4f73177bcc342922eb51",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-2-part-08": {
-    "content_sha1": "8e6e596adbecb76a82b38db682827ce53b9cc327",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "f4e8c38f9efdf78da3b639c3c7f806132dfdbb44",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-2-part-09": {
-    "content_sha1": "caab996efc5626dbc20ff2a4cdb56aa185d5c5d1",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "50c21e9eff337c06a516d6131444334235398663",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-2-part-10": {
-    "content_sha1": "051c6cf8ee90439090eb4a1e2acb638c0d8ad8f8",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "4cb34651b0e437a062035620041095f16b408008",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-2-part-11": {
-    "content_sha1": "cbe6cf1b65024a4ddf7701ec294dc4f6056ea677",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "44713db5f63e9d49dbbd1f6c3fb344875d248559",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-2-part-12": {
-    "content_sha1": "be65a9c288314b2acb0824e71a14840436c44e01",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "fceeec94972c5d1ead88e697e55866da540aad41",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-2-part-13": {
-    "content_sha1": "1e8b9c37831a5977c1a11085515fb315c3b523e8",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "8ffb20a2f28d09f5b989a0d358495e8385af294c",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-2-part-14": {
-    "content_sha1": "a75a898e9742b3864d370e80da54e6865a2178bf",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "fc5bfbce7789b67ef7fdcc039ba422e3f5eea60d",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-SIE-2-part-15": {
+    "content_sha1": "34c40c24b83039c7b35bda00e737b43785369dc4",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-SIE-2-part-16": {
+    "content_sha1": "05b4f95e533ebb65e19d0955d6e37d35e0888645",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-SIE-2-part-17": {
+    "content_sha1": "6d0f5d3dfc93ab9b2236e3b6aeec59fd8150fc5d",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-SIE-2-part-18": {
+    "content_sha1": "7ae37d1493cb33531e8243d2432b14053d20fc85",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-3": {
     "content_sha1": "243be9b78e0872aa6e2e3077ef96240a9cde086b",
     "pubDate": "Tue, 17 Nov 2026 01:59:27 +0000"
   },
   "drive-study-quiz-SIE-3-part-01": {
-    "content_sha1": "bd612ec10f4a1f22e951045ddcaea65fd7f1854c",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "b5475f52cb6886894dbb5a3be977ee85e017e4f5",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-3-part-02": {
-    "content_sha1": "7c527ce678439c28f57e2205f53cc92d5b32e207",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "a4348f70792e0a34e3e3c20ecab924b266271a76",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-3-part-03": {
-    "content_sha1": "584dd0514a658f71bd343304f8196bd6697eb70c",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "9393ce76437612c32cc1858fb448cef13b75d003",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-3-part-04": {
-    "content_sha1": "9fa26e1177fe6778429886766ed0158201379954",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "6c1740525b6a9746fc5553fab00bc086efc1231c",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-3-part-05": {
-    "content_sha1": "987817b15f7b22d80eae5507874de5f0800c6b46",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "2402db2d00f9b3d2915813ed9b9ab12b642a1458",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-3-part-06": {
-    "content_sha1": "526b3168ae3f8fb22f418f4077ed8ba12ea4c444",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "b0e0c921883ad7adab982192ddf1cc7984bef722",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-3-part-07": {
-    "content_sha1": "da6b9a07b59169c4296c15a81d3fe91490a5878d",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "85a313820baba6ff0b7b077deccd2e010afbcc7e",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-3-part-08": {
-    "content_sha1": "566cfeae653042a2aa5170bddc163a724f1b4f6a",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "6c5b9416a17a38eed5c92513919462d2e44bca86",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-3-part-09": {
-    "content_sha1": "c386067f957453c97fd11e712ba0ffaa8a891311",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "130022d4632ce12eda6afdb7cb0c0f1b6d880bc5",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-3-part-10": {
-    "content_sha1": "926d93bc9cc912323a76d39b60b3e850689fe67d",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "b2ecdb9df53dac5061a32ede78be2e7c55cd6e4d",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-SIE-3-part-11": {
+    "content_sha1": "8aee01db5c8deceb0309ac550bd559453635ad6b",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-SIE-3-part-12": {
+    "content_sha1": "f2d8214b29042f26286d3fe414af924d36b847c2",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-SIE-3-part-13": {
+    "content_sha1": "f9f064228fb365262efddcc0e7beb7c8b0b000d4",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-4": {
     "content_sha1": "452f2c05dda895a6273d1ce1f4576e7d6cd2d769",
     "pubDate": "Tue, 17 Nov 2026 01:59:27 +0000"
   },
   "drive-study-quiz-SIE-4-part-01": {
-    "content_sha1": "66b45bca4953ea616dd194f2d12589dca5f9bb63",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "ba7e585edbd49642b71a4126c17314e1a450659c",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-4-part-02": {
-    "content_sha1": "f6fa8f462dbe13beaf82e4416a8635aaac380631",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "eee7ffca0e20a9fd11620931848aed4839702209",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-quiz-SIE-4-part-03": {
-    "content_sha1": "e806d9c15585e765f59291a05aa8a3da648747b8",
-    "pubDate": "Tue, 17 Nov 2026 03:05:14 +0000"
+    "content_sha1": "89a65c13e1cdf58a191e89760e18d42261806f77",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
+  },
+  "drive-study-quiz-SIE-4-part-04": {
+    "content_sha1": "102ab6757216cc78bd3f5be9d96300438c48007b",
+    "pubDate": "Tue, 17 Nov 2026 03:14:41 +0000"
   },
   "drive-study-welcome": {
     "content_sha1": "3fb06c934fbbe1424078ff7b2fba01feb9dd5910",
