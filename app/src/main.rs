@@ -520,7 +520,8 @@ fn SettingsScreen(
             </div>
             <h2>"On an iPhone"</h2>
             <p>"Install from Safari: Share, then Add to Home Screen. Speech recognition needs a network connection and the microphone. The phone voice usually stops when the screen locks. Downloaded or streamed audio keeps going more often. Wake lock only applies while this page is on screen."</p>
-            <p>"Podcast feed: "<a href="podcast/feed.xml">"podcast/feed.xml"</a>". Episodes show up when the audio branch publishes lesson and quiz recordings."</p>
+            <p><a class="big" href="podcast://mttmin.github.io/drive-study/podcast/feed.xml">"Subscribe in Apple Podcasts"</a></p>
+            <p class="muted">"That one tap downloads lessons and quizzes for the locked screen. The feed is also at "<a href="podcast/feed.xml">"podcast/feed.xml"</a>"."</p>
         </section>
     }
 }

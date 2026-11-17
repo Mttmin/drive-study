@@ -49,10 +49,10 @@ Settings has Export and Import. The file is JSON. Import replaces the progress o
 
 ## Locked screen
 
-The phone voice usually stops when the screen locks. Downloaded or streamed clips keep playing more often, as long as you started them with a tap. The reliable way to listen with the phone in your pocket is the podcast feed. In Apple Podcasts, add the show from this address:
+The phone voice usually stops when the screen locks. Downloaded or streamed clips keep playing more often, as long as you started them with a tap. The reliable way to listen with the phone in your pocket is the podcast feed. In Settings, tap Subscribe in Apple Podcasts. Or add the show from this address:
 
 https://mttmin.github.io/drive-study/podcast/feed.xml
 
-Episodes appear when the lesson and quiz recordings are published. Until then the feed is empty and the app itself is the player.
+Each lesson is an episode. Each section quiz reads the question, waits six seconds, then gives the answer.
 
 Saying an answer out loud needs a network connection on an iPhone, and you have to allow the microphone. The buttons do not need a network.

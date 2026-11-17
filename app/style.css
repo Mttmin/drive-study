@@ -95,6 +95,7 @@ button { cursor: pointer; touch-action: manipulation; }
   text-align: center;
   box-shadow: var(--shadow);
 }
+a.big { display: grid; place-items: center; text-decoration: none; }
 .big.secondary { background: var(--bg-3); color: var(--ink); }
 .seg { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0 16px; }
 .seg button { min-height: 56px; padding: 8px 14px; }
