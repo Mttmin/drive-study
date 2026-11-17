@@ -204,12 +204,12 @@ def questions_by_section(questions: list[dict]) -> dict[str, list[dict]]:
     return dict(grouped)
 
 
-def chunk_questions(items: list, low: int = 15, high: int = 20) -> list[list]:
+def chunk_questions(items: list, low: int = 15, high: int = 15) -> list[list]:
     """Split into episodes of at most `high` questions, as even as possible.
 
-    Sections of `high` or fewer stay one episode. Counts that divide cleanly
-    land in `low`..`high`. A count just over `high` splits evenly instead of
-    leaving a one-question tail.
+    Fifteen is the cap because a 20-question episode of this bank runs about
+    20 minutes, and the episodes should stay near 10-15 minutes. Sections of
+    `high` or fewer stay one episode.
     """
     del low
     n = len(items)
