@@ -1790,10 +1790,15 @@ async fn speak_phone(
     let words = text.split_whitespace().count();
     let budget = utterance_budget_ms(text, rate);
     let begun = Arc::new(AtomicBool::new(false));
+    let moved = Arc::new(AtomicBool::new(false));
     let done = Arc::new(AtomicBool::new(false));
     let begun_flag = begun.clone();
     let on_start = Closure::wrap(Box::new(move || {
         begun_flag.store(true, Ordering::Relaxed);
+    }) as Box<dyn FnMut()>);
+    let moved_flag = moved.clone();
+    let on_boundary = Closure::wrap(Box::new(move || {
+        moved_flag.store(true, Ordering::Relaxed);
     }) as Box<dyn FnMut()>);
     let started_wall = js_sys::Date::now();
     let done_flag = done.clone();
@@ -1809,6 +1814,7 @@ async fn speak_phone(
         done_error.store(true, Ordering::Relaxed);
     }) as Box<dyn FnMut()>);
     utterance.set_onstart(Some(on_start.as_ref().unchecked_ref()));
+    utterance.set_onboundary(Some(on_boundary.as_ref().unchecked_ref()));
     utterance.set_onend(Some(on_end.as_ref().unchecked_ref()));
     utterance.set_onerror(Some(on_error.as_ref().unchecked_ref()));
     set_synth_ours(true);
@@ -1884,7 +1890,9 @@ async fn speak_phone(
         if !begun.load(Ordering::Relaxed) && retried && silent > 2_500.0 {
             break;
         }
-        if begun.load(Ordering::Relaxed) && !synth.speaking() && silent > 500.0 {
+        // speaking can stay true after nothing is actually being said. A real
+        // line produces boundary events. No boundary means it never started.
+        if !moved.load(Ordering::Relaxed) && silent > 2_000.0 {
             break;
         }
         if js_sys::Date::now() - clock >= budget {
