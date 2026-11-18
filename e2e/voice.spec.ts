@@ -36,15 +36,20 @@ async function installSpeech(
         pending = false;
         paused = false;
       };
+      const finishUtterance = (utterance: SpeechSynthesisUtterance) => {
+        const end = new Event("end");
+        Object.defineProperty(end, "elapsedTime", { value: 0.4 });
+        try { utterance.dispatchEvent(new Event("start")); } catch { /* WebKit */ }
+        try { utterance.onstart?.(new Event("start")); } catch { /* WebKit */ }
+        try { utterance.dispatchEvent(end); } catch { /* WebKit */ }
+        try { utterance.onend?.(end); } catch { /* WebKit */ }
+      };
       const release = () => {
         const utterance = held.shift();
         if (!utterance) return;
         pending = false;
         paused = false;
-        window.setTimeout(() => {
-          utterance.onstart?.(new Event("start"));
-          utterance.onend?.(new Event("end"));
-        }, 15);
+        window.setTimeout(() => finishUtterance(utterance), 15);
       };
       synth.pause = () => {
         paused = true;
@@ -63,8 +68,7 @@ async function installSpeech(
           paused = true;
           return;
         }
-        window.setTimeout(() => utterance.onstart?.(new Event("start")), 5);
-        window.setTimeout(() => utterance.onend?.(new Event("end")), 25);
+        window.setTimeout(() => finishUtterance(utterance), 20);
       };
 
       class FakeRecognition {
@@ -174,6 +178,7 @@ test("recognition restarts after an early end and a missed answer is asked once"
   });
   await page.getByTestId("mode-quiz").click();
   await page.getByTestId("start-quiz").click();
+  await expect(page.getByTestId("answer-window")).toBeVisible({ timeout: 20000 });
   await expect(page.getByTestId("status")).toContainText(/1 (right|missed)/, { timeout: 8000 });
   const starts = await page.evaluate(() => (window as unknown as { __starts: number }).__starts);
   expect(starts).toBeGreaterThanOrEqual(2);

@@ -1797,8 +1797,10 @@ async fn speak_phone(
     }) as Box<dyn FnMut()>);
     let started_wall = js_sys::Date::now();
     let done_flag = done.clone();
+    let begun_for_end = begun.clone();
     let on_end = Closure::wrap(Box::new(move |event: JsValue| {
-        if end_is_real(&event, words, started_wall, budget) {
+        let started = begun_for_end.load(Ordering::Relaxed);
+        if end_is_real(&event, words, started_wall, budget, started) {
             done_flag.store(true, Ordering::Relaxed);
         }
     }) as Box<dyn FnMut(JsValue)>);
@@ -1914,13 +1916,22 @@ fn mark_voice_down(model: RwSignal<PlayerModel>, note: &str) {
     model.set(shown);
 }
 
-fn end_is_real(event: &JsValue, words: usize, started_wall: f64, budget: f64) -> bool {
+fn end_is_real(
+    event: &JsValue,
+    words: usize,
+    started_wall: f64,
+    budget: f64,
+    started: bool,
+) -> bool {
     let elapsed = js_sys::Reflect::get(event, &JsValue::from_str("elapsedTime"))
         .ok()
         .and_then(|value| value.as_f64());
     match elapsed {
         None => true,
         Some(time) if time > 0.05 => true,
+        // WebKit reports elapsedTime 0 on a real end. A spurious end arrives
+        // before onstart; once speech has started, this end is the real one.
+        Some(_) if started => true,
         Some(_) => words <= 3 || js_sys::Date::now() - started_wall > budget * 0.55,
     }
 }
