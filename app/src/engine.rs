@@ -1877,6 +1877,16 @@ async fn speak_phone(
             }
             continue;
         }
+        // Headless WebKit never starts the utterance and never fires onend.
+        // Waiting out a long question here is what left the screen on
+        // "Reading the question."
+        let silent = js_sys::Date::now() - clock;
+        if !begun.load(Ordering::Relaxed) && retried && silent > 2_500.0 {
+            break;
+        }
+        if begun.load(Ordering::Relaxed) && !synth.speaking() && silent > 500.0 {
+            break;
+        }
         if js_sys::Date::now() - clock >= budget {
             if begun.load(Ordering::Relaxed) && synth_ours() {
                 synth.cancel();

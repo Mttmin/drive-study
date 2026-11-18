@@ -107,9 +107,16 @@ async function installSpeech(
         }
       }
       (window as unknown as { __steps: RecStep[] }).__steps = steps;
-      const typed = window as unknown as { webkitSpeechRecognition: typeof FakeRecognition; SpeechRecognition: typeof FakeRecognition };
-      typed.webkitSpeechRecognition = FakeRecognition;
-      typed.SpeechRecognition = FakeRecognition;
+      Object.defineProperty(window, "webkitSpeechRecognition", {
+        configurable: true,
+        writable: true,
+        value: FakeRecognition,
+      });
+      Object.defineProperty(window, "SpeechRecognition", {
+        configurable: true,
+        writable: true,
+        value: FakeRecognition,
+      });
     },
     { steps, holdUntilResume: options.holdUntilResume ?? false, emptyVoices: options.emptyVoices ?? false, stuckSpeaking: options.stuckSpeaking ?? false },
   );
