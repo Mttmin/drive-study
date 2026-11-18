@@ -12,7 +12,7 @@ async function installSpeech(
 ) {
   const steps = options.steps ?? [];
   await page.addInitScript(
-    ({ steps, holdUntilResume, emptyVoices, stuckSpeaking }) => {
+    ({ steps, holdUntilResume, emptyVoices }) => {
       const synth = window.speechSynthesis;
       const voice = { voiceURI: "stub", name: "Stub", lang: "en-US", default: true, localService: true };
       const log: Array<{ text: string; cancelGap: number }> = [];
@@ -26,9 +26,9 @@ async function installSpeech(
       (window as unknown as { __hold: boolean }).__hold = Boolean(holdUntilResume);
       (window as unknown as { __starts: number }).__starts = 0;
 
-      Object.defineProperty(synth, "paused", { configurable: true, get: () => paused });
-      Object.defineProperty(synth, "pending", { configurable: true, get: () => pending });
-      Object.defineProperty(synth, "speaking", { configurable: true, get: () => Boolean(stuckSpeaking) });
+      // Leave paused, pending, and speaking alone. Replacing those native
+      // getters makes WebKit throw out of speechSynthesis and the question
+      // never reaches the answer window.
       synth.getVoices = () => (emptyVoices ? [] : [voice as SpeechSynthesisVoice]);
       synth.cancel = () => {
         lastCancel = performance.now();
