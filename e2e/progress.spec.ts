@@ -47,7 +47,13 @@ test("lesson, flashcard, and quiz progress survive reload, profiles, and transfe
   await page.getByTestId("mode-lessons").click();
   await page.getByTestId("lesson-open-sie-1-01").click();
   await page.getByTestId("play-lesson").click();
-  await expect(page.getByTestId("choice-A")).toBeVisible({ timeout: 20000 });
+  await expect(page.getByTestId("player-index")).toBeVisible();
+  const choice = page.getByTestId("choice-A");
+  for (let step = 0; step < 12 && !(await choice.isVisible()); step += 1) {
+    await page.getByRole("button", { name: "Skip" }).click();
+    await choice.waitFor({ state: "visible", timeout: 2000 }).catch(() => {});
+  }
+  await expect(choice).toBeVisible();
   const indexText = (await page.getByTestId("player-index").innerText()).trim();
   expect(indexText.startsWith("0")).toBeFalsy();
   await page.getByTestId("choice-A").click();

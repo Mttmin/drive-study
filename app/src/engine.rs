@@ -581,6 +581,8 @@ async fn present(
             shown.explanation = card.back.clone();
             shown.answer_key = Some("back".into());
             shown.status = "Definition.".into();
+            shown.correct = *correct;
+            shown.wrong = *wrong;
             model.set(shown);
             speak(&card.spoken, settings, manifest, control, model).await;
             false

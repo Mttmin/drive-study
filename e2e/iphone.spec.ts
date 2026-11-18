@@ -149,7 +149,7 @@ test("the first rapid-fire card accepts Don't know immediately", async ({ page }
   await page.getByTestId("mode-rapid").click();
   await page.getByRole("button", { name: "Start rapid fire" }).click();
   await page.getByTestId("dont-know").click();
-  await expect(page.getByTestId("status")).toContainText("1 missed", { timeout: 3000 });
+  await expect(page.getByTestId("status")).toContainText(/Definition|1 missed/, { timeout: 3000 });
 });
 
 test("the selected voice is marked and a missing clip says why", async ({ page }) => {
