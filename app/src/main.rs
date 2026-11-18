@@ -1054,6 +1054,10 @@ fn Play(
         });
     }
     let _ = listen_only;
+    let voice_down = control.clone();
+    let voice_stream = control.clone();
+    let voice_phone = control.clone();
+    let flip = control.clone();
     let repeat = control.clone();
     let skip = control.clone();
     let explain = control.clone();
@@ -1065,6 +1069,9 @@ fn Play(
     let stop = control.clone();
     let choices = control.clone();
     let window_control = choices.clone();
+    let extend = window_control.clone();
+    let extend_click = window_control.clone();
+    let choice_rows = Memo::new(move |_| model.with(|item| item.choices.clone()));
     let dismiss = skip.clone();
     view! {
         <section>
@@ -1074,28 +1081,49 @@ fn Play(
                     <div class="kicker">{move || model.get().title}</div>
                     <div data-testid="player-index">{move || format!("{} / {}", model.get().index, model.get().total)}</div>
                 </div>
-                <button class="icon-btn" type="button" on:click=move |_| {
-                    if model.get().paused { pause.resume(); } else { pause.interrupt(Act::Pause); }
-                    model.update(|item| item.paused = !item.paused);
+                <button class="icon-btn" type="button" data-testid="pause-session" on:click=move |_| {
+                    if model.get().paused {
+                        pause.resume();
+                        model.update(|item| item.paused = false);
+                    } else {
+                        pause.interrupt(Act::Pause);
+                        model.update(|item| item.paused = true);
+                    }
                 }>{move || if model.get().paused { "Play" } else { "Pause" }}</button>
             </div>
             <p class="kicker" data-testid="source">{move || format!("{} {} · {}", model.get().kicker, if model.get().sample { "· Sample" } else { "" }, model.get().source)}</p>
+            {move || model.get().voice_fallback.then(|| view! {
+                <p class="banner" data-testid="voice-fallback">"Using the phone voice. The selected voice didn't start."</p>
+            })}
+            <div class="seg" data-testid="live-voice">
+                <button type="button" data-testid="live-voice-downloaded" aria-pressed=move || if settings.get().voice_source == "downloaded" { "true" } else { "false" } on:click=move |_| pick_voice(settings, voice_down.clone(), model, "downloaded")>"Saved"</button>
+                <button type="button" data-testid="live-voice-streamed" aria-pressed=move || if settings.get().voice_source == "streamed" { "true" } else { "false" } on:click=move |_| pick_voice(settings, voice_stream.clone(), model, "streamed")>"Stream"</button>
+                <button type="button" data-testid="live-voice-phone" aria-pressed=move || if settings.get().voice_source == "phone" { "true" } else { "false" } on:click=move |_| pick_voice(settings, voice_phone.clone(), model, "phone")>"Phone"</button>
+            </div>
             <h1 class="prompt">{move || model.get().prompt}</h1>
             <p class="status" data-testid="status" aria-live="polite">{move || format!("{} {} right, {} missed.", model.get().status, model.get().correct, model.get().wrong)}</p>
-            {move || {
-                let extend = window_control.clone();
-                model.get().window_left.map(move |seconds| {
-                    let extend = extend.clone();
-                    let extend_click = extend.clone();
-                    view! {
-                        <button class="big secondary" type="button" data-testid="answer-window" on:pointerup=move |_| tap(true, || extend.interrupt(Act::MoreTime)) on:click=move |_| tap(false, || extend_click.interrupt(Act::MoreTime))>
-                            {format!("{seconds}s to answer. Tap or say wait for more time.")}
-                        </button>
+            <button class="listen-bar" type="button" data-testid="answer-window"
+                style:display=move || if model.with(|item| item.window_left.is_some()) { "block" } else { "none" }
+                data-listening=move || if model.with(|item| item.listening) { "true" } else { "false" }
+                on:pointerup=move |_| tap(true, || extend.interrupt(Act::MoreTime))
+                on:click=move |_| tap(false, || extend_click.interrupt(Act::MoreTime))>
+                {move || {
+                    let shown = model.get();
+                    match shown.window_left {
+                        Some(seconds) if shown.listening => format!("{seconds}s. Listening. {} Tap for more time.", shown.listen_cue),
+                        Some(seconds) => format!("{seconds}s to answer. Tap or say wait for more time."),
+                        None => String::new(),
                     }
-                })
-            }}
+                }}
+            </button>
+            <button class="big" type="button" data-testid="flip-card"
+                style:display=move || {
+                    let shown = model.get();
+                    if shown.card_mode && shown.answer_key.is_none() { "block" } else { "none" }
+                }
+                on:click=move |_| flip.interrupt(Act::Flip)>"Flip"</button>
             <div class="choices">
-                {move || model.get().choices.into_iter().map(|(key, text)| {
+                {move || choice_rows.get().into_iter().map(|(key, text)| {
                     let control = choices.clone();
                     let answer = key.clone();
                     let test_id = format!("choice-{key}");
@@ -1215,6 +1243,24 @@ fn mock_blurb(shelf: &Option<Shelf>, exam: &str) -> String {
         blueprint.time_limit_minutes,
         blueprint.passing_score
     )
+}
+
+fn pick_voice(
+    settings: RwSignal<Settings>,
+    control: Control,
+    model: RwSignal<PlayerModel>,
+    source: &str,
+) {
+    let source = source.to_string();
+    update_settings(settings, move |item| item.voice_source = source);
+    model.update(|item| {
+        item.voice_fallback = false;
+        item.paused = false;
+    });
+    if control.user_paused() {
+        control.resume();
+    }
+    control.retune();
 }
 
 fn set_plan(settings: RwSignal<Settings>, plan: &str) {
