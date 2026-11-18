@@ -75,4 +75,4 @@ Playback speed (0.8x–2x) is applied in the player for downloaded audio, stream
 
 ## Progress file
 
-Settings → Export writes a JSON file (version 1) with SRS cards, attempts, day streaks, and settings. Import replaces progress on this device.
+The first launch asks for a pseudonym. Progress for lessons, flashcards, and quizzes is stored on the phone under that name. Settings and the name button can copy a sync code or a JSON file (version 2) so the same profile can move between Safari and the Home Screen app. Import replaces that profile on the destination.

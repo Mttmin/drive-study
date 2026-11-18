@@ -1,4 +1,5 @@
 import { expect, test } from "@playwright/test";
+import { signIn } from "./sign-in";
 
 test("listen-only still counts down when speech never ends", async ({ page }) => {
   test.setTimeout(90000);
@@ -13,8 +14,7 @@ test("listen-only still counts down when speech never ends", async ({ page }) =>
     synth.pause = () => {};
     synth.resume = () => {};
   });
-  await page.goto("./");
-  await expect(page.getByTestId("home-title")).toHaveText("Drive Study");
+  await signIn(page);
   await page.getByTestId("open-settings").click();
   await page.getByTestId("answer-listen").click();
   await page.getByTestId("voice-phone").click();

@@ -147,7 +147,29 @@ h1 { font-family: Georgia, "Iowan Old Style", serif; font-size: 2rem; line-heigh
 .good { color: var(--good); }
 .bad { color: var(--bad); }
 .footer { color: var(--muted); font-size: 0.85rem; line-height: 1.4; margin-top: 18px; }
+.who {
+  max-width: 42vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--bg-2);
+  padding: 8px 14px;
+  font-weight: 700;
+}
 label.field { display: grid; gap: 6px; margin: 10px 0; }
+input[type="text"], textarea {
+  width: 100%;
+  font-size: 1rem;
+  min-height: 52px;
+  background: var(--bg);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+textarea { min-height: 140px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.85rem; }
 input[type="range"] { width: 100%; accent-color: var(--amber); height: 44px; }
 select, input[type="file"] { min-height: 44px; background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 8px; }
 [data-testid="answer-window"] { margin: 8px 0 12px; }

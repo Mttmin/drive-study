@@ -2,11 +2,11 @@ use std::sync::atomic::{AtomicBool, AtomicU32, Ordering};
 use std::sync::{Arc, Mutex};
 
 use drive_study_core::{
-    choices_readout, clip_key, is_due, parse_voice, review_card, ExamId, ItemKind, ParseOptions, ReviewOutcome, SessionItem, SessionMode, SessionPlan, SrsCard, SrsMeta, VoiceCommand, VOICE_ID,
+    choices_readout, clip_key, is_due, parse_voice, review_card, ExamId, ItemKind, ParseOptions,
+    ReviewOutcome, SessionItem, SessionMode, SessionPlan, SrsCard, SrsMeta, VoiceCommand, VOICE_ID,
 };
 use gloo_timers::future::TimeoutFuture;
 use leptos::prelude::*;
-use rexie::{ObjectStore, Rexie, TransactionMode};
 use serde::{Deserialize, Serialize};
 use wasm_bindgen::closure::Closure;
 use wasm_bindgen::JsCast;
@@ -77,13 +77,29 @@ pub struct DayRecord {
 
 #[derive(Clone, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
+pub struct LessonProgress {
+    pub lesson_id: String,
+    pub status: String,
+    pub index: u32,
+    pub total: u32,
+    pub updated_at: i64,
+}
+
+#[derive(Clone, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
 pub struct ProgressFile {
     pub version: u32,
     pub exported_at: String,
+    #[serde(default)]
+    pub profile_id: String,
+    #[serde(default)]
+    pub profile_name: String,
     pub settings: Settings,
     pub srs: Vec<SrsCard>,
     pub attempts: Vec<AttemptRecord>,
     pub days: Vec<DayRecord>,
+    #[serde(default)]
+    pub lessons: Vec<LessonProgress>,
 }
 
 #[derive(Clone)]
@@ -227,10 +243,13 @@ thread_local! {
     static CURRENT: std::cell::RefCell<Option<web_sys::HtmlAudioElement>> = const { std::cell::RefCell::new(None) };
 }
 
-const SILENCE: &str = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=";
+const SILENCE: &str =
+    "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=";
 
 pub fn arm_audio() {
-    let Ok(audio) = web_sys::HtmlAudioElement::new_with_src(SILENCE) else { return };
+    let Ok(audio) = web_sys::HtmlAudioElement::new_with_src(SILENCE) else {
+        return;
+    };
     audio.set_loop(true);
     let _ = audio.set_volume(0.05);
     let _ = audio.play();
@@ -279,9 +298,18 @@ fn stop_audio() {
 }
 
 pub fn install_media_session(control: Control) {
-    let Some(window) = web_sys::window() else { return };
-    let Ok(session) = js_sys::Reflect::get(&window.navigator(), &JsValue::from_str("mediaSession")) else { return };
-    let Ok(setter) = js_sys::Reflect::get(&session, &JsValue::from_str("setActionHandler")).and_then(|value| value.dyn_into::<js_sys::Function>()) else { return };
+    let Some(window) = web_sys::window() else {
+        return;
+    };
+    let Ok(session) = js_sys::Reflect::get(&window.navigator(), &JsValue::from_str("mediaSession"))
+    else {
+        return;
+    };
+    let Ok(setter) = js_sys::Reflect::get(&session, &JsValue::from_str("setActionHandler"))
+        .and_then(|value| value.dyn_into::<js_sys::Function>())
+    else {
+        return;
+    };
     for name in ["play", "pause", "nexttrack", "previoustrack"] {
         let control = control.clone();
         let name_owned = name.to_string();
@@ -291,15 +319,27 @@ pub fn install_media_session(control: Control) {
             "nexttrack" => control.interrupt(Act::Skip),
             _ => control.interrupt(Act::Repeat),
         }) as Box<dyn FnMut()>);
-        let _ = setter.call2(&session, &JsValue::from_str(name), callback.as_ref().unchecked_ref());
+        let _ = setter.call2(
+            &session,
+            &JsValue::from_str(name),
+            callback.as_ref().unchecked_ref(),
+        );
         callback.forget();
     }
 }
 
 pub fn acquire_wake_lock() {
-    let Some(window) = web_sys::window() else { return };
-    let Ok(lock) = js_sys::Reflect::get(&window.navigator(), &JsValue::from_str("wakeLock")) else { return };
-    let Ok(request) = js_sys::Reflect::get(&lock, &JsValue::from_str("request")).and_then(|value| value.dyn_into::<js_sys::Function>()) else { return };
+    let Some(window) = web_sys::window() else {
+        return;
+    };
+    let Ok(lock) = js_sys::Reflect::get(&window.navigator(), &JsValue::from_str("wakeLock")) else {
+        return;
+    };
+    let Ok(request) = js_sys::Reflect::get(&lock, &JsValue::from_str("request"))
+        .and_then(|value| value.dyn_into::<js_sys::Function>())
+    else {
+        return;
+    };
     let _ = request.call1(&lock, &JsValue::from_str("screen"));
 }
 
@@ -321,7 +361,7 @@ pub async fn run_session(
     arm_audio();
     install_media_session(control.clone());
     acquire_wake_lock();
-    let mut index = 0;
+    let mut index = plan.start_index.min(plan.items.len());
     let mut correct = 0u32;
     let mut wrong = 0u32;
     let mut skipped = 0u32;
@@ -333,6 +373,10 @@ pub async fn run_session(
             if left == 0 {
                 break;
             }
+        }
+        if let Some(lesson_id) = &plan.lesson_id {
+            progress::note_lesson(lesson_id, index, plan.items.len(), false);
+            progress::flush_progress().await;
         }
         let again = present(
             &plan,
@@ -370,7 +414,11 @@ pub async fn run_session(
         }
     }
     let graded = correct + wrong;
-    let percent = if graded == 0 { 0.0 } else { (correct as f64 / graded as f64 * 1000.0).round() / 10.0 };
+    let percent = if graded == 0 {
+        0.0
+    } else {
+        (correct as f64 / graded as f64 * 1000.0).round() / 10.0
+    };
     let passed = plan.pass_percent.and_then(|mark| {
         if responses.is_empty() {
             None
@@ -379,16 +427,10 @@ pub async fn run_session(
             Some(ratio + 1e-12 >= mark / 100.0)
         }
     });
-    if let Some(lesson_id) = plan.lesson_id.clone() {
-        if index >= plan.items.len() {
-            settings.update(|settings| {
-                if !settings.completed_lessons.iter().any(|id| id == &lesson_id) {
-                    settings.completed_lessons.push(lesson_id);
-                }
-            });
-            let snapshot = settings.get_untracked();
-            let _ = save_settings(&snapshot).await;
-        }
+    if let Some(lesson_id) = &plan.lesson_id {
+        let done = index >= plan.items.len() && !plan.items.is_empty();
+        progress::note_lesson(lesson_id, index, plan.items.len(), done);
+        progress::flush_progress().await;
     }
     summary.set(Some(Summary {
         title: plan.title,
@@ -436,12 +478,44 @@ async fn present(
     control.guessing.store(false, Ordering::Relaxed);
     match item {
         SessionItem::Narration { title, text, .. } => {
-            set_model(model, plan, index, total, title, text, &[], None, "", false, false, false, control, correct, wrong);
+            set_model(
+                model,
+                plan,
+                index,
+                total,
+                title,
+                text,
+                &[],
+                None,
+                "",
+                false,
+                false,
+                false,
+                control,
+                correct,
+                wrong,
+            );
             speak(text, settings, manifest, control, model).await;
             matches!(control.take(), Some(Act::Repeat))
         }
         SessionItem::Card(card) => {
-            set_model(model, plan, index, total, &format!("{} · {}", card.exam.as_str(), card.section), &card.front, &[], None, "", card.sample, false, true, control, correct, wrong);
+            set_model(
+                model,
+                plan,
+                index,
+                total,
+                &format!("{} · {}", card.exam.as_str(), card.section),
+                &card.front,
+                &[],
+                None,
+                "",
+                card.sample,
+                false,
+                true,
+                control,
+                correct,
+                wrong,
+            );
             speak(&card.front, settings, manifest, control, model).await;
             let early = control.take();
             if matches!(early, Some(Act::Repeat)) {
@@ -450,7 +524,13 @@ async fn present(
             let act = if early.is_some() {
                 early
             } else {
-                answer_window(control, window_ms(&settings.get_untracked(), plan.listen_only), model, None).await
+                answer_window(
+                    control,
+                    window_ms(&settings.get_untracked(), plan.listen_only),
+                    model,
+                    None,
+                )
+                .await
             };
             match act {
                 Some(Act::Repeat) => return true,
@@ -460,11 +540,35 @@ async fn present(
                 }
                 None if plan.listen_only => {}
                 Some(Act::Know) => {
-                    grade(cards, attempts, days, &card.id, ItemKind::Flashcard, card.exam, &card.section, None, ReviewOutcome::Correct, false, plan);
+                    grade(
+                        cards,
+                        attempts,
+                        days,
+                        &card.id,
+                        ItemKind::Flashcard,
+                        card.exam,
+                        &card.section,
+                        None,
+                        ReviewOutcome::Correct,
+                        false,
+                        plan,
+                    );
                     *correct += 1;
                 }
                 Some(Act::DontKnow) => {
-                    grade(cards, attempts, days, &card.id, ItemKind::Flashcard, card.exam, &card.section, None, ReviewOutcome::Wrong, false, plan);
+                    grade(
+                        cards,
+                        attempts,
+                        days,
+                        &card.id,
+                        ItemKind::Flashcard,
+                        card.exam,
+                        &card.section,
+                        None,
+                        ReviewOutcome::Wrong,
+                        false,
+                        plan,
+                    );
                     *wrong += 1;
                 }
                 Some(Act::Skip) => {
@@ -482,7 +586,11 @@ async fn present(
             false
         }
         SessionItem::Question(question) => {
-            let choices: Vec<(String, String)> = question.choices.iter().map(|choice| (choice.key.clone(), choice.text.clone())).collect();
+            let choices: Vec<(String, String)> = question
+                .choices
+                .iter()
+                .map(|choice| (choice.key.clone(), choice.text.clone()))
+                .collect();
             set_model(
                 model,
                 plan,
@@ -501,15 +609,31 @@ async fn present(
                 wrong,
             );
             speak(&question.spoken_stem, settings, manifest, control, model).await;
-            if handle_early(control, question, plan, cards, attempts, days, correct, wrong, skipped, responses, model).await {
+            if handle_early(
+                control, question, plan, cards, attempts, days, correct, wrong, skipped, responses,
+                model,
+            )
+            .await
+            {
                 return finish_early(question, settings, manifest, control, model).await;
             }
             let readout = choices_readout(&question.kind, &choices);
             speak(&readout, settings, manifest, control, model).await;
-            if handle_early(control, question, plan, cards, attempts, days, correct, wrong, skipped, responses, model).await {
+            if handle_early(
+                control, question, plan, cards, attempts, days, correct, wrong, skipped, responses,
+                model,
+            )
+            .await
+            {
                 return finish_early(question, settings, manifest, control, model).await;
             }
-            let act = answer_window(control, window_ms(&settings.get_untracked(), plan.listen_only), model, Some(question)).await;
+            let act = answer_window(
+                control,
+                window_ms(&settings.get_untracked(), plan.listen_only),
+                model,
+                Some(question),
+            )
+            .await;
             match act {
                 Some(Act::Repeat) => true,
                 Some(Act::Stop) => {
@@ -530,7 +654,19 @@ async fn present(
                     false
                 }
                 Some(Act::Explain) | Some(Act::DontKnow) | None => {
-                    grade(cards, attempts, days, &question.id, ItemKind::Question, question.exam, &question.section, Some(question.topic.clone()), ReviewOutcome::Wrong, false, plan);
+                    grade(
+                        cards,
+                        attempts,
+                        days,
+                        &question.id,
+                        ItemKind::Question,
+                        question.exam,
+                        &question.section,
+                        Some(question.topic.clone()),
+                        ReviewOutcome::Wrong,
+                        false,
+                        plan,
+                    );
                     *wrong += 1;
                     responses.push((question.section.clone(), false));
                     reveal(model, question, None, control);
@@ -539,7 +675,10 @@ async fn present(
                 }
                 Some(Act::Answer(key)) => {
                     let right = key == question.answer;
-                    score_answer(question, &key, control, cards, attempts, days, plan, correct, wrong, responses, model);
+                    score_answer(
+                        question, &key, control, cards, attempts, days, plan, correct, wrong,
+                        responses, model,
+                    );
                     explain_after(question, right, settings, manifest, control, model).await;
                     false
                 }
@@ -551,7 +690,10 @@ async fn present(
 
 impl Control {
     fn peek_repeat(&self) -> bool {
-        matches!(self.pending.lock().expect("pending").as_ref(), Some(Act::Repeat))
+        matches!(
+            self.pending.lock().expect("pending").as_ref(),
+            Some(Act::Repeat)
+        )
     }
 }
 
@@ -602,7 +744,14 @@ async fn explain_after(
         shown.explanation = question.explanation.clone();
         shown.explain_style = "full".into();
         model.set(shown);
-        speak(&question.spoken_explanation, settings, manifest, control, model).await;
+        speak(
+            &question.spoken_explanation,
+            settings,
+            manifest,
+            control,
+            model,
+        )
+        .await;
     }
     if control.has_pending() {
         let _ = control.take();
@@ -624,7 +773,11 @@ fn first_sentence(text: &str) -> String {
 
 fn window_ms(settings: &Settings, listen_only: bool) -> u32 {
     let base = settings.answer_seconds.clamp(6, 30) * 1000;
-    if listen_only { base } else { base + 2_000 }
+    if listen_only {
+        base
+    } else {
+        base + 2_000
+    }
 }
 
 async fn settle(control: &Control, ms: u32) {
@@ -653,7 +806,9 @@ async fn handle_early(
     responses: &mut Vec<(String, bool)>,
     model: RwSignal<PlayerModel>,
 ) -> bool {
-    let Some(act) = control.take() else { return false };
+    let Some(act) = control.take() else {
+        return false;
+    };
     match act {
         Act::Repeat => {
             *control.pending.lock().expect("pending") = Some(Act::Repeat);
@@ -672,14 +827,29 @@ async fn handle_early(
             true
         }
         Act::Explain | Act::DontKnow => {
-            grade(cards, attempts, days, &question.id, ItemKind::Question, question.exam, &question.section, Some(question.topic.clone()), ReviewOutcome::Wrong, false, plan);
+            grade(
+                cards,
+                attempts,
+                days,
+                &question.id,
+                ItemKind::Question,
+                question.exam,
+                &question.section,
+                Some(question.topic.clone()),
+                ReviewOutcome::Wrong,
+                false,
+                plan,
+            );
             *wrong += 1;
             responses.push((question.section.clone(), false));
             reveal(model, question, None, control);
             true
         }
         Act::Answer(key) => {
-            score_answer(question, &key, control, cards, attempts, days, plan, correct, wrong, responses, model);
+            score_answer(
+                question, &key, control, cards, attempts, days, plan, correct, wrong, responses,
+                model,
+            );
             true
         }
         Act::MoreTime => {
@@ -712,7 +882,19 @@ fn score_answer(
     } else {
         ReviewOutcome::Wrong
     };
-    grade(cards, attempts, days, &question.id, ItemKind::Question, question.exam, &question.section, Some(question.topic.clone()), outcome, guessed && right, plan);
+    grade(
+        cards,
+        attempts,
+        days,
+        &question.id,
+        ItemKind::Question,
+        question.exam,
+        &question.section,
+        Some(question.topic.clone()),
+        outcome,
+        guessed && right,
+        plan,
+    );
     if right {
         *correct += 1;
     } else {
@@ -722,7 +904,12 @@ fn score_answer(
     reveal(model, question, Some(key.to_string()), control);
 }
 
-fn reveal(model: RwSignal<PlayerModel>, question: &drive_study_core::Question, selected: Option<String>, control: &Control) {
+fn reveal(
+    model: RwSignal<PlayerModel>,
+    question: &drive_study_core::Question,
+    selected: Option<String>,
+    control: &Control,
+) {
     let mut shown = model.get_untracked();
     shown.answer_key = Some(question.answer.clone());
     shown.selected = selected.clone();
@@ -730,7 +917,11 @@ fn reveal(model: RwSignal<PlayerModel>, question: &drive_study_core::Question, s
     shown.yearly = question.tags.iter().any(|tag| tag == "changes-yearly");
     shown.guessing = control.guessing.load(Ordering::Relaxed);
     shown.status = if selected.as_deref() == Some(question.answer.as_str()) {
-        if shown.guessing { "Marked as a guess. It will come back.".into() } else { "Correct.".into() }
+        if shown.guessing {
+            "Marked as a guess. It will come back.".into()
+        } else {
+            "Correct.".into()
+        }
     } else if selected.is_some() {
         "Not this one.".into()
     } else {
@@ -752,7 +943,12 @@ fn grade(
     guessed: bool,
     plan: &SessionPlan,
 ) {
-    let meta = SrsMeta { id: id.into(), kind, exam, section: section.into() };
+    let meta = SrsMeta {
+        id: id.into(),
+        kind,
+        exam,
+        section: section.into(),
+    };
     let today = today_key();
     let now = js_sys::Date::now() as i64;
     let existing = cards.get_untracked().into_iter().find(|card| card.id == id);
@@ -782,11 +978,7 @@ fn grade(
             list.push(today_for_list);
         }
     });
-    leptos::task::spawn_local(async move {
-        let _ = save_card(&next).await;
-        let _ = save_attempt(&attempt).await;
-        let _ = touch_day(&today).await;
-    });
+    progress::persist_progress();
 }
 
 fn set_model(
@@ -831,7 +1023,12 @@ fn set_model(
     });
 }
 
-async fn answer_window(control: &Control, ms: u32, model: RwSignal<PlayerModel>, question: Option<&drive_study_core::Question>) -> Option<Act> {
+async fn answer_window(
+    control: &Control,
+    ms: u32,
+    model: RwSignal<PlayerModel>,
+    question: Option<&drive_study_core::Question>,
+) -> Option<Act> {
     chime();
     let mut left = ms;
     let mut listening = false;
@@ -877,7 +1074,9 @@ async fn answer_window(control: &Control, ms: u32, model: RwSignal<PlayerModel>,
 
 fn chime() {
     let Some(url) = beep_url() else { return };
-    let Ok(audio) = web_sys::HtmlAudioElement::new_with_src(&url) else { return };
+    let Ok(audio) = web_sys::HtmlAudioElement::new_with_src(&url) else {
+        return;
+    };
     audio.set_volume(0.45);
     let _ = audio.play();
 }
@@ -936,22 +1135,48 @@ fn base64(bytes: &[u8]) -> String {
         }
         out.push(TABLE[((value >> 18) & 63) as usize] as char);
         out.push(TABLE[((value >> 12) & 63) as usize] as char);
-        out.push(if chunk.len() > 1 { TABLE[((value >> 6) & 63) as usize] as char } else { '=' });
-        out.push(if chunk.len() > 2 { TABLE[(value & 63) as usize] as char } else { '=' });
+        out.push(if chunk.len() > 1 {
+            TABLE[((value >> 6) & 63) as usize] as char
+        } else {
+            '='
+        });
+        out.push(if chunk.len() > 2 {
+            TABLE[(value & 63) as usize] as char
+        } else {
+            '='
+        });
     }
     out
 }
 
-async fn speak(text: &str, settings: RwSignal<Settings>, manifest: &drive_study_core::AudioManifest, control: &Control, model: RwSignal<PlayerModel>) {
+async fn speak(
+    text: &str,
+    settings: RwSignal<Settings>,
+    manifest: &drive_study_core::AudioManifest,
+    control: &Control,
+    model: RwSignal<PlayerModel>,
+) {
     let generation = control.generation.load(Ordering::Relaxed);
     let prefs = settings.get_untracked();
     let key = clip_key(VOICE_ID, text);
     if prefs.voice_source != "phone" {
         if let Some(clip) = manifest.clips.get(&key) {
             if let Some(url) = resolve_clip(&clip.path, &prefs.voice_source).await {
-                if play_url(&url, prefs.rate, control, generation, utterance_budget_ms(text, prefs.rate)).await {
+                if play_url(
+                    &url,
+                    prefs.rate,
+                    control,
+                    generation,
+                    utterance_budget_ms(text, prefs.rate),
+                )
+                .await
+                {
                     let mut shown = model.get_untracked();
-                    shown.source = if url.starts_with("blob:") { "Downloaded clip".into() } else { "Streamed clip".into() };
+                    shown.source = if url.starts_with("blob:") {
+                        "Downloaded clip".into()
+                    } else {
+                        "Streamed clip".into()
+                    };
                     model.set(shown);
                     return;
                 }
@@ -971,13 +1196,22 @@ async fn speak(text: &str, settings: RwSignal<Settings>, manifest: &drive_study_
         _ => "Phone voice. No streamed clip for this line yet.".into(),
     };
     model.set(shown);
-    speak_phone(text, prefs.rate, prefs.voice_uri.as_deref(), control, generation).await;
+    speak_phone(
+        text,
+        prefs.rate,
+        prefs.voice_uri.as_deref(),
+        control,
+        generation,
+    )
+    .await;
 }
 
 async fn resolve_clip(path: &str, mode: &str) -> Option<String> {
     let url = absolute_url(path)?;
     let cached = cached_blob(&url).await;
-    let online = web_sys::window().map(|window| window.navigator().on_line()).unwrap_or(false);
+    let online = web_sys::window()
+        .map(|window| window.navigator().on_line())
+        .unwrap_or(false);
     if mode == "downloaded" {
         if cached.is_some() {
             return cached;
@@ -995,13 +1229,17 @@ async fn resolve_clip(path: &str, mode: &str) -> Option<String> {
 
 fn absolute_url(path: &str) -> Option<String> {
     let href = web_sys::window()?.location().href().ok()?;
-    web_sys::Url::new_with_base(path, &href).ok().map(|url| url.href())
+    web_sys::Url::new_with_base(path, &href)
+        .ok()
+        .map(|url| url.href())
 }
 
 async fn cached_blob(url: &str) -> Option<String> {
     let window = web_sys::window()?;
     let caches = window.caches().ok()?;
-    let cache = JsFuture::from(caches.open("drive-study-audio-v1")).await.ok()?;
+    let cache = JsFuture::from(caches.open("drive-study-audio-v1"))
+        .await
+        .ok()?;
     let cache: web_sys::Cache = cache.dyn_into().ok()?;
     let hit = JsFuture::from(cache.match_with_str(url)).await.ok()?;
     if hit.is_undefined() || hit.is_null() {
@@ -1018,16 +1256,27 @@ fn utterance_budget_ms(text: &str, rate: f64) -> f64 {
     (words / (2.2 * rate.max(0.8)) * 1000.0 + 1_200.0).clamp(1_500.0, 90_000.0)
 }
 
-async fn play_url(url: &str, rate: f64, control: &Control, generation: u32, budget_ms: f64) -> bool {
-    let Ok(audio) = web_sys::HtmlAudioElement::new_with_src(url) else { return false };
+async fn play_url(
+    url: &str,
+    rate: f64,
+    control: &Control,
+    generation: u32,
+    budget_ms: f64,
+) -> bool {
+    let Ok(audio) = web_sys::HtmlAudioElement::new_with_src(url) else {
+        return false;
+    };
     audio.set_playback_rate(rate);
     CURRENT.with(|slot| *slot.borrow_mut() = Some(audio.clone()));
-    let Ok(promise) = audio.play() else { return false };
+    let Ok(promise) = audio.play() else {
+        return false;
+    };
     let started = js_sys::Date::now();
     let play = JsFuture::from(promise);
     let timeout = TimeoutFuture::new(2_500);
     futures::pin_mut!(play, timeout);
-    if let futures::future::Either::Left((Ok(_), _)) = futures::future::select(play, timeout).await {
+    if let futures::future::Either::Left((Ok(_), _)) = futures::future::select(play, timeout).await
+    {
     } else {
         let _ = audio.pause();
         return false;
@@ -1062,17 +1311,28 @@ async fn play_url(url: &str, rate: f64, control: &Control, generation: u32, budg
     audio.current_time() > 0.05 || audio.ended()
 }
 
-async fn speak_phone(text: &str, rate: f64, voice_uri: Option<&str>, control: &Control, generation: u32) {
+async fn speak_phone(
+    text: &str,
+    rate: f64,
+    voice_uri: Option<&str>,
+    control: &Control,
+    generation: u32,
+) {
     let Some(synth) = synthesis() else { return };
     if synth.get_voices().length() == 0 {
         return;
     }
-    let Ok(utterance) = web_sys::SpeechSynthesisUtterance::new_with_text(text) else { return };
+    let Ok(utterance) = web_sys::SpeechSynthesisUtterance::new_with_text(text) else {
+        return;
+    };
     utterance.set_rate(rate as f32);
     if let Some(uri) = voice_uri {
         let voices = synth.get_voices();
         for index in 0..voices.length() {
-            if let Ok(voice) = voices.get(index).dyn_into::<web_sys::SpeechSynthesisVoice>() {
+            if let Ok(voice) = voices
+                .get(index)
+                .dyn_into::<web_sys::SpeechSynthesisVoice>()
+            {
                 if voice.voice_uri() == uri {
                     utterance.set_voice(Some(&voice));
                 }
@@ -1081,10 +1341,13 @@ async fn speak_phone(text: &str, rate: f64, voice_uri: Option<&str>, control: &C
     }
     let done = Arc::new(AtomicBool::new(false));
     let flag = done.clone();
-    let on_end = Closure::wrap(Box::new(move || flag.store(true, Ordering::Relaxed)) as Box<dyn FnMut()>);
+    let on_end =
+        Closure::wrap(Box::new(move || flag.store(true, Ordering::Relaxed)) as Box<dyn FnMut()>);
     utterance.set_onend(Some(on_end.as_ref().unchecked_ref()));
     let flag_error = done.clone();
-    let on_error = Closure::wrap(Box::new(move || flag_error.store(true, Ordering::Relaxed)) as Box<dyn FnMut()>);
+    let on_error = Closure::wrap(
+        Box::new(move || flag_error.store(true, Ordering::Relaxed)) as Box<dyn FnMut()>
+    );
     utterance.set_onerror(Some(on_error.as_ref().unchecked_ref()));
     synth.cancel();
     synth.speak(&utterance);
@@ -1110,7 +1373,9 @@ thread_local! {
 fn stop_listen() {
     REC.with(|slot| {
         if let Some(rec) = slot.borrow_mut().take() {
-            if let Ok(abort) = js_sys::Reflect::get(&rec, &"abort".into()).and_then(|value| value.dyn_into::<js_sys::Function>()) {
+            if let Ok(abort) = js_sys::Reflect::get(&rec, &"abort".into())
+                .and_then(|value| value.dyn_into::<js_sys::Function>())
+            {
                 let _ = abort.call0(&rec);
             }
         }
@@ -1119,29 +1384,61 @@ fn stop_listen() {
 
 fn start_listen(question: &drive_study_core::Question, control: Control) {
     stop_listen();
-    let Some(window) = web_sys::window() else { return };
-    let ctor = ["webkitSpeechRecognition", "SpeechRecognition"].into_iter().find_map(|name| {
-        js_sys::Reflect::get(&window, &JsValue::from_str(name)).ok().filter(|value| value.is_function())
-    });
-    let Some(ctor) = ctor.and_then(|value| value.dyn_into::<js_sys::Function>().ok()) else { return };
-    let Ok(rec) = js_sys::Reflect::construct(&ctor, &js_sys::Array::new()) else { return };
+    let Some(window) = web_sys::window() else {
+        return;
+    };
+    let ctor = ["webkitSpeechRecognition", "SpeechRecognition"]
+        .into_iter()
+        .find_map(|name| {
+            js_sys::Reflect::get(&window, &JsValue::from_str(name))
+                .ok()
+                .filter(|value| value.is_function())
+        });
+    let Some(ctor) = ctor.and_then(|value| value.dyn_into::<js_sys::Function>().ok()) else {
+        return;
+    };
+    let Ok(rec) = js_sys::Reflect::construct(&ctor, &js_sys::Array::new()) else {
+        return;
+    };
     let _ = js_sys::Reflect::set(&rec, &"lang".into(), &"en-US".into());
     let _ = js_sys::Reflect::set(&rec, &"interimResults".into(), &JsValue::FALSE);
     let _ = js_sys::Reflect::set(&rec, &"maxAlternatives".into(), &JsValue::from(5));
     let options = ParseOptions {
-        choice_keys: question.choices.iter().map(|choice| choice.key.clone()).collect(),
+        choice_keys: question
+            .choices
+            .iter()
+            .map(|choice| choice.key.clone())
+            .collect(),
         allow_know: false,
-        true_key: question.choices.iter().find(|choice| choice.text.eq_ignore_ascii_case("true")).map(|choice| choice.key.clone()),
-        false_key: question.choices.iter().find(|choice| choice.text.eq_ignore_ascii_case("false")).map(|choice| choice.key.clone()),
+        true_key: question
+            .choices
+            .iter()
+            .find(|choice| choice.text.eq_ignore_ascii_case("true"))
+            .map(|choice| choice.key.clone()),
+        false_key: question
+            .choices
+            .iter()
+            .find(|choice| choice.text.eq_ignore_ascii_case("false"))
+            .map(|choice| choice.key.clone()),
     };
     let on_result = Closure::wrap(Box::new(move |event: JsValue| {
-        let Ok(results) = js_sys::Reflect::get(&event, &"results".into()) else { return };
+        let Ok(results) = js_sys::Reflect::get(&event, &"results".into()) else {
+            return;
+        };
         let results = js_sys::Array::from(&results);
-        if results.length() == 0 { return; }
+        if results.length() == 0 {
+            return;
+        }
         let alternatives = js_sys::Array::from(&results.get(results.length() - 1));
         for index in 0..alternatives.length() {
-            let Ok(transcript) = js_sys::Reflect::get(&alternatives.get(index), &"transcript".into()) else { continue };
-            let Some(transcript) = transcript.as_string() else { continue };
+            let Ok(transcript) =
+                js_sys::Reflect::get(&alternatives.get(index), &"transcript".into())
+            else {
+                continue;
+            };
+            let Some(transcript) = transcript.as_string() else {
+                continue;
+            };
             match parse_voice(&transcript, &options) {
                 VoiceCommand::Answer(key) => control.interrupt(Act::Answer(key)),
                 VoiceCommand::MoreTime => control.interrupt(Act::MoreTime),
@@ -1158,7 +1455,9 @@ fn start_listen(question: &drive_study_core::Question, control: Control) {
     }) as Box<dyn FnMut(JsValue)>);
     let _ = js_sys::Reflect::set(&rec, &"onresult".into(), on_result.as_ref());
     on_result.forget();
-    if let Ok(start) = js_sys::Reflect::get(&rec, &"start".into()).and_then(|value| value.dyn_into::<js_sys::Function>()) {
+    if let Ok(start) = js_sys::Reflect::get(&rec, &"start".into())
+        .and_then(|value| value.dyn_into::<js_sys::Function>())
+    {
         let _ = start.call0(&rec);
     }
     REC.with(|slot| *slot.borrow_mut() = Some(rec));
@@ -1166,128 +1465,21 @@ fn start_listen(question: &drive_study_core::Question, control: Control) {
 
 pub fn today_key() -> String {
     let date = js_sys::Date::new_0();
-    format!("{:04}-{:02}-{:02}", date.get_full_year() as i32, date.get_month() as i32 + 1, date.get_date() as i32)
+    format!(
+        "{:04}-{:02}-{:02}",
+        date.get_full_year() as i32,
+        date.get_month() as i32 + 1,
+        date.get_date() as i32
+    )
 }
 
-async fn open_db() -> Result<Rexie, String> {
-    Rexie::builder("drive-study")
-        .version(1)
-        .add_object_store(ObjectStore::new("settings"))
-        .add_object_store(ObjectStore::new("srs").key_path("id"))
-        .add_object_store(ObjectStore::new("attempts").auto_increment(true))
-        .add_object_store(ObjectStore::new("days"))
-        .build()
-        .await
-        .map_err(|err| format!("{err:?}"))
-}
-
-pub async fn load_state() -> (Settings, Vec<SrsCard>, Vec<AttemptRecord>, Vec<String>) {
-    let Ok(db) = open_db().await else { return (Settings::default(), Vec::new(), Vec::new(), Vec::new()) };
-    let Ok(tx) = db.transaction(&["settings", "srs", "attempts", "days"], TransactionMode::ReadOnly) else {
-        return (Settings::default(), Vec::new(), Vec::new(), Vec::new());
-    };
-    let settings = match tx.store("settings").ok().and_then(|store| Some(store)) {
-        Some(store) => match store.get(JsValue::from_str("app")).await.ok().flatten() {
-            Some(value) => serde_wasm_bindgen::from_value(value).unwrap_or_default(),
-            None => Settings::default(),
-        },
-        None => Settings::default(),
-    };
-    let cards = read_all(&tx, "srs").await;
-    let attempts = read_all(&tx, "attempts").await;
-    let days: Vec<DayRecord> = read_all(&tx, "days").await;
-    let _ = tx.done().await;
-    (settings, cards, attempts, days.into_iter().map(|day| day.date).collect())
-}
-
-async fn read_all<T: for<'de> Deserialize<'de>>(tx: &rexie::Transaction, store: &str) -> Vec<T> {
-    let Ok(store) = tx.store(store) else { return Vec::new() };
-    let Ok(values) = store.get_all(None, None).await else { return Vec::new() };
-    values.into_iter().filter_map(|value| serde_wasm_bindgen::from_value(value).ok()).collect()
-}
-
-pub async fn save_settings(settings: &Settings) -> Result<(), String> {
-    let db = open_db().await?;
-    let tx = db.transaction(&["settings"], TransactionMode::ReadWrite).map_err(|err| format!("{err:?}"))?;
-    let store = tx.store("settings").map_err(|err| format!("{err:?}"))?;
-    let value = serde_wasm_bindgen::to_value(settings).map_err(|err| err.to_string())?;
-    store.put(&value, Some(&JsValue::from_str("app"))).await.map_err(|err| format!("{err:?}"))?;
-    tx.done().await.map(|_| ()).map_err(|err| format!("{err:?}"))
-}
-
-async fn save_card(card: &SrsCard) -> Result<(), String> {
-    let db = open_db().await?;
-    let tx = db.transaction(&["srs"], TransactionMode::ReadWrite).map_err(|err| format!("{err:?}"))?;
-    let store = tx.store("srs").map_err(|err| format!("{err:?}"))?;
-    let value = serde_wasm_bindgen::to_value(card).map_err(|err| err.to_string())?;
-    store.put(&value, None).await.map_err(|err| format!("{err:?}"))?;
-    tx.done().await.map(|_| ()).map_err(|err| format!("{err:?}"))
-}
-
-async fn save_attempt(attempt: &AttemptRecord) -> Result<(), String> {
-    let db = open_db().await?;
-    let tx = db.transaction(&["attempts"], TransactionMode::ReadWrite).map_err(|err| format!("{err:?}"))?;
-    let store = tx.store("attempts").map_err(|err| format!("{err:?}"))?;
-    let value = serde_wasm_bindgen::to_value(attempt).map_err(|err| err.to_string())?;
-    store.add(&value, None).await.map_err(|err| format!("{err:?}"))?;
-    tx.done().await.map(|_| ()).map_err(|err| format!("{err:?}"))
-}
-
-async fn touch_day(date: &str) -> Result<(), String> {
-    let db = open_db().await?;
-    let tx = db.transaction(&["days"], TransactionMode::ReadWrite).map_err(|err| format!("{err:?}"))?;
-    let store = tx.store("days").map_err(|err| format!("{err:?}"))?;
-    let current: DayRecord = match store.get(JsValue::from_str(date)).await.ok().flatten() {
-        Some(value) => serde_wasm_bindgen::from_value(value).unwrap_or(DayRecord { date: date.into(), count: 0 }),
-        None => DayRecord { date: date.into(), count: 0 },
-    };
-    let next = DayRecord { date: date.into(), count: current.count + 1 };
-    let value = serde_wasm_bindgen::to_value(&next).map_err(|err| err.to_string())?;
-    store.put(&value, Some(&JsValue::from_str(date))).await.map_err(|err| format!("{err:?}"))?;
-    tx.done().await.map(|_| ()).map_err(|err| format!("{err:?}"))
-}
-
-pub async fn export_progress(settings: &Settings) -> ProgressFile {
-    let (_, cards, attempts, dates) = load_state().await;
-    ProgressFile {
-        version: 1,
-        exported_at: js_sys::Date::new_0().to_iso_string().into(),
-        settings: settings.clone(),
-        srs: cards,
-        attempts,
-        days: dates.into_iter().map(|date| DayRecord { date, count: 1 }).collect(),
-    }
-}
-
-pub async fn import_progress(file: &ProgressFile) -> Result<(), String> {
-    if file.version != 1 {
-        return Err("That file is not a Drive Study progress export.".into());
-    }
-    let db = open_db().await?;
-    let tx = db.transaction(&["settings", "srs", "attempts", "days"], TransactionMode::ReadWrite).map_err(|err| format!("{err:?}"))?;
-    let settings_store = tx.store("settings").map_err(|err| format!("{err:?}"))?;
-    let value = serde_wasm_bindgen::to_value(&file.settings).map_err(|err| err.to_string())?;
-    settings_store.put(&value, Some(&JsValue::from_str("app"))).await.map_err(|err| format!("{err:?}"))?;
-    let srs = tx.store("srs").map_err(|err| format!("{err:?}"))?;
-    srs.clear().await.map_err(|err| format!("{err:?}"))?;
-    for card in &file.srs {
-        let value = serde_wasm_bindgen::to_value(card).map_err(|err| err.to_string())?;
-        srs.put(&value, None).await.map_err(|err| format!("{err:?}"))?;
-    }
-    let attempts = tx.store("attempts").map_err(|err| format!("{err:?}"))?;
-    attempts.clear().await.map_err(|err| format!("{err:?}"))?;
-    for attempt in &file.attempts {
-        let value = serde_wasm_bindgen::to_value(attempt).map_err(|err| err.to_string())?;
-        attempts.put(&value, None).await.map_err(|err| format!("{err:?}"))?;
-    }
-    let days = tx.store("days").map_err(|err| format!("{err:?}"))?;
-    days.clear().await.map_err(|err| format!("{err:?}"))?;
-    for day in &file.days {
-        let value = serde_wasm_bindgen::to_value(day).map_err(|err| err.to_string())?;
-        days.put(&value, Some(&JsValue::from_str(&day.date))).await.map_err(|err| format!("{err:?}"))?;
-    }
-    tx.done().await.map(|_| ()).map_err(|err| format!("{err:?}"))
-}
+#[path = "progress.rs"]
+mod progress;
+pub use progress::{
+    bind_progress, boot_state, create_profile, export_progress, import_progress, import_replaces,
+    mark_progress_ready, parse_transfer, persist_note, persist_progress, switch_profile, sync_code,
+    LoadedState, ProfileHead,
+};
 
 #[derive(Clone, Default)]
 pub struct DownloadProgress {
@@ -1300,20 +1492,38 @@ pub struct DownloadProgress {
     pub finished: bool,
 }
 
-pub async fn download_urls(clips: &[(String, u64)], label: &str, progress: RwSignal<DownloadProgress>) -> Result<(), String> {
+pub async fn download_urls(
+    clips: &[(String, u64)],
+    label: &str,
+    progress: RwSignal<DownloadProgress>,
+) -> Result<(), String> {
     let window = web_sys::window().ok_or("no window")?;
-    let caches = window.caches().map_err(|_| "This browser cannot store audio offline.")?;
-    let cache = JsFuture::from(caches.open("drive-study-audio-v1")).await.map_err(|_| "Could not open the audio cache.")?;
+    let caches = window
+        .caches()
+        .map_err(|_| "This browser cannot store audio offline.")?;
+    let cache = JsFuture::from(caches.open("drive-study-audio-v1"))
+        .await
+        .map_err(|_| "Could not open the audio cache.")?;
     let cache: web_sys::Cache = cache.dyn_into().map_err(|_| "cache")?;
     let total = clips.len() as u32;
     let mut done = 0u32;
     let mut failed = 0u32;
     let mut bytes = 0u64;
     let mut message = String::new();
-    progress.set(DownloadProgress { label: label.into(), done, total, bytes, failed, message: "Starting.".into(), finished: false });
+    progress.set(DownloadProgress {
+        label: label.into(),
+        done,
+        total,
+        bytes,
+        failed,
+        message: "Starting.".into(),
+        finished: false,
+    });
     for (url, size) in clips {
         let hit = JsFuture::from(cache.match_with_str(url)).await.ok();
-        let already = hit.as_ref().is_some_and(|value| !value.is_undefined() && !value.is_null());
+        let already = hit
+            .as_ref()
+            .is_some_and(|value| !value.is_undefined() && !value.is_null());
         if already {
             bytes += *size;
         } else {
@@ -1332,7 +1542,11 @@ pub async fn download_urls(clips: &[(String, u64)], label: &str, progress: RwSig
             total,
             bytes,
             failed,
-            message: if message.is_empty() { format!("{done} of {total}") } else { message.clone() },
+            message: if message.is_empty() {
+                format!("{done} of {total}")
+            } else {
+                message.clone()
+            },
             finished: false,
         });
     }
@@ -1341,41 +1555,81 @@ pub async fn download_urls(clips: &[(String, u64)], label: &str, progress: RwSig
     } else {
         format!("{failed} clips failed. {message} Tap download again to resume.")
     };
-    progress.set(DownloadProgress { label: label.into(), done, total, bytes, failed, message: summary, finished: true });
-    if failed == 0 { Ok(()) } else { Err(format!("{failed} clips failed")) }
+    progress.set(DownloadProgress {
+        label: label.into(),
+        done,
+        total,
+        bytes,
+        failed,
+        message: summary,
+        finished: true,
+    });
+    if failed == 0 {
+        Ok(())
+    } else {
+        Err(format!("{failed} clips failed"))
+    }
 }
 
-async fn fetch_into_cache(window: &web_sys::Window, cache: &web_sys::Cache, url: &str) -> Result<u64, String> {
-    let response = JsFuture::from(window.fetch_with_str(url)).await.map_err(|_| format!("Could not fetch {url}"))?;
-    let response: web_sys::Response = response.dyn_into().map_err(|_| "Bad response".to_string())?;
+async fn fetch_into_cache(
+    window: &web_sys::Window,
+    cache: &web_sys::Cache,
+    url: &str,
+) -> Result<u64, String> {
+    let response = JsFuture::from(window.fetch_with_str(url))
+        .await
+        .map_err(|_| format!("Could not fetch {url}"))?;
+    let response: web_sys::Response = response
+        .dyn_into()
+        .map_err(|_| "Bad response".to_string())?;
     if !response.ok() {
         return Err(format!("Clip missing ({})", response.status()));
     }
-    let length = response.headers().get("content-length").ok().flatten().and_then(|value| value.parse().ok()).unwrap_or(0);
-    JsFuture::from(cache.put_with_str(url, &response)).await.map_err(|_| format!("Could not store {url}"))?;
+    let length = response
+        .headers()
+        .get("content-length")
+        .ok()
+        .flatten()
+        .and_then(|value| value.parse().ok())
+        .unwrap_or(0);
+    JsFuture::from(cache.put_with_str(url, &response))
+        .await
+        .map_err(|_| format!("Could not store {url}"))?;
     Ok(length)
 }
 
 pub async fn delete_urls(urls: &[String]) {
-    let Some(window) = web_sys::window() else { return };
+    let Some(window) = web_sys::window() else {
+        return;
+    };
     let Ok(caches) = window.caches() else { return };
-    let Ok(cache) = JsFuture::from(caches.open("drive-study-audio-v1")).await else { return };
-    let Ok(cache) = cache.dyn_into::<web_sys::Cache>() else { return };
+    let Ok(cache) = JsFuture::from(caches.open("drive-study-audio-v1")).await else {
+        return;
+    };
+    let Ok(cache) = cache.dyn_into::<web_sys::Cache>() else {
+        return;
+    };
     for url in urls {
         let _ = JsFuture::from(cache.delete_with_str(url)).await;
     }
 }
 
 pub fn register_service_worker() {
-    let Some(window) = web_sys::window() else { return };
+    let Some(window) = web_sys::window() else {
+        return;
+    };
     let container = window.navigator().service_worker();
-    let had_controller = js_sys::Reflect::get(&container, &JsValue::from_str("controller")).ok().is_some_and(|value| !value.is_null() && !value.is_undefined());
+    let had_controller = js_sys::Reflect::get(&container, &JsValue::from_str("controller"))
+        .ok()
+        .is_some_and(|value| !value.is_null() && !value.is_undefined());
     let _ = container.register("sw.js");
     if !had_controller {
         return;
     }
     let closure = Closure::wrap(Box::new(move || {
-        let Some(window) = web_sys::window() else { return };
+        let Some(window) = web_sys::window() else {
+            return;
+        };
         if let Some(storage) = window.session_storage().ok().flatten() {
             if storage.get_item("ds-sw-reload").ok().flatten().is_some() {
                 return;
@@ -1384,7 +1638,8 @@ pub fn register_service_worker() {
         }
         let _ = window.location().reload();
     }) as Box<dyn FnMut()>);
-    let _ = container.add_event_listener_with_callback("controllerchange", closure.as_ref().unchecked_ref());
+    let _ = container
+        .add_event_listener_with_callback("controllerchange", closure.as_ref().unchecked_ref());
     closure.forget();
 }
 

@@ -1,8 +1,8 @@
 import { expect, test } from "@playwright/test";
+import { signIn } from "./sign-in";
 
 test("answers a sample quiz question and still loads offline", async ({ page, context }) => {
-  await page.goto("./");
-  await expect(page.getByTestId("home-title")).toHaveText("Drive Study");
+  await signIn(page);
   await page.getByTestId("mode-quiz").click();
   await page.getByTestId("start-quiz").click();
   await expect(page.getByTestId("choice-A")).toBeVisible();

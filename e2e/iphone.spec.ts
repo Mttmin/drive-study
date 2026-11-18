@@ -1,4 +1,5 @@
 import { expect, test, type Page } from "@playwright/test";
+import { signIn } from "./sign-in";
 
 async function stubSpeech(page: Page) {
   await page.addInitScript(() => {
@@ -11,8 +12,7 @@ async function stubSpeech(page: Page) {
 }
 
 test("settings controls respond to taps on an iPhone", async ({ page }) => {
-  await page.goto("./");
-  await expect(page.getByTestId("home-title")).toHaveText("Drive Study");
+  await signIn(page);
   await page.getByTestId("open-settings").click();
 
   const controls = [
@@ -70,8 +70,7 @@ test("the answer window stays open and a correct answer can skip the long explan
       window.setTimeout(() => utterance.onend?.(new Event("end")), 30);
     };
   });
-  await page.goto("./");
-  await expect(page.getByTestId("home-title")).toHaveText("Drive Study");
+  await signIn(page);
   await page.getByTestId("open-settings").click();
   await page.getByTestId("voice-phone").click();
   await page.getByTestId("rate").fill("2");
@@ -109,8 +108,7 @@ test("the answer window stays open and a correct answer can skip the long explan
 
 test("answers survive a reload and a miss is due immediately", async ({ page }) => {
   await stubSpeech(page);
-  await page.goto("./");
-  await expect(page.getByTestId("home-title")).toHaveText("Drive Study");
+  await signIn(page);
   await page.getByTestId("mode-quiz").click();
   await page.getByTestId("start-quiz").click();
   await page.getByTestId("dont-know").click();
@@ -119,9 +117,9 @@ test("answers survive a reload and a miss is due immediately", async ({ page }) 
   await page.evaluate(() => {
     location.hash = "#/stats";
   });
-  await expect(page.getByTestId("stats-count")).toContainText(/[1-9]\d* answers saved/);
+  await expect(page.getByTestId("stats-count")).toContainText(/Quiz answers: [1-9]/);
   await page.reload();
-  await expect(page.getByTestId("stats-count")).toContainText(/[1-9]\d* answers saved/);
+  await expect(page.getByTestId("stats-count")).toContainText(/Quiz answers: [1-9]/);
   await page.evaluate(() => {
     location.hash = "#/mistakes";
   });
@@ -131,8 +129,7 @@ test("answers survive a reload and a miss is due immediately", async ({ page }) 
 test("listen-only reveals the answer when the window ends", async ({ page }) => {
   test.setTimeout(120000);
   await stubSpeech(page);
-  await page.goto("./");
-  await expect(page.getByTestId("home-title")).toHaveText("Drive Study");
+  await signIn(page);
   await page.getByTestId("open-settings").click();
   await page.getByTestId("answer-listen").click();
   await page.getByTestId("answer-seconds").fill("6");
@@ -148,18 +145,16 @@ test("listen-only reveals the answer when the window ends", async ({ page }) => 
 
 test("the first rapid-fire card accepts Don't know immediately", async ({ page }) => {
   await stubSpeech(page);
-  await page.goto("./");
-  await expect(page.getByTestId("home-title")).toHaveText("Drive Study");
+  await signIn(page);
   await page.getByTestId("mode-rapid").click();
   await page.getByRole("button", { name: "Start rapid fire" }).click();
   await page.getByTestId("dont-know").click();
-  await expect(page.getByTestId("explanation")).toBeVisible({ timeout: 3000 });
+  await expect(page.getByTestId("status")).toContainText("1 missed", { timeout: 3000 });
 });
 
 test("the selected voice is marked and a missing clip says why", async ({ page }) => {
   await stubSpeech(page);
-  await page.goto("./");
-  await expect(page.getByTestId("home-title")).toHaveText("Drive Study");
+  await signIn(page);
   await page.getByTestId("open-settings").click();
   await page.getByTestId("voice-streamed").click();
   await expect(page.getByTestId("voice-streamed")).toHaveAttribute("aria-pressed", "true");

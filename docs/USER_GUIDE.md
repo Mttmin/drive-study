@@ -47,7 +47,11 @@ If a clip is missing, the app does not stop. It tries a saved clip, then a strea
 
 ## Keep your progress
 
-Settings has Export and Import. The file is JSON. Import replaces the progress on that phone.
+The first time you open the app, it asks for a name. There is no password. Everything you finish is saved under that name on that screen.
+
+Safari and the Home Screen icon do not share progress. Settings, or the name at the top, can show a sync code. Copy it and paste it into the other one with Import. You can also download a JSON file and import that. Import replaces that profile on the phone you paste it into.
+
+The app asks the phone to keep this data. Safari can still erase it after about 7 days if you do not open the site. A sync code is the backup.
 
 ## Locked screen
 

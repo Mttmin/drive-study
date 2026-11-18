@@ -38,6 +38,8 @@ pub struct SessionPlan {
     pub note: Option<String>,
     pub estimated_seconds: u32,
     pub lesson_id: Option<String>,
+    /// Item to play first. Other modes leave this at 0.
+    pub start_index: usize,
 }
 
 const QUESTION_SEC: u32 = 50;
@@ -80,6 +82,7 @@ pub fn build_lesson(lesson: &Lesson, questions: &[Question], listen_only: bool) 
         note: lesson.sample.then(|| "Sample lesson".into()),
         estimated_seconds: estimate(&items),
         lesson_id: Some(lesson.id.clone()),
+        start_index: 0,
     }
 }
 
@@ -141,6 +144,7 @@ pub fn build_quiz(exam: PlanId, section_id: Option<&str>, count: usize, question
         pass_percent: None,
         note,
         lesson_id: None,
+        start_index: 0,
     }
 }
 
@@ -164,6 +168,7 @@ pub fn build_rapid(exam: PlanId, section_id: Option<&str>, count: usize, cards: 
         pass_percent: None,
         note: None,
         lesson_id: None,
+        start_index: 0,
     }
 }
 
@@ -213,6 +218,7 @@ pub fn build_mock(exam: ExamId, timed: bool, questions: &[Question], blueprint: 
         items: session_items,
         note,
         lesson_id: None,
+        start_index: 0,
     }
 }
 
@@ -243,6 +249,7 @@ pub fn build_mistakes(exam: PlanId, questions: &[Question], cards: &[Flashcard],
         pass_percent: None,
         note: None,
         lesson_id: None,
+        start_index: 0,
     }
 }
 
@@ -330,6 +337,7 @@ pub fn build_drive(
         pass_percent: None,
         note: Some("Due mistakes, weak sections, and a short lesson. SIE comes first when you study both.".into()),
         lesson_id: None,
+        start_index: 0,
     }
 }
 
